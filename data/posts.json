@@ -106,27 +106,6 @@
     "content_file": "data/posts/2026-08-17-dc-infraops-trends-report.md"
   },
   {
-    "id": "2026-08-16-daily-infraops-briefing",
-    "title": "[2026.08.16] 오늘의 글로벌 클라우드 & 데이터센터 인프라 핵심 동향 브리핑",
-    "date": "2026-08-16",
-    "time": "07:30",
-    "category": "Daily Briefing",
-    "labels": [
-      "AWS",
-      "엔비디아",
-      "오픈AI",
-      "데이터센터",
-      "AI인프라",
-      "전력망",
-      "SB에너지",
-      "액체냉각",
-      "클라우드"
-    ],
-    "summary": "Daily InfraOps Digest 글로벌 IT·클라우드 & 데이터센터 인프라 핵심 리포트 발행일: 2026년 8월 16일 | 작성: 테크 에디터스 랩 📌 오늘의 3대 핵심 관전 포인트 (Key Highlights) 엔비디아의 데이터센터 재무 리스크 관리: 오픈AI 데이터센터 구축 보증 규모를 기존 2,500억 달러에서 1,200억 달러로 대폭 현실화하",
-    "status": "published",
-    "content_file": "data/posts/2026-08-16-daily-infraops-briefing.md"
-  },
-  {
     "id": "2026-08-16-august-megafarm-deepdive",
     "title": "[테크 딥다이브] 기가와트(GW)급 AI 데이터센터의 물리적 임계점과 엔비디아의 인프라 금융 리스크 재편",
     "date": "2026-08-16",
