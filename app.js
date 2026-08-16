@@ -220,7 +220,123 @@ async function openArticleView(articleId) {
 
   const content = await loadArticleContent(post);
   bodyEl.innerHTML = content;
+
+  // 1. Calculate reading time & character count
+  try {
+    const plainText = content.replace(/<[^>]+>/g, ' ').replace(/\s+/g, ' ').trim();
+    const charCount = plainText.length;
+    const readMin = Math.max(1, Math.ceil(charCount / 500));
+    document.getElementById('reader-read-time').textContent = `⏱️ 약 ${readMin}분 (${charCount.toLocaleString()}자)`;
+  } catch (e) {
+    document.getElementById('reader-read-time').textContent = '⏱️ 3분 분량';
+  }
+
+  // 2. Build Table of Contents (TOC)
+  buildTableOfContents(bodyEl);
+
+  // 3. Render Previous / Next Navigation Footer
+  renderPostNavigation(post);
+
   window.scrollTo({ top: 0, behavior: 'smooth' });
+}
+
+function buildTableOfContents(bodyEl) {
+  const tocBox = document.getElementById('reader-toc-box');
+  const tocList = document.getElementById('reader-toc-list');
+  if (!tocBox || !tocList) return;
+
+  const headings = bodyEl.querySelectorAll('h2, h3');
+  if (headings.length < 2) {
+    tocBox.style.display = 'none';
+    tocList.innerHTML = '';
+    return;
+  }
+
+  tocList.innerHTML = Array.from(headings).map((h, idx) => {
+    const headingId = `heading-sec-${idx}`;
+    h.id = headingId;
+    const levelClass = h.tagName.toLowerCase() === 'h3' ? 'h3' : 'h2';
+    const text = h.textContent.trim();
+    return `<li class="dc-toc-item ${levelClass}"><a href="#${headingId}" onclick="event.preventDefault(); document.getElementById('${headingId}').scrollIntoView({behavior:'smooth'});">${text}</a></li>`;
+  }).join('');
+
+  tocBox.style.display = 'block';
+}
+
+function renderPostNavigation(currentPost) {
+  const navEl = document.getElementById('reader-post-nav');
+  if (!navEl) return;
+
+  const published = allPosts.filter(p => (p.status || 'published') === 'published');
+  const idx = published.findIndex(p => p.id === currentPost.id);
+  if (idx === -1) {
+    navEl.innerHTML = '';
+    return;
+  }
+
+  const prevPost = idx < published.length - 1 ? published[idx + 1] : null;
+  const nextPost = idx > 0 ? published[idx - 1] : null;
+
+  let html = '';
+  if (prevPost) {
+    html += `
+      <div class="dc-post-nav-item prev" onclick="window.location.hash='#article/${prevPost.id}'">
+        <span class="dc-post-nav-label">← 이전 아티클</span>
+        <span class="dc-post-nav-title">${prevPost.title}</span>
+      </div>`;
+  } else {
+    html += `<div></div>`;
+  }
+
+  if (nextPost) {
+    html += `
+      <div class="dc-post-nav-item next" onclick="window.location.hash='#article/${nextPost.id}'">
+        <span class="dc-post-nav-label">다음 아티클 →</span>
+        <span class="dc-post-nav-title">${nextPost.title}</span>
+      </div>`;
+  }
+
+  navEl.innerHTML = html;
+}
+
+// ─── Article Utility Actions ─────────────────────────────────────
+function copyArticleUrl() {
+  const url = window.location.href;
+  if (navigator.clipboard && window.isSecureContext) {
+    navigator.clipboard.writeText(url).then(() => {
+      showToast('🔗 아티클 링크가 클립보드에 복사되었습니다!');
+    });
+  } else {
+    const input = document.createElement('input');
+    input.value = url;
+    document.body.appendChild(input);
+    input.select();
+    document.execCommand('copy');
+    document.body.removeChild(input);
+    showToast('🔗 아티클 링크가 클립보드에 복사되었습니다!');
+  }
+}
+
+function shareLinkedIn() {
+  const url = encodeURIComponent(window.location.href);
+  const title = encodeURIComponent(document.getElementById('reader-title').textContent);
+  window.open(`https://www.linkedin.com/sharing/share-offsite/?url=${url}`, '_blank', 'width=650,height=650,scrollbars=yes');
+}
+
+function printArticle() {
+  window.print();
+}
+
+let toastTimer = null;
+function showToast(msg) {
+  const toast = document.getElementById('dc-toast');
+  if (!toast) return;
+  toast.textContent = msg;
+  toast.classList.add('show');
+  if (toastTimer) clearTimeout(toastTimer);
+  toastTimer = setTimeout(() => {
+    toast.classList.remove('show');
+  }, 2600);
 }
 
 function updateNavActiveState(activeId) {
