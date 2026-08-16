@@ -669,10 +669,20 @@ body {
   padding: 12px;
   border-bottom: 1px solid var(--border-subtle);
   color: var(--text-primary);
+  transition: background-color 0.12s ease;
 }
 
-.dc-directory-table tr:hover td {
+.dc-directory-table tr.dc-table-row {
+  cursor: pointer;
+  transition: background-color 0.12s ease;
+}
+
+.dc-directory-table tr.dc-table-row:hover td {
   background-color: var(--bg-elevated);
+}
+
+.dc-directory-table tr.dc-table-row:hover .dc-table-title {
+  color: var(--accent-orange);
 }
 
 .dc-table-open-btn {
@@ -684,6 +694,21 @@ body {
   border: none;
   border-radius: 4px;
   cursor: pointer;
+  transition: transform 0.1s ease;
+}
+
+.dc-directory-table tr.dc-table-row:hover .dc-table-open-btn {
+  transform: scale(1.05);
+}
+
+/* Search Highlight Mark */
+.dc-highlight {
+  background-color: rgba(255, 153, 0, 0.28);
+  color: inherit;
+  font-weight: 700;
+  padding: 0 2px;
+  border-radius: 3px;
+  box-shadow: 0 0 0 1px rgba(255, 153, 0, 0.35);
 }
 
 /* Article Reader View */
