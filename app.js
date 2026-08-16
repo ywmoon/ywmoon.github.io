@@ -284,6 +284,34 @@ function trackPageView(pagePath, pageTitle) {
   }
 }
 
+function updatePageMeta(title, description, url) {
+  const fullTitle = title ? `${title} | James Moon Tech Blog` : 'DataCenter InfraOps Trends & Notes | James Moon Tech Blog';
+  document.title = fullTitle;
+
+  const desc = description || '글로벌 하이퍼스케일 AI 데이터센터 전력망(SMR/BESS), 직류(DC) 배전, 고밀도 액체냉각, 그리고 클라우드 인프라 엔지니어링 데일리 트렌드 & 노트';
+  const pageUrl = url || window.location.href;
+
+  const metaDesc = document.querySelector('meta[name="description"]');
+  if (metaDesc) metaDesc.setAttribute('content', desc);
+
+  const ogTitle = document.querySelector('meta[property="og:title"]');
+  if (ogTitle) ogTitle.setAttribute('content', fullTitle);
+
+  const ogDesc = document.querySelector('meta[property="og:description"]');
+  if (ogDesc) ogDesc.setAttribute('content', desc);
+
+  const ogUrl = document.querySelector('meta[property="og:url"]');
+  if (ogUrl) ogUrl.setAttribute('content', pageUrl);
+}
+
+function highlightText(text, query) {
+  if (!text) return '';
+  if (!query) return text;
+  const escaped = query.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+  const regex = new RegExp(`(${escaped})`, 'gi');
+  return text.replace(regex, '<mark class="dc-highlight">$1</mark>');
+}
+
 function openHomeView() {
   currentView = 'home';
   document.getElementById('hero-section').style.display = 'block';
@@ -291,6 +319,7 @@ function openHomeView() {
   document.getElementById('table-section').style.display = 'none';
   document.getElementById('article-reader-section').style.display = 'none';
   updateNavActiveState('nav-home-btn');
+  updatePageMeta('Home', '글로벌 하이퍼스케일 AI 데이터센터, 전력망(SMR), 액체냉각, 클라우드 인프라 엔지니어링 데일리 트렌드 & 노트');
   applyFilters();
   trackPageView('/', 'DC InfraOps Intelligence | Home');
 }
@@ -303,6 +332,7 @@ function openTableView() {
   document.getElementById('table-section').style.display = 'block';
   document.getElementById('article-reader-section').style.display = 'none';
   updateNavActiveState('nav-table-btn');
+  updatePageMeta('All Articles Directory', 'DataCenter InfraOps Trends & Notes 전체 발행 아티클 데이터베이스 디렉토리');
   renderDirectoryTable();
   trackPageView('#table', 'DC InfraOps Intelligence | Directory Table');
 }
@@ -325,11 +355,14 @@ async function openArticleView(articleId) {
   const reader = document.getElementById('article-reader-section');
   reader.style.display = 'block';
 
+  // Dynamic SEO & OpenGraph Meta Update
+  updatePageMeta(post.title, post.summary || post.title, window.location.href);
+
   const timeBadge = post.time ? ` ${post.time} KST` : '';
   document.getElementById('reader-meta-date').textContent = `${post.date || ''}${timeBadge}`;
   document.getElementById('reader-title').textContent = post.title || '';
   document.getElementById('reader-badges').innerHTML = `
-    <span class="dc-card-cat">${post.category || '인프라'}</span>
+    <span class="dc-card-cat">${post.category || 'Daily Briefing'}</span>
     ${(post.labels || []).map(l => `<span class="dc-tag-pill">#${l}</span>`).join(' ')}`;
 
   // Show loading spinner while fetching .md content
@@ -667,18 +700,22 @@ function renderPostCards() {
     container.innerHTML = `<div style="grid-column:1/-1;padding:60px 20px;text-align:center;color:var(--text-muted);">🔍 조건에 일치하는 아티클이 없습니다.</div>`;
     return;
   }
-  container.innerHTML = visible.map(post => `
+  container.innerHTML = visible.map(post => {
+    const displayTitle = highlightText(post.title, searchQuery);
+    const displaySummary = highlightText(post.summary || '', searchQuery);
+    return `
     <div class="dc-post-card" onclick="window.location.hash='#article/${post.id}'">
       <div class="dc-card-top">
-        <span class="dc-card-cat">${post.category || '인프라'}</span>
+        <span class="dc-card-cat">${post.category || 'Daily Briefing'}</span>
         <span class="dc-card-date">${post.date}${post.time ? ' ' + post.time : ''}</span>
       </div>
-      <h3 class="dc-card-title">${post.title}</h3>
-      <p class="dc-card-summary">${post.summary || ''}</p>
+      <h3 class="dc-card-title">${displayTitle}</h3>
+      <p class="dc-card-summary">${displaySummary}</p>
       <div class="dc-card-tags">
-        ${(post.labels || []).slice(0,4).map(l=>`<span class="dc-tag-pill">#${l}</span>`).join('')}
+        ${(post.labels || []).slice(0,4).map(l=>`<span class="dc-tag-pill">#${highlightText(l, searchQuery)}</span>`).join('')}
       </div>
-    </div>`).join('');
+    </div>`;
+  }).join('');
 }
 
 function renderDirectoryTable() {
@@ -691,18 +728,21 @@ function renderDirectoryTable() {
     tbody.innerHTML = `<tr><td colspan="6" style="text-align:center;padding:30px;color:var(--text-muted);">데이터가 없습니다.</td></tr>`;
     return;
   }
-  tbody.innerHTML = visible.map((post, idx) => `
-    <tr>
+  tbody.innerHTML = visible.map((post, idx) => {
+    const displayTitle = highlightText(post.title, searchQuery);
+    return `
+    <tr class="dc-table-row" onclick="window.location.hash='#article/${post.id}'" title="아티클 열기: ${post.title.replace(/"/g, '&quot;')}">
       <td style="font-weight:700;color:var(--text-muted);">${visible.length - idx}</td>
       <td style="font-family:var(--font-mono);font-size:12px;white-space:nowrap;">
         <div>${post.date}</div>
         ${post.time ? `<div style="color:var(--text-muted);font-size:11px;">${post.time}</div>` : ''}
       </td>
       <td><span class="dc-card-cat">${post.category}</span></td>
-      <td><strong style="cursor:pointer;" onclick="window.location.hash='#article/${post.id}'">${post.title}</strong></td>
-      <td><div style="display:flex;flex-wrap:wrap;gap:4px;">${(post.labels||[]).slice(0,3).map(l=>`<span class="dc-tag-pill">#${l}</span>`).join('')}</div></td>
-      <td><button class="dc-table-open-btn" onclick="window.location.hash='#article/${post.id}'">보기</button></td>
-    </tr>`).join('');
+      <td><strong class="dc-table-title">${displayTitle}</strong></td>
+      <td><div style="display:flex;flex-wrap:wrap;gap:4px;">${(post.labels||[]).slice(0,3).map(l=>`<span class="dc-tag-pill">#${highlightText(l, searchQuery)}</span>`).join('')}</div></td>
+      <td><button class="dc-table-open-btn" onclick="event.stopPropagation(); window.location.hash='#article/${post.id}'">보기</button></td>
+    </tr>`;
+  }).join('');
 }
 
 // ─── Profile Modal ────────────────────────────────────────────────
