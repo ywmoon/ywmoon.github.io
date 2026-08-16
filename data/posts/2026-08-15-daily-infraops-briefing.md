@@ -2,7 +2,7 @@
 id: 2026-08-15-daily-infraops-briefing
 title: "[2026.08.15] 오늘의 글로벌 클라우드 & 데이터센터 인프라 핵심 동향 브리핑"
 date: 2026-08-15
-category: 데일리 브리핑
+category: Daily Briefing
 status: published
 summary: "📌 오늘의 3대 핵심 관전 포인트 (Key Highlights) 엔비디아, 오픈AI 메가 데이터센터 금융 보증 $2,500억 → $1,200억 축소: 천문학적 자본 지출(CapEx) 리스크 분산 및 하드웨어 공급선 다변화에 따른 인프라 금융 모델 재조정 본격화. 컴퓨팅 병목의 축 이동 (Chip to Power): 엔비디아의 $5,000억 인프라 펀딩과 I"
 labels:
