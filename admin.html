@@ -1276,6 +1276,10 @@
 <div class="modal-backdrop" id="edit-modal">
   <div class="modal-card">
     <div class="modal-title">✏️ 메타데이터 수정</div>
+    <div id="edit-audit-info" style="display: flex; flex-wrap: wrap; gap: 12px; font-size: 11.5px; font-family: var(--mono); background: var(--surface2); border: 1px solid var(--border); border-radius: 6px; padding: 8px 12px; margin-bottom: 16px; color: var(--text-muted);">
+      <div>📅 최초 등록: <span id="edit-audit-created" style="color: var(--text); font-weight: 700;">-</span></div>
+      <div>🔄 최종 커밋: <span id="edit-audit-updated" style="color: var(--blue); font-weight: 700;">-</span></div>
+    </div>
     <div class="modal-field">
       <label>카테고리</label>
       <select id="edit-category">
@@ -1898,7 +1902,10 @@ function renderTable() {
         <input type="checkbox" class="row-checkbox" value="${p.id}" ${isChecked ? 'checked' : ''} onchange="toggleRowCheck('${p.id}', this.checked)" />
       </td>
       <td style="font-weight:700;color:var(--text-muted);font-family:var(--mono)">${posts.length - i}</td>
-      <td style="font-family:var(--mono);font-size:12px;color:var(--text-muted)">${p.date}</td>
+      <td style="font-family:var(--mono);font-size:12px;color:var(--text-muted);line-height:1.4;">
+        <div style="font-weight:700;color:var(--text);" title="최초 등록 일자">📅 ${p.date}</div>
+        ${p.updated ? `<div style="font-size:11px;color:var(--blue);margin-top:3px;" title="최종 커밋/업데이트 시각: ${p.updated}">🔄 ${p.updated.replace(/^\d{4}-/, '')}</div>` : `<div style="font-size:10.5px;color:var(--text-muted);margin-top:2px;">최초본</div>`}
+      </td>
       <td>${getCategoryBadgeHtml(p.category)}</td>
       <td>
         <div style="font-weight:700;line-height:1.4;margin-bottom:3px;">
@@ -2461,7 +2468,10 @@ function handleEditorInput(recordHistory = true) {
   const plainText = body.replace(/<[^>]+>/g, ' ').replace(/\s+/g, ' ').trim();
   const charCount = plainText.length;
   const readMins = Math.max(1, Math.ceil(charCount / 500));
-  document.getElementById('editor-stats-badge').textContent = `⏱️ ${charCount.toLocaleString()}자 (약 ${readMins}분 소요)`;
+  const post = allPosts.find(p => p.id === editorPostId);
+  const dateInfo = post ? `📅 등록: ${post.date} ${post.time || ''}` : '';
+  const updatedInfo = (post && post.updated) ? ` | 🔄 최종 커밋: ${post.updated}` : ' | 🔄 최초 등록본';
+  document.getElementById('editor-stats-badge').textContent = `⏱️ ${charCount.toLocaleString()}자 (약 ${readMins}분) | ${dateInfo}${updatedInfo}`;
 }
 
 function insertEditorText(prefix, suffix) {
@@ -2564,8 +2574,19 @@ async function saveMarkdownContent() {
   btn.innerHTML = '<span class="loading-spinner"></span> 저장 중...';
   btn.disabled = true;
 
-  const content = cmEditor ? cmEditor.getValue() : document.getElementById('editor-content-textarea').value;
+  let content = cmEditor ? cmEditor.getValue() : document.getElementById('editor-content-textarea').value;
   const mdPath = `data/posts/${editorPostId}.md`;
+
+  const now = new Date();
+  const nowStr = `${now.getFullYear()}-${String(now.getMonth() + 1).padStart(2, '0')}-${String(now.getDate()).padStart(2, '0')} ${String(now.getHours()).padStart(2, '0')}:${String(now.getMinutes()).padStart(2, '0')}`;
+
+  // Stamp updated timestamp in Frontmatter
+  if (/^updated:\s*.*$/m.test(content)) {
+    content = content.replace(/^updated:\s*.*$/m, `updated: "${nowStr}"`);
+  } else if (/^---\n([\s\S]*?)\n---/m.test(content)) {
+    content = content.replace(/^---\n([\s\S]*?)\n---/m, (m, g1) => `---\n${g1.trim()}\nupdated: "${nowStr}"\n---`);
+  }
+  if (cmEditor) cmEditor.setValue(content);
 
   try {
     // 1. Commit new content to GitHub
@@ -2581,11 +2602,12 @@ async function saveMarkdownContent() {
       if (meta.category) post.category = CAT_NORMALIZE[meta.category] || meta.category;
       if (Array.isArray(meta.labels)) post.labels = meta.labels;
       if (meta.status) post.status = meta.status;
+      post.updated = nowStr;
       await savePostsJson(`Update index for: ${editorPostId}`);
     }
 
     updateStats();
-    renderTable();
+    renderCurrentView();
     showToast('✅ 본문 마크다운이 GitHub에 저장 및 배포되었습니다!', 'success');
   } catch (err) {
     showToast('❌ 본문 저장 실패: ' + err.message, 'error');
@@ -2882,6 +2904,9 @@ function openEditModal(id) {
     labels: [...(post.labels || [])]
   };
 
+  document.getElementById('edit-audit-created').textContent = `${post.date} (${post.time || '07:30'})`;
+  document.getElementById('edit-audit-updated').textContent = post.updated || '최초 발행본 (수정 이력 없음)';
+
   document.getElementById('edit-category').value = normCat;
   document.getElementById('edit-title').value = post.title || '';
   document.getElementById('edit-summary').value = post.summary || '';
@@ -2905,10 +2930,14 @@ async function saveEdit() {
   const post = allPosts.find(p => p.id === editingPostId);
   if (!post) return;
 
+  const now = new Date();
+  const nowStr = `${now.getFullYear()}-${String(now.getMonth() + 1).padStart(2, '0')}-${String(now.getDate()).padStart(2, '0')} ${String(now.getHours()).padStart(2, '0')}:${String(now.getMinutes()).padStart(2, '0')}`;
+
   post.category = document.getElementById('edit-category').value;
   post.title    = document.getElementById('edit-title').value.trim();
   post.summary  = document.getElementById('edit-summary').value.trim();
   post.labels   = document.getElementById('edit-labels').value.split(',').map(s => s.trim()).filter(Boolean);
+  post.updated  = nowStr;
 
   try {
     await savePostsJson(`Edit article metadata: ${editingPostId}`);
@@ -2919,14 +2948,14 @@ async function saveEdit() {
       const raw = decodeURIComponent(escape(atob(mdFile.content.replace(/\n/g, ''))));
       const labelsYaml = post.labels.map(l => `  - ${l}`).join('\n');
       const timeLine = post.time ? `time: "${post.time}"\n` : '';
-      const newFrontmatter = `---\nid: ${post.id}\ntitle: "${post.title.replace(/"/g,'\\"')}"\ndate: ${post.date}\n${timeLine}category: ${post.category}\nstatus: ${post.status || 'published'}\nsummary: "${post.summary.replace(/"/g,'\\"')}"\nlabels:\n${labelsYaml}\n---`;
+      const newFrontmatter = `---\nid: ${post.id}\ntitle: "${post.title.replace(/"/g,'\\"')}"\ndate: ${post.date}\n${timeLine}updated: "${nowStr}"\ncategory: ${post.category}\nstatus: ${post.status || 'published'}\nsummary: "${post.summary.replace(/"/g,'\\"')}"\nlabels:\n${labelsYaml}\n---`;
       const newContent = raw.replace(/^---[\s\S]*?---/, newFrontmatter);
       await ghPut(mdPath, newContent, `Edit frontmatter: ${editingPostId}`, mdFile.sha);
     }
 
     closeModal('edit-modal');
     updateStats();
-    renderTable();
+    renderCurrentView();
     showToast('✅ 수정사항이 GitHub에 반영됐습니다!', 'success');
   } catch(e) {
     showToast('❌ 저장 실패: ' + e.message, 'error');
