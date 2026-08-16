@@ -237,6 +237,11 @@ async function openArticleView(articleId) {
   // 3. Render Previous / Next Navigation Footer
   renderPostNavigation(post);
 
+  // 4. Request AdSense Display Unit Fill
+  try {
+    (adsbygoogle = window.adsbygoogle || []).push({});
+  } catch (e) {}
+
   window.scrollTo({ top: 0, behavior: 'smooth' });
 }
 
