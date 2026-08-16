@@ -773,199 +773,22 @@
     .CodeMirror-selected {
       background: rgba(56, 189, 248, 0.25) !important;
     }
-    .editor-pane-right-wrap {
-      display: flex;
-      flex-direction: column;
-      background: #E2E8F0;
-      min-width: 0;
-      min-height: 0;
-      overflow: hidden;
-    }
-    .preview-device-bar {
-      padding: 6px 14px;
-      background: var(--surface);
-      border-bottom: 1px solid var(--border);
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      flex-shrink: 0;
-    }
-    .preview-device-tabs {
-      display: flex;
-      gap: 4px;
-    }
-    .device-btn {
-      height: 24px;
-      padding: 0 10px;
-      font-size: 11.5px;
-      font-weight: 700;
-      border: 1px solid var(--border);
-      border-radius: 4px;
-      background: var(--surface2);
-      color: var(--text-muted);
-      cursor: pointer;
-      transition: all 0.15s;
-    }
-    .device-btn.active {
-      background: var(--blue);
-      color: #000;
-      border-color: var(--blue);
-    }
-    .preview-scroll-area {
-      flex: 1;
+    .editor-pane-right {
+      padding: 28px 32px;
       overflow-y: auto;
       overflow-x: auto;
-      padding: 16px;
-      display: flex;
-      justify-content: center;
-      align-items: flex-start;
-      width: 100%;
-      box-sizing: border-box;
-    }
-    .editor-pane-right {
-      width: 100%;
-      max-width: 100%;
-      min-height: 100%;
-      padding: 24px;
       background: #FFFFFF;
       color: #1E293B;
       font-family: var(--font);
       line-height: 1.8;
-      box-shadow: 0 4px 20px rgba(0,0,0,0.08);
-      border-radius: 8px;
-      transition: max-width 0.25s ease, padding 0.25s ease;
+      min-width: 0;
+      min-height: 0;
       box-sizing: border-box;
-      overflow-x: auto;
     }
     .editor-pane-right table {
-      max-width: 100% !important;
-      box-sizing: border-box !important;
+      max-width: 100%;
+      box-sizing: border-box;
     }
-
-    /* Tablet Simulation (768px) */
-    .editor-pane-right.mode-tablet {
-      width: 768px !important;
-      max-width: 768px !important;
-      padding: 20px !important;
-      border: 2px solid #64748B !important;
-      border-radius: 12px !important;
-      box-shadow: 0 10px 30px rgba(0,0,0,0.2) !important;
-      flex-shrink: 0 !important;
-    }
-    .editor-pane-right.mode-tablet * {
-      box-sizing: border-box !important;
-    }
-    .editor-pane-right.mode-tablet table {
-      width: 100% !important;
-      max-width: 100% !important;
-    }
-    .editor-pane-right.mode-tablet .responsive-outer {
-      width: 100% !important;
-      max-width: 100% !important;
-    }
-    .editor-pane-right.mode-tablet .responsive-col {
-      width: 48.5% !important;
-      max-width: 48.5% !important;
-      box-sizing: border-box !important;
-    }
-    .editor-pane-right.mode-tablet .responsive-spacer {
-      width: 3% !important;
-    }
-    .editor-pane-right.mode-tablet img {
-      max-width: 100% !important;
-      height: auto !important;
-    }
-    .editor-pane-right.mode-tablet div, 
-    .editor-pane-right.mode-tablet p, 
-    .editor-pane-right.mode-tablet span {
-      word-break: break-word !important;
-      overflow-wrap: break-word !important;
-    }
-
-    /* Mobile Simulation (375px Smartphone) */
-    .editor-pane-right.mode-mobile {
-      width: 375px !important;
-      max-width: 375px !important;
-      padding: 16px 12px !important;
-      border: 4px solid #1E293B !important;
-      border-radius: 28px !important;
-      box-shadow: 0 16px 40px rgba(0,0,0,0.35) !important;
-      flex-shrink: 0 !important;
-      overflow-x: hidden !important;
-      font-size: 13.5px !important;
-    }
-    .editor-pane-right.mode-mobile * {
-      box-sizing: border-box !important;
-      max-width: 100% !important;
-    }
-    .editor-pane-right.mode-mobile table,
-    .editor-pane-right.mode-mobile tbody,
-    .editor-pane-right.mode-mobile thead,
-    .editor-pane-right.mode-mobile tfoot,
-    .editor-pane-right.mode-mobile tr {
-      display: block !important;
-      width: 100% !important;
-      max-width: 100% !important;
-      min-width: 0 !important;
-    }
-    .editor-pane-right.mode-mobile td,
-    .editor-pane-right.mode-mobile th {
-      display: block !important;
-      width: 100% !important;
-      max-width: 100% !important;
-      min-width: 0 !important;
-      padding-left: 0 !important;
-      padding-right: 0 !important;
-      text-align: left !important;
-    }
-    .editor-pane-right.mode-mobile .responsive-outer {
-      width: 100% !important;
-      max-width: 100% !important;
-      border: none !important;
-      padding: 0 !important;
-    }
-    .editor-pane-right.mode-mobile .responsive-col {
-      display: block !important;
-      width: 100% !important;
-      max-width: 100% !important;
-      margin-bottom: 20px !important;
-      padding: 0 !important;
-    }
-    .editor-pane-right.mode-mobile .responsive-spacer {
-      display: none !important;
-      width: 0 !important;
-      height: 0 !important;
-      padding: 0 !important;
-      margin: 0 !important;
-    }
-    .editor-pane-right.mode-mobile img {
-      max-width: 100% !important;
-      height: auto !important;
-    }
-    .editor-pane-right.mode-mobile div, 
-    .editor-pane-right.mode-mobile p, 
-    .editor-pane-right.mode-mobile span, 
-    .editor-pane-right.mode-mobile h1, 
-    .editor-pane-right.mode-mobile h2, 
-    .editor-pane-right.mode-mobile h3,
-    .editor-pane-right.mode-mobile a {
-      word-break: break-word !important;
-      overflow-wrap: break-word !important;
-      white-space: normal !important;
-    }
-    .editor-pane-right.mode-mobile [style*="padding: 26px 36px"],
-    .editor-pane-right.mode-mobile [style*="padding: 28px 30px"],
-    .editor-pane-right.mode-mobile [style*="padding: 25px 0"] {
-      padding: 12px 10px !important;
-    }
-    .editor-pane-right.mode-mobile [style*="font-size: 24px"] {
-      font-size: 17px !important;
-      line-height: 1.3 !important;
-    }
-    .editor-pane-right.mode-mobile [style*="font-size: 14px"] {
-      font-size: 12px !important;
-    }
-
     .editor-pane-right h1, .editor-pane-right h2, .editor-pane-right h3 { color: #0F172A; margin: 20px 0 10px; }
     .editor-pane-right p { margin-bottom: 14px; }
     .editor-pane-right pre { background: #0F172A; color: #F8FAFC; padding: 14px; border-radius: 8px; overflow-x: auto; margin-bottom: 14px; font-family: var(--mono); font-size: 12.5px; }
@@ -1318,20 +1141,8 @@
         </div>
         <textarea id="editor-content-textarea" class="editor-textarea" oninput="handleEditorInput(true)" placeholder="YAML Frontmatter 및 Markdown 본문을 작성하세요..."></textarea>
       </div>
-      <div class="editor-pane-right-wrap">
-        <div class="preview-device-bar">
-          <span style="font-size: 11.5px; font-weight: 700; color: #475569;">실시간 미리보기</span>
-          <div class="preview-device-tabs">
-            <button class="device-btn active" id="btn-device-desktop" onclick="setPreviewDevice('desktop')">🖥️ 데스크톱</button>
-            <button class="device-btn" id="btn-device-tablet" onclick="setPreviewDevice('tablet')">📟 태블릿</button>
-            <button class="device-btn" id="btn-device-mobile" onclick="setPreviewDevice('mobile')">📱 모바일 (375px)</button>
-          </div>
-        </div>
-        <div class="preview-scroll-area">
-          <div class="editor-pane-right" id="editor-preview-pane">
-            <!-- Live Markdown Rendering -->
-          </div>
-        </div>
+      <div class="editor-pane-right" id="editor-preview-pane">
+        <!-- Live Markdown Rendering -->
       </div>
     </div>
   </div>
@@ -2359,27 +2170,6 @@ async function openMarkdownEditor(id) {
     handleEditorInput(false);
   } catch (e) {
     showToast('❌ 마크다운 파일 로드 실패: ' + e.message, 'error');
-  }
-}
-
-function setPreviewDevice(mode) {
-  const pane = document.getElementById('editor-preview-pane');
-  if (!pane) return;
-
-  pane.classList.remove('mode-desktop', 'mode-tablet', 'mode-mobile');
-  document.querySelectorAll('.device-btn').forEach(b => b.classList.remove('active'));
-
-  if (mode === 'tablet') {
-    pane.classList.add('mode-tablet');
-    document.getElementById('btn-device-tablet')?.classList.add('active');
-    showToast('📟 태블릿 (768px) 뷰어로 전환했습니다.', '');
-  } else if (mode === 'mobile') {
-    pane.classList.add('mode-mobile');
-    document.getElementById('btn-device-mobile')?.classList.add('active');
-    showToast('📱 모바일 (375px) 스마트폰 뷰어로 전환했습니다.', '');
-  } else {
-    document.getElementById('btn-device-desktop')?.classList.add('active');
-    showToast('🖥️ 데스크톱 (100%) 와이드 뷰어로 전환했습니다.', '');
   }
 }
 
