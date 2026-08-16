@@ -947,7 +947,21 @@ async function saveEdit() {
   post.labels  = document.getElementById('edit-labels').value.split(',').map(s => s.trim()).filter(Boolean);
 
   try {
-    await savePostsJson(`Edit article: ${editingPostId}`);
+    // 1. Update lightweight index (posts.json)
+    await savePostsJson(`Edit article metadata: ${editingPostId}`);
+
+    // 2. Update YAML frontmatter in the .md file
+    if (post.content_file) {
+      const mdPath = post.content_file;
+      const mdFile = await ghGet(mdPath);
+      const raw = decodeURIComponent(escape(atob(mdFile.content.replace(/\n/g, ''))));
+      // Replace frontmatter block only
+      const labelsYaml = post.labels.map(l => `  - ${l}`).join('\n');
+      const newFrontmatter = `---\nid: ${post.id}\ntitle: "${post.title.replace(/"/g,'\\"')}"\ndate: ${post.date}\ncategory: ${post.category}\nstatus: ${post.status || 'published'}\nsummary: "${post.summary.replace(/"/g,'\\"')}"\nlabels:\n${labelsYaml}\n---`;
+      const newContent = raw.replace(/^---[\s\S]*?---/, newFrontmatter);
+      await ghPut(mdPath, newContent, `Edit frontmatter: ${editingPostId}`, mdFile.sha);
+    }
+
     closeModal('edit-modal');
     updateStats();
     renderTable();
@@ -999,12 +1013,12 @@ async function confirmDelete() {
     allPosts = allPosts.filter(p => p.id !== deletingPostId);
     await savePostsJson(`Delete article: ${deletingPostId}`);
 
-    // 2. Delete content file if it exists
-    const contentPath = `data/posts/${deletingPostId}.json`;
+    // 2. Delete .md content file if it exists
+    const mdPath = `data/posts/${deletingPostId}.md`;
     try {
-      const contentFile = await ghGet(contentPath);
-      await ghDelete(contentPath, `Delete content file: ${deletingPostId}`, contentFile.sha);
-    } catch(_) { /* file may not exist yet - that's fine */ }
+      const mdFile = await ghGet(mdPath);
+      await ghDelete(mdPath, `Delete .md: ${deletingPostId}`, mdFile.sha);
+    } catch(_) { /* file may not exist - that's fine */ }
 
     updateStats();
     renderTable();
