@@ -2,7 +2,7 @@
 id: 2026-08-16-10min-tech-podcast
 title: "[2026.08.16] [10-Min English Podcast] Navigating the AI Infrastructure Supercycle: CapEx De-risking, Nuclear SMR Baseload, and 800-Volt DC Architectures"
 date: 2026-08-16
-category: 팟캐스트
+category: Podcast
 status: published
 summary: "🎧 10-MIN TECH ENGLISH PODCAST [2026.08.16] [10-Min English Podcast] Navigating the AI Infrastructure Supercycle: CapEx De-risking, Nuclear SMR Baseload, and 800-Volt DC Architectures 오늘의 10분 심층 팟캐스트는 "
 labels:
