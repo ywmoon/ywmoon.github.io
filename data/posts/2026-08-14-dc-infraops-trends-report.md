@@ -2763,13 +2763,7 @@ labels:
                             </table>
                         </td>
                     </tr>
-                    <tr>
-                        <td style="background-color: #F8FAFC; border-top: 1px solid #E2E8F0; padding: 22px 36px; text-align: center; font-size: 12.5px; color: #94A3B8;">
-                            본 메일은 자동 생성 되었습니다. 디지털 뉴스 이용 규칙에 따라 저작권은 해당 언론사와 웹사이트에 있습니다.<br />
-                            Datacenter & Cloud Industry InfraOps Daily Digest (<a href="https://ywmoon.blogspot.com/" target="_blank" style="color: #94A3B8; text-decoration: underline;">https://ywmoon.blogspot.com/</a>)
-                            <img src="https://news-tracker.ywmoon1202.workers.dev/open?date=20260814" width="1" height="1" style="display:none !important; width:1px; height:1px; opacity:0;" alt="" />
-                        </td>
-                    </tr>
+
                 </table>
             </td>
         </tr>
