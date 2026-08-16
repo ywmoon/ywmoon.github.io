@@ -843,13 +843,8 @@ body {
 
 /* ─── Google AdSense Clean Container ─── */
 .dc-ad-container {
-  margin: 36px 0 20px 0;
-  padding: 16px;
-  background-color: var(--bg-elevated);
-  border: 1px solid var(--border-subtle);
-  border-radius: var(--radius-md);
+  margin: 24px 0 16px 0;
   text-align: center;
-  min-height: 120px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -858,12 +853,18 @@ body {
 }
 
 .dc-ad-label {
-  font-size: 10.5px;
+  font-size: 10px;
   font-weight: 700;
   color: var(--text-muted);
   letter-spacing: 1.5px;
-  margin-bottom: 8px;
+  margin-bottom: 6px;
   text-transform: uppercase;
+  display: none; /* Shows when ad fills */
+}
+
+.dc-ad-container ins.adsbygoogle[data-ad-status="filled"] + .dc-ad-label,
+.dc-ad-container:has(iframe) .dc-ad-label {
+  display: block;
 }
 
 /* ─── Post Navigation Footer ─── */
