@@ -191,7 +191,7 @@ function openHomeView() {
   document.getElementById('table-section').style.display = 'none';
   document.getElementById('article-reader-section').style.display = 'none';
   updateNavActiveState('nav-home-btn');
-  renderPostCards();
+  applyFilters();
 }
 
 function openTableView() {
@@ -245,11 +245,29 @@ function updateNavActiveState(activeId) {
   if (el) el.classList.add('active');
 }
 
+const CAT_ALIAS = {
+  '2-Column 리포트': ['2-Column 리포트', '데일리 뉴스레터', '뉴스레터'],
+  '데일리 뉴스레터': ['2-Column 리포트', '데일리 뉴스레터', '뉴스레터'],
+  'IT 용어사전': ['IT 용어사전', '용어사전', '용어 사전'],
+  '용어사전': ['IT 용어사전', '용어사전', '용어 사전'],
+  '팟캐스트': ['팟캐스트', '10분 팟캐스트', '테크 팟캐스트'],
+  '데일리 브리핑': ['데일리 브리핑', '브리핑'],
+  '테크 딥다이브': ['테크 딥다이브', '딥다이브']
+};
+
+function matchCategory(postCat, filterCat) {
+  if (!filterCat || filterCat === 'ALL') return true;
+  if (postCat === filterCat) return true;
+  const aliases = CAT_ALIAS[filterCat];
+  if (aliases && aliases.includes(postCat)) return true;
+  return false;
+}
+
 // ─── Filtering ────────────────────────────────────────────────────
 function applyFilters() {
   filteredPosts = allPosts.filter(post => {
     if ((post.status || 'published') !== 'published') return false;
-    if (currentCategory !== 'ALL' && post.category !== currentCategory) return false;
+    if (!matchCategory(post.category, currentCategory)) return false;
     if (currentTag && !(post.labels || []).includes(currentTag)) return false;
     if (currentArchive && !(post.date || '').startsWith(currentArchive)) return false;
     if (searchQuery) {
@@ -269,9 +287,12 @@ function applyFilters() {
 
 function filterCategory(cat) {
   currentCategory = cat;
-  document.querySelectorAll('.dc-cat-tab').forEach(t =>
-    t.classList.toggle('active', t.getAttribute('data-cat') === cat));
-  applyFilters();
+  document.querySelectorAll('.dc-cat-tab').forEach(t => {
+    const tabCat = t.getAttribute('data-cat');
+    t.classList.toggle('active', tabCat === cat || (cat === 'ALL' && tabCat === 'ALL'));
+  });
+  if (currentView === 'article') navigateHome();
+  else applyFilters();
 }
 function filterTag(tag) {
   currentTag = tag;
