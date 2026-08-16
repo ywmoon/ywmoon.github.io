@@ -888,7 +888,9 @@
         <strong id="editor-article-id" style="font-family: var(--mono); font-size: 14px;">article-id</strong>
         <span id="editor-stats-badge" style="font-size: 12px; color: var(--text-muted);">⏱️ 0자 / 약 0분</span>
       </div>
-      <div style="display: flex; gap: 8px;">
+      <div style="display: flex; gap: 8px; align-items: center;">
+        <button class="btn-sm" onclick="openVersionHistoryModal()" title="GitHub 이전 커밋 버전 조회 및 롤백">🕒 이전 버전 복원</button>
+        <button class="btn-sm" onclick="resetEditorToOriginal()" title="모달을 열었을 때의 원본 상태로 되돌리기">↩️ 원본 복구</button>
         <button class="btn-cancel" onclick="closeModal('markdown-editor-modal')">닫기</button>
         <button class="btn-save" id="editor-save-btn" onclick="saveMarkdownContent()">💾 GitHub 커밋 & 배포</button>
       </div>
@@ -896,6 +898,9 @@
     <div class="editor-body">
       <div class="editor-pane-left">
         <div class="editor-toolbar">
+          <button class="tool-btn" onclick="undoEditor()" title="실행 취소 (Cmd+Z / Ctrl+Z)">↩️ 되돌리기</button>
+          <button class="tool-btn" onclick="redoEditor()" title="다시 실행 (Cmd+Shift+Z / Ctrl+Y)">↪️ 다시 실행</button>
+          <span style="border-left: 1px solid var(--border); height: 18px; margin: 0 4px;"></span>
           <button class="tool-btn" onclick="insertEditorText('**', '**')">B</button>
           <button class="tool-btn" onclick="insertEditorText('*', '*')">I</button>
           <button class="tool-btn" onclick="insertEditorText('## ', '')">H2</button>
@@ -906,11 +911,34 @@
           <button class="tool-btn" onclick="insertEditorText('[', '](https://)')">Link</button>
           <button class="tool-btn" onclick="insertEditorText('<img src=\"data:image/jpeg;base64,...\" alt=\"Chart\" />', '')">🖼️ Base64 Image</button>
         </div>
-        <textarea id="editor-content-textarea" class="editor-textarea" oninput="handleEditorInput()" placeholder="YAML Frontmatter 및 Markdown 본문을 작성하세요..."></textarea>
+        <textarea id="editor-content-textarea" class="editor-textarea" oninput="handleEditorInput(true)" placeholder="YAML Frontmatter 및 Markdown 본문을 작성하세요..."></textarea>
       </div>
       <div class="editor-pane-right" id="editor-preview-pane">
         <!-- Live Markdown Rendering -->
       </div>
+    </div>
+  </div>
+</div>
+
+<!-- ═══════════════════════════════════════════════════════════════ -->
+<!-- MODAL: VERSION HISTORY & ROLLBACK (이전 커밋 버전 복원)           -->
+<!-- ═══════════════════════════════════════════════════════════════ -->
+<div class="modal-backdrop" id="version-history-modal">
+  <div class="modal-card">
+    <div class="modal-title">
+      <span>🕒 이전 버전 히스토리 & 롤백</span>
+      <button class="tool-btn" onclick="closeModal('version-history-modal')">✕</button>
+    </div>
+    <div style="font-size: 12.5px; color: var(--text-muted); margin-bottom: 14px;">
+      GitHub에 기록된 과거 커밋 버전을 선택하여 에디터로 즉시 복원할 수 있습니다.
+    </div>
+    <div id="version-history-list" style="max-height: 380px; overflow-y: auto; display: flex; flex-direction: column; gap: 8px;">
+      <div style="text-align: center; padding: 30px; color: var(--text-muted);">
+        <span class="loading-spinner"></span> 버전 기록 불러오는 중...
+      </div>
+    </div>
+    <div class="modal-actions" style="margin-top: 16px;">
+      <button class="btn-cancel" onclick="closeModal('version-history-modal')">닫기</button>
     </div>
   </div>
 </div>
@@ -1015,6 +1043,7 @@
     </div>
     <div class="modal-actions">
       <button class="btn-cancel" onclick="closeModal('edit-modal')">취소</button>
+      <button class="btn-sm" onclick="resetEditModalToOriginal()" title="수정 전 원래 입력값으로 되돌리기">↩️ 원상 복귀</button>
       <button class="btn-save" onclick="saveEdit()">💾 저장 & GitHub 반영</button>
     </div>
   </div>
@@ -1615,8 +1644,14 @@ async function confirmBulkDelete() {
 }
 
 // ═══════════════════════════════════════════════════════════════
-// FEATURE: MARKDOWN LIVE EDITOR (본문 실시간 편집기)
+// FEATURE: MARKDOWN LIVE EDITOR (본문 실시간 편집기 & 되돌리기)
 // ═══════════════════════════════════════════════════════════════
+let editorOriginalContent = '';
+let editorHistory = [];
+let editorHistoryIdx = -1;
+let editorHistoryDebounce = null;
+let editModalOriginal = {};
+
 async function openMarkdownEditor(id) {
   const post = allPosts.find(p => p.id === id);
   if (!post) return;
@@ -1625,6 +1660,12 @@ async function openMarkdownEditor(id) {
   document.getElementById('editor-article-id').textContent = id;
   document.getElementById('editor-content-textarea').value = '파일 불러오는 중...';
   document.getElementById('editor-preview-pane').innerHTML = '<p style="color:#64748B;">렌더링 준비 중...</p>';
+  
+  // Reset undo/redo history
+  editorHistory = [];
+  editorHistoryIdx = -1;
+  editorOriginalContent = '';
+
   openModal('markdown-editor-modal');
 
   const mdPath = post.content_file || `data/posts/${id}.md`;
@@ -1632,15 +1673,66 @@ async function openMarkdownEditor(id) {
     const file = await ghGet(mdPath);
     editorFileSha = file.sha;
     const raw = decodeURIComponent(escape(atob(file.content.replace(/\n/g, ''))));
+    
+    editorOriginalContent = raw;
     document.getElementById('editor-content-textarea').value = raw;
-    handleEditorInput();
+    pushEditorHistory(raw);
+    handleEditorInput(false);
   } catch (e) {
     showToast('❌ 마크다운 파일 로드 실패: ' + e.message, 'error');
   }
 }
 
-function handleEditorInput() {
+function pushEditorHistory(content) {
+  if (editorHistoryIdx >= 0 && editorHistory[editorHistoryIdx] === content) return;
+  editorHistory = editorHistory.slice(0, editorHistoryIdx + 1);
+  editorHistory.push(content);
+  if (editorHistory.length > 60) editorHistory.shift();
+  editorHistoryIdx = editorHistory.length - 1;
+}
+
+function undoEditor() {
+  if (editorHistoryIdx > 0) {
+    editorHistoryIdx--;
+    const content = editorHistory[editorHistoryIdx];
+    document.getElementById('editor-content-textarea').value = content;
+    handleEditorInput(false);
+    showToast('↩️ 이전 작업 상태로 되돌렸습니다 (Undo)', '');
+  } else {
+    showToast('ℹ️ 더 이상 되돌릴 이전 기록이 없습니다.', '');
+  }
+}
+
+function redoEditor() {
+  if (editorHistoryIdx < editorHistory.length - 1) {
+    editorHistoryIdx++;
+    const content = editorHistory[editorHistoryIdx];
+    document.getElementById('editor-content-textarea').value = content;
+    handleEditorInput(false);
+    showToast('↪️ 다시 실행했습니다 (Redo)', '');
+  } else {
+    showToast('ℹ️ 다시 실행할 최신 기록이 없습니다.', '');
+  }
+}
+
+function resetEditorToOriginal() {
+  if (!editorOriginalContent) return;
+  document.getElementById('editor-content-textarea').value = editorOriginalContent;
+  pushEditorHistory(editorOriginalContent);
+  handleEditorInput(false);
+  showToast('↩️ 모달을 열었을 때의 [수정 전 원본 본문]으로 원상 복귀되었습니다.', 'success');
+}
+
+function handleEditorInput(recordHistory = true) {
   const raw = document.getElementById('editor-content-textarea').value;
+
+  if (recordHistory) {
+    if (editorHistoryDebounce) clearTimeout(editorHistoryDebounce);
+    editorHistoryDebounce = setTimeout(() => {
+      pushEditorHistory(raw);
+    }, 400);
+  }
+
   // Parse frontmatter
   const match = raw.match(/^---\n([\s\S]*?)\n---\n?([\s\S]*)$/);
   const body = match ? match[2] : raw;
@@ -1689,7 +1781,72 @@ function insertEditorText(prefix, suffix) {
   textarea.focus();
   textarea.selectionStart = start + prefix.length;
   textarea.selectionEnd = start + prefix.length + selText.length;
-  handleEditorInput();
+  handleEditorInput(true);
+}
+
+// ═══════════════════════════════════════════════════════════════
+// FEATURE: VERSION HISTORY & ROLLBACK (이전 커밋 버전 복원)
+// ═══════════════════════════════════════════════════════════════
+async function openVersionHistoryModal() {
+  if (!editorPostId) return;
+  openModal('version-history-modal');
+  const listEl = document.getElementById('version-history-list');
+  listEl.innerHTML = '<div style="text-align: center; padding: 30px; color: var(--text-muted);"><span class="loading-spinner"></span> GitHub 커밋 히스토리 조회 중...</div>';
+
+  try {
+    const mdPath = `data/posts/${editorPostId}.md`;
+    const res = await fetch(`https://api.github.com/repos/${OWNER}/${REPO}/commits?path=${mdPath}&per_page=15`, { headers: ghHeaders() });
+    if (!res.ok) throw new Error('커밋 히스토리 조회 실패');
+    const commits = await res.json();
+
+    if (commits.length === 0) {
+      listEl.innerHTML = '<div style="text-align: center; padding: 20px; color: var(--text-muted);">이전 커밋 기록이 없습니다.</div>';
+      return;
+    }
+
+    listEl.innerHTML = commits.map((c, i) => {
+      const shaShort = c.sha.substring(0, 7);
+      const dateStr = new Date(c.commit.author.date).toLocaleString('ko-KR', { timeZone: 'Asia/Seoul' });
+      const msg = c.commit.message || 'No commit message';
+      const isLatest = i === 0;
+
+      return `
+        <div style="background: var(--surface2); border: 1px solid var(--border); border-radius: 8px; padding: 12px 14px; display: flex; align-items: center; justify-content: space-between; gap: 10px;">
+          <div style="flex: 1; overflow: hidden;">
+            <div style="display: flex; align-items: center; gap: 6px; margin-bottom: 4px;">
+              <span style="font-family: var(--mono); font-size: 11px; background: rgba(255,255,255,0.08); padding: 2px 6px; border-radius: 4px; color: var(--blue);">${shaShort}</span>
+              <span style="font-size: 11.5px; color: var(--text-muted);">${dateStr}</span>
+              ${isLatest ? '<span style="font-size: 10.5px; font-weight: 700; background: rgba(34,197,94,0.15); color: var(--green); padding: 2px 6px; border-radius: 4px;">현재 최신 버전</span>' : ''}
+            </div>
+            <div style="font-size: 13px; font-weight: 600; color: var(--text); overflow: hidden; text-overflow: ellipsis; white-space: nowrap;">${msg}</div>
+          </div>
+          <button class="btn-sm" onclick="rollbackToCommit('${c.sha}', '${dateStr}')" style="white-space: nowrap;">이 버전으로 복원</button>
+        </div>
+      `;
+    }).join('');
+  } catch (err) {
+    listEl.innerHTML = `<div style="color: var(--red); padding: 20px; text-align: center;">❌ 기록 조회 실패: ${err.message}</div>`;
+  }
+}
+
+async function rollbackToCommit(commitSha, dateStr) {
+  showToast(`⏳ ${commitSha.substring(0, 7)} 버전 내용 불러오는 중...`, '');
+  try {
+    const mdPath = `data/posts/${editorPostId}.md`;
+    const res = await fetch(`https://api.github.com/repos/${OWNER}/${REPO}/contents/${mdPath}?ref=${commitSha}`, { headers: ghHeaders() });
+    if (!res.ok) throw new Error('과거 커밋 파일 조회 실패');
+    const file = await res.json();
+    const raw = decodeURIComponent(escape(atob(file.content.replace(/\n/g, ''))));
+
+    document.getElementById('editor-content-textarea').value = raw;
+    pushEditorHistory(raw);
+    handleEditorInput(false);
+    closeModal('version-history-modal');
+
+    showToast(`🕒 [${dateStr} (${commitSha.substring(0, 7)})] 버전으로 불러왔습니다. 확인 후 [저장 & 배포]를 누르면 원격 저장소에 적용됩니다!`, 'success');
+  } catch (err) {
+    showToast('❌ 버전 복원 실패: ' + err.message, 'error');
+  }
 }
 
 async function saveMarkdownContent() {
@@ -2007,11 +2164,29 @@ function openEditModal(id) {
   if (!post) return;
   editingPostId = id;
   const normCat = CAT_NORMALIZE[post.category] || post.category || 'Daily Briefing';
+  
+  // Record original values for 1-click restore
+  editModalOriginal = {
+    category: normCat,
+    title: post.title || '',
+    summary: post.summary || '',
+    labels: [...(post.labels || [])]
+  };
+
   document.getElementById('edit-category').value = normCat;
   document.getElementById('edit-title').value = post.title || '';
   document.getElementById('edit-summary').value = post.summary || '';
   document.getElementById('edit-labels').value = (post.labels || []).join(', ');
   openModal('edit-modal');
+}
+
+function resetEditModalToOriginal() {
+  if (!editModalOriginal) return;
+  document.getElementById('edit-category').value = editModalOriginal.category || 'Daily Briefing';
+  document.getElementById('edit-title').value = editModalOriginal.title || '';
+  document.getElementById('edit-summary').value = editModalOriginal.summary || '';
+  document.getElementById('edit-labels').value = (editModalOriginal.labels || []).join(', ');
+  showToast('↩️ 수정 전 [원래 메타데이터] 입력값으로 원상 복귀되었습니다.', 'success');
 }
 
 async function saveEdit() {
@@ -2229,12 +2404,32 @@ function closeModal(id) {
   document.getElementById(id).classList.remove('open');
 }
 
-// Close open modal only via ESC key or dedicated close/cancel buttons (prevent accidental backdrop clicks)
+// Global keyboard shortcuts: ESC to close modals, Cmd+Z / Cmd+Shift+Z for editor undo/redo
 document.addEventListener('keydown', e => {
   if (e.key === 'Escape') {
     const openModalEl = document.querySelector('.modal-backdrop.open');
     if (openModalEl) {
       closeModal(openModalEl.id);
+    }
+  }
+
+  // Check if editor modal is open and textarea is focused or active
+  const editorModal = document.getElementById('markdown-editor-modal');
+  if (editorModal && editorModal.classList.contains('open')) {
+    const isMac = navigator.platform.toUpperCase().indexOf('MAC') >= 0;
+    const isCmdOrCtrl = isMac ? e.metaKey : e.ctrlKey;
+
+    if (isCmdOrCtrl && e.key.toLowerCase() === 'z') {
+      if (e.shiftKey) {
+        e.preventDefault();
+        redoEditor();
+      } else {
+        e.preventDefault();
+        undoEditor();
+      }
+    } else if (isCmdOrCtrl && e.key.toLowerCase() === 'y') {
+      e.preventDefault();
+      redoEditor();
     }
   }
 });
