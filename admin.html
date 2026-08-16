@@ -1,0 +1,1070 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Admin Panel | DC InfraOps Blog</title>
+  <meta name="robots" content="noindex, nofollow" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Noto+Sans+KR:wght@400;500;700&family=Fira+Code:wght@400;600&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --bg: #0F172A;
+      --surface: #1E293B;
+      --surface2: #2A364F;
+      --border: #334155;
+      --text: #F1F5F9;
+      --text-muted: #94A3B8;
+      --orange: #FF9900;
+      --blue: #38BDF8;
+      --green: #22C55E;
+      --red: #EF4444;
+      --yellow: #F59E0B;
+      --radius: 8px;
+      --font: 'Inter','Noto Sans KR',sans-serif;
+      --mono: 'Fira Code',monospace;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; -webkit-font-smoothing: antialiased; }
+    body { background: var(--bg); color: var(--text); font-family: var(--font); min-height: 100vh; }
+
+    /* ── Login Screen ── */
+    #login-screen {
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 20px;
+    }
+    .login-card {
+      width: 100%;
+      max-width: 440px;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 40px 36px;
+      box-shadow: 0 20px 50px rgba(0,0,0,0.5);
+    }
+    .login-logo {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      margin-bottom: 28px;
+    }
+    .login-logo-badge {
+      background: var(--orange);
+      color: #000;
+      font-size: 11px;
+      font-weight: 800;
+      padding: 3px 8px;
+      border-radius: 4px;
+      text-transform: uppercase;
+    }
+    .login-logo-title {
+      font-size: 16px;
+      font-weight: 800;
+      color: var(--text);
+    }
+    .login-card h1 {
+      font-size: 22px;
+      font-weight: 800;
+      margin-bottom: 6px;
+    }
+    .login-card p {
+      font-size: 13.5px;
+      color: var(--text-muted);
+      margin-bottom: 28px;
+      line-height: 1.6;
+    }
+    .form-label {
+      font-size: 12.5px;
+      font-weight: 700;
+      color: var(--text-muted);
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      margin-bottom: 8px;
+      display: block;
+    }
+    .form-input {
+      width: 100%;
+      background: var(--bg);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      color: var(--text);
+      font-family: var(--mono);
+      font-size: 13px;
+      padding: 11px 14px;
+      outline: none;
+      transition: border-color 0.15s;
+      margin-bottom: 6px;
+    }
+    .form-input:focus { border-color: var(--orange); }
+    .form-hint {
+      font-size: 12px;
+      color: var(--text-muted);
+      margin-bottom: 20px;
+      line-height: 1.5;
+    }
+    .btn-primary {
+      width: 100%;
+      height: 44px;
+      background: var(--orange);
+      color: #000;
+      font-weight: 800;
+      font-size: 14px;
+      border: none;
+      border-radius: var(--radius);
+      cursor: pointer;
+      transition: opacity 0.15s, transform 0.1s;
+    }
+    .btn-primary:hover { opacity: 0.9; transform: translateY(-1px); }
+    .btn-primary:active { transform: translateY(0); }
+    .login-error {
+      background: rgba(239,68,68,0.12);
+      border: 1px solid rgba(239,68,68,0.3);
+      color: #FCA5A5;
+      font-size: 13px;
+      padding: 10px 14px;
+      border-radius: var(--radius);
+      margin-top: 14px;
+      display: none;
+    }
+    .login-security-note {
+      display: flex;
+      align-items: flex-start;
+      gap: 8px;
+      background: rgba(34,197,94,0.08);
+      border: 1px solid rgba(34,197,94,0.2);
+      border-radius: var(--radius);
+      padding: 12px 14px;
+      margin-top: 20px;
+      font-size: 12px;
+      color: #86EFAC;
+      line-height: 1.5;
+    }
+
+    /* ── Admin Panel ── */
+    #admin-panel { display: none; }
+
+    .admin-header {
+      background: var(--surface);
+      border-bottom: 1px solid var(--border);
+      padding: 0 24px;
+      height: 56px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+    .admin-brand {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+    .admin-brand-badge {
+      background: var(--orange);
+      color: #000;
+      font-size: 10.5px;
+      font-weight: 800;
+      padding: 3px 7px;
+      border-radius: 4px;
+      text-transform: uppercase;
+    }
+    .admin-brand-title {
+      font-size: 15px;
+      font-weight: 700;
+    }
+    .admin-header-actions {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+    .token-badge {
+      font-family: var(--mono);
+      font-size: 11.5px;
+      background: var(--surface2);
+      border: 1px solid var(--border);
+      padding: 4px 10px;
+      border-radius: 4px;
+      color: var(--green);
+    }
+    .btn-sm {
+      height: 32px;
+      padding: 0 14px;
+      font-size: 12.5px;
+      font-weight: 700;
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      background: var(--surface2);
+      color: var(--text);
+      cursor: pointer;
+      transition: all 0.15s;
+    }
+    .btn-sm:hover { border-color: var(--orange); color: var(--orange); }
+    .btn-sm.danger:hover { border-color: var(--red); color: var(--red); }
+    .btn-sm.success { background: var(--green); color: #000; border-color: var(--green); }
+
+    .admin-body {
+      max-width: 1280px;
+      margin: 0 auto;
+      padding: 28px 24px;
+    }
+
+    /* Stats Bar */
+    .stats-bar {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 16px;
+      margin-bottom: 28px;
+    }
+    .stat-card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 18px 20px;
+    }
+    .stat-label {
+      font-size: 12px;
+      color: var(--text-muted);
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      margin-bottom: 6px;
+    }
+    .stat-value {
+      font-size: 26px;
+      font-weight: 800;
+      color: var(--text);
+    }
+    .stat-sub {
+      font-size: 12px;
+      color: var(--text-muted);
+      margin-top: 2px;
+    }
+
+    /* Toolbar */
+    .admin-toolbar {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 16px;
+      gap: 12px;
+      flex-wrap: wrap;
+    }
+    .admin-toolbar-left {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .filter-btn {
+      height: 34px;
+      padding: 0 14px;
+      font-size: 12.5px;
+      font-weight: 600;
+      border: 1px solid var(--border);
+      border-radius: 20px;
+      background: transparent;
+      color: var(--text-muted);
+      cursor: pointer;
+      transition: all 0.15s;
+    }
+    .filter-btn:hover, .filter-btn.active {
+      background: var(--surface2);
+      border-color: var(--orange);
+      color: var(--orange);
+    }
+    .admin-search {
+      height: 34px;
+      background: var(--surface2);
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      color: var(--text);
+      font-size: 13px;
+      padding: 0 12px;
+      outline: none;
+      width: 220px;
+      font-family: var(--font);
+      transition: border-color 0.15s;
+    }
+    .admin-search:focus { border-color: var(--orange); }
+
+    /* Rebuild button */
+    .btn-rebuild {
+      height: 36px;
+      padding: 0 16px;
+      background: rgba(56,189,248,0.12);
+      border: 1px solid var(--blue);
+      border-radius: 6px;
+      color: var(--blue);
+      font-size: 13px;
+      font-weight: 700;
+      cursor: pointer;
+      transition: all 0.15s;
+    }
+    .btn-rebuild:hover { background: rgba(56,189,248,0.2); }
+
+    /* Article Table */
+    .admin-table-wrap {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      overflow: hidden;
+    }
+    .admin-table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+    .admin-table th {
+      background: var(--surface2);
+      color: var(--text-muted);
+      font-size: 11.5px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      padding: 12px 16px;
+      text-align: left;
+      border-bottom: 1px solid var(--border);
+    }
+    .admin-table td {
+      padding: 14px 16px;
+      border-bottom: 1px solid var(--border);
+      font-size: 13.5px;
+      vertical-align: middle;
+    }
+    .admin-table tr:last-child td { border-bottom: none; }
+    .admin-table tr:hover td { background: rgba(255,255,255,0.025); }
+
+    .status-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 5px;
+      font-size: 11.5px;
+      font-weight: 700;
+      padding: 3px 10px;
+      border-radius: 12px;
+    }
+    .status-published { background: rgba(34,197,94,0.12); color: var(--green); }
+    .status-hidden { background: rgba(245,158,11,0.12); color: var(--yellow); }
+    .status-deleted { background: rgba(239,68,68,0.12); color: var(--red); }
+
+    .cat-badge {
+      font-size: 11px;
+      font-weight: 700;
+      background: rgba(255,153,0,0.12);
+      color: var(--orange);
+      padding: 2px 8px;
+      border-radius: 4px;
+    }
+
+    .action-btn {
+      width: 30px;
+      height: 30px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      background: transparent;
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      cursor: pointer;
+      font-size: 14px;
+      transition: all 0.15s;
+      margin-right: 4px;
+    }
+    .action-btn:hover { background: var(--surface2); border-color: var(--text-muted); transform: scale(1.1); }
+    .action-btn.edit:hover { border-color: var(--blue); }
+    .action-btn.toggle:hover { border-color: var(--yellow); }
+    .action-btn.delete:hover { border-color: var(--red); }
+
+    /* Toast Notification */
+    #toast {
+      position: fixed;
+      bottom: 28px;
+      right: 28px;
+      background: var(--surface2);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 14px 20px;
+      font-size: 14px;
+      font-weight: 600;
+      color: var(--text);
+      box-shadow: 0 8px 24px rgba(0,0,0,0.4);
+      z-index: 9999;
+      display: none;
+      max-width: 340px;
+      line-height: 1.5;
+    }
+    #toast.show { display: block; animation: slideUp 0.25s ease; }
+    #toast.success { border-color: var(--green); color: var(--green); }
+    #toast.error { border-color: var(--red); color: var(--red); }
+    @keyframes slideUp {
+      from { opacity: 0; transform: translateY(10px); }
+      to   { opacity: 1; transform: translateY(0); }
+    }
+
+    /* Edit Modal */
+    .modal-backdrop {
+      position: fixed; inset: 0;
+      background: rgba(0,0,0,0.7);
+      backdrop-filter: blur(4px);
+      z-index: 1000;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 20px;
+      opacity: 0;
+      pointer-events: none;
+      transition: opacity 0.2s;
+    }
+    .modal-backdrop.open { opacity: 1; pointer-events: auto; }
+    .modal-card {
+      width: 100%;
+      max-width: 620px;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 32px;
+      box-shadow: 0 20px 50px rgba(0,0,0,0.6);
+      transform: translateY(12px);
+      transition: transform 0.2s;
+    }
+    .modal-backdrop.open .modal-card { transform: translateY(0); }
+    .modal-title {
+      font-size: 18px;
+      font-weight: 800;
+      margin-bottom: 22px;
+      padding-bottom: 14px;
+      border-bottom: 1px solid var(--border);
+    }
+    .modal-field { margin-bottom: 18px; }
+    .modal-field label {
+      display: block;
+      font-size: 12px;
+      font-weight: 700;
+      color: var(--text-muted);
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      margin-bottom: 7px;
+    }
+    .modal-field input, .modal-field textarea {
+      width: 100%;
+      background: var(--bg);
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      color: var(--text);
+      font-family: var(--font);
+      font-size: 13.5px;
+      padding: 10px 14px;
+      outline: none;
+      transition: border-color 0.15s;
+    }
+    .modal-field textarea { resize: vertical; min-height: 80px; }
+    .modal-field input:focus, .modal-field textarea:focus { border-color: var(--orange); }
+    .modal-actions {
+      display: flex;
+      justify-content: flex-end;
+      gap: 10px;
+      padding-top: 16px;
+      border-top: 1px solid var(--border);
+    }
+    .btn-cancel {
+      height: 38px;
+      padding: 0 18px;
+      background: transparent;
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      color: var(--text-muted);
+      font-size: 13.5px;
+      font-weight: 600;
+      cursor: pointer;
+    }
+    .btn-save {
+      height: 38px;
+      padding: 0 20px;
+      background: var(--orange);
+      color: #000;
+      border: none;
+      border-radius: 6px;
+      font-size: 13.5px;
+      font-weight: 800;
+      cursor: pointer;
+      transition: opacity 0.15s;
+    }
+    .btn-save:hover { opacity: 0.9; }
+
+    /* Delete Confirm Modal */
+    .delete-modal-body { font-size: 14px; color: var(--text-muted); line-height: 1.6; margin-bottom: 24px; }
+    .delete-modal-body strong { color: var(--text); }
+    .btn-delete-confirm {
+      height: 38px;
+      padding: 0 20px;
+      background: var(--red);
+      color: #fff;
+      border: none;
+      border-radius: 6px;
+      font-size: 13.5px;
+      font-weight: 800;
+      cursor: pointer;
+    }
+
+    .loading-spinner {
+      display: inline-block;
+      width: 16px; height: 16px;
+      border: 2px solid var(--border);
+      border-top-color: var(--orange);
+      border-radius: 50%;
+      animation: spin 0.6s linear infinite;
+      vertical-align: middle;
+      margin-right: 6px;
+    }
+    @keyframes spin { to { transform: rotate(360deg); } }
+
+    .empty-state {
+      text-align: center;
+      padding: 60px 20px;
+      color: var(--text-muted);
+    }
+    .empty-state .empty-icon { font-size: 40px; margin-bottom: 12px; }
+    .empty-state p { font-size: 14px; }
+  </style>
+</head>
+<body>
+
+<!-- ═══════════════════════════════════════════════════════════════ -->
+<!-- LOGIN SCREEN                                                    -->
+<!-- ═══════════════════════════════════════════════════════════════ -->
+<div id="login-screen">
+  <div class="login-card">
+    <div class="login-logo">
+      <span class="login-logo-badge">Admin</span>
+      <span class="login-logo-title">DC InfraOps Blog</span>
+    </div>
+    <h1>🔐 관리자 로그인</h1>
+    <p>GitHub Personal Access Token을 입력하세요.<br>토큰은 이 탭이 열린 동안에만 메모리에 유지되며, 닫으면 즉시 삭제됩니다.</p>
+
+    <label class="form-label">GitHub Personal Access Token</label>
+    <input
+      type="password"
+      id="token-input"
+      class="form-input"
+      placeholder="ghp_xxxxxxxxxxxxxxxxxxxx"
+      autocomplete="off"
+    />
+    <p class="form-hint">
+      토큰 발급: GitHub → Settings → Developer settings → Personal access tokens → Fine-grained tokens<br>
+      권한: <strong>Contents (Read & Write)</strong> → ywmoon.github.io repo만 선택
+    </p>
+
+    <button class="btn-primary" id="login-btn" onclick="handleLogin()">
+      입장하기
+    </button>
+
+    <div class="login-error" id="login-error"></div>
+
+    <div class="login-security-note">
+      <span>🔒</span>
+      <span>토큰은 GitHub에 저장되지 않으며, 오직 브라우저 sessionStorage에만 임시 보관됩니다. 탭을 닫으면 자동으로 삭제됩니다.</span>
+    </div>
+  </div>
+</div>
+
+<!-- ═══════════════════════════════════════════════════════════════ -->
+<!-- ADMIN PANEL                                                     -->
+<!-- ═══════════════════════════════════════════════════════════════ -->
+<div id="admin-panel">
+
+  <!-- Header -->
+  <header class="admin-header">
+    <div class="admin-brand">
+      <span class="admin-brand-badge">Admin</span>
+      <span class="admin-brand-title">DC InfraOps Blog 관리 패널</span>
+    </div>
+    <div class="admin-header-actions">
+      <span class="token-badge" id="token-display">🔑 인증됨</span>
+      <a href="/" target="_blank">
+        <button class="btn-sm">🌐 블로그 보기</button>
+      </a>
+      <button class="btn-sm danger" onclick="handleLogout()">🚪 로그아웃</button>
+    </div>
+  </header>
+
+  <div class="admin-body">
+
+    <!-- Stats Bar -->
+    <div class="stats-bar" id="stats-bar">
+      <div class="stat-card">
+        <div class="stat-label">전체 아티클</div>
+        <div class="stat-value" id="stat-total">-</div>
+        <div class="stat-sub">누적 발행</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-label">공개 중</div>
+        <div class="stat-value" id="stat-published" style="color: var(--green)">-</div>
+        <div class="stat-sub">현재 노출</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-label">숨김</div>
+        <div class="stat-value" id="stat-hidden" style="color: var(--yellow)">-</div>
+        <div class="stat-sub">비공개</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-label">카테고리</div>
+        <div class="stat-value" id="stat-cats">-</div>
+        <div class="stat-sub">종류</div>
+      </div>
+    </div>
+
+    <!-- Toolbar -->
+    <div class="admin-toolbar">
+      <div class="admin-toolbar-left">
+        <button class="filter-btn active" data-filter="ALL" onclick="setFilter('ALL', this)">전체</button>
+        <button class="filter-btn" data-filter="published" onclick="setFilter('published', this)">🟢 공개</button>
+        <button class="filter-btn" data-filter="hidden" onclick="setFilter('hidden', this)">🟡 숨김</button>
+        <button class="filter-btn" data-filter="팟캐스트" onclick="setFilter('팟캐스트', this)">🎧 팟캐스트</button>
+        <button class="filter-btn" data-filter="데일리 뉴스레터" onclick="setFilter('데일리 뉴스레터', this)">📧 뉴스레터</button>
+        <button class="filter-btn" data-filter="테크 딥다이브" onclick="setFilter('테크 딥다이브', this)">🔬 딥다이브</button>
+      </div>
+      <div style="display: flex; gap: 10px; align-items: center;">
+        <input type="text" class="admin-search" id="admin-search-input" placeholder="🔍 제목 검색..." oninput="renderTable()" />
+        <button class="btn-rebuild" onclick="rebuildSitemap()">🔄 Sitemap 재생성</button>
+      </div>
+    </div>
+
+    <!-- Article Table -->
+    <div class="admin-table-wrap">
+      <table class="admin-table">
+        <thead>
+          <tr>
+            <th style="width: 50px;">No</th>
+            <th style="width: 110px;">날짜</th>
+            <th style="width: 130px;">카테고리</th>
+            <th>제목</th>
+            <th style="width: 100px;">상태</th>
+            <th style="width: 120px;">액션</th>
+          </tr>
+        </thead>
+        <tbody id="admin-table-body">
+          <tr>
+            <td colspan="6" style="text-align: center; padding: 40px; color: var(--text-muted);">
+              <span class="loading-spinner"></span> 불러오는 중...
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+  </div>
+</div>
+
+<!-- Edit Modal -->
+<div class="modal-backdrop" id="edit-modal">
+  <div class="modal-card">
+    <div class="modal-title">✏️ 아티클 수정</div>
+    <div class="modal-field">
+      <label>제목</label>
+      <input type="text" id="edit-title" />
+    </div>
+    <div class="modal-field">
+      <label>요약 (Summary)</label>
+      <textarea id="edit-summary" rows="3"></textarea>
+    </div>
+    <div class="modal-field">
+      <label>태그 (쉼표로 구분)</label>
+      <input type="text" id="edit-labels" placeholder="AWS, SMR, 데이터센터" />
+    </div>
+    <div class="modal-actions">
+      <button class="btn-cancel" onclick="closeModal('edit-modal')">취소</button>
+      <button class="btn-save" onclick="saveEdit()">💾 저장 & GitHub 반영</button>
+    </div>
+  </div>
+</div>
+
+<!-- Delete Confirm Modal -->
+<div class="modal-backdrop" id="delete-modal">
+  <div class="modal-card">
+    <div class="modal-title">🗑️ 아티클 삭제 확인</div>
+    <div class="delete-modal-body">
+      <strong id="delete-target-title"></strong><br><br>
+      이 아티클을 완전히 삭제합니다. <strong style="color: var(--red)">이 작업은 되돌릴 수 없습니다.</strong><br>
+      본문 파일도 함께 삭제됩니다. 계속하시겠습니까?
+    </div>
+    <div class="modal-actions">
+      <button class="btn-cancel" onclick="closeModal('delete-modal')">취소</button>
+      <button class="btn-delete-confirm" onclick="confirmDelete()">🗑️ 완전 삭제</button>
+    </div>
+  </div>
+</div>
+
+<!-- Toast -->
+<div id="toast"></div>
+
+<script>
+// ═══════════════════════════════════════════════════════════════
+// CONFIG
+// ═══════════════════════════════════════════════════════════════
+const OWNER = 'ywmoon';
+const REPO  = 'ywmoon.github.io';
+const BRANCH = 'main';
+
+// ═══════════════════════════════════════════════════════════════
+// STATE
+// ═══════════════════════════════════════════════════════════════
+let token = '';
+let allPosts = [];
+let currentFilter = 'ALL';
+let editingPostId = null;
+let deletingPostId = null;
+
+// ═══════════════════════════════════════════════════════════════
+// LOGIN
+// ═══════════════════════════════════════════════════════════════
+async function handleLogin() {
+  const input = document.getElementById('token-input');
+  const t = input.value.trim();
+  if (!t) return showLoginError('토큰을 입력해 주세요.');
+
+  const btn = document.getElementById('login-btn');
+  btn.innerHTML = '<span class="loading-spinner"></span> 인증 중...';
+  btn.disabled = true;
+
+  // Verify token by calling GitHub API
+  const res = await fetch(`https://api.github.com/repos/${OWNER}/${REPO}`, {
+    headers: { 'Authorization': `Bearer ${t}`, 'Accept': 'application/vnd.github.v3+json' }
+  });
+
+  if (res.status === 200) {
+    token = t;
+    sessionStorage.setItem('admin_token', t);
+    showAdminPanel();
+  } else if (res.status === 401) {
+    showLoginError('❌ 토큰이 올바르지 않습니다. 다시 확인해 주세요.');
+  } else if (res.status === 403) {
+    showLoginError('❌ 토큰 권한이 부족합니다. Contents Read & Write 권한을 확인하세요.');
+  } else {
+    showLoginError(`❌ 오류: ${res.status} ${res.statusText}`);
+  }
+
+  btn.innerHTML = '입장하기';
+  btn.disabled = false;
+}
+
+function showLoginError(msg) {
+  const el = document.getElementById('login-error');
+  el.style.display = 'block';
+  el.textContent = msg;
+}
+
+document.getElementById('token-input').addEventListener('keydown', e => {
+  if (e.key === 'Enter') handleLogin();
+});
+
+// Check sessionStorage on load
+window.addEventListener('DOMContentLoaded', () => {
+  const saved = sessionStorage.getItem('admin_token');
+  if (saved) {
+    token = saved;
+    showAdminPanel();
+  }
+});
+
+function handleLogout() {
+  sessionStorage.removeItem('admin_token');
+  token = '';
+  allPosts = [];
+  document.getElementById('admin-panel').style.display = 'none';
+  document.getElementById('login-screen').style.display = 'flex';
+  document.getElementById('token-input').value = '';
+}
+
+// ═══════════════════════════════════════════════════════════════
+// PANEL INIT
+// ═══════════════════════════════════════════════════════════════
+function showAdminPanel() {
+  document.getElementById('login-screen').style.display = 'none';
+  document.getElementById('admin-panel').style.display = 'block';
+  document.getElementById('token-display').textContent = `🔑 ghp_...${token.slice(-6)}`;
+  loadPosts();
+}
+
+// ═══════════════════════════════════════════════════════════════
+// GITHUB API HELPERS
+// ═══════════════════════════════════════════════════════════════
+function ghHeaders() {
+  return {
+    'Authorization': `Bearer ${token}`,
+    'Accept': 'application/vnd.github.v3+json',
+    'Content-Type': 'application/json'
+  };
+}
+
+async function ghGet(path) {
+  const res = await fetch(`https://api.github.com/repos/${OWNER}/${REPO}/contents/${path}`, { headers: ghHeaders() });
+  if (!res.ok) throw new Error(`GET ${path} failed: ${res.status}`);
+  return res.json();
+}
+
+async function ghPut(path, content, message, sha = null) {
+  const body = {
+    message,
+    content: btoa(unescape(encodeURIComponent(content))),
+    branch: BRANCH
+  };
+  if (sha) body.sha = sha;
+  const res = await fetch(`https://api.github.com/repos/${OWNER}/${REPO}/contents/${path}`, {
+    method: 'PUT', headers: ghHeaders(), body: JSON.stringify(body)
+  });
+  if (!res.ok) {
+    const err = await res.json();
+    throw new Error(err.message || `PUT ${path} failed: ${res.status}`);
+  }
+  return res.json();
+}
+
+async function ghDelete(path, message, sha) {
+  const body = { message, sha, branch: BRANCH };
+  const res = await fetch(`https://api.github.com/repos/${OWNER}/${REPO}/contents/${path}`, {
+    method: 'DELETE', headers: ghHeaders(), body: JSON.stringify(body)
+  });
+  if (!res.ok) throw new Error(`DELETE ${path} failed: ${res.status}`);
+  return res.json();
+}
+
+// ═══════════════════════════════════════════════════════════════
+// LOAD POSTS
+// ═══════════════════════════════════════════════════════════════
+async function loadPosts() {
+  try {
+    const file = await ghGet('data/posts.json');
+    const json = JSON.parse(atob(file.content.replace(/\n/g, '')));
+    allPosts = json.sort((a, b) => new Date(b.date) - new Date(a.date));
+    updateStats();
+    renderTable();
+  } catch (e) {
+    showToast('❌ posts.json 로드 실패: ' + e.message, 'error');
+  }
+}
+
+// ═══════════════════════════════════════════════════════════════
+// SAVE POSTS.JSON TO GITHUB
+// ═══════════════════════════════════════════════════════════════
+async function savePostsJson(commitMsg) {
+  const file = await ghGet('data/posts.json');
+  const sha = file.sha;
+  const content = JSON.stringify(allPosts, null, 2);
+  await ghPut('data/posts.json', content, commitMsg, sha);
+}
+
+// ═══════════════════════════════════════════════════════════════
+// STATS
+// ═══════════════════════════════════════════════════════════════
+function updateStats() {
+  const total = allPosts.length;
+  const published = allPosts.filter(p => (p.status || 'published') === 'published').length;
+  const hidden = allPosts.filter(p => p.status === 'hidden').length;
+  const cats = new Set(allPosts.map(p => p.category)).size;
+  document.getElementById('stat-total').textContent = total;
+  document.getElementById('stat-published').textContent = published;
+  document.getElementById('stat-hidden').textContent = hidden;
+  document.getElementById('stat-cats').textContent = cats;
+}
+
+// ═══════════════════════════════════════════════════════════════
+// FILTER & RENDER TABLE
+// ═══════════════════════════════════════════════════════════════
+function setFilter(filter, btn) {
+  currentFilter = filter;
+  document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+  btn.classList.add('active');
+  renderTable();
+}
+
+function renderTable() {
+  const searchQ = (document.getElementById('admin-search-input')?.value || '').toLowerCase();
+
+  let posts = allPosts.filter(p => {
+    const status = p.status || 'published';
+    if (currentFilter === 'published' && status !== 'published') return false;
+    if (currentFilter === 'hidden' && status !== 'hidden') return false;
+    if (['팟캐스트','데일리 뉴스레터','테크 딥다이브'].includes(currentFilter) && p.category !== currentFilter) return false;
+    if (searchQ && !(p.title || '').toLowerCase().includes(searchQ)) return false;
+    return true;
+  });
+
+  const tbody = document.getElementById('admin-table-body');
+
+  if (posts.length === 0) {
+    tbody.innerHTML = `<tr><td colspan="6">
+      <div class="empty-state">
+        <div class="empty-icon">📭</div>
+        <p>조건에 맞는 아티클이 없습니다.</p>
+      </div>
+    </td></tr>`;
+    return;
+  }
+
+  tbody.innerHTML = posts.map((p, i) => {
+    const status = p.status || 'published';
+    const statusHtml = status === 'published'
+      ? `<span class="status-badge status-published">● 공개</span>`
+      : `<span class="status-badge status-hidden">● 숨김</span>`;
+
+    const toggleIcon = status === 'published' ? '🙈' : '👁️';
+    const toggleTitle = status === 'published' ? '숨김 처리' : '공개 전환';
+
+    return `<tr>
+      <td style="font-weight:700;color:var(--text-muted);font-family:var(--mono)">${posts.length - i}</td>
+      <td style="font-family:var(--mono);font-size:12.5px;color:var(--text-muted)">${p.date}</td>
+      <td><span class="cat-badge">${p.category}</span></td>
+      <td style="max-width:420px;line-height:1.4">${p.title}</td>
+      <td>${statusHtml}</td>
+      <td>
+        <button class="action-btn edit" title="수정" onclick="openEditModal('${p.id}')">✏️</button>
+        <button class="action-btn toggle" title="${toggleTitle}" onclick="toggleStatus('${p.id}')">${toggleIcon}</button>
+        <button class="action-btn delete" title="삭제" onclick="openDeleteModal('${p.id}')">🗑️</button>
+      </td>
+    </tr>`;
+  }).join('');
+}
+
+// ═══════════════════════════════════════════════════════════════
+// EDIT
+// ═══════════════════════════════════════════════════════════════
+function openEditModal(id) {
+  const post = allPosts.find(p => p.id === id);
+  if (!post) return;
+  editingPostId = id;
+  document.getElementById('edit-title').value = post.title || '';
+  document.getElementById('edit-summary').value = post.summary || '';
+  document.getElementById('edit-labels').value = (post.labels || []).join(', ');
+  openModal('edit-modal');
+}
+
+async function saveEdit() {
+  const post = allPosts.find(p => p.id === editingPostId);
+  if (!post) return;
+
+  post.title   = document.getElementById('edit-title').value.trim();
+  post.summary = document.getElementById('edit-summary').value.trim();
+  post.labels  = document.getElementById('edit-labels').value.split(',').map(s => s.trim()).filter(Boolean);
+
+  try {
+    await savePostsJson(`Edit article: ${editingPostId}`);
+    closeModal('edit-modal');
+    updateStats();
+    renderTable();
+    showToast('✅ 수정사항이 GitHub에 반영됐습니다!', 'success');
+  } catch(e) {
+    showToast('❌ 저장 실패: ' + e.message, 'error');
+  }
+}
+
+// ═══════════════════════════════════════════════════════════════
+// TOGGLE STATUS (공개 / 숨김)
+// ═══════════════════════════════════════════════════════════════
+async function toggleStatus(id) {
+  const post = allPosts.find(p => p.id === id);
+  if (!post) return;
+  const current = post.status || 'published';
+  post.status = current === 'published' ? 'hidden' : 'published';
+
+  try {
+    await savePostsJson(`${post.status === 'hidden' ? 'Hide' : 'Show'} article: ${id}`);
+    updateStats();
+    renderTable();
+    const msg = post.status === 'hidden' ? '🙈 아티클을 숨김 처리했습니다.' : '👁️ 아티클을 공개로 전환했습니다.';
+    showToast(msg, 'success');
+  } catch(e) {
+    showToast('❌ 변경 실패: ' + e.message, 'error');
+  }
+}
+
+// ═══════════════════════════════════════════════════════════════
+// DELETE
+// ═══════════════════════════════════════════════════════════════
+function openDeleteModal(id) {
+  const post = allPosts.find(p => p.id === id);
+  if (!post) return;
+  deletingPostId = id;
+  document.getElementById('delete-target-title').textContent = post.title;
+  openModal('delete-modal');
+}
+
+async function confirmDelete() {
+  const post = allPosts.find(p => p.id === deletingPostId);
+  if (!post) return;
+
+  closeModal('delete-modal');
+
+  try {
+    // 1. Remove from index
+    allPosts = allPosts.filter(p => p.id !== deletingPostId);
+    await savePostsJson(`Delete article: ${deletingPostId}`);
+
+    // 2. Delete content file if it exists
+    const contentPath = `data/posts/${deletingPostId}.json`;
+    try {
+      const contentFile = await ghGet(contentPath);
+      await ghDelete(contentPath, `Delete content file: ${deletingPostId}`, contentFile.sha);
+    } catch(_) { /* file may not exist yet - that's fine */ }
+
+    updateStats();
+    renderTable();
+    showToast('🗑️ 아티클이 완전히 삭제됐습니다.', 'success');
+  } catch(e) {
+    showToast('❌ 삭제 실패: ' + e.message, 'error');
+  }
+}
+
+// ═══════════════════════════════════════════════════════════════
+// REBUILD SITEMAP
+// ═══════════════════════════════════════════════════════════════
+async function rebuildSitemap() {
+  const publishedPosts = allPosts.filter(p => (p.status || 'published') === 'published');
+  const today = new Date().toISOString().split('T')[0];
+
+  const urlEntries = [
+    `  <url>\n    <loc>https://ywmoon.github.io/</loc>\n    <lastmod>${today}</lastmod>\n    <changefreq>daily</changefreq>\n    <priority>1.0</priority>\n  </url>`,
+    ...publishedPosts.map(p => `  <url>\n    <loc>https://ywmoon.github.io/#article/${p.id}</loc>\n    <lastmod>${p.date}</lastmod>\n    <changefreq>weekly</changefreq>\n    <priority>0.8</priority>\n  </url>`)
+  ];
+
+  const sitemap = `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${urlEntries.join('\n')}\n</urlset>\n`;
+
+  try {
+    const existing = await ghGet('sitemap.xml');
+    await ghPut('sitemap.xml', sitemap, `Rebuild sitemap: ${publishedPosts.length} URLs`, existing.sha);
+    showToast(`✅ sitemap.xml 재생성 완료! (${publishedPosts.length}개 URL)`, 'success');
+  } catch(e) {
+    showToast('❌ sitemap 재생성 실패: ' + e.message, 'error');
+  }
+}
+
+// ═══════════════════════════════════════════════════════════════
+// MODAL HELPERS
+// ═══════════════════════════════════════════════════════════════
+function openModal(id) {
+  document.getElementById(id).classList.add('open');
+}
+function closeModal(id) {
+  document.getElementById(id).classList.remove('open');
+}
+// Close on backdrop click
+document.querySelectorAll('.modal-backdrop').forEach(el => {
+  el.addEventListener('click', e => {
+    if (e.target === el) closeModal(el.id);
+  });
+});
+
+// ═══════════════════════════════════════════════════════════════
+// TOAST
+// ═══════════════════════════════════════════════════════════════
+let toastTimer = null;
+function showToast(msg, type = '') {
+  const el = document.getElementById('toast');
+  el.textContent = msg;
+  el.className = `show ${type}`;
+  if (toastTimer) clearTimeout(toastTimer);
+  toastTimer = setTimeout(() => el.className = '', 3500);
+}
+</script>
+</body>
+</html>
