@@ -13,7 +13,6 @@ let currentView = 'home';
 let previousView = 'home';
 
 document.addEventListener('DOMContentLoaded', () => {
-  initTheme();
   initDropdowns();
   loadPosts();
   window.addEventListener('hashchange', handleHashRoute);
@@ -34,24 +33,6 @@ function initDropdowns() {
       document.querySelectorAll('.dc-dropdown-wrap').forEach(w => w.classList.remove('open'));
     }
   });
-}
-
-// ─── Theme ───────────────────────────────────────────────────────
-function initTheme() {
-  const saved = localStorage.getItem('dc_theme') || 'light';
-  document.documentElement.setAttribute('data-theme', saved);
-  updateThemeIcon(saved);
-}
-function toggleTheme() {
-  const cur = document.documentElement.getAttribute('data-theme') || 'light';
-  const next = cur === 'light' ? 'dark' : 'light';
-  document.documentElement.setAttribute('data-theme', next);
-  localStorage.setItem('dc_theme', next);
-  updateThemeIcon(next);
-}
-function updateThemeIcon(theme) {
-  const btn = document.getElementById('theme-toggle-btn');
-  if (btn) btn.innerHTML = theme === 'dark' ? '☀️' : '🌙';
 }
 
 // ─── Load Posts (lightweight index) ──────────────────────────────
