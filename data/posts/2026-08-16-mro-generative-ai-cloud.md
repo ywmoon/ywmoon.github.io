@@ -2,7 +2,7 @@
 id: 2026-08-16-mro-generative-ai-cloud
 title: "[테크 딥다이브] 미션 크리티컬 MRO를 위한 생성형 AI·클라우드 인프라: 하이브리드 RAG와 엣지-클라우드 파이프라인 아키텍처 분석"
 date: 2026-08-16
-category: 테크 딥다이브
+category: Tech Deep Dive
 status: published
 summary: "🚀 서론: 미션 크리티컬 인더스트리의 생성형 AI 전환과 인프라 패러다임 시프트 항공기 운항 및 정비(MRO, Maintenance, Repair, and Overhaul)는 단 0.01%의 오류도 용납되지 않는 대표적인 '미션 크리티컬(Mission-Critical)' 산업입니다. 수십만 개의 정밀 부품과 복잡다단한 비행 기록 장치(FDR), 퀵 액세스 "
 labels:
