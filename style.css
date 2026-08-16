@@ -694,6 +694,31 @@ body {
   height: auto;
 }
 
+/* ─── Google AdSense Clean Container ─── */
+.dc-ad-container {
+  margin: 36px 0 20px 0;
+  padding: 16px;
+  background-color: var(--bg-elevated);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-md);
+  text-align: center;
+  min-height: 120px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.dc-ad-label {
+  font-size: 10.5px;
+  font-weight: 700;
+  color: var(--text-muted);
+  letter-spacing: 1.5px;
+  margin-bottom: 8px;
+  text-transform: uppercase;
+}
+
 /* ─── Post Navigation Footer ─── */
 .dc-post-nav {
   display: grid;
