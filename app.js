@@ -178,6 +178,10 @@ function handleHashRoute() {
   } else if (hash.startsWith('#category=')) {
     const cat = decodeURIComponent(hash.replace('#category=', ''));
     currentCategory = cat;
+    document.querySelectorAll('.dc-cat-tab').forEach(t => {
+      const tabCat = t.getAttribute('data-cat');
+      t.classList.toggle('active', tabCat === cat || (cat === 'ALL' && tabCat === 'ALL'));
+    });
     openHomeView();
   } else if (hash.startsWith('#tag=')) {
     const tag = decodeURIComponent(hash.replace('#tag=', ''));
@@ -188,15 +192,30 @@ function handleHashRoute() {
     currentArchive = arch;
     openHomeView();
   } else {
+    currentCategory = 'ALL';
+    currentTag = null;
+    currentArchive = null;
+    document.querySelectorAll('.dc-cat-tab').forEach(t =>
+      t.classList.toggle('active', t.getAttribute('data-cat') === 'ALL'));
     openHomeView();
   }
 }
 
-function navigateHome() { window.location.hash = ''; openHomeView(); }
+function navigateHome() {
+  if (window.location.hash) {
+    history.pushState(null, '', window.location.pathname);
+  }
+  currentCategory = 'ALL';
+  currentTag = null;
+  currentArchive = null;
+  document.querySelectorAll('.dc-cat-tab').forEach(t =>
+    t.classList.toggle('active', t.getAttribute('data-cat') === 'ALL'));
+  openHomeView();
+}
 function navigateToDirectory() { window.location.hash = '#table'; openTableView(); }
 function navigateBack() {
   if (previousView === 'table') { window.location.hash = '#table'; }
-  else { window.location.hash = ''; }
+  else { navigateHome(); }
 }
 
 function trackPageView(pagePath, pageTitle) {
@@ -463,40 +482,59 @@ function applyFilters() {
 }
 
 function filterCategory(cat) {
-  currentCategory = cat;
+  currentCategory = cat || 'ALL';
+  if (currentCategory === 'ALL') {
+    if (window.location.hash.startsWith('#category=')) {
+      history.pushState(null, '', window.location.pathname);
+    }
+  } else {
+    window.location.hash = '#category=' + encodeURIComponent(currentCategory);
+  }
   document.querySelectorAll('.dc-cat-tab').forEach(t => {
     const tabCat = t.getAttribute('data-cat');
     t.classList.toggle('active', tabCat === cat || (cat === 'ALL' && tabCat === 'ALL'));
   });
-  if (currentView === 'article') navigateHome();
+  if (currentView === 'article') openHomeView();
   else applyFilters();
 }
+
 function filterTag(tag) {
   currentTag = tag;
+  if (tag) window.location.hash = '#tag=' + encodeURIComponent(tag);
   document.querySelectorAll('.dc-dropdown-wrap').forEach(w => w.classList.remove('open'));
-  if (currentView === 'article') navigateHome();
+  if (currentView === 'article') openHomeView();
   else applyFilters();
 }
+
 function filterArchive(ym) {
   currentArchive = ym;
+  if (ym) window.location.hash = '#archive=' + encodeURIComponent(ym);
   document.querySelectorAll('.dc-dropdown-wrap').forEach(w => w.classList.remove('open'));
-  if (currentView === 'article') navigateHome();
+  if (currentView === 'article') openHomeView();
   else applyFilters();
 }
+
 function handleSearchInput(val) {
   searchQuery = val.trim();
   document.getElementById('search-clear-btn').style.display = searchQuery ? 'inline-block' : 'none';
   applyFilters();
 }
+
 function clearSearch() {
   document.getElementById('global-search-input').value = '';
   searchQuery = '';
   document.getElementById('search-clear-btn').style.display = 'none';
   applyFilters();
 }
+
 function resetAllFilters() {
-  currentCategory = 'ALL'; currentTag = null; currentArchive = null;
+  currentCategory = 'ALL';
+  currentTag = null;
+  currentArchive = null;
   clearSearch();
+  if (window.location.hash.startsWith('#category=') || window.location.hash.startsWith('#tag=') || window.location.hash.startsWith('#archive=')) {
+    history.pushState(null, '', window.location.pathname);
+  }
   document.querySelectorAll('.dc-cat-tab').forEach(t =>
     t.classList.toggle('active', t.getAttribute('data-cat') === 'ALL'));
   applyFilters();
