@@ -1027,9 +1027,33 @@ body {
 }
 
 .dc-reader-body {
-  font-size: 15px;
+  font-size: var(--reader-font-size, 15.5px) !important;
   line-height: 1.8;
   color: var(--text-primary);
+  transition: font-size 0.15s ease;
+}
+
+.dc-reader-body p,
+.dc-reader-body li,
+.dc-reader-body td,
+.dc-reader-body th,
+.dc-reader-body blockquote,
+.dc-reader-body .dc-vocab-desc,
+.dc-reader-body .dc-vocab-mean,
+.dc-reader-body .dc-callout-box {
+  font-size: 1em !important;
+}
+
+.dc-reader-body h2 {
+  font-size: 1.35em !important;
+  line-height: 1.4;
+  margin: 1.4em 0 0.6em 0;
+}
+
+.dc-reader-body h3 {
+  font-size: 1.18em !important;
+  line-height: 1.4;
+  margin: 1.2em 0 0.5em 0;
 }
 
 .dc-reader-body img:not([src*="workers.dev"]):not([width="1"]) {
