@@ -1,0 +1,25 @@
+{
+  "name": "DataCenter InfraOps Trends & Notes",
+  "short_name": "DC InfraOps",
+  "description": "Global Hyperscale AI Data Center, Power Grid (SMR/BESS), Liquid Cooling & Cloud InfraOps Trends & Notes",
+  "start_url": "/index.html",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#F8FAFC",
+  "theme_color": "#0F172A",
+  "icons": [
+    {
+      "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 192 192'><rect width='192' height='192' rx='42' fill='%230F172A'/><path d='M45 55h102v16H45zm0 33h102v16H45zm0 33h102v16H45z' fill='%23FF9900'/><circle cx='60' cy='63' r='4' fill='%23FFFFFF'/><circle cx='60' cy='96' r='4' fill='%23FFFFFF'/><circle cx='60' cy='129' r='4' fill='%23FFFFFF'/></svg>",
+      "sizes": "192x192",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'><rect width='512' height='512' rx='110' fill='%230F172A'/><path d='M120 150h272v44H120zm0 84h272v44H120zm0 84h272v44H120z' fill='%23FF9900'/><circle cx='160' cy='172' r='11' fill='%23FFFFFF'/><circle cx='160' cy='256' r='11' fill='%23FFFFFF'/><circle cx='160' cy='340' r='11' fill='%23FFFFFF'/></svg>",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
