@@ -2,7 +2,7 @@
 id: 2026-08-15-10gw-mega-datacenter-tco
 title: "[테크 딥다이브] 10GW 메가 AI 데이터센터의 물리적 한계와 '우로보로스 금융'의 구조조정: 하이퍼스케일 인프라 아키텍처와 TCO 딜레마"
 date: 2026-08-15
-category: 테크 딥다이브
+category: Tech Deep Dive
 status: published
 summary: "ARCHITECTURAL DEEP DIVE 10GW급 초대형 AI 팩토리와 '우로보로스 금융'의 균열:전력망·냉각 엔지니어링과 자본 회수의 임계점 분석 엔비디아가 오픈AI의 미국 오하이오 10GW 데이터센터 프로젝트 채무 보증 규모를 2,500억 달러에서 1,200억 달러로 전격 축소했습니다. 단일 프로젝트 기준 사상 최대 규모의 AI 인프라 프로젝트에서 "
 labels:
