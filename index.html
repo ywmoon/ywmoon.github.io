@@ -41,7 +41,7 @@
   <!-- HD SVG Favicon -->
   <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='22' fill='%230F172A'/><path d='M28 35h44v10H28zm0 15h44v10H28zm0 15h44v10H28z' fill='%23FF9900'/><circle cx='35' cy='40' r='2.5' fill='%23FFFFFF'/><circle cx='35' cy='55' r='2.5' fill='%23FFFFFF'/><circle cx='35' cy='70' r='2.5' fill='%23FFFFFF'/></svg>" />
 
-  <link rel="stylesheet" href="style.css?v=20260816_9" />
+  <link rel="stylesheet" href="style.css?v=20260816_11" />
 </head>
 <body>
 
@@ -53,6 +53,7 @@
         <span class="dc-brand-title">DataCenter InfraOps Trends & Notes</span>
       </div>
 
+      <!-- Desktop Navigation Menu -->
       <nav class="dc-nav-menu">
         <button class="dc-nav-btn active" id="nav-home-btn" onclick="navigateHome()">
           🏠 홈
@@ -86,12 +87,66 @@
         </button>
       </nav>
 
-      <!-- Utility Area: Search -->
+      <!-- Utility Area: Desktop Search & Mobile Hamburger Toggle -->
       <div class="dc-nav-actions">
-        <div class="dc-search-box">
+        <div class="dc-search-box" id="desktop-search-box">
           <span class="dc-search-icon">🔍</span>
           <input type="text" id="global-search-input" placeholder="키워드, 기술, 기업 검색..." oninput="handleSearchInput(this.value)" />
           <button id="search-clear-btn" class="dc-search-clear" onclick="clearSearch()" style="display:none;">✕</button>
+        </div>
+
+        <!-- Mobile Hamburger Toggle Button -->
+        <button class="dc-mobile-menu-btn" id="mobile-menu-toggle-btn" onclick="toggleMobileMenu()" aria-label="메뉴 열기">
+          <span class="dc-hamburger-bar"></span>
+          <span class="dc-hamburger-bar"></span>
+          <span class="dc-hamburger-bar"></span>
+        </button>
+      </div>
+    </div>
+
+    <!-- Mobile Navigation Drawer / Dropdown -->
+    <div class="dc-mobile-drawer" id="mobile-drawer">
+      <div class="dc-mobile-drawer-inner">
+        <!-- Mobile Search Input -->
+        <div class="dc-mobile-search-box">
+          <span class="dc-search-icon">🔍</span>
+          <input type="text" id="mobile-search-input" placeholder="키워드, 기술, 기업 검색..." oninput="handleMobileSearchInput(this.value)" />
+          <button id="mobile-search-clear-btn" class="dc-search-clear" onclick="clearMobileSearch()" style="display:none;">✕</button>
+        </div>
+
+        <div class="dc-mobile-nav-links">
+          <button class="dc-mobile-nav-item active" id="mob-nav-home" onclick="navigateHome(); closeMobileMenu();">
+            <span>🏠 홈 (피드)</span>
+          </button>
+          <button class="dc-mobile-nav-item" id="mob-nav-table" onclick="navigateToDirectory(); closeMobileMenu();">
+            <span>📋 전체 아티클 디렉토리 (Table)</span>
+          </button>
+          
+          <!-- Mobile Accordion: Archives -->
+          <div class="dc-mobile-accordion">
+            <button class="dc-mobile-accordion-header" onclick="toggleMobileAccordion('mob-archive-content', this)">
+              <span>📅 월별 자료실</span>
+              <span class="dc-accordion-arrow">▾</span>
+            </button>
+            <div class="dc-mobile-accordion-body" id="mob-archive-content">
+              <!-- Populated by JS -->
+            </div>
+          </div>
+
+          <!-- Mobile Accordion: Tags -->
+          <div class="dc-mobile-accordion">
+            <button class="dc-mobile-accordion-header" onclick="toggleMobileAccordion('mob-tag-content', this)">
+              <span>🏷️ 주요 태그 목록</span>
+              <span class="dc-accordion-arrow">▾</span>
+            </button>
+            <div class="dc-mobile-accordion-body" id="mob-tag-content">
+              <!-- Populated by JS -->
+            </div>
+          </div>
+
+          <button class="dc-mobile-nav-item" onclick="openProfileModal(); closeMobileMenu();">
+            <span>👤 James Moon 프로필</span>
+          </button>
         </div>
       </div>
     </div>
@@ -256,6 +311,6 @@
     ↑
   </button>
 
-  <script src="app.js?v=20260816_14"></script>
+  <script src="app.js?v=20260816_16"></script>
 </body>
 </html>
