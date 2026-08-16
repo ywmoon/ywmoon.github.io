@@ -1124,6 +1124,7 @@
       <div style="display: flex; gap: 8px; align-items: center;">
         <a class="btn-sm" id="editor-view-live-link" href="#" target="_blank" style="text-decoration:none;" title="블로그에서 실제 발행된 글 보기">🌐 블로그에서 보기</a>
         <button class="btn-sm" onclick="openVersionHistoryModal()" title="GitHub 이전 커밋 버전 조회 및 롤백">🕒 이전 버전 복원</button>
+        <button class="btn-sm" style="background:rgba(56,189,248,0.15);border-color:var(--blue);color:var(--blue);" onclick="refreshEditorFromRemote()" title="GitHub 원격 저장소의 최신 커밋 상태로 본문 새로고침">🔄 원격 새로고침</button>
         <button class="btn-sm" onclick="resetEditorToOriginal()" title="모달을 열었을 때의 원본 상태로 되돌리기">↩️ 원본 복구</button>
         <button class="btn-cancel" onclick="closeModal('markdown-editor-modal')">닫기</button>
         <button class="btn-save" id="editor-save-btn" onclick="saveMarkdownContent()">💾 GitHub 커밋 & 배포</button>
@@ -2415,6 +2416,38 @@ function redoEditor() {
     showToast('↪️ 다시 실행했습니다 (Redo)', '');
   } else {
     showToast('ℹ️ 다시 실행할 최신 기록이 없습니다.', '');
+  }
+}
+
+async function refreshEditorFromRemote() {
+  if (!editorPostId) return;
+
+  const currentVal = cmEditor ? cmEditor.getValue() : (document.getElementById('editor-content-textarea')?.value || '');
+  if (currentVal !== editorOriginalContent) {
+    const ok = confirm("⚠️ [GitHub 원격 최신본 새로고침]\n\nGitHub 원격 저장소의 최신 커밋 상태로 에디터 본문을 다시 불러옵니다.\n현재 작성 중인 저장되지 않은 수정 내용은 덮어씌워집니다.\n\n계속 진행하시겠습니까?");
+    if (!ok) return;
+  }
+
+  showToast('🔍 GitHub 원격 저장소에서 최신 본문 조회 중...', '');
+  try {
+    const mdPath = `data/posts/${editorPostId}.md`;
+    const file = await ghGet(mdPath);
+    editorFileSha = file.sha;
+    const raw = decodeURIComponent(escape(atob(file.content.replace(/\n/g, ''))));
+    
+    editorOriginalContent = raw;
+    if (cmEditor) {
+      cmEditor.setValue(raw);
+      cmEditor.clearHistory();
+      cmEditor.refresh();
+    } else {
+      document.getElementById('editor-content-textarea').value = raw;
+    }
+    pushEditorHistory(raw);
+    handleEditorInput(false);
+    showToast('🔄 GitHub 원격 저장소의 최신 버전으로 새로고침되었습니다!', 'success');
+  } catch (err) {
+    showToast('❌ 원격 최신본 조회 실패: ' + err.message, 'error');
   }
 }
 
