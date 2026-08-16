@@ -16,7 +16,7 @@ labels:
   - 오픈AI
   - SMR
   - 전력망
-updated: "2026-08-17 07:53"
+updated: "2026-08-17 07:56"
 ---
 
 <div style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Noto Sans KR', sans-serif; line-height: 1.8; color: #1E293B; max-width: 820px; margin: 0 auto; padding: 20px 10px;">
@@ -152,10 +152,5 @@ updated: "2026-08-17 07:53"
       </li>
     </ul>
   </section>
-
-  <!-- 에디터 브리프 푸터 -->
-  <div style="margin-top: 30px; padding-top: 18px; border-top: 1px solid #E2E8F0; font-size: 13px; color: #64748B; text-align: center;">
-    본 리포트는 글로벌 데이터센터 및 하이퍼스케일러 인프라 핵심 기사를 기술 에디터가 분석·재구성한 Daily Digest입니다.
-  </div>
 
 </div>
