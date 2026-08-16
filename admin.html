@@ -2228,10 +2228,15 @@ function openModal(id) {
 function closeModal(id) {
   document.getElementById(id).classList.remove('open');
 }
-document.querySelectorAll('.modal-backdrop').forEach(el => {
-  el.addEventListener('click', e => {
-    if (e.target === el) closeModal(el.id);
-  });
+
+// Close open modal only via ESC key or dedicated close/cancel buttons (prevent accidental backdrop clicks)
+document.addEventListener('keydown', e => {
+  if (e.key === 'Escape') {
+    const openModalEl = document.querySelector('.modal-backdrop.open');
+    if (openModalEl) {
+      closeModal(openModalEl.id);
+    }
+  }
 });
 
 // ═══════════════════════════════════════════════════════════════
