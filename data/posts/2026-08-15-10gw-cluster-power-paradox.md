@@ -2,7 +2,7 @@
 id: 2026-08-15-10gw-cluster-power-paradox
 title: "[테크 딥다이브] 10GW 기가와트급 AI 클러스터의 전력 역설과 '우로보로스 금융'의 한계: 엔비디아-오픈AI 오하이오 프로젝트 재조정 분석"
 date: 2026-08-15
-category: 테크 딥다이브
+category: Tech Deep Dive
 status: published
 summary: "Infrastructure Architecture Analysis 10GW 기가와트 스케일 AI 인프라의 물리적 장벽과 벤더 파이낸싱의 구조적 재편 오픈AI-엔비디아의 오하이오 10GW 프로젝트 보증액 절반 축소(2,500억→1,200억 달러)가 시사하는 하이퍼스케일 전력망 한계, 랙당 120kW 초고밀도 냉각 아키텍처, 그리고 AI 밸류체인 순환 출자의 "
 labels:
