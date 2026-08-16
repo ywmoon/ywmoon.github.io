@@ -773,15 +773,75 @@
     .CodeMirror-selected {
       background: rgba(56, 189, 248, 0.25) !important;
     }
+    .editor-pane-right-wrap {
+      display: flex;
+      flex-direction: column;
+      background: #E2E8F0;
+      min-width: 0;
+      min-height: 0;
+      overflow: hidden;
+    }
+    .preview-device-bar {
+      padding: 6px 14px;
+      background: var(--surface);
+      border-bottom: 1px solid var(--border);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-shrink: 0;
+    }
+    .preview-device-tabs {
+      display: flex;
+      gap: 4px;
+    }
+    .device-btn {
+      height: 24px;
+      padding: 0 10px;
+      font-size: 11.5px;
+      font-weight: 700;
+      border: 1px solid var(--border);
+      border-radius: 4px;
+      background: var(--surface2);
+      color: var(--text-muted);
+      cursor: pointer;
+      transition: all 0.15s;
+    }
+    .device-btn.active {
+      background: var(--blue);
+      color: #000;
+      border-color: var(--blue);
+    }
+    .preview-scroll-area {
+      flex: 1;
+      overflow-y: auto;
+      padding: 16px;
+      display: flex;
+      justify-content: center;
+    }
     .editor-pane-right {
-      padding: 24px;
-      overflow: auto;
+      width: 100%;
+      max-width: 100%;
+      min-height: 100%;
+      padding: 28px;
       background: #FFFFFF;
       color: #1E293B;
       font-family: var(--font);
       line-height: 1.8;
-      min-width: 0;
-      min-height: 0;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+      border-radius: 8px;
+      transition: max-width 0.25s ease, padding 0.25s ease;
+      box-sizing: border-box;
+    }
+    .editor-pane-right.mode-tablet {
+      max-width: 768px;
+      padding: 22px;
+      border: 2px solid #94A3B8;
+    }
+    .editor-pane-right.mode-mobile {
+      max-width: 375px;
+      padding: 16px;
+      border: 3px solid #64748B;
+      border-radius: 24px;
     }
     .editor-pane-right table {
       max-width: 100%;
@@ -791,6 +851,106 @@
     .editor-pane-right pre { background: #0F172A; color: #F8FAFC; padding: 14px; border-radius: 8px; overflow-x: auto; margin-bottom: 14px; font-family: var(--mono); font-size: 12.5px; }
     .editor-pane-right img { max-width: 100%; border-radius: 8px; margin: 12px 0; }
     .editor-pane-right blockquote { border-left: 4px solid var(--orange); padding-left: 14px; color: #475569; margin-bottom: 14px; }
+
+    /* Interactive Title Link */
+    .table-title-link {
+      color: var(--text);
+      text-decoration: none;
+      font-weight: 700;
+      transition: color 0.15s;
+      cursor: pointer;
+    }
+    .table-title-link:hover {
+      color: var(--orange) !important;
+      text-decoration: underline !important;
+    }
+
+    /* Monthly Calendar View Styles */
+    .calendar-container {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 20px;
+      margin-top: 16px;
+    }
+    .calendar-nav-bar {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 16px;
+    }
+    .calendar-month-title {
+      font-size: 17px;
+      font-weight: 800;
+      color: var(--text);
+    }
+    .calendar-grid {
+      display: grid;
+      grid-template-columns: repeat(7, 1fr);
+      gap: 6px;
+    }
+    .calendar-day-head {
+      text-align: center;
+      padding: 8px;
+      font-size: 12px;
+      font-weight: 700;
+      color: var(--text-muted);
+      background: var(--surface2);
+      border-radius: 4px;
+    }
+    .calendar-day-head.sun { color: var(--red); }
+    .calendar-day-head.sat { color: var(--blue); }
+    .calendar-cell {
+      min-height: 110px;
+      background: var(--bg);
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      padding: 8px;
+      display: flex;
+      flex-direction: column;
+      gap: 4px;
+      transition: border-color 0.15s;
+    }
+    .calendar-cell.other-month {
+      opacity: 0.35;
+      background: rgba(0,0,0,0.15);
+    }
+    .calendar-cell.today {
+      border-color: var(--orange);
+      box-shadow: 0 0 0 1px var(--orange);
+    }
+    .calendar-cell-date {
+      font-family: var(--mono);
+      font-size: 11.5px;
+      font-weight: 700;
+      color: var(--text-muted);
+      margin-bottom: 2px;
+    }
+    .calendar-post-chip {
+      background: var(--surface2);
+      border: 1px solid var(--border);
+      border-radius: 4px;
+      padding: 3px 6px;
+      font-size: 11px;
+      line-height: 1.3;
+      color: var(--text);
+      cursor: pointer;
+      display: flex;
+      flex-direction: column;
+      gap: 2px;
+      transition: all 0.15s;
+    }
+    .calendar-post-chip:hover {
+      border-color: var(--orange);
+      background: var(--surface);
+      transform: translateY(-1px);
+    }
+    .calendar-chip-title {
+      font-weight: 600;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
 
     .loading-spinner {
       display: inline-block;
@@ -940,14 +1100,18 @@
         </span>
       </div>
       <div style="display: flex; gap: 8px; align-items: center;">
-        <input type="text" class="admin-search" id="admin-search-input" placeholder="🔍 제목, 태그 검색..." oninput="renderTable()" />
+        <div style="display: flex; background: var(--surface2); border: 1px solid var(--border); border-radius: 6px; padding: 2px; gap: 2px;">
+          <button id="view-table-btn" class="tool-btn" style="background: var(--blue); color: #000; border: none;" onclick="switchMainView('table')">📋 테이블 뷰</button>
+          <button id="view-calendar-btn" class="tool-btn" style="background: transparent; color: var(--text-muted); border: none;" onclick="switchMainView('calendar')">📅 캘린더 뷰</button>
+        </div>
+        <input type="text" class="admin-search" id="admin-search-input" placeholder="🔍 제목, 태그 검색... (단축키: /)" oninput="renderCurrentView()" />
         <button class="btn-rebuild" style="background: rgba(34, 197, 94, 0.12); border-color: var(--green); color: var(--green);" onclick="syncAndRebuildIndex()" title="data/posts 폴더의 모든 .md 파일을 스캔하여 인덱스와 사이트맵을 100% 동기화합니다">⚡ 인덱스 전체 동기화</button>
         <button class="btn-rebuild" onclick="rebuildSitemap()">🔄 Sitemap 재생성</button>
       </div>
     </div>
 
-    <!-- Article Table -->
-    <div class="admin-table-wrap">
+    <!-- Article Table Wrap -->
+    <div class="admin-table-wrap" id="admin-table-wrap">
       <table class="admin-table">
         <thead>
           <tr>
@@ -958,7 +1122,7 @@
             <th>아티클 제목 & 요약</th>
             <th style="width: 105px;">SEO 진단</th>
             <th style="width: 85px;">상태</th>
-            <th style="width: 155px; text-align: right;">액션</th>
+            <th style="width: 185px; text-align: right;">액션</th>
           </tr>
         </thead>
         <tbody id="admin-table-body">
@@ -969,6 +1133,24 @@
           </tr>
         </tbody>
       </table>
+    </div>
+
+    <!-- Monthly Calendar View Container -->
+    <div id="admin-calendar-wrap" class="calendar-container" style="display: none;">
+      <div class="calendar-nav-bar">
+        <div style="display: flex; gap: 8px; align-items: center;">
+          <button class="btn-sm" onclick="navCalendarMonth(-1)">◀ 이전 달</button>
+          <button class="btn-sm" onclick="navCalendarToday()">오늘</button>
+          <button class="btn-sm" onclick="navCalendarMonth(1)">다음 달 ▶</button>
+        </div>
+        <div class="calendar-month-title" id="calendar-month-label">2026년 8월</div>
+        <div style="font-size: 12px; color: var(--text-muted);">
+          월간 발행: <span id="calendar-month-count" style="color: var(--blue); font-weight: 700;">0</span>건
+        </div>
+      </div>
+      <div class="calendar-grid" id="calendar-grid-cells">
+        <!-- Rendered dynamically -->
+      </div>
     </div>
 
   </div>
@@ -986,6 +1168,7 @@
         <span id="editor-stats-badge" style="font-size: 12px; color: var(--text-muted);">⏱️ 0자 / 약 0분</span>
       </div>
       <div style="display: flex; gap: 8px; align-items: center;">
+        <a class="btn-sm" id="editor-view-live-link" href="#" target="_blank" style="text-decoration:none;" title="블로그에서 실제 발행된 글 보기">🌐 블로그에서 보기</a>
         <button class="btn-sm" onclick="openVersionHistoryModal()" title="GitHub 이전 커밋 버전 조회 및 롤백">🕒 이전 버전 복원</button>
         <button class="btn-sm" onclick="resetEditorToOriginal()" title="모달을 열었을 때의 원본 상태로 되돌리기">↩️ 원본 복구</button>
         <button class="btn-cancel" onclick="closeModal('markdown-editor-modal')">닫기</button>
@@ -1001,6 +1184,9 @@
           <button class="tool-btn primary-tool" onclick="foldAllTags()" title="모든 HTML 태그 및 마크다운 섹션 일괄 접기">📦 태그 접기</button>
           <button class="tool-btn primary-tool" onclick="unfoldAllTags()" title="모든 태그 및 섹션 펼치기">📂 모두 펼치기</button>
           <span style="border-left: 1px solid var(--border); height: 18px; margin: 0 4px;"></span>
+          <button class="tool-btn" style="background:rgba(245,158,11,0.15);border-color:var(--yellow);color:var(--yellow);" onclick="standardizeTechTerms()" title="AWS, SMR, BESS, PUE 등 기술 용어 표기법 일괄 자동 교정">🔤 용어 교정</button>
+          <button class="tool-btn" style="background:rgba(168,85,247,0.15);border-color:var(--purple);color:var(--purple);" onclick="openAutoExtractModal()" title="본문을 분석하여 핵심 태그와 SEO 요약문을 자동 추출합니다">✨ 스마트 요약·태그</button>
+          <span style="border-left: 1px solid var(--border); height: 18px; margin: 0 4px;"></span>
           <button class="tool-btn" onclick="insertEditorText('**', '**')">B</button>
           <button class="tool-btn" onclick="insertEditorText('*', '*')">I</button>
           <button class="tool-btn" onclick="insertEditorText('## ', '')">H2</button>
@@ -1012,9 +1198,50 @@
         </div>
         <textarea id="editor-content-textarea" class="editor-textarea" oninput="handleEditorInput(true)" placeholder="YAML Frontmatter 및 Markdown 본문을 작성하세요..."></textarea>
       </div>
-      <div class="editor-pane-right" id="editor-preview-pane">
-        <!-- Live Markdown Rendering -->
+      <div class="editor-pane-right-wrap">
+        <div class="preview-device-bar">
+          <span style="font-size: 11.5px; font-weight: 700; color: #475569;">실시간 미리보기</span>
+          <div class="preview-device-tabs">
+            <button class="device-btn active" id="btn-device-desktop" onclick="setPreviewDevice('desktop')">🖥️ 데스크톱</button>
+            <button class="device-btn" id="btn-device-tablet" onclick="setPreviewDevice('tablet')">📟 태블릿</button>
+            <button class="device-btn" id="btn-device-mobile" onclick="setPreviewDevice('mobile')">📱 모바일 (375px)</button>
+          </div>
+        </div>
+        <div class="preview-scroll-area">
+          <div class="editor-pane-right" id="editor-preview-pane">
+            <!-- Live Markdown Rendering -->
+          </div>
+        </div>
       </div>
+    </div>
+  </div>
+</div>
+
+<!-- ═══════════════════════════════════════════════════════════════ -->
+<!-- MODAL: AUTO SUMMARY & TAG EXTRACTOR (스마트 요약 및 태그 추출)    -->
+<!-- ═══════════════════════════════════════════════════════════════ -->
+<div class="modal-backdrop" id="auto-extract-modal">
+  <div class="modal-card">
+    <div class="modal-title">
+      <span>✨ 스마트 메타데이터 자동 추출</span>
+      <button class="tool-btn" onclick="closeModal('auto-extract-modal')">✕</button>
+    </div>
+    <div style="font-size: 13px; color: var(--text-muted); margin-bottom: 16px; line-height: 1.5;">
+      본문 내용을 분석하여 인프라/클라우드 핵심 키워드와 검색엔진(SEO) 최적화 요약문을 자동으로 추출했습니다.
+    </div>
+    <div class="modal-field">
+      <label>추천 태그 (Labels)</label>
+      <input type="text" id="auto-extracted-tags" placeholder="AWS, 데이터센터, SMR, 전력망" />
+      <div style="font-size: 11.5px; color: var(--text-muted); margin-top: 4px;">쉼표로 구분하여 직접 추가하거나 수정할 수 있습니다.</div>
+    </div>
+    <div class="modal-field">
+      <label>추천 SEO 요약문 (Summary, 100~150자)</label>
+      <textarea id="auto-extracted-summary" rows="4" style="line-height: 1.5; font-size: 13.5px;" oninput="updateAutoExtractSummaryCount()"></textarea>
+      <div id="auto-extract-summary-len" style="font-size: 11.5px; color: var(--blue); margin-top: 4px; font-weight: 600;">0자</div>
+    </div>
+    <div class="modal-actions">
+      <button class="btn-cancel" onclick="closeModal('auto-extract-modal')">취소</button>
+      <button class="btn-save" onclick="applyAutoExtractedMetadata()">🚀 본문 Frontmatter에 즉시 적용</button>
     </div>
   </div>
 </div>
@@ -1537,6 +1764,151 @@ function getSeoHealthBadgeHtml(post) {
   return `<span class="health-badge health-good" title="요약문 및 태그 충족">✅ 양호</span>`;
 }
 
+let currentMainView = 'table';
+let calYear = new Date().getFullYear();
+let calMonth = new Date().getMonth(); // 0-indexed
+
+function switchMainView(viewType) {
+  currentMainView = viewType;
+  const btnTable = document.getElementById('view-table-btn');
+  const btnCal = document.getElementById('view-calendar-btn');
+  const wrapTable = document.getElementById('admin-table-wrap');
+  const wrapCal = document.getElementById('admin-calendar-wrap');
+
+  if (viewType === 'table') {
+    btnTable.style.background = 'var(--blue)';
+    btnTable.style.color = '#000';
+    btnCal.style.background = 'transparent';
+    btnCal.style.color = 'var(--text-muted)';
+    wrapTable.style.display = 'block';
+    wrapCal.style.display = 'none';
+    renderTable();
+  } else {
+    btnCal.style.background = 'var(--blue)';
+    btnCal.style.color = '#000';
+    btnTable.style.background = 'transparent';
+    btnTable.style.color = 'var(--text-muted)';
+    wrapTable.style.display = 'none';
+    wrapCal.style.display = 'block';
+    renderCalendar();
+  }
+}
+
+function renderCurrentView() {
+  if (currentMainView === 'calendar') {
+    renderCalendar();
+  } else {
+    renderTable();
+  }
+}
+
+function navCalendarMonth(delta) {
+  calMonth += delta;
+  if (calMonth < 0) {
+    calMonth = 11;
+    calYear--;
+  } else if (calMonth > 11) {
+    calMonth = 0;
+    calYear++;
+  }
+  renderCalendar();
+}
+
+function navCalendarToday() {
+  calYear = new Date().getFullYear();
+  calMonth = new Date().getMonth();
+  renderCalendar();
+}
+
+function renderCalendar() {
+  const searchQ = (document.getElementById('admin-search-input')?.value || '').toLowerCase();
+  const monthLabel = document.getElementById('calendar-month-label');
+  const monthCount = document.getElementById('calendar-month-count');
+  const gridCells = document.getElementById('calendar-grid-cells');
+  if (!gridCells) return;
+
+  monthLabel.textContent = `${calYear}년 ${calMonth + 1}월`;
+
+  const firstDay = new Date(calYear, calMonth, 1).getDay(); // 0=Sun
+  const lastDate = new Date(calYear, calMonth + 1, 0).getDate();
+  const prevLastDate = new Date(calYear, calMonth, 0).getDate();
+
+  const todayStr = new Date().toISOString().split('T')[0];
+
+  // Map posts for current month
+  let monthlyPostCount = 0;
+  const postsByDate = {};
+  allPosts.forEach(p => {
+    if (!p.date) return;
+    const [py, pm, pd] = p.date.split('-').map(Number);
+    if (py === calYear && pm === (calMonth + 1)) {
+      if (searchQ) {
+        const inTitle = (p.title || '').toLowerCase().includes(searchQ);
+        const inSummary = (p.summary || '').toLowerCase().includes(searchQ);
+        const inTags = (p.labels || []).some(t => t.toLowerCase().includes(searchQ));
+        if (!inTitle && !inSummary && !inTags) return;
+      }
+      if (!postsByDate[p.date]) postsByDate[p.date] = [];
+      postsByDate[p.date].push(p);
+      monthlyPostCount++;
+    }
+  });
+
+  monthCount.textContent = monthlyPostCount;
+
+  let html = `
+    <div class="calendar-day-head sun">일 (Sun)</div>
+    <div class="calendar-day-head">월 (Mon)</div>
+    <div class="calendar-day-head">화 (Tue)</div>
+    <div class="calendar-day-head">수 (Wed)</div>
+    <div class="calendar-day-head">목 (Thu)</div>
+    <div class="calendar-day-head">금 (Fri)</div>
+    <div class="calendar-day-head sat">토 (Sat)</div>
+  `;
+
+  // Previous month trailing days
+  for (let i = firstDay - 1; i >= 0; i--) {
+    const d = prevLastDate - i;
+    html += `<div class="calendar-cell other-month"><div class="calendar-cell-date">${d}</div></div>`;
+  }
+
+  // Current month days
+  for (let d = 1; d <= lastDate; d++) {
+    const dStr = String(d).padStart(2, '0');
+    const mStr = String(calMonth + 1).padStart(2, '0');
+    const fullDate = `${calYear}-${mStr}-${dStr}`;
+    const isToday = fullDate === todayStr;
+    const dayPosts = postsByDate[fullDate] || [];
+
+    const postsHtml = dayPosts.map(p => {
+      const catNorm = CAT_NORMALIZE[p.category] || p.category || 'Daily Briefing';
+      const catEmoji = { 'Daily Briefing':'📋', 'Tech Deep Dive':'🔬', 'Terminology':'💡', 'Podcast':'🎧', 'Newsletter':'📧' }[catNorm] || '📄';
+      return `
+        <div class="calendar-post-chip" onclick="openMarkdownEditor('${p.id}')" title="[${catNorm}] ${p.title} (클릭하여 에디터 열기)">
+          <div style="font-size: 10px; color: var(--blue);">${catEmoji} ${catNorm}</div>
+          <div class="calendar-chip-title">${p.title}</div>
+        </div>
+      `;
+    }).join('');
+
+    html += `
+      <div class="calendar-cell ${isToday ? 'today' : ''}">
+        <div class="calendar-cell-date" style="${isToday ? 'color:var(--orange);font-weight:800;' : ''}">${d} ${isToday ? '오늘' : ''}</div>
+        ${postsHtml}
+      </div>
+    `;
+  }
+
+  // Next month leading days to complete grid
+  const totalCells = firstDay + lastDate;
+  const remaining = (7 - (totalCells % 7)) % 7;
+  for (let d = 1; d <= remaining; d++) {
+    html += `<div class="calendar-cell other-month"><div class="calendar-cell-date">${d}</div></div>`;
+  }
+
+  gridCells.innerHTML = html;
+}
+
 function renderTable() {
   const searchQ = (document.getElementById('admin-search-input')?.value || '').toLowerCase();
 
@@ -1598,7 +1970,9 @@ function renderTable() {
       <td style="font-family:var(--mono);font-size:12px;color:var(--text-muted)">${p.date}</td>
       <td>${getCategoryBadgeHtml(p.category)}</td>
       <td>
-        <div style="font-weight:600;line-height:1.4;margin-bottom:3px;">${p.title}</div>
+        <div style="font-weight:700;line-height:1.4;margin-bottom:3px;">
+          <a href="javascript:void(0)" class="table-title-link" onclick="openMarkdownEditor('${p.id}')" title="클릭하여 마크다운 본문 에디터 열기">${p.title}</a>
+        </div>
         <div style="font-size:12px;color:var(--text-muted);line-height:1.4;max-width:550px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;margin-bottom:6px;">${p.summary || '요약문 없음'}</div>
         <div class="tag-chips-wrap">
           ${(p.labels && p.labels.length > 0)
@@ -1611,7 +1985,9 @@ function renderTable() {
       <td style="text-align:right;">
         <button class="action-btn edit-md" title="마크다운 본문 에디터 열기" onclick="openMarkdownEditor('${p.id}')">📝</button>
         <button class="action-btn edit" title="메타데이터 수정" onclick="openEditModal('${p.id}')">✏️</button>
+        <button class="action-btn clone" title="오늘 날짜로 아티클 템플릿/본문 복제" onclick="clonePost('${p.id}')">📋</button>
         <button class="action-btn linkedin" title="LinkedIn 맞춤형 포스팅 서식 복사" onclick="openLinkedInModal('${p.id}')">💼</button>
+        <a class="action-btn" href="https://ywmoon.github.io/#article/${p.id}" target="_blank" title="블로그에서 실제 글 새 탭으로 보기" style="text-decoration:none;display:inline-flex;align-items:center;justify-content:center;">🌐</a>
         <button class="action-btn toggle" title="${toggleTitle}" onclick="toggleStatus('${p.id}')">${toggleIcon}</button>
         <button class="action-btn delete" title="삭제" onclick="openDeleteModal('${p.id}')">🗑️</button>
       </td>
@@ -1619,6 +1995,49 @@ function renderTable() {
   }).join('');
 
   updateBulkBar();
+}
+
+async function clonePost(sourceId) {
+  const post = allPosts.find(p => p.id === sourceId);
+  if (!post) return;
+
+  const today = new Date().toISOString().split('T')[0];
+  const sourceSlug = sourceId.replace(/^\d{4}-\d{2}-\d{2}-?/, '');
+  const newId = `${today}-${sourceSlug}-copy`;
+
+  showToast(`⏳ 아티클 복제 준비 중... (${sourceId})`, '');
+  try {
+    const mdPath = post.content_file || `data/posts/${sourceId}.md`;
+    const file = await ghGet(mdPath);
+    const raw = decodeURIComponent(escape(atob(file.content.replace(/\n/g, ''))));
+
+    // Update ID & Date in frontmatter
+    let newContent = raw
+      .replace(/^id:\s*.+$/m, `id: ${newId}`)
+      .replace(/^date:\s*.+$/m, `date: ${today}`)
+      .replace(/^title:\s*["']?(.*?)["']?$/m, `title: "[복제] $1"`);
+
+    const newMdPath = `data/posts/${newId}.md`;
+    await ghPut(newMdPath, newContent, `Clone post from ${sourceId} to ${newId}`);
+
+    // Add to allPosts
+    const clonedPost = {
+      ...post,
+      id: newId,
+      title: `[복제] ${post.title}`,
+      date: today,
+      content_file: newMdPath
+    };
+    allPosts.unshift(clonedPost);
+    await savePostsJson(`Add cloned article: ${newId}`);
+
+    updateStats();
+    renderCurrentView();
+    showToast(`🎉 아티클이 복제되었습니다! 에디터를 엽니다.`, 'success');
+    openMarkdownEditor(newId);
+  } catch (err) {
+    showToast('❌ 아티클 복제 실패: ' + err.message, 'error');
+  }
 }
 
 // ═══════════════════════════════════════════════════════════════
@@ -1789,6 +2208,9 @@ async function openMarkdownEditor(id) {
   document.getElementById('editor-article-id').textContent = id;
   document.getElementById('editor-preview-pane').innerHTML = '<p style="color:#64748B;">렌더링 준비 중...</p>';
   
+  const liveLink = document.getElementById('editor-view-live-link');
+  if (liveLink) liveLink.href = `https://ywmoon.github.io/#article/${id}`;
+
   // Reset undo/redo history
   editorHistory = [];
   editorHistoryIdx = -1;
@@ -1818,6 +2240,191 @@ async function openMarkdownEditor(id) {
   } catch (e) {
     showToast('❌ 마크다운 파일 로드 실패: ' + e.message, 'error');
   }
+}
+
+function setPreviewDevice(mode) {
+  const pane = document.getElementById('editor-preview-pane');
+  if (!pane) return;
+
+  pane.classList.remove('mode-desktop', 'mode-tablet', 'mode-mobile');
+  document.querySelectorAll('.device-btn').forEach(b => b.classList.remove('active'));
+
+  if (mode === 'tablet') {
+    pane.classList.add('mode-tablet');
+    document.getElementById('btn-device-tablet')?.classList.add('active');
+  } else if (mode === 'mobile') {
+    pane.classList.add('mode-mobile');
+    document.getElementById('btn-device-mobile')?.classList.add('active');
+  } else {
+    document.getElementById('btn-device-desktop')?.classList.add('active');
+  }
+}
+
+// ═══════════════════════════════════════════════════════════════
+// FEATURE: TECH TERM STANDARDIZER (기술 전문 용어 표기법 일괄 교정)
+// ═══════════════════════════════════════════════════════════════
+function standardizeTechTerms() {
+  if (!cmEditor) return;
+  const raw = cmEditor.getValue();
+
+  const termRules = [
+    { pattern: /\baws\b/gi, target: 'AWS' },
+    { pattern: /\bgcp\b/gi, target: 'GCP' },
+    { pattern: /\bms\s*azure\b/gi, target: 'Microsoft Azure' },
+    { pattern: /\bsmr\b/gi, target: 'SMR' },
+    { pattern: /\bbess\b/gi, target: 'BESS' },
+    { pattern: /\bpue\b/gi, target: 'PUE' },
+    { pattern: /\btco\b/gi, target: 'TCO' },
+    { pattern: /\bhbm\b/gi, target: 'HBM' },
+    { pattern: /\bgpus?\b/gi, target: 'GPU' },
+    { pattern: /\bllms?\b/gi, target: 'LLM' },
+    { pattern: /\bk8s\b/gi, target: 'Kubernetes' },
+    { pattern: /\bidc\b/gi, target: 'IDC' },
+    { pattern: /\bvmware\b/gi, target: 'VMware' },
+    { pattern: /\bdatacenter\b/gi, target: '데이터센터' },
+    { pattern: /\bdata\s*center\b/gi, target: '데이터센터' }
+  ];
+
+  let modified = raw;
+  let replaceCount = 0;
+
+  termRules.forEach(rule => {
+    const matches = modified.match(rule.pattern);
+    if (matches) {
+      matches.forEach(m => {
+        if (m !== rule.target) {
+          replaceCount++;
+        }
+      });
+      modified = modified.replace(rule.pattern, rule.target);
+    }
+  });
+
+  if (replaceCount > 0) {
+    cmEditor.setValue(modified);
+    handleEditorInput(true);
+    showToast(`🔤 총 ${replaceCount}건의 기술 약어/용어를 표준 표기법으로 교정했습니다!`, 'success');
+  } else {
+    showToast('✨ 모든 주요 기술 용어 표기가 이미 표준화되어 있습니다.', 'success');
+  }
+}
+
+// ═══════════════════════════════════════════════════════════════
+// FEATURE: SMART AUTO SUMMARY & TAG EXTRACTOR
+// ═══════════════════════════════════════════════════════════════
+function openAutoExtractModal() {
+  const raw = cmEditor ? cmEditor.getValue() : (document.getElementById('editor-content-textarea')?.value || '');
+  if (!raw || raw.trim().length === 0) {
+    showToast('⚠️ 분석할 본문 내용이 없습니다.', 'warn');
+    return;
+  }
+
+  // Parse body
+  const match = raw.match(/^---\n([\s\S]*?)\n---\n?([\s\S]*)$/);
+  const body = match ? match[2] : raw;
+
+  // Clean HTML/Markdown to plain text
+  const plainText = body
+    .replace(/<style[^>]*>[\s\S]*?<\/style>/gi, '')
+    .replace(/<[^>]+>/g, ' ')
+    .replace(/[#*`_\[\]()>-]/g, ' ')
+    .replace(/\s+/g, ' ')
+    .trim();
+
+  // DC / Cloud Domain Vocabulary Dictionary
+  const domainDict = [
+    'AWS', 'Azure', 'GCP', '클라우드', '데이터센터', 'SMR', 'BESS', '액침냉각', 'AI인프라',
+    '전력망', 'HBM', '하이퍼스케일', '원자력', 'PUE', 'TCO', '엔비디아', 'GPU', 'LLM',
+    '냉각시스템', '인프라', 'IDC', '서버', '인공지능', '신재생에너지', '전력', '인프라옵스',
+    '기저부하', '친환경에너지', '메모리', '네트워크', '스토리지', '가상화', '쿠버네티스'
+  ];
+
+  // Frequency analysis
+  const foundKeywords = [];
+  domainDict.forEach(kw => {
+    const reg = new RegExp(kw.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'), 'gi');
+    const cnt = (plainText.match(reg) || []).length;
+    if (cnt > 0) {
+      foundKeywords.push({ keyword: kw, count: cnt });
+    }
+  });
+
+  foundKeywords.sort((a, b) => b.count - a.count);
+  const topTags = foundKeywords.slice(0, 5).map(k => k.keyword);
+
+  // Extract Summary (100~150 chars from high-density lead sentences)
+  const sentences = plainText
+    .split(/(?<=[.?!])\s+/)
+    .map(s => s.trim())
+    .filter(s => s.length > 25 && !s.startsWith('http'));
+
+  let summaryCand = '';
+  for (let s of sentences) {
+    if ((summaryCand + ' ' + s).length <= 150) {
+      summaryCand += (summaryCand ? ' ' : '') + s;
+    } else {
+      if (!summaryCand) summaryCand = s.substring(0, 140) + '...';
+      break;
+    }
+  }
+
+  if (!summaryCand && plainText.length > 0) {
+    summaryCand = plainText.substring(0, 140) + '...';
+  }
+
+  document.getElementById('auto-extracted-tags').value = topTags.join(', ');
+  document.getElementById('auto-extracted-summary').value = summaryCand;
+  updateAutoExtractSummaryCount();
+
+  openModal('auto-extract-modal');
+}
+
+function updateAutoExtractSummaryCount() {
+  const txt = document.getElementById('auto-extracted-summary')?.value || '';
+  const lenEl = document.getElementById('auto-extract-summary-len');
+  if (lenEl) lenEl.textContent = `${txt.length}자 ${txt.length >= 50 && txt.length <= 160 ? '✅ (SEO 적정 분량)' : ''}`;
+}
+
+function applyAutoExtractedMetadata() {
+  const newTags = (document.getElementById('auto-extracted-tags')?.value || '')
+    .split(',')
+    .map(t => t.trim())
+    .filter(Boolean);
+  const newSummary = (document.getElementById('auto-extracted-summary')?.value || '').trim();
+
+  if (!cmEditor) return;
+  const raw = cmEditor.getValue();
+  const match = raw.match(/^---\n([\s\S]*?)\n---\n?([\s\S]*)$/);
+
+  if (!match) {
+    showToast('⚠️ Frontmatter 형식을 찾을 수 없습니다.', 'error');
+    return;
+  }
+
+  let fm = match[1];
+  const body = match[2];
+
+  // Update summary in frontmatter
+  if (/^summary:\s*.*$/m.test(fm)) {
+    fm = fm.replace(/^summary:\s*.*$/m, `summary: "${newSummary.replace(/"/g, '\\"')}"`);
+  } else {
+    fm += `\nsummary: "${newSummary.replace(/"/g, '\\"')}"`;
+  }
+
+  // Update labels in frontmatter
+  const labelsYaml = newTags.length > 0 ? `labels:\n` + newTags.map(t => `  - ${t}`).join('\n') : `labels: []`;
+  if (/^labels:[\s\S]*?(?=\n[a-z_]+:|$)/m.test(fm)) {
+    fm = fm.replace(/^labels:[\s\S]*?(?=\n[a-z_]+:|$)/m, labelsYaml);
+  } else {
+    fm += `\n` + labelsYaml;
+  }
+
+  const updatedContent = `---\n${fm.trim()}\n---\n\n${body.trim()}\n`;
+  cmEditor.setValue(updatedContent);
+  handleEditorInput(true);
+  closeModal('auto-extract-modal');
+
+  showToast('✨ 추천 태그와 SEO 요약문이 본문 Frontmatter에 성공적으로 주입되었습니다!', 'success');
 }
 
 function foldAllTags() {
@@ -2596,12 +3203,25 @@ function closeModal(id) {
   document.getElementById(id).classList.remove('open');
 }
 
-// Global keyboard shortcuts: ESC to close modals, Cmd+Z / Cmd+Shift+Z for editor undo/redo
+// Global keyboard shortcuts: ESC to close modals, Cmd+Z/Shift+Z for undo/redo, / or Cmd+K for search
 document.addEventListener('keydown', e => {
   if (e.key === 'Escape') {
     const openModalEl = document.querySelector('.modal-backdrop.open');
     if (openModalEl) {
       closeModal(openModalEl.id);
+    }
+  }
+
+  // Search shortcut (/ or Cmd+K) when not typing inside an input
+  if ((e.key === '/' || ((e.metaKey || e.ctrlKey) && e.key.toLowerCase() === 'k')) && !['INPUT', 'TEXTAREA'].includes(document.activeElement.tagName)) {
+    const openModalEl = document.querySelector('.modal-backdrop.open');
+    if (!openModalEl) {
+      e.preventDefault();
+      const searchInput = document.getElementById('admin-search-input');
+      if (searchInput) {
+        searchInput.focus();
+        searchInput.select();
+      }
     }
   }
 
