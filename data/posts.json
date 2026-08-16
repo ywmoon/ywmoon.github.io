@@ -148,7 +148,13 @@
     "date": "2026-08-14",
     "time": "07:40",
     "category": "Newsletter",
-    "labels": [],
+    "labels": [
+      "AWS",
+      "데이터센터",
+      "클라우드",
+      "AI인프라",
+      "뉴스레터"
+    ],
     "summary": "Datacenter & Cloud Industry InfraOps Daily (2-Column) DAILY DIGEST Datacenter & Cloud Industry InfraOps Daily 2026년 08월 14일 (금) 💡 AI Executive Summary: Key News Insights 글로벌 빅테크의 AI 컴퓨팅 주도권 확보전이 단순 설비",
     "status": "published",
     "content_file": "data/posts/2026-08-14-dc-infraops-trends-report.md"
@@ -159,7 +165,13 @@
     "date": "2026-08-13",
     "time": "07:40",
     "category": "Newsletter",
-    "labels": [],
+    "labels": [
+      "AWS",
+      "데이터센터",
+      "클라우드",
+      "AI인프라",
+      "뉴스레터"
+    ],
     "summary": "Datacenter & Cloud Industry InfraOps Daily (2-Column) DAILY DIGEST Datacenter & Cloud Industry InfraOps Daily 2026년 08월 13일 (목) 💡 AI Executive Summary: Key News Insights 글로벌 빅테크의 AI 컴퓨팅 주도권 경쟁이 심화되는 가",
     "status": "published",
     "content_file": "data/posts/2026-08-13-dc-infraops-trends-report.md"
