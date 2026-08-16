@@ -19,6 +19,11 @@ document.addEventListener('DOMContentLoaded', () => {
   loadPosts();
   window.addEventListener('hashchange', handleHashRoute);
   
+  // Register Service Worker for PWA (Feature 4)
+  if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.register('sw.js').catch(() => {});
+  }
+
   // Reading Progress Bar & Back to Top Scroll Listener
   window.addEventListener('scroll', () => {
     const winScroll = document.documentElement.scrollTop || document.body.scrollTop;
@@ -34,6 +39,73 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   });
 });
+
+// ─── Bookmark Management (Feature 2) ──────────────────────────────
+function getBookmarks() {
+  try {
+    return JSON.parse(localStorage.getItem('dc_bookmarks') || '[]');
+  } catch (e) {
+    return [];
+  }
+}
+
+function isBookmarked(id) {
+  return getBookmarks().includes(id);
+}
+
+function toggleBookmark(id, e) {
+  if (e) e.stopPropagation();
+  let bookmarks = getBookmarks();
+  let added = false;
+  if (bookmarks.includes(id)) {
+    bookmarks = bookmarks.filter(b => b !== id);
+  } else {
+    bookmarks.push(id);
+    added = true;
+  }
+  localStorage.setItem('dc_bookmarks', JSON.stringify(bookmarks));
+  updateCategoryTabCounts();
+  updateBookmarkButtons();
+  showToast(added ? '⭐ 북마크에 저장되었습니다!' : '⭐ 북마크가 해제되었습니다.');
+  if (currentCategory === 'BOOKMARKS') {
+    applyFilters();
+  }
+}
+
+function toggleCurrentArticleBookmark() {
+  const hash = window.location.hash;
+  if (hash.startsWith('#article/')) {
+    const id = hash.replace('#article/', '');
+    toggleBookmark(id);
+    updateReaderBookmarkButton(id);
+  }
+}
+
+function updateReaderBookmarkButton(id) {
+  const btn = document.getElementById('reader-bookmark-btn');
+  const icon = document.getElementById('reader-bookmark-icon');
+  const text = document.getElementById('reader-bookmark-text');
+  if (!btn || !icon || !text) return;
+  const bookmarked = isBookmarked(id);
+  if (bookmarked) {
+    btn.classList.add('bookmarked');
+    icon.textContent = '★';
+    text.textContent = '저장됨';
+  } else {
+    btn.classList.remove('bookmarked');
+    icon.textContent = '⭐';
+    text.textContent = '북마크';
+  }
+}
+
+function updateBookmarkButtons() {
+  document.querySelectorAll('.dc-card-bookmark-btn').forEach(btn => {
+    const id = btn.getAttribute('data-id');
+    const active = isBookmarked(id);
+    btn.classList.toggle('active', active);
+    btn.textContent = active ? '★' : '☆';
+  });
+}
 
 // ─── Power User Keyboard Shortcuts (Feature C) ────────────────────
 function initShortcuts() {
@@ -445,7 +517,10 @@ async function openArticleView(articleId) {
   // 2. Apply reader font size
   applyReaderFontSize();
 
-  // 3. Build Table of Contents (TOC)
+  // 3. Update Reader Bookmark State (Feature 2)
+  updateReaderBookmarkButton(post.id);
+
+  // 4. Build Table of Contents (TOC)
   buildTableOfContents(bodyEl);
 
   // 4. Setup 1-Click Code Block Copy Buttons (Feature D)
@@ -738,13 +813,15 @@ function matchCategory(postCat, filterCat) {
 
 function updateCategoryTabCounts() {
   const published = allPosts.filter(p => (p.status || 'published') === 'published');
+  const bookmarks = getBookmarks();
   const counts = {
     all: published.length,
     briefing: published.filter(p => matchCategory(p.category, 'Daily Briefing')).length,
     deepdive: published.filter(p => matchCategory(p.category, 'Tech Deep Dive')).length,
     glossary: published.filter(p => matchCategory(p.category, 'Terminology')).length,
     podcast: published.filter(p => matchCategory(p.category, 'Podcast')).length,
-    newsletter: published.filter(p => matchCategory(p.category, 'Newsletter')).length
+    newsletter: published.filter(p => matchCategory(p.category, 'Newsletter')).length,
+    bookmarks: published.filter(p => bookmarks.includes(p.id)).length
   };
   
   const elAll = document.getElementById('count-all');
@@ -759,13 +836,20 @@ function updateCategoryTabCounts() {
   if (elPodcast) elPodcast.textContent = counts.podcast;
   const elNewsletter = document.getElementById('count-newsletter');
   if (elNewsletter) elNewsletter.textContent = counts.newsletter;
+  const elBookmarks = document.getElementById('count-bookmarks');
+  if (elBookmarks) elBookmarks.textContent = counts.bookmarks;
 }
 
 // ─── Filtering ────────────────────────────────────────────────────
 function applyFilters() {
+  const bookmarks = getBookmarks();
   filteredPosts = allPosts.filter(post => {
     if ((post.status || 'published') !== 'published') return false;
-    if (!matchCategory(post.category, currentCategory)) return false;
+    if (currentCategory === 'BOOKMARKS') {
+      if (!bookmarks.includes(post.id)) return false;
+    } else {
+      if (!matchCategory(post.category, currentCategory)) return false;
+    }
     if (currentTag && !(post.labels || []).includes(currentTag)) return false;
     if (currentArchive && !(post.date || '').startsWith(currentArchive)) return false;
     if (searchQuery) {
@@ -896,11 +980,15 @@ function renderPostCards() {
   container.innerHTML = visible.map(post => {
     const displayTitle = highlightText(post.title, searchQuery);
     const displaySummary = highlightText(post.summary || '', searchQuery);
+    const bookmarked = isBookmarked(post.id);
     return `
     <div class="dc-post-card" onclick="window.location.hash='#article/${post.id}'">
       <div class="dc-card-top">
         <span class="dc-card-cat">${post.category || 'Daily Briefing'}</span>
-        <span class="dc-card-date">${post.date}${post.time ? ' ' + post.time : ''}</span>
+        <div class="dc-card-top-right">
+          <span class="dc-card-date">${post.date}${post.time ? ' ' + post.time : ''}</span>
+          <button class="dc-card-bookmark-btn ${bookmarked ? 'active' : ''}" data-id="${post.id}" onclick="toggleBookmark('${post.id}', event)" title="북마크 저장/해제">${bookmarked ? '★' : '☆'}</button>
+        </div>
       </div>
       <h3 class="dc-card-title">${displayTitle}</h3>
       <p class="dc-card-summary">${displaySummary}</p>
