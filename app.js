@@ -59,8 +59,20 @@ async function loadPosts() {
   try {
     const res = await fetch('data/posts.json?_t=' + Date.now());
     if (!res.ok) throw new Error('Failed to load posts');
-    allPosts = await res.json();
-    allPosts.sort((a, b) => new Date(b.date) - new Date(a.date));
+    const CAT_PRIORITY = {
+      '데일리 브리핑': 1,
+      '테크 딥다이브': 2,
+      '용어사전': 3,
+      '팟캐스트': 4,
+      '데일리 뉴스레터': 5
+    };
+    allPosts.sort((a, b) => {
+      if (a.date !== b.date) return new Date(b.date) - new Date(a.date);
+      const pA = CAT_PRIORITY[a.category] || 99;
+      const pB = CAT_PRIORITY[b.category] || 99;
+      if (pA !== pB) return pA - pB;
+      return (b.time || '').localeCompare(a.time || '');
+    });
     filteredPosts = [...allPosts];
     populateNavDropdowns();
     handleHashRoute();
@@ -211,7 +223,8 @@ async function openArticleView(articleId) {
   const reader = document.getElementById('article-reader-section');
   reader.style.display = 'block';
 
-  document.getElementById('reader-meta-date').textContent = post.date || '';
+  const timeBadge = post.time ? ` ${post.time} KST` : '';
+  document.getElementById('reader-meta-date').textContent = `${post.date || ''}${timeBadge}`;
   document.getElementById('reader-title').textContent = post.title || '';
   document.getElementById('reader-badges').innerHTML = `
     <span class="dc-card-cat">${post.category || '인프라'}</span>
@@ -320,7 +333,7 @@ function renderPostCards() {
     <div class="dc-post-card" onclick="window.location.hash='#article/${post.id}'">
       <div class="dc-card-top">
         <span class="dc-card-cat">${post.category || '인프라'}</span>
-        <span class="dc-card-date">${post.date}</span>
+        <span class="dc-card-date">${post.date}${post.time ? ' ' + post.time : ''}</span>
       </div>
       <h3 class="dc-card-title">${post.title}</h3>
       <p class="dc-card-summary">${post.summary || ''}</p>
@@ -343,7 +356,10 @@ function renderDirectoryTable() {
   tbody.innerHTML = visible.map((post, idx) => `
     <tr>
       <td style="font-weight:700;color:var(--text-muted);">${visible.length - idx}</td>
-      <td style="font-family:var(--font-mono);font-size:12.5px;">${post.date}</td>
+      <td style="font-family:var(--font-mono);font-size:12px;white-space:nowrap;">
+        <div>${post.date}</div>
+        ${post.time ? `<div style="color:var(--text-muted);font-size:11px;">${post.time}</div>` : ''}
+      </td>
       <td><span class="dc-card-cat">${post.category}</span></td>
       <td><strong style="cursor:pointer;" onclick="window.location.hash='#article/${post.id}'">${post.title}</strong></td>
       <td><div style="display:flex;flex-wrap:wrap;gap:4px;">${(post.labels||[]).slice(0,3).map(l=>`<span class="dc-tag-pill">#${l}</span>`).join('')}</div></td>
