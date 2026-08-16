@@ -138,6 +138,38 @@ async function loadArticleContent(post) {
   }
 }
 
+// ─── Mobile Menu & Drawer Controls ────────────────────────────────
+function toggleMobileMenu() {
+  const btn = document.getElementById('mobile-menu-toggle-btn');
+  const drawer = document.getElementById('mobile-drawer');
+  if (!drawer || !btn) return;
+  const isOpen = drawer.classList.contains('open');
+  if (isOpen) {
+    closeMobileMenu();
+  } else {
+    drawer.classList.add('open');
+    btn.classList.add('active');
+    btn.setAttribute('aria-label', '메뉴 닫기');
+  }
+}
+
+function closeMobileMenu() {
+  const btn = document.getElementById('mobile-menu-toggle-btn');
+  const drawer = document.getElementById('mobile-drawer');
+  if (drawer) drawer.classList.remove('open');
+  if (btn) {
+    btn.classList.remove('active');
+    btn.setAttribute('aria-label', '메뉴 열기');
+  }
+}
+
+function toggleMobileAccordion(contentId, triggerBtn) {
+  const accordion = triggerBtn.closest('.dc-mobile-accordion');
+  if (accordion) {
+    accordion.classList.toggle('open');
+  }
+}
+
 // ─── Navigation Dropdowns ─────────────────────────────────────────
 function populateNavDropdowns() {
   const archiveCounts = {};
@@ -150,6 +182,7 @@ function populateNavDropdowns() {
     (post.labels || []).forEach(t => { tagCounts[t] = (tagCounts[t] || 0) + 1; });
   });
 
+  // Desktop Dropdowns
   const archiveMenu = document.getElementById('archive-dropdown-menu');
   if (archiveMenu) {
     archiveMenu.innerHTML = Object.keys(archiveCounts).sort().reverse().map(ym => `
@@ -162,6 +195,24 @@ function populateNavDropdowns() {
   if (tagMenu) {
     tagMenu.innerHTML = Object.entries(tagCounts).sort((a,b)=>b[1]-a[1]).map(([tag, cnt]) => `
       <div class="dc-dropdown-item" onclick="filterTag('${tag}')">
+        <span>🏷️ ${tag}</span>
+        <span class="dc-dropdown-count">${cnt}</span>
+      </div>`).join('');
+  }
+
+  // Mobile Accordion Contents
+  const mobArchiveMenu = document.getElementById('mob-archive-content');
+  if (mobArchiveMenu) {
+    mobArchiveMenu.innerHTML = Object.keys(archiveCounts).sort().reverse().map(ym => `
+      <div class="dc-dropdown-item" onclick="filterArchive('${ym}'); closeMobileMenu();">
+        <span>📅 ${ym.replace('-', '년 ')}월</span>
+        <span class="dc-dropdown-count">${archiveCounts[ym]}</span>
+      </div>`).join('');
+  }
+  const mobTagMenu = document.getElementById('mob-tag-content');
+  if (mobTagMenu) {
+    mobTagMenu.innerHTML = Object.entries(tagCounts).sort((a,b)=>b[1]-a[1]).map(([tag, cnt]) => `
+      <div class="dc-dropdown-item" onclick="filterTag('${tag}'); closeMobileMenu();">
         <span>🏷️ ${tag}</span>
         <span class="dc-dropdown-count">${cnt}</span>
       </div>`).join('');
@@ -410,9 +461,16 @@ function showToast(msg) {
 }
 
 function updateNavActiveState(activeId) {
-  document.querySelectorAll('.dc-nav-btn').forEach(btn => btn.classList.remove('active'));
+  document.querySelectorAll('.dc-nav-btn, .dc-mobile-nav-item').forEach(btn => btn.classList.remove('active'));
   const el = document.getElementById(activeId);
   if (el) el.classList.add('active');
+  if (activeId === 'nav-home-btn') {
+    const mobHome = document.getElementById('mob-nav-home');
+    if (mobHome) mobHome.classList.add('active');
+  } else if (activeId === 'nav-table-btn') {
+    const mobTable = document.getElementById('mob-nav-table');
+    if (mobTable) mobTable.classList.add('active');
+  }
 }
 
 const CAT_ALIAS = {
@@ -516,15 +574,41 @@ function filterArchive(ym) {
 
 function handleSearchInput(val) {
   searchQuery = val.trim();
-  document.getElementById('search-clear-btn').style.display = searchQuery ? 'inline-block' : 'none';
+  const mobInput = document.getElementById('mobile-search-input');
+  if (mobInput && mobInput.value !== val) mobInput.value = val;
+  const clearBtn = document.getElementById('search-clear-btn');
+  if (clearBtn) clearBtn.style.display = searchQuery ? 'inline-block' : 'none';
+  const mobClearBtn = document.getElementById('mobile-search-clear-btn');
+  if (mobClearBtn) mobClearBtn.style.display = searchQuery ? 'inline-block' : 'none';
+  applyFilters();
+}
+
+function handleMobileSearchInput(val) {
+  searchQuery = val.trim();
+  const deskInput = document.getElementById('global-search-input');
+  if (deskInput && deskInput.value !== val) deskInput.value = val;
+  const clearBtn = document.getElementById('search-clear-btn');
+  if (clearBtn) clearBtn.style.display = searchQuery ? 'inline-block' : 'none';
+  const mobClearBtn = document.getElementById('mobile-search-clear-btn');
+  if (mobClearBtn) mobClearBtn.style.display = searchQuery ? 'inline-block' : 'none';
   applyFilters();
 }
 
 function clearSearch() {
-  document.getElementById('global-search-input').value = '';
+  const deskInput = document.getElementById('global-search-input');
+  if (deskInput) deskInput.value = '';
+  const mobInput = document.getElementById('mobile-search-input');
+  if (mobInput) mobInput.value = '';
   searchQuery = '';
-  document.getElementById('search-clear-btn').style.display = 'none';
+  const clearBtn = document.getElementById('search-clear-btn');
+  if (clearBtn) clearBtn.style.display = 'none';
+  const mobClearBtn = document.getElementById('mobile-search-clear-btn');
+  if (mobClearBtn) mobClearBtn.style.display = 'none';
   applyFilters();
+}
+
+function clearMobileSearch() {
+  clearSearch();
 }
 
 function resetAllFilters() {
