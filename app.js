@@ -14,6 +14,8 @@ let previousView = 'home';
 
 document.addEventListener('DOMContentLoaded', () => {
   initDropdowns();
+  initShortcuts();
+  initFontSize();
   loadPosts();
   window.addEventListener('hashchange', handleHashRoute);
   
@@ -32,6 +34,60 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   });
 });
+
+// ─── Power User Keyboard Shortcuts (Feature C) ────────────────────
+function initShortcuts() {
+  window.addEventListener('keydown', (e) => {
+    // Press '/' to focus global search box (if not already focused on an input)
+    if (e.key === '/' && !['INPUT', 'TEXTAREA'].includes(document.activeElement.tagName)) {
+      e.preventDefault();
+      const deskSearch = document.getElementById('global-search-input');
+      const mobSearch = document.getElementById('mobile-search-input');
+      if (window.innerWidth <= 992 && mobSearch) {
+        toggleMobileMenu();
+        mobSearch.focus();
+      } else if (deskSearch) {
+        deskSearch.focus();
+        deskSearch.select();
+      }
+    }
+    // Press 'Escape' to close modal, drawer, or clear search focus
+    if (e.key === 'Escape') {
+      closeProfileModal();
+      closeMobileMenu();
+      const deskSearch = document.getElementById('global-search-input');
+      if (deskSearch) deskSearch.blur();
+      const mobSearch = document.getElementById('mobile-search-input');
+      if (mobSearch) mobSearch.blur();
+    }
+  });
+}
+
+// ─── Article Reader Font Size Adjuster (Feature B) ────────────────
+const FONT_SIZES = ['14px', '15.5px', '17.5px'];
+let currentFontIdx = 1;
+
+function initFontSize() {
+  const saved = localStorage.getItem('dc_font_size_idx');
+  if (saved !== null) {
+    currentFontIdx = Math.max(0, Math.min(FONT_SIZES.length - 1, parseInt(saved, 10)));
+  }
+  applyReaderFontSize();
+}
+
+function adjustFontSize(delta) {
+  currentFontIdx = Math.max(0, Math.min(FONT_SIZES.length - 1, currentFontIdx + delta));
+  localStorage.setItem('dc_font_size_idx', currentFontIdx);
+  applyReaderFontSize();
+  showToast(`🔤 본문 글자 크기: ${FONT_SIZES[currentFontIdx]}`);
+}
+
+function applyReaderFontSize() {
+  const bodyEl = document.getElementById('reader-body-content');
+  if (bodyEl) {
+    bodyEl.style.fontSize = FONT_SIZES[currentFontIdx];
+  }
+}
 
 function scrollToTop() {
   window.scrollTo({ top: 0, behavior: 'smooth' });
@@ -382,13 +438,25 @@ async function openArticleView(articleId) {
     document.getElementById('reader-read-time').textContent = '⏱️ 3분 분량';
   }
 
-  // 2. Build Table of Contents (TOC)
+  // 2. Apply reader font size
+  applyReaderFontSize();
+
+  // 3. Build Table of Contents (TOC)
   buildTableOfContents(bodyEl);
 
-  // 3. Render Previous / Next Navigation Footer
+  // 4. Setup 1-Click Code Block Copy Buttons (Feature D)
+  setupCodeBlockCopyButtons(bodyEl);
+
+  // 5. Enhance Podcast Audio Player (Feature E)
+  enhanceAudioPlayers(bodyEl);
+
+  // 6. Render Related Posts Recommendations (Feature A)
+  renderRelatedPosts(post);
+
+  // 7. Render Previous / Next Navigation Footer
   renderPostNavigation(post);
 
-  // 4. Request AdSense Display Unit Fill
+  // 8. Request AdSense Display Unit Fill
   try {
     const adWrapper = document.getElementById('dc-ad-bottom-wrapper');
     if (adWrapper) {
@@ -404,10 +472,131 @@ async function openArticleView(articleId) {
     }
   } catch (e) {}
 
-  // 5. Track GA4 PageView with Article Title
+  // 9. Track GA4 PageView with Article Title
   trackPageView(`#article/${post.id}`, post.title);
 
   window.scrollTo({ top: 0, behavior: 'smooth' });
+}
+
+// ─── Code Block Copy Button Setup (Feature D) ─────────────────────
+function setupCodeBlockCopyButtons(container) {
+  const preElements = container.querySelectorAll('pre');
+  preElements.forEach((pre) => {
+    // Avoid duplicate buttons
+    if (pre.parentElement && pre.parentElement.classList.contains('dc-code-wrap')) return;
+
+    const wrap = document.createElement('div');
+    wrap.className = 'dc-code-wrap';
+    pre.parentNode.insertBefore(wrap, pre);
+    wrap.appendChild(pre);
+
+    const btn = document.createElement('button');
+    btn.className = 'dc-code-copy-btn';
+    btn.innerHTML = '📋 복사';
+    btn.setAttribute('title', '코드 복사');
+    btn.addEventListener('click', () => copyCodeBlock(btn, pre));
+    wrap.appendChild(btn);
+  });
+}
+
+function copyCodeBlock(btn, pre) {
+  const code = pre.querySelector('code') ? pre.querySelector('code').innerText : pre.innerText;
+  if (navigator.clipboard && window.isSecureContext) {
+    navigator.clipboard.writeText(code).then(() => {
+      btn.innerHTML = '✅ 복사됨!';
+      setTimeout(() => { btn.innerHTML = '📋 복사'; }, 2000);
+    });
+  } else {
+    const input = document.createElement('textarea');
+    input.value = code;
+    document.body.appendChild(input);
+    input.select();
+    document.execCommand('copy');
+    document.body.removeChild(input);
+    btn.innerHTML = '✅ 복사됨!';
+    setTimeout(() => { btn.innerHTML = '📋 복사'; }, 2000);
+  }
+}
+
+// ─── Podcast Audio Player Enhancer (Feature E) ────────────────────
+function enhanceAudioPlayers(container) {
+  const audioElements = container.querySelectorAll('audio');
+  audioElements.forEach((audio) => {
+    if (audio.parentElement && audio.parentElement.querySelector('.dc-podcast-player-ctrls')) return;
+
+    const ctrls = document.createElement('div');
+    ctrls.className = 'dc-podcast-player-ctrls';
+
+    // 10s Backward
+    const backBtn = document.createElement('button');
+    backBtn.className = 'dc-audio-ctrl-btn';
+    backBtn.innerHTML = '⏪ 10초';
+    backBtn.addEventListener('click', () => { audio.currentTime = Math.max(0, audio.currentTime - 10); });
+
+    // Speed Toggle Button
+    const speeds = [1.0, 1.25, 1.5, 2.0];
+    let speedIdx = 0;
+    const speedBtn = document.createElement('button');
+    speedBtn.className = 'dc-audio-ctrl-btn';
+    speedBtn.innerHTML = '⚡ 1.0x';
+    speedBtn.addEventListener('click', () => {
+      speedIdx = (speedIdx + 1) % speeds.length;
+      audio.playbackRate = speeds[speedIdx];
+      speedBtn.innerHTML = `⚡ ${speeds[speedIdx]}x`;
+    });
+
+    // 10s Forward
+    const fwdBtn = document.createElement('button');
+    fwdBtn.className = 'dc-audio-ctrl-btn';
+    fwdBtn.innerHTML = '10초 ⏩';
+    fwdBtn.addEventListener('click', () => { audio.currentTime = Math.min(audio.duration || Infinity, audio.currentTime + 10); });
+
+    ctrls.appendChild(backBtn);
+    ctrls.appendChild(speedBtn);
+    ctrls.appendChild(fwdBtn);
+
+    audio.parentNode.insertBefore(ctrls, audio.nextSibling);
+  });
+}
+
+// ─── Related Posts Recommendation (Feature A) ────────────────────
+function renderRelatedPosts(currentPost) {
+  const section = document.getElementById('reader-related-section');
+  const grid = document.getElementById('reader-related-grid');
+  if (!section || !grid) return;
+
+  const currentLabels = new Set(currentPost.labels || []);
+  const published = allPosts.filter(p => (p.status || 'published') === 'published' && p.id !== currentPost.id);
+
+  // Score posts based on matching tags (weight 2) + matching category (weight 1)
+  const scored = published.map(p => {
+    let score = 0;
+    if (p.category === currentPost.category) score += 1;
+    (p.labels || []).forEach(l => {
+      if (currentLabels.has(l)) score += 2;
+    });
+    return { post: p, score };
+  });
+
+  scored.sort((a, b) => b.score - a.score || new Date(b.post.date) - new Date(a.post.date));
+  const related = scored.slice(0, 3).map(s => s.post);
+
+  if (related.length === 0) {
+    section.style.display = 'none';
+    grid.innerHTML = '';
+    return;
+  }
+
+  grid.innerHTML = related.map(p => `
+    <div class="dc-related-card" onclick="window.location.hash='#article/${p.id}'">
+      <div class="dc-related-card-top">
+        <span class="dc-related-card-cat">${p.category || 'Daily Briefing'}</span>
+        <span class="dc-related-card-date">${p.date}</span>
+      </div>
+      <div class="dc-related-card-title">${p.title}</div>
+    </div>`).join('');
+
+  section.style.display = 'block';
 }
 
 function buildTableOfContents(bodyEl) {
