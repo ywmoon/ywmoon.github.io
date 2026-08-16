@@ -2,7 +2,7 @@
 id: 2026-08-15-10gw-vendor-financing-limits
 title: "[테크 딥다이브] 10GW 초대형 AI 데이터센터와 벤더 파이낸싱의 한계: 기가와트급 인프라 아키텍처의 현실과 과제"
 date: 2026-08-15
-category: 테크 딥다이브
+category: Tech Deep Dive
 status: published
 summary: "Executive Technical Briefing 10GW 기가와트 스케일 AI 인프라와 벤더 파이낸싱의 균열: 기술적·경제적 임계점 분석 오픈AI와 엔비디아가 추진하는 오하이오주 10GW 데이터센터 프로젝트의 금융 보증 축소(2,500억 달러 → 1,200억 달러)는 단순한 재무적 조정을 넘어, 물리적 전력망(Grid) 용량, 수랭식 열관리 아키텍처, "
 labels:
