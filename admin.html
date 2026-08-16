@@ -626,6 +626,7 @@
       </div>
       <div style="display: flex; gap: 10px; align-items: center;">
         <input type="text" class="admin-search" id="admin-search-input" placeholder="🔍 제목 검색..." oninput="renderTable()" />
+        <button class="btn-rebuild" style="background: rgba(34, 197, 94, 0.15); border-color: var(--green); color: var(--green);" onclick="syncAndRebuildIndex()" title="data/posts 폴더의 모든 .md 파일을 스캔하여 인덱스와 사이트맵을 100% 동기화합니다">⚡ 인덱스 전체 동기화</button>
         <button class="btn-rebuild" onclick="rebuildSitemap()">🔄 Sitemap 재생성</button>
       </div>
     </div>
@@ -1020,11 +1021,111 @@ async function confirmDelete() {
       await ghDelete(mdPath, `Delete .md: ${deletingPostId}`, mdFile.sha);
     } catch(_) { /* file may not exist - that's fine */ }
 
+    // 3. Delete attachment folder contents if any exist
+    try {
+      const folderRes = await ghGet(`data/posts/${deletingPostId}`);
+      if (Array.isArray(folderRes)) {
+        for (const item of folderRes) {
+          if (item.type === 'file') {
+            await ghDelete(item.path, `Delete attachment: ${item.name}`, item.sha);
+          }
+        }
+      }
+    } catch(_) { /* folder may not exist - normal */ }
+
     updateStats();
     renderTable();
-    showToast('🗑️ 아티클이 완전히 삭제됐습니다.', 'success');
+    showToast('🗑️ 아티클 및 첨부 파일이 완전히 삭제됐습니다.', 'success');
   } catch(e) {
     showToast('❌ 삭제 실패: ' + e.message, 'error');
+  }
+}
+
+// ═══════════════════════════════════════════════════════════════
+// SYNC & REBUILD INDEX FROM DATA/POSTS/*.MD
+// ═══════════════════════════════════════════════════════════════
+function parseFrontmatter(raw) {
+  const match = raw.match(/^---\n([\s\S]*?)\n---\n?([\s\S]*)$/);
+  if (!match) return { meta: {}, body: raw };
+  const yamlStr = match[1];
+  const meta = {};
+  let currentKey = null;
+  let inArray = false;
+
+  for (const line of yamlStr.split('\n')) {
+    const arrayItem = line.match(/^  - (.+)$/);
+    const keyValue  = line.match(/^(\w+):\s*(.*)$/);
+    if (arrayItem && inArray && currentKey) {
+      meta[currentKey].push(arrayItem[1].trim());
+    } else if (keyValue) {
+      currentKey = keyValue[1];
+      const val = keyValue[2].trim().replace(/^["']|["']$/g, '');
+      if (val === '') {
+        meta[currentKey] = [];
+        inArray = true;
+      } else {
+        meta[currentKey] = val;
+        inArray = false;
+      }
+    }
+  }
+  return { meta, body: match[2].trim() };
+}
+
+async function syncAndRebuildIndex() {
+  const btn = event?.target;
+  const originalText = btn ? btn.textContent : '';
+  if (btn) {
+    btn.innerHTML = '<span class="loading-spinner"></span> 동기화 중...';
+    btn.disabled = true;
+  }
+
+  try {
+    showToast('🔍 data/posts/ 파일 목록 스캔 중...', '');
+    const dirRes = await ghGet('data/posts');
+    if (!Array.isArray(dirRes)) throw new Error('data/posts 디렉토리를 찾을 수 없습니다.');
+
+    const mdFiles = dirRes.filter(item => item.name.endsWith('.md'));
+    const rebuiltPosts = [];
+
+    for (const item of mdFiles) {
+      const fileData = await ghGet(item.path);
+      const raw = decodeURIComponent(escape(atob(fileData.content.replace(/\n/g, ''))));
+      const { meta } = parseFrontmatter(raw);
+      const id = meta.id || item.name.replace(/\.md$/, '');
+
+      rebuiltPosts.push({
+        id: id,
+        title: meta.title || id,
+        date: meta.date || '2026-08-16',
+        category: meta.category || '인프라',
+        labels: Array.isArray(meta.labels) ? meta.labels : [],
+        summary: meta.summary || '',
+        status: meta.status || 'published',
+        content_file: item.path
+      });
+    }
+
+    // Sort descending by date
+    rebuiltPosts.sort((a, b) => new Date(b.date) - new Date(a.date));
+    allPosts = rebuiltPosts;
+
+    // Save rebuilt posts.json to GitHub
+    await savePostsJson(`Sync index from ${mdFiles.length} markdown files`);
+
+    // Also rebuild sitemap
+    await rebuildSitemap();
+
+    updateStats();
+    renderTable();
+    showToast(`⚡ ${mdFiles.length}개 아티클 기준으로 인덱스 & 사이트맵 동기화 완료!`, 'success');
+  } catch (err) {
+    showToast('❌ 동기화 실패: ' + err.message, 'error');
+  } finally {
+    if (btn) {
+      btn.innerHTML = originalText;
+      btn.disabled = false;
+    }
   }
 }
 
