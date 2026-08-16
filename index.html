@@ -29,7 +29,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;600&family=Inter:wght@400;500;600;700;800&family=Noto+Sans+KR:wght@400;500;700;800&display=swap" rel="stylesheet" />
   
-  <link rel="stylesheet" href="style.css?v=20260816_3" />
+  <link rel="stylesheet" href="style.css?v=20260816_4" />
 </head>
 <body>
 
@@ -145,19 +145,49 @@
     <article class="dc-article-reader" id="article-reader-section" style="display: none;">
       <div class="dc-reader-nav">
         <button class="dc-back-btn" onclick="navigateBack()">← 목록으로 돌아가기</button>
-        <div class="dc-reader-meta-right" id="reader-meta-date">2026-08-16</div>
+        <div class="dc-reader-actions">
+          <button class="dc-action-btn" onclick="copyArticleUrl()" title="현재 글 링크 복사">
+            <span>🔗 링크 복사</span>
+          </button>
+          <button class="dc-action-btn" onclick="shareLinkedIn()" title="LinkedIn으로 공유하기">
+            <span>💼 LinkedIn</span>
+          </button>
+          <button class="dc-action-btn" onclick="printArticle()" title="인쇄 및 PDF 다운로드">
+            <span>🖨️ 인쇄/PDF</span>
+          </button>
+        </div>
       </div>
       
       <div class="dc-reader-header">
-        <div class="dc-reader-badges" id="reader-badges"></div>
+        <div class="dc-reader-meta-row">
+          <div class="dc-reader-badges" id="reader-badges"></div>
+          <div class="dc-reader-meta-right">
+            <span id="reader-meta-date">2026-08-16</span>
+            <span class="dc-read-time-badge" id="reader-read-time">⏱️ 계산 중...</span>
+          </div>
+        </div>
         <h1 class="dc-reader-title" id="reader-title">아티클 제목</h1>
+      </div>
+
+      <!-- Auto-generated Table of Contents (TOC) -->
+      <div class="dc-toc-box" id="reader-toc-box" style="display: none;">
+        <div class="dc-toc-title">📑 목차 바로가기</div>
+        <ul class="dc-toc-list" id="reader-toc-list"></ul>
       </div>
 
       <div class="dc-reader-body" id="reader-body-content">
         <!-- Injected Article HTML -->
       </div>
+
+      <!-- Previous / Next Post Navigation Footer -->
+      <nav class="dc-post-nav" id="reader-post-nav">
+        <!-- Injected by app.js -->
+      </nav>
     </article>
   </main>
+
+  <!-- Global Toast Notification Popup -->
+  <div id="dc-toast" class="dc-toast"></div>
 
   <!-- Clean White Modal: Executive Profile Modal -->
   <div class="dc-modal-backdrop" id="profile-modal" onclick="handleBackdropClick(event)">
@@ -198,6 +228,6 @@
     </div>
   </footer>
 
-  <script src="app.js?v=20260816_7"></script>
+  <script src="app.js?v=20260816_8"></script>
 </body>
 </html>
