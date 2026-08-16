@@ -2,11 +2,16 @@
 id: 2026-08-13-dc-infraops-trends-report
 title: "DC InfraOps Trends - 2026년 08월 13일"
 date: 2026-08-13
+time: "07:40"
 category: Newsletter
 status: published
 summary: "Datacenter & Cloud Industry InfraOps Daily (2-Column) DAILY DIGEST Datacenter & Cloud Industry InfraOps Daily 2026년 08월 13일 (목) 💡 AI Executive Summary: Key News Insights 글로벌 빅테크의 AI 컴퓨팅 주도권 경쟁이 심화되는 가"
 labels:
-
+  - AWS
+  - 데이터센터
+  - 클라우드
+  - AI인프라
+  - 뉴스레터
 ---
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
