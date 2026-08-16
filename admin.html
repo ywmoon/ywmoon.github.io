@@ -353,9 +353,18 @@
       font-weight: 700;
       background: rgba(255,153,0,0.12);
       color: var(--orange);
-      padding: 2px 8px;
+      padding: 3px 8px;
       border-radius: 4px;
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
+      white-space: nowrap;
     }
+    .cat-badge.cat-daily-briefing { background: rgba(2, 132, 199, 0.12); color: #0284c7; }
+    .cat-badge.cat-tech-deep-dive { background: rgba(147, 51, 234, 0.12); color: #9333ea; }
+    .cat-badge.cat-terminology { background: rgba(16, 185, 129, 0.12); color: #10b981; }
+    .cat-badge.cat-podcast { background: rgba(236, 72, 153, 0.12); color: #ec4899; }
+    .cat-badge.cat-newsletter { background: rgba(255, 153, 0, 0.12); color: var(--orange); }
 
     .action-btn {
       width: 30px;
@@ -620,9 +629,11 @@
         <button class="filter-btn active" data-filter="ALL" onclick="setFilter('ALL', this)">전체</button>
         <button class="filter-btn" data-filter="published" onclick="setFilter('published', this)">🟢 공개</button>
         <button class="filter-btn" data-filter="hidden" onclick="setFilter('hidden', this)">🟡 숨김</button>
-        <button class="filter-btn" data-filter="팟캐스트" onclick="setFilter('팟캐스트', this)">🎧 팟캐스트</button>
-        <button class="filter-btn" data-filter="데일리 뉴스레터" onclick="setFilter('데일리 뉴스레터', this)">📧 뉴스레터</button>
-        <button class="filter-btn" data-filter="테크 딥다이브" onclick="setFilter('테크 딥다이브', this)">🔬 딥다이브</button>
+        <button class="filter-btn" data-filter="Daily Briefing" onclick="setFilter('Daily Briefing', this)">📋 브리핑</button>
+        <button class="filter-btn" data-filter="Tech Deep Dive" onclick="setFilter('Tech Deep Dive', this)">🔬 딥다이브</button>
+        <button class="filter-btn" data-filter="Terminology" onclick="setFilter('Terminology', this)">💡 용어사전</button>
+        <button class="filter-btn" data-filter="Podcast" onclick="setFilter('Podcast', this)">🎧 팟캐스트</button>
+        <button class="filter-btn" data-filter="Newsletter" onclick="setFilter('Newsletter', this)">📧 뉴스레터</button>
       </div>
       <div style="display: flex; gap: 10px; align-items: center;">
         <input type="text" class="admin-search" id="admin-search-input" placeholder="🔍 제목 검색..." oninput="renderTable()" />
@@ -661,6 +672,16 @@
 <div class="modal-backdrop" id="edit-modal">
   <div class="modal-card">
     <div class="modal-title">✏️ 아티클 수정</div>
+    <div class="modal-field">
+      <label>카테고리</label>
+      <select id="edit-category" style="background:var(--card-bg);color:var(--text);border:1px solid var(--border);padding:8px 12px;border-radius:6px;width:100%;font-size:13.5px;outline:none;">
+        <option value="Daily Briefing">📋 Daily Briefing (데일리 브리핑)</option>
+        <option value="Tech Deep Dive">🔬 Tech Deep Dive (테크 딥다이브)</option>
+        <option value="Terminology">💡 Terminology (인프라 용어사전)</option>
+        <option value="Podcast">🎧 Podcast (테크 팟캐스트)</option>
+        <option value="Newsletter">📧 Newsletter (종합 리포트)</option>
+      </select>
+    </div>
     <div class="modal-field">
       <label>제목</label>
       <input type="text" id="edit-title" />
@@ -829,6 +850,70 @@ async function ghDelete(path, message, sha) {
 }
 
 // ═══════════════════════════════════════════════════════════════
+// CATEGORY DEFINITIONS & HELPERS
+// ═══════════════════════════════════════════════════════════════
+const CAT_PRIORITY = {
+  'Daily Briefing': 1,
+  'Tech Deep Dive': 2,
+  'Terminology': 3,
+  'Podcast': 4,
+  'Newsletter': 5,
+  '데일리 브리핑': 1,
+  '테크 딥다이브': 2,
+  '용어사전': 3,
+  '팟캐스트': 4,
+  '뉴스레터': 5,
+  '데일리 뉴스레터': 5
+};
+
+const CAT_NORMALIZE = {
+  '데일리 브리핑': 'Daily Briefing',
+  '테크 딥다이브': 'Tech Deep Dive',
+  '용어사전': 'Terminology',
+  'IT 용어사전': 'Terminology',
+  '팟캐스트': 'Podcast',
+  '10분 팟캐스트': 'Podcast',
+  '뉴스레터': 'Newsletter',
+  '데일리 뉴스레터': 'Newsletter',
+  '2-Column 리포트': 'Newsletter'
+};
+
+const CAT_ALIAS = {
+  'Newsletter': ['Newsletter', '뉴스레터', '2-Column 리포트', '데일리 뉴스레터'],
+  '뉴스레터': ['Newsletter', '뉴스레터', '2-Column 리포트', '데일리 뉴스레터'],
+  'Terminology': ['Terminology', '용어사전', 'IT 용어사전', '용어 사전'],
+  '용어사전': ['Terminology', '용어사전', 'IT 용어사전', '용어 사전'],
+  'Podcast': ['Podcast', '팟캐스트', '10분 팟캐스트', '테크 팟캐스트'],
+  '팟캐스트': ['Podcast', '팟캐스트', '10분 팟캐스트', '테크 팟캐스트'],
+  'Daily Briefing': ['Daily Briefing', '데일리 브리핑', '브리핑'],
+  '데일리 브리핑': ['Daily Briefing', '데일리 브리핑', '브리핑'],
+  'Tech Deep Dive': ['Tech Deep Dive', '테크 딥다이브', '딥다이브'],
+  '테크 딥다이브': ['Tech Deep Dive', '테크 딥다이브', '딥다이브']
+};
+
+function matchCategory(postCat, filterCat) {
+  if (!filterCat || filterCat === 'ALL') return true;
+  if (postCat === filterCat) return true;
+  const aliases = CAT_ALIAS[filterCat];
+  if (aliases && aliases.includes(postCat)) return true;
+  return false;
+}
+
+function getCategoryBadgeHtml(cat) {
+  const norm = CAT_NORMALIZE[cat] || cat || 'Daily Briefing';
+  const icons = {
+    'Daily Briefing': '📋',
+    'Tech Deep Dive': '🔬',
+    'Terminology': '💡',
+    'Podcast': '🎧',
+    'Newsletter': '📧'
+  };
+  const icon = icons[norm] || '🏷️';
+  const catSlug = norm.toLowerCase().replace(/\s+/g, '-');
+  return `<span class="cat-badge cat-${catSlug}">${icon} ${norm}</span>`;
+}
+
+// ═══════════════════════════════════════════════════════════════
 // LOAD POSTS
 // ═══════════════════════════════════════════════════════════════
 async function loadPosts() {
@@ -836,7 +921,13 @@ async function loadPosts() {
     const file = await ghGet('data/posts.json');
     const raw = atob(file.content.replace(/\n/g, ''));
     const json = JSON.parse(decodeURIComponent(escape(raw)));
-    allPosts = json.sort((a, b) => new Date(b.date) - new Date(a.date));
+    allPosts = json.sort((a, b) => {
+      if (a.date !== b.date) return new Date(b.date) - new Date(a.date);
+      const pA = CAT_PRIORITY[a.category] || 99;
+      const pB = CAT_PRIORITY[b.category] || 99;
+      if (pA !== pB) return pA - pB;
+      return (b.time || '').localeCompare(a.time || '');
+    });
     updateStats();
     renderTable();
   } catch (e) {
@@ -861,7 +952,7 @@ function updateStats() {
   const total = allPosts.length;
   const published = allPosts.filter(p => (p.status || 'published') === 'published').length;
   const hidden = allPosts.filter(p => p.status === 'hidden').length;
-  const cats = new Set(allPosts.map(p => p.category)).size;
+  const cats = new Set(allPosts.map(p => CAT_NORMALIZE[p.category] || p.category)).size;
   document.getElementById('stat-total').textContent = total;
   document.getElementById('stat-published').textContent = published;
   document.getElementById('stat-hidden').textContent = hidden;
@@ -885,7 +976,9 @@ function renderTable() {
     const status = p.status || 'published';
     if (currentFilter === 'published' && status !== 'published') return false;
     if (currentFilter === 'hidden' && status !== 'hidden') return false;
-    if (['팟캐스트','데일리 뉴스레터','테크 딥다이브'].includes(currentFilter) && p.category !== currentFilter) return false;
+    if (!['ALL', 'published', 'hidden'].includes(currentFilter)) {
+      if (!matchCategory(p.category, currentFilter)) return false;
+    }
     if (searchQ && !(p.title || '').toLowerCase().includes(searchQ)) return false;
     return true;
   });
@@ -914,7 +1007,7 @@ function renderTable() {
     return `<tr>
       <td style="font-weight:700;color:var(--text-muted);font-family:var(--mono)">${posts.length - i}</td>
       <td style="font-family:var(--mono);font-size:12.5px;color:var(--text-muted)">${p.date}</td>
-      <td><span class="cat-badge">${p.category}</span></td>
+      <td>${getCategoryBadgeHtml(p.category)}</td>
       <td style="max-width:420px;line-height:1.4">${p.title}</td>
       <td>${statusHtml}</td>
       <td>
@@ -933,6 +1026,8 @@ function openEditModal(id) {
   const post = allPosts.find(p => p.id === id);
   if (!post) return;
   editingPostId = id;
+  const normCat = CAT_NORMALIZE[post.category] || post.category || 'Daily Briefing';
+  document.getElementById('edit-category').value = normCat;
   document.getElementById('edit-title').value = post.title || '';
   document.getElementById('edit-summary').value = post.summary || '';
   document.getElementById('edit-labels').value = (post.labels || []).join(', ');
@@ -943,9 +1038,10 @@ async function saveEdit() {
   const post = allPosts.find(p => p.id === editingPostId);
   if (!post) return;
 
-  post.title   = document.getElementById('edit-title').value.trim();
-  post.summary = document.getElementById('edit-summary').value.trim();
-  post.labels  = document.getElementById('edit-labels').value.split(',').map(s => s.trim()).filter(Boolean);
+  post.category = document.getElementById('edit-category').value;
+  post.title    = document.getElementById('edit-title').value.trim();
+  post.summary  = document.getElementById('edit-summary').value.trim();
+  post.labels   = document.getElementById('edit-labels').value.split(',').map(s => s.trim()).filter(Boolean);
 
   try {
     // 1. Update lightweight index (posts.json)
@@ -958,7 +1054,8 @@ async function saveEdit() {
       const raw = decodeURIComponent(escape(atob(mdFile.content.replace(/\n/g, ''))));
       // Replace frontmatter block only
       const labelsYaml = post.labels.map(l => `  - ${l}`).join('\n');
-      const newFrontmatter = `---\nid: ${post.id}\ntitle: "${post.title.replace(/"/g,'\\"')}"\ndate: ${post.date}\ncategory: ${post.category}\nstatus: ${post.status || 'published'}\nsummary: "${post.summary.replace(/"/g,'\\"')}"\nlabels:\n${labelsYaml}\n---`;
+      const timeLine = post.time ? `time: "${post.time}"\n` : '';
+      const newFrontmatter = `---\nid: ${post.id}\ntitle: "${post.title.replace(/"/g,'\\"')}"\ndate: ${post.date}\n${timeLine}category: ${post.category}\nstatus: ${post.status || 'published'}\nsummary: "${post.summary.replace(/"/g,'\\"')}"\nlabels:\n${labelsYaml}\n---`;
       const newContent = raw.replace(/^---[\s\S]*?---/, newFrontmatter);
       await ghPut(mdPath, newContent, `Edit frontmatter: ${editingPostId}`, mdFile.sha);
     }
@@ -1094,11 +1191,24 @@ async function syncAndRebuildIndex() {
       const { meta } = parseFrontmatter(raw);
       const id = meta.id || item.name.replace(/\.md$/, '');
 
+      const rawCat = meta.category || 'Daily Briefing';
+      const cat = CAT_NORMALIZE[rawCat] || rawCat;
+
+      const defaultTimes = {
+        'Daily Briefing': '07:30',
+        'Tech Deep Dive': '07:32',
+        'Terminology': '07:35',
+        'Podcast': '07:38',
+        'Newsletter': '07:40'
+      };
+      const timeVal = meta.time || defaultTimes[cat] || '07:30';
+
       rebuiltPosts.push({
         id: id,
         title: meta.title || id,
         date: meta.date || '2026-08-16',
-        category: meta.category || '인프라',
+        time: timeVal,
+        category: cat,
         labels: Array.isArray(meta.labels) ? meta.labels : [],
         summary: meta.summary || '',
         status: meta.status || 'published',
@@ -1106,8 +1216,14 @@ async function syncAndRebuildIndex() {
       });
     }
 
-    // Sort descending by date
-    rebuiltPosts.sort((a, b) => new Date(b.date) - new Date(a.date));
+    // Sort descending by date, then category priority, then time
+    rebuiltPosts.sort((a, b) => {
+      if (a.date !== b.date) return new Date(b.date) - new Date(a.date);
+      const pA = CAT_PRIORITY[a.category] || 99;
+      const pB = CAT_PRIORITY[b.category] || 99;
+      if (pA !== pB) return pA - pB;
+      return (b.time || '').localeCompare(a.time || '');
+    });
     allPosts = rebuiltPosts;
 
     // Save rebuilt posts.json to GitHub
