@@ -37,32 +37,6 @@
     "content_file": "data/posts/2026-08-16-august-megafarm-deepdive.md"
   },
   {
-    "id": "2026-08-16-dc-infraops-trends-report",
-    "title": "DC InfraOps Trends - 2026년 08월 16일",
-    "date": "2026-08-16",
-    "category": "데일리 뉴스레터",
-    "labels": [
-      "AWS",
-      "데이터센터",
-      "클라우드",
-      "AI인프라",
-      "DC-Trends",
-      "Daily-Newsletter",
-      "SMR",
-      "원전",
-      "엔비디아",
-      "액체냉각",
-      "전력망",
-      "마이크로소프트",
-      "구글",
-      "오라클",
-      "신재생에너지"
-    ],
-    "summary": "Datacenter & Cloud Industry InfraOps Daily (2-Column) DAILY DIGEST Datacenter & Cloud Industry InfraOps Daily 2026년 08월 16일 (일) 💡 AI Executive Summary: Key News Insights 글로벌 빅테크의 AI 인프라 투자가 자본 확충과 재무 ",
-    "status": "published",
-    "content_file": "data/posts/2026-08-16-dc-infraops-trends-report.md"
-  },
-  {
     "id": "2026-08-16-bess-battery-storage",
     "title": "[인프라 용어사전] BESS (배터리 에너지 저장 시스템) - 기가와트(GW)급 AI 데이터센터의 전력 안정망 핵심",
     "date": "2026-08-16",
