@@ -204,12 +204,12 @@ labels:
                                     <td class="responsive-col" width="504" valign="top" style="width: 504px;" align="center">
                                         <table border="0" cellpadding="0" cellspacing="0" width="100%">
                                             <tr>
-                                                <td align="center" style="padding: 3px;"><img src="assets/Graph_AWS_1.jpg" width="240" height="192" style="width: 240px; height: 192px; border: 1px solid #CBD5E1; display: block;" alt="graph1"></td>
-                                                <td align="center" style="padding: 3px;"><img src="assets/Graph_AWS_2.jpg" width="240" height="192" style="width: 240px; height: 192px; border: 1px solid #CBD5E1; display: block;" alt="graph2"></td>
+                                                <td align="center" style="padding: 3px;"><img src="data/posts/2026-08-16-infraops-master-report/Graph_AWS_1.jpg" width="240" height="192" style="width: 240px; height: 192px; border: 1px solid #CBD5E1; display: block;" alt="graph1"></td>
+                                                <td align="center" style="padding: 3px;"><img src="data/posts/2026-08-16-infraops-master-report/Graph_AWS_2.jpg" width="240" height="192" style="width: 240px; height: 192px; border: 1px solid #CBD5E1; display: block;" alt="graph2"></td>
                                             </tr>
                                             <tr>
-                                                <td align="center" style="padding: 3px;"><img src="assets/Graph_AWS_3.jpg" width="240" height="192" style="width: 240px; height: 192px; border: 1px solid #CBD5E1; display: block;" alt="graph3"></td>
-                                                <td align="center" style="padding: 3px;"><img src="assets/Graph_AWS_4.jpg" width="240" height="192" style="width: 240px; height: 192px; border: 1px solid #CBD5E1; display: block;" alt="graph4"></td>
+                                                <td align="center" style="padding: 3px;"><img src="data/posts/2026-08-16-infraops-master-report/Graph_AWS_3.jpg" width="240" height="192" style="width: 240px; height: 192px; border: 1px solid #CBD5E1; display: block;" alt="graph3"></td>
+                                                <td align="center" style="padding: 3px;"><img src="data/posts/2026-08-16-infraops-master-report/Graph_AWS_4.jpg" width="240" height="192" style="width: 240px; height: 192px; border: 1px solid #CBD5E1; display: block;" alt="graph4"></td>
                                             </tr>
                                         </table>
                                     </td>
