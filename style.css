@@ -34,24 +34,6 @@
   --radius-lg: 16px;
 }
 
-[data-theme="dark"] {
-  --bg-primary: #0B0F19;
-  --bg-surface: #131B2E;
-  --bg-elevated: #1E293B;
-  --bg-card: #131B2E;
-  --border-subtle: #2A364F;
-  --border-strong: #3B4B68;
-  
-  --text-primary: #F8FAFC;
-  --text-secondary: #CBD5E1;
-  --text-muted: #94A3B8;
-  
-  --accent-blue-bg: rgba(2, 132, 199, 0.15);
-  --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.3);
-  --shadow-md: 0 4px 16px rgba(0, 0, 0, 0.4);
-  --shadow-lg: 0 12px 36px rgba(0, 0, 0, 0.6);
-}
-
 /* Reset & Global Base */
 * {
   box-sizing: border-box;
@@ -271,24 +253,6 @@ body {
   cursor: pointer;
   font-size: 12px;
   margin-left: 4px;
-}
-
-.dc-theme-toggle-btn {
-  height: var(--btn-height);
-  width: var(--btn-height);
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  background-color: var(--bg-elevated);
-  border: 1px solid var(--border-subtle);
-  border-radius: var(--radius-sm);
-  font-size: 16px;
-  cursor: pointer;
-  transition: all 0.15s ease;
-}
-
-.dc-theme-toggle-btn:hover {
-  border-color: var(--accent-orange);
 }
 
 /* Main Viewport */
@@ -633,70 +597,6 @@ body {
 .dc-reader-body img:not([src*="workers.dev"]):not([width="1"]) {
   max-width: 100%;
   height: auto;
-}
-
-/* ─── Dark Mode Specific Overrides for Article Reader Content ─── */
-[data-theme="dark"] .dc-reader-body {
-  color: #E2E8F0 !important;
-}
-
-[data-theme="dark"] .dc-reader-body p,
-[data-theme="dark"] .dc-reader-body div,
-[data-theme="dark"] .dc-reader-body span,
-[data-theme="dark"] .dc-reader-body li,
-[data-theme="dark"] .dc-reader-body td,
-[data-theme="dark"] .dc-reader-body th,
-[data-theme="dark"] .dc-reader-body h1,
-[data-theme="dark"] .dc-reader-body h2,
-[data-theme="dark"] .dc-reader-body h3,
-[data-theme="dark"] .dc-reader-body h4,
-[data-theme="dark"] .dc-reader-body strong,
-[data-theme="dark"] .dc-reader-body b {
-  color: #E2E8F0 !important;
-}
-
-[data-theme="dark"] .dc-reader-body a {
-  color: #60A5FA !important;
-  text-decoration: underline;
-}
-
-[data-theme="dark"] .dc-reader-body table,
-[data-theme="dark"] .dc-reader-body tr,
-[data-theme="dark"] .dc-reader-body td,
-[data-theme="dark"] .dc-reader-body th {
-  background-color: var(--bg-surface) !important;
-  border-color: var(--border-subtle) !important;
-}
-
-[data-theme="dark"] .dc-reader-body .dc-newsletter-wrapper,
-[data-theme="dark"] .dc-reader-body [style*="background-color: #ffffff"],
-[data-theme="dark"] .dc-reader-body [style*="background-color:#ffffff"],
-[data-theme="dark"] .dc-reader-body [style*="background: #ffffff"],
-[data-theme="dark"] .dc-reader-body [style*="background:#ffffff"],
-[data-theme="dark"] .dc-reader-body [style*="background-color: #fff"],
-[data-theme="dark"] .dc-reader-body [style*="background:#fff"],
-[data-theme="dark"] .dc-reader-body [style*="background-color: #f8fafc"],
-[data-theme="dark"] .dc-reader-body [style*="background-color:#f8fafc"],
-[data-theme="dark"] .dc-reader-body [style*="background-color: #f1f5f9"],
-[data-theme="dark"] .dc-reader-body [style*="background-color:#f1f5f9"],
-[data-theme="dark"] .dc-reader-body [style*="background-color: #f9fafb"],
-[data-theme="dark"] .dc-reader-body [style*="background-color:#f9fafb"] {
-  background-color: var(--bg-surface) !important;
-  border-color: var(--border-subtle) !important;
-}
-
-[data-theme="dark"] .dc-reader-body [style*="background-color: #e0f2fe"],
-[data-theme="dark"] .dc-reader-body [style*="background-color: #fef3c7"],
-[data-theme="dark"] .dc-reader-body [style*="background-color: #fee2e2"] {
-  background-color: var(--bg-elevated) !important;
-  border-color: var(--border-strong) !important;
-}
-
-[data-theme="dark"] .dc-reader-body [style*="border: 1px solid"],
-[data-theme="dark"] .dc-reader-body [style*="border:1px solid"],
-[data-theme="dark"] .dc-reader-body [style*="border-top: 1px solid"],
-[data-theme="dark"] .dc-reader-body [style*="border-bottom: 1px solid"] {
-  border-color: var(--border-subtle) !important;
 }
 
 /* Podcast & Vocab Card Component Styles */
