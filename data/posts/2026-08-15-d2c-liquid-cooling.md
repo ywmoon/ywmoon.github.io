@@ -2,7 +2,7 @@
 id: 2026-08-15-d2c-liquid-cooling
 title: "[인프라 용어사전] D2C 액체냉각 (Direct-to-Chip Liquid Cooling) - 초고밀도 AI 데이터센터의 필수 열관리 아키텍처"
 date: 2026-08-15
-category: 용어사전
+category: Terminology
 status: published
 summary: "Data Center Thermal & Cooling D2C 액체냉각 (Direct-to-Chip Liquid Cooling) AI 가속기(GPU/TPU)의 발열 한계를 돌파하는 랙당 100kW+ 초고밀도 직접 냉각 기술 📌 1. 30초 핵심 요약 & 개념 정의 D2C(Direct-to-Chip) 액체냉각은 발열량이 극심한 GPU, CPU, ASIC 등 핵"
 labels:
