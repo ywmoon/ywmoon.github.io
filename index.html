@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="ko" data-theme="light">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>DC InfraOps Intelligence | James Moon Tech Blog</title>
+  <meta name="description" content="글로벌 하이퍼스케일 AI 데이터센터 전력망(SMR/BESS), 직류(DC) 배전, 고밀도 액체냉각, 그리고 클라우드 인프라 엔지니어링 데일리 인텔리전스" />
+  <meta name="keywords" content="AWS, 데이터센터, AI인프라, SMR, 액체냉각, DCEO, 클라우드, James Moon" />
+  <meta name="author" content="James Moon" />
+  
+  <!-- OpenGraph Meta Tags -->
+  <meta property="og:title" content="DC InfraOps Intelligence | James Moon" />
+  <meta property="og:description" content="Global Hyperscale AI Data Center, Power Grid (SMR), Liquid Cooling & Cloud InfraOps Daily Intelligence" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://ywmoon.github.io" />
+  <meta property="og:image" content="https://ywmoon.github.io/assets/avatar.jpg" />
+  
+  <!-- Typography & Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;600&family=Inter:wght@400;500;600;700;800&family=Noto+Sans+KR:wght@400;500;700;800&display=swap" rel="stylesheet" />
+  
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Top Sticky Navigation Bar -->
+  <header class="dc-header">
+    <div class="dc-nav-container">
+      <div class="dc-brand-area" onclick="navigateHome()">
+        <span class="dc-brand-badge">AWS InfraOps</span>
+        <span class="dc-brand-title">DC InfraOps Trends</span>
+      </div>
+
+      <nav class="dc-nav-menu">
+        <button class="dc-nav-btn active" id="nav-home-btn" onclick="navigateHome()">
+          🏠 홈
+        </button>
+        <button class="dc-nav-btn" id="nav-table-btn" onclick="navigateToDirectory()">
+          📋 전체 아티클 (Table)
+        </button>
+        
+        <!-- Archive Dropdown -->
+        <div class="dc-dropdown-wrap">
+          <button class="dc-nav-btn dc-dropdown-trigger" id="archive-dropdown-btn">
+            📅 자료실 ▾
+          </button>
+          <div class="dc-dropdown-menu" id="archive-dropdown-menu">
+            <!-- Dynamically populated -->
+          </div>
+        </div>
+
+        <!-- Tag Dropdown -->
+        <div class="dc-dropdown-wrap">
+          <button class="dc-nav-btn dc-dropdown-trigger" id="tag-dropdown-btn">
+            🏷️ 태그 ▾
+          </button>
+          <div class="dc-dropdown-menu" id="tag-dropdown-menu">
+            <!-- Dynamically populated -->
+          </div>
+        </div>
+
+        <button class="dc-nav-btn" id="nav-profile-btn" onclick="openProfileModal()">
+          👤 프로필
+        </button>
+      </nav>
+
+      <!-- Utility Area: Search & Theme Toggle -->
+      <div class="dc-nav-actions">
+        <div class="dc-search-box">
+          <span class="dc-search-icon">🔍</span>
+          <input type="text" id="global-search-input" placeholder="키워드, 기술, 기업 검색..." oninput="handleSearchInput(this.value)" />
+          <button id="search-clear-btn" class="dc-search-clear" onclick="clearSearch()" style="display:none;">✕</button>
+        </div>
+        <button class="dc-theme-toggle-btn" id="theme-toggle-btn" onclick="toggleTheme()" title="화이트/다크 테마 전환">
+          🌓
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Application Content Viewport -->
+  <main class="dc-main-viewport" id="main-content">
+    <!-- Home / Hero Section -->
+    <section class="dc-hero-section" id="hero-section">
+      <div class="dc-hero-badge">AI Data Center & Mission-Critical Power Intelligence</div>
+      <h1 class="dc-hero-headline">
+        Hyperscale Cloud & AI Data Center <span class="dc-highlight">InfraOps Intelligence</span>
+      </h1>
+      <p class="dc-hero-sub">
+        글로벌 하이퍼스케일 클라우드 및 AI 메가 데이터센터의 전력 공급망(Substation, BESS, SMR), 직류(DC) 고효율 배전, 첨단 액체 냉각(Direct-to-Chip & Immersion), 그리고 기가와트(GW)급 AI 하드웨어 클러스터링 동향을 매일 심층 분석하여 전달합니다.
+      </p>
+
+      <!-- Category Filter Tabs -->
+      <div class="dc-category-tabs" id="category-tabs">
+        <button class="dc-cat-tab active" data-cat="ALL" onclick="filterCategory('ALL')">전체 보기</button>
+        <button class="dc-cat-tab" data-cat="팟캐스트" onclick="filterCategory('팟캐스트')">🎧 10-Min 팟캐스트</button>
+        <button class="dc-cat-tab" data-cat="데일리 뉴스레터" onclick="filterCategory('데일리 뉴스레터')">📧 데일리 2-Column 리포트</button>
+        <button class="dc-cat-tab" data-cat="테크 딥다이브" onclick="filterCategory('테크 딥다이브')">🔬 테크 딥다이브</button>
+        <button class="dc-cat-tab" data-cat="용어사전" onclick="filterCategory('용어사전')">💡 IT 용어사전</button>
+      </div>
+    </section>
+
+    <!-- Active Filter Info Banner (When searching or filtering) -->
+    <div class="dc-filter-status-bar" id="filter-status-bar" style="display: none;">
+      <span id="filter-status-text">필터 적용 중</span>
+      <button class="dc-filter-reset-btn" onclick="resetAllFilters()">✕ 필터 초기화</button>
+    </div>
+
+    <!-- Featured Post Grid View (Home Mode) -->
+    <section class="dc-posts-grid-section" id="posts-grid-section">
+      <div class="dc-posts-grid" id="posts-grid-container">
+        <!-- Rendered by app.js -->
+      </div>
+    </section>
+
+    <!-- Full Article Directory Table View (Table Mode) -->
+    <section class="dc-table-section" id="table-section" style="display: none;">
+      <div class="dc-table-header-box">
+        <h2>📋 전체 아티클 데이터베이스 디렉토리</h2>
+        <span class="dc-table-counter" id="table-counter-text">총 0건</span>
+      </div>
+      <div class="dc-table-responsive-wrapper">
+        <table class="dc-directory-table">
+          <thead>
+            <tr>
+              <th style="width: 60px;">No</th>
+              <th style="width: 110px;">발행일</th>
+              <th style="width: 130px;">카테고리</th>
+              <th>아티클 제목</th>
+              <th style="width: 200px;">주요 태그</th>
+              <th style="width: 80px;">열기</th>
+            </tr>
+          </thead>
+          <tbody id="directory-table-body">
+            <!-- Rendered by app.js -->
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <!-- Single Article Reader View (Article Mode) -->
+    <article class="dc-article-reader" id="article-reader-section" style="display: none;">
+      <div class="dc-reader-nav">
+        <button class="dc-back-btn" onclick="navigateBack()">← 목록으로 돌아가기</button>
+        <div class="dc-reader-meta-right" id="reader-meta-date">2026-08-16</div>
+      </div>
+      
+      <div class="dc-reader-header">
+        <div class="dc-reader-badges" id="reader-badges"></div>
+        <h1 class="dc-reader-title" id="reader-title">아티클 제목</h1>
+      </div>
+
+      <div class="dc-reader-body" id="reader-body-content">
+        <!-- Injected Article HTML -->
+      </div>
+    </article>
+  </main>
+
+  <!-- Clean White Modal: Executive Profile Modal -->
+  <div class="dc-modal-backdrop" id="profile-modal" onclick="handleBackdropClick(event)">
+    <div class="dc-profile-card">
+      <button class="dc-modal-close-btn" onclick="closeProfileModal()">✕</button>
+      
+      <div class="dc-p-avatar-wrap">
+        <img src="assets/avatar.jpg" alt="James Moon" class="dc-p-avatar-img" />
+      </div>
+
+      <div class="dc-p-name">James Moon</div>
+
+      <div class="dc-p-contact-list">
+        <a href="mailto:ywmoon1202@gmail.com" class="dc-p-contact-item">
+          <span class="dc-p-contact-icon">✉️</span>
+          <span class="dc-p-contact-label">Mail :</span>
+          <span class="dc-p-contact-val">ywmoon1202@gmail.com</span>
+        </a>
+        <a href="http://www.linkedin.com/in/ywmoon" target="_blank" rel="noopener noreferrer" class="dc-p-contact-item">
+          <span class="dc-p-contact-icon">🔗</span>
+          <span class="dc-p-contact-label">LinkedIn :</span>
+          <span class="dc-p-contact-val">http://www.linkedin.com/in/ywmoon</span>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="dc-footer">
+    <div class="dc-footer-content">
+      <p>© 2026 <strong>James Moon</strong>. All rights reserved. | DC InfraOps Intelligence</p>
+      <p style="font-size: 12px; opacity: 0.7; margin-top: 4px;">
+        AWS Hyperscale DataCenter • Mission-Critical Power • AI Hardware Clustering • Liquid Cooling
+      </p>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
