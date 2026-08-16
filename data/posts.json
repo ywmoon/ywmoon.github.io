@@ -4,7 +4,7 @@
     "title": "[2026.08.16] 오늘의 글로벌 클라우드 & 데이터센터 인프라 핵심 동향 브리핑",
     "date": "2026-08-16",
     "time": "07:30",
-    "category": "데일리 브리핑",
+    "category": "Daily Briefing",
     "labels": [
       "AWS",
       "엔비디아",
@@ -25,7 +25,7 @@
     "title": "[테크 딥다이브] 기가와트(GW)급 AI 데이터센터의 물리적 임계점과 엔비디아의 인프라 금융 리스크 재편",
     "date": "2026-08-16",
     "time": "07:32",
-    "category": "테크 딥다이브",
+    "category": "Tech Deep Dive",
     "labels": [
       "테크딥다이브",
       "데이터센터",
@@ -44,7 +44,7 @@
     "title": "[테크 딥다이브] 미션 크리티컬 MRO를 위한 생성형 AI·클라우드 인프라: 하이브리드 RAG와 엣지-클라우드 파이프라인 아키텍처 분석",
     "date": "2026-08-16",
     "time": "07:32",
-    "category": "테크 딥다이브",
+    "category": "Tech Deep Dive",
     "labels": [
       "AWS",
       "데이터센터",
@@ -63,7 +63,7 @@
     "title": "[인프라 용어사전] BESS (배터리 에너지 저장 시스템) - 기가와트(GW)급 AI 데이터센터의 전력 안정망 핵심",
     "date": "2026-08-16",
     "time": "07:35",
-    "category": "용어사전",
+    "category": "Terminology",
     "labels": [
       "인프라용어사전",
       "IT백과사전",
@@ -81,7 +81,7 @@
     "title": "[2026.08.16] [10-Min English Podcast] Navigating the AI Infrastructure Supercycle: CapEx De-risking, Nuclear SMR Baseload, and 800-Volt DC Architectures",
     "date": "2026-08-16",
     "time": "07:38",
-    "category": "팟캐스트",
+    "category": "Podcast",
     "labels": [
       "EnglishPodcast",
       "TechEnglish",
@@ -101,7 +101,7 @@
     "title": "[2026.08.15] 오늘의 글로벌 클라우드 & 데이터센터 인프라 핵심 동향 브리핑",
     "date": "2026-08-15",
     "time": "07:30",
-    "category": "데일리 브리핑",
+    "category": "Daily Briefing",
     "labels": [
       "AI인프라",
       "BESS",
@@ -125,7 +125,7 @@
     "title": "[2026.08.15] 오늘의 글로벌 클라우드 & 데이터센터 인프라 핵심 동향 브리핑",
     "date": "2026-08-15",
     "time": "07:30",
-    "category": "데일리 브리핑",
+    "category": "Daily Briefing",
     "labels": [
       "AI인프라",
       "AWS",
@@ -146,7 +146,7 @@
     "title": "[테크 딥다이브] 10GW 메가 AI 데이터센터의 물리적 한계와 '우로보로스 금융'의 구조조정: 하이퍼스케일 인프라 아키텍처와 TCO 딜레마",
     "date": "2026-08-15",
     "time": "07:32",
-    "category": "테크 딥다이브",
+    "category": "Tech Deep Dive",
     "labels": [
       "AI데이터센터",
       "TCO분석",
@@ -165,7 +165,7 @@
     "title": "[테크 딥다이브] 10GW 초대형 AI 데이터센터와 벤더 파이낸싱의 한계: 기가와트급 인프라 아키텍처의 현실과 과제",
     "date": "2026-08-15",
     "time": "07:32",
-    "category": "테크 딥다이브",
+    "category": "Tech Deep Dive",
     "labels": [
       "AI데이터센터",
       "액체냉각",
@@ -183,7 +183,7 @@
     "title": "[테크 딥다이브] 10GW 기가와트급 AI 클러스터의 전력 역설과 '우로보로스 금융'의 한계: 엔비디아-오픈AI 오하이오 프로젝트 재조정 분석",
     "date": "2026-08-15",
     "time": "07:32",
-    "category": "테크 딥다이브",
+    "category": "Tech Deep Dive",
     "labels": [
       "TCO분석",
       "기가와트클러스터",
@@ -203,7 +203,7 @@
     "title": "[인프라 용어사전] D2C 액체냉각 (Direct-to-Chip Liquid Cooling) - 초고밀도 AI 데이터센터의 필수 열관리 아키텍처",
     "date": "2026-08-15",
     "time": "07:35",
-    "category": "용어사전",
+    "category": "Terminology",
     "labels": [
       "D2C액체냉각",
       "IT백과사전",
@@ -221,7 +221,7 @@
     "title": "[2026.08.15] [7-Min English Podcast] Nuclear SMRs, AI CapEx Realignment & Cooling Bottlenecks",
     "date": "2026-08-15",
     "time": "07:38",
-    "category": "팟캐스트",
+    "category": "Podcast",
     "labels": [
       "AI인프라",
       "AWS",
@@ -241,7 +241,7 @@
     "title": "DC InfraOps Trends - 2026년 08월 14일",
     "date": "2026-08-14",
     "time": "07:40",
-    "category": "뉴스레터",
+    "category": "Newsletter",
     "labels": [],
     "summary": "Datacenter & Cloud Industry InfraOps Daily (2-Column) DAILY DIGEST Datacenter & Cloud Industry InfraOps Daily 2026년 08월 14일 (금) 💡 AI Executive Summary: Key News Insights 글로벌 빅테크의 AI 컴퓨팅 주도권 확보전이 단순 설비",
     "status": "published",
@@ -252,7 +252,7 @@
     "title": "DC InfraOps Trends - 2026년 08월 13일",
     "date": "2026-08-13",
     "time": "07:40",
-    "category": "뉴스레터",
+    "category": "Newsletter",
     "labels": [],
     "summary": "Datacenter & Cloud Industry InfraOps Daily (2-Column) DAILY DIGEST Datacenter & Cloud Industry InfraOps Daily 2026년 08월 13일 (목) 💡 AI Executive Summary: Key News Insights 글로벌 빅테크의 AI 컴퓨팅 주도권 경쟁이 심화되는 가",
     "status": "published",
