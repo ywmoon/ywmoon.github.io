@@ -168,6 +168,16 @@ function navigateBack() {
   else { window.location.hash = ''; }
 }
 
+function trackPageView(pagePath, pageTitle) {
+  if (typeof gtag === 'function') {
+    gtag('event', 'page_view', {
+      page_path: pagePath || window.location.hash || '/',
+      page_title: pageTitle || document.title,
+      page_location: window.location.href
+    });
+  }
+}
+
 function openHomeView() {
   currentView = 'home';
   document.getElementById('hero-section').style.display = 'block';
@@ -176,6 +186,7 @@ function openHomeView() {
   document.getElementById('article-reader-section').style.display = 'none';
   updateNavActiveState('nav-home-btn');
   applyFilters();
+  trackPageView('/', 'DC InfraOps Intelligence | Home');
 }
 
 function openTableView() {
@@ -187,6 +198,7 @@ function openTableView() {
   document.getElementById('article-reader-section').style.display = 'none';
   updateNavActiveState('nav-table-btn');
   renderDirectoryTable();
+  trackPageView('#table', 'DC InfraOps Intelligence | Directory Table');
 }
 
 async function openArticleView(articleId) {
@@ -241,6 +253,9 @@ async function openArticleView(articleId) {
   try {
     (adsbygoogle = window.adsbygoogle || []).push({});
   } catch (e) {}
+
+  // 5. Track GA4 PageView with Article Title
+  trackPageView(`#article/${post.id}`, post.title);
 
   window.scrollTo({ top: 0, behavior: 'smooth' });
 }
