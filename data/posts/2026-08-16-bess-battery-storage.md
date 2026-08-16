@@ -2,7 +2,7 @@
 id: 2026-08-16-bess-battery-storage
 title: "[인프라 용어사전] BESS (배터리 에너지 저장 시스템) - 기가와트(GW)급 AI 데이터센터의 전력 안정망 핵심"
 date: 2026-08-16
-category: 용어사전
+category: Terminology
 status: published
 summary: "📌 1. 30초 핵심 요약 & 개념 정의 BESS (Battery Energy Storage System)는 전력망(Grid)이나 태양광·풍력 등 신재생 발전원에서 생산된 잉여 전력을 대용량 배터리에 충전해 두었다가, 전력 수요 급증(Peak Load)이나 정전·주파수 변동 등 비상 상황 발생 시 실시간으로 방전해 전력을 공급하는 ‘대규모 지능형 에너지 저"
 labels:
