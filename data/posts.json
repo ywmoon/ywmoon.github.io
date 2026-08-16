@@ -125,26 +125,6 @@
     "content_file": "data/posts/2026-08-16-mro-generative-ai-cloud.md"
   },
   {
-    "id": "2026-08-16-10min-tech-podcast",
-    "title": "[2026.08.16] [10-Min English Podcast] Navigating the AI Infrastructure Supercycle: CapEx De-risking, Nuclear SMR Baseload, and 800-Volt DC Architectures",
-    "date": "2026-08-16",
-    "time": "07:38",
-    "category": "Podcast",
-    "labels": [
-      "EnglishPodcast",
-      "TechEnglish",
-      "비즈니스영어",
-      "AI인프라",
-      "데이터센터",
-      "SMR",
-      "800VDC",
-      "액체냉각"
-    ],
-    "summary": "🎧 10-MIN TECH ENGLISH PODCAST [2026.08.16] [10-Min English Podcast] Navigating the AI Infrastructure Supercycle: CapEx De-risking, Nuclear SMR Baseload, and 800-Volt DC Architectures 오늘의 10분 심층 팟캐스트는 ",
-    "status": "published",
-    "content_file": "data/posts/2026-08-16-10min-tech-podcast.md"
-  },
-  {
     "id": "2026-08-15-d2c-liquid-cooling",
     "title": "[인프라 용어사전] D2C 액체냉각 (Direct-to-Chip Liquid Cooling) - 초고밀도 AI 데이터센터의 필수 열관리 아키텍처",
     "date": "2026-08-15",
