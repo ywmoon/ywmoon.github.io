@@ -2,7 +2,7 @@
 id: 2026-08-15-7min-tech-podcast
 title: "[2026.08.15] [7-Min English Podcast] Nuclear SMRs, AI CapEx Realignment & Cooling Bottlenecks"
 date: 2026-08-15
-category: 팟캐스트
+category: Podcast
 status: published
 summary: "🎧 7-MIN TECH ENGLISH PODCAST [2026.08.15] [7-Min English Podcast] Nuclear SMRs, AI CapEx Realignment & Cooling Bottlenecks 오늘의 7분 팟캐스트는 빅테크의 7,250억 달러 AI CapEx 재편, 데이터센터 무중단 기저부하(Baseload) 확보를 위한 SMR "
 labels:
