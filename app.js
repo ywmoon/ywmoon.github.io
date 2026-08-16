@@ -64,7 +64,8 @@ function initShortcuts() {
 }
 
 // ─── Article Reader Font Size Adjuster (Feature B) ────────────────
-const FONT_SIZES = ['14px', '15.5px', '17.5px'];
+const FONT_SIZES = ['13px', '15.5px', '18.5px', '22px', '26px'];
+const FONT_LABELS = ['작게 (13px)', '기본 (15.5px)', '크게 (18.5px)', '매우 크게 (22px)', '최대 (26px)'];
 let currentFontIdx = 1;
 
 function initFontSize() {
@@ -79,13 +80,16 @@ function adjustFontSize(delta) {
   currentFontIdx = Math.max(0, Math.min(FONT_SIZES.length - 1, currentFontIdx + delta));
   localStorage.setItem('dc_font_size_idx', currentFontIdx);
   applyReaderFontSize();
-  showToast(`🔤 본문 글자 크기: ${FONT_SIZES[currentFontIdx]}`);
+  showToast(`🔤 본문 글자 크기: ${FONT_LABELS[currentFontIdx] || FONT_SIZES[currentFontIdx]}`);
 }
 
 function applyReaderFontSize() {
+  const size = FONT_SIZES[currentFontIdx];
+  document.documentElement.style.setProperty('--reader-font-size', size);
   const bodyEl = document.getElementById('reader-body-content');
   if (bodyEl) {
-    bodyEl.style.fontSize = FONT_SIZES[currentFontIdx];
+    bodyEl.style.setProperty('--reader-font-size', size);
+    bodyEl.style.fontSize = size;
   }
 }
 
