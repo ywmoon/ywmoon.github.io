@@ -1,44 +1,25 @@
 [
   {
-    "id": "2026-08-16-오늘의-글로벌-클라우드-데이터센터-인프라-핵심-동향-브리핑",
-    "title": "[2026.08.16] 오늘의 글로벌 클라우드 & 데이터센터 인프라 핵심 동향 브리핑",
+    "id": "2026-08-16-10min-tech-podcast",
+    "title": "[2026.08.16] [10-Min English Podcast] Global AI CapEx Realignment, Nuclear SMR Baseload Shift, and High-Density Thermal Frontiers",
     "date": "2026-08-16",
-    "category": "데일리 브리핑",
+    "category": "팟캐스트",
     "labels": [
+      "10-Min Podcast",
+      "Tech English",
+      "비즈니스영어",
+      "AWS",
       "AI인프라",
-      "AWS",
       "데이터센터",
-      "액체냉각",
-      "엔비디아",
-      "오픈AI",
-      "인프라동향",
-      "전력망",
-      "클라우드"
+      "SMR",
+      "액체냉각"
     ],
-    "summary": "Daily InfraOps Digest 글로벌 IT 인프라 & 데이터센터 데일리 리포트 발행일: 2026년 8월 16일 | 작성: IT 인프라 전문 테크 에디터 📌 오늘의 3대 핵심 관전 포인트 (Key Highlights) 엔비디아-오픈AI 데이터센터 보증 규모 재조정: 엔비디아가 오픈AI의 초대형 데이터센터 구축 금융 보증 규모를 기존 2,500억 달러",
+    "summary": "오늘의 10분 심층 팟캐스트는 글로벌 AI 인프라 CapEx 재편, 원전 SMR 및 직류 배전 혁신, 그리고 피닉스 데이터센터 냉각 셧다운 사태와 고밀도 액체냉각 전환 동향을 심층 분석합니다.",
     "status": "published",
-    "content_file": "data/posts/2026-08-16-오늘의-글로벌-클라우드-데이터센터-인프라-핵심-동향-브리핑.md"
+    "content_file": "data/posts/2026-08-16-10min-tech-podcast.md"
   },
   {
-    "id": "2026-08-16-미션-크리티컬-mro를-위한-생성형-ai클라우드-인프라-하이브리드-rag와-엣지-클라우드-파이프라인-아키텍처",
-    "title": "[테크 딥다이브] 미션 크리티컬 MRO를 위한 생성형 AI·클라우드 인프라: 하이브리드 RAG와 엣지-클라우드 파이프라인 아키텍처 분석",
-    "date": "2026-08-16",
-    "category": "테크 딥다이브",
-    "labels": [
-      "AWS",
-      "데이터센터",
-      "생성형AI",
-      "클라우드인프라",
-      "테크딥다이브",
-      "하이브리드RAG",
-      "항공MRO"
-    ],
-    "summary": "🚀 서론: 미션 크리티컬 인더스트리의 생성형 AI 전환과 인프라 패러다임 시프트 항공기 운항 및 정비(MRO, Maintenance, Repair, and Overhaul)는 단 0.01%의 오류도 용납되지 않는 대표적인 '미션 크리티컬(Mission-Critical)' 산업입니다. 수십만 개의 정밀 부품과 복잡다단한 비행 기록 장치(FDR), 퀵 액세스 ",
-    "status": "published",
-    "content_file": "data/posts/2026-08-16-미션-크리티컬-mro를-위한-생성형-ai클라우드-인프라-하이브리드-rag와-엣지-클라우드-파이프라인-아키텍처.md"
-  },
-  {
-    "id": "2026-08-16-2026년-8월-ai-데이터센터-인프라-대전환-15000장-gpu-메가팜-착공부터-smr직류dc-배전온수-냉",
+    "id": "2026-08-16-august-megafarm-deepdive",
     "title": "[InfraOps 심층 리포트] 2026년 8월 AI 데이터센터 & 인프라 대전환: 15,000장 GPU 메가팜 착공부터 SMR·직류(DC) 배전·온수 냉각 혁신까지",
     "date": "2026-08-16",
     "category": "테크 딥다이브",
@@ -57,10 +38,10 @@
     ],
     "summary": "InfraOps Special Report 2026년 8월 AI 데이터센터 & 인프라 대전환: 15,000장 GPU 메가팜 착공부터 SMR·직류(DC) 배전·온수 냉각 혁신까지 2026.08.16 | Global AI Data Center & Cloud InfraOps Intelligence 📌 Executive Summary 2026년 하반기, 글로벌 A",
     "status": "published",
-    "content_file": "data/posts/2026-08-16-2026년-8월-ai-데이터센터-인프라-대전환-15000장-gpu-메가팜-착공부터-smr직류dc-배전온수-냉.md"
+    "content_file": "data/posts/2026-08-16-august-megafarm-deepdive.md"
   },
   {
-    "id": "2026-08-16-bess-배터리-에너지-저장-시스템-기가와트gw급-ai-데이터센터의-필수-전력-인프라",
+    "id": "2026-08-16-bess-battery-storage",
     "title": "[인프라 용어사전] BESS (배터리 에너지 저장 시스템) - 기가와트(GW)급 AI 데이터센터의 필수 전력 인프라",
     "date": "2026-08-16",
     "category": "용어사전",
@@ -75,10 +56,71 @@
     ],
     "summary": "1일 1 IT 인프라 용어사전 #01 BESS (Battery Energy Storage System, 배터리 에너지 저장 시스템) 기가와트(GW) 규모의 초거대 AI 클러스터와 재생에너지를 연결하는 전력 안정화의 핵심 인프라 📌 1. 30초 핵심 요약 & 개념 정의 BESS(Battery Energy Storage System, 배터리 에너지 저장 시스템",
     "status": "published",
-    "content_file": "data/posts/2026-08-16-bess-배터리-에너지-저장-시스템-기가와트gw급-ai-데이터센터의-필수-전력-인프라.md"
+    "content_file": "data/posts/2026-08-16-bess-battery-storage.md"
   },
   {
-    "id": "2026-08-15-nuclear-smrs-ai-capex-realignment-cooling-bottlenecks",
+    "id": "2026-08-16-mro-generative-ai-cloud",
+    "title": "[테크 딥다이브] 미션 크리티컬 MRO를 위한 생성형 AI·클라우드 인프라: 하이브리드 RAG와 엣지-클라우드 파이프라인 아키텍처 분석",
+    "date": "2026-08-16",
+    "category": "테크 딥다이브",
+    "labels": [
+      "AWS",
+      "데이터센터",
+      "생성형AI",
+      "클라우드인프라",
+      "테크딥다이브",
+      "하이브리드RAG",
+      "항공MRO"
+    ],
+    "summary": "🚀 서론: 미션 크리티컬 인더스트리의 생성형 AI 전환과 인프라 패러다임 시프트 항공기 운항 및 정비(MRO, Maintenance, Repair, and Overhaul)는 단 0.01%의 오류도 용납되지 않는 대표적인 '미션 크리티컬(Mission-Critical)' 산업입니다. 수십만 개의 정밀 부품과 복잡다단한 비행 기록 장치(FDR), 퀵 액세스 ",
+    "status": "published",
+    "content_file": "data/posts/2026-08-16-mro-generative-ai-cloud.md"
+  },
+  {
+    "id": "2026-08-16-daily-infraops-briefing",
+    "title": "[2026.08.16] 오늘의 글로벌 클라우드 & 데이터센터 인프라 핵심 동향 브리핑",
+    "date": "2026-08-16",
+    "category": "데일리 브리핑",
+    "labels": [
+      "AI인프라",
+      "AWS",
+      "데이터센터",
+      "액체냉각",
+      "엔비디아",
+      "오픈AI",
+      "인프라동향",
+      "전력망",
+      "클라우드"
+    ],
+    "summary": "Daily InfraOps Digest 글로벌 IT 인프라 & 데이터센터 데일리 리포트 발행일: 2026년 8월 16일 | 작성: IT 인프라 전문 테크 에디터 📌 오늘의 3대 핵심 관전 포인트 (Key Highlights) 엔비디아-오픈AI 데이터센터 보증 규모 재조정: 엔비디아가 오픈AI의 초대형 데이터센터 구축 금융 보증 규모를 기존 2,500억 달러",
+    "status": "published",
+    "content_file": "data/posts/2026-08-16-daily-infraops-briefing.md"
+  },
+  {
+    "id": "2026-08-15-daily-infraops-briefing",
+    "title": "[2026.08.15] 오늘의 글로벌 클라우드 & 데이터센터 인프라 핵심 동향 브리핑",
+    "date": "2026-08-15",
+    "category": "데일리 브리핑",
+    "labels": [
+      "AI인프라",
+      "BESS",
+      "IBMCloud",
+      "InfraOps",
+      "LG에너지솔루션",
+      "데이터센터",
+      "메타",
+      "아마존AWS",
+      "액체냉각",
+      "엔비디아",
+      "오픈AI",
+      "전력망PPA"
+    ],
+    "summary": "📌 오늘의 3대 핵심 관전 포인트 (Key Highlights) 엔비디아, 오픈AI 메가 데이터센터 금융 보증 $2,500억 → $1,200억 축소: 천문학적 자본 지출(CapEx) 리스크 분산 및 하드웨어 공급선 다변화에 따른 인프라 금융 모델 재조정 본격화. 컴퓨팅 병목의 축 이동 (Chip to Power): 엔비디아의 $5,000억 인프라 펀딩과 I",
+    "status": "published",
+    "content_file": "data/posts/2026-08-15-daily-infraops-briefing.md"
+  },
+  {
+    "id": "2026-08-15-7min-tech-podcast",
     "title": "[2026.08.15] [7-Min English Podcast] Nuclear SMRs, AI CapEx Realignment & Cooling Bottlenecks",
     "date": "2026-08-15",
     "category": "팟캐스트",
@@ -94,10 +136,10 @@
     ],
     "summary": "🎧 7-MIN TECH ENGLISH PODCAST [2026.08.15] [7-Min English Podcast] Nuclear SMRs, AI CapEx Realignment & Cooling Bottlenecks 오늘의 7분 팟캐스트는 빅테크의 7,250억 달러 AI CapEx 재편, 데이터센터 무중단 기저부하(Baseload) 확보를 위한 SMR ",
     "status": "published",
-    "content_file": "data/posts/2026-08-15-nuclear-smrs-ai-capex-realignment-cooling-bottlenecks.md"
+    "content_file": "data/posts/2026-08-15-7min-tech-podcast.md"
   },
   {
-    "id": "2026-08-15-10gw-메가-ai-데이터센터의-물리적-한계와-우로보로스-금융의-구조조정-하이퍼스케일-인프라-아키텍처와-tc",
+    "id": "2026-08-15-10gw-mega-datacenter-tco",
     "title": "[테크 딥다이브] 10GW 메가 AI 데이터센터의 물리적 한계와 '우로보로스 금융'의 구조조정: 하이퍼스케일 인프라 아키텍처와 TCO 딜레마",
     "date": "2026-08-15",
     "category": "테크 딥다이브",
@@ -112,10 +154,27 @@
     ],
     "summary": "ARCHITECTURAL DEEP DIVE 10GW급 초대형 AI 팩토리와 '우로보로스 금융'의 균열:전력망·냉각 엔지니어링과 자본 회수의 임계점 분석 엔비디아가 오픈AI의 미국 오하이오 10GW 데이터센터 프로젝트 채무 보증 규모를 2,500억 달러에서 1,200억 달러로 전격 축소했습니다. 단일 프로젝트 기준 사상 최대 규모의 AI 인프라 프로젝트에서 ",
     "status": "published",
-    "content_file": "data/posts/2026-08-15-10gw-메가-ai-데이터센터의-물리적-한계와-우로보로스-금융의-구조조정-하이퍼스케일-인프라-아키텍처와-tc.md"
+    "content_file": "data/posts/2026-08-15-10gw-mega-datacenter-tco.md"
   },
   {
-    "id": "2026-08-15-오늘의-글로벌-클라우드-데이터센터-인프라-핵심-동향-브리핑",
+    "id": "2026-08-15-10gw-vendor-financing-limits",
+    "title": "[테크 딥다이브] 10GW 초대형 AI 데이터센터와 벤더 파이낸싱의 한계: 기가와트급 인프라 아키텍처의 현실과 과제",
+    "date": "2026-08-15",
+    "category": "테크 딥다이브",
+    "labels": [
+      "AI데이터센터",
+      "액체냉각",
+      "엔비디아",
+      "오픈AI",
+      "전력망인프라",
+      "테크딥다이브"
+    ],
+    "summary": "Executive Technical Briefing 10GW 기가와트 스케일 AI 인프라와 벤더 파이낸싱의 균열: 기술적·경제적 임계점 분석 오픈AI와 엔비디아가 추진하는 오하이오주 10GW 데이터센터 프로젝트의 금융 보증 축소(2,500억 달러 → 1,200억 달러)는 단순한 재무적 조정을 넘어, 물리적 전력망(Grid) 용량, 수랭식 열관리 아키텍처, ",
+    "status": "published",
+    "content_file": "data/posts/2026-08-15-10gw-vendor-financing-limits.md"
+  },
+  {
+    "id": "2026-08-15-daily-infraops-briefing-2",
     "title": "[2026.08.15] 오늘의 글로벌 클라우드 & 데이터센터 인프라 핵심 동향 브리핑",
     "date": "2026-08-15",
     "category": "데일리 브리핑",
@@ -132,27 +191,10 @@
     ],
     "summary": "DAILY INFRAOPS DIGEST 2026년 8월 15일 글로벌 클라우드 & 데이터센터 인프라 종합 리포트 엔터프라이즈 AI 워크로드 확장, 하이퍼스케일러 재무 리스크 관리, 기가와트(GW)급 전력망 및 BESS 패러다임 전환 분석 📌 오늘의 3대 핵심 관전 포인트 (Key Highlights) 엔비디아의 오픈AI 인프라 보증 52% 축소 ($2,50",
     "status": "published",
-    "content_file": "data/posts/2026-08-15-오늘의-글로벌-클라우드-데이터센터-인프라-핵심-동향-브리핑.md"
+    "content_file": "data/posts/2026-08-15-daily-infraops-briefing-2.md"
   },
   {
-    "id": "2026-08-15-d2c-액체냉각-direct-to-chip-liquid-cooling-초고밀도-ai-데이터센터의-필수-열관리",
-    "title": "[인프라 용어사전] D2C 액체냉각 (Direct-to-Chip Liquid Cooling) - 초고밀도 AI 데이터센터의 필수 열관리 아키텍처",
-    "date": "2026-08-15",
-    "category": "용어사전",
-    "labels": [
-      "D2C액체냉각",
-      "IT백과사전",
-      "데이터센터",
-      "액체냉각",
-      "엔비디아",
-      "인프라용어사전"
-    ],
-    "summary": "Data Center Thermal & Cooling D2C 액체냉각 (Direct-to-Chip Liquid Cooling) AI 가속기(GPU/TPU)의 발열 한계를 돌파하는 랙당 100kW+ 초고밀도 직접 냉각 기술 📌 1. 30초 핵심 요약 & 개념 정의 D2C(Direct-to-Chip) 액체냉각은 발열량이 극심한 GPU, CPU, ASIC 등 핵",
-    "status": "published",
-    "content_file": "data/posts/2026-08-15-d2c-액체냉각-direct-to-chip-liquid-cooling-초고밀도-ai-데이터센터의-필수-열관리.md"
-  },
-  {
-    "id": "2026-08-15-10gw-기가와트급-ai-클러스터의-전력-역설과-우로보로스-금융의-한계-엔비디아-오픈ai-오하이오-프로젝트",
+    "id": "2026-08-15-10gw-cluster-power-paradox",
     "title": "[테크 딥다이브] 10GW 기가와트급 AI 클러스터의 전력 역설과 '우로보로스 금융'의 한계: 엔비디아-오픈AI 오하이오 프로젝트 재조정 분석",
     "date": "2026-08-15",
     "category": "테크 딥다이브",
@@ -168,43 +210,43 @@
     ],
     "summary": "Infrastructure Architecture Analysis 10GW 기가와트 스케일 AI 인프라의 물리적 장벽과 벤더 파이낸싱의 구조적 재편 오픈AI-엔비디아의 오하이오 10GW 프로젝트 보증액 절반 축소(2,500억→1,200억 달러)가 시사하는 하이퍼스케일 전력망 한계, 랙당 120kW 초고밀도 냉각 아키텍처, 그리고 AI 밸류체인 순환 출자의 ",
     "status": "published",
-    "content_file": "data/posts/2026-08-15-10gw-기가와트급-ai-클러스터의-전력-역설과-우로보로스-금융의-한계-엔비디아-오픈ai-오하이오-프로젝트.md"
+    "content_file": "data/posts/2026-08-15-10gw-cluster-power-paradox.md"
   },
   {
-    "id": "2026-08-15-10gw-초대형-ai-데이터센터와-벤더-파이낸싱의-한계-기가와트급-인프라-아키텍처의-현실과-과제",
-    "title": "[테크 딥다이브] 10GW 초대형 AI 데이터센터와 벤더 파이낸싱의 한계: 기가와트급 인프라 아키텍처의 현실과 과제",
+    "id": "2026-08-15-d2c-liquid-cooling",
+    "title": "[인프라 용어사전] D2C 액체냉각 (Direct-to-Chip Liquid Cooling) - 초고밀도 AI 데이터센터의 필수 열관리 아키텍처",
     "date": "2026-08-15",
-    "category": "테크 딥다이브",
+    "category": "용어사전",
     "labels": [
-      "AI데이터센터",
+      "D2C액체냉각",
+      "IT백과사전",
+      "데이터센터",
       "액체냉각",
       "엔비디아",
-      "오픈AI",
-      "전력망인프라",
-      "테크딥다이브"
+      "인프라용어사전"
     ],
-    "summary": "Executive Technical Briefing 10GW 기가와트 스케일 AI 인프라와 벤더 파이낸싱의 균열: 기술적·경제적 임계점 분석 오픈AI와 엔비디아가 추진하는 오하이오주 10GW 데이터센터 프로젝트의 금융 보증 축소(2,500억 달러 → 1,200억 달러)는 단순한 재무적 조정을 넘어, 물리적 전력망(Grid) 용량, 수랭식 열관리 아키텍처, ",
+    "summary": "Data Center Thermal & Cooling D2C 액체냉각 (Direct-to-Chip Liquid Cooling) AI 가속기(GPU/TPU)의 발열 한계를 돌파하는 랙당 100kW+ 초고밀도 직접 냉각 기술 📌 1. 30초 핵심 요약 & 개념 정의 D2C(Direct-to-Chip) 액체냉각은 발열량이 극심한 GPU, CPU, ASIC 등 핵",
     "status": "published",
-    "content_file": "data/posts/2026-08-15-10gw-초대형-ai-데이터센터와-벤더-파이낸싱의-한계-기가와트급-인프라-아키텍처의-현실과-과제.md"
+    "content_file": "data/posts/2026-08-15-d2c-liquid-cooling.md"
   },
   {
-    "id": "2026-08-14-dc-infraops-trends-2026년-08월-14일",
+    "id": "2026-08-14-dc-infraops-trends-report",
     "title": "DC InfraOps Trends - 2026년 08월 14일",
     "date": "2026-08-14",
     "category": "데일리 뉴스레터",
     "labels": [],
     "summary": "Datacenter & Cloud Industry InfraOps Daily (2-Column) DAILY DIGEST Datacenter & Cloud Industry InfraOps Daily 2026년 08월 14일 (금) 💡 AI Executive Summary: Key News Insights 글로벌 빅테크의 AI 컴퓨팅 주도권 확보전이 단순 설비",
     "status": "published",
-    "content_file": "data/posts/2026-08-14-dc-infraops-trends-2026년-08월-14일.md"
+    "content_file": "data/posts/2026-08-14-dc-infraops-trends-report.md"
   },
   {
-    "id": "2026-08-13-dc-infraops-trends-2026년-08월-13일",
+    "id": "2026-08-13-dc-infraops-trends-report",
     "title": "DC InfraOps Trends - 2026년 08월 13일",
     "date": "2026-08-13",
     "category": "데일리 뉴스레터",
     "labels": [],
     "summary": "Datacenter & Cloud Industry InfraOps Daily (2-Column) DAILY DIGEST Datacenter & Cloud Industry InfraOps Daily 2026년 08월 13일 (목) 💡 AI Executive Summary: Key News Insights 글로벌 빅테크의 AI 컴퓨팅 주도권 경쟁이 심화되는 가",
     "status": "published",
-    "content_file": "data/posts/2026-08-13-dc-infraops-trends-2026년-08월-13일.md"
+    "content_file": "data/posts/2026-08-13-dc-infraops-trends-report.md"
   }
 ]
