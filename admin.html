@@ -8,9 +8,24 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Noto+Sans+KR:wght@400;500;700&family=Fira+Code:wght@400;600&display=swap" rel="stylesheet" />
   
-  <!-- External Libraries for Advanced Features: Marked (Markdown Renderer) & JSZip (Full Backup) -->
+  <!-- External Libraries for Advanced Features: Marked (Markdown Renderer), JSZip, and CodeMirror (Code Folding) -->
   <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js"></script>
+
+  <!-- CodeMirror 5 with Code/Tag Folding & Mixed HTML/Markdown mode -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.16/codemirror.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.16/addon/fold/foldgutter.min.css" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.16/codemirror.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.16/mode/markdown/markdown.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.16/mode/xml/xml.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.16/mode/javascript/javascript.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.16/mode/css/css.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.16/mode/htmlmixed/htmlmixed.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.16/addon/fold/foldcode.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.16/addon/fold/foldgutter.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.16/addon/fold/xml-fold.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.16/addon/fold/markdown-fold.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.16/addon/fold/indent-fold.min.js"></script>
 
   <style>
     :root {
@@ -665,6 +680,9 @@
       cursor: pointer;
     }
     .tool-btn:hover { background: var(--border); }
+    .tool-btn.primary-tool { background: rgba(56, 189, 248, 0.15); border-color: var(--blue); color: var(--blue); }
+    .tool-btn.primary-tool:hover { background: rgba(56, 189, 248, 0.25); }
+
     .editor-textarea {
       flex: 1;
       width: 100%;
@@ -677,6 +695,62 @@
       border: none;
       outline: none;
       resize: none;
+    }
+
+    /* CodeMirror Dark Folding Theme */
+    .CodeMirror {
+      flex: 1;
+      height: 100% !important;
+      background: var(--bg) !important;
+      color: var(--text) !important;
+      font-family: var(--mono) !important;
+      font-size: 13px !important;
+      line-height: 1.65 !important;
+    }
+    .CodeMirror-gutters {
+      background: #0B1120 !important;
+      border-right: 1px solid var(--border) !important;
+      white-space: nowrap;
+    }
+    .CodeMirror-linenumber {
+      color: #64748B !important;
+      padding: 0 5px 0 5px !important;
+      font-size: 11.5px !important;
+    }
+    .CodeMirror-foldgutter {
+      width: 16px;
+    }
+    .CodeMirror-foldgutter-open, .CodeMirror-foldgutter-folded {
+      cursor: pointer;
+      text-align: center;
+      line-height: 1.4;
+    }
+    .CodeMirror-foldgutter-open:after {
+      content: "▾";
+      color: var(--orange);
+      font-size: 14px;
+      font-weight: 800;
+    }
+    .CodeMirror-foldgutter-folded:after {
+      content: "▸";
+      color: var(--blue);
+      font-size: 14px;
+      font-weight: 800;
+    }
+    .CodeMirror-foldmarker {
+      background: rgba(56, 189, 248, 0.15);
+      border: 1px solid var(--blue);
+      color: var(--blue);
+      font-family: var(--mono);
+      font-size: 11px;
+      padding: 1px 7px;
+      border-radius: 4px;
+      cursor: pointer;
+      margin: 0 4px;
+      font-weight: 700;
+    }
+    .CodeMirror-selected {
+      background: rgba(56, 189, 248, 0.25) !important;
     }
     .editor-pane-right {
       padding: 24px;
@@ -900,6 +974,9 @@
         <div class="editor-toolbar">
           <button class="tool-btn" onclick="undoEditor()" title="실행 취소 (Cmd+Z / Ctrl+Z)">↩️ 되돌리기</button>
           <button class="tool-btn" onclick="redoEditor()" title="다시 실행 (Cmd+Shift+Z / Ctrl+Y)">↪️ 다시 실행</button>
+          <span style="border-left: 1px solid var(--border); height: 18px; margin: 0 4px;"></span>
+          <button class="tool-btn primary-tool" onclick="foldAllTags()" title="모든 HTML 태그 및 마크다운 섹션 일괄 접기">📦 태그 접기</button>
+          <button class="tool-btn primary-tool" onclick="unfoldAllTags()" title="모든 태그 및 섹션 펼치기">📂 모두 펼치기</button>
           <span style="border-left: 1px solid var(--border); height: 18px; margin: 0 4px;"></span>
           <button class="tool-btn" onclick="insertEditorText('**', '**')">B</button>
           <button class="tool-btn" onclick="insertEditorText('*', '*')">I</button>
@@ -1644,13 +1721,43 @@ async function confirmBulkDelete() {
 }
 
 // ═══════════════════════════════════════════════════════════════
-// FEATURE: MARKDOWN LIVE EDITOR (본문 실시간 편집기 & 되돌리기)
+// FEATURE: MARKDOWN LIVE EDITOR (CodeMirror 태그 접기/펴기 & 실시간 뷰어)
 // ═══════════════════════════════════════════════════════════════
 let editorOriginalContent = '';
 let editorHistory = [];
 let editorHistoryIdx = -1;
 let editorHistoryDebounce = null;
 let editModalOriginal = {};
+let cmEditor = null;
+
+function initCodeMirror() {
+  if (cmEditor) return;
+  const textarea = document.getElementById('editor-content-textarea');
+  if (!textarea || typeof CodeMirror === 'undefined') return;
+
+  cmEditor = CodeMirror.fromTextArea(textarea, {
+    mode: 'htmlmixed',
+    lineNumbers: true,
+    lineWrapping: true,
+    foldGutter: true,
+    gutters: ["CodeMirror-linenumbers", "CodeMirror-foldgutter"],
+    theme: 'default',
+    extraKeys: {
+      "Ctrl-Q": function(cm) { cm.foldCode(cm.getCursor()); },
+      "Cmd-Q": function(cm) { cm.foldCode(cm.getCursor()); },
+      "Cmd-Z": function(cm) { undoEditor(); },
+      "Ctrl-Z": function(cm) { undoEditor(); },
+      "Cmd-Shift-Z": function(cm) { redoEditor(); },
+      "Ctrl-Shift-Z": function(cm) { redoEditor(); },
+      "Cmd-Y": function(cm) { redoEditor(); },
+      "Ctrl-Y": function(cm) { redoEditor(); }
+    }
+  });
+
+  cmEditor.on('change', () => {
+    handleEditorInput(true);
+  });
+}
 
 async function openMarkdownEditor(id) {
   const post = allPosts.find(p => p.id === id);
@@ -1658,7 +1765,6 @@ async function openMarkdownEditor(id) {
 
   editorPostId = id;
   document.getElementById('editor-article-id').textContent = id;
-  document.getElementById('editor-content-textarea').value = '파일 불러오는 중...';
   document.getElementById('editor-preview-pane').innerHTML = '<p style="color:#64748B;">렌더링 준비 중...</p>';
   
   // Reset undo/redo history
@@ -1668,6 +1774,9 @@ async function openMarkdownEditor(id) {
 
   openModal('markdown-editor-modal');
 
+  // Initialize CodeMirror if not already
+  initCodeMirror();
+
   const mdPath = post.content_file || `data/posts/${id}.md`;
   try {
     const file = await ghGet(mdPath);
@@ -1675,12 +1784,38 @@ async function openMarkdownEditor(id) {
     const raw = decodeURIComponent(escape(atob(file.content.replace(/\n/g, ''))));
     
     editorOriginalContent = raw;
-    document.getElementById('editor-content-textarea').value = raw;
+    if (cmEditor) {
+      cmEditor.setValue(raw);
+      cmEditor.clearHistory();
+      setTimeout(() => cmEditor.refresh(), 100);
+    } else {
+      document.getElementById('editor-content-textarea').value = raw;
+    }
     pushEditorHistory(raw);
     handleEditorInput(false);
   } catch (e) {
     showToast('❌ 마크다운 파일 로드 실패: ' + e.message, 'error');
   }
+}
+
+function foldAllTags() {
+  if (!cmEditor) return;
+  cmEditor.operation(() => {
+    for (let i = 0; i < cmEditor.lineCount(); i++) {
+      cmEditor.foldCode(CodeMirror.Pos(i, 0), null, "fold");
+    }
+  });
+  showToast('📦 모든 HTML 태그 및 마크다운 섹션을 접었습니다.', 'success');
+}
+
+function unfoldAllTags() {
+  if (!cmEditor) return;
+  cmEditor.operation(() => {
+    for (let i = 0; i < cmEditor.lineCount(); i++) {
+      cmEditor.foldCode(CodeMirror.Pos(i, 0), null, "unfold");
+    }
+  });
+  showToast('📂 모든 태그 및 섹션을 펼쳤습니다.', 'success');
 }
 
 function pushEditorHistory(content) {
@@ -1692,7 +1827,10 @@ function pushEditorHistory(content) {
 }
 
 function undoEditor() {
-  if (editorHistoryIdx > 0) {
+  if (cmEditor) {
+    cmEditor.undo();
+    showToast('↩️ 이전 작업 상태로 되돌렸습니다 (Undo)', '');
+  } else if (editorHistoryIdx > 0) {
     editorHistoryIdx--;
     const content = editorHistory[editorHistoryIdx];
     document.getElementById('editor-content-textarea').value = content;
@@ -1704,7 +1842,10 @@ function undoEditor() {
 }
 
 function redoEditor() {
-  if (editorHistoryIdx < editorHistory.length - 1) {
+  if (cmEditor) {
+    cmEditor.redo();
+    showToast('↪️ 다시 실행했습니다 (Redo)', '');
+  } else if (editorHistoryIdx < editorHistory.length - 1) {
     editorHistoryIdx++;
     const content = editorHistory[editorHistoryIdx];
     document.getElementById('editor-content-textarea').value = content;
@@ -1717,14 +1858,19 @@ function redoEditor() {
 
 function resetEditorToOriginal() {
   if (!editorOriginalContent) return;
-  document.getElementById('editor-content-textarea').value = editorOriginalContent;
+  if (cmEditor) {
+    cmEditor.setValue(editorOriginalContent);
+    cmEditor.refresh();
+  } else {
+    document.getElementById('editor-content-textarea').value = editorOriginalContent;
+  }
   pushEditorHistory(editorOriginalContent);
   handleEditorInput(false);
   showToast('↩️ 모달을 열었을 때의 [수정 전 원본 본문]으로 원상 복귀되었습니다.', 'success');
 }
 
 function handleEditorInput(recordHistory = true) {
-  const raw = document.getElementById('editor-content-textarea').value;
+  const raw = cmEditor ? cmEditor.getValue() : (document.getElementById('editor-content-textarea')?.value || '');
 
   if (recordHistory) {
     if (editorHistoryDebounce) clearTimeout(editorHistoryDebounce);
@@ -1772,16 +1918,20 @@ function handleEditorInput(recordHistory = true) {
 }
 
 function insertEditorText(prefix, suffix) {
-  const textarea = document.getElementById('editor-content-textarea');
-  const start = textarea.selectionStart;
-  const end = textarea.selectionEnd;
-  const selText = textarea.value.substring(start, end);
-  const repText = prefix + (selText || '') + suffix;
-  textarea.value = textarea.value.substring(0, start) + repText + textarea.value.substring(end);
-  textarea.focus();
-  textarea.selectionStart = start + prefix.length;
-  textarea.selectionEnd = start + prefix.length + selText.length;
-  handleEditorInput(true);
+  if (cmEditor) {
+    const sel = cmEditor.getSelection();
+    cmEditor.replaceSelection(prefix + sel + suffix);
+    cmEditor.focus();
+  } else {
+    const textarea = document.getElementById('editor-content-textarea');
+    const start = textarea.selectionStart;
+    const end = textarea.selectionEnd;
+    const selText = textarea.value.substring(start, end);
+    const repText = prefix + (selText || '') + suffix;
+    textarea.value = textarea.value.substring(0, start) + repText + textarea.value.substring(end);
+    textarea.focus();
+    handleEditorInput(true);
+  }
 }
 
 // ═══════════════════════════════════════════════════════════════
@@ -1838,7 +1988,12 @@ async function rollbackToCommit(commitSha, dateStr) {
     const file = await res.json();
     const raw = decodeURIComponent(escape(atob(file.content.replace(/\n/g, ''))));
 
-    document.getElementById('editor-content-textarea').value = raw;
+    if (cmEditor) {
+      cmEditor.setValue(raw);
+      cmEditor.refresh();
+    } else {
+      document.getElementById('editor-content-textarea').value = raw;
+    }
     pushEditorHistory(raw);
     handleEditorInput(false);
     closeModal('version-history-modal');
@@ -1855,7 +2010,7 @@ async function saveMarkdownContent() {
   btn.innerHTML = '<span class="loading-spinner"></span> 저장 중...';
   btn.disabled = true;
 
-  const content = document.getElementById('editor-content-textarea').value;
+  const content = cmEditor ? cmEditor.getValue() : document.getElementById('editor-content-textarea').value;
   const mdPath = `data/posts/${editorPostId}.md`;
 
   try {
