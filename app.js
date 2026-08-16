@@ -16,7 +16,26 @@ document.addEventListener('DOMContentLoaded', () => {
   initDropdowns();
   loadPosts();
   window.addEventListener('hashchange', handleHashRoute);
+  
+  // Reading Progress Bar & Back to Top Scroll Listener
+  window.addEventListener('scroll', () => {
+    const winScroll = document.documentElement.scrollTop || document.body.scrollTop;
+    const height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+    const scrolled = height > 0 ? (winScroll / height) * 100 : 0;
+    const bar = document.getElementById('reading-progress-bar');
+    if (bar) bar.style.width = scrolled + '%';
+
+    const backTopBtn = document.getElementById('back-to-top-btn');
+    if (backTopBtn) {
+      if (winScroll > 320) backTopBtn.classList.add('visible');
+      else backTopBtn.classList.remove('visible');
+    }
+  });
 });
+
+function scrollToTop() {
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+}
 
 function initDropdowns() {
   document.querySelectorAll('.dc-dropdown-trigger').forEach(btn => {
@@ -156,6 +175,18 @@ function handleHashRoute() {
     openArticleView(hash.replace('#article/', ''));
   } else if (hash === '#table') {
     openTableView();
+  } else if (hash.startsWith('#category=')) {
+    const cat = decodeURIComponent(hash.replace('#category=', ''));
+    currentCategory = cat;
+    openHomeView();
+  } else if (hash.startsWith('#tag=')) {
+    const tag = decodeURIComponent(hash.replace('#tag=', ''));
+    currentTag = tag;
+    openHomeView();
+  } else if (hash.startsWith('#archive=')) {
+    const arch = decodeURIComponent(hash.replace('#archive=', ''));
+    currentArchive = arch;
+    openHomeView();
   } else {
     openHomeView();
   }
