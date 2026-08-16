@@ -1,1 +1,60 @@
-[]
+[
+  {
+    "id": "2026-08-16-10min-tech-podcast",
+    "title": "[2026.08.16] [10-Min English Podcast] Global AI CapEx Realignment, Nuclear SMR Baseload Shift, and High-Density Thermal Frontiers",
+    "date": "2026-08-16",
+    "category": "팟캐스트",
+    "labels": [
+      "10-Min Podcast",
+      "Tech English",
+      "비즈니스영어",
+      "AWS",
+      "AI인프라",
+      "데이터센터",
+      "SMR",
+      "액체냉각"
+    ],
+    "summary": "오늘의 10분 심층 팟캐스트는 글로벌 AI 인프라 CapEx 재편, 원전 SMR 및 직류 배전 혁신, 그리고 피닉스 데이터센터 냉각 셧다운 사태와 고밀도 액체냉각 전환 동향을 심층 분석합니다.",
+    "status": "published",
+    "content_file": "data/posts/2026-08-16-10min-tech-podcast.md"
+  },
+  {
+    "id": "2026-08-16-infraops-master-report",
+    "title": "DC InfraOps Trends - 2026년 08월 16일 (일)",
+    "date": "2026-08-16",
+    "category": "데일리 뉴스레터",
+    "labels": [
+      "AWS",
+      "데이터센터",
+      "클라우드",
+      "AI인프라",
+      "DC-Trends",
+      "Daily-Newsletter",
+      "SMR",
+      "액체냉각",
+      "전력망"
+    ],
+    "summary": "2026년 8월 16일자 국내외 하이퍼스케일 데이터센터, 전력망(SMR/BESS), 액체냉각, AI 가속기 클러스터링 종합 2열 데일리 뉴스레터 리포트입니다.",
+    "status": "published",
+    "content_file": "data/posts/2026-08-16-infraops-master-report.md"
+  },
+  {
+    "id": "2026-08-16-august-megafarm-deepdive",
+    "title": "2026년 8월 AI 데이터센터 & 인프라 대전환: 15,000장 GPU 메가팜 착공부터 SMR·직류(DC) 배전·온수 냉각 혁신까지",
+    "date": "2026-08-16",
+    "category": "테크 딥다이브",
+    "labels": [
+      "테크딥다이브",
+      "AI인프라",
+      "국가AI센터",
+      "SMR",
+      "직류배전",
+      "온수냉각",
+      "AWS",
+      "엔비디아"
+    ],
+    "summary": "2026년 하반기 글로벌 AI 인프라 경쟁은 모델 알고리즘을 넘어 물리적 전력망 확보, 차세대 온수 냉각, 소버린 AI 팩토리 착공으로 완전히 이동했습니다. 4대 핵심 패러다임 전환을 심층 분석합니다.",
+    "status": "published",
+    "content_file": "data/posts/2026-08-16-august-megafarm-deepdive.md"
+  }
+]
