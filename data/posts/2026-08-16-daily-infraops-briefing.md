@@ -2,7 +2,7 @@
 id: 2026-08-16-daily-infraops-briefing
 title: "[2026.08.16] 오늘의 글로벌 클라우드 & 데이터센터 인프라 핵심 동향 브리핑"
 date: 2026-08-16
-category: 데일리 브리핑
+category: Daily Briefing
 status: published
 summary: "Daily InfraOps Digest 글로벌 IT·클라우드 & 데이터센터 인프라 핵심 리포트 발행일: 2026년 8월 16일 | 작성: 테크 에디터스 랩 📌 오늘의 3대 핵심 관전 포인트 (Key Highlights) 엔비디아의 데이터센터 재무 리스크 관리: 오픈AI 데이터센터 구축 보증 규모를 기존 2,500억 달러에서 1,200억 달러로 대폭 현실화하"
 labels:
