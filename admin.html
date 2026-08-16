@@ -1005,11 +1005,10 @@
           <button class="tool-btn" onclick="insertEditorText('*', '*')">I</button>
           <button class="tool-btn" onclick="insertEditorText('## ', '')">H2</button>
           <button class="tool-btn" onclick="insertEditorText('### ', '')">H3</button>
-          <button class="tool-btn" onclick="insertEditorText('> ', '')">Quote</button>
-          <button class="tool-btn" onclick="insertEditorText('```\n', '\n```')">Code</button>
-          <button class="tool-btn" onclick="insertEditorText('- ', '')">List</button>
-          <button class="tool-btn" onclick="insertEditorText('[', '](https://)')">Link</button>
-          <button class="tool-btn" onclick="insertEditorText('<img src=\"data:image/jpeg;base64,...\" alt=\"Chart\" />', '')">🖼️ Base64 Image</button>
+          <button class="tool-btn" onclick="insertEditorText('```\n', '\n```')" title="코드 블록 삽입">Code</button>
+          <button class="tool-btn" onclick="insertEditorText('- ', '')" title="글머리 기호 목록 삽입">List</button>
+          <button class="tool-btn" onclick="insertEditorText('[', '](https://)')" title="하이퍼링크 삽입">Link</button>
+          <button class="tool-btn" onclick="insertImageTag()" title="이미지 태그 삽입">🖼️ 이미지</button>
         </div>
         <textarea id="editor-content-textarea" class="editor-textarea" oninput="handleEditorInput(true)" placeholder="YAML Frontmatter 및 Markdown 본문을 작성하세요..."></textarea>
       </div>
@@ -1957,6 +1956,10 @@ function insertEditorText(prefix, suffix) {
     textarea.focus();
     handleEditorInput(true);
   }
+}
+
+function insertImageTag() {
+  insertEditorText('<img src="https://" alt="이미지 설명" style="max-width: 100%; border-radius: 8px;" />\n', '');
 }
 
 // ═══════════════════════════════════════════════════════════════
