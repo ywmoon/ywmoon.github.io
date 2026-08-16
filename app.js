@@ -61,6 +61,11 @@ async function loadPosts() {
     if (!res.ok) throw new Error('Failed to load posts');
     allPosts = await res.json();
     const CAT_PRIORITY = {
+      'Daily Briefing': 1,
+      'Tech Deep Dive': 2,
+      'Terminology': 3,
+      'Podcast': 4,
+      'Newsletter': 5,
       '데일리 브리핑': 1,
       '테크 딥다이브': 2,
       '용어사전': 3,
@@ -474,14 +479,16 @@ function updateNavActiveState(activeId) {
 }
 
 const CAT_ALIAS = {
-  '뉴스레터': ['뉴스레터', '2-Column 리포트', '데일리 뉴스레터'],
-  '2-Column 리포트': ['뉴스레터', '2-Column 리포트', '데일리 뉴스레터'],
-  '데일리 뉴스레터': ['뉴스레터', '2-Column 리포트', '데일리 뉴스레터'],
-  'IT 용어사전': ['IT 용어사전', '용어사전', '용어 사전'],
-  '용어사전': ['IT 용어사전', '용어사전', '용어 사전'],
-  '팟캐스트': ['팟캐스트', '10분 팟캐스트', '테크 팟캐스트'],
-  '데일리 브리핑': ['데일리 브리핑', '브리핑'],
-  '테크 딥다이브': ['테크 딥다이브', '딥다이브']
+  'Newsletter': ['Newsletter', '뉴스레터', '2-Column 리포트', '데일리 뉴스레터'],
+  '뉴스레터': ['Newsletter', '뉴스레터', '2-Column 리포트', '데일리 뉴스레터'],
+  'Terminology': ['Terminology', '용어사전', 'IT 용어사전', '용어 사전'],
+  '용어사전': ['Terminology', '용어사전', 'IT 용어사전', '용어 사전'],
+  'Podcast': ['Podcast', '팟캐스트', '10분 팟캐스트', '테크 팟캐스트'],
+  '팟캐스트': ['Podcast', '팟캐스트', '10분 팟캐스트', '테크 팟캐스트'],
+  'Daily Briefing': ['Daily Briefing', '데일리 브리핑', '브리핑'],
+  '데일리 브리핑': ['Daily Briefing', '데일리 브리핑', '브리핑'],
+  'Tech Deep Dive': ['Tech Deep Dive', '테크 딥다이브', '딥다이브'],
+  '테크 딥다이브': ['Tech Deep Dive', '테크 딥다이브', '딥다이브']
 };
 
 function matchCategory(postCat, filterCat) {
@@ -496,11 +503,11 @@ function updateCategoryTabCounts() {
   const published = allPosts.filter(p => (p.status || 'published') === 'published');
   const counts = {
     all: published.length,
-    briefing: published.filter(p => matchCategory(p.category, '데일리 브리핑')).length,
-    deepdive: published.filter(p => matchCategory(p.category, '테크 딥다이브')).length,
-    glossary: published.filter(p => matchCategory(p.category, '용어사전')).length,
-    podcast: published.filter(p => matchCategory(p.category, '팟캐스트')).length,
-    newsletter: published.filter(p => matchCategory(p.category, '뉴스레터')).length
+    briefing: published.filter(p => matchCategory(p.category, 'Daily Briefing')).length,
+    deepdive: published.filter(p => matchCategory(p.category, 'Tech Deep Dive')).length,
+    glossary: published.filter(p => matchCategory(p.category, 'Terminology')).length,
+    podcast: published.filter(p => matchCategory(p.category, 'Podcast')).length,
+    newsletter: published.filter(p => matchCategory(p.category, 'Newsletter')).length
   };
   
   const elAll = document.getElementById('count-all');
