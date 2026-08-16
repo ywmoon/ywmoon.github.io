@@ -627,12 +627,76 @@ body {
 .dc-reader-body {
   font-size: 15px;
   line-height: 1.8;
-  color: var(--text-secondary);
+  color: var(--text-primary);
 }
 
 .dc-reader-body img:not([src*="workers.dev"]):not([width="1"]) {
   max-width: 100%;
   height: auto;
+}
+
+/* ─── Dark Mode Specific Overrides for Article Reader Content ─── */
+[data-theme="dark"] .dc-reader-body {
+  color: #E2E8F0 !important;
+}
+
+[data-theme="dark"] .dc-reader-body p,
+[data-theme="dark"] .dc-reader-body div,
+[data-theme="dark"] .dc-reader-body span,
+[data-theme="dark"] .dc-reader-body li,
+[data-theme="dark"] .dc-reader-body td,
+[data-theme="dark"] .dc-reader-body th,
+[data-theme="dark"] .dc-reader-body h1,
+[data-theme="dark"] .dc-reader-body h2,
+[data-theme="dark"] .dc-reader-body h3,
+[data-theme="dark"] .dc-reader-body h4,
+[data-theme="dark"] .dc-reader-body strong,
+[data-theme="dark"] .dc-reader-body b {
+  color: #E2E8F0 !important;
+}
+
+[data-theme="dark"] .dc-reader-body a {
+  color: #60A5FA !important;
+  text-decoration: underline;
+}
+
+[data-theme="dark"] .dc-reader-body table,
+[data-theme="dark"] .dc-reader-body tr,
+[data-theme="dark"] .dc-reader-body td,
+[data-theme="dark"] .dc-reader-body th {
+  background-color: var(--bg-surface) !important;
+  border-color: var(--border-subtle) !important;
+}
+
+[data-theme="dark"] .dc-reader-body .dc-newsletter-wrapper,
+[data-theme="dark"] .dc-reader-body [style*="background-color: #ffffff"],
+[data-theme="dark"] .dc-reader-body [style*="background-color:#ffffff"],
+[data-theme="dark"] .dc-reader-body [style*="background: #ffffff"],
+[data-theme="dark"] .dc-reader-body [style*="background:#ffffff"],
+[data-theme="dark"] .dc-reader-body [style*="background-color: #fff"],
+[data-theme="dark"] .dc-reader-body [style*="background:#fff"],
+[data-theme="dark"] .dc-reader-body [style*="background-color: #f8fafc"],
+[data-theme="dark"] .dc-reader-body [style*="background-color:#f8fafc"],
+[data-theme="dark"] .dc-reader-body [style*="background-color: #f1f5f9"],
+[data-theme="dark"] .dc-reader-body [style*="background-color:#f1f5f9"],
+[data-theme="dark"] .dc-reader-body [style*="background-color: #f9fafb"],
+[data-theme="dark"] .dc-reader-body [style*="background-color:#f9fafb"] {
+  background-color: var(--bg-surface) !important;
+  border-color: var(--border-subtle) !important;
+}
+
+[data-theme="dark"] .dc-reader-body [style*="background-color: #e0f2fe"],
+[data-theme="dark"] .dc-reader-body [style*="background-color: #fef3c7"],
+[data-theme="dark"] .dc-reader-body [style*="background-color: #fee2e2"] {
+  background-color: var(--bg-elevated) !important;
+  border-color: var(--border-strong) !important;
+}
+
+[data-theme="dark"] .dc-reader-body [style*="border: 1px solid"],
+[data-theme="dark"] .dc-reader-body [style*="border:1px solid"],
+[data-theme="dark"] .dc-reader-body [style*="border-top: 1px solid"],
+[data-theme="dark"] .dc-reader-body [style*="border-bottom: 1px solid"] {
+  border-color: var(--border-subtle) !important;
 }
 
 /* Podcast & Vocab Card Component Styles */
