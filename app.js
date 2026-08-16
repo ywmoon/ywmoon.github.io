@@ -65,6 +65,7 @@ async function loadPosts() {
       '테크 딥다이브': 2,
       '용어사전': 3,
       '팟캐스트': 4,
+      '뉴스레터': 5,
       '데일리 뉴스레터': 5
     };
     allPosts.sort((a, b) => {
@@ -75,6 +76,7 @@ async function loadPosts() {
       return (b.time || '').localeCompare(a.time || '');
     });
     filteredPosts = [...allPosts];
+    updateCategoryTabCounts();
     populateNavDropdowns();
     handleHashRoute();
   } catch (err) {
@@ -247,8 +249,9 @@ function updateNavActiveState(activeId) {
 }
 
 const CAT_ALIAS = {
-  '2-Column 리포트': ['2-Column 리포트', '데일리 뉴스레터', '뉴스레터'],
-  '데일리 뉴스레터': ['2-Column 리포트', '데일리 뉴스레터', '뉴스레터'],
+  '뉴스레터': ['뉴스레터', '2-Column 리포트', '데일리 뉴스레터'],
+  '2-Column 리포트': ['뉴스레터', '2-Column 리포트', '데일리 뉴스레터'],
+  '데일리 뉴스레터': ['뉴스레터', '2-Column 리포트', '데일리 뉴스레터'],
   'IT 용어사전': ['IT 용어사전', '용어사전', '용어 사전'],
   '용어사전': ['IT 용어사전', '용어사전', '용어 사전'],
   '팟캐스트': ['팟캐스트', '10분 팟캐스트', '테크 팟캐스트'],
@@ -262,6 +265,31 @@ function matchCategory(postCat, filterCat) {
   const aliases = CAT_ALIAS[filterCat];
   if (aliases && aliases.includes(postCat)) return true;
   return false;
+}
+
+function updateCategoryTabCounts() {
+  const published = allPosts.filter(p => (p.status || 'published') === 'published');
+  const counts = {
+    all: published.length,
+    briefing: published.filter(p => matchCategory(p.category, '데일리 브리핑')).length,
+    deepdive: published.filter(p => matchCategory(p.category, '테크 딥다이브')).length,
+    glossary: published.filter(p => matchCategory(p.category, '용어사전')).length,
+    podcast: published.filter(p => matchCategory(p.category, '팟캐스트')).length,
+    newsletter: published.filter(p => matchCategory(p.category, '뉴스레터')).length
+  };
+  
+  const elAll = document.getElementById('count-all');
+  if (elAll) elAll.textContent = counts.all;
+  const elBriefing = document.getElementById('count-briefing');
+  if (elBriefing) elBriefing.textContent = counts.briefing;
+  const elDeepdive = document.getElementById('count-deepdive');
+  if (elDeepdive) elDeepdive.textContent = counts.deepdive;
+  const elGlossary = document.getElementById('count-glossary');
+  if (elGlossary) elGlossary.textContent = counts.glossary;
+  const elPodcast = document.getElementById('count-podcast');
+  if (elPodcast) elPodcast.textContent = counts.podcast;
+  const elNewsletter = document.getElementById('count-newsletter');
+  if (elNewsletter) elNewsletter.textContent = counts.newsletter;
 }
 
 // ─── Filtering ────────────────────────────────────────────────────
