@@ -65,6 +65,18 @@ body {
   display: flex;
   align-items: center;
   box-shadow: var(--shadow-sm);
+  position: sticky;
+}
+
+.dc-reading-progress-bar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 2.5px;
+  width: 0%;
+  background: linear-gradient(90deg, #FF9900, #F59E0B);
+  transition: width 0.08s ease-out;
+  z-index: 10001;
 }
 
 .dc-nav-container {
@@ -1097,7 +1109,43 @@ body {
   text-align: center;
   font-size: 13px;
   color: var(--text-muted);
-  margin-top: auto;
+/* Back to Top Floating Button */
+.dc-back-to-top {
+  position: fixed;
+  bottom: 28px;
+  right: 28px;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background-color: var(--bg-surface);
+  border: 1px solid var(--border-strong);
+  color: var(--text-primary);
+  font-size: 19px;
+  font-weight: 800;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  box-shadow: var(--shadow-md);
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(14px);
+  transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+  z-index: 999;
+}
+
+.dc-back-to-top:hover {
+  background-color: var(--accent-orange);
+  color: #000;
+  border-color: var(--accent-orange);
+  transform: translateY(-3px);
+  box-shadow: var(--shadow-lg);
+}
+
+.dc-back-to-top.visible {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
 }
 
 /* Responsive Breakpoints */
