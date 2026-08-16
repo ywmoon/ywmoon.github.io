@@ -169,9 +169,9 @@ body {
 
 .dc-dropdown-menu {
   position: absolute;
-  top: calc(100% + 6px);
+  top: 100%;
   left: 0;
-  min-width: 200px;
+  min-width: 220px;
   max-height: 380px;
   overflow-y: auto;
   background-color: var(--bg-surface);
@@ -181,9 +181,21 @@ body {
   padding: 6px;
   display: none;
   z-index: 1010;
+  margin-top: 2px;
 }
 
-.dc-dropdown-wrap:hover .dc-dropdown-menu {
+/* Invisible hover bridge to prevent cursor gap drop */
+.dc-dropdown-menu::before {
+  content: '';
+  position: absolute;
+  top: -10px;
+  left: 0;
+  right: 0;
+  height: 10px;
+}
+
+.dc-dropdown-wrap:hover .dc-dropdown-menu,
+.dc-dropdown-wrap.open .dc-dropdown-menu {
   display: block;
 }
 
