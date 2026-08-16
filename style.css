@@ -800,6 +800,15 @@ body {
   letter-spacing: -0.3px;
 }
 
+.dc-p-bio {
+  font-size: 13.5px;
+  color: #64748B;
+  line-height: 1.65;
+  text-align: center;
+  margin-bottom: 16px;
+  padding: 0 4px;
+}
+
 .dc-p-contact-list {
   display: flex;
   flex-direction: column;
