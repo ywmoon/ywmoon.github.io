@@ -1882,6 +1882,9 @@ function redoEditor() {
 
 function resetEditorToOriginal() {
   if (!editorOriginalContent) return;
+  const ok = confirm("⚠️ [수정 전 원본 복원 확인]\n\n현재 편집 중인 모든 변경사항이 취소되고,\n모달을 처음 열었을 때의 원본 본문 상태로 되돌아갑니다.\n\n정말 원본으로 복구하시겠습니까?");
+  if (!ok) return;
+
   if (cmEditor) {
     cmEditor.setValue(editorOriginalContent);
     cmEditor.refresh();
@@ -2008,6 +2011,9 @@ async function openVersionHistoryModal() {
 }
 
 async function rollbackToCommit(commitSha, dateStr) {
+  const ok = confirm(`⚠️ [과거 커밋 버전 롤백 확인]\n\n선택한 과거 커밋 [${dateStr} (${commitSha.substring(0, 7)})] 버전으로 본문을 불러옵니다.\n\n현재 작성 중인 미저장 내용은 덮어씌워집니다. 진행하시겠습니까?`);
+  if (!ok) return;
+
   showToast(`⏳ ${commitSha.substring(0, 7)} 버전 내용 불러오는 중...`, '');
   try {
     const mdPath = `data/posts/${editorPostId}.md`;
@@ -2365,6 +2371,9 @@ function openEditModal(id) {
 
 function resetEditModalToOriginal() {
   if (!editModalOriginal) return;
+  const ok = confirm("⚠️ [메타데이터 원상 복귀 확인]\n\n입력 중이던 제목, 카테고리, 요약문, 태그가 수정 전 원래 값으로 초기화됩니다.\n\n정말 복구하시겠습니까?");
+  if (!ok) return;
+
   document.getElementById('edit-category').value = editModalOriginal.category || 'Daily Briefing';
   document.getElementById('edit-title').value = editModalOriginal.title || '';
   document.getElementById('edit-summary').value = editModalOriginal.summary || '';
