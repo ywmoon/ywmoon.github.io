@@ -814,15 +814,19 @@
     .preview-scroll-area {
       flex: 1;
       overflow-y: auto;
+      overflow-x: auto;
       padding: 16px;
       display: flex;
       justify-content: center;
+      align-items: flex-start;
+      width: 100%;
+      box-sizing: border-box;
     }
     .editor-pane-right {
       width: 100%;
       max-width: 100%;
       min-height: 100%;
-      padding: 28px;
+      padding: 24px;
       background: #FFFFFF;
       color: #1E293B;
       font-family: var(--font);
@@ -831,21 +835,89 @@
       border-radius: 8px;
       transition: max-width 0.25s ease, padding 0.25s ease;
       box-sizing: border-box;
-    }
-    .editor-pane-right.mode-tablet {
-      max-width: 768px;
-      padding: 22px;
-      border: 2px solid #94A3B8;
-    }
-    .editor-pane-right.mode-mobile {
-      max-width: 375px;
-      padding: 16px;
-      border: 3px solid #64748B;
-      border-radius: 24px;
+      overflow-x: auto;
     }
     .editor-pane-right table {
-      max-width: 100%;
+      max-width: 100% !important;
+      box-sizing: border-box !important;
     }
+
+    /* Tablet Simulation (768px) */
+    .editor-pane-right.mode-tablet {
+      width: 768px !important;
+      max-width: 768px !important;
+      padding: 20px;
+      border: 2px solid #94A3B8;
+      flex-shrink: 0;
+    }
+    .editor-pane-right.mode-tablet .responsive-outer {
+      width: 100% !important;
+      max-width: 100% !important;
+    }
+    .editor-pane-right.mode-tablet .responsive-col {
+      width: 48% !important;
+      max-width: 48% !important;
+      box-sizing: border-box !important;
+    }
+    .editor-pane-right.mode-tablet img {
+      max-width: 100% !important;
+      height: auto !important;
+    }
+
+    /* Mobile Simulation (375px Smartphone) */
+    .editor-pane-right.mode-mobile {
+      width: 375px !important;
+      max-width: 375px !important;
+      padding: 14px 12px;
+      border: 4px solid #334155;
+      border-radius: 28px;
+      box-shadow: 0 12px 35px rgba(0,0,0,0.3);
+      flex-shrink: 0;
+      overflow-x: hidden !important;
+    }
+    .editor-pane-right.mode-mobile table,
+    .editor-pane-right.mode-mobile tbody,
+    .editor-pane-right.mode-mobile tr {
+      width: 100% !important;
+      max-width: 100% !important;
+      box-sizing: border-box !important;
+    }
+    .editor-pane-right.mode-mobile .responsive-outer {
+      width: 100% !important;
+      max-width: 100% !important;
+      border: none !important;
+    }
+    .editor-pane-right.mode-mobile .responsive-col {
+      display: block !important;
+      width: 100% !important;
+      max-width: 100% !important;
+      box-sizing: border-box !important;
+      margin-bottom: 20px !important;
+    }
+    .editor-pane-right.mode-mobile .responsive-spacer {
+      display: none !important;
+    }
+    .editor-pane-right.mode-mobile td[align="left"] {
+      padding-left: 0 !important;
+      padding-right: 0 !important;
+    }
+    .editor-pane-right.mode-mobile td {
+      box-sizing: border-box !important;
+    }
+    .editor-pane-right.mode-mobile img {
+      max-width: 100% !important;
+      height: auto !important;
+    }
+    .editor-pane-right.mode-mobile div, 
+    .editor-pane-right.mode-mobile p, 
+    .editor-pane-right.mode-mobile span, 
+    .editor-pane-right.mode-mobile h1, 
+    .editor-pane-right.mode-mobile h2, 
+    .editor-pane-right.mode-mobile h3 {
+      word-break: break-word !important;
+      overflow-wrap: break-word !important;
+    }
+
     .editor-pane-right h1, .editor-pane-right h2, .editor-pane-right h3 { color: #0F172A; margin: 20px 0 10px; }
     .editor-pane-right p { margin-bottom: 14px; }
     .editor-pane-right pre { background: #0F172A; color: #F8FAFC; padding: 14px; border-radius: 8px; overflow-x: auto; margin-bottom: 14px; font-family: var(--mono); font-size: 12.5px; }
@@ -2252,11 +2324,14 @@ function setPreviewDevice(mode) {
   if (mode === 'tablet') {
     pane.classList.add('mode-tablet');
     document.getElementById('btn-device-tablet')?.classList.add('active');
+    showToast('📟 태블릿 (768px) 뷰어로 전환했습니다.', '');
   } else if (mode === 'mobile') {
     pane.classList.add('mode-mobile');
     document.getElementById('btn-device-mobile')?.classList.add('active');
+    showToast('📱 모바일 (375px) 스마트폰 뷰어로 전환했습니다.', '');
   } else {
     document.getElementById('btn-device-desktop')?.classList.add('active');
+    showToast('🖥️ 데스크톱 (100%) 와이드 뷰어로 전환했습니다.', '');
   }
 }
 
