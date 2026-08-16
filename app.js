@@ -14,9 +14,27 @@ let previousView = 'home';
 
 document.addEventListener('DOMContentLoaded', () => {
   initTheme();
+  initDropdowns();
   loadPosts();
   window.addEventListener('hashchange', handleHashRoute);
 });
+
+function initDropdowns() {
+  document.querySelectorAll('.dc-dropdown-trigger').forEach(btn => {
+    btn.addEventListener('click', (e) => {
+      e.stopPropagation();
+      const wrap = btn.closest('.dc-dropdown-wrap');
+      const wasOpen = wrap.classList.contains('open');
+      document.querySelectorAll('.dc-dropdown-wrap').forEach(w => w.classList.remove('open'));
+      if (!wasOpen) wrap.classList.add('open');
+    });
+  });
+  document.addEventListener('click', (e) => {
+    if (!e.target.closest('.dc-dropdown-wrap')) {
+      document.querySelectorAll('.dc-dropdown-wrap').forEach(w => w.classList.remove('open'));
+    }
+  });
+}
 
 // ─── Theme ───────────────────────────────────────────────────────
 function initTheme() {
@@ -242,8 +260,18 @@ function filterCategory(cat) {
     t.classList.toggle('active', t.getAttribute('data-cat') === cat));
   applyFilters();
 }
-function filterTag(tag) { currentTag = tag; applyFilters(); }
-function filterArchive(ym) { currentArchive = ym; applyFilters(); }
+function filterTag(tag) {
+  currentTag = tag;
+  document.querySelectorAll('.dc-dropdown-wrap').forEach(w => w.classList.remove('open'));
+  if (currentView === 'article') navigateHome();
+  else applyFilters();
+}
+function filterArchive(ym) {
+  currentArchive = ym;
+  document.querySelectorAll('.dc-dropdown-wrap').forEach(w => w.classList.remove('open'));
+  if (currentView === 'article') navigateHome();
+  else applyFilters();
+}
 function handleSearchInput(val) {
   searchQuery = val.trim();
   document.getElementById('search-clear-btn').style.display = searchQuery ? 'inline-block' : 'none';
