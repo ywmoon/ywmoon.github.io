@@ -846,63 +846,97 @@
     .editor-pane-right.mode-tablet {
       width: 768px !important;
       max-width: 768px !important;
-      padding: 20px;
-      border: 2px solid #94A3B8;
-      flex-shrink: 0;
+      padding: 20px !important;
+      border: 2px solid #64748B !important;
+      border-radius: 12px !important;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.2) !important;
+      flex-shrink: 0 !important;
+    }
+    .editor-pane-right.mode-tablet * {
+      box-sizing: border-box !important;
+    }
+    .editor-pane-right.mode-tablet table {
+      width: 100% !important;
+      max-width: 100% !important;
     }
     .editor-pane-right.mode-tablet .responsive-outer {
       width: 100% !important;
       max-width: 100% !important;
     }
     .editor-pane-right.mode-tablet .responsive-col {
-      width: 48% !important;
-      max-width: 48% !important;
+      width: 48.5% !important;
+      max-width: 48.5% !important;
       box-sizing: border-box !important;
+    }
+    .editor-pane-right.mode-tablet .responsive-spacer {
+      width: 3% !important;
     }
     .editor-pane-right.mode-tablet img {
       max-width: 100% !important;
       height: auto !important;
+    }
+    .editor-pane-right.mode-tablet div, 
+    .editor-pane-right.mode-tablet p, 
+    .editor-pane-right.mode-tablet span {
+      word-break: break-word !important;
+      overflow-wrap: break-word !important;
     }
 
     /* Mobile Simulation (375px Smartphone) */
     .editor-pane-right.mode-mobile {
       width: 375px !important;
       max-width: 375px !important;
-      padding: 14px 12px;
-      border: 4px solid #334155;
-      border-radius: 28px;
-      box-shadow: 0 12px 35px rgba(0,0,0,0.3);
-      flex-shrink: 0;
+      padding: 16px 12px !important;
+      border: 4px solid #1E293B !important;
+      border-radius: 28px !important;
+      box-shadow: 0 16px 40px rgba(0,0,0,0.35) !important;
+      flex-shrink: 0 !important;
       overflow-x: hidden !important;
+      font-size: 13.5px !important;
+    }
+    .editor-pane-right.mode-mobile * {
+      box-sizing: border-box !important;
+      max-width: 100% !important;
     }
     .editor-pane-right.mode-mobile table,
     .editor-pane-right.mode-mobile tbody,
+    .editor-pane-right.mode-mobile thead,
+    .editor-pane-right.mode-mobile tfoot,
     .editor-pane-right.mode-mobile tr {
+      display: block !important;
       width: 100% !important;
       max-width: 100% !important;
-      box-sizing: border-box !important;
+      min-width: 0 !important;
+    }
+    .editor-pane-right.mode-mobile td,
+    .editor-pane-right.mode-mobile th {
+      display: block !important;
+      width: 100% !important;
+      max-width: 100% !important;
+      min-width: 0 !important;
+      padding-left: 0 !important;
+      padding-right: 0 !important;
+      text-align: left !important;
     }
     .editor-pane-right.mode-mobile .responsive-outer {
       width: 100% !important;
       max-width: 100% !important;
       border: none !important;
+      padding: 0 !important;
     }
     .editor-pane-right.mode-mobile .responsive-col {
       display: block !important;
       width: 100% !important;
       max-width: 100% !important;
-      box-sizing: border-box !important;
       margin-bottom: 20px !important;
+      padding: 0 !important;
     }
     .editor-pane-right.mode-mobile .responsive-spacer {
       display: none !important;
-    }
-    .editor-pane-right.mode-mobile td[align="left"] {
-      padding-left: 0 !important;
-      padding-right: 0 !important;
-    }
-    .editor-pane-right.mode-mobile td {
-      box-sizing: border-box !important;
+      width: 0 !important;
+      height: 0 !important;
+      padding: 0 !important;
+      margin: 0 !important;
     }
     .editor-pane-right.mode-mobile img {
       max-width: 100% !important;
@@ -913,9 +947,23 @@
     .editor-pane-right.mode-mobile span, 
     .editor-pane-right.mode-mobile h1, 
     .editor-pane-right.mode-mobile h2, 
-    .editor-pane-right.mode-mobile h3 {
+    .editor-pane-right.mode-mobile h3,
+    .editor-pane-right.mode-mobile a {
       word-break: break-word !important;
       overflow-wrap: break-word !important;
+      white-space: normal !important;
+    }
+    .editor-pane-right.mode-mobile [style*="padding: 26px 36px"],
+    .editor-pane-right.mode-mobile [style*="padding: 28px 30px"],
+    .editor-pane-right.mode-mobile [style*="padding: 25px 0"] {
+      padding: 12px 10px !important;
+    }
+    .editor-pane-right.mode-mobile [style*="font-size: 24px"] {
+      font-size: 17px !important;
+      line-height: 1.3 !important;
+    }
+    .editor-pane-right.mode-mobile [style*="font-size: 14px"] {
+      font-size: 12px !important;
     }
 
     .editor-pane-right h1, .editor-pane-right h2, .editor-pane-right h3 { color: #0F172A; margin: 20px 0 10px; }
