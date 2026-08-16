@@ -415,6 +415,57 @@
     .health-good { background: rgba(34,197,94,0.1); color: var(--green); }
     .health-warn { background: rgba(245,158,11,0.1); color: var(--yellow); }
 
+    /* Tag Chips in Table */
+    .tag-chips-wrap {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 4px;
+      margin-top: 5px;
+    }
+    .tag-chip {
+      font-size: 11px;
+      font-weight: 600;
+      color: var(--text-muted);
+      background: var(--surface2);
+      border: 1px solid var(--border);
+      border-radius: 4px;
+      padding: 2px 7px;
+      cursor: pointer;
+      transition: all 0.15s;
+      display: inline-flex;
+      align-items: center;
+      gap: 2px;
+      user-select: none;
+    }
+    .tag-chip:hover {
+      color: var(--blue);
+      border-color: var(--blue);
+      background: rgba(56, 189, 248, 0.12);
+      transform: translateY(-1px);
+    }
+    .tag-chip.active-tag {
+      color: #000;
+      background: var(--blue);
+      border-color: var(--blue);
+      font-weight: 800;
+    }
+
+    /* Tag Filter Select in Toolbar */
+    .tag-filter-select {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      color: var(--text);
+      font-size: 12px;
+      font-weight: 700;
+      padding: 5px 10px;
+      outline: none;
+      cursor: pointer;
+      transition: border-color 0.15s;
+      height: 32px;
+    }
+    .tag-filter-select:focus { border-color: var(--orange); }
+
     .action-btn {
       width: 28px;
       height: 28px;
@@ -777,6 +828,15 @@
         <button class="filter-btn" data-filter="Podcast" onclick="setFilter('Podcast', this)">🎧 팟캐스트</button>
         <button class="filter-btn" data-filter="Newsletter" onclick="setFilter('Newsletter', this)">📧 뉴스레터</button>
         <button class="filter-btn" data-filter="SEO_WARN" onclick="setFilter('SEO_WARN', this)" title="태그 또는 요약문 보완이 필요한 글">⚠️ SEO 점검</button>
+        
+        <!-- Tag Filter Dropdown -->
+        <select id="tag-filter-select" class="tag-filter-select" onchange="filterByTagSelect(this.value)">
+          <option value="ALL">🏷️ 전체 태그</option>
+        </select>
+        <span id="active-tag-indicator" style="display:none;font-size:11.5px;font-weight:700;background:rgba(56,189,248,0.15);color:var(--blue);border:1px solid var(--blue);padding:3px 8px;border-radius:6px;align-items:center;gap:6px;">
+          <span id="active-tag-text">#태그</span>
+          <button onclick="clearTagFilter()" style="background:none;border:none;color:var(--blue);cursor:pointer;font-weight:800;font-size:12px;" title="태그 필터 해제">✕</button>
+        </span>
       </div>
       <div style="display: flex; gap: 8px; align-items: center;">
         <input type="text" class="admin-search" id="admin-search-input" placeholder="🔍 제목, 태그 검색..." oninput="renderTable()" />
@@ -1205,6 +1265,7 @@ async function loadPosts() {
     });
     
     selectedPostIds.clear();
+    populateTagDropdown();
     updateStats();
     renderTable();
   } catch (e) {
@@ -1216,6 +1277,7 @@ async function savePostsJson(commitMsg) {
   const file = await ghGet('data/posts.json');
   const content = JSON.stringify(allPosts, null, 2);
   await ghPut('data/posts.json', content, commitMsg, file.sha);
+  populateTagDropdown();
 }
 
 function updateStats() {
@@ -1248,6 +1310,62 @@ function updateStats() {
 // ═══════════════════════════════════════════════════════════════
 // FILTERING & TABLE RENDERING
 // ═══════════════════════════════════════════════════════════════
+let selectedTag = 'ALL';
+
+function filterByTagChip(tag) {
+  if (selectedTag === tag) {
+    selectedTag = 'ALL';
+  } else {
+    selectedTag = tag;
+  }
+  updateTagFilterUI();
+  renderTable();
+}
+
+function filterByTagSelect(val) {
+  selectedTag = val;
+  updateTagFilterUI();
+  renderTable();
+}
+
+function clearTagFilter() {
+  selectedTag = 'ALL';
+  updateTagFilterUI();
+  renderTable();
+}
+
+function updateTagFilterUI() {
+  const sel = document.getElementById('tag-filter-select');
+  if (sel) sel.value = selectedTag;
+
+  const indicator = document.getElementById('active-tag-indicator');
+  const textSpan = document.getElementById('active-tag-text');
+  if (indicator && textSpan) {
+    if (selectedTag && selectedTag !== 'ALL') {
+      indicator.style.display = 'inline-flex';
+      textSpan.textContent = `#${selectedTag}`;
+    } else {
+      indicator.style.display = 'none';
+    }
+  }
+}
+
+function populateTagDropdown() {
+  const tagCounts = {};
+  allPosts.forEach(p => {
+    (p.labels || []).forEach(t => {
+      if (t) tagCounts[t] = (tagCounts[t] || 0) + 1;
+    });
+  });
+
+  const sel = document.getElementById('tag-filter-select');
+  if (!sel) return;
+
+  const sortedTags = Object.entries(tagCounts).sort((a, b) => b[1] - a[1]);
+  sel.innerHTML = `<option value="ALL">🏷️ 전체 태그 (${sortedTags.length}종)</option>` +
+    sortedTags.map(([tag, count]) => `<option value="${tag}" ${selectedTag === tag ? 'selected' : ''}>#${tag} (${count})</option>`).join('');
+}
+
 function matchCategory(postCat, filterCat) {
   if (!filterCat || filterCat === 'ALL') return true;
   if (postCat === filterCat) return true;
@@ -1281,7 +1399,8 @@ function getSeoHealthBadgeHtml(post) {
   const sumLen = (post.summary || '').length;
   const tagCount = (post.labels || []).length;
   if (sumLen < 50 || tagCount < 2) {
-    return `<span class="health-badge health-warn" title="요약문이 짧거나 태그가 부족합니다">⚠️ 점검 권장</span>`;
+    const reason = tagCount < 2 ? '태그 2개 미만' : '요약문 50자 미만';
+    return `<span class="health-badge health-warn" title="${reason}">⚠️ 점검 권장</span>`;
   }
   return `<span class="health-badge health-good" title="요약문 및 태그 충족">✅ 양호</span>`;
 }
@@ -1300,6 +1419,13 @@ function renderTable() {
     } else if (!['ALL', 'published', 'hidden'].includes(currentFilter)) {
       if (!matchCategory(p.category, currentFilter)) return false;
     }
+    
+    // Tag filter
+    if (selectedTag && selectedTag !== 'ALL') {
+      if (!(p.labels || []).includes(selectedTag)) return false;
+    }
+
+    // Search filter
     if (searchQ) {
       const inTitle = (p.title || '').toLowerCase().includes(searchQ);
       const inSummary = (p.summary || '').toLowerCase().includes(searchQ);
@@ -1341,7 +1467,12 @@ function renderTable() {
       <td>${getCategoryBadgeHtml(p.category)}</td>
       <td>
         <div style="font-weight:600;line-height:1.4;margin-bottom:3px;">${p.title}</div>
-        <div style="font-size:12px;color:var(--text-muted);line-height:1.4;max-width:550px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">${p.summary || '요약문 없음'}</div>
+        <div style="font-size:12px;color:var(--text-muted);line-height:1.4;max-width:550px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;margin-bottom:6px;">${p.summary || '요약문 없음'}</div>
+        <div class="tag-chips-wrap">
+          ${(p.labels && p.labels.length > 0)
+            ? p.labels.map(l => `<span class="tag-chip ${selectedTag === l ? 'active-tag' : ''}" onclick="filterByTagChip('${l.replace(/'/g, "\\'")}')" title="'${l}' 태그로 필터링">#${l}</span>`).join('')
+            : '<span style="font-size:11px;color:var(--text-muted);font-style:italic;">🏷️ 태그 없음</span>'}
+        </div>
       </td>
       <td>${getSeoHealthBadgeHtml(p)}</td>
       <td>${statusHtml}</td>
