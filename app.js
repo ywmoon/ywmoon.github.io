@@ -178,8 +178,14 @@ function openTableView() {
 async function openArticleView(articleId) {
   previousView = currentView;
   currentView = 'article';
-  const post = allPosts.find(p => p.id === articleId);
-  if (!post) { alert('해당 아티클을 찾을 수 없습니다.'); navigateHome(); return; }
+  const decodedId = decodeURIComponent(articleId);
+  const post = allPosts.find(p => p.id === decodedId || p.id === articleId || decodeURIComponent(p.id) === decodedId);
+  if (!post) {
+    console.warn('Post not found for id:', articleId, 'decoded:', decodedId);
+    alert('해당 아티클을 찾을 수 없습니다.');
+    navigateHome();
+    return;
+  }
 
   document.getElementById('hero-section').style.display = 'none';
   document.getElementById('posts-grid-section').style.display = 'none';
