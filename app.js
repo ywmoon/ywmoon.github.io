@@ -59,6 +59,7 @@ async function loadPosts() {
   try {
     const res = await fetch('data/posts.json?_t=' + Date.now());
     if (!res.ok) throw new Error('Failed to load posts');
+    allPosts = await res.json();
     const CAT_PRIORITY = {
       '데일리 브리핑': 1,
       '테크 딥다이브': 2,
