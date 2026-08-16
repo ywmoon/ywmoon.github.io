@@ -2,7 +2,7 @@
 id: 2026-08-16-august-megafarm-deepdive
 title: "[테크 딥다이브] 기가와트(GW)급 AI 데이터센터의 물리적 임계점과 엔비디아의 인프라 금융 리스크 재편"
 date: 2026-08-16
-category: 테크 딥다이브
+category: Tech Deep Dive
 status: published
 summary: "Infrastructure Deep Dive 10GW 메가 프로젝트의 충격과 AI 인프라의 물리적·재무적 임계점 엔비디아가 오픈AI 오하이오 프로젝트의 채무 보증 규모를 2,500억 달러에서 1,200억 달러로 전격 축소했습니다. 후버 댐 발전 용량의 4.5배에 달하는 10GW 초거대 전력망 구축과 천문학적 자본적 지출(CapEx)의 이면에서 실리콘 밸리와"
 labels:
