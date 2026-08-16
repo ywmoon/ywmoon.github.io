@@ -679,11 +679,14 @@
     }
     .editor-pane-right {
       padding: 24px;
-      overflow-y: auto;
+      overflow: auto;
       background: #FFFFFF;
       color: #1E293B;
       font-family: var(--font);
       line-height: 1.8;
+    }
+    .editor-pane-right table {
+      max-width: 100%;
     }
     .editor-pane-right h1, .editor-pane-right h2, .editor-pane-right h3 { color: #0F172A; margin: 20px 0 10px; }
     .editor-pane-right p { margin-bottom: 14px; }
@@ -1641,16 +1644,36 @@ function handleEditorInput() {
   const match = raw.match(/^---\n([\s\S]*?)\n---\n?([\s\S]*)$/);
   const body = match ? match[2] : raw;
 
-  // Live marked.js render
+  // Live render
   const previewPane = document.getElementById('editor-preview-pane');
-  if (typeof marked !== 'undefined') {
+
+  // Check if content is HTML (e.g. <!DOCTYPE, <html>, <table>, <div etc.)
+  const isHtml = /^\s*<!DOCTYPE/i.test(body) || /^\s*<html/i.test(body) || /^\s*<div/i.test(body) || /^\s*<table/i.test(body) || /<table[\s\S]*<\/table>/i.test(body);
+
+  if (isHtml) {
+    // If it's a full HTML template (e.g. Newsletter email format), extract body or render directly
+    const bodyMatch = body.match(/<body[^>]*>([\s\S]*)<\/body>/i);
+    let htmlContent = bodyMatch ? bodyMatch[1] : body;
+    
+    // Extract any <style> tags from <head> to preserve table/email layout
+    const styleMatches = body.match(/<style[^>]*>[\s\S]*?<\/style>/gi);
+    const styles = styleMatches ? styleMatches.join('\n') : '';
+
+    previewPane.innerHTML = styles + htmlContent;
+  } else if (typeof marked !== 'undefined') {
+    marked.setOptions({
+      gfm: true,
+      breaks: true,
+      pedantic: false
+    });
     previewPane.innerHTML = marked.parse(body);
   } else {
     previewPane.textContent = body;
   }
 
   // Update word & reading time stats
-  const charCount = body.replace(/\s/g, '').length;
+  const plainText = body.replace(/<[^>]+>/g, ' ').replace(/\s+/g, ' ').trim();
+  const charCount = plainText.length;
   const readMins = Math.max(1, Math.ceil(charCount / 500));
   document.getElementById('editor-stats-badge').textContent = `⏱️ ${charCount.toLocaleString()}자 (약 ${readMins}분 소요)`;
 }
