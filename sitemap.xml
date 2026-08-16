@@ -7,73 +7,85 @@
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://ywmoon.github.io/#article/2026-08-16-오늘의-글로벌-클라우드-데이터센터-인프라-핵심-동향-브리핑</loc>
+    <loc>https://ywmoon.github.io/#article/2026-08-16-10min-tech-podcast</loc>
     <lastmod>2026-08-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ywmoon.github.io/#article/2026-08-16-미션-크리티컬-mro를-위한-생성형-ai클라우드-인프라-하이브리드-rag와-엣지-클라우드-파이프라인-아키텍처</loc>
+    <loc>https://ywmoon.github.io/#article/2026-08-16-august-megafarm-deepdive</loc>
     <lastmod>2026-08-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ywmoon.github.io/#article/2026-08-16-2026년-8월-ai-데이터센터-인프라-대전환-15000장-gpu-메가팜-착공부터-smr직류dc-배전온수-냉</loc>
+    <loc>https://ywmoon.github.io/#article/2026-08-16-bess-battery-storage</loc>
     <lastmod>2026-08-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ywmoon.github.io/#article/2026-08-16-bess-배터리-에너지-저장-시스템-기가와트gw급-ai-데이터센터의-필수-전력-인프라</loc>
+    <loc>https://ywmoon.github.io/#article/2026-08-16-mro-generative-ai-cloud</loc>
     <lastmod>2026-08-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ywmoon.github.io/#article/2026-08-15-nuclear-smrs-ai-capex-realignment-cooling-bottlenecks</loc>
+    <loc>https://ywmoon.github.io/#article/2026-08-16-daily-infraops-briefing</loc>
+    <lastmod>2026-08-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ywmoon.github.io/#article/2026-08-15-daily-infraops-briefing</loc>
     <lastmod>2026-08-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ywmoon.github.io/#article/2026-08-15-10gw-메가-ai-데이터센터의-물리적-한계와-우로보로스-금융의-구조조정-하이퍼스케일-인프라-아키텍처와-tc</loc>
+    <loc>https://ywmoon.github.io/#article/2026-08-15-7min-tech-podcast</loc>
     <lastmod>2026-08-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ywmoon.github.io/#article/2026-08-15-오늘의-글로벌-클라우드-데이터센터-인프라-핵심-동향-브리핑</loc>
+    <loc>https://ywmoon.github.io/#article/2026-08-15-10gw-mega-datacenter-tco</loc>
     <lastmod>2026-08-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ywmoon.github.io/#article/2026-08-15-d2c-액체냉각-direct-to-chip-liquid-cooling-초고밀도-ai-데이터센터의-필수-열관리</loc>
+    <loc>https://ywmoon.github.io/#article/2026-08-15-10gw-vendor-financing-limits</loc>
     <lastmod>2026-08-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ywmoon.github.io/#article/2026-08-15-10gw-기가와트급-ai-클러스터의-전력-역설과-우로보로스-금융의-한계-엔비디아-오픈ai-오하이오-프로젝트</loc>
+    <loc>https://ywmoon.github.io/#article/2026-08-15-daily-infraops-briefing-2</loc>
     <lastmod>2026-08-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ywmoon.github.io/#article/2026-08-15-10gw-초대형-ai-데이터센터와-벤더-파이낸싱의-한계-기가와트급-인프라-아키텍처의-현실과-과제</loc>
+    <loc>https://ywmoon.github.io/#article/2026-08-15-10gw-cluster-power-paradox</loc>
     <lastmod>2026-08-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ywmoon.github.io/#article/2026-08-14-dc-infraops-trends-2026년-08월-14일</loc>
+    <loc>https://ywmoon.github.io/#article/2026-08-15-d2c-liquid-cooling</loc>
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ywmoon.github.io/#article/2026-08-14-dc-infraops-trends-report</loc>
     <lastmod>2026-08-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ywmoon.github.io/#article/2026-08-13-dc-infraops-trends-2026년-08월-13일</loc>
+    <loc>https://ywmoon.github.io/#article/2026-08-13-dc-infraops-trends-report</loc>
     <lastmod>2026-08-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
