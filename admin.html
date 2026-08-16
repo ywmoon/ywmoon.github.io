@@ -7,6 +7,11 @@
   <meta name="robots" content="noindex, nofollow" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Noto+Sans+KR:wght@400;500;700&family=Fira+Code:wght@400;600&display=swap" rel="stylesheet" />
+  
+  <!-- External Libraries for Advanced Features: Marked (Markdown Renderer) & JSZip (Full Backup) -->
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js"></script>
+
   <style>
     :root {
       --bg: #0F172A;
@@ -20,6 +25,7 @@
       --green: #22C55E;
       --red: #EF4444;
       --yellow: #F59E0B;
+      --purple: #A855F7;
       --radius: 8px;
       --font: 'Inter','Noto Sans KR',sans-serif;
       --mono: 'Fira Code',monospace;
@@ -37,7 +43,7 @@
     }
     .login-card {
       width: 100%;
-      max-width: 440px;
+      max-width: 460px;
       background: var(--surface);
       border: 1px solid var(--border);
       border-radius: 16px;
@@ -72,11 +78,11 @@
     .login-card p {
       font-size: 13.5px;
       color: var(--text-muted);
-      margin-bottom: 28px;
+      margin-bottom: 24px;
       line-height: 1.6;
     }
     .form-label {
-      font-size: 12.5px;
+      font-size: 12px;
       font-weight: 700;
       color: var(--text-muted);
       text-transform: uppercase;
@@ -149,7 +155,7 @@
       background: var(--surface);
       border-bottom: 1px solid var(--border);
       padding: 0 24px;
-      height: 56px;
+      height: 60px;
       display: flex;
       align-items: center;
       justify-content: space-between;
@@ -165,14 +171,14 @@
     .admin-brand-badge {
       background: var(--orange);
       color: #000;
-      font-size: 10.5px;
+      font-size: 11px;
       font-weight: 800;
-      padding: 3px 7px;
+      padding: 3px 8px;
       border-radius: 4px;
       text-transform: uppercase;
     }
     .admin-brand-title {
-      font-size: 15px;
+      font-size: 15.5px;
       font-weight: 700;
     }
     .admin-header-actions {
@@ -185,12 +191,12 @@
       font-size: 11.5px;
       background: var(--surface2);
       border: 1px solid var(--border);
-      padding: 4px 10px;
+      padding: 5px 10px;
       border-radius: 4px;
       color: var(--green);
     }
     .btn-sm {
-      height: 32px;
+      height: 34px;
       padding: 0 14px;
       font-size: 12.5px;
       font-weight: 700;
@@ -200,34 +206,40 @@
       color: var(--text);
       cursor: pointer;
       transition: all 0.15s;
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      text-decoration: none;
     }
-    .btn-sm:hover { border-color: var(--orange); color: var(--orange); }
-    .btn-sm.danger:hover { border-color: var(--red); color: var(--red); }
-    .btn-sm.success { background: var(--green); color: #000; border-color: var(--green); }
+    .btn-sm:hover { background: var(--border); }
+    .btn-sm.primary { background: var(--orange); color: #000; border-color: var(--orange); }
+    .btn-sm.primary:hover { opacity: 0.9; }
+    .btn-sm.danger { border-color: rgba(239,68,68,0.4); color: #FCA5A5; }
+    .btn-sm.danger:hover { background: rgba(239,68,68,0.2); }
 
     .admin-body {
-      max-width: 1280px;
+      max-width: 1400px;
       margin: 0 auto;
-      padding: 28px 24px;
+      padding: 24px 20px 80px;
     }
 
     /* Stats Bar */
     .stats-bar {
       display: grid;
-      grid-template-columns: repeat(4, 1fr);
-      gap: 16px;
-      margin-bottom: 28px;
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      gap: 14px;
+      margin-bottom: 24px;
     }
     .stat-card {
       background: var(--surface);
       border: 1px solid var(--border);
       border-radius: var(--radius);
-      padding: 18px 20px;
+      padding: 16px 20px;
     }
     .stat-label {
       font-size: 12px;
+      font-weight: 700;
       color: var(--text-muted);
-      font-weight: 600;
       text-transform: uppercase;
       letter-spacing: 0.5px;
       margin-bottom: 6px;
@@ -236,68 +248,90 @@
       font-size: 26px;
       font-weight: 800;
       color: var(--text);
+      font-family: var(--mono);
     }
-    .stat-sub {
-      font-size: 12px;
-      color: var(--text-muted);
-      margin-top: 2px;
+    .stat-sub { font-size: 11.5px; color: var(--text-muted); margin-top: 4px; }
+
+    /* Bulk Action Toolbar */
+    .bulk-bar {
+      background: rgba(56, 189, 248, 0.12);
+      border: 1px solid rgba(56, 189, 248, 0.3);
+      border-radius: var(--radius);
+      padding: 12px 18px;
+      margin-bottom: 16px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      animation: fadeIn 0.2s ease;
     }
+    @keyframes fadeIn { from { opacity: 0; transform: translateY(-4px); } to { opacity: 1; transform: translateY(0); } }
+    .bulk-info { font-size: 13.5px; font-weight: 700; color: var(--blue); }
+    .bulk-actions { display: flex; gap: 8px; align-items: center; }
 
     /* Toolbar */
     .admin-toolbar {
       display: flex;
       align-items: center;
       justify-content: space-between;
-      margin-bottom: 16px;
-      gap: 12px;
       flex-wrap: wrap;
+      gap: 12px;
+      margin-bottom: 16px;
     }
     .admin-toolbar-left {
       display: flex;
       align-items: center;
-      gap: 8px;
+      gap: 6px;
+      flex-wrap: wrap;
     }
     .filter-btn {
-      height: 34px;
-      padding: 0 14px;
-      font-size: 12.5px;
-      font-weight: 600;
+      height: 32px;
+      padding: 0 12px;
+      background: var(--surface);
       border: 1px solid var(--border);
-      border-radius: 20px;
-      background: transparent;
+      border-radius: 6px;
       color: var(--text-muted);
+      font-size: 12px;
+      font-weight: 700;
       cursor: pointer;
       transition: all 0.15s;
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
     }
-    .filter-btn:hover, .filter-btn.active {
-      background: var(--surface2);
+    .filter-btn:hover { color: var(--text); background: var(--surface2); }
+    .filter-btn.active {
+      background: var(--orange);
+      color: #000;
       border-color: var(--orange);
-      color: var(--orange);
     }
+    .filter-btn .badge-num {
+      background: rgba(0,0,0,0.15);
+      padding: 1px 5px;
+      border-radius: 10px;
+      font-size: 10.5px;
+    }
+
     .admin-search {
-      height: 34px;
-      background: var(--surface2);
+      background: var(--surface);
       border: 1px solid var(--border);
       border-radius: 6px;
       color: var(--text);
       font-size: 13px;
-      padding: 0 12px;
+      padding: 7px 14px;
       outline: none;
       width: 220px;
-      font-family: var(--font);
       transition: border-color 0.15s;
     }
     .admin-search:focus { border-color: var(--orange); }
 
-    /* Rebuild button */
     .btn-rebuild {
-      height: 36px;
-      padding: 0 16px;
-      background: rgba(56,189,248,0.12);
+      height: 34px;
+      padding: 0 14px;
+      background: rgba(56,189,248,0.1);
       border: 1px solid var(--blue);
       border-radius: 6px;
       color: var(--blue);
-      font-size: 13px;
+      font-size: 12.5px;
       font-weight: 700;
       cursor: pointer;
       transition: all 0.15s;
@@ -309,11 +343,12 @@
       background: var(--surface);
       border: 1px solid var(--border);
       border-radius: var(--radius);
-      overflow: hidden;
+      overflow-x: auto;
     }
     .admin-table {
       width: 100%;
       border-collapse: collapse;
+      min-width: 950px;
     }
     .admin-table th {
       background: var(--surface2);
@@ -322,14 +357,15 @@
       font-weight: 700;
       text-transform: uppercase;
       letter-spacing: 0.5px;
-      padding: 12px 16px;
+      padding: 12px 14px;
       text-align: left;
       border-bottom: 1px solid var(--border);
+      white-space: nowrap;
     }
     .admin-table td {
-      padding: 14px 16px;
+      padding: 12px 14px;
       border-bottom: 1px solid var(--border);
-      font-size: 13.5px;
+      font-size: 13px;
       vertical-align: middle;
     }
     .admin-table tr:last-child td { border-bottom: none; }
@@ -339,14 +375,14 @@
       display: inline-flex;
       align-items: center;
       gap: 5px;
-      font-size: 11.5px;
+      font-size: 11px;
       font-weight: 700;
-      padding: 3px 10px;
+      padding: 3px 8px;
       border-radius: 12px;
+      white-space: nowrap;
     }
     .status-published { background: rgba(34,197,94,0.12); color: var(--green); }
     .status-hidden { background: rgba(245,158,11,0.12); color: var(--yellow); }
-    .status-deleted { background: rgba(239,68,68,0.12); color: var(--red); }
 
     .cat-badge {
       font-size: 11px;
@@ -361,27 +397,42 @@
       white-space: nowrap;
     }
     .cat-badge.cat-daily-briefing { background: rgba(2, 132, 199, 0.12); color: #0284c7; }
-    .cat-badge.cat-tech-deep-dive { background: rgba(147, 51, 234, 0.12); color: #9333ea; }
+    .cat-badge.cat-tech-deep-dive { background: rgba(168, 85, 247, 0.12); color: #a855f7; }
     .cat-badge.cat-terminology { background: rgba(16, 185, 129, 0.12); color: #10b981; }
     .cat-badge.cat-podcast { background: rgba(236, 72, 153, 0.12); color: #ec4899; }
     .cat-badge.cat-newsletter { background: rgba(255, 153, 0, 0.12); color: var(--orange); }
 
+    .health-badge {
+      font-size: 10.5px;
+      font-weight: 700;
+      padding: 2px 6px;
+      border-radius: 4px;
+      display: inline-flex;
+      align-items: center;
+      gap: 3px;
+      white-space: nowrap;
+    }
+    .health-good { background: rgba(34,197,94,0.1); color: var(--green); }
+    .health-warn { background: rgba(245,158,11,0.1); color: var(--yellow); }
+
     .action-btn {
-      width: 30px;
-      height: 30px;
+      width: 28px;
+      height: 28px;
       display: inline-flex;
       align-items: center;
       justify-content: center;
       background: transparent;
       border: 1px solid var(--border);
-      border-radius: 6px;
+      border-radius: 5px;
       cursor: pointer;
-      font-size: 14px;
+      font-size: 13px;
       transition: all 0.15s;
-      margin-right: 4px;
+      margin-right: 3px;
     }
     .action-btn:hover { background: var(--surface2); border-color: var(--text-muted); transform: scale(1.1); }
+    .action-btn.edit-md:hover { border-color: var(--orange); }
     .action-btn.edit:hover { border-color: var(--blue); }
+    .action-btn.linkedin:hover { border-color: #0A66C2; color: #38BDF8; }
     .action-btn.toggle:hover { border-color: var(--yellow); }
     .action-btn.delete:hover { border-color: var(--red); }
 
@@ -394,13 +445,13 @@
       border: 1px solid var(--border);
       border-radius: var(--radius);
       padding: 14px 20px;
-      font-size: 14px;
+      font-size: 13.5px;
       font-weight: 600;
       color: var(--text);
-      box-shadow: 0 8px 24px rgba(0,0,0,0.4);
+      box-shadow: 0 8px 24px rgba(0,0,0,0.5);
       z-index: 9999;
       display: none;
-      max-width: 340px;
+      max-width: 380px;
       line-height: 1.5;
     }
     #toast.show { display: block; animation: slideUp 0.25s ease; }
@@ -411,10 +462,10 @@
       to   { opacity: 1; transform: translateY(0); }
     }
 
-    /* Edit Modal */
+    /* Modal Backdrop */
     .modal-backdrop {
       position: fixed; inset: 0;
-      background: rgba(0,0,0,0.7);
+      background: rgba(0,0,0,0.75);
       backdrop-filter: blur(4px);
       z-index: 1000;
       display: flex;
@@ -428,24 +479,29 @@
     .modal-backdrop.open { opacity: 1; pointer-events: auto; }
     .modal-card {
       width: 100%;
-      max-width: 620px;
+      max-width: 640px;
       background: var(--surface);
       border: 1px solid var(--border);
       border-radius: 12px;
-      padding: 32px;
+      padding: 28px;
       box-shadow: 0 20px 50px rgba(0,0,0,0.6);
       transform: translateY(12px);
       transition: transform 0.2s;
+      max-height: 90vh;
+      overflow-y: auto;
     }
     .modal-backdrop.open .modal-card { transform: translateY(0); }
     .modal-title {
       font-size: 18px;
       font-weight: 800;
-      margin-bottom: 22px;
-      padding-bottom: 14px;
+      margin-bottom: 20px;
+      padding-bottom: 12px;
       border-bottom: 1px solid var(--border);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
     }
-    .modal-field { margin-bottom: 18px; }
+    .modal-field { margin-bottom: 16px; }
     .modal-field label {
       display: block;
       font-size: 12px;
@@ -453,9 +509,9 @@
       color: var(--text-muted);
       text-transform: uppercase;
       letter-spacing: 0.5px;
-      margin-bottom: 7px;
+      margin-bottom: 6px;
     }
-    .modal-field input, .modal-field textarea {
+    .modal-field input, .modal-field textarea, .modal-field select {
       width: 100%;
       background: var(--bg);
       border: 1px solid var(--border);
@@ -463,12 +519,12 @@
       color: var(--text);
       font-family: var(--font);
       font-size: 13.5px;
-      padding: 10px 14px;
+      padding: 9px 12px;
       outline: none;
       transition: border-color 0.15s;
     }
-    .modal-field textarea { resize: vertical; min-height: 80px; }
-    .modal-field input:focus, .modal-field textarea:focus { border-color: var(--orange); }
+    .modal-field textarea { resize: vertical; min-height: 75px; }
+    .modal-field input:focus, .modal-field textarea:focus, .modal-field select:focus { border-color: var(--orange); }
     .modal-actions {
       display: flex;
       justify-content: flex-end;
@@ -478,12 +534,12 @@
     }
     .btn-cancel {
       height: 38px;
-      padding: 0 18px;
+      padding: 0 16px;
       background: transparent;
       border: 1px solid var(--border);
       border-radius: 6px;
       color: var(--text-muted);
-      font-size: 13.5px;
+      font-size: 13px;
       font-weight: 600;
       cursor: pointer;
     }
@@ -494,31 +550,99 @@
       color: #000;
       border: none;
       border-radius: 6px;
-      font-size: 13.5px;
+      font-size: 13px;
       font-weight: 800;
       cursor: pointer;
       transition: opacity 0.15s;
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
     }
     .btn-save:hover { opacity: 0.9; }
 
-    /* Delete Confirm Modal */
-    .delete-modal-body { font-size: 14px; color: var(--text-muted); line-height: 1.6; margin-bottom: 24px; }
-    .delete-modal-body strong { color: var(--text); }
-    .btn-delete-confirm {
-      height: 38px;
-      padding: 0 20px;
-      background: var(--red);
-      color: #fff;
-      border: none;
-      border-radius: 6px;
-      font-size: 13.5px;
-      font-weight: 800;
+    /* Fullscreen Markdown Live Editor Modal */
+    .editor-modal-card {
+      width: 95vw;
+      max-width: 1350px;
+      height: 90vh;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      display: flex;
+      flex-direction: column;
+      overflow: hidden;
+    }
+    .editor-header {
+      padding: 14px 20px;
+      background: var(--surface2);
+      border-bottom: 1px solid var(--border);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .editor-body {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      flex: 1;
+      overflow: hidden;
+    }
+    .editor-pane-left {
+      border-right: 1px solid var(--border);
+      display: flex;
+      flex-direction: column;
+      background: var(--bg);
+    }
+    .editor-toolbar {
+      padding: 8px 12px;
+      background: var(--surface);
+      border-bottom: 1px solid var(--border);
+      display: flex;
+      gap: 6px;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+    .tool-btn {
+      height: 26px;
+      padding: 0 8px;
+      font-size: 11.5px;
+      font-weight: 700;
+      background: var(--surface2);
+      color: var(--text);
+      border: 1px solid var(--border);
+      border-radius: 4px;
       cursor: pointer;
     }
+    .tool-btn:hover { background: var(--border); }
+    .editor-textarea {
+      flex: 1;
+      width: 100%;
+      background: transparent;
+      color: var(--text);
+      font-family: var(--mono);
+      font-size: 13px;
+      line-height: 1.6;
+      padding: 16px;
+      border: none;
+      outline: none;
+      resize: none;
+    }
+    .editor-pane-right {
+      padding: 24px;
+      overflow-y: auto;
+      background: #FFFFFF;
+      color: #1E293B;
+      font-family: var(--font);
+      line-height: 1.8;
+    }
+    .editor-pane-right h1, .editor-pane-right h2, .editor-pane-right h3 { color: #0F172A; margin: 20px 0 10px; }
+    .editor-pane-right p { margin-bottom: 14px; }
+    .editor-pane-right pre { background: #0F172A; color: #F8FAFC; padding: 14px; border-radius: 8px; overflow-x: auto; margin-bottom: 14px; font-family: var(--mono); font-size: 12.5px; }
+    .editor-pane-right img { max-width: 100%; border-radius: 8px; margin: 12px 0; }
+    .editor-pane-right blockquote { border-left: 4px solid var(--orange); padding-left: 14px; color: #475569; margin-bottom: 14px; }
 
     .loading-spinner {
       display: inline-block;
-      width: 16px; height: 16px;
+      width: 14px; height: 14px;
       border: 2px solid var(--border);
       border-top-color: var(--orange);
       border-radius: 50%;
@@ -549,7 +673,7 @@
       <span class="login-logo-title">DC InfraOps Blog</span>
     </div>
     <h1>🔐 관리자 로그인</h1>
-    <p>GitHub Personal Access Token을 입력하세요.<br>토큰은 이 탭이 열린 동안에만 메모리에 유지되며, 닫으면 즉시 삭제됩니다.</p>
+    <p>GitHub Personal Access Token을 입력하세요.<br>토큰은 이 탭이 열린 동안에만 브라우저 메모리에 유지됩니다.</p>
 
     <label class="form-label">GitHub Personal Access Token</label>
     <input
@@ -560,8 +684,7 @@
       autocomplete="off"
     />
     <p class="form-hint">
-      토큰 발급: GitHub → Settings → Developer settings → Personal access tokens → Fine-grained tokens<br>
-      권한: <strong>Contents (Read & Write)</strong> → ywmoon.github.io repo만 선택
+      토큰 권한: <strong>Contents (Read & Write)</strong> → ywmoon.github.io
     </p>
 
     <button class="btn-primary" id="login-btn" onclick="handleLogin()">
@@ -572,7 +695,7 @@
 
     <div class="login-security-note">
       <span>🔒</span>
-      <span>토큰은 GitHub에 저장되지 않으며, 오직 브라우저 sessionStorage에만 임시 보관됩니다. 탭을 닫으면 자동으로 삭제됩니다.</span>
+      <span>토큰은 외부 서버에 전송되지 않으며 GitHub API 통신에만 직접 사용됩니다.</span>
     </div>
   </div>
 </div>
@@ -586,13 +709,13 @@
   <header class="admin-header">
     <div class="admin-brand">
       <span class="admin-brand-badge">Admin</span>
-      <span class="admin-brand-title">DC InfraOps Blog 관리 패널</span>
+      <span class="admin-brand-title">DC InfraOps Console</span>
     </div>
     <div class="admin-header-actions">
+      <button class="btn-sm primary" onclick="openNewPostModal()">➕ 새 글 작성</button>
+      <button class="btn-sm" onclick="downloadFullBackupZip()" title="전체 .md 파일 및 인덱스를 ZIP으로 즉시 백업 다운로드합니다">💾 전체 백업 (ZIP)</button>
       <span class="token-badge" id="token-display">🔑 인증됨</span>
-      <a href="/" target="_blank">
-        <button class="btn-sm">🌐 블로그 보기</button>
-      </a>
+      <a href="/" target="_blank" class="btn-sm">🌐 블로그 보기</a>
       <button class="btn-sm danger" onclick="handleLogout()">🚪 로그아웃</button>
     </div>
   </header>
@@ -604,7 +727,7 @@
       <div class="stat-card">
         <div class="stat-label">전체 아티클</div>
         <div class="stat-value" id="stat-total">-</div>
-        <div class="stat-sub">누적 발행</div>
+        <div class="stat-sub">누적 발행 글</div>
       </div>
       <div class="stat-card">
         <div class="stat-label">공개 중</div>
@@ -612,32 +735,52 @@
         <div class="stat-sub">현재 노출</div>
       </div>
       <div class="stat-card">
-        <div class="stat-label">숨김</div>
+        <div class="stat-label">숨김 글</div>
         <div class="stat-value" id="stat-hidden" style="color: var(--yellow)">-</div>
-        <div class="stat-sub">비공개</div>
+        <div class="stat-sub">비공개 보관</div>
       </div>
       <div class="stat-card">
         <div class="stat-label">카테고리</div>
         <div class="stat-value" id="stat-cats">-</div>
-        <div class="stat-sub">종류</div>
+        <div class="stat-sub">분류 체계</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-label">SEO 헬스 스코어</div>
+        <div class="stat-value" id="stat-seo" style="color: var(--blue)">100%</div>
+        <div class="stat-sub">태그 & 요약문 완성도</div>
+      </div>
+    </div>
+
+    <!-- Bulk Action Toolbar (Floating when checked) -->
+    <div class="bulk-bar" id="bulk-bar" style="display: none;">
+      <div class="bulk-info">
+        <span id="bulk-count">0</span>개 아티클 선택됨
+      </div>
+      <div class="bulk-actions">
+        <button class="btn-sm" onclick="bulkToggleStatus('published')">🟢 일괄 공개</button>
+        <button class="btn-sm" onclick="bulkToggleStatus('hidden')">🟡 일괄 숨김</button>
+        <button class="btn-sm" onclick="openBulkCategoryModal()">📂 카테고리 일괄 변경</button>
+        <button class="btn-sm danger" onclick="openBulkDeleteModal()">🗑️ 일괄 삭제</button>
+        <button class="btn-sm" onclick="deselectAllRows()">✕ 선택 해제</button>
       </div>
     </div>
 
     <!-- Toolbar -->
     <div class="admin-toolbar">
       <div class="admin-toolbar-left">
-        <button class="filter-btn active" data-filter="ALL" onclick="setFilter('ALL', this)">전체</button>
-        <button class="filter-btn" data-filter="published" onclick="setFilter('published', this)">🟢 공개</button>
-        <button class="filter-btn" data-filter="hidden" onclick="setFilter('hidden', this)">🟡 숨김</button>
+        <button class="filter-btn active" data-filter="ALL" onclick="setFilter('ALL', this)">전체 <span class="badge-num" id="fcount-all">0</span></button>
+        <button class="filter-btn" data-filter="published" onclick="setFilter('published', this)">🟢 공개 <span class="badge-num" id="fcount-pub">0</span></button>
+        <button class="filter-btn" data-filter="hidden" onclick="setFilter('hidden', this)">🟡 숨김 <span class="badge-num" id="fcount-hid">0</span></button>
         <button class="filter-btn" data-filter="Daily Briefing" onclick="setFilter('Daily Briefing', this)">📋 브리핑</button>
         <button class="filter-btn" data-filter="Tech Deep Dive" onclick="setFilter('Tech Deep Dive', this)">🔬 딥다이브</button>
         <button class="filter-btn" data-filter="Terminology" onclick="setFilter('Terminology', this)">💡 용어사전</button>
         <button class="filter-btn" data-filter="Podcast" onclick="setFilter('Podcast', this)">🎧 팟캐스트</button>
         <button class="filter-btn" data-filter="Newsletter" onclick="setFilter('Newsletter', this)">📧 뉴스레터</button>
+        <button class="filter-btn" data-filter="SEO_WARN" onclick="setFilter('SEO_WARN', this)" title="태그 또는 요약문 보완이 필요한 글">⚠️ SEO 점검</button>
       </div>
-      <div style="display: flex; gap: 10px; align-items: center;">
-        <input type="text" class="admin-search" id="admin-search-input" placeholder="🔍 제목 검색..." oninput="renderTable()" />
-        <button class="btn-rebuild" style="background: rgba(34, 197, 94, 0.15); border-color: var(--green); color: var(--green);" onclick="syncAndRebuildIndex()" title="data/posts 폴더의 모든 .md 파일을 스캔하여 인덱스와 사이트맵을 100% 동기화합니다">⚡ 인덱스 전체 동기화</button>
+      <div style="display: flex; gap: 8px; align-items: center;">
+        <input type="text" class="admin-search" id="admin-search-input" placeholder="🔍 제목, 태그 검색..." oninput="renderTable()" />
+        <button class="btn-rebuild" style="background: rgba(34, 197, 94, 0.12); border-color: var(--green); color: var(--green);" onclick="syncAndRebuildIndex()" title="data/posts 폴더의 모든 .md 파일을 스캔하여 인덱스와 사이트맵을 100% 동기화합니다">⚡ 인덱스 전체 동기화</button>
         <button class="btn-rebuild" onclick="rebuildSitemap()">🔄 Sitemap 재생성</button>
       </div>
     </div>
@@ -647,18 +790,20 @@
       <table class="admin-table">
         <thead>
           <tr>
-            <th style="width: 50px;">No</th>
-            <th style="width: 110px;">날짜</th>
-            <th style="width: 130px;">카테고리</th>
-            <th>제목</th>
-            <th style="width: 100px;">상태</th>
-            <th style="width: 120px;">액션</th>
+            <th style="width: 36px; text-align: center;"><input type="checkbox" id="check-all" onchange="toggleCheckAll(this.checked)" /></th>
+            <th style="width: 46px;">No</th>
+            <th style="width: 95px;">날짜</th>
+            <th style="width: 135px;">카테고리</th>
+            <th>아티클 제목 & 요약</th>
+            <th style="width: 105px;">SEO 진단</th>
+            <th style="width: 85px;">상태</th>
+            <th style="width: 155px; text-align: right;">액션</th>
           </tr>
         </thead>
         <tbody id="admin-table-body">
           <tr>
-            <td colspan="6" style="text-align: center; padding: 40px; color: var(--text-muted);">
-              <span class="loading-spinner"></span> 불러오는 중...
+            <td colspan="8" style="text-align: center; padding: 40px; color: var(--text-muted);">
+              <span class="loading-spinner"></span> 아티클 데이터 불러오는 중...
             </td>
           </tr>
         </tbody>
@@ -668,13 +813,123 @@
   </div>
 </div>
 
-<!-- Edit Modal -->
+<!-- ═══════════════════════════════════════════════════════════════ -->
+<!-- MODAL: MARKDOWN LIVE EDITOR                                    -->
+<!-- ═══════════════════════════════════════════════════════════════ -->
+<div class="modal-backdrop" id="markdown-editor-modal">
+  <div class="editor-modal-card">
+    <div class="editor-header">
+      <div style="display: flex; align-items: center; gap: 10px;">
+        <span class="admin-brand-badge">Editor</span>
+        <strong id="editor-article-id" style="font-family: var(--mono); font-size: 14px;">article-id</strong>
+        <span id="editor-stats-badge" style="font-size: 12px; color: var(--text-muted);">⏱️ 0자 / 약 0분</span>
+      </div>
+      <div style="display: flex; gap: 8px;">
+        <button class="btn-cancel" onclick="closeModal('markdown-editor-modal')">닫기</button>
+        <button class="btn-save" id="editor-save-btn" onclick="saveMarkdownContent()">💾 GitHub 커밋 & 배포</button>
+      </div>
+    </div>
+    <div class="editor-body">
+      <div class="editor-pane-left">
+        <div class="editor-toolbar">
+          <button class="tool-btn" onclick="insertEditorText('**', '**')">B</button>
+          <button class="tool-btn" onclick="insertEditorText('*', '*')">I</button>
+          <button class="tool-btn" onclick="insertEditorText('## ', '')">H2</button>
+          <button class="tool-btn" onclick="insertEditorText('### ', '')">H3</button>
+          <button class="tool-btn" onclick="insertEditorText('> ', '')">Quote</button>
+          <button class="tool-btn" onclick="insertEditorText('```\n', '\n```')">Code</button>
+          <button class="tool-btn" onclick="insertEditorText('- ', '')">List</button>
+          <button class="tool-btn" onclick="insertEditorText('[', '](https://)')">Link</button>
+          <button class="tool-btn" onclick="insertEditorText('<img src=\"data:image/jpeg;base64,...\" alt=\"Chart\" />', '')">🖼️ Base64 Image</button>
+        </div>
+        <textarea id="editor-content-textarea" class="editor-textarea" oninput="handleEditorInput()" placeholder="YAML Frontmatter 및 Markdown 본문을 작성하세요..."></textarea>
+      </div>
+      <div class="editor-pane-right" id="editor-preview-pane">
+        <!-- Live Markdown Rendering -->
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ═══════════════════════════════════════════════════════════════ -->
+<!-- MODAL: LINKEDIN SHARE POST GENERATOR                            -->
+<!-- ═══════════════════════════════════════════════════════════════ -->
+<div class="modal-backdrop" id="linkedin-modal">
+  <div class="modal-card">
+    <div class="modal-title">
+      <span>💼 LinkedIn 맞춤형 포스팅 텍스트</span>
+      <button class="tool-btn" onclick="closeModal('linkedin-modal')">✕</button>
+    </div>
+    <div class="modal-field">
+      <label>자동 생성된 서식 (수정 가능)</label>
+      <textarea id="linkedin-text-preview" rows="12" style="font-family: var(--font); font-size: 13.5px;"></textarea>
+    </div>
+    <div class="modal-actions">
+      <button class="btn-cancel" onclick="closeModal('linkedin-modal')">닫기</button>
+      <a id="linkedin-open-link" href="https://www.linkedin.com/feed/" target="_blank" class="btn-sm" style="text-decoration:none;">🚀 LinkedIn 열기</a>
+      <button class="btn-save" onclick="copyLinkedInText()">📋 클립보드 복사</button>
+    </div>
+  </div>
+</div>
+
+<!-- ═══════════════════════════════════════════════════════════════ -->
+<!-- MODAL: NEW ARTICLE COMPOSER (새 글 작성)                         -->
+<!-- ═══════════════════════════════════════════════════════════════ -->
+<div class="modal-backdrop" id="new-post-modal">
+  <div class="modal-card">
+    <div class="modal-title">
+      <span>➕ 새 아티클 작성 (Quick Composer)</span>
+      <button class="tool-btn" onclick="closeModal('new-post-modal')">✕</button>
+    </div>
+    <div class="modal-field">
+      <label>카테고리 템플릿 선택</label>
+      <select id="new-category" onchange="applyNewPostTemplate(this.value)">
+        <option value="Daily Briefing">📋 Daily Briefing (데일리 브리핑)</option>
+        <option value="Tech Deep Dive">🔬 Tech Deep Dive (테크 딥다이브)</option>
+        <option value="Terminology">💡 Terminology (인프라 용어사전)</option>
+        <option value="Podcast">🎧 Podcast (테크 팟캐스트)</option>
+        <option value="Newsletter">📧 Newsletter (종합 리포트)</option>
+      </select>
+    </div>
+    <div class="modal-field">
+      <label>발행 날짜 & 시간</label>
+      <div style="display: flex; gap: 10px;">
+        <input type="date" id="new-date" style="flex:1;" />
+        <input type="text" id="new-time" value="07:30" style="width: 100px; font-family: var(--mono);" placeholder="07:30" />
+      </div>
+    </div>
+    <div class="modal-field">
+      <label>제목</label>
+      <input type="text" id="new-title" placeholder="아티클 제목을 입력하세요" oninput="autoGenerateSlug(this.value)" />
+    </div>
+    <div class="modal-field">
+      <label>파일 식별자 (Slug ID)</label>
+      <input type="text" id="new-id" style="font-family: var(--mono);" placeholder="2026-08-17-article-slug" />
+    </div>
+    <div class="modal-field">
+      <label>요약문 (Summary, 80~160자 권장)</label>
+      <textarea id="new-summary" rows="2" placeholder="아티클의 핵심 요약을 1~2문장으로 작성하세요."></textarea>
+    </div>
+    <div class="modal-field">
+      <label>태그 (쉼표 구분)</label>
+      <input type="text" id="new-labels" placeholder="AWS, 데이터센터, SMR, 전력망" />
+    </div>
+    <div class="modal-actions">
+      <button class="btn-cancel" onclick="closeModal('new-post-modal')">취소</button>
+      <button class="btn-save" onclick="createAndOpenNewPost()">🚀 본문 에디터로 작성 & 발행</button>
+    </div>
+  </div>
+</div>
+
+<!-- ═══════════════════════════════════════════════════════════════ -->
+<!-- MODAL: EDIT METADATA                                            -->
+<!-- ═══════════════════════════════════════════════════════════════ -->
 <div class="modal-backdrop" id="edit-modal">
   <div class="modal-card">
-    <div class="modal-title">✏️ 아티클 수정</div>
+    <div class="modal-title">✏️ 메타데이터 수정</div>
     <div class="modal-field">
       <label>카테고리</label>
-      <select id="edit-category" style="background:var(--card-bg);color:var(--text);border:1px solid var(--border);padding:8px 12px;border-radius:6px;width:100%;font-size:13.5px;outline:none;">
+      <select id="edit-category">
         <option value="Daily Briefing">📋 Daily Briefing (데일리 브리핑)</option>
         <option value="Tech Deep Dive">🔬 Tech Deep Dive (테크 딥다이브)</option>
         <option value="Terminology">💡 Terminology (인프라 용어사전)</option>
@@ -701,18 +956,60 @@
   </div>
 </div>
 
-<!-- Delete Confirm Modal -->
+<!-- ═══════════════════════════════════════════════════════════════ -->
+<!-- MODAL: DELETE CONFIRM                                           -->
+<!-- ═══════════════════════════════════════════════════════════════ -->
 <div class="modal-backdrop" id="delete-modal">
   <div class="modal-card">
     <div class="modal-title">🗑️ 아티클 삭제 확인</div>
-    <div class="delete-modal-body">
-      <strong id="delete-target-title"></strong><br><br>
+    <div class="modal-field" style="font-size: 14px; color: var(--text-muted); line-height: 1.6;">
+      <strong id="delete-target-title" style="color: var(--text);"></strong><br><br>
       이 아티클을 완전히 삭제합니다. <strong style="color: var(--red)">이 작업은 되돌릴 수 없습니다.</strong><br>
-      본문 파일도 함께 삭제됩니다. 계속하시겠습니까?
+      원격 저장소의 .md 파일과 인덱스가 함께 삭제됩니다.
     </div>
     <div class="modal-actions">
       <button class="btn-cancel" onclick="closeModal('delete-modal')">취소</button>
-      <button class="btn-delete-confirm" onclick="confirmDelete()">🗑️ 완전 삭제</button>
+      <button class="btn-save" style="background: var(--red); color: #fff;" onclick="confirmDelete()">🗑️ 영구 삭제</button>
+    </div>
+  </div>
+</div>
+
+<!-- ═══════════════════════════════════════════════════════════════ -->
+<!-- MODAL: BULK DELETE CONFIRM                                      -->
+<!-- ═══════════════════════════════════════════════════════════════ -->
+<div class="modal-backdrop" id="bulk-delete-modal">
+  <div class="modal-card">
+    <div class="modal-title">🗑️ 일괄 삭제 확인</div>
+    <div class="modal-field" style="font-size: 14px; color: var(--text-muted); line-height: 1.6;">
+      선택한 <strong id="bulk-delete-count" style="color: var(--red);"></strong>개의 아티클을 완전히 삭제합니다.<br><br>
+      <strong style="color: var(--red);">이 작업은 되돌릴 수 없습니다.</strong> 계속하시겠습니까?
+    </div>
+    <div class="modal-actions">
+      <button class="btn-cancel" onclick="closeModal('bulk-delete-modal')">취소</button>
+      <button class="btn-save" style="background: var(--red); color: #fff;" onclick="confirmBulkDelete()">🗑️ 선택 항목 일괄 영구 삭제</button>
+    </div>
+  </div>
+</div>
+
+<!-- ═══════════════════════════════════════════════════════════════ -->
+<!-- MODAL: BULK CATEGORY CHANGE                                     -->
+<!-- ═══════════════════════════════════════════════════════════════ -->
+<div class="modal-backdrop" id="bulk-category-modal">
+  <div class="modal-card">
+    <div class="modal-title">📂 카테고리 일괄 변경</div>
+    <div class="modal-field">
+      <label>변경할 새 카테고리 선택</label>
+      <select id="bulk-target-category">
+        <option value="Daily Briefing">📋 Daily Briefing (데일리 브리핑)</option>
+        <option value="Tech Deep Dive">🔬 Tech Deep Dive (테크 딥다이브)</option>
+        <option value="Terminology">💡 Terminology (인프라 용어사전)</option>
+        <option value="Podcast">🎧 Podcast (테크 팟캐스트)</option>
+        <option value="Newsletter">📧 Newsletter (종합 리포트)</option>
+      </select>
+    </div>
+    <div class="modal-actions">
+      <button class="btn-cancel" onclick="closeModal('bulk-category-modal')">취소</button>
+      <button class="btn-save" onclick="confirmBulkCategoryChange()">💾 일괄 변경 & GitHub 반영</button>
     </div>
   </div>
 </div>
@@ -722,136 +1019,12 @@
 
 <script>
 // ═══════════════════════════════════════════════════════════════
-// CONFIG
+// CONFIG & CONSTANTS
 // ═══════════════════════════════════════════════════════════════
 const OWNER = 'ywmoon';
 const REPO  = 'ywmoon.github.io';
 const BRANCH = 'main';
 
-// ═══════════════════════════════════════════════════════════════
-// STATE
-// ═══════════════════════════════════════════════════════════════
-let token = '';
-let allPosts = [];
-let currentFilter = 'ALL';
-let editingPostId = null;
-let deletingPostId = null;
-
-// ═══════════════════════════════════════════════════════════════
-// LOGIN
-// ═══════════════════════════════════════════════════════════════
-async function handleLogin() {
-  const input = document.getElementById('token-input');
-  const t = input.value.trim();
-  if (!t) return showLoginError('토큰을 입력해 주세요.');
-
-  const btn = document.getElementById('login-btn');
-  btn.innerHTML = '<span class="loading-spinner"></span> 인증 중...';
-  btn.disabled = true;
-
-  // Verify token by calling GitHub API
-  const res = await fetch(`https://api.github.com/repos/${OWNER}/${REPO}`, {
-    headers: { 'Authorization': `Bearer ${t}`, 'Accept': 'application/vnd.github.v3+json' }
-  });
-
-  if (res.status === 200) {
-    token = t;
-    sessionStorage.setItem('admin_token', t);
-    showAdminPanel();
-  } else if (res.status === 401) {
-    showLoginError('❌ 토큰이 올바르지 않습니다. 다시 확인해 주세요.');
-  } else if (res.status === 403) {
-    showLoginError('❌ 토큰 권한이 부족합니다. Contents Read & Write 권한을 확인하세요.');
-  } else {
-    showLoginError(`❌ 오류: ${res.status} ${res.statusText}`);
-  }
-
-  btn.innerHTML = '입장하기';
-  btn.disabled = false;
-}
-
-function showLoginError(msg) {
-  const el = document.getElementById('login-error');
-  el.style.display = 'block';
-  el.textContent = msg;
-}
-
-document.getElementById('token-input').addEventListener('keydown', e => {
-  if (e.key === 'Enter') handleLogin();
-});
-
-// Check sessionStorage on load
-window.addEventListener('DOMContentLoaded', () => {
-  const saved = sessionStorage.getItem('admin_token');
-  if (saved) {
-    token = saved;
-    showAdminPanel();
-  }
-});
-
-function handleLogout() {
-  sessionStorage.removeItem('admin_token');
-  token = '';
-  allPosts = [];
-  document.getElementById('admin-panel').style.display = 'none';
-  document.getElementById('login-screen').style.display = 'flex';
-  document.getElementById('token-input').value = '';
-}
-
-// ═══════════════════════════════════════════════════════════════
-// PANEL INIT
-// ═══════════════════════════════════════════════════════════════
-function showAdminPanel() {
-  document.getElementById('login-screen').style.display = 'none';
-  document.getElementById('admin-panel').style.display = 'block';
-  document.getElementById('token-display').textContent = `🔑 ghp_...${token.slice(-6)}`;
-  loadPosts();
-}
-
-// ═══════════════════════════════════════════════════════════════
-// GITHUB API HELPERS
-// ═══════════════════════════════════════════════════════════════
-function ghHeaders() {
-  return {
-    'Authorization': `Bearer ${token}`,
-    'Accept': 'application/vnd.github.v3+json',
-    'Content-Type': 'application/json'
-  };
-}
-
-async function ghGet(path) {
-  const res = await fetch(`https://api.github.com/repos/${OWNER}/${REPO}/contents/${path}`, { headers: ghHeaders() });
-  if (!res.ok) throw new Error(`GET ${path} failed: ${res.status}`);
-  return res.json();
-}
-
-async function ghPut(path, content, message, sha = null) {
-  // UTF-8 safe base64 encode
-  const b64 = btoa(unescape(encodeURIComponent(content)));
-  const body = { message, content: b64, branch: BRANCH };
-  if (sha) body.sha = sha;
-  const res = await fetch(`https://api.github.com/repos/${OWNER}/${REPO}/contents/${path}`, {
-    method: 'PUT', headers: ghHeaders(), body: JSON.stringify(body)
-  });
-  if (!res.ok) {
-    const err = await res.json();
-    throw new Error(err.message || `PUT ${path} failed: ${res.status}`);
-  }
-  return res.json();
-}
-
-async function ghDelete(path, message, sha) {
-  const body = { message, sha, branch: BRANCH };
-  const res = await fetch(`https://api.github.com/repos/${OWNER}/${REPO}/contents/${path}`, {
-    method: 'DELETE', headers: ghHeaders(), body: JSON.stringify(body)
-  });
-  if (!res.ok) throw new Error(`DELETE ${path} failed: ${res.status}`);
-  return res.json();
-}
-
-// ═══════════════════════════════════════════════════════════════
-// CATEGORY DEFINITIONS & HELPERS
-// ═══════════════════════════════════════════════════════════════
 const CAT_PRIORITY = {
   'Daily Briefing': 1,
   'Tech Deep Dive': 2,
@@ -891,12 +1064,203 @@ const CAT_ALIAS = {
   '테크 딥다이브': ['Tech Deep Dive', '테크 딥다이브', '딥다이브']
 };
 
+// ═══════════════════════════════════════════════════════════════
+// STATE
+// ═══════════════════════════════════════════════════════════════
+let token = '';
+let allPosts = [];
+let selectedPostIds = new Set();
+let currentFilter = 'ALL';
+let editingPostId = null;
+let deletingPostId = null;
+let editorPostId = null;
+let editorFileSha = null;
+
+// ═══════════════════════════════════════════════════════════════
+// LOGIN & AUTH
+// ═══════════════════════════════════════════════════════════════
+async function handleLogin() {
+  const input = document.getElementById('token-input');
+  const t = input.value.trim();
+  if (!t) return showLoginError('토큰을 입력해 주세요.');
+
+  const btn = document.getElementById('login-btn');
+  btn.innerHTML = '<span class="loading-spinner"></span> 인증 중...';
+  btn.disabled = true;
+
+  try {
+    const res = await fetch(`https://api.github.com/repos/${OWNER}/${REPO}`, {
+      headers: { 'Authorization': `Bearer ${t}`, 'Accept': 'application/vnd.github.v3+json' }
+    });
+
+    if (res.status === 200) {
+      token = t;
+      sessionStorage.setItem('admin_token', t);
+      showAdminPanel();
+    } else if (res.status === 401) {
+      showLoginError('❌ 토큰이 올바르지 않습니다. 다시 확인해 주세요.');
+    } else if (res.status === 403) {
+      showLoginError('❌ 토큰 권한이 부족합니다. Contents Read & Write 권한을 확인하세요.');
+    } else {
+      showLoginError(`❌ 오류: ${res.status} ${res.statusText}`);
+    }
+  } catch (err) {
+    showLoginError('❌ 통신 오류: ' + err.message);
+  } finally {
+    btn.innerHTML = '입장하기';
+    btn.disabled = false;
+  }
+}
+
+function showLoginError(msg) {
+  const el = document.getElementById('login-error');
+  el.style.display = 'block';
+  el.textContent = msg;
+}
+
+document.getElementById('token-input').addEventListener('keydown', e => {
+  if (e.key === 'Enter') handleLogin();
+});
+
+window.addEventListener('DOMContentLoaded', () => {
+  const saved = sessionStorage.getItem('admin_token');
+  if (saved) {
+    token = saved;
+    showAdminPanel();
+  }
+});
+
+function handleLogout() {
+  sessionStorage.removeItem('admin_token');
+  token = '';
+  allPosts = [];
+  selectedPostIds.clear();
+  document.getElementById('admin-panel').style.display = 'none';
+  document.getElementById('login-screen').style.display = 'flex';
+  document.getElementById('token-input').value = '';
+}
+
+function showAdminPanel() {
+  document.getElementById('login-screen').style.display = 'none';
+  document.getElementById('admin-panel').style.display = 'block';
+  document.getElementById('token-display').textContent = `🔑 ghp_...${token.slice(-6)}`;
+  loadPosts();
+}
+
+// ═══════════════════════════════════════════════════════════════
+// GITHUB API HELPERS
+// ═══════════════════════════════════════════════════════════════
+function ghHeaders() {
+  return {
+    'Authorization': `Bearer ${token}`,
+    'Accept': 'application/vnd.github.v3+json',
+    'Content-Type': 'application/json'
+  };
+}
+
+async function ghGet(path) {
+  const res = await fetch(`https://api.github.com/repos/${OWNER}/${REPO}/contents/${path}`, { headers: ghHeaders() });
+  if (!res.ok) throw new Error(`GET ${path} failed: ${res.status}`);
+  return res.json();
+}
+
+async function ghPut(path, content, message, sha = null) {
+  const b64 = btoa(unescape(encodeURIComponent(content)));
+  const body = { message, content: b64, branch: BRANCH };
+  if (sha) body.sha = sha;
+  const res = await fetch(`https://api.github.com/repos/${OWNER}/${REPO}/contents/${path}`, {
+    method: 'PUT', headers: ghHeaders(), body: JSON.stringify(body)
+  });
+  if (!res.ok) {
+    const err = await res.json();
+    throw new Error(err.message || `PUT ${path} failed: ${res.status}`);
+  }
+  return res.json();
+}
+
+async function ghDelete(path, message, sha) {
+  const body = { message, sha, branch: BRANCH };
+  const res = await fetch(`https://api.github.com/repos/${OWNER}/${REPO}/contents/${path}`, {
+    method: 'DELETE', headers: ghHeaders(), body: JSON.stringify(body)
+  });
+  if (!res.ok) throw new Error(`DELETE ${path} failed: ${res.status}`);
+  return res.json();
+}
+
+// ═══════════════════════════════════════════════════════════════
+// LOAD POSTS & STATS
+// ═══════════════════════════════════════════════════════════════
+async function loadPosts() {
+  try {
+    const file = await ghGet('data/posts.json');
+    const raw = decodeURIComponent(escape(atob(file.content.replace(/\n/g, ''))));
+    const json = JSON.parse(raw);
+    
+    allPosts = json.sort((a, b) => {
+      if (a.date !== b.date) return new Date(b.date) - new Date(a.date);
+      const pA = CAT_PRIORITY[a.category] || 99;
+      const pB = CAT_PRIORITY[b.category] || 99;
+      if (pA !== pB) return pA - pB;
+      return (b.time || '').localeCompare(a.time || '');
+    });
+    
+    selectedPostIds.clear();
+    updateStats();
+    renderTable();
+  } catch (e) {
+    showToast('❌ posts.json 로드 실패: ' + e.message, 'error');
+  }
+}
+
+async function savePostsJson(commitMsg) {
+  const file = await ghGet('data/posts.json');
+  const content = JSON.stringify(allPosts, null, 2);
+  await ghPut('data/posts.json', content, commitMsg, file.sha);
+}
+
+function updateStats() {
+  const total = allPosts.length;
+  const published = allPosts.filter(p => (p.status || 'published') === 'published').length;
+  const hidden = allPosts.filter(p => p.status === 'hidden').length;
+  const cats = new Set(allPosts.map(p => CAT_NORMALIZE[p.category] || p.category)).size;
+  
+  // Calculate SEO Health (% of articles with summary >= 60 chars and labels >= 2)
+  let healthy = 0;
+  allPosts.forEach(p => {
+    const sumLen = (p.summary || '').length;
+    const tagCount = (p.labels || []).length;
+    if (sumLen >= 60 && tagCount >= 2) healthy++;
+  });
+  const seoScore = total > 0 ? Math.round((healthy / total) * 100) : 100;
+
+  document.getElementById('stat-total').textContent = total;
+  document.getElementById('stat-published').textContent = published;
+  document.getElementById('stat-hidden').textContent = hidden;
+  document.getElementById('stat-cats').textContent = cats;
+  document.getElementById('stat-seo').textContent = seoScore + '%';
+
+  // Update filter badge counts
+  document.getElementById('fcount-all').textContent = total;
+  document.getElementById('fcount-pub').textContent = published;
+  document.getElementById('fcount-hid').textContent = hidden;
+}
+
+// ═══════════════════════════════════════════════════════════════
+// FILTERING & TABLE RENDERING
+// ═══════════════════════════════════════════════════════════════
 function matchCategory(postCat, filterCat) {
   if (!filterCat || filterCat === 'ALL') return true;
   if (postCat === filterCat) return true;
   const aliases = CAT_ALIAS[filterCat];
   if (aliases && aliases.includes(postCat)) return true;
   return false;
+}
+
+function setFilter(filter, btn) {
+  currentFilter = filter;
+  document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+  btn.classList.add('active');
+  renderTable();
 }
 
 function getCategoryBadgeHtml(cat) {
@@ -913,60 +1277,13 @@ function getCategoryBadgeHtml(cat) {
   return `<span class="cat-badge cat-${catSlug}">${icon} ${norm}</span>`;
 }
 
-// ═══════════════════════════════════════════════════════════════
-// LOAD POSTS
-// ═══════════════════════════════════════════════════════════════
-async function loadPosts() {
-  try {
-    const file = await ghGet('data/posts.json');
-    const raw = atob(file.content.replace(/\n/g, ''));
-    const json = JSON.parse(decodeURIComponent(escape(raw)));
-    allPosts = json.sort((a, b) => {
-      if (a.date !== b.date) return new Date(b.date) - new Date(a.date);
-      const pA = CAT_PRIORITY[a.category] || 99;
-      const pB = CAT_PRIORITY[b.category] || 99;
-      if (pA !== pB) return pA - pB;
-      return (b.time || '').localeCompare(a.time || '');
-    });
-    updateStats();
-    renderTable();
-  } catch (e) {
-    showToast('❌ posts.json 로드 실패: ' + e.message, 'error');
+function getSeoHealthBadgeHtml(post) {
+  const sumLen = (post.summary || '').length;
+  const tagCount = (post.labels || []).length;
+  if (sumLen < 50 || tagCount < 2) {
+    return `<span class="health-badge health-warn" title="요약문이 짧거나 태그가 부족합니다">⚠️ 점검 권장</span>`;
   }
-}
-
-// ═══════════════════════════════════════════════════════════════
-// SAVE POSTS.JSON TO GITHUB
-// ═══════════════════════════════════════════════════════════════
-async function savePostsJson(commitMsg) {
-  const file = await ghGet('data/posts.json');
-  const sha = file.sha;
-  const content = JSON.stringify(allPosts, null, 2);
-  await ghPut('data/posts.json', content, commitMsg, sha);
-}
-
-// ═══════════════════════════════════════════════════════════════
-// STATS
-// ═══════════════════════════════════════════════════════════════
-function updateStats() {
-  const total = allPosts.length;
-  const published = allPosts.filter(p => (p.status || 'published') === 'published').length;
-  const hidden = allPosts.filter(p => p.status === 'hidden').length;
-  const cats = new Set(allPosts.map(p => CAT_NORMALIZE[p.category] || p.category)).size;
-  document.getElementById('stat-total').textContent = total;
-  document.getElementById('stat-published').textContent = published;
-  document.getElementById('stat-hidden').textContent = hidden;
-  document.getElementById('stat-cats').textContent = cats;
-}
-
-// ═══════════════════════════════════════════════════════════════
-// FILTER & RENDER TABLE
-// ═══════════════════════════════════════════════════════════════
-function setFilter(filter, btn) {
-  currentFilter = filter;
-  document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
-  btn.classList.add('active');
-  renderTable();
+  return `<span class="health-badge health-good" title="요약문 및 태그 충족">✅ 양호</span>`;
 }
 
 function renderTable() {
@@ -976,22 +1293,32 @@ function renderTable() {
     const status = p.status || 'published';
     if (currentFilter === 'published' && status !== 'published') return false;
     if (currentFilter === 'hidden' && status !== 'hidden') return false;
-    if (!['ALL', 'published', 'hidden'].includes(currentFilter)) {
+    if (currentFilter === 'SEO_WARN') {
+      const sumLen = (p.summary || '').length;
+      const tagCount = (p.labels || []).length;
+      if (sumLen >= 50 && tagCount >= 2) return false;
+    } else if (!['ALL', 'published', 'hidden'].includes(currentFilter)) {
       if (!matchCategory(p.category, currentFilter)) return false;
     }
-    if (searchQ && !(p.title || '').toLowerCase().includes(searchQ)) return false;
+    if (searchQ) {
+      const inTitle = (p.title || '').toLowerCase().includes(searchQ);
+      const inSummary = (p.summary || '').toLowerCase().includes(searchQ);
+      const inTags = (p.labels || []).some(t => t.toLowerCase().includes(searchQ));
+      if (!inTitle && !inSummary && !inTags) return false;
+    }
     return true;
   });
 
   const tbody = document.getElementById('admin-table-body');
 
   if (posts.length === 0) {
-    tbody.innerHTML = `<tr><td colspan="6">
+    tbody.innerHTML = `<tr><td colspan="8">
       <div class="empty-state">
         <div class="empty-icon">📭</div>
-        <p>조건에 맞는 아티클이 없습니다.</p>
+        <p>조건에 일치하는 아티클이 없습니다.</p>
       </div>
     </td></tr>`;
+    updateBulkBar();
     return;
   }
 
@@ -1003,24 +1330,522 @@ function renderTable() {
 
     const toggleIcon = status === 'published' ? '🙈' : '👁️';
     const toggleTitle = status === 'published' ? '숨김 처리' : '공개 전환';
+    const isChecked = selectedPostIds.has(p.id);
 
     return `<tr>
+      <td style="text-align:center;">
+        <input type="checkbox" class="row-checkbox" value="${p.id}" ${isChecked ? 'checked' : ''} onchange="toggleRowCheck('${p.id}', this.checked)" />
+      </td>
       <td style="font-weight:700;color:var(--text-muted);font-family:var(--mono)">${posts.length - i}</td>
-      <td style="font-family:var(--mono);font-size:12.5px;color:var(--text-muted)">${p.date}</td>
+      <td style="font-family:var(--mono);font-size:12px;color:var(--text-muted)">${p.date}</td>
       <td>${getCategoryBadgeHtml(p.category)}</td>
-      <td style="max-width:420px;line-height:1.4">${p.title}</td>
-      <td>${statusHtml}</td>
       <td>
-        <button class="action-btn edit" title="수정" onclick="openEditModal('${p.id}')">✏️</button>
+        <div style="font-weight:600;line-height:1.4;margin-bottom:3px;">${p.title}</div>
+        <div style="font-size:12px;color:var(--text-muted);line-height:1.4;max-width:550px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">${p.summary || '요약문 없음'}</div>
+      </td>
+      <td>${getSeoHealthBadgeHtml(p)}</td>
+      <td>${statusHtml}</td>
+      <td style="text-align:right;">
+        <button class="action-btn edit-md" title="마크다운 본문 에디터 열기" onclick="openMarkdownEditor('${p.id}')">📝</button>
+        <button class="action-btn edit" title="메타데이터 수정" onclick="openEditModal('${p.id}')">✏️</button>
+        <button class="action-btn linkedin" title="LinkedIn 맞춤형 포스팅 서식 복사" onclick="openLinkedInModal('${p.id}')">💼</button>
         <button class="action-btn toggle" title="${toggleTitle}" onclick="toggleStatus('${p.id}')">${toggleIcon}</button>
         <button class="action-btn delete" title="삭제" onclick="openDeleteModal('${p.id}')">🗑️</button>
       </td>
     </tr>`;
   }).join('');
+
+  updateBulkBar();
 }
 
 // ═══════════════════════════════════════════════════════════════
-// EDIT
+// BULK / BATCH ACTIONS
+// ═══════════════════════════════════════════════════════════════
+function toggleCheckAll(checked) {
+  document.querySelectorAll('.row-checkbox').forEach(cb => {
+    cb.checked = checked;
+    if (checked) selectedPostIds.add(cb.value);
+    else selectedPostIds.delete(cb.value);
+  });
+  updateBulkBar();
+}
+
+function toggleRowCheck(id, checked) {
+  if (checked) selectedPostIds.add(id);
+  else selectedPostIds.delete(id);
+  updateBulkBar();
+}
+
+function deselectAllRows() {
+  selectedPostIds.clear();
+  const checkAllEl = document.getElementById('check-all');
+  if (checkAllEl) checkAllEl.checked = false;
+  renderTable();
+}
+
+function updateBulkBar() {
+  const bulkBar = document.getElementById('bulk-bar');
+  const countSpan = document.getElementById('bulk-count');
+  const count = selectedPostIds.size;
+  if (count > 0) {
+    bulkBar.style.display = 'flex';
+    countSpan.textContent = count;
+  } else {
+    bulkBar.style.display = 'none';
+  }
+}
+
+async function bulkToggleStatus(targetStatus) {
+  const ids = Array.from(selectedPostIds);
+  if (ids.length === 0) return;
+
+  showToast(`⏳ ${ids.length}개 아티클 상태 일괄 변경 중...`, '');
+  try {
+    allPosts.forEach(p => {
+      if (ids.includes(p.id)) p.status = targetStatus;
+    });
+
+    await savePostsJson(`Bulk update status to ${targetStatus}: ${ids.length} articles`);
+    deselectAllRows();
+    updateStats();
+    renderTable();
+    showToast(`✅ ${ids.length}개 아티클이 ${targetStatus === 'published' ? '공개' : '숨김'} 처리되었습니다!`, 'success');
+  } catch (err) {
+    showToast('❌ 일괄 변경 실패: ' + err.message, 'error');
+  }
+}
+
+function openBulkCategoryModal() {
+  openModal('bulk-category-modal');
+}
+
+async function confirmBulkCategoryChange() {
+  const targetCat = document.getElementById('bulk-target-category').value;
+  const ids = Array.from(selectedPostIds);
+  if (ids.length === 0) return closeModal('bulk-category-modal');
+
+  showToast(`⏳ ${ids.length}개 아티클 카테고리 변경 중...`, '');
+  try {
+    allPosts.forEach(p => {
+      if (ids.includes(p.id)) p.category = targetCat;
+    });
+
+    await savePostsJson(`Bulk change category to ${targetCat}: ${ids.length} articles`);
+    closeModal('bulk-category-modal');
+    deselectAllRows();
+    updateStats();
+    renderTable();
+    showToast(`✅ ${ids.length}개 아티클의 카테고리가 ${targetCat}(으)로 변경되었습니다!`, 'success');
+  } catch (err) {
+    showToast('❌ 카테고리 일괄 변경 실패: ' + err.message, 'error');
+  }
+}
+
+function openBulkDeleteModal() {
+  const count = selectedPostIds.size;
+  document.getElementById('bulk-delete-count').textContent = count;
+  openModal('bulk-delete-modal');
+}
+
+async function confirmBulkDelete() {
+  const ids = Array.from(selectedPostIds);
+  closeModal('bulk-delete-modal');
+  if (ids.length === 0) return;
+
+  showToast(`🗑️ ${ids.length}개 아티클 영구 삭제 진행 중...`, '');
+  try {
+    // 1. Delete files from GitHub
+    for (const pid of ids) {
+      const mdPath = `data/posts/${pid}.md`;
+      try {
+        const file = await ghGet(mdPath);
+        await ghDelete(mdPath, `Bulk Delete .md: ${pid}`, file.sha);
+      } catch (_) { /* skip if missing */ }
+    }
+
+    // 2. Remove from posts.json
+    allPosts = allPosts.filter(p => !ids.includes(p.id));
+    await savePostsJson(`Bulk Delete ${ids.length} articles`);
+
+    // 3. Rebuild sitemap
+    await rebuildSitemap();
+
+    deselectAllRows();
+    updateStats();
+    renderTable();
+    showToast(`🗑️ ${ids.length}개 아티클이 완전히 삭제되었습니다!`, 'success');
+  } catch (err) {
+    showToast('❌ 일괄 삭제 실패: ' + err.message, 'error');
+  }
+}
+
+// ═══════════════════════════════════════════════════════════════
+// FEATURE: MARKDOWN LIVE EDITOR (본문 실시간 편집기)
+// ═══════════════════════════════════════════════════════════════
+async function openMarkdownEditor(id) {
+  const post = allPosts.find(p => p.id === id);
+  if (!post) return;
+
+  editorPostId = id;
+  document.getElementById('editor-article-id').textContent = id;
+  document.getElementById('editor-content-textarea').value = '파일 불러오는 중...';
+  document.getElementById('editor-preview-pane').innerHTML = '<p style="color:#64748B;">렌더링 준비 중...</p>';
+  openModal('markdown-editor-modal');
+
+  const mdPath = post.content_file || `data/posts/${id}.md`;
+  try {
+    const file = await ghGet(mdPath);
+    editorFileSha = file.sha;
+    const raw = decodeURIComponent(escape(atob(file.content.replace(/\n/g, ''))));
+    document.getElementById('editor-content-textarea').value = raw;
+    handleEditorInput();
+  } catch (e) {
+    showToast('❌ 마크다운 파일 로드 실패: ' + e.message, 'error');
+  }
+}
+
+function handleEditorInput() {
+  const raw = document.getElementById('editor-content-textarea').value;
+  // Parse frontmatter
+  const match = raw.match(/^---\n([\s\S]*?)\n---\n?([\s\S]*)$/);
+  const body = match ? match[2] : raw;
+
+  // Live marked.js render
+  const previewPane = document.getElementById('editor-preview-pane');
+  if (typeof marked !== 'undefined') {
+    previewPane.innerHTML = marked.parse(body);
+  } else {
+    previewPane.textContent = body;
+  }
+
+  // Update word & reading time stats
+  const charCount = body.replace(/\s/g, '').length;
+  const readMins = Math.max(1, Math.ceil(charCount / 500));
+  document.getElementById('editor-stats-badge').textContent = `⏱️ ${charCount.toLocaleString()}자 (약 ${readMins}분 소요)`;
+}
+
+function insertEditorText(prefix, suffix) {
+  const textarea = document.getElementById('editor-content-textarea');
+  const start = textarea.selectionStart;
+  const end = textarea.selectionEnd;
+  const selText = textarea.value.substring(start, end);
+  const repText = prefix + (selText || '') + suffix;
+  textarea.value = textarea.value.substring(0, start) + repText + textarea.value.substring(end);
+  textarea.focus();
+  textarea.selectionStart = start + prefix.length;
+  textarea.selectionEnd = start + prefix.length + selText.length;
+  handleEditorInput();
+}
+
+async function saveMarkdownContent() {
+  const btn = document.getElementById('editor-save-btn');
+  const originalText = btn.innerHTML;
+  btn.innerHTML = '<span class="loading-spinner"></span> 저장 중...';
+  btn.disabled = true;
+
+  const content = document.getElementById('editor-content-textarea').value;
+  const mdPath = `data/posts/${editorPostId}.md`;
+
+  try {
+    // 1. Commit new content to GitHub
+    const res = await ghPut(mdPath, content, `Update content & frontmatter: ${editorPostId}`, editorFileSha);
+    editorFileSha = res.content.sha;
+
+    // 2. Parse frontmatter to update lightweight index
+    const { meta } = parseFrontmatter(content);
+    const post = allPosts.find(p => p.id === editorPostId);
+    if (post) {
+      if (meta.title) post.title = meta.title;
+      if (meta.summary) post.summary = meta.summary;
+      if (meta.category) post.category = CAT_NORMALIZE[meta.category] || meta.category;
+      if (Array.isArray(meta.labels)) post.labels = meta.labels;
+      if (meta.status) post.status = meta.status;
+      await savePostsJson(`Update index for: ${editorPostId}`);
+    }
+
+    updateStats();
+    renderTable();
+    showToast('✅ 본문 마크다운이 GitHub에 저장 및 배포되었습니다!', 'success');
+  } catch (err) {
+    showToast('❌ 본문 저장 실패: ' + err.message, 'error');
+  } finally {
+    btn.innerHTML = originalText;
+    btn.disabled = false;
+  }
+}
+
+// ═══════════════════════════════════════════════════════════════
+// FEATURE: LINKEDIN SHARE GENERATOR (링크드인 공유 서식)
+// ═══════════════════════════════════════════════════════════════
+function openLinkedInModal(id) {
+  const post = allPosts.find(p => p.id === id);
+  if (!post) return;
+
+  const hashtags = (post.labels || ['AWS', '데이터센터', 'AI인프라', '클라우드'])
+    .map(l => '#' + l.replace(/\s+/g, ''))
+    .join(' ');
+
+  const url = `https://ywmoon.github.io/#article/${post.id}`;
+  
+  const text = `🚀 [${post.date}] ${post.title}
+
+📌 Executive Briefing:
+${post.summary || '글로벌 데이터센터 및 클라우드 인프라 핵심 동향 분석 리포트입니다.'}
+
+🔗 전체 아티클 및 리포트 읽기:
+${url}
+
+${hashtags} #DataCenter #InfraOps #Cloud #AWS`;
+
+  document.getElementById('linkedin-text-preview').value = text;
+  document.getElementById('linkedin-open-link').href = `https://www.linkedin.com/feed/`;
+  openModal('linkedin-modal');
+}
+
+function copyLinkedInText() {
+  const text = document.getElementById('linkedin-text-preview').value;
+  navigator.clipboard.writeText(text).then(() => {
+    showToast('💼 LinkedIn 포스팅 서식이 클립보드에 복사되었습니다!', 'success');
+    closeModal('linkedin-modal');
+  }).catch(e => {
+    showToast('❌ 복사 실패: ' + e.message, 'error');
+  });
+}
+
+// ═══════════════════════════════════════════════════════════════
+// FEATURE: QUICK POST COMPOSER (새 글 작성)
+// ═══════════════════════════════════════════════════════════════
+function openNewPostModal() {
+  const today = new Date().toISOString().split('T')[0];
+  document.getElementById('new-date').value = today;
+  document.getElementById('new-time').value = '07:30';
+  document.getElementById('new-title').value = '';
+  document.getElementById('new-id').value = '';
+  document.getElementById('new-summary').value = '';
+  document.getElementById('new-labels').value = 'AWS, 데이터센터, AI인프라';
+  openModal('new-post-modal');
+}
+
+function autoGenerateSlug(title) {
+  const date = document.getElementById('new-date').value || '2026-08-17';
+  const clean = title.toLowerCase()
+    .replace(/[^\w\s\uAC00-\uD7A3-]/g, '')
+    .replace(/\s+/g, '-')
+    .slice(0, 40);
+  document.getElementById('new-id').value = `${date}-${clean || 'new-article'}`;
+}
+
+const TEMPLATES = {
+  'Daily Briefing': `---
+id: {{ID}}
+title: "{{TITLE}}"
+date: {{DATE}}
+time: "{{TIME}}"
+category: Daily Briefing
+status: published
+summary: "{{SUMMARY}}"
+labels:
+{{LABELS}}
+---
+
+# 📌 Daily InfraOps Digest
+
+## 1. 🏗️ 오늘의 핵심 인프라 이슈
+본문 내용을 작성하세요.
+
+## 2. ⚡ 전력 및 쿨링 아키텍처
+본문 내용을 작성하세요.
+`,
+  'Tech Deep Dive': `---
+id: {{ID}}
+title: "{{TITLE}}"
+date: {{DATE}}
+time: "{{TIME}}"
+category: Tech Deep Dive
+status: published
+summary: "{{SUMMARY}}"
+labels:
+{{LABELS}}
+---
+
+# 🔬 [테크 딥다이브] {{TITLE}}
+
+## 📌 Executive Summary
+핵심 내용을 입력하세요.
+
+## 1. 🏗️ 아키텍처 심층 분석
+분석 내용을 입력하세요.
+`,
+  'Terminology': `---
+id: {{ID}}
+title: "{{TITLE}}"
+date: {{DATE}}
+time: "{{TIME}}"
+category: Terminology
+status: published
+summary: "{{SUMMARY}}"
+labels:
+{{LABELS}}
+---
+
+# 💡 [인프라 용어사전] {{TITLE}}
+
+## 📌 1. 30초 핵심 요약 & 개념 정의
+용어 개념을 입력하세요.
+
+## 2. 🔍 인프라 관점에서의 실전 적용
+실전 적용 사례를 입력하세요.
+`,
+  'Podcast': `---
+id: {{ID}}
+title: "{{TITLE}}"
+date: {{DATE}}
+time: "{{TIME}}"
+category: Podcast
+status: published
+summary: "{{SUMMARY}}"
+labels:
+{{LABELS}}
+---
+
+# 🎧 10-MIN TECH ENGLISH PODCAST
+
+## 📌 Episode Overview
+{{SUMMARY}}
+
+## 📝 Key Vocabulary & Expressions
+1. **Baseload Power**: 기저 부하 전력
+`,
+  'Newsletter': `---
+id: {{ID}}
+title: "{{TITLE}}"
+date: {{DATE}}
+time: "{{TIME}}"
+category: Newsletter
+status: published
+summary: "{{SUMMARY}}"
+labels:
+{{LABELS}}
+---
+
+# 📧 DC InfraOps Trends Report
+
+## 📌 금일 종합 하이라이트
+내용을 입력하세요.
+`
+};
+
+function applyNewPostTemplate(cat) {
+  // Can be customized if needed
+}
+
+async function createAndOpenNewPost() {
+  const cat = document.getElementById('new-category').value;
+  const date = document.getElementById('new-date').value || new Date().toISOString().split('T')[0];
+  const timeVal = document.getElementById('new-time').value || '07:30';
+  const title = document.getElementById('new-title').value.trim();
+  const id = document.getElementById('new-id').value.trim() || `${date}-new-post`;
+  const summary = document.getElementById('new-summary').value.trim();
+  const labels = document.getElementById('new-labels').value.split(',').map(s => s.trim()).filter(Boolean);
+
+  if (!title) return showToast('❌ 제목을 입력해 주세요.', 'error');
+
+  const labelsYaml = labels.map(l => `  - ${l}`).join('\n');
+  const tmpl = TEMPLATES[cat] || TEMPLATES['Daily Briefing'];
+  const content = tmpl
+    .replace(/{{ID}}/g, id)
+    .replace(/{{TITLE}}/g, title)
+    .replace(/{{DATE}}/g, date)
+    .replace(/{{TIME}}/g, timeVal)
+    .replace(/{{SUMMARY}}/g, summary)
+    .replace(/{{LABELS}}/g, labelsYaml);
+
+  closeModal('new-post-modal');
+  showToast('⏳ 새 아티클 생성 중...', '');
+
+  try {
+    const mdPath = `data/posts/${id}.md`;
+    await ghPut(mdPath, content, `Create new post: ${id}`);
+
+    // Add to allPosts
+    allPosts.unshift({
+      id: id,
+      title: title,
+      date: date,
+      time: timeVal,
+      category: cat,
+      labels: labels,
+      summary: summary,
+      status: 'published',
+      content_file: mdPath
+    });
+
+    await savePostsJson(`Add new article index: ${id}`);
+    await rebuildSitemap();
+
+    updateStats();
+    renderTable();
+    showToast('🎉 새 아티클이 생성되었습니다! 본문 에디터를 엽니다.', 'success');
+    openMarkdownEditor(id);
+  } catch (err) {
+    showToast('❌ 아티클 생성 실패: ' + err.message, 'error');
+  }
+}
+
+// ═══════════════════════════════════════════════════════════════
+// FEATURE: 1-CLICK FULL BACKUP ZIP (전체 백업 다운로드)
+// ═══════════════════════════════════════════════════════════════
+async function downloadFullBackupZip() {
+  if (typeof JSZip === 'undefined') {
+    return showToast('❌ JSZip 라이브러리를 불러오지 못했습니다.', 'error');
+  }
+
+  showToast('⏳ 전체 아티클 파일 수집 및 압축 준비 중...', '');
+  const zip = new JSZip();
+
+  try {
+    // 1. Add posts.json & sitemap.xml
+    const postsJsonFile = await ghGet('data/posts.json');
+    zip.file('data/posts.json', atob(postsJsonFile.content.replace(/\n/g, '')));
+
+    try {
+      const sitemapFile = await ghGet('sitemap.xml');
+      zip.file('sitemap.xml', atob(sitemapFile.content.replace(/\n/g, '')));
+    } catch (_) {}
+
+    // 2. Fetch all .md files
+    const dirRes = await ghGet('data/posts');
+    const mdFiles = dirRes.filter(item => item.name.endsWith('.md'));
+
+    let fetched = 0;
+    for (const item of mdFiles) {
+      showToast(`📦 다운로드 중... (${++fetched}/${mdFiles.length}) ${item.name}`, '');
+      const fileData = await ghGet(item.path);
+      const raw = decodeURIComponent(escape(atob(fileData.content.replace(/\n/g, ''))));
+      zip.file(`data/posts/${item.name}`, raw);
+    }
+
+    // 3. Generate ZIP & Trigger browser download
+    showToast('📦 ZIP 압축 파일 생성 중...', '');
+    const blob = await zip.generateAsync({ type: 'blob' });
+    const today = new Date().toISOString().split('T')[0];
+    const fileName = `DC_InfraOps_Blog_Backup_${today}.zip`;
+
+    const a = document.createElement('a');
+    a.href = URL.createObjectURL(blob);
+    a.download = fileName;
+    document.body.appendChild(a);
+    a.click();
+    document.body.removeChild(a);
+
+    showToast(`✅ ${mdFiles.length}개 아티클 전체 백업 다운로드 완료!`, 'success');
+  } catch (err) {
+    showToast('❌ 백업 생성 실패: ' + err.message, 'error');
+  }
+}
+
+// ═══════════════════════════════════════════════════════════════
+// METADATA EDIT & DELETE
 // ═══════════════════════════════════════════════════════════════
 function openEditModal(id) {
   const post = allPosts.find(p => p.id === id);
@@ -1044,15 +1869,12 @@ async function saveEdit() {
   post.labels   = document.getElementById('edit-labels').value.split(',').map(s => s.trim()).filter(Boolean);
 
   try {
-    // 1. Update lightweight index (posts.json)
     await savePostsJson(`Edit article metadata: ${editingPostId}`);
 
-    // 2. Update YAML frontmatter in the .md file
     if (post.content_file) {
       const mdPath = post.content_file;
       const mdFile = await ghGet(mdPath);
       const raw = decodeURIComponent(escape(atob(mdFile.content.replace(/\n/g, ''))));
-      // Replace frontmatter block only
       const labelsYaml = post.labels.map(l => `  - ${l}`).join('\n');
       const timeLine = post.time ? `time: "${post.time}"\n` : '';
       const newFrontmatter = `---\nid: ${post.id}\ntitle: "${post.title.replace(/"/g,'\\"')}"\ndate: ${post.date}\n${timeLine}category: ${post.category}\nstatus: ${post.status || 'published'}\nsummary: "${post.summary.replace(/"/g,'\\"')}"\nlabels:\n${labelsYaml}\n---`;
@@ -1069,9 +1891,6 @@ async function saveEdit() {
   }
 }
 
-// ═══════════════════════════════════════════════════════════════
-// TOGGLE STATUS (공개 / 숨김)
-// ═══════════════════════════════════════════════════════════════
 async function toggleStatus(id) {
   const post = allPosts.find(p => p.id === id);
   if (!post) return;
@@ -1089,9 +1908,6 @@ async function toggleStatus(id) {
   }
 }
 
-// ═══════════════════════════════════════════════════════════════
-// DELETE
-// ═══════════════════════════════════════════════════════════════
 function openDeleteModal(id) {
   const post = allPosts.find(p => p.id === id);
   if (!post) return;
@@ -1107,39 +1923,27 @@ async function confirmDelete() {
   closeModal('delete-modal');
 
   try {
-    // 1. Remove from index
     allPosts = allPosts.filter(p => p.id !== deletingPostId);
     await savePostsJson(`Delete article: ${deletingPostId}`);
 
-    // 2. Delete .md content file if it exists
     const mdPath = `data/posts/${deletingPostId}.md`;
     try {
       const mdFile = await ghGet(mdPath);
       await ghDelete(mdPath, `Delete .md: ${deletingPostId}`, mdFile.sha);
-    } catch(_) { /* file may not exist - that's fine */ }
+    } catch(_) {}
 
-    // 3. Delete attachment folder contents if any exist
-    try {
-      const folderRes = await ghGet(`data/posts/${deletingPostId}`);
-      if (Array.isArray(folderRes)) {
-        for (const item of folderRes) {
-          if (item.type === 'file') {
-            await ghDelete(item.path, `Delete attachment: ${item.name}`, item.sha);
-          }
-        }
-      }
-    } catch(_) { /* folder may not exist - normal */ }
-
+    await rebuildSitemap();
+    selectedPostIds.delete(deletingPostId);
     updateStats();
     renderTable();
-    showToast('🗑️ 아티클 및 첨부 파일이 완전히 삭제됐습니다.', 'success');
+    showToast('🗑️ 아티클이 완전히 삭제됐습니다.', 'success');
   } catch(e) {
     showToast('❌ 삭제 실패: ' + e.message, 'error');
   }
 }
 
 // ═══════════════════════════════════════════════════════════════
-// SYNC & REBUILD INDEX FROM DATA/POSTS/*.MD
+// SYNC & REBUILD INDEX
 // ═══════════════════════════════════════════════════════════════
 function parseFrontmatter(raw) {
   const match = raw.match(/^---\n([\s\S]*?)\n---\n?([\s\S]*)$/);
@@ -1216,7 +2020,6 @@ async function syncAndRebuildIndex() {
       });
     }
 
-    // Sort descending by date, then category priority, then time
     rebuiltPosts.sort((a, b) => {
       if (a.date !== b.date) return new Date(b.date) - new Date(a.date);
       const pA = CAT_PRIORITY[a.category] || 99;
@@ -1226,10 +2029,7 @@ async function syncAndRebuildIndex() {
     });
     allPosts = rebuiltPosts;
 
-    // Save rebuilt posts.json to GitHub
     await savePostsJson(`Sync index from ${mdFiles.length} markdown files`);
-
-    // Also rebuild sitemap
     await rebuildSitemap();
 
     updateStats();
@@ -1245,9 +2045,6 @@ async function syncAndRebuildIndex() {
   }
 }
 
-// ═══════════════════════════════════════════════════════════════
-// REBUILD SITEMAP
-// ═══════════════════════════════════════════════════════════════
 async function rebuildSitemap() {
   const publishedPosts = allPosts.filter(p => (p.status || 'published') === 'published');
   const today = new Date().toISOString().split('T')[0];
@@ -1262,7 +2059,6 @@ async function rebuildSitemap() {
   try {
     const existing = await ghGet('sitemap.xml');
     await ghPut('sitemap.xml', sitemap, `Rebuild sitemap: ${publishedPosts.length} URLs`, existing.sha);
-    showToast(`✅ sitemap.xml 재생성 완료! (${publishedPosts.length}개 URL)`, 'success');
   } catch(e) {
     showToast('❌ sitemap 재생성 실패: ' + e.message, 'error');
   }
@@ -1277,7 +2073,6 @@ function openModal(id) {
 function closeModal(id) {
   document.getElementById(id).classList.remove('open');
 }
-// Close on backdrop click
 document.querySelectorAll('.modal-backdrop').forEach(el => {
   el.addEventListener('click', e => {
     if (e.target === el) closeModal(el.id);
