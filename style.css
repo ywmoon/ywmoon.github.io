@@ -596,6 +596,11 @@ body {
   color: var(--text-secondary);
 }
 
+.dc-reader-body img:not([src*="workers.dev"]):not([width="1"]) {
+  max-width: 100%;
+  height: auto;
+}
+
 /* Podcast & Vocab Card Component Styles */
 .dc-podcast-hero {
   background: linear-gradient(135deg, #0F172A 0%, #1E293B 100%);
