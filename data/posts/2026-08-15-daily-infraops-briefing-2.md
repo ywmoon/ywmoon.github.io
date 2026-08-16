@@ -2,7 +2,7 @@
 id: 2026-08-15-daily-infraops-briefing-2
 title: "[2026.08.15] 오늘의 글로벌 클라우드 & 데이터센터 인프라 핵심 동향 브리핑"
 date: 2026-08-15
-category: 데일리 브리핑
+category: Daily Briefing
 status: published
 summary: "DAILY INFRAOPS DIGEST 2026년 8월 15일 글로벌 클라우드 & 데이터센터 인프라 종합 리포트 엔터프라이즈 AI 워크로드 확장, 하이퍼스케일러 재무 리스크 관리, 기가와트(GW)급 전력망 및 BESS 패러다임 전환 분석 📌 오늘의 3대 핵심 관전 포인트 (Key Highlights) 엔비디아의 오픈AI 인프라 보증 52% 축소 ($2,50"
 labels:
