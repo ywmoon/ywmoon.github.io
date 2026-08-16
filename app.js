@@ -357,7 +357,18 @@ async function openArticleView(articleId) {
 
   // 4. Request AdSense Display Unit Fill
   try {
-    (adsbygoogle = window.adsbygoogle || []).push({});
+    const adWrapper = document.getElementById('dc-ad-bottom-wrapper');
+    if (adWrapper) {
+      adWrapper.innerHTML = `
+        <div class="dc-ad-label">SPONSORED</div>
+        <ins class="adsbygoogle"
+             style="display:block"
+             data-ad-client="ca-pub-6383413671515974"
+             data-ad-slot="4973174354"
+             data-ad-format="auto"
+             data-full-width-responsive="true"></ins>`;
+      (window.adsbygoogle = window.adsbygoogle || []).push({});
+    }
   } catch (e) {}
 
   // 5. Track GA4 PageView with Article Title
