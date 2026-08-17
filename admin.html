@@ -1553,6 +1553,67 @@ async function ghDelete(path, message, sha) {
   return res.json();
 }
 
+function generateArticleStubHtml(post) {
+  const title = (post.title || post.id || '').replace(/&/g, '&amp;').replace(/"/g, '&quot;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+  const summary = (post.summary || post.title || '').replace(/&/g, '&amp;').replace(/"/g, '&quot;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+  const canonicalUrl = `https://ywmoon.github.io/article/${post.id}/`;
+  const spaUrl = `https://ywmoon.github.io/#article/${post.id}`;
+  const fullTitle = `${title} | James Moon Tech Blog`;
+
+  return `<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>${fullTitle}</title>
+  <meta name="description" content="${summary}" />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="${canonicalUrl}" />
+  <!-- OpenGraph -->
+  <meta property="og:type" content="article" />
+  <meta property="og:title" content="${fullTitle}" />
+  <meta property="og:description" content="${summary}" />
+  <meta property="og:url" content="${canonicalUrl}" />
+  <meta property="og:image" content="https://ywmoon.github.io/assets/avatar.jpg" />
+  <meta property="og:site_name" content="DataCenter InfraOps Trends &amp; Notes" />
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="${fullTitle}" />
+  <meta name="twitter:description" content="${summary}" />
+  <meta name="twitter:image" content="https://ywmoon.github.io/assets/avatar.jpg" />
+  <!-- Instant redirect for real users -->
+  <meta http-equiv="refresh" content="0; url=${spaUrl}" />
+  <script>window.location.replace('${spaUrl}');<\/script>
+</head>
+<body></body>
+</html>
+`;
+}
+
+async function ghSyncArticleStub(post) {
+  if (!post || (post.status && post.status !== 'published')) return;
+  const stubPath = `article/${post.id}/index.html`;
+  const content = generateArticleStubHtml(post);
+  try {
+    let sha = null;
+    try {
+      const existing = await ghGet(stubPath);
+      sha = existing.sha;
+    } catch (_) {}
+    await ghPut(stubPath, content, `Sync OG stub: ${post.id}`, sha);
+  } catch (e) {
+    console.warn(`OG stub sync failed for ${post.id}:`, e);
+  }
+}
+
+async function ghDeleteArticleStub(id) {
+  const stubPath = `article/${id}/index.html`;
+  try {
+    const existing = await ghGet(stubPath);
+    await ghDelete(stubPath, `Delete OG stub: ${id}`, existing.sha);
+  } catch (_) {}
+}
+
 // ═══════════════════════════════════════════════════════════════
 // LOAD POSTS & STATS
 // ═══════════════════════════════════════════════════════════════
@@ -2086,13 +2147,14 @@ async function confirmBulkDelete() {
 
   showToast(`🗑️ ${ids.length}개 아티클 영구 삭제 진행 중...`, '');
   try {
-    // 1. Delete files from GitHub
+    // 1. Delete files from GitHub (.md and stub index.html)
     for (const pid of ids) {
       const mdPath = `data/posts/${pid}.md`;
       try {
         const file = await ghGet(mdPath);
         await ghDelete(mdPath, `Bulk Delete .md: ${pid}`, file.sha);
       } catch (_) { /* skip if missing */ }
+      await ghDeleteArticleStub(pid);
     }
 
     // 2. Remove from posts.json
@@ -2648,6 +2710,7 @@ async function saveMarkdownContent() {
       if (meta.status) post.status = meta.status;
       post.updated = nowStr;
       await savePostsJson(`Update index for: ${editorPostId}`);
+      await ghSyncArticleStub(post);
     }
 
     updateStats();
@@ -2868,6 +2931,7 @@ async function createAndOpenNewPost() {
     });
 
     await savePostsJson(`Add new article index: ${id}`);
+    await ghSyncArticleStub(allPosts[0]);
     await rebuildSitemap();
 
     updateStats();
@@ -2995,6 +3059,7 @@ async function saveEdit() {
       const newFrontmatter = `---\nid: ${post.id}\ntitle: "${post.title.replace(/"/g,'\\"')}"\ndate: ${post.date}\n${timeLine}updated: "${nowStr}"\ncategory: ${post.category}\nstatus: ${post.status || 'published'}\nsummary: "${post.summary.replace(/"/g,'\\"')}"\nlabels:\n${labelsYaml}\n---`;
       const newContent = raw.replace(/^---[\s\S]*?---/, newFrontmatter);
       await ghPut(mdPath, newContent, `Edit frontmatter: ${editingPostId}`, mdFile.sha);
+      await ghSyncArticleStub(post);
     }
 
     closeModal('edit-modal');
@@ -3046,6 +3111,8 @@ async function confirmDelete() {
       const mdFile = await ghGet(mdPath);
       await ghDelete(mdPath, `Delete .md: ${deletingPostId}`, mdFile.sha);
     } catch(_) {}
+
+    await ghDeleteArticleStub(deletingPostId);
 
     await rebuildSitemap();
     selectedPostIds.delete(deletingPostId);
@@ -3166,7 +3233,7 @@ async function rebuildSitemap() {
 
   const urlEntries = [
     `  <url>\n    <loc>https://ywmoon.github.io/</loc>\n    <lastmod>${today}</lastmod>\n    <changefreq>daily</changefreq>\n    <priority>1.0</priority>\n  </url>`,
-    ...publishedPosts.map(p => `  <url>\n    <loc>https://ywmoon.github.io/#article/${p.id}</loc>\n    <lastmod>${p.date}</lastmod>\n    <changefreq>weekly</changefreq>\n    <priority>0.8</priority>\n  </url>`)
+    ...publishedPosts.map(p => `  <url>\n    <loc>https://ywmoon.github.io/article/${p.id}/</loc>\n    <lastmod>${p.date}</lastmod>\n    <changefreq>weekly</changefreq>\n    <priority>0.8</priority>\n  </url>`)
   ];
 
   const sitemap = `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${urlEntries.join('\n')}\n</urlset>\n`;
