@@ -739,7 +739,12 @@ function renderPostNavigation(currentPost) {
 
 // ─── Article Utility Actions ─────────────────────────────────────
 function copyArticleUrl() {
-  const url = window.location.href;
+  // OG 태그가 있는 스텁 URL 형식 (/article/[id]/) 로 복사 — SNS 미리보기 정상 동작
+  const hash = window.location.hash; // e.g. #article/2026-08-17-xxx
+  const match = hash.match(/^#article\/(.+)$/);
+  const url = match
+    ? `https://ywmoon.github.io/article/${match[1]}/`
+    : window.location.href;
   if (navigator.clipboard && window.isSecureContext) {
     navigator.clipboard.writeText(url).then(() => {
       showToast('🔗 아티클 링크가 클립보드에 복사되었습니다!');
@@ -756,8 +761,11 @@ function copyArticleUrl() {
 }
 
 function shareLinkedIn() {
-  const url = encodeURIComponent(window.location.href);
-  const title = encodeURIComponent(document.getElementById('reader-title').textContent);
+  const hash = window.location.hash;
+  const match = hash.match(/^#article\/(.+)$/);
+  const url = encodeURIComponent(
+    match ? `https://ywmoon.github.io/article/${match[1]}/` : window.location.href
+  );
   window.open(`https://www.linkedin.com/sharing/share-offsite/?url=${url}`, '_blank', 'width=650,height=650,scrollbars=yes');
 }
 
