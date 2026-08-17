@@ -18,6 +18,7 @@ document.addEventListener('DOMContentLoaded', () => {
   initFontSize();
   loadPosts();
   window.addEventListener('hashchange', handleHashRoute);
+  window.addEventListener('popstate', handleHashRoute);
   
   // Register Service Worker for PWA (Feature 4)
   if ('serviceWorker' in navigator) {
@@ -359,8 +360,17 @@ function populateNavDropdowns() {
 // ─── Routing ──────────────────────────────────────────────────────
 function handleHashRoute() {
   const hash = window.location.hash;
+  const path = window.location.pathname;
+
   if (hash.startsWith('#article/')) {
     openArticleView(hash.replace('#article/', ''));
+  } else if (path.startsWith('/article/')) {
+    const parts = path.split('/').filter(Boolean);
+    if (parts.length >= 2) {
+      openArticleView(parts[1]);
+    } else {
+      openHomeView();
+    }
   } else if (hash === '#table') {
     openTableView();
   } else if (hash.startsWith('#category=')) {
@@ -390,19 +400,28 @@ function handleHashRoute() {
 }
 
 function navigateHome() {
-  if (window.location.hash) {
-    history.pushState(null, '', window.location.pathname);
-  }
   currentCategory = 'ALL';
   currentTag = null;
   currentArchive = null;
   document.querySelectorAll('.dc-cat-tab').forEach(t =>
     t.classList.toggle('active', t.getAttribute('data-cat') === 'ALL'));
+  if (window.location.pathname !== '/' && window.location.pathname !== '') {
+    history.pushState({ view: 'home' }, 'Home', '/');
+  } else if (window.location.hash) {
+    history.pushState(null, '', '/');
+  }
   openHomeView();
 }
-function navigateToDirectory() { window.location.hash = '#table'; openTableView(); }
+function navigateToDirectory() {
+  if (window.location.pathname !== '/' && window.location.pathname !== '') {
+    history.pushState({ view: 'table' }, 'Directory', '/#table');
+  } else {
+    window.location.hash = '#table';
+  }
+  openTableView();
+}
 function navigateBack() {
-  if (previousView === 'table') { window.location.hash = '#table'; }
+  if (previousView === 'table') { navigateToDirectory(); }
   else { navigateHome(); }
 }
 
@@ -487,8 +506,14 @@ async function openArticleView(articleId) {
   const reader = document.getElementById('article-reader-section');
   reader.style.display = 'block';
 
+  // 주소창 URL을 /article/[id]/ 로 동기화 (새로고침/직접 복사 시 OG 태그 완벽 지원)
+  const targetUrl = `/article/${post.id}/`;
+  if (window.location.pathname !== targetUrl) {
+    history.replaceState({ view: 'article', id: post.id }, post.title, targetUrl);
+  }
+
   // Dynamic SEO & OpenGraph Meta Update
-  updatePageMeta(post.title, post.summary || post.title, window.location.href);
+  updatePageMeta(post.title, post.summary || post.title, `https://ywmoon.github.io/article/${post.id}/`);
 
   const timeBadge = post.time ? ` ${post.time} KST` : '';
   document.getElementById('reader-meta-date').textContent = `${post.date || ''}${timeBadge}`;
