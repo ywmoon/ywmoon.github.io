@@ -42,14 +42,16 @@
   <!-- HD SVG Favicon -->
   <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='22' fill='%230F172A'/><path d='M28 35h44v10H28zm0 15h44v10H28zm0 15h44v10H28z' fill='%23FF9900'/><circle cx='35' cy='40' r='2.5' fill='%23FFFFFF'/><circle cx='35' cy='55' r='2.5' fill='%23FFFFFF'/><circle cx='35' cy='70' r='2.5' fill='%23FFFFFF'/></svg>" />
 
-  <!-- PWA Manifest & Meta Tags -->
-  <link rel="manifest" href="manifest.json" />
-  <meta name="theme-color" content="#0F172A" />
-  <meta name="apple-mobile-web-app-capable" content="yes" />
-  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
-  <meta name="apple-mobile-web-app-title" content="DC InfraOps" />
-  
-  <link rel="stylesheet" href="style.css?v=20260817_01" />
+  <!-- Markdown & Mermaid Engine (Synchronous in Head for Instant Rendering) -->
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
+  <script>
+    if (typeof mermaid !== 'undefined') {
+      mermaid.initialize({ startOnLoad: false, theme: 'neutral' });
+    }
+  </script>
+
+  <link rel="stylesheet" href="style.css?v=20260817_02" />
 </head>
 <body>
 
@@ -327,14 +329,6 @@
     </div>
   </footer>
 
-  <!-- Markdown & Mermaid Engine -->
-  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
-  <script>
-    if (typeof mermaid !== 'undefined') {
-      mermaid.initialize({ startOnLoad: false, theme: 'neutral' });
-    }
-  </script>
-  <script src="app.js?v=20260817_04"></script>
+  <script src="app.js?v=20260817_05"></script>
 </body>
 </html>
