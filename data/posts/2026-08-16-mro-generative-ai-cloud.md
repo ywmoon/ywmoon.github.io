@@ -13,6 +13,7 @@ labels:
   - 테크딥다이브
   - 하이브리드RAG
   - 항공MRO
+updated: "2026-08-17 20:41"
 ---
 
 <div style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.85; color: #1E293B; word-break: keep-all;">
@@ -169,7 +170,7 @@ labels:
     
     <div style="background-color: #EFF6FF; border: 1px solid #BFDBFE; border-radius: 8px; padding: 18px; margin-top: 24px;">
       <p style="margin: 0; font-size: 15px; color: #1E40AF; font-weight: 600;">
-        💡 인프라 수석 아키텍트의 총평:
+        💡 총평:
       </p>
       <p style="margin: 8px 0 0 0; font-size: 14px; color: #1E3A8A;">
         "생성형 AI의 진정한 가치는 챗봇 형태의 대화형 인터페이스가 아니라, 엔터프라이즈의 가장 복잡하고 위험도 높은 도메인 데이터를 신속 정확하게 가치화하는 인프라 파이프라인의 완성도에 있습니다. 클라우드 네이티브 RAG 아키텍처는 이제 미션 크리티컬 제조·운송 인프라의 글로벌 표준입니다."
