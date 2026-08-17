@@ -15,6 +15,7 @@ labels:
   - 블랙웰
   - 클라우드
   - 하이퍼스케일러
+updated: "2026-08-18 06:35"
 ---
 
 <div style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Noto Sans KR', sans-serif; line-height: 1.85; color: #1E293B; word-break: keep-all; font-size: 15.5px;">
@@ -77,17 +78,7 @@ labels:
     </ul>
 
     <!-- 공식 카드 -->
-    <div style="background-color: #F1F5F9; border-radius: 8px; padding: 16px 20px; margin: 18px 0; border: 1px dashed #CBD5E1;">
-      <div style="font-weight: 700; color: #0F172A; font-size: 14px; margin-bottom: 6px;">
-        📊 인프라 핵심 공식: 데이터센터 전력효율지수 (PUE)
-      </div>
-      <div style="font-family: monospace; font-size: 15px; color: #0369A1; background: #FFFFFF; padding: 8px 12px; border-radius: 6px; display: inline-block; margin-bottom: 8px;">
-        PUE = 데이터센터 총 인입 전력 ÷ IT 장비 순수 소비 전력
-      </div>
-      <div style="font-size: 13.5px; color: #475569;">
-        👉 <strong>핵심 의미:</strong> 1.0에 수렴할수록 냉각이나 조명으로 낭비되는 전력이 없음을 뜻합니다. 120kW급 블랙웰 랙 도입 시 PUE 1.15 달성은 액체냉각 없이는 물리적으로 불가능합니다.
-      </div>
-    </div>
+
 
     <h3 style="color: #1E293B; font-size: 17px; margin-top: 24px; margin-bottom: 10px;">2. '엔비디아 천하'에 균열 내는 빅테크와 K-반도체 진영</h3>
     <p style="color: #334155; margin-bottom: 14px;">
