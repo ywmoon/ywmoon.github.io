@@ -1657,7 +1657,6 @@ body {
   .dc-reader-body {
     font-size: 14.5px;
     line-height: 1.75;
-    overflow-x: hidden;
     word-break: keep-all;
     overflow-wrap: break-word;
   }
@@ -1667,47 +1666,127 @@ body {
     max-width: 100% !important;
     box-sizing: border-box !important;
   }
-  .dc-reader-body table.responsive-outer,
-  .dc-reader-body .responsive-outer,
-  .dc-reader-body table[width="1100"] {
+  
+  .dc-reader-body .dc-raw-html-wrapper,
+  .dc-reader-body .dc-raw-html-wrapper > table,
+  .dc-reader-body .dc-raw-html-wrapper > table > tbody,
+  .dc-reader-body .dc-raw-html-wrapper > table > tbody > tr,
+  .dc-reader-body .dc-raw-html-wrapper > table > tbody > tr > td {
+    display: block !important;
     width: 100% !important;
     max-width: 100% !important;
+    min-width: 0 !important;
+    box-sizing: border-box !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    border: none !important;
+  }
+
+  .dc-reader-body table.responsive-outer,
+  .dc-reader-body .responsive-outer {
+    display: block !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    min-width: 0 !important;
+    box-sizing: border-box !important;
+    border: 1px solid #CBD5E1 !important;
+    background-color: #FFFFFF !important;
+  }
+
+  .dc-reader-body table.responsive-outer > tbody,
+  .dc-reader-body table.responsive-outer > tbody > tr,
+  .dc-reader-body table.responsive-outer > tbody > tr > td {
+    display: block !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    min-width: 0 !important;
     box-sizing: border-box !important;
   }
+
+  /* 2-Column TRs convert to Flex Column Stack */
+  .dc-reader-body table.responsive-outer tr {
+    display: flex !important;
+    flex-direction: column !important;
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+
   .dc-reader-body td.responsive-col,
   .dc-reader-body .responsive-col {
     display: block !important;
     width: 100% !important;
     max-width: 100% !important;
+    min-width: 0 !important;
     box-sizing: border-box !important;
-    margin-bottom: 20px !important;
-    padding-left: 14px !important;
-    padding-right: 14px !important;
+    margin-bottom: 16px !important;
+    padding: 16px 12px !important;
   }
+
   .dc-reader-body td.responsive-spacer,
   .dc-reader-body .responsive-spacer {
     display: none !important;
     width: 0 !important;
     height: 0 !important;
     padding: 0 !important;
+    border: none !important;
   }
-  .dc-reader-body td[style*="padding-left: 20px"] {
-    padding-left: 0 !important;
-    padding-right: 0 !important;
+
+  /* Inner data tables (Market Indicators table & card sub-tables) */
+  .dc-reader-body td.responsive-col table,
+  .dc-reader-body table.responsive-outer td table {
+    display: table !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    table-layout: fixed !important;
+    box-sizing: border-box !important;
   }
+
+  .dc-reader-body td.responsive-col table tbody,
+  .dc-reader-body table.responsive-outer td table tbody {
+    display: table-row-group !important;
+  }
+
+  .dc-reader-body td.responsive-col table tr,
+  .dc-reader-body table.responsive-outer td table tr {
+    display: table-row !important;
+    width: 100% !important;
+  }
+
+  .dc-reader-body td.responsive-col table td,
+  .dc-reader-body td.responsive-col table th,
+  .dc-reader-body table.responsive-outer td table td,
+  .dc-reader-body table.responsive-outer td table th {
+    display: table-cell !important;
+    box-sizing: border-box !important;
+    word-break: break-word !important;
+  }
+
+  /* 2x2 Chart Grid: stack images 1-column */
+  .dc-reader-body td.responsive-col table tr td[align="center"] {
+    display: block !important;
+    width: 100% !important;
+    padding: 4px 0 !important;
+  }
+
+  .dc-reader-body img:not([width="1"]) {
+    width: 100% !important;
+    max-width: 100% !important;
+    height: auto !important;
+    display: block !important;
+    margin: 0 auto !important;
+    box-sizing: border-box !important;
+  }
+
   .dc-reader-body td[style*="padding: 26px 36px"],
   .dc-reader-body td[style*="padding: 28px 36px"],
   .dc-reader-body td[style*="padding: 0 36px 28px 36px"],
   .dc-reader-body td[style*="padding: 20px 36px"],
   .dc-reader-body td[style*="padding: 24px 36px"],
-  .dc-reader-body td[style*="padding: 30px 36px"] {
+  .dc-reader-body td[style*="padding: 30px 36px"],
+  .dc-reader-body td[style*="padding: 20px 24px"] {
     padding: 16px 12px !important;
   }
-  .dc-reader-body img:not([width="1"]) {
-    max-width: 100% !important;
-    height: auto !important;
-    display: block;
-  }
+
   .dc-post-nav {
     grid-template-columns: 1fr;
     gap: 10px;
