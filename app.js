@@ -278,6 +278,20 @@ async function loadArticleContent(post) {
     const raw = await res.text();
     const { body } = parseMd(raw);
     
+    const trimmed = body.trim();
+    // Check if content is pre-rendered HTML (crawler templates) vs Markdown
+    const isHtml = (/^\s*<!DOCTYPE/i.test(trimmed) || /^\s*<html/i.test(trimmed) || /^\s*<div/i.test(trimmed) || /^\s*<table/i.test(trimmed) || /^\s*<section/i.test(trimmed)) &&
+                   !trimmed.match(/^#{1,6}\s+/m) &&
+                   !trimmed.includes('```');
+
+    if (isHtml) {
+      const bodyMatch = trimmed.match(/<body[^>]*>([\s\S]*)<\/body>/i);
+      const htmlContent = bodyMatch ? bodyMatch[1] : trimmed;
+      const styleMatches = trimmed.match(/<style[^>]*>[\s\S]*?<\/style>/gi);
+      const styles = styleMatches ? styleMatches.join('\n') : '';
+      return styles + htmlContent;
+    }
+    
     // Parse markdown if marked library is available
     if (typeof marked !== 'undefined') {
       marked.setOptions({
