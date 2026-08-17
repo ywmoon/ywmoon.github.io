@@ -443,7 +443,7 @@ function trackPageView(pagePath, pageTitle) {
 }
 
 function updatePageMeta(title, description, url) {
-  const fullTitle = title ? `${title} | James Moon Tech Blog` : 'DataCenter InfraOps Trends & Notes | James Moon Tech Blog';
+  const fullTitle = title ? `${title} | James Moon Tech Blog` : 'Datacenter InfraOps & Cloud Industry Notes | James Moon Tech Blog';
   document.title = fullTitle;
 
   const desc = description || '글로벌 하이퍼스케일 AI 데이터센터 전력망(SMR/BESS), 직류(DC) 배전, 고밀도 액체냉각, 그리고 클라우드 인프라 엔지니어링 데일리 트렌드 & 노트';
@@ -490,7 +490,7 @@ function openTableView() {
   document.getElementById('table-section').style.display = 'block';
   document.getElementById('article-reader-section').style.display = 'none';
   updateNavActiveState('nav-table-btn');
-  updatePageMeta('All Articles Directory', 'DataCenter InfraOps Trends & Notes 전체 발행 아티클 데이터베이스 디렉토리');
+  updatePageMeta('All Articles Directory', 'Datacenter InfraOps & Cloud Industry Notes 전체 발행 아티클 데이터베이스 디렉토리');
   renderDirectoryTable();
   trackPageView('#table', 'DC InfraOps Intelligence | Directory Table');
 }
