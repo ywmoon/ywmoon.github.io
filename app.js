@@ -286,10 +286,19 @@ async function loadArticleContent(post) {
 
     if (isHtml) {
       const bodyMatch = trimmed.match(/<body[^>]*>([\s\S]*)<\/body>/i);
-      const htmlContent = bodyMatch ? bodyMatch[1] : trimmed;
+      let htmlContent = bodyMatch ? bodyMatch[1] : trimmed;
       const styleMatches = trimmed.match(/<style[^>]*>[\s\S]*?<\/style>/gi);
       const styles = styleMatches ? styleMatches.join('\n') : '';
-      return styles + htmlContent;
+      
+      // Clean fixed inline widths so tables naturally adapt to mobile and desktop
+      htmlContent = htmlContent
+        .replace(/width=["']1100["']/gi, 'width="100%"')
+        .replace(/width:\s*1100px;?/gi, 'width: 100%;')
+        .replace(/max-width:\s*1100px;?/gi, 'max-width: 100%;')
+        .replace(/width:\s*50[0-9]px;?/gi, 'width: 100%; max-width: 100%;')
+        .replace(/max-width:\s*50[0-9]px;?/gi, 'max-width: 100%;');
+
+      return `<div class="dc-raw-html-wrapper">${styles}${htmlContent}</div>`;
     }
     
     // Parse markdown if marked library is available
