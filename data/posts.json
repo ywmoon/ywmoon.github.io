@@ -26,7 +26,7 @@
     "title": "[Tech Deep Dive] 클라우드의 심장을 뛰게 하는 엔지니어: AWS DCEO(Data Center Engineering Operations) 팀 완벽 가이드",
     "date": "2026-08-17",
     "time": "21:35",
-    "updated": "2026-08-17 21:36",
+    "updated": "2026-08-17 21:37",
     "category": "Tech Deep Dive",
     "labels": [
       "AWS",
@@ -36,7 +36,7 @@
       "DCO",
       "인프라엔지니어링"
     ],
-    "summary": "클라우드 인프라의 핵심 기반인 전기·기계·냉각 설비의 A to Z를 책임지는 AWS DCEO 팀의 핵심 역할, 24/365 무중단 비상 대응 체계, DCO와의 직무 차이 및 글로벌 엔지니어링 문화를 현직자 인터뷰와 함께 심층 분석합니다.",
+    "summary": "클라우드 인프라의 핵심 기반인 전기·기계·냉각 설비의 A to Z를 책임지는 AWS DCEO 팀의 핵심 역할, 무중단 리던던시(이중화), 24/7 교대근무 워라밸, DCO와의 직무 차이 및 글로벌 카이젠(Kaizen) 문화를 현직자 인터뷰와 함께 심층 분석합니다.",
     "status": "hidden",
     "content_file": "data/posts/2026-08-17-aws-dceo-team-introduction.md"
   },
