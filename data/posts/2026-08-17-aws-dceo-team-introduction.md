@@ -102,78 +102,78 @@ DCEO의 가장 핵심적인 미션 중 하나는 예기치 못한 인프라 장�
 
 ---
 
-## 3. 📋 DCEO의 주요 직무 영역 (Key Responsibilities)
+## 3. 📋 DCEO의 10대 핵심 직무 영역 (Key Job Responsibilities)
 
-공식 직무 기술서(Job Description)에 기반한 DCEO 엔지니어의 핵심 역할은 일상적인 시설 유지보수를 넘어, 인프라 용량 관리와 프로젝트 엔지니어링을 포괄합니다.
+공식 직무 기술서(Job Description)에 명시된 DCEO 엔지니어의 역할은 단순한 설비 수리를 넘어, 미션 크리티컬 인프라의 100% 가용성 보장, 벤더 현장 지휘, 용량 시뮬레이션, 엔지니어링 프로젝트 및 자산 조달을 아우르는 종합적인 전문 직무입니다.
 
-<div style="display: flex; flex-direction: column; gap: 12px; margin: 20px 0;">
-  <div style="background: #F8FAFC; border: 1px solid #E2E8F0; border-radius: 8px; padding: 14px 18px;">
-    <div style="font-size: 15px; font-weight: 700; color: #0F172A; margin-bottom: 4px;">1. 미션 크리티컬 설비 상시 운영 및 비상 복구</div>
-    <div style="font-size: 13px; color: #475569; line-height: 1.5; padding-left: 8px;">
-      수배전반, 발전기, UPS, 칠러, 냉각탑, 공조기(CRAH) 등 필수 전력·냉각 인프라의 정상 가동 상태를 24/365 모니터링하고, 설비 이상 시 즉각적인 조치를 통해 무중단 환경을 유지합니다.
+<div style="display: flex; flex-direction: column; gap: 14px; margin: 20px 0;">
+  <div style="background: #F8FAFC; border: 1px solid #E2E8F0; border-radius: 10px; padding: 16px 20px; box-shadow: 0 2px 4px rgba(0,0,0,0.02);">
+    <div style="font-size: 15.5px; font-weight: 800; color: #0F172A; margin-bottom: 6px;">1. 미션 크리티컬 설비 상시 운영 및 예방·비상 유지보수 (Routine & Emergency Operations)</div>
+    <div style="font-size: 13.5px; color: #475569; line-height: 1.6; padding-left: 8px;">
+      스위치기어, 특고압 변압기, 비상 디젤 발전기, VFI/DRUPS 무정전 전원 시스템, 전력 분배 장치(PDU), 칠러 플랜트, 냉각탑, 전산실 공조기(CRAH/AHU), 빌딩 자동제어(BMS) 등 핵심 MEP 설비의 24/365 정상 가동 상태를 총괄합니다. 정기적인 예방 정비(Preventative Maintenance)와 장애 발생 시의 긴급 교정 정비(Corrective Maintenance)를 체계적으로 수행하여 설비 수명과 무중단 가용성을 극대화합니다.
     </div>
   </div>
 
-  <div style="background: #F8FAFC; border: 1px solid #E2E8F0; border-radius: 8px; padding: 14px 18px;">
-    <div style="font-size: 15px; font-weight: 700; color: #0F172A; margin-bottom: 4px;">2. 현장 벤더 및 교대 테크니션 작업 관리</div>
-    <div style="font-size: 13px; color: #475569; line-height: 1.5; padding-left: 8px;">
-      교대 근무 테크니션(Shift Technicians)과 외부 전문 유지보수 업체의 모든 현장 작업이 표준 작업 절차(MOP)와 안전 지침에 따라 오차 없이 진행되도록 현장을 총괄 감독합니다.
+  <div style="background: #F8FAFC; border: 1px solid #E2E8F0; border-radius: 10px; padding: 16px 20px; box-shadow: 0 2px 4px rgba(0,0,0,0.02);">
+    <div style="font-size: 15.5px; font-weight: 800; color: #0F172A; margin-bottom: 6px;">2. 현장 교대 테크니션 및 서브컨트랙터·벤더 지휘 감독 (Vendor & Shift Management)</div>
+    <div style="font-size: 13.5px; color: #475569; line-height: 1.6; padding-left: 8px;">
+      현장 교대 근무 테크니션(Shift Technicians), 시니어 테크니션, 설비 제조사(OEM) 엔지니어 및 외주 공사 업체의 모든 작업을 현장에서 총괄 지휘합니다. 모든 작업이 승인된 표준 작업 지침서(MOP)와 LOTO(Lockout/Tagout) 안전 규정에 따라 오차 없이 무결점으로 진행되도록 사전 브리핑(Toolbox Talk)과 실시간 작업 감리를 엄격히 집행합니다.
     </div>
   </div>
 
-  <div style="background: #F8FAFC; border: 1px solid #E2E8F0; border-radius: 8px; padding: 14px 18px;">
-    <div style="font-size: 15px; font-weight: 700; color: #0F172A; margin-bottom: 4px;">3. 서드파티 코로케이션(Colocation) 시설 파트너십 관리</div>
-    <div style="font-size: 13px; color: #475569; line-height: 1.5; padding-left: 8px;">
-      상면 제공 파트너사의 엔지니어링 팀과 긴밀히 협력하여 계약된 전력·냉각 조건과 운영 기준이 철저히 준수되는지 검증하고 리스크를 사전에 예방합니다.
+  <div style="background: #F8FAFC; border: 1px solid #E2E8F0; border-radius: 10px; padding: 16px 20px; box-shadow: 0 2px 4px rgba(0,0,0,0.02);">
+    <div style="font-size: 15.5px; font-weight: 800; color: #0F172A; margin-bottom: 6px;">3. 서드파티 코로케이션(Colocation) 파트너십 및 시설 관리</div>
+    <div style="font-size: 13.5px; color: #475569; line-height: 1.6; padding-left: 8px;">
+      상면 제공 코로케이션(Colo Provider) 파트너사 및 현장 시설 운영팀과 정기적인 엔지니어링 협의체를 운영합니다. 계약상 정의된 전력 공급 가용성, 냉각수 공급 온도·유량, 전산실 온·습도 등 서비스 수준 협약(SLA) 및 운영 파라미터가 100% 충족되는지 실시간 감시하고 설비 리스크를 사전에 식별·완화(Risk Mitigation)합니다.
     </div>
   </div>
 
-  <div style="background: #F8FAFC; border: 1px solid #E2E8F0; border-radius: 8px; padding: 14px 18px;">
-    <div style="font-size: 15px; font-weight: 700; color: #0F172A; margin-bottom: 4px;">4. 운영 성능 벤치마크 및 메트릭 리포팅</div>
-    <div style="font-size: 13px; color: #475569; line-height: 1.5; padding-left: 8px;">
-      설비 가동률, 전력 효율(PUE), 물 사용 효율(WUE) 등 데이터센터 운영 지표를 지속적으로 분석하고 정기적인 성과 및 개선 리포트를 작성합니다.
+  <div style="background: #F8FAFC; border: 1px solid #E2E8F0; border-radius: 10px; padding: 16px 20px; box-shadow: 0 2px 4px rgba(0,0,0,0.02);">
+    <div style="font-size: 15.5px; font-weight: 800; color: #0F172A; margin-bottom: 6px;">4. 운영 성능 벤치마크 수립, 데이터 분석 및 메트릭 리포팅 (Metrics & Performance Analysis)</div>
+    <div style="font-size: 13.5px; color: #475569; line-height: 1.6; padding-left: 8px;">
+      미션 크리티컬 시설의 운영 및 유지보수 전반에 대한 성능 벤치마크 지표를 수립하고 상시 분석합니다. 전력 사용 효율(PUE), 물 사용 효율(WUE), 주요 설비 가동률, 평균 복구 시간(MTTR) 및 고장 간격(MTBF) 등 핵심 메트릭을 정량화하여 정기 운영 분석 보고서를 작성하고 인프라 개선 방향을 도출합니다.
     </div>
   </div>
 
-  <div style="background: #F8FAFC; border: 1px solid #E2E8F0; border-radius: 8px; padding: 14px 18px;">
-    <div style="font-size: 15px; font-weight: 700; color: #0F172A; margin-bottom: 4px;">5. 데이터센터 용량 계획 (Capacity Planning)</div>
-    <div style="font-size: 13px; color: #475569; line-height: 1.5; padding-left: 8px;">
-      신규 서버 증설 및 고집적 AI 워크로드 도입에 대응하여 전기 용량(MW), 냉각 부하(kW), 물리적 상면 공간을 사전에 시뮬레이션하고 최적의 용량 마진을 확보합니다.
+  <div style="background: #F8FAFC; border: 1px solid #E2E8F0; border-radius: 10px; padding: 16px 20px; box-shadow: 0 2px 4px rgba(0,0,0,0.02);">
+    <div style="font-size: 15.5px; font-weight: 800; color: #0F172A; margin-bottom: 6px;">5. 데이터센터 용량 계획 (Capacity Planning) 및 부하 시뮬레이션</div>
+    <div style="font-size: 13.5px; color: #475569; line-height: 1.6; padding-left: 8px;">
+      대규모 서버 랙 증설 및 고전력 AI 가속기 클러스터 도입에 대비하여 변압기 수전 용량(MW), UPS 배터리 백업 여력, CRAH/CDU 냉각 마진(kW), 물리적 상면 하중 및 랙 공간을 사전에 시뮬레이션하고 배분합니다. 인프라 병목 현상을 사전에 예측하여 무중단 확장이 가능하도록 최적의 용량 계획을 수립하고 보고합니다.
     </div>
   </div>
 
-  <div style="background: #F8FAFC; border: 1px solid #E2E8F0; border-radius: 8px; padding: 14px 18px;">
-    <div style="font-size: 15px; font-weight: 700; color: #0F172A; margin-bottom: 4px;">6. 신규 시설 구축(Build-out) 및 커미셔닝 참여</div>
-    <div style="font-size: 13px; color: #475569; line-height: 1.5; padding-left: 8px;">
-      신규 데이터센터의 설계 검토, 설비 시운전(Commissioning), 무정전 부하 시험(Load Bank Testing)에 직접 참여하여 인프라 무결성을 검증합니다.
+  <div style="background: #F8FAFC; border: 1px solid #E2E8F0; border-radius: 10px; padding: 16px 20px; box-shadow: 0 2px 4px rgba(0,0,0,0.02);">
+    <div style="font-size: 15.5px; font-weight: 800; color: #0F172A; margin-bottom: 6px;">6. 신규 데이터센터 설계 검토, 구축(Build-out) 및 시운전(Commissioning) 참여</div>
+    <div style="font-size: 13.5px; color: #475569; line-height: 1.6; padding-left: 8px;">
+      신규 데이터센터의 초기 설계 단계에서 전기 단선도(SLD), 배관 계장도(P&ID), 시퀀스 제어(SOO) 도면을 검토하고 현장 구축에 참여합니다. 설비 공장 인수 시험(FAT), 단계별 커미셔닝(Commissioning Level 1~5), 그리고 비상 상황을 가정한 통합 시스템 부하 시험(IST, Integrated Systems Testing)을 주관하여 상용 가동 전 인프라 무결성을 최종 검증합니다.
     </div>
   </div>
 
-  <div style="background: #F8FAFC; border: 1px solid #E2E8F0; border-radius: 8px; padding: 14px 18px;">
-    <div style="font-size: 15px; font-weight: 700; color: #0F172A; margin-bottom: 4px;">7. 기존 시설 효율성 개선 및 최적화 프로젝트</div>
-    <div style="font-size: 13px; color: #475569; line-height: 1.5; padding-left: 8px;">
-      외기 냉방(Free Cooling), 칠러 냉수 온도 최적화, 인버터 팬 제어 등을 통해 에너지 소비를 절감하는 친환경 최적화 프로젝트를 주도합니다.
+  <div style="background: #F8FAFC; border: 1px solid #E2E8F0; border-radius: 10px; padding: 16px 20px; box-shadow: 0 2px 4px rgba(0,0,0,0.02);">
+    <div style="font-size: 15.5px; font-weight: 800; color: #0F172A; margin-bottom: 6px;">7. 기존 시설 효율성 향상 및 에너지 최적화 엔지니어링 (Facility Efficiency Optimization)</div>
+    <div style="font-size: 13.5px; color: #475569; line-height: 1.6; padding-left: 8px;">
+      기존 운영 중인 데이터센터의 에너지 소비를 절감하고 전력효율지수(PUE)를 낮추기 위한 최적화 프로젝트를 기획·실행합니다. 외기 냉방(Free Cooling) 연계 제어, 냉각탑 팬 및 펌프의 인버터(VFD) 차압 제어, 정밀 기류 차폐(Containment) 튜닝 등을 통해 지속가능성(Sustainability) 목표 달성에 기여합니다.
     </div>
   </div>
 
-  <div style="background: #F8FAFC; border: 1px solid #E2E8F0; border-radius: 8px; padding: 14px 18px;">
-    <div style="font-size: 15px; font-weight: 700; color: #0F172A; margin-bottom: 4px;">8. IT 리더십 및 비즈니스 조직과의 기술 협업</div>
-    <div style="font-size: 13px; color: #475569; line-height: 1.5; padding-left: 8px;">
-      IT 시스템 매니저 및 하드웨어 엔지니어링 팀과 긴밀히 공조하여 플랜트 안전성, 전력 공급 신뢰성 및 비즈니스 요구를 원활히 조율합니다.
+  <div style="background: #F8FAFC; border: 1px solid #E2E8F0; border-radius: 10px; padding: 16px 20px; box-shadow: 0 2px 4px rgba(0,0,0,0.02);">
+    <div style="font-size: 15.5px; font-weight: 800; color: #0F172A; margin-bottom: 6px;">8. IT 리더십 및 비즈니스 조직과의 크로스 펑셔널 협업 (Cross-Functional Collaboration)</div>
+    <div style="font-size: 13.5px; color: #475569; line-height: 1.6; padding-left: 8px;">
+      IT 시스템 매니저, 네트워크 엔지니어링 팀, 데이터센터 운영 리더들과 긴밀히 소통하며 대규모 인프라 프로젝트 일정과 유지보수 윈도우(Maintenance Window)를 조율합니다. 비즈니스 서비스 요구를 충족하면서도 플랜트의 안전성, 전력 품질, 장비 신뢰성을 최상으로 유지하는 가교 역할을 수행합니다.
     </div>
   </div>
 
-  <div style="background: #F8FAFC; border: 1px solid #E2E8F0; border-radius: 8px; padding: 14px 18px;">
-    <div style="font-size: 15px; font-weight: 700; color: #0F172A; margin-bottom: 4px;">9. DCEO 구매(Procurement) 및 예산 조달 지원</div>
-    <div style="font-size: 13px; color: #475569; line-height: 1.5; padding-left: 8px;">
-      설비 유지보수에 필요한 주요 예비 부품(Critical Spares), 필터, 특수 자재 및 전문 용역에 대한 조달 프로세스를 집행합니다.
+  <div style="background: #F8FAFC; border: 1px solid #E2E8F0; border-radius: 10px; padding: 16px 20px; box-shadow: 0 2px 4px rgba(0,0,0,0.02);">
+    <div style="font-size: 15.5px; font-weight: 800; color: #0F172A; margin-bottom: 6px;">9. DCEO 구매(Procurement) 및 예산 조달 집행 관리</div>
+    <div style="font-size: 13.5px; color: #475569; line-height: 1.6; padding-left: 8px;">
+      DCEO 팀의 설비 투자(CapEx) 및 운영 유지보수 비용(OpEx)에 대한 구매 프로세스를 집행합니다. 긴급 설비 보수 계약, 전문 유지보수 서비스(SLA) 계약 체결, 특수 정밀 계측기 및 설비 소모품 조달에 대한 사양 검토와 벤더 견적 협상을 주도합니다.
     </div>
   </div>
 
-  <div style="background: #F8FAFC; border: 1px solid #E2E8F0; border-radius: 8px; padding: 14px 18px;">
-    <div style="font-size: 15px; font-weight: 700; color: #0F172A; margin-bottom: 4px;">10. 자산 및 중요 예비품 재고 관리</div>
-    <div style="font-size: 13px; color: #475569; line-height: 1.5; padding-left: 8px;">
-      고가의 전기/기계 장비와 비상 복구용 자재의 라이프사이클을 추적하고 결품 없는 안전 재고(Safety Stock)를 유지합니다.
+  <div style="background: #F8FAFC; border: 1px solid #E2E8F0; border-radius: 10px; padding: 16px 20px; box-shadow: 0 2px 4px rgba(0,0,0,0.02);">
+    <div style="font-size: 15.5px; font-weight: 800; color: #0F172A; margin-bottom: 6px;">10. 자산 라이프사이클 및 중요 예비품 재고 관리 (Asset & Inventory Management)</div>
+    <div style="font-size: 13.5px; color: #475569; line-height: 1.6; padding-left: 8px;">
+      데이터센터 내 수천 개에 달하는 고가 전력·기계 장비의 도입, 설치, 점검 이력, 감가상각 및 교체 주기를 포함한 자산 라이프사이클을 추적 관리합니다. 비상 상황 시 설비 정지를 방지하기 위한 중요 예비 부품(Critical Spares), 필터, 특수 퓨즈 및 밸브 등의 안전 재고(Safety Stock)를 상시 확보하고 결품 없는 비상 복구 태세를 유지합니다.
     </div>
   </div>
 </div>
