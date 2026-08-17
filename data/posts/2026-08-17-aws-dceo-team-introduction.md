@@ -5,7 +5,7 @@ date: "2026-08-17"
 time: "21:35"
 category: "Tech Deep Dive"
 status: "hidden"
-summary: "클라우드 인프라의 핵심 기반인 전기·기계·냉각 설비의 A to Z를 책임지는 AWS DCEO 팀의 핵심 역할, 24/365 무중단 비상 대응 체계, DCO와의 직무 차이 및 글로벌 엔지니어링 문화를 현직자 인터뷰와 함께 심층 분석합니다."
+summary: "클라우드 인프라의 핵심 기반인 전기·기계·냉각 설비의 A to Z를 책임지는 AWS DCEO 팀의 핵심 역할, 무중단 리던던시(이중화), 24/7 교대근무 워라밸, DCO와의 직무 차이 및 글로벌 카이젠(Kaizen) 문화를 현직자 인터뷰와 함께 심층 분석합니다."
 labels:
   - AWS
   - DCEO
@@ -18,7 +18,7 @@ labels:
 # 🏢 [Tech Deep Dive] 클라우드의 보이지 않는 심장: AWS DCEO 팀 완벽 탐구
 
 > 전 세계 수백만 고객이 사용하는 AWS 클라우드 서비스의 이면에는 365일 24시간 단 1초의 중단도 없이 거대한 데이터센터를 가동하는 핵심 엔지니어링 조직이 있습니다. 바로 **DCEO(Data Center Engineering Operations)** 팀입니다.  
-> 본 아티클에서는 AWS 공식 현직자 인터뷰와 테크 크리에이터 조코딩(JoCoding) 콘텐츠를 기반으로, **AWS DCEO 팀의 역할, DCO와의 직무 차이, 비상 대응 훈련 체계, 그리고 글로벌 엔지니어링 문화**를 종합적으로 정리합니다.
+> 본 아티클에서는 AWS 공식 현직자 인터뷰와 테크 크리에이터 조코딩(JoCoding) 콘텐츠를 기반으로, **AWS DCEO 팀의 역할, DCO와의 직무 차이, 비상 대응 및 이중화 훈련 체계, 24/7 교대근무 워라밸, 그리고 글로벌 엔지니어링 문화**를 종합적으로 정리합니다.
 
 ---
 
@@ -56,25 +56,28 @@ AWS 데이터센터 현장에는 성격이 다른 두 개의 상호보완적 엔
 
 ---
 
-## 3. 🔍 현직자가 밝힌 DCEO 팀의 4대 핵심 업무 & 문화
+## 3. 🔍 현직자가 밝힌 DCEO 팀의 5대 핵심 업무 & 엔지니어링 문화
 
-### ① 24/365 무중단 비상 대응 & 정기 모의 훈련(Drill)
-AWS 데이터센터는 24시간 교대 근무(Shift) 체계로 가동됩니다. 전력망 차단, 배관 누수, 냉각 칠러 이상 등 극단적인 재난·장애 시나리오를 가정한 **정기 모의 훈련(Drill)**을 수시로 반복하여 현장 엔지니어가 실제 위기 상황에서도 표준 대응 절차(SOP)에 따라 침착하고 신속하게 대응할 수 있도록 체화합니다.
+### ① 완벽한 리던던시(Redundancy, 이중화) & 24/365 무중단 비상 대응
+AWS 데이터센터는 모든 전력·냉각 라인에 철저한 **리던던시(이중화 및 N+1/2N 백업 시스템)**가 설계되어 있어, 단일 장비 장애가 발생하더라도 백업 라인이 즉각 동작하여 무중단 운영을 유지합니다. 전력망 차단, 배관 누수, 칠러 이상 등 다양한 장애 시나리오 기반 **정기 모의 훈련(Drill)**을 지속하여 실제 상황에서도 침착하게 표준 절차(SOP)대로 즉각 조치합니다.
 
-### ② 글로벌 레슨런(Lesson Learned) & COE 문화
-AWS는 전 세계 수십 개 리전의 데이터센터에서 발생한 모든 장애 및 특이 사례의 원인과 해결책을 **글로벌 엔지니어링 인트라넷을 통해 실시간 공유**합니다. 한 사이트에서 발견된 미세한 장비 결함이나 개선책은 즉시 글로벌 표준으로 전파되어 동일 이슈의 재발을 원천 차단합니다.
+### ② 24/7 교대 근무의 예측 가능한 패턴과 확실한 워라밸
+교대 근무는 정해진 패턴에 따라 체계적으로 운영되며, 일정 조율을 통해 장기 휴가 사용이 자유롭습니다. 특히 **퇴근 후에는 비상 알람이 오직 교대 근무자에게만 발송**되므로, 근무 시간 이후에는 개인 여가 시간을 온전히 보장받는 건강한 워라밸 문화를 갖추고 있습니다.
 
-### ③ 지속가능성(Sustainability) & 에너지 효율화
-AWS의 핵심 과제인 지속가능성을 위해 DCEO 엔지니어들은 냉각수 온도 최적화, 기류 차폐(Containment), 신재생 에너지 연계 등을 연구하여 데이터센터 전력효율지수(PUE)를 세계 최고 수준으로 낮추는 혁신 프로젝트를 주도합니다.
+### ③ 글로벌 레슨런(Lesson Learned) & Kaizen(카이젠) 개선 문화
+전 세계 수십 개 리전에서 발생한 이슈 원인과 해결책을 **글로벌 엔지니어링 인트라넷을 통해 실시간 공유**하여 동일 이슈의 재발을 막습니다. 또한 연차나 직급에 관계없이 자유롭게 운영 효율화 아이디어를 제안하고 실행하는 **‘Kaizen(카이젠)’ 프로젝트**와 매니저와의 정기적인 **‘Growth Conversation’**을 통해 지속적인 성장을 지원합니다.
 
-### ④ 체계적인 육성 프로그램 (DCEO Training Program)
-비전공자나 신규 입사자도 기초 설비 지식부터 단계별 실무까지 체계적으로 배울 수 있는 전담 트레이닝 과정, 1:1 멘토링, 글로벌 영어 교육 및 전문 자격증 취득 지원이 활성화되어 있습니다.
+### ④ 지속가능성(Sustainability) & 에너지 효율화 (PUE 혁신)
+AWS의 핵심 과제인 지속가능성을 위해 DCEO 엔지니어들은 냉각수 공급 온도 최적화, 기류 차폐(Containment), 신재생 에너지 연계 등을 끊임없이 연구하여 데이터센터 전력효율지수(PUE)를 세계 최고 수준으로 유지합니다.
+
+### ⑤ 체계적인 육성 프로그램 & 포용적 문화 (ID&E)
+비전공자나 신규 입사자도 기초 설비 지식부터 단계별 실무까지 체계적으로 배울 수 있는 **DCEO 트레이닝 프로그램**, 1:1 멘토링, 글로벌 어학 교육 및 해외 데이터센터 방문/견학 기회가 열려 있습니다. 서로의 다양성을 존중하는 ID&E(Inclusion, Diversity, Equity) 가치 아래 실수를 통해 함께 배우는 분위기가 조성되어 있습니다.
 
 ---
 
 ## 4. 🔗 공식 참고 자료 및 현직자 인터뷰 원문
 
-DCEO 팀의 생생한 현장 이야기와 직무 인터뷰는 아래 공식 링크를 통해 더 자세히 확인하실 수 있습니다.
+DCEO 팀의 생생한 현장 이야기와 직무 인터뷰, 워라밸 및 채용 정보는 아래 공식 링크를 통해 더 자세히 확인하실 수 있습니다.
 
 <!-- LINK PREVIEW CARD 1 -->
 <div style="margin: 20px 0; border: 1px solid #E2E8F0; border-radius: 12px; overflow: hidden; background: #FFFFFF; box-shadow: 0 4px 14px rgba(0,0,0,0.05); transition: transform 0.2s, box-shadow 0.2s;">
@@ -105,8 +108,8 @@ DCEO 팀의 생생한 현장 이야기와 직무 인터뷰는 아래 공식 링�
     <div style="flex: 1 1 300px; padding: 18px 22px; display: flex; flex-direction: column; justify-content: space-between;">
       <div>
         <div style="display: flex; align-items: center; gap: 6px; margin-bottom: 6px;">
-          <span style="background: #2563EB; color: #FFFFFF; font-size: 11px; font-weight: 800; padding: 2px 8px; border-radius: 4px;">JoCoding X AWS</span>
-          <span style="font-size: 12px; color: #64748B;">테크 콜라보 인터뷰</span>
+          <span style="background: #2563EB; color: #FFFFFF; font-size: 11px; font-weight: 800; padding: 2px 8px; border-radius: 4px;">JoCoding X AWS #1</span>
+          <span style="font-size: 12px; color: #64748B;">테크 콜라보 인터뷰 1편</span>
         </div>
         <div style="font-size: 16px; font-weight: 800; color: #0F172A; line-height: 1.4; margin-bottom: 6px;">
           조코딩이 만난 AWS 데이터 센터 현직자들의 리얼 토크 (DCEO / DCO / Manager)
@@ -123,6 +126,29 @@ DCEO 팀의 생생한 현장 이야기와 직무 인터뷰는 아래 공식 링�
 </div>
 
 <!-- LINK PREVIEW CARD 3 -->
+<div style="margin: 20px 0; border: 1px solid #E2E8F0; border-radius: 12px; overflow: hidden; background: #FFFFFF; box-shadow: 0 4px 14px rgba(0,0,0,0.05); transition: transform 0.2s, box-shadow 0.2s;">
+  <a href="https://blog.naver.com/aws_culture/223848412951" target="_blank" style="text-decoration: none; display: flex; flex-wrap: wrap; color: inherit;">
+    <div style="flex: 1 1 300px; padding: 18px 22px; display: flex; flex-direction: column; justify-content: space-between;">
+      <div>
+        <div style="display: flex; align-items: center; gap: 6px; margin-bottom: 6px;">
+          <span style="background: #10B981; color: #FFFFFF; font-size: 11px; font-weight: 800; padding: 2px 8px; border-radius: 4px;">JoCoding X AWS #2</span>
+          <span style="font-size: 12px; color: #64748B;">테크 콜라보 인터뷰 2편</span>
+        </div>
+        <div style="font-size: 16px; font-weight: 800; color: #0F172A; line-height: 1.4; margin-bottom: 6px;">
+          AWS 데이터센터 현직자들이 말하는 워라밸, 채용 꿀팁, 카이젠(Kaizen) 문화
+        </div>
+        <div style="font-size: 13px; color: #475569; line-height: 1.5; margin-bottom: 10px;">
+          DCEO 전소현 님, DCO 엄준용 님, DCO 매니저 박미래 님이 전하는 무중단 리던던시(이중화), 교대 근무 워라밸, 기술 및 LP 면접 팁과 글로벌 커리어 기회.
+        </div>
+      </div>
+      <div style="font-size: 12px; color: #0284C7; font-weight: 700; display: flex; align-items: center; gap: 4px;">
+        🔗 blog.naver.com/aws_culture/223848412951 원문 바로가기 →
+      </div>
+    </div>
+  </a>
+</div>
+
+<!-- LINK PREVIEW CARD 4 -->
 <div style="margin: 20px 0; border: 1px solid #E2E8F0; border-radius: 12px; overflow: hidden; background: #FFFFFF; box-shadow: 0 4px 14px rgba(0,0,0,0.05); transition: transform 0.2s, box-shadow 0.2s;">
   <a href="https://www.linkedin.com/feed/update/urn:li:activity:7476003575723216898/" target="_blank" style="text-decoration: none; display: flex; flex-wrap: wrap; color: inherit;">
     <div style="flex: 1 1 300px; padding: 18px 22px; display: flex; flex-direction: column; justify-content: space-between;">
