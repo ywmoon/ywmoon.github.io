@@ -443,7 +443,12 @@ function trackPageView(pagePath, pageTitle) {
 }
 
 function updatePageMeta(title, description, url) {
-  const fullTitle = title ? `${title} | James Moon Tech Blog` : 'Datacenter InfraOps & Cloud Industry Notes | James Moon Tech Blog';
+  let fullTitle;
+  if (!title || title === 'Home') {
+    fullTitle = 'Datacenter InfraOps & Cloud Industry Notes';
+  } else {
+    fullTitle = `${title} | Datacenter InfraOps & Cloud Industry Notes`;
+  }
   document.title = fullTitle;
 
   const desc = description || '글로벌 하이퍼스케일 AI 데이터센터 전력망(SMR/BESS), 직류(DC) 배전, 고밀도 액체냉각, 그리고 클라우드 인프라 엔지니어링 데일리 트렌드 & 노트';
