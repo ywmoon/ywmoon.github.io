@@ -136,14 +136,6 @@ AWS DCEO의 안정성은 단순히 좋은 장비에서 나오는 것이 아니�
 - **도면 해석 능력**: 전기 단선도(Single Line Diagram, SLD), 배관 계장도(P&ID), 시퀀스 제어 다이어그램(Sequence of Operations) 독해 능력 필수.
 - **글로벌 커뮤니케이션**: 해외 지사 엔지니어와의 기술 협업 및 인트라넷 기술 문서 공유를 위한 비즈니스 영어 역량.
 
-### 💼 AWS DCEO의 성장 단계 (Career Progression)
-```
-DCEO Technician (설비 운영 및 유지보수)
-  ➔ Lead DCEO / Site Lead (단일 데이터센터 설비 총괄 및 프로젝트 리드)
-  ➔ Data Center Chief Engineer (멀티 사이트 인프라 기술 아키텍처 총괄)
-  ➔ Facility Operations Manager (인프라 조직 총괄 매니지먼트)
-```
-
 ### 🧠 DCEO 엔지니어에게 요구되는 아마존 리더십 원칙 (LP)
 - **Ownership (주인 의식)**: 내가 담당하는 전력·냉각 밸브 하나가 글로벌 고객의 가용성에 직결된다는 책임감.
 - **Dive Deep (깊게 파고들기)**: 이상 징후 발생 시 현장 데이터와 센서 로그를 끝까지 추적해 근본 원인 규명.
