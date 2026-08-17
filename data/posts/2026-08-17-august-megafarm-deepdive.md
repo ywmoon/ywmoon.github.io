@@ -14,6 +14,7 @@ labels:
   - 액체냉각
   - 전력인프라
   - 컴퓨팅금융
+updated: "2026-08-17 20:41"
 ---
 
 <div style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Noto Sans KR', sans-serif; line-height: 1.85; color: #1E293B; max-width: 100%; word-break: keep-all; font-size: 16px;">
@@ -160,7 +161,7 @@ labels:
 
   <!-- 아키텍트 요약 코멘트 -->
   <div style="background-color: #EFF6FF; border: 1px solid #BFDBFE; border-radius: 8px; padding: 20px; margin-top: 32px;">
-    <h4 style="color: #1E40AF; margin: 0 0 10px 0; font-size: 15px; font-weight: 700;">💡 수석 아키텍트의 최종 제언</h4>
+    <h4 style="color: #1E40AF; margin: 0 0 10px 0; font-size: 15px; font-weight: 700;">💡 최종 제언</h4>
     <p style="color: #1E3A8A; font-size: 14px; line-height: 1.7; margin: 0;">오하이오 10GW 프로젝트의 보증 규모 축소는 후퇴가 아닌 성숙의 과정입니다. 차세대 인프라 경쟁력은 단순히 '얼마나 많은 가속기 칩을 사오는가'에서 **'얼마나 안정적인 기가와트 전력을 확보하고, 액체 냉각 효율을 극대화하며, 자본 비용을 금융 공학으로 최적화하는가'**로 완전히 이동했습니다. 하드웨어, 전력, 냉각, 금융이 하나로 결합된 복합 엔지니어링 역량만이 다가올 AGI 시대의 물리적 기반을 완성할 것입니다.</p>
   </div>
 
