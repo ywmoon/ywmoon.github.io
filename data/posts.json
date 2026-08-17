@@ -25,8 +25,8 @@
     "id": "2026-08-17-aws-dceo-team-introduction",
     "title": "[Tech Deep Dive] 하이퍼스케일 클라우드를 움직이는 MEP InfraOps 전문가: AWS DCEO(Data Center Engineering Operations) 심층 분석",
     "date": "2026-08-17",
-    "time": "21:40",
-    "updated": "2026-08-17 21:46",
+    "time": "21:52",
+    "updated": "2026-08-17 21:51",
     "category": "Tech Deep Dive",
     "labels": [
       "AWS",
@@ -35,9 +35,9 @@
       "데이터센터",
       "클라우드인프라",
       "InfraOps",
-      "전력냉각설비"
+      "시설운영관리"
     ],
-    "summary": "전력(Electrical)·기계/냉각(Mechanical)·배관(Plumbing) 인프라의 설계부터 24/365 무중단 운영까지 총괄하는 AWS DCEO 팀의 글로벌 MEP 운영 프레임워크(MOP/SOP/EOP, 리던던시, PUE 최적화, 글로벌 채용 스펙)를 현직자 인터뷰와 함께 심층 분석합니다.",
+    "summary": "전력(Electrical)·기계/냉각(Mechanical)·배관/소방(Plumbing) 인프라의 100% 가용성 보장, 코로케이션 벤더 관리, 용량 계획(Capacity Planning), MOP/SOP/EOP 표준 운영 및 실전 MEP 엔지니어링 스펙을 공식 채용 가이드와 함께 심층 분석합니다.",
     "status": "hidden",
     "content_file": "data/posts/2026-08-17-aws-dceo-team-introduction.md"
   },
