@@ -1,5 +1,5 @@
 // Service Worker for DataCenter InfraOps Trends & Notes (PWA)
-const CACHE_NAME = 'dc-infraops-v20260816';
+const CACHE_NAME = 'dc-infraops-v20260817_01';
 const ASSETS = [
   '/',
   '/index.html',
