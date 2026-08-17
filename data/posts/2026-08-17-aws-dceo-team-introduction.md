@@ -1,83 +1,159 @@
 ---
 id: 2026-08-17-aws-dceo-team-introduction
-title: "[Tech Deep Dive] 클라우드의 심장을 뛰게 하는 엔지니어: AWS DCEO(Data Center Engineering Operations) 팀 완벽 가이드"
+title: "[Tech Deep Dive] 하이퍼스케일 클라우드를 움직이는 MEP InfraOps 전문가: AWS DCEO(Data Center Engineering Operations) 심층 분석"
 date: "2026-08-17"
-time: "21:35"
+time: "21:40"
 category: "Tech Deep Dive"
 status: "hidden"
-summary: "클라우드 인프라의 핵심 기반인 전기·기계·냉각 설비의 A to Z를 책임지는 AWS DCEO 팀의 핵심 역할, 무중단 리던던시(이중화), 24/7 교대근무 워라밸, DCO와의 직무 차이 및 글로벌 카이젠(Kaizen) 문화를 현직자 인터뷰와 함께 심층 분석합니다."
+summary: "전력(Electrical)·기계/냉각(Mechanical)·배관(Plumbing) 인프라의 설계부터 24/365 무중단 운영까지 총괄하는 AWS DCEO 팀의 글로벌 MEP 운영 프레임워크(MOP/SOP/EOP, 리던던시, PUE 최적화, 글로벌 채용 스펙)를 현직자 인터뷰와 함께 심층 분석합니다."
 labels:
   - AWS
   - DCEO
+  - MEP
   - 데이터센터
   - 클라우드인프라
-  - DCO
-  - 인프라엔지니어링
+  - InfraOps
+  - 전력냉각설비
 ---
 
-# 🏢 [Tech Deep Dive] 클라우드의 보이지 않는 심장: AWS DCEO 팀 완벽 탐구
+# 🏢 [Tech Deep Dive] 하이퍼스케일 클라우드를 움직이는 MEP InfraOps 전문가: AWS DCEO 심층 분석
 
-> 전 세계 수백만 고객이 사용하는 AWS 클라우드 서비스의 이면에는 365일 24시간 단 1초의 중단도 없이 거대한 데이터센터를 가동하는 핵심 엔지니어링 조직이 있습니다. 바로 **DCEO(Data Center Engineering Operations)** 팀입니다.  
-> 본 아티클에서는 AWS 공식 현직자 인터뷰와 테크 크리에이터 조코딩(JoCoding) 콘텐츠를 기반으로, **AWS DCEO 팀의 역할, DCO와의 직무 차이, 비상 대응 및 이중화 훈련 체계, 24/7 교대근무 워라밸, 그리고 글로벌 엔지니어링 문화**를 종합적으로 정리합니다.
+> 전 세계 수백만 기업과 AI 서비스가 의존하는 AWS 하이퍼스케일 데이터센터의 이면에는, 메가와트(MW)급 전력과 초고밀도 열부하를 365일 24시간 단 1초의 중단 없이 완벽하게 제어하는 **MEP(Mechanical, Electrical, Plumbing) 엔지니어링 전문가 조직**이 존재합니다.  
+> 바로 **AWS DCEO(Data Center Engineering Operations)** 팀입니다.  
+> 본 아티클에서는 글로벌 AWS DCEO Job Posting과 국내외 현직자 인터뷰를 바탕으로, **DCEO의 핵심 미션, MEP 도메인별 심층 설비 기술, MOP/SOP/EOP 운영 프레임워크, 그리고 글로벌 채용 스펙 및 엔지니어링 문화**를 전문적인 관점에서 심층 분석합니다.
 
 ---
 
-## 1. ⚡ AWS DCEO(Data Center Engineering Operations)란?
+## 1. ⚡ AWS DCEO의 정의와 핵심 미션
 
-**DCEO**는 데이터센터가 정상 작동할 수 있도록 **전력(Electrical) 및 기계·냉각(Mechanical/HVAC) 인프라의 설계, 구축, 운영 및 유지보수 전반(A to Z)**을 책임지는 핵심 엔지니어링 부서입니다.
+**AWS DCEO(Data Center Engineering Operations)**는 데이터센터 건물의 **물리적·유틸리티 인프라(전력, 냉각, 공조, 방재, 환경 제어)의 구축, 운영, 최적화 및 무중단 유지보수(Concurrent Maintainability)**를 총괄하는 전문 엔지니어링 조직입니다.
+
+```
+┌──────────────────────────────────────────────────────────────────────────────┐
+│                  AWS Hyper-scale Critical Infrastructure Architecture        │
+├──────────────────────────────┬───────────────────────────────┬───────────────┤
+│    ⚡ Electrical Domain      │    ❄️ Mechanical & Thermal     │  🎛️ Controls  │
+│   • 22.9kV/13.2kV 특고압 수배전 │   • 수랭식/공랭식 Chiller & Cooling │  • BMS / BAS  │
+│   • 대용량 Standby 발전기 & 병렬  │   • Direct-to-Chip CDU 액체 냉각   │  • EPMS 전력  │
+│   • Static/Rotary UPS 배터리계통 │   • CRAH / AHU 정밀 공조 시스템    │  • SCADA/PLC  │
+│   • ATS / STS / PDU / RPP    │   • Hot/Cold Aisle 기류 차폐      │  • 텔레메트리 │
+└──────────────────────────────┴───────────────────────────────┴───────────────┘
+```
+
+### 🎯 DCEO의 3대 핵심 KPI
+1. **100% 무중단 가용성 (High Availability & Zero Downtime)**: 단일 장비 결함이나 외부 전력망 이상 시에도 $N+1$ 또는 $2N$ 리던던시를 통해 서버 전원과 냉각 루프를 0.001초의 깜빡임 없이 유지.
+2. **에너지 효율화 (PUE & WUE Optimization)**: 칠러 가변 운전, 외기 냉방(Free Cooling), 액체 냉각(Direct Liquid Cooling) 도입을 통해 세계 최저 수준의 PUE(전력효율지수) 달성.
+3. **운영 무결성 (Operational Excellence)**: 철저한 표준 절차서(MOP/SOP/EOP) 준수 및 글로벌 사고 분석(COE)을 통한 인적·물리적 리스크 원천 제거.
+
+---
+
+## 2. 🔬 DCEO가 다루는 3대 MEP 핵심 도메인 심층 분석
+
+AWS 글로벌 DCEO 엔지니어들은 데이터센터 내의 거대한 MEP 설비를 직접 운영하고 감시합니다.
+
+```mermaid
+graph TD
+    subgraph Electrical ["⚡ Electrical System (전력 계통)"]
+        Grid["한전/외부 전력망 (22.9kV/154kV)"] --> MV["특고압 수배전반 (MV Switchgear)"]
+        Gen["비상 디젤 발전기 (Standby Generator)"] --> ATS["자동 절체기 (ATS/Paralleling Gear)"]
+        MV --> XFRM["변압기 (Transformer)"]
+        XFRM --> UPS["무정전 전원장치 (Static/Rotary UPS)"]
+        ATS --> UPS
+        UPS --> STS["정지형 절체 스위치 (STS)"]
+        STS --> PDU["전력 분배 장치 (PDU/RPP)"]
+        PDU --> IT["IT Server Rack"]
+    end
+
+    subgraph Mechanical ["❄️ Mechanical & Cooling (냉각 계통)"]
+        Tower["냉각탑 (Cooling Tower)"] --> Chiller["칠러 (Centrifugal/Mag-bearing Chiller)"]
+        Chiller --> PrimaryLoop["1차 냉수 루프 (Chilled Water Loop)"]
+        PrimaryLoop --> CRAH["컴퓨터실 공조기 (CRAH/AHU)"]
+        PrimaryLoop --> CDU["냉각 분배 장치 (Coolant Distribution Unit)"]
+        CDU --> DirectLiquid["AI/GPU 칩 직접 액체 냉각 (Direct-to-Chip)"]
+        CRAH --> Aisle["Hot/Cold Aisle 차폐 기류 제어"]
+    end
+```
+
+### 1) ⚡ 전력 엔지니어링 (Electrical Engineering)
+- **특고압 수배전반 (MV Switchgear & Transformers)**: 수십 MW 용량의 특고압 수전을 저압(480V/415V/208V)으로 안전하게 변환 및 분배.
+- **무정전 전원 공급 장치 (UPS System)**: 리튬이온(Li-ion) 및 VRLA 배터리 뱅크를 통해 정전 시 발전기 가동까지의 전력 공백을 0초로 방어.
+- **비상 발전기 및 병렬 운전 (Generators & Paralleling Switchgear)**: 대용량 디젤 발전기 자동 시동, 동기화 병렬 투입, 연료 이송 계통 상시 모니터링.
+- **전력 분배 및 절체 (ATS, STS, PDU)**: 고속 정지형 절체 스위치(STS)를 통해 전원 소스 A/B 간 무단락 전환 보장.
+- **전기 안전 규격**: 아크 플래시(Arc Flash) 방호, NFPA 70E 안전 지침 및 LOTO(Lockout/Tagout) 엄격 준수.
+
+### 2) ❄️ 기계·열유체 및 공조 냉각 (Mechanical & Thermal Engineering)
+- **중앙 냉수 플랜트 (Chilled Water Plant)**: 고효율 마그네틱 베어링 칠러, 인버터 냉각수 펌프, 열교환기(Plate Heat Exchanger)를 통한 프리쿨링(Free Cooling) 극대화.
+- **정밀 공조 시스템 (CRAH / AHU)**: 전산실 내부의 온도, 습도, 양압(Positive Pressure)을 ASHRAE TC 9.9 가이드라인에 맞춰 정밀 제어.
+- **고밀도 액체 냉각 (Direct-to-Chip & CDU)**: 차세대 AI/GPU 고발열 랙(100kW+ per Rack) 대응을 위한 2차 냉각수 분배 장치(CDU) 및 블라인드 메이트(Blind-mate) 퀵 커플링 제어.
+- **기류 차폐 (Aisle Containment)**: 차가운 공기와 뜨거운 배기를 물리적으로 격리하여 냉각 효율 극대화.
+
+### 3) 🎛️ 감시 제어 및 자동화 (Controls & Automation)
+- **EPMS (Electrical Power Monitoring System)**: 전력 품질(고조파, 역률, 전압 강하), 실시간 MW 소비량 및 피크 로드 감시.
+- **BMS/BAS (Building Management/Automation System)**: PLC 기반 센서 텔레메트리를 통해 밸브 개도율, 팬 속도(VFD), 차압, 온습도를 24/365 실시간 자동 제어.
+- **방재 및 소방 (Fire Protection & Life Safety)**: VESDA(극초기 공기 흡입형 감지기), 프리액션 스프링클러(Pre-action), 친환경 가스계 소화 설비 운영.
+
+---
+
+## 3. 🛡️ DCEO의 독보적인 글로벌 운영 프레임워크 (InfraOps Rigor)
+
+AWS DCEO의 안정성은 단순히 좋은 장비에서 나오는 것이 아니라, **나노 단위로 체계화된 운영 절차서와 엔지니어링 규율(Operational Rigor)**에서 비롯됩니다.
 
 ```
 ┌────────────────────────────────────────────────────────────────────────┐
-│                        AWS Data Center Infrastructure                  │
-├──────────────────────────────────┬─────────────────────────────────────┤
-│   ⚡ DCEO (Engineering Operations) │   🖥️ DCO (Data Center Operations)   │
-│   • 수배전반 / UPS / 비상 발전기    │   • 서버 / RACK(랙) 캐비닛 설치     │
-│   • 칠러 / 냉각탑 / CRAH 공조 시스템 │   • 광케이블 / 백본 스위치 네트워크 │
-│   • PUE 전력 효율 및 지속가능성(ESG)│   • 서버 하드웨어 교체 및 GPU 튜닝  │
-│   • 24/365 비상 전력·냉각 장애 복구 │   • 호스트 프로비저닝 및 장애 티켓 │
-└──────────────────────────────────┴─────────────────────────────────────┘
+│                        DCEO 3대 표준 운영 절차서                      │
+├────────────────────────────────────────────────────────────────────────┤
+│ 📋 MOP (Method of Procedure)                                           │
+│   • 설비 유지보수·점검 시 작성하는 수십 페이지의 단계별 실행 계획서    │
+│   • 밸브 1개 회전, 차단기 1개 조작까지 위험 분석 및 원복 절차(Rollback) 명시 │
+│                                                                        │
+│ 📘 SOP (Standard Operating Procedure)                                  │
+│   • 일상적인 설비 기동/정지, 필터 교체, 정기 점검에 대한 표준 매뉴얼   │
+│                                                                        │
+│ 🚨 EOP (Emergency Operating Procedure)                                 │
+│   • 전력망 차단, 냉수관 파손 등 비상 상황 발생 시 즉각 실행하는 대응 지침 │
+│   • 정기 모의 훈련(Drill)을 통해 모든 엔지니어가 무의식적으로 행동 체화│
+└────────────────────────────────────────────────────────────────────────┘
 ```
 
-- **핵심 미션**: 고밀도 AI·GPU 서버 랙에서 발생하는 엄청난 열을 식히고, 전력망 이상 시에도 0.001초의 깜빡임 없이 무정전 전원을 공급하여 **최고 수준의 가용성(High Availability)과 에너지 효율(PUE)**을 달성합니다.
-- **주요 설비**: 초고압 수배전반, 무정전 전원 공급 장치(UPS), 대용량 비상 디젤 발전기, 칠러(Chiller), 냉각탑, 액체 냉각(Liquid Cooling) 루프, CRAH(컴퓨터실 공조기) 등.
+### 1) MOP 기반의 무중단 설비 유지보수
+- 운영 중인 데이터센터에서 변압기 점검이나 칠러 오버홀을 수행할 때, **MOP(Method of Procedure)**를 사전에 다단계로 상호 검토(Peer Review)하고 승인받은 후 2인 1조(Two-person Rule)로 오차 없이 실행합니다.
+
+### 2) 장애 분석 및 글로벌 레슨런: COE (Correction of Errors)
+- 만약 설비 이상이 발생하면, 단순히 복구하는 데 그치지 않고 **5-Why 분석 기법**을 통해 근본 원인을 파악합니다.
+- 작성된 **COE 보고서**는 전 세계 AWS 데이터센터 엔지니어링 조직에 즉시 공유되어, 타 리전 동일 장비의 잠재 위험을 사전에 차단하는 글로벌 모범 사례로 활용됩니다.
+
+### 3) 24/7 교대 근무와 확실한 오프 듀티(Off-duty) 워라밸
+- 24시간 무중단 체계이지만, 예측 가능한 규칙적인 교대 패턴과 체계적인 인계인수(Handover)를 통해 **퇴근 후에는 비상 알람이 근무자에게만 전달**되며 개인 시간을 온전히 보장받습니다.
 
 ---
 
-## 2. 👥 DCEO vs DCO: 두 핵심 부서의 차이점
+## 4. 🌐 글로벌 AWS DCEO 채용 스펙 & 엔지니어링 커리어 패스
 
-AWS 데이터센터 현장에는 성격이 다른 두 개의 상호보완적 엔지니어링 팀이 유기적으로 협업합니다.
+글로벌 AWS Job Posting(DCEO Technician, Data Center Chief Engineer, Facility Operations Lead)을 분석한 핵심 자격 요건 및 커리어 구조는 다음과 같습니다.
 
-| 비교 항목 | ⚡ DCEO (Engineering Operations) | 🖥️ DCO (Data Center Operations) |
-| :--- | :--- | :--- |
-| **담당 영역** | **기반 시설 (Facility & Utility)** | **IT 하드웨어 & 네트워크 (IT Equipment)** |
-| **주요 장비** | 특고압 변압기, UPS 배터리, 발전기, 냉각수 배관, HVAC | 서버 블레이드, 스토리지 랙, 광트랜시버, AI/ML GPU 가속기 |
-| **핵심 전공/지식** | 전기공학, 기계공학, 건축설비, 제어계측, 열유체역학 | 컴퓨터공학, 정보통신, 네트워크, 전자공학, 리눅스 시스템 |
-| **주요 목표** | 24/365 무정전 전력 공급 & 최적 온도/습도 유지 (PUE 최적화) | 신속한 서버 배포, 하드웨어 트러블슈팅, 네트워크 안정성 |
+### 📋 주요 요구 역량 및 배경 (Target Backgrounds)
+- **전공 및 산업군**: 전기공학, 기계공학, 해양플랜트/기관사(Marine Engineer), 원자력/발전소(Power Plant), 반도체/디스플레이 팹(FAB), 병원/초고층 빌딩 중앙설비실 출신.
+- **도면 해석 능력**: 전기 단선도(Single Line Diagram, SLD), 배관 계장도(P&ID), 시퀀스 제어 다이어그램(Sequence of Operations) 독해 능력 필수.
+- **글로벌 커뮤니케이션**: 해외 지사 엔지니어와의 기술 협업 및 인트라넷 기술 문서 공유를 위한 비즈니스 영어 역량.
 
----
+### 💼 AWS DCEO의 성장 단계 (Career Progression)
+```
+DCEO Technician (설비 운영 및 유지보수)
+  ➔ Lead DCEO / Site Lead (단일 데이터센터 설비 총괄 및 프로젝트 리드)
+  ➔ Data Center Chief Engineer (멀티 사이트 인프라 기술 아키텍처 총괄)
+  ➔ Facility Operations Manager (인프라 조직 총괄 매니지먼트)
+```
 
-## 3. 🔍 현직자가 밝힌 DCEO 팀의 5대 핵심 업무 & 엔지니어링 문화
-
-### ① 완벽한 리던던시(Redundancy, 이중화) & 24/365 무중단 비상 대응
-AWS 데이터센터는 모든 전력·냉각 라인에 철저한 **리던던시(이중화 및 N+1/2N 백업 시스템)**가 설계되어 있어, 단일 장비 장애가 발생하더라도 백업 라인이 즉각 동작하여 무중단 운영을 유지합니다. 전력망 차단, 배관 누수, 칠러 이상 등 다양한 장애 시나리오 기반 **정기 모의 훈련(Drill)**을 지속하여 실제 상황에서도 침착하게 표준 절차(SOP)대로 즉각 조치합니다.
-
-### ② 24/7 교대 근무의 예측 가능한 패턴과 확실한 워라밸
-교대 근무는 정해진 패턴에 따라 체계적으로 운영되며, 일정 조율을 통해 장기 휴가 사용이 자유롭습니다. 특히 **퇴근 후에는 비상 알람이 오직 교대 근무자에게만 발송**되므로, 근무 시간 이후에는 개인 여가 시간을 온전히 보장받는 건강한 워라밸 문화를 갖추고 있습니다.
-
-### ③ 글로벌 레슨런(Lesson Learned) & Kaizen(카이젠) 개선 문화
-전 세계 수십 개 리전에서 발생한 이슈 원인과 해결책을 **글로벌 엔지니어링 인트라넷을 통해 실시간 공유**하여 동일 이슈의 재발을 막습니다. 또한 연차나 직급에 관계없이 자유롭게 운영 효율화 아이디어를 제안하고 실행하는 **‘Kaizen(카이젠)’ 프로젝트**와 매니저와의 정기적인 **‘Growth Conversation’**을 통해 지속적인 성장을 지원합니다.
-
-### ④ 지속가능성(Sustainability) & 에너지 효율화 (PUE 혁신)
-AWS의 핵심 과제인 지속가능성을 위해 DCEO 엔지니어들은 냉각수 공급 온도 최적화, 기류 차폐(Containment), 신재생 에너지 연계 등을 끊임없이 연구하여 데이터센터 전력효율지수(PUE)를 세계 최고 수준으로 유지합니다.
-
-### ⑤ 체계적인 육성 프로그램 & 포용적 문화 (ID&E)
-비전공자나 신규 입사자도 기초 설비 지식부터 단계별 실무까지 체계적으로 배울 수 있는 **DCEO 트레이닝 프로그램**, 1:1 멘토링, 글로벌 어학 교육 및 해외 데이터센터 방문/견학 기회가 열려 있습니다. 서로의 다양성을 존중하는 ID&E(Inclusion, Diversity, Equity) 가치 아래 실수를 통해 함께 배우는 분위기가 조성되어 있습니다.
+### 🧠 DCEO 엔지니어에게 요구되는 아마존 리더십 원칙 (LP)
+- **Ownership (주인 의식)**: 내가 담당하는 전력·냉각 밸브 하나가 글로벌 고객의 가용성에 직결된다는 책임감.
+- **Dive Deep (깊게 파고들기)**: 이상 징후 발생 시 현장 데이터와 센서 로그를 끝까지 추적해 근본 원인 규명.
+- **Insist on the Highest Standards (최고 수준 추구)**: 사소한 절차 하나도 타협하지 않고 완벽한 안전과 무결성 준수.
 
 ---
 
-## 4. 🔗 공식 참고 자료 및 현직자 인터뷰 원문
+## 5. 🔗 공식 참고 자료 및 현직자 인터뷰 원문
 
-DCEO 팀의 생생한 현장 이야기와 직무 인터뷰, 워라밸 및 채용 정보는 아래 공식 링크를 통해 더 자세히 확인하실 수 있습니다.
+AWS DCEO 팀의 생생한 현장 업무와 인터뷰 원문은 아래 공식 링크를 통해 확인하실 수 있습니다.
 
 <!-- LINK PREVIEW CARD 1 -->
 <div style="margin: 20px 0; border: 1px solid #E2E8F0; border-radius: 12px; overflow: hidden; background: #FFFFFF; box-shadow: 0 4px 14px rgba(0,0,0,0.05); transition: transform 0.2s, box-shadow 0.2s;">
@@ -112,10 +188,10 @@ DCEO 팀의 생생한 현장 이야기와 직무 인터뷰, 워라밸 및 채용
           <span style="font-size: 12px; color: #64748B;">테크 콜라보 인터뷰 1편</span>
         </div>
         <div style="font-size: 16px; font-weight: 800; color: #0F172A; line-height: 1.4; margin-bottom: 6px;">
-          조코딩이 만난 AWS 데이터 센터 현직자들의 리얼 토크 (DCEO / DCO / Manager)
+          조코딩이 만난 AWS 데이터 센터 현직자들의 리얼 토크 (DCEO 문상현 님 외)
         </div>
         <div style="font-size: 13px; color: #475569; line-height: 1.5; margin-bottom: 10px;">
-          DCO 매니저 Josh Yang, DCO 정지현 님, DCEO 문상현 님이 들려주는 AI/ML 장비 대응, 모의 훈련(Drill) 체계, 그리고 신입 트레이닝 프로그램 이야기.
+          DCEO 트레이닝 프로그램을 통한 엔지니어 육성, 설비 비상 모의 훈련(Drill) 체계, 글로벌 엔지니어링 협업 이야기.
         </div>
       </div>
       <div style="font-size: 12px; color: #0284C7; font-weight: 700; display: flex; align-items: center; gap: 4px;">
@@ -138,7 +214,7 @@ DCEO 팀의 생생한 현장 이야기와 직무 인터뷰, 워라밸 및 채용
           AWS 데이터센터 현직자들이 말하는 워라밸, 채용 꿀팁, 카이젠(Kaizen) 문화
         </div>
         <div style="font-size: 13px; color: #475569; line-height: 1.5; margin-bottom: 10px;">
-          DCEO 전소현 님, DCO 엄준용 님, DCO 매니저 박미래 님이 전하는 무중단 리던던시(이중화), 교대 근무 워라밸, 기술 및 LP 면접 팁과 글로벌 커리어 기회.
+          DCEO 전소현 님이 전하는 무중단 리던던시(이중화), 교대 근무 워라밸, 기술 및 LP 면접 팁과 글로벌 커리어 기회.
         </div>
       </div>
       <div style="font-size: 12px; color: #0284C7; font-weight: 700; display: flex; align-items: center; gap: 4px;">
@@ -173,10 +249,7 @@ DCEO 팀의 생생한 현장 이야기와 직무 인터뷰, 워라밸 및 채용
 
 ---
 
-## 5. 💡 마치며: 어떤 사람에게 DCEO 직무가 매력적일까?
+## 6. 💡 요약: 클라우드 인프라의 물리적 심장을 책임지는 자부심
 
-- **기계/전기 전공 지식을 최첨단 클라우드 스케일로 확장**하고 싶은 엔지니어
-- 예상치 못한 장애나 위기 상황에서 **근본 원인을 끝까지 파고들어 해결(Dive Deep)**하는 성취감을 즐기는 빌더
-- 강력한 **오너십(Ownership)**을 가지고 글로벌 인프라 표준화에 기여하고 싶은 인재
-
-DCEO 팀은 전 세계 클라우드 생태계의 물리적 근간을 지탱하는 가장 자부심 넘치는 엔지니어링 조직입니다.
+AWS DCEO 팀은 단순히 설비를 고치는 유지보수자가 아닙니다. 메가와트급 전력 계통과 복잡한 열역학 냉각 루프, 자동화 BMS 제어 시스템을 결합하여 **전 세계 클라우드와 AI 가속기의 가동 시간을 결정짓는 최고의 MEP InfraOps 전문가 집단**입니다.  
+엔지니어로서 자신의 물리적 판단과 운영 노하우가 글로벌 하이퍼스케일 인프라의 표준이 되는 경험을 누릴 수 있는 가장 매력적이고 자부심 넘치는 조직입니다.
