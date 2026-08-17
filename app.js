@@ -447,7 +447,7 @@ function updatePageMeta(title, description, url) {
   if (!title || title === 'Home') {
     fullTitle = 'Datacenter InfraOps & Cloud Industry Notes';
   } else {
-    fullTitle = `${title} | Datacenter InfraOps & Cloud Industry Notes`;
+    fullTitle = `${title} | James Moon`;
   }
   document.title = fullTitle;
 
