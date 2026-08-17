@@ -18,16 +18,13 @@ labels:
 
 # 🏢 [Tech Deep Dive] 하이퍼스케일 클라우드를 움직이는 MEP 전문가: DCEO (Data Center Engineering Operations)
 
-> 전 세계 수백만 고객과 기업이 사용하는 클라우드 및 생성형 AI 인프라의 이면에는 365일 24시간 단 1초의 중단 없이 데이터센터를 안정적으로 가동하는 핵심 엔지니어링 조직이 있습니다. 바로 **DCEO(Data Center Engineering Operations)** 팀입니다.  
-> 본 아티클에서는 **DCEO의 핵심 역할인 MEP(기계·전기·배관) 및 소방/안전 인프라 운영 체계, 공식 직무 기술서(Job Description) 기반의 주요 직무 영역, 액체 냉각(Liquid Cooling)을 비롯한 차세대 인프라 기술 개발, 그리고 표준 운영 절차(MOP/SOP/EOP)**를 종합적으로 정리합니다.
-
 ---
 
 ## 1. ⚡ DCEO와 MEP 인프라의 핵심 역할
 
-**DCEO(Data Center Engineering Operations)**는 데이터센터 물리적 인프라의 **100% 가용성(Availability)과 최고 수준의 운영 신뢰성**을 책임지는 전문 엔지니어링 팀입니다. 
+전 세계 수백만 고객과 기업이 사용하는 클라우드 서비스의 이면에는 365일 24시간 단 1초의 중단 없이 데이터센터를 안정적으로 가동하는 핵심 엔지니어링 조직이 있습니다. 바로 **DCEO(Data Center Engineering Operations)** 팀입니다.
 
-자체 시설뿐만 아니라 **서드파티 코로케이션(Colocation) 시설** 내의 모든 전기, 기계, 배관 및 소방/안전 설비가 계약 규정(SLA)에 맞게 안전하고 효율적으로 가동되도록 현장과 벤더를 총괄 관리합니다.
+DCEO는 데이터센터 물리적 인프라의 **100% 가용성(Availability)과 최고 수준의 운영 신뢰성**을 책임지는 전문 엔지니어링 팀으로, 자체 시설뿐만 아니라 **서드파티 코로케이션(Colocation) 시설** 내의 모든 전기, 기계, 배관 및 소방/안전 설비가 계약 규정(SLA)에 맞게 안전하고 효율적으로 가동되도록 현장과 벤더를 총괄 관리합니다.
 
 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 16px; margin: 24px 0;">
   <div style="background: #F8FAFC; border: 1px solid #E2E8F0; border-radius: 12px; padding: 20px; border-top: 4px solid #F59E0B;">
@@ -223,7 +220,7 @@ DCEO 팀의 현장 이야기와 직무 인터뷰, 채용 관련 정보는 아래
           <span style="font-size: 12px; color: #64748B;">현직자 인터뷰</span>
         </div>
         <div style="font-size: 16px; font-weight: 800; color: #0F172A; line-height: 1.4; margin-bottom: 6px;">
-          AWS DCEO 팀의 하루가 궁금해요! (Site Lead 나현 님 인터뷰)
+          AWS DCEO 팀의 하루가 궁금해요! (DCEO 나현 님 인터뷰)
         </div>
         <div style="font-size: 13px; color: #475569; line-height: 1.5; margin-bottom: 10px;">
           기계공학 전공자가 클라우드 DC에 합류한 계기, 24시간 무중단 비상 대응 체계, 글로벌 엔지니어 협업 및 레슨런 문화에 대한 생생한 인터뷰를 확인하세요.
