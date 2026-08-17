@@ -1662,129 +1662,103 @@ body {
   }
   
   /* Newsletter & Email Table Mobile Responsive Engine */
-  .dc-reader-body table {
-    max-width: 100% !important;
-    box-sizing: border-box !important;
-  }
-  
-  .dc-reader-body .dc-raw-html-wrapper,
-  .dc-reader-body .dc-raw-html-wrapper > table,
-  .dc-reader-body .dc-raw-html-wrapper > table > tbody,
-  .dc-reader-body .dc-raw-html-wrapper > table > tbody > tr,
-  .dc-reader-body .dc-raw-html-wrapper > table > tbody > tr > td {
-    display: block !important;
-    width: 100% !important;
-    max-width: 100% !important;
-    min-width: 0 !important;
-    box-sizing: border-box !important;
-    padding-left: 0 !important;
-    padding-right: 0 !important;
-    border: none !important;
+  .dc-responsive-row {
+    display: table-row;
   }
 
-  .dc-reader-body table.responsive-outer,
-  .dc-reader-body .responsive-outer {
-    display: block !important;
-    width: 100% !important;
-    max-width: 100% !important;
-    min-width: 0 !important;
-    box-sizing: border-box !important;
-    border: 1px solid #CBD5E1 !important;
-    background-color: #FFFFFF !important;
-  }
+  @media (max-width: 992px) {
+    .dc-reader-body table.responsive-outer,
+    .dc-reader-body .responsive-outer {
+      width: 100% !important;
+      max-width: 100% !important;
+      box-sizing: border-box !important;
+    }
 
-  .dc-reader-body table.responsive-outer > tbody,
-  .dc-reader-body table.responsive-outer > tbody > tr,
-  .dc-reader-body table.responsive-outer > tbody > tr > td {
-    display: block !important;
-    width: 100% !important;
-    max-width: 100% !important;
-    min-width: 0 !important;
-    box-sizing: border-box !important;
-  }
+    .dc-reader-body .dc-responsive-row,
+    .dc-responsive-row {
+      display: flex !important;
+      flex-direction: column !important;
+      width: 100% !important;
+      max-width: 100% !important;
+      box-sizing: border-box !important;
+    }
 
-  /* 2-Column TRs convert to Flex Column Stack */
-  .dc-reader-body table.responsive-outer tr {
-    display: flex !important;
-    flex-direction: column !important;
-    width: 100% !important;
-    max-width: 100% !important;
-  }
+    .dc-reader-body td.responsive-col,
+    .dc-reader-body .responsive-col {
+      display: block !important;
+      width: 100% !important;
+      max-width: 100% !important;
+      min-width: 100% !important;
+      box-sizing: border-box !important;
+      margin-bottom: 24px !important;
+      padding: 16px 14px !important;
+      float: none !important;
+      clear: both !important;
+    }
 
-  .dc-reader-body td.responsive-col,
-  .dc-reader-body .responsive-col {
-    display: block !important;
-    width: 100% !important;
-    max-width: 100% !important;
-    min-width: 0 !important;
-    box-sizing: border-box !important;
-    margin-bottom: 16px !important;
-    padding: 16px 12px !important;
-  }
+    .dc-reader-body td.responsive-spacer,
+    .dc-reader-body .responsive-spacer {
+      display: none !important;
+      width: 0 !important;
+      height: 0 !important;
+      padding: 0 !important;
+      margin: 0 !important;
+      border: none !important;
+    }
 
-  .dc-reader-body td.responsive-spacer,
-  .dc-reader-body .responsive-spacer {
-    display: none !important;
-    width: 0 !important;
-    height: 0 !important;
-    padding: 0 !important;
-    border: none !important;
-  }
+    /* Sub-tables strictly inside responsive-col (Market Indicators table) */
+    .dc-reader-body td.responsive-col table {
+      display: table !important;
+      width: 100% !important;
+      max-width: 100% !important;
+      table-layout: fixed !important;
+      box-sizing: border-box !important;
+    }
 
-  /* Inner data tables (Market Indicators table & card sub-tables) */
-  .dc-reader-body td.responsive-col table,
-  .dc-reader-body table.responsive-outer td table {
-    display: table !important;
-    width: 100% !important;
-    max-width: 100% !important;
-    table-layout: fixed !important;
-    box-sizing: border-box !important;
-  }
+    .dc-reader-body td.responsive-col table tbody {
+      display: table-row-group !important;
+    }
 
-  .dc-reader-body td.responsive-col table tbody,
-  .dc-reader-body table.responsive-outer td table tbody {
-    display: table-row-group !important;
-  }
+    .dc-reader-body td.responsive-col table tr {
+      display: table-row !important;
+      width: 100% !important;
+    }
 
-  .dc-reader-body td.responsive-col table tr,
-  .dc-reader-body table.responsive-outer td table tr {
-    display: table-row !important;
-    width: 100% !important;
-  }
+    .dc-reader-body td.responsive-col table td,
+    .dc-reader-body td.responsive-col table th {
+      display: table-cell !important;
+      box-sizing: border-box !important;
+      word-break: break-word !important;
+      font-size: 11px !important;
+      padding: 6px 3px !important;
+    }
 
-  .dc-reader-body td.responsive-col table td,
-  .dc-reader-body td.responsive-col table th,
-  .dc-reader-body table.responsive-outer td table td,
-  .dc-reader-body table.responsive-outer td table th {
-    display: table-cell !important;
-    box-sizing: border-box !important;
-    word-break: break-word !important;
-  }
+    /* 2x2 Chart Grid images inside responsive-col: 1 column stack */
+    .dc-reader-body td.responsive-col table tr td[align="center"] {
+      display: block !important;
+      width: 100% !important;
+      padding: 4px 0 !important;
+      box-sizing: border-box !important;
+    }
 
-  /* 2x2 Chart Grid: stack images 1-column */
-  .dc-reader-body td.responsive-col table tr td[align="center"] {
-    display: block !important;
-    width: 100% !important;
-    padding: 4px 0 !important;
-  }
+    .dc-reader-body td.responsive-col img {
+      width: 100% !important;
+      max-width: 100% !important;
+      height: auto !important;
+      display: block !important;
+      margin: 0 auto !important;
+      box-sizing: border-box !important;
+    }
 
-  .dc-reader-body img:not([width="1"]) {
-    width: 100% !important;
-    max-width: 100% !important;
-    height: auto !important;
-    display: block !important;
-    margin: 0 auto !important;
-    box-sizing: border-box !important;
-  }
-
-  .dc-reader-body td[style*="padding: 26px 36px"],
-  .dc-reader-body td[style*="padding: 28px 36px"],
-  .dc-reader-body td[style*="padding: 0 36px 28px 36px"],
-  .dc-reader-body td[style*="padding: 20px 36px"],
-  .dc-reader-body td[style*="padding: 24px 36px"],
-  .dc-reader-body td[style*="padding: 30px 36px"],
-  .dc-reader-body td[style*="padding: 20px 24px"] {
-    padding: 16px 12px !important;
+    .dc-reader-body td[style*="padding: 26px 36px"],
+    .dc-reader-body td[style*="padding: 28px 36px"],
+    .dc-reader-body td[style*="padding: 0 36px 28px 36px"],
+    .dc-reader-body td[style*="padding: 20px 36px"],
+    .dc-reader-body td[style*="padding: 24px 36px"],
+    .dc-reader-body td[style*="padding: 30px 36px"],
+    .dc-reader-body td[style*="padding: 20px 24px"] {
+      padding: 16px 12px !important;
+    }
   }
 
   .dc-post-nav {
