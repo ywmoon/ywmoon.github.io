@@ -187,10 +187,16 @@ function initDropdowns() {
   });
 }
 
+function getAbsoluteUrl(path) {
+  if (!path) return '';
+  if (path.startsWith('http://') || path.startsWith('https://')) return path;
+  return '/' + path.replace(/^\//, '');
+}
+
 // ─── Load Posts (lightweight index) ──────────────────────────────
 async function loadPosts() {
   try {
-    const res = await fetch('data/posts.json?_t=' + Date.now());
+    const res = await fetch(getAbsoluteUrl('data/posts.json') + '?_t=' + Date.now());
     if (!res.ok) throw new Error('Failed to load posts');
     allPosts = await res.json();
     const CAT_PRIORITY = {
@@ -266,7 +272,8 @@ function parseMd(raw) {
 async function loadArticleContent(post) {
   if (!post.content_file) return post.summary || '';
   try {
-    const res = await fetch(post.content_file + '?_t=' + Date.now());
+    const fileUrl = getAbsoluteUrl(post.content_file) + '?_t=' + Date.now();
+    const res = await fetch(fileUrl);
     if (!res.ok) throw new Error('Not found');
     const raw = await res.text();
     const { body } = parseMd(raw);
