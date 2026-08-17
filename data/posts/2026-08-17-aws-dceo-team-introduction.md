@@ -147,6 +147,83 @@ AWS DCEO의 안정성은 단순히 좋은 장비에서 나오는 것이 아니�
 
 AWS DCEO 팀의 생생한 현장 업무와 인터뷰 원문은 아래 공식 링크를 통해 확인하실 수 있습니다.
 
+## 5. 🔗 공식 참고 자료 및 글로벌 레퍼런스
+
+### 🌐 AWS 글로벌 공식 인프라 & 엔지니어링 레퍼런스
+
+<!-- GLOBAL LINK PREVIEW CARD 1 -->
+<div style="margin: 20px 0; border: 1px solid #E2E8F0; border-radius: 12px; overflow: hidden; background: #FFFFFF; box-shadow: 0 4px 14px rgba(0,0,0,0.05); transition: transform 0.2s, box-shadow 0.2s;">
+  <a href="https://aws.amazon.com/about-aws/global-infrastructure/" target="_blank" style="text-decoration: none; display: flex; flex-wrap: wrap; color: inherit;">
+    <div style="flex: 1 1 300px; padding: 18px 22px; display: flex; flex-direction: column; justify-content: space-between;">
+      <div>
+        <div style="display: flex; align-items: center; gap: 6px; margin-bottom: 6px;">
+          <span style="background: #232F3E; color: #FF9900; font-size: 11px; font-weight: 800; padding: 2px 8px; border-radius: 4px;">AWS Global</span>
+          <span style="font-size: 12px; color: #64748B;">인프라 아키텍처</span>
+        </div>
+        <div style="font-size: 16px; font-weight: 800; color: #0F172A; line-height: 1.4; margin-bottom: 6px;">
+          AWS Global Infrastructure Architecture & Availability Zones
+        </div>
+        <div style="font-size: 13px; color: #475569; line-height: 1.5; margin-bottom: 10px;">
+          전 세계 33개 이상의 리전과 100개 이상의 가용 영역(AZ)을 지탱하는 AWS 데이터센터의 물리적 이중화, 독립 전력망, 내진 및 방재 인프라 공식 설계 가이드입니다.
+        </div>
+      </div>
+      <div style="font-size: 12px; color: #0284C7; font-weight: 700; display: flex; align-items: center; gap: 4px;">
+        🔗 aws.amazon.com/about-aws/global-infrastructure 원문 바로가기 →
+      </div>
+    </div>
+  </a>
+</div>
+
+<!-- GLOBAL LINK PREVIEW CARD 2 -->
+<div style="margin: 20px 0; border: 1px solid #E2E8F0; border-radius: 12px; overflow: hidden; background: #FFFFFF; box-shadow: 0 4px 14px rgba(0,0,0,0.05); transition: transform 0.2s, box-shadow 0.2s;">
+  <a href="https://sustainability.aboutamazon.com/products-services/aws-cloud" target="_blank" style="text-decoration: none; display: flex; flex-wrap: wrap; color: inherit;">
+    <div style="flex: 1 1 300px; padding: 18px 22px; display: flex; flex-direction: column; justify-content: space-between;">
+      <div>
+        <div style="display: flex; align-items: center; gap: 6px; margin-bottom: 6px;">
+          <span style="background: #059669; color: #FFFFFF; font-size: 11px; font-weight: 800; padding: 2px 8px; border-radius: 4px;">Amazon Sustainability</span>
+          <span style="font-size: 12px; color: #64748B;">지속가능성 & PUE</span>
+        </div>
+        <div style="font-size: 16px; font-weight: 800; color: #0F172A; line-height: 1.4; margin-bottom: 6px;">
+          AWS Cloud Data Center Sustainability & Water-Positive Engineering
+        </div>
+        <div style="font-size: 13px; color: #475569; line-height: 1.5; margin-bottom: 10px;">
+          100% 재생 에너지 전환, 혁신적인 외기 냉방(Direct Evaporative Cooling), 폐수 재활용 및 데이터센터 탄소 발자국 감축 엔지니어링 공식 리포트입니다.
+        </div>
+      </div>
+      <div style="font-size: 12px; color: #0284C7; font-weight: 700; display: flex; align-items: center; gap: 4px;">
+        🔗 sustainability.aboutamazon.com/products-services/aws-cloud 원문 바로가기 →
+      </div>
+    </div>
+  </a>
+</div>
+
+<!-- GLOBAL LINK PREVIEW CARD 3 -->
+<div style="margin: 20px 0; border: 1px solid #E2E8F0; border-radius: 12px; overflow: hidden; background: #FFFFFF; box-shadow: 0 4px 14px rgba(0,0,0,0.05); transition: transform 0.2s, box-shadow 0.2s;">
+  <a href="https://www.amazon.jobs/en/job_categories/operations-it-data-center-support" target="_blank" style="text-decoration: none; display: flex; flex-wrap: wrap; color: inherit;">
+    <div style="flex: 1 1 300px; padding: 18px 22px; display: flex; flex-direction: column; justify-content: space-between;">
+      <div>
+        <div style="display: flex; align-items: center; gap: 6px; margin-bottom: 6px;">
+          <span style="background: #D97706; color: #FFFFFF; font-size: 11px; font-weight: 800; padding: 2px 8px; border-radius: 4px;">Amazon Jobs</span>
+          <span style="font-size: 12px; color: #64748B;">글로벌 DCEO 채용</span>
+        </div>
+        <div style="font-size: 16px; font-weight: 800; color: #0F172A; line-height: 1.4; margin-bottom: 6px;">
+          Global AWS Data Center Engineering Operations (DCEO) Career Portal
+        </div>
+        <div style="font-size: 13px; color: #475569; line-height: 1.5; margin-bottom: 10px;">
+          미국 버지니아, 유럽, 아시아 등 글로벌 전역의 AWS DCEO Chief Engineer, Facility Operations Manager 및 DCOT 엔지니어 공식 채용 공고와 상세 직무 기술서입니다.
+        </div>
+      </div>
+      <div style="font-size: 12px; color: #0284C7; font-weight: 700; display: flex; align-items: center; gap: 4px;">
+        🔗 amazon.jobs/.../operations-it-data-center-support 채용 포털 바로가기 →
+      </div>
+    </div>
+  </a>
+</div>
+
+---
+
+### 🇰🇷 AWS Korea 현직자 인터뷰 & 컬처 스토리
+
 <!-- LINK PREVIEW CARD 1 -->
 <div style="margin: 20px 0; border: 1px solid #E2E8F0; border-radius: 12px; overflow: hidden; background: #FFFFFF; box-shadow: 0 4px 14px rgba(0,0,0,0.05); transition: transform 0.2s, box-shadow 0.2s;">
   <a href="https://blog.naver.com/aws_culture/223774187556" target="_blank" style="text-decoration: none; display: flex; flex-wrap: wrap; color: inherit;">
