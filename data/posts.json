@@ -22,6 +22,25 @@
     "content_file": "data/posts/2026-08-17-daily-infraops-briefing.md"
   },
   {
+    "id": "2026-08-17-aws-dceo-team-introduction",
+    "title": "[Tech Deep Dive] 클라우드의 심장을 뛰게 하는 엔지니어: AWS DCEO(Data Center Engineering Operations) 팀 완벽 가이드",
+    "date": "2026-08-17",
+    "time": "21:35",
+    "updated": "2026-08-17 21:34",
+    "category": "Tech Deep Dive",
+    "labels": [
+      "AWS",
+      "DCEO",
+      "데이터센터",
+      "클라우드인프라",
+      "DCO",
+      "인프라엔지니어링"
+    ],
+    "summary": "클라우드 인프라의 핵심 기반인 전기·기계·냉각 설비의 A to Z를 책임지는 AWS DCEO 팀의 핵심 역할, 24/365 무중단 비상 대응 체계, DCO와의 직무 차이 및 글로벌 엔지니어링 문화를 현직자 인터뷰와 함께 심층 분석합니다.",
+    "status": "hidden",
+    "content_file": "data/posts/2026-08-17-aws-dceo-team-introduction.md"
+  },
+  {
     "id": "2026-08-17-august-megafarm-deepdive",
     "title": "[테크 딥다이브] '10GW AI 데이터센터'의 물리적 한계와 '컴퓨팅 금융 플랫폼': 빅테크 전력 전쟁의 패러다임 전환",
     "date": "2026-08-17",
