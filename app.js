@@ -277,6 +277,17 @@ async function loadArticleContent(post) {
     if (!res.ok) throw new Error('Not found');
     const raw = await res.text();
     const { body } = parseMd(raw);
+    
+    // Parse markdown if marked library is available
+    if (typeof marked !== 'undefined') {
+      marked.setOptions({
+        gfm: true,
+        breaks: true,
+        headerIds: true,
+        mangle: false
+      });
+      return marked.parse(body);
+    }
     return body;
   } catch (e) {
     return `<p style="color:var(--text-muted)">콘텐츠를 불러오지 못했습니다: ${e.message}</p>`;
@@ -560,7 +571,27 @@ async function openArticleView(articleId) {
   // 4. Build Table of Contents (TOC)
   buildTableOfContents(bodyEl);
 
-  // 4. Setup 1-Click Code Block Copy Buttons (Feature D)
+  // 4-1. Render Mermaid Diagrams if present
+  if (typeof mermaid !== 'undefined') {
+    const mermaidBlocks = bodyEl.querySelectorAll('.language-mermaid, pre code.language-mermaid');
+    if (mermaidBlocks.length > 0) {
+      mermaidBlocks.forEach((block) => {
+        const parent = block.closest('pre') || block;
+        const code = block.textContent;
+        const div = document.createElement('div');
+        div.className = 'mermaid';
+        div.textContent = code;
+        parent.parentNode.replaceChild(div, parent);
+      });
+      try {
+        mermaid.run({ nodes: bodyEl.querySelectorAll('.mermaid') });
+      } catch (err) {
+        console.warn('Mermaid rendering error:', err);
+      }
+    }
+  }
+
+  // 4-2. Setup 1-Click Code Block Copy Buttons (Feature D)
   setupCodeBlockCopyButtons(bodyEl);
 
   // 5. Enhance Podcast Audio Player (Feature E)
