@@ -1558,7 +1558,7 @@ function generateArticleStubHtml(post) {
   const summary = (post.summary || post.title || '').replace(/&/g, '&amp;').replace(/"/g, '&quot;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
   const canonicalUrl = `https://ywmoon.github.io/article/${post.id}/`;
   const spaUrl = `https://ywmoon.github.io/#article/${post.id}`;
-  const fullTitle = `${title} | James Moon Tech Blog`;
+  const fullTitle = `${title} | James Moon`;
 
   return `<!DOCTYPE html>
 <html lang="ko">
