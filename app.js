@@ -290,13 +290,11 @@ async function loadArticleContent(post) {
       const styleMatches = trimmed.match(/<style[^>]*>[\s\S]*?<\/style>/gi);
       const styles = styleMatches ? styleMatches.join('\n') : '';
       
-      // Clean fixed inline widths so tables naturally adapt to mobile and desktop
-      htmlContent = htmlContent
-        .replace(/width=["']1100["']/gi, 'width="100%"')
-        .replace(/width:\s*1100px;?/gi, 'width: 100%;')
-        .replace(/max-width:\s*1100px;?/gi, 'max-width: 100%;')
-        .replace(/width:\s*50[0-9]px;?/gi, 'width: 100%; max-width: 100%;')
-        .replace(/max-width:\s*50[0-9]px;?/gi, 'max-width: 100%;');
+      // Tag 2-column TRs with class dc-responsive-row for seamless mobile 1-column stacking
+      htmlContent = htmlContent.replace(
+        /<tr([^>]*)>(\s*(?:<!--[\s\S]*?-->\s*)*<td[^>]*class=["'][^"']*responsive-col)/gi,
+        '<tr$1 class="dc-responsive-row">$2'
+      );
 
       return `<div class="dc-raw-html-wrapper">${styles}${htmlContent}</div>`;
     }
