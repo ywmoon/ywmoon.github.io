@@ -1,10 +1,122 @@
 [
   {
+    "id": "2026-08-19-daily-infraops-briefing",
+    "title": "[2026.08.19] 오늘의 글로벌 클라우드 & 데이터센터 인프라 핵심 동향 브리핑",
+    "date": "2026-08-19",
+    "time": "05:47",
+    "updated": "2026-08-19 05:47",
+    "category": "Daily Briefing",
+    "labels": [
+      "AWS",
+      "클라우드",
+      "데이터센터",
+      "AI인프라",
+      "엔비디아",
+      "오픈AI",
+      "오라클",
+      "구글클라우드",
+      "마이크로소프트",
+      "액체냉각",
+      "인프라동향"
+    ],
+    "summary": "Daily InfraOps Digest 글로벌 클라우드 & 데이터센터 인프라 핵심 브리핑 발행일: 2026년 8월 19일 | 작성: 수석 테크 에디터 📌 오늘의 3대 핵심 관전 포인트 (Key Highlights) 엔비디아, 오픈AI DC에 1050억 달러(약 150조 원) 초대형 지원: 젠슨 황 CEO가 '순환금융(Circular Financing)' 논",
+    "status": "published",
+    "content_file": "data/posts/2026-08-19-daily-infraops-briefing.md"
+  },
+  {
+    "id": "2026-08-19-august-megafarm-deepdive",
+    "title": "[테크 딥다이브] '모델 경쟁'에서 '에이전트 거버넌스'로: 엔터프라이즈 멀티 에이전트 오케스트레이션과 인프라 아키텍처의 패러다임 전환",
+    "date": "2026-08-19",
+    "time": "05:47",
+    "updated": "2026-08-19 05:47",
+    "category": "Tech Deep Dive",
+    "labels": [
+      "테크딥다이브",
+      "AI에이전트",
+      "에이전트거버넌스",
+      "AWS",
+      "클라우드인프라",
+      "데이터센터"
+    ],
+    "summary": "Infrastructure Deep Dive 엔터프라이즈 AI의 2막: 수십만 자율 에이전트 생태계를 지탱하는 거버넌스 패브릭(Fabric)과 인프라 혁신 단일 거대언어모델(LLM) 파라미터 경쟁을 넘어, 수천·수만 개의 이기종 에이전트가 협업하는 분산 오케스트레이션 환경에서의 보안, 감사 추적, TCO 최적화 아키텍처를 심층 분석합니다. 🚀 서론: 기술 ",
+    "status": "published",
+    "content_file": "data/posts/2026-08-19-august-megafarm-deepdive.md"
+  },
+  {
+    "id": "2026-08-19-infra-glossary",
+    "title": "[인프라 용어사전] D2C 액체냉각 (Direct-to-Chip Liquid Cooling) - 랙당 100kW+ AI 하이퍼스케일 시대를 여는 칩 직냉 기술",
+    "date": "2026-08-19",
+    "time": "05:47",
+    "updated": "2026-08-19 05:47",
+    "category": "Terminology",
+    "labels": [
+      "인프라용어사전",
+      "IT백과사전",
+      "D2C액체냉각",
+      "DirectToChip",
+      "AWS",
+      "데이터센터",
+      "액체냉각"
+    ],
+    "summary": "데이터센터 열관리 & 하드웨어 아키텍처 D2C 액체냉각 (Direct-to-Chip Cooling) 고발열 차세대 AI 가속기(GPU/NPU) 표면에 콜드플레이트를 직접 밀착시켜 냉각수를 순환시키는 고효율 열교환 인프라 기술 📌 1. 30초 핵심 요약 & 개념 정의 D2C(Direct-to-Chip, 직접 칩 냉각) 기술은 공기로 서버 내부 전체를 식히는 ",
+    "status": "published",
+    "content_file": "data/posts/2026-08-19-infra-glossary.md"
+  },
+  {
+    "id": "2026-08-19-10min-tech-podcast",
+    "title": "[2026.08.19] [10-Min English Podcast] Global CapEx Realignment, Power & Thermal Breakthroughs, and the Regulatory Wall",
+    "date": "2026-08-19",
+    "time": "05:47",
+    "updated": "2026-08-19 05:47",
+    "category": "Podcast",
+    "labels": [
+      "EnglishPodcast",
+      "TechEnglish",
+      "비즈니스영어",
+      "AWS",
+      "AI인프라",
+      "데이터센터",
+      "액체냉각",
+      "전력망"
+    ],
+    "summary": "🎧 10-MIN TECH ENGLISH PODCAST [2026.08.19] [10-Min English Podcast] Global CapEx Realignment, Power & Thermal Breakthroughs, and the Regulatory Wall 오늘의 10분 심층 팟캐스트는 글로벌 AI 인프라 CapEx 재편, 아마존의 180억 달러 ",
+    "status": "published",
+    "content_file": "data/posts/2026-08-19-10min-tech-podcast.md"
+  },
+  {
+    "id": "2026-08-19-dc-infraops-trends-report",
+    "title": "DC InfraOps Trends - 2026년 08월 19일",
+    "date": "2026-08-19",
+    "time": "05:47",
+    "updated": "2026-08-19 05:47",
+    "category": "Newsletter",
+    "labels": [
+      "AWS",
+      "데이터센터",
+      "클라우드",
+      "AI인프라",
+      "DC-Trends",
+      "Daily-Newsletter",
+      "SMR",
+      "원전",
+      "엔비디아",
+      "액체냉각",
+      "전력망",
+      "마이크로소프트",
+      "구글",
+      "오라클",
+      "신재생에너지"
+    ],
+    "summary": "Datacenter & Cloud Industry InfraOps Daily (2-Column) DAILY DIGEST Datacenter & Cloud Industry InfraOps Daily 2026년 08월 19일 (수) 💡 AI Executive Summary: Key News Insights 글로벌 빅테크의 AI 인프라 확장이 거점 다변화와 클라",
+    "status": "published",
+    "content_file": "data/posts/2026-08-19-dc-infraops-trends-report.md"
+  },
+  {
     "id": "2026-08-18-daily-infraops-briefing",
     "title": "[2026.08.18] 엔비디아의 전력·금융 영토 확장과 하이퍼스케일러의 AI 인프라 격변",
     "date": "2026-08-18",
     "time": "05:44",
-    "updated": "2026-08-18 06:35",
+    "updated": "2026-08-18 05:44",
     "category": "Daily Briefing",
     "labels": [
       "엔비디아",
