@@ -1,5 +1,116 @@
 [
   {
+    "id": "2026-08-20-daily-infraops-briefing",
+    "title": "[2026.08.20] 오늘의 글로벌 클라우드 & 데이터센터 인프라 핵심 동향 브리핑",
+    "date": "2026-08-20",
+    "time": "05:46",
+    "updated": "2026-08-20 05:46",
+    "category": "Daily Briefing",
+    "labels": [
+      "AWS",
+      "오라클",
+      "클라우드",
+      "데이터센터",
+      "NHN클라우드",
+      "삼성전자",
+      "엔비디아",
+      "AI인프라",
+      "액체냉각",
+      "PUE",
+      "노르딕"
+    ],
+    "summary": "Daily InfraOps Digest 2026년 8월 20일 글로벌 클라우드 & 데이터센터 인프라 브리핑 엔터프라이즈 멀티클라우드 통합, 초대형 GPU 팩토리 가동, 차세대 데이터센터 냉각 설비 및 노르딕 청정에너지 허브 분석 📌 오늘의 3대 핵심 관전 포인트 (Key Highlights) 하이브리드·멀티클라우드 표준화 가속: 오라클과 AWS의 심층 연동",
+    "status": "published",
+    "content_file": "data/posts/2026-08-20-daily-infraops-briefing.md"
+  },
+  {
+    "id": "2026-08-20-august-megafarm-deepdive",
+    "title": "[테크 딥다이브] 랙당 100kW 시대의 필연적 선택: 블랙웰(Blackwell) B200 7,656장 집약과 D2C 액체 냉각 아키텍처의 열역학적 진화",
+    "date": "2026-08-20",
+    "time": "05:46",
+    "updated": "2026-08-20 05:46",
+    "category": "Tech Deep Dive",
+    "labels": [
+      "테크딥다이브",
+      "액체냉각",
+      "블랙웰B200",
+      "엔비디아",
+      "데이터센터",
+      "NHN클라우드",
+      "인프라아키텍처"
+    ],
+    "summary": "Architecture Deep Dive 공랭의 물리적 한계 돌파: B200 초대규모 클러스터와 액체 냉각(Liquid Cooling) 인프라 대전환 초거대 AI 모델의 파라미터 폭증과 엔비디아 블랙웰(Blackwell) 아키텍처 도입은 데이터센터 랙당 전력 밀도를 100kW 이상으로 끌어올렸습니다. 7,656장에 달하는 B200 GPU를 단일 클러스터로 ",
+    "status": "published",
+    "content_file": "data/posts/2026-08-20-august-megafarm-deepdive.md"
+  },
+  {
+    "id": "2026-08-20-infra-glossary",
+    "title": "[인프라 용어사전] CDU (Coolant Distribution Unit) - 초거대 AI 데이터센터 수랭 혁신의 심장",
+    "date": "2026-08-20",
+    "time": "05:46",
+    "updated": "2026-08-20 05:46",
+    "category": "Terminology",
+    "labels": [
+      "인프라용어사전",
+      "IT백과사전",
+      "CDU",
+      "수랭식냉각",
+      "AI데이터센터",
+      "NHN클라우드",
+      "엔비디아"
+    ],
+    "summary": "냉각 인프라 아키텍처 CDU (Coolant Distribution Unit, 냉각수 분배 장치) 랙당 100kW가 넘는 블랙웰(B200) 시대를 지탱하는 유체 순환과 열교환의 중앙 관제 센터 📌 1. 30초 핵심 요약 & 개념 정의 CDU(Coolant Distribution Unit, 냉각수 분배 장치)는 고밀도 AI 데이터센터의 액체 냉각(Liquid",
+    "status": "published",
+    "content_file": "data/posts/2026-08-20-infra-glossary.md"
+  },
+  {
+    "id": "2026-08-20-10min-tech-podcast",
+    "title": "[2026.08.20] [10-Min English Podcast] The Hyper-Dense Compute Frontier: SMR Alliances, Direct-to-Chip Thermal Scaling, and Gridlock Politics",
+    "date": "2026-08-20",
+    "time": "05:46",
+    "updated": "2026-08-20 05:46",
+    "category": "Podcast",
+    "labels": [
+      "EnglishPodcast",
+      "TechEnglish",
+      "비즈니스영어",
+      "AI인프라",
+      "데이터센터",
+      "액체냉각",
+      "SMR"
+    ],
+    "summary": "🎧 10-MIN TECH ENGLISH PODCAST [2026.08.20] [10-Min English Podcast] The Hyper-Dense Compute Frontier: SMR Alliances, Direct-to-Chip Thermal Scaling, and Gridlock Politics 오늘의 10분 심층 팟캐스트는 구글의 오클라호마 50",
+    "status": "published",
+    "content_file": "data/posts/2026-08-20-10min-tech-podcast.md"
+  },
+  {
+    "id": "2026-08-20-dc-infraops-trends-report",
+    "title": "DC InfraOps Trends - 2026년 08월 20일",
+    "date": "2026-08-20",
+    "time": "05:46",
+    "updated": "2026-08-20 05:46",
+    "category": "Newsletter",
+    "labels": [
+      "AWS",
+      "데이터센터",
+      "클라우드",
+      "AI인프라",
+      "DC-Trends",
+      "Daily-Newsletter",
+      "SMR",
+      "원전",
+      "엔비디아",
+      "액체냉각",
+      "전력망",
+      "마이크로소프트",
+      "구글",
+      "오라클"
+    ],
+    "summary": "Datacenter & Cloud Industry InfraOps Daily (2-Column) DAILY DIGEST Datacenter & Cloud Industry InfraOps Daily 2026년 08월 20일 (목) 💡 AI Executive Summary: Key News Insights 글로벌 빅테크의 AI 인프라 투자가 초대형 하이퍼스케일",
+    "status": "published",
+    "content_file": "data/posts/2026-08-20-dc-infraops-trends-report.md"
+  },
+  {
     "id": "2026-08-19-daily-infraops-briefing",
     "title": "[2026.08.19] 오늘의 글로벌 클라우드 & 데이터센터 인프라 핵심 동향 브리핑",
     "date": "2026-08-19",
