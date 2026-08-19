@@ -296,6 +296,13 @@ async function loadArticleContent(post) {
         '<tr$1 class="dc-responsive-row">$2'
       );
 
+      // Sanitize fixed width 1100px attributes and outer padding-left 20px so tables are 100% fluid
+      htmlContent = htmlContent
+        .replace(/width=["']1100["']/gi, 'width="100%"')
+        .replace(/width:\s*1100px;?/gi, 'width: 100%;')
+        .replace(/max-width:\s*1100px;?/gi, 'max-width: 100%;')
+        .replace(/padding-left:\s*20px;?/gi, 'padding-left: 0;');
+
       return `<div class="dc-raw-html-wrapper">${styles}${htmlContent}</div>`;
     }
     
