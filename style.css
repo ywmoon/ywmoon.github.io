@@ -1701,16 +1701,26 @@ body {
     box-sizing: border-box !important;
   }
 
-  /* 3. Main container table (.responsive-outer) */
+  /* 3. Main container table (.responsive-outer) => Convert to 100% Fluid Block on Mobile */
   .dc-reader-body table.responsive-outer,
   .dc-reader-body .responsive-outer,
   table.responsive-outer {
     width: 100% !important;
     max-width: 100% !important;
     min-width: 0 !important;
-    margin: 0 auto !important;
-    border-left: none !important;
-    border-right: none !important;
+    margin: 0 !important;
+    border: none !important;
+    box-sizing: border-box !important;
+    display: block !important;
+  }
+
+  .dc-reader-body table.responsive-outer > tbody,
+  .dc-reader-body table.responsive-outer > tbody > tr,
+  .dc-reader-body table.responsive-outer > tbody > tr > td,
+  .dc-reader-body table.responsive-outer > tr > td {
+    display: block !important;
+    width: 100% !important;
+    max-width: 100% !important;
     box-sizing: border-box !important;
   }
 
