@@ -289,19 +289,35 @@ async function loadArticleContent(post) {
       let htmlContent = bodyMatch ? bodyMatch[1] : trimmed;
       const styleMatches = trimmed.match(/<style[^>]*>[\s\S]*?<\/style>/gi);
       const styles = styleMatches ? styleMatches.join('\n') : '';
+
+      // 1. Unwrap outer email table shell (<table ... padding: 25px 0><td ... padding-left: 20px>)
+      htmlContent = htmlContent.replace(/<table[^>]*style="[^"]*padding:\s*25px 0[^"]*"[^>]*>\s*<tr[^>]*>\s*<td[^>]*style="[^"]*padding-left:\s*20px[^"]*"[^>]*>/i, '');
+      htmlContent = htmlContent.replace(/<\/td>\s*<\/tr>\s*<\/table>\s*$/i, '');
       
-      // Tag 2-column TRs with class dc-responsive-row for seamless mobile 1-column stacking
+      // 2. Tag 2-column TRs with class dc-responsive-row for seamless mobile 1-column stacking
       htmlContent = htmlContent.replace(
         /<tr([^>]*)>(\s*(?:<!--[\s\S]*?-->\s*)*<td[^>]*class=["'][^"']*responsive-col)/gi,
         '<tr$1 class="dc-responsive-row">$2'
       );
 
-      // Sanitize fixed width 1100px attributes and outer padding-left 20px so tables are 100% fluid
+      // 3. Sanitize fixed desktop widths (1100, 500, 504) and outer paddings
       htmlContent = htmlContent
-        .replace(/width=["']1100["']/gi, 'width="100%"')
-        .replace(/width:\s*1100px;?/gi, 'width: 100%;')
-        .replace(/max-width:\s*1100px;?/gi, 'max-width: 100%;')
-        .replace(/padding-left:\s*20px;?/gi, 'padding-left: 0;');
+        .replace(/width=["'](1100|500|504)["']/gi, 'width="100%"')
+        .replace(/(?:max-)?width:\s*(?:1100|500|504)px;?/gi, '')
+        .replace(/padding-left:\s*20px;?/gi, '')
+        .replace(/padding:\s*26px 36px/gi, 'padding: 16px 14px')
+        .replace(/padding:\s*28px 36px 18px 36px/gi, 'padding: 16px 14px')
+        .replace(/padding:\s*0 36px 28px 36px/gi, 'padding: 16px 14px')
+        .replace(/padding:\s*20px 24px/gi, 'padding: 14px 12px')
+        .replace(/padding:\s*20px 36px/gi, 'padding: 14px 12px')
+        .replace(/padding:\s*24px 36px/gi, 'padding: 14px 12px')
+        .replace(/padding:\s*30px 36px/gi, 'padding: 14px 12px');
+
+      // 4. Responsive header title styling with word wrapping
+      htmlContent = htmlContent.replace(
+        /font-size:\s*24px;\s*font-weight:\s*800;\s*line-height:\s*1.3em;/gi,
+        'font-size: 19px; font-weight: 800; line-height: 1.35em; word-break: break-word; overflow-wrap: break-word;'
+      );
 
       return `<div class="dc-raw-html-wrapper">${styles}${htmlContent}</div>`;
     }
