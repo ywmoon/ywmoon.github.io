@@ -1843,6 +1843,17 @@ body {
     white-space: nowrap !important;
   }
 
+  /* 10. AI Summary text justification and wrapping */
+  .dc-reader-body td[style*="text-align: justify"],
+  .dc-reader-body td[style*="text-align:justify"] {
+    text-align: left !important;
+    word-break: break-word !important;
+    overflow-wrap: break-word !important;
+    font-size: 13.5px !important;
+    line-height: 1.7 !important;
+    padding: 12px 10px !important;
+  }
+
   .dc-post-nav {
     grid-template-columns: 1fr;
     gap: 10px;
