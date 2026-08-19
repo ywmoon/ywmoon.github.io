@@ -15,6 +15,7 @@ labels:
   - 데이터센터
   - 액체냉각
   - 전력망
+updated: "2026-08-19 20:28"
 ---
 
 
@@ -50,92 +51,6 @@ labels:
         </div>
 
         <!-- Section 2: Key Expressions -->
-        <h3 style="font-size: 18px; font-weight: 700; color: #0F172A; border-left: 4px solid #3B82F6; padding-left: 12px; margin: 30px 0 16px 0;">
-            💡 Today's Essential Business English (오늘의 핵심 비즈니스 영어 표현 5선)
-        </h3>
-        <p style="font-size: 13.5px; color: #64748B; margin-bottom: 16px;">
-            오늘 팟캐스트에서 글로벌 빅테크와 데이터센터 엔지니어링을 다루며 등장한 핵심 실무 표현입니다.
-        </p>
-        
-        <div style="background: #FFFFFF; border: 1px solid #E2E8F0; border-left: 4px solid #3B82F6; border-radius: 8px; padding: 16px 20px; margin-bottom: 14px; box-shadow: 0 1px 3px rgba(0,0,0,0.05);">
-            <div style="font-size: 16px; font-weight: 700; color: #1E293B; margin-bottom: 4px;">
-                <span style="background: #EFF6FF; color: #2563EB; font-size: 12px; padding: 2px 8px; border-radius: 12px; margin-right: 6px; font-weight: bold;">Key 1</span>
-                De-risk
-            </div>
-            <div style="font-size: 14px; color: #059669; font-weight: 600; margin-bottom: 8px;">
-                💡 뜻: 위험 요소를 사전에 분산하거나 완화하다
-            </div>
-            <div style="font-size: 13.5px; color: #334155; background: #F8FAFC; padding: 8px 12px; border-radius: 6px; margin-bottom: 6px; font-style: italic;">
-                "Hyperscalers and private equity firms use structured bond issuance to de-risk multi-billion dollar capital expenditure projects."
-            </div>
-            <div style="font-size: 12.5px; color: #64748B; line-height: 1.6;">
-                대규모 CapEx 및 개발 자금 조달 시 재무적·운영적 리스크를 선제적으로 분산시킬 때 쓰이는 표현입니다.
-            </div>
-        </div>
-        
-        <div style="background: #FFFFFF; border: 1px solid #E2E8F0; border-left: 4px solid #3B82F6; border-radius: 8px; padding: 16px 20px; margin-bottom: 14px; box-shadow: 0 1px 3px rgba(0,0,0,0.05);">
-            <div style="font-size: 16px; font-weight: 700; color: #1E293B; margin-bottom: 4px;">
-                <span style="background: #EFF6FF; color: #2563EB; font-size: 12px; padding: 2px 8px; border-radius: 12px; margin-right: 6px; font-weight: bold;">Key 2</span>
-                Baseload Power
-            </div>
-            <div style="font-size: 14px; color: #059669; font-weight: 600; margin-bottom: 8px;">
-                💡 뜻: 기저부하 전력 (24/7 중단 없이 지속 공급되는 연속 전력)
-            </div>
-            <div style="font-size: 13.5px; color: #334155; background: #F8FAFC; padding: 8px 12px; border-radius: 6px; margin-bottom: 6px; font-style: italic;">
-                "While solar PPAs provide green credits, hyper-dense AI clusters rely on steady baseload power to prevent operational downtime."
-            </div>
-            <div style="font-size: 12.5px; color: #64748B; line-height: 1.6;">
-                태양광·풍력 등 간헐성 재생에너지와 대비되는, 24시간 중단 없이 공급되어야 하는 전력을 뜻합니다.
-            </div>
-        </div>
-        
-        <div style="background: #FFFFFF; border: 1px solid #E2E8F0; border-left: 4px solid #3B82F6; border-radius: 8px; padding: 16px 20px; margin-bottom: 14px; box-shadow: 0 1px 3px rgba(0,0,0,0.05);">
-            <div style="font-size: 16px; font-weight: 700; color: #1E293B; margin-bottom: 4px;">
-                <span style="background: #EFF6FF; color: #2563EB; font-size: 12px; padding: 2px 8px; border-radius: 12px; margin-right: 6px; font-weight: bold;">Key 3</span>
-                Thermal Throttling
-            </div>
-            <div style="font-size: 14px; color: #059669; font-weight: 600; margin-bottom: 8px;">
-                💡 뜻: 과열 방지를 위한 칩셋 강제 성능 저하 현상
-            </div>
-            <div style="font-size: 13.5px; color: #334155; background: #F8FAFC; padding: 8px 12px; border-radius: 6px; margin-bottom: 6px; font-style: italic;">
-                "Without microfluidic or direct-to-chip liquid cooling, high-density accelerator racks suffer severe thermal throttling."
-            </div>
-            <div style="font-size: 12.5px; color: #64748B; line-height: 1.6;">
-                발열 한계 초과 시 하드웨어가 스스로 클럭 속도를 낮추는 현상으로, 고급 액체냉각 도입의 핵심 명분이 됩니다.
-            </div>
-        </div>
-        
-        <div style="background: #FFFFFF; border: 1px solid #E2E8F0; border-left: 4px solid #3B82F6; border-radius: 8px; padding: 16px 20px; margin-bottom: 14px; box-shadow: 0 1px 3px rgba(0,0,0,0.05);">
-            <div style="font-size: 16px; font-weight: 700; color: #1E293B; margin-bottom: 4px;">
-                <span style="background: #EFF6FF; color: #2563EB; font-size: 12px; padding: 2px 8px; border-radius: 12px; margin-right: 6px; font-weight: bold;">Key 4</span>
-                Grid Interconnection Queue
-            </div>
-            <div style="font-size: 14px; color: #059669; font-weight: 600; margin-bottom: 8px;">
-                💡 뜻: 전력망 송전선로 접속 대기열 (계통 연계 병목)
-            </div>
-            <div style="font-size: 13.5px; color: #334155; background: #F8FAFC; padding: 8px 12px; border-radius: 6px; margin-bottom: 6px; font-style: italic;">
-                "Severe grid interconnection queues in North America are pushing data center operators toward self-generation and fuel cells."
-            </div>
-            <div style="font-size: 12.5px; color: #64748B; line-height: 1.6;">
-                송전망 부족으로 전력망 연결 승인까지 수년씩 대기해야 하는 병목 현상을 가리킵니다.
-            </div>
-        </div>
-        
-        <div style="background: #FFFFFF; border: 1px solid #E2E8F0; border-left: 4px solid #3B82F6; border-radius: 8px; padding: 16px 20px; margin-bottom: 14px; box-shadow: 0 1px 3px rgba(0,0,0,0.05);">
-            <div style="font-size: 16px; font-weight: 700; color: #1E293B; margin-bottom: 4px;">
-                <span style="background: #EFF6FF; color: #2563EB; font-size: 12px; padding: 2px 8px; border-radius: 12px; margin-right: 6px; font-weight: bold;">Key 5</span>
-                Moratorium
-            </div>
-            <div style="font-size: 14px; color: #059669; font-weight: 600; margin-bottom: 8px;">
-                💡 뜻: 일시적 인허가/건설 전면 중단 (동결 조치)
-            </div>
-            <div style="font-size: 13.5px; color: #334155; background: #F8FAFC; padding: 8px 12px; border-radius: 6px; margin-bottom: 6px; font-style: italic;">
-                "Local governments are enacting temporary zoning moratoriums to reassess the impact of data centers on water and power supplies."
-            </div>
-            <div style="font-size: 12.5px; color: #64748B; line-height: 1.6;">
-                전력망 포화 및 수자원 부족 우려로 지자체가 신규 데이터센터 승인을 한시적으로 동결할 때 사용하는 법률·행정 용어입니다.
-            </div>
-        </div>
         
     </div>
     
