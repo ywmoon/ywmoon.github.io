@@ -5,24 +5,8 @@
     <link>https://ywmoon.github.io</link>
     <description>글로벌 AI 데이터센터 전력망, 냉각, 클라우드 인프라 엔지니어링 데일리 트렌드</description>
     <language>ko</language>
-    <lastBuildDate>Wed, 19 Aug 2026 21:44:36 -0000</lastBuildDate>
+    <lastBuildDate>Wed, 19 Aug 2026 21:50:55 -0000</lastBuildDate>
     <atom:link href="https://ywmoon.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <item>
-      <title>[인프라 용어사전] D2C 액체냉각 (Direct-to-Chip Liquid Cooling) - 랙당 100kW+ AI 하이퍼스케일 시대를 여는 칩 직냉 기술</title>
-      <link>https://ywmoon.github.io/article/2026-08-19-infra-glossary/</link>
-      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-08-19-infra-glossary/</guid>
-      <pubDate>Wed, 19 Aug 2026 00:00:00 -0000</pubDate>
-      <category>Terminology</category>
-      <description>데이터센터 열관리 &amp; 하드웨어 아키텍처 D2C 액체냉각 (Direct-to-Chip Cooling) 고발열 차세대 AI 가속기(GPU/NPU) 표면에 콜드플레이트를 직접 밀착시켜 냉각수를 순환시키는 고효율 열교환 인프라 기술 📌 1. 30초 핵심 요약 &amp; 개념 정의 D2C(Direct-to-Chip, 직접 칩 냉각) 기술은 공기로 서버 내부 전체를 식히는 </description>
-    </item>
-    <item>
-      <title>DC InfraOps Trends - 2026년 08월 19일</title>
-      <link>https://ywmoon.github.io/article/2026-08-19-dc-infraops-trends-report/</link>
-      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-08-19-dc-infraops-trends-report/</guid>
-      <pubDate>Wed, 19 Aug 2026 00:00:00 -0000</pubDate>
-      <category>Newsletter</category>
-      <description>Datacenter &amp; Cloud Industry InfraOps Daily (2-Column) DAILY DIGEST Datacenter &amp; Cloud Industry InfraOps Daily 2026년 08월 19일 (수) 💡 AI Executive Summary: Key News Insights 글로벌 빅테크의 AI 인프라 확장이 거점 다변화와 클라</description>
-    </item>
     <item>
       <title>[2026.08.19] 오늘의 글로벌 클라우드 &amp; 데이터센터 인프라 핵심 동향 브리핑</title>
       <link>https://ywmoon.github.io/article/2026-08-19-daily-infraops-briefing/</link>
@@ -40,6 +24,14 @@
       <description>Infrastructure Deep Dive 엔터프라이즈 AI의 2막: 수십만 자율 에이전트 생태계를 지탱하는 거버넌스 패브릭(Fabric)과 인프라 혁신 단일 거대언어모델(LLM) 파라미터 경쟁을 넘어, 수천·수만 개의 이기종 에이전트가 협업하는 분산 오케스트레이션 환경에서의 보안, 감사 추적, TCO 최적화 아키텍처를 심층 분석합니다. 🚀 서론: 기술 </description>
     </item>
     <item>
+      <title>[인프라 용어사전] D2C 액체냉각 (Direct-to-Chip Liquid Cooling) - 랙당 100kW+ AI 하이퍼스케일 시대를 여는 칩 직냉 기술</title>
+      <link>https://ywmoon.github.io/article/2026-08-19-infra-glossary/</link>
+      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-08-19-infra-glossary/</guid>
+      <pubDate>Wed, 19 Aug 2026 00:00:00 -0000</pubDate>
+      <category>Terminology</category>
+      <description>데이터센터 열관리 &amp; 하드웨어 아키텍처 D2C 액체냉각 (Direct-to-Chip Cooling) 고발열 차세대 AI 가속기(GPU/NPU) 표면에 콜드플레이트를 직접 밀착시켜 냉각수를 순환시키는 고효율 열교환 인프라 기술 📌 1. 30초 핵심 요약 &amp; 개념 정의 D2C(Direct-to-Chip, 직접 칩 냉각) 기술은 공기로 서버 내부 전체를 식히는 </description>
+    </item>
+    <item>
       <title>[2026.08.19] [10-Min English Podcast] Global CapEx Realignment, Power &amp; Thermal Breakthroughs, and the Regulatory Wall</title>
       <link>https://ywmoon.github.io/article/2026-08-19-10min-tech-podcast/</link>
       <guid isPermaLink="true">https://ywmoon.github.io/article/2026-08-19-10min-tech-podcast/</guid>
@@ -48,20 +40,12 @@
       <description>🎧 10-MIN TECH ENGLISH PODCAST [2026.08.19] [10-Min English Podcast] Global CapEx Realignment, Power &amp; Thermal Breakthroughs, and the Regulatory Wall 오늘의 10분 심층 팟캐스트는 글로벌 AI 인프라 CapEx 재편, 아마존의 180억 달러 </description>
     </item>
     <item>
-      <title>[인프라 용어사전] HVDC (초고압 직류 송전) - 기가와트(GW)급 AI 데이터센터의 전력 고속도로</title>
-      <link>https://ywmoon.github.io/article/2026-08-18-infra-glossary/</link>
-      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-08-18-infra-glossary/</guid>
-      <pubDate>Tue, 18 Aug 2026 00:00:00 -0000</pubDate>
-      <category>Terminology</category>
-      <description>Electric Power Grid AI 전력망의 핵심 혁신 기술 ⚡ 기가와트(GW) 시대, 발전소에서 AI 랙까지 손실 없이 꽂는 전력 고속도로 수 기가와트(GW) 전력을 집어삼키는 초대형 차세대 AI 데이터센터를 위해, 원거리 대규모 발전원(원전·신재생)에서 생산된 전력을 무손실로 직접 끌어오고 제어하는 초고압 직류 송전망 기술입니다. 📌 1. 30초 </description>
-    </item>
-    <item>
-      <title>DC InfraOps Trends - 2026년 08월 18일</title>
-      <link>https://ywmoon.github.io/article/2026-08-18-dc-infraops-trends-report/</link>
-      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-08-18-dc-infraops-trends-report/</guid>
-      <pubDate>Tue, 18 Aug 2026 00:00:00 -0000</pubDate>
+      <title>DC InfraOps Trends - 2026년 08월 19일</title>
+      <link>https://ywmoon.github.io/article/2026-08-19-dc-infraops-trends-report/</link>
+      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-08-19-dc-infraops-trends-report/</guid>
+      <pubDate>Wed, 19 Aug 2026 00:00:00 -0000</pubDate>
       <category>Newsletter</category>
-      <description>Datacenter &amp; Cloud Industry InfraOps Daily (2-Column) DAILY DIGEST Datacenter &amp; Cloud Industry InfraOps Daily 2026년 08월 18일 (화) 💡 AI Executive Summary: Key News Insights 글로벌 빅테크의 AI 인프라 확장 전략이 대규모 직접 </description>
+      <description>Datacenter &amp; Cloud Industry InfraOps Daily (2-Column) DAILY DIGEST Datacenter &amp; Cloud Industry InfraOps Daily 2026년 08월 19일 (수) 💡 AI Executive Summary: Key News Insights 글로벌 빅테크의 AI 인프라 확장이 거점 다변화와 클라</description>
     </item>
     <item>
       <title>[2026.08.18] 엔비디아의 전력·금융 영토 확장과 하이퍼스케일러의 AI 인프라 격변</title>
@@ -80,6 +64,14 @@
       <description>🚀 서론: 기술 패러다임의 전환과 문제 제기 — '컴퓨팅 칩'에서 '전력·금융 결합 인프라'로 인공지능(AI) 인프라 시장이 단일 가속기(GPU)의 연산 성능 경쟁 단계를 넘어, 전력망(Grid) 확보, 기가와트(GW) 규모의 전력 직결, 그리고 천문학적인 자본 조달 구조가 결합된 '초거대 유틸리티 인프라' 영역으로 급격히 진화하고 있습니다. 최근 엔비디아</description>
     </item>
     <item>
+      <title>[인프라 용어사전] HVDC (초고압 직류 송전) - 기가와트(GW)급 AI 데이터센터의 전력 고속도로</title>
+      <link>https://ywmoon.github.io/article/2026-08-18-infra-glossary/</link>
+      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-08-18-infra-glossary/</guid>
+      <pubDate>Tue, 18 Aug 2026 00:00:00 -0000</pubDate>
+      <category>Terminology</category>
+      <description>Electric Power Grid AI 전력망의 핵심 혁신 기술 ⚡ 기가와트(GW) 시대, 발전소에서 AI 랙까지 손실 없이 꽂는 전력 고속도로 수 기가와트(GW) 전력을 집어삼키는 초대형 차세대 AI 데이터센터를 위해, 원거리 대규모 발전원(원전·신재생)에서 생산된 전력을 무손실로 직접 끌어오고 제어하는 초고압 직류 송전망 기술입니다. 📌 1. 30초 </description>
+    </item>
+    <item>
       <title>[2026.08.18] [10-Min English Podcast] The Trillion-Dollar AI Grid Pivot: Mega-Guarantees, SMR Baseload Alliances, and High-Density Thermal Frontiers</title>
       <link>https://ywmoon.github.io/article/2026-08-18-10min-tech-podcast/</link>
       <guid isPermaLink="true">https://ywmoon.github.io/article/2026-08-18-10min-tech-podcast/</guid>
@@ -88,12 +80,12 @@
       <description>🎧 10-MIN TECH ENGLISH PODCAST [2026.08.18] [10-Min English Podcast] The Trillion-Dollar AI Grid Pivot: Mega-Guarantees, SMR Baseload Alliances, and High-Density Thermal Frontiers 오늘의 10분 심층 팟캐스트는 글로벌 </description>
     </item>
     <item>
-      <title>DC InfraOps Trends - 2026년 08월 17일</title>
-      <link>https://ywmoon.github.io/article/2026-08-17-dc-infraops-trends-report/</link>
-      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-08-17-dc-infraops-trends-report/</guid>
-      <pubDate>Mon, 17 Aug 2026 00:00:00 -0000</pubDate>
+      <title>DC InfraOps Trends - 2026년 08월 18일</title>
+      <link>https://ywmoon.github.io/article/2026-08-18-dc-infraops-trends-report/</link>
+      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-08-18-dc-infraops-trends-report/</guid>
+      <pubDate>Tue, 18 Aug 2026 00:00:00 -0000</pubDate>
       <category>Newsletter</category>
-      <description>Datacenter &amp; Cloud Industry InfraOps Daily (2-Column) DAILY DIGEST Datacenter &amp; Cloud Industry InfraOps Daily 2026년 08월 17일 (월) 💡 AI Executive Summary: Key News Insights 글로벌 빅테크의 AI 인프라 투자 구조가 무제한적 자금</description>
+      <description>Datacenter &amp; Cloud Industry InfraOps Daily (2-Column) DAILY DIGEST Datacenter &amp; Cloud Industry InfraOps Daily 2026년 08월 18일 (화) 💡 AI Executive Summary: Key News Insights 글로벌 빅테크의 AI 인프라 확장 전략이 대규모 직접 </description>
     </item>
     <item>
       <title>[2026.08.17] 오늘의 글로벌 클라우드 &amp; 데이터센터 인프라 핵심 동향 브리핑</title>
@@ -104,22 +96,6 @@
       <description>Daily InfraOps Digest 초대형 AI 팩토리 금융 리스크 관리와 하이퍼스케일러의 실전 엔터프라이즈 확장 2026년 8월 17일 | 글로벌 IT 인프라·클라우드·데이터센터 분석 리포트 📌 오늘의 3대 핵심 관전 포인트 (Key Highlights) 엔비디아의 'GPU 보증 리스크 통제'와 에너지 지분 투자: 오픈AI의 10GW 오하이오 프로젝트</description>
     </item>
     <item>
-      <title>[인프라 용어사전] BESS (Battery Energy Storage System) - 10GW급 AI 데이터센터의 전력 병목을 해소하는 거대 에너지 저장소</title>
-      <link>https://ywmoon.github.io/article/2026-08-17-bess-battery-storage/</link>
-      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-08-17-bess-battery-storage/</guid>
-      <pubDate>Mon, 17 Aug 2026 00:00:00 -0000</pubDate>
-      <category>Terminology</category>
-      <description>POWER &amp; INFRASTRUCTURE GLOSSARY BESS (배터리 에너지 저장 시스템) 간헐적인 신재생 에너지를 AI 클러스터의 안정적인 '기저 전력'으로 변환하는 차세대 유틸리티급 전력 아키텍처 📌 1. 30초 핵심 요약 &amp; 개념 정의 BESS(Battery Energy Storage System, 배터리 에너지 저장 시스템)는 태양광·풍력 등 </description>
-    </item>
-    <item>
-      <title>[Tech Deep Dive] 하이퍼스케일 클라우드를 움직이는 MEP 전문가: DCEO (Data Center Engineering Operations)</title>
-      <link>https://ywmoon.github.io/article/2026-08-17-aws-dceo-team-introduction/</link>
-      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-08-17-aws-dceo-team-introduction/</guid>
-      <pubDate>Mon, 17 Aug 2026 00:00:00 -0000</pubDate>
-      <category>Tech Deep Dive</category>
-      <description>전기·기계·배관·소방(MEP) 인프라의 100% 가용성 보장, 24/365 긴급 상황 조치 및 이벤트 대응 체계, 차세대 액체 냉각(Liquid Cooling) 기술 개발, 그리고 MOP/SOP/EOP/COE/SLD 등 필수 운영 문서·도면 체계를 심층 분석합니다.</description>
-    </item>
-    <item>
       <title>[테크 딥다이브] '10GW AI 데이터센터'의 물리적 한계와 '컴퓨팅 금융 플랫폼': 빅테크 전력 전쟁의 패러다임 전환</title>
       <link>https://ywmoon.github.io/article/2026-08-17-august-megafarm-deepdive/</link>
       <guid isPermaLink="true">https://ywmoon.github.io/article/2026-08-17-august-megafarm-deepdive/</guid>
@@ -128,12 +104,28 @@
       <description>EXECUTIVE ARCHITECT BRIEFING 10GW 초거대 AI 팩토리와 GPU 금융화: 인프라 아키텍처의 한계 돌파 전략 엔비디아의 오픈AI 오하이오 10GW 프로젝트 채무 보증 축소는 단순한 재무적 조율이 아닙니다. 이는 AI 인프라 확장이 '실리콘 칩 수급' 단계에서 '국가 전력망 수용 한계'와 '수백조 원 규모의 자본 집약도(CapEx)'라</description>
     </item>
     <item>
+      <title>[인프라 용어사전] BESS (Battery Energy Storage System) - 10GW급 AI 데이터센터의 전력 병목을 해소하는 거대 에너지 저장소</title>
+      <link>https://ywmoon.github.io/article/2026-08-17-bess-battery-storage/</link>
+      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-08-17-bess-battery-storage/</guid>
+      <pubDate>Mon, 17 Aug 2026 00:00:00 -0000</pubDate>
+      <category>Terminology</category>
+      <description>POWER &amp; INFRASTRUCTURE GLOSSARY BESS (배터리 에너지 저장 시스템) 간헐적인 신재생 에너지를 AI 클러스터의 안정적인 '기저 전력'으로 변환하는 차세대 유틸리티급 전력 아키텍처 📌 1. 30초 핵심 요약 &amp; 개념 정의 BESS(Battery Energy Storage System, 배터리 에너지 저장 시스템)는 태양광·풍력 등 </description>
+    </item>
+    <item>
       <title>[2026.08.17] [10-Min English Podcast] Global AI Infra CapEx De-Risking, Nuclear SMR Baseload Power, and Liquid Cooling Architecture</title>
       <link>https://ywmoon.github.io/article/2026-08-17-10min-tech-podcast/</link>
       <guid isPermaLink="true">https://ywmoon.github.io/article/2026-08-17-10min-tech-podcast/</guid>
       <pubDate>Mon, 17 Aug 2026 00:00:00 -0000</pubDate>
       <category>Podcast</category>
       <description>🎧 10-MIN TECH ENGLISH PODCAST [2026.08.17] [10-Min English Podcast] Global AI Infra CapEx De-Risking, Nuclear SMR Baseload Power, and Liquid Cooling Architecture 오늘의 10분 심층 팟캐스트는 엔비디아의 오픈AI 금융 보증 축소 및</description>
+    </item>
+    <item>
+      <title>DC InfraOps Trends - 2026년 08월 17일</title>
+      <link>https://ywmoon.github.io/article/2026-08-17-dc-infraops-trends-report/</link>
+      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-08-17-dc-infraops-trends-report/</guid>
+      <pubDate>Mon, 17 Aug 2026 00:00:00 -0000</pubDate>
+      <category>Newsletter</category>
+      <description>Datacenter &amp; Cloud Industry InfraOps Daily (2-Column) DAILY DIGEST Datacenter &amp; Cloud Industry InfraOps Daily 2026년 08월 17일 (월) 💡 AI Executive Summary: Key News Insights 글로벌 빅테크의 AI 인프라 투자 구조가 무제한적 자금</description>
     </item>
     <item>
       <title>[테크 딥다이브] 미션 크리티컬 MRO를 위한 생성형 AI·클라우드 인프라: 하이브리드 RAG와 엣지-클라우드 파이프라인 아키텍처 분석</title>
