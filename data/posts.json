@@ -116,7 +116,7 @@
     "title": "[2026.08.18] 엔비디아의 전력·금융 영토 확장과 하이퍼스케일러의 AI 인프라 격변",
     "date": "2026-08-18",
     "time": "05:44",
-    "updated": "2026-08-18 06:35",
+    "updated": "2026-08-18 05:44",
     "category": "Daily Briefing",
     "labels": [
       "엔비디아",
@@ -369,25 +369,6 @@
     "summary": "🚀 서론: 미션 크리티컬 인더스트리의 생성형 AI 전환과 인프라 패러다임 시프트 항공기 운항 및 정비(MRO, Maintenance, Repair, and Overhaul)는 단 0.01%의 오류도 용납되지 않는 대표적인 '미션 크리티컬(Mission-Critical)' 산업입니다. 수십만 개의 정밀 부품과 복잡다단한 비행 기록 장치(FDR), 퀵 액세스 ",
     "status": "published",
     "content_file": "data/posts/2026-08-16-mro-generative-ai-cloud.md"
-  },
-  {
-    "id": "2026-08-15-d2c-liquid-cooling",
-    "title": "[인프라 용어사전] D2C 액체냉각 (Direct-to-Chip Liquid Cooling) - 초고밀도 AI 데이터센터의 필수 열관리 아키텍처",
-    "date": "2026-08-15",
-    "time": "07:35",
-    "updated": "2026-08-16 18:30",
-    "category": "Terminology",
-    "labels": [
-      "D2C액체냉각",
-      "IT백과사전",
-      "데이터센터",
-      "액체냉각",
-      "엔비디아",
-      "인프라용어사전"
-    ],
-    "summary": "Data Center Thermal & Cooling D2C 액체냉각 (Direct-to-Chip Liquid Cooling) AI 가속기(GPU/TPU)의 발열 한계를 돌파하는 랙당 100kW+ 초고밀도 직접 냉각 기술 📌 1. 30초 핵심 요약 & 개념 정의 D2C(Direct-to-Chip) 액체냉각은 발열량이 극심한 GPU, CPU, ASIC 등 핵",
-    "status": "published",
-    "content_file": "data/posts/2026-08-15-d2c-liquid-cooling.md"
   },
   {
     "id": "2026-08-14-dc-infraops-trends-report",
