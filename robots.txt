@@ -2,3 +2,4 @@ User-agent: *
 Allow: /
 
 Sitemap: https://ywmoon.github.io/sitemap.xml
+Sitemap: https://ywmoon.github.io/feed.xml
