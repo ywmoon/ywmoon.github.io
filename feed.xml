@@ -5,15 +5,55 @@
     <link>https://ywmoon.github.io</link>
     <description>글로벌 AI 데이터센터 전력망, 냉각, 클라우드 인프라 엔지니어링 데일리 트렌드</description>
     <language>ko</language>
-    <lastBuildDate>Thu, 20 Aug 2026 20:24:52 -0000</lastBuildDate>
+    <lastBuildDate>Fri, 21 Aug 2026 06:03:19 -0000</lastBuildDate>
     <atom:link href="https://ywmoon.github.io/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>DC InfraOps Trends - 2026년 08월 21일</title>
+      <link>https://ywmoon.github.io/article/2026-08-21-dc-infraops-trends-report/</link>
+      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-08-21-dc-infraops-trends-report/</guid>
+      <pubDate>Fri, 21 Aug 2026 00:00:00 -0000</pubDate>
+      <category>Newsletter</category>
+      <description>Datacenter &amp; Cloud Industry InfraOps Daily (2-Column) DAILY DIGEST Datacenter &amp; Cloud Industry InfraOps Daily 2026년 08월 21일 (금) 💡 AI Executive Summary: Key News Insights 글로벌 빅테크의 AI 인프라 투자가 차세대 가속기 클라</description>
+    </item>
+    <item>
+      <title>[2026.08.21] 글로벌 인프라 브리핑: 네이버 'GW급' AI 팩토리 구상·CoreWeave 차세대 루빈 계약 &amp; AWS 피지컬 AI 생태계 가동</title>
+      <link>https://ywmoon.github.io/article/2026-08-21-daily-infraops-briefing/</link>
+      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-08-21-daily-infraops-briefing/</guid>
+      <pubDate>Fri, 21 Aug 2026 00:00:00 -0000</pubDate>
+      <category>Daily Briefing</category>
+      <description>Daily InfraOps Digest 글로벌 클라우드 &amp; 데이터센터 인프라 핵심 동향 브리핑 발행일: 2026년 8월 21일 | IT 인프라 아키텍트 &amp; CTO를 위한 심층 기술 분석 리포트 📌 오늘의 3대 핵심 관전 포인트 (Key Highlights) 클라우드 경계의 확장 (Physical AI): AWS가 3D 물리 공간 로보틱스·자율주행 워크로드를</description>
+    </item>
+    <item>
+      <title>[테크 딥다이브] 텍스트를 넘어 물리적 공간으로: AWS '피지컬 AI' 인프라 아키텍처와 클라우드-엣지 플릿 러닝의 미래</title>
+      <link>https://ywmoon.github.io/article/2026-08-21-august-megafarm-deepdive/</link>
+      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-08-21-august-megafarm-deepdive/</guid>
+      <pubDate>Fri, 21 Aug 2026 00:00:00 -0000</pubDate>
+      <category>Tech Deep Dive</category>
+      <description>Cloud Infrastructure &amp; Robotics Deep Dive 디지털 픽셀에서 물리 세계로: 피지컬 AI(Physical AI)를 지탱하는 클라우드-엣지 하이브리드 인프라 분석 대규모 언어 모델(LLM)의 한계를 돌파하는 차세대 물리 인텔리전스, 분산 플릿 러닝(Fleet Learning)과 합성 데이터 시뮬레이션 파이프라인의 공학적 메커니즘을</description>
+    </item>
+    <item>
+      <title>[2026.08.21] [10-Min English Podcast] Big Tech CapEx Restructuring, Physical AI Shocks, and Sustainable Grid Integration</title>
+      <link>https://ywmoon.github.io/article/2026-08-21-10min-tech-podcast/</link>
+      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-08-21-10min-tech-podcast/</guid>
+      <pubDate>Fri, 21 Aug 2026 00:00:00 -0000</pubDate>
+      <category>Podcast</category>
+      <description>🎧 10-MIN TECH ENGLISH PODCAST [2026.08.21] [10-Min English Podcast] Big Tech CapEx Restructuring, Physical AI Shocks, and Sustainable Grid Integration 2026년 8월 21일 DC InfraOps 데일리 심층 브리핑에서는 빅테크의 AI 인프</description>
+    </item>
+    <item>
+      <title>[인프라 용어사전] WUE (수자원 사용 효율) - AI 데이터센터의 갈증을 측정하는 지속가능성 핵심 지표</title>
+      <link>https://ywmoon.github.io/article/2026-08-21-infra-glossary/</link>
+      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-08-21-infra-glossary/</guid>
+      <pubDate>Fri, 21 Aug 2026 00:00:00 -0000</pubDate>
+      <category>Terminology</category>
+      <description>Infrastructure Glossary WUE (Water Usage Effectiveness, 수자원 사용 효율) PUE를 넘어 초고집적 AI 데이터센터의 환경 지속가능성을 평가하는 글로벌 냉각 용수 측정 표준 📌 1. 30초 핵심 요약 &amp; 개념 정의 WUE(Water Usage Effectiveness, 수자원 사용 효율)는 데이터센터가 IT 장비(</description>
+    </item>
     <item>
       <title>열을 잡는 자가 AI를 잡는다 — 데이터센터 냉각 기술의 부상과 글로벌 인프라 대전환</title>
       <link>https://ywmoon.github.io/article/2026-08-20-samilpwc-dc-cooling-industry/</link>
       <guid isPermaLink="true">https://ywmoon.github.io/article/2026-08-20-samilpwc-dc-cooling-industry/</guid>
       <pubDate>Thu, 20 Aug 2026 00:00:00 -0000</pubDate>
       <category>Tech Deep Dive</category>
-      <description>AI 경쟁의 병목은 GPU에서 전력과 열 관리로 이동했습니다. 삼일 PwC의 49페이지 심층 리포트와 글로벌 최신 연구를 바탕으로 액체냉각(D2C), 액침냉각, 1MW 랙 밀도, M&amp;A 총력전, K-냉각 생존 전략을 분석합니다.</description>
+      <description>AI 경쟁의 병목은 GPU 확보에서 전력과 열 관리 능력으로 이동했습니다. 삼일 PwC의 49페이지 심층 리포트와 글로벌 최신 연구를 바탕으로 액체냉각(D2C), 액침냉각, 1MW 랙 밀도, M&amp;A 총력전, K-냉각 생존 전략을 분석합니다.</description>
     </item>
     <item>
       <title>[2026.08.20] 오늘의 글로벌 클라우드 &amp; 데이터센터 인프라 핵심 동향 브리핑</title>
