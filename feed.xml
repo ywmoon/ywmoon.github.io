@@ -5,7 +5,7 @@
     <link>https://ywmoon.github.io</link>
     <description>글로벌 AI 데이터센터 전력망, 냉각, 클라우드 인프라 엔지니어링 데일리 트렌드</description>
     <language>ko</language>
-    <lastBuildDate>Thu, 20 Aug 2026 19:47:32 -0000</lastBuildDate>
+    <lastBuildDate>Thu, 20 Aug 2026 20:10:15 -0000</lastBuildDate>
     <atom:link href="https://ywmoon.github.io/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
       <title>[2026.08.20] 오늘의 글로벌 클라우드 &amp; 데이터센터 인프라 핵심 동향 브리핑</title>
@@ -14,6 +14,14 @@
       <pubDate>Thu, 20 Aug 2026 00:00:00 -0000</pubDate>
       <category>Daily Briefing</category>
       <description>Daily InfraOps Digest 2026년 8월 20일 글로벌 클라우드 &amp; 데이터센터 인프라 브리핑 엔터프라이즈 멀티클라우드 통합, 초대형 GPU 팩토리 가동, 차세대 데이터센터 냉각 설비 및 노르딕 청정에너지 허브 분석 📌 오늘의 3대 핵심 관전 포인트 (Key Highlights) 하이브리드·멀티클라우드 표준화 가속: 오라클과 AWS의 심층 연동</description>
+    </item>
+    <item>
+      <title>열을 잡는 자가 AI를 잡는다 — 데이터센터 냉각 기술의 부상과 글로벌 인프라 대전환</title>
+      <link>https://ywmoon.github.io/article/2026-08-20-samilpwc-dc-cooling-industry/</link>
+      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-08-20-samilpwc-dc-cooling-industry/</guid>
+      <pubDate>Thu, 20 Aug 2026 00:00:00 -0000</pubDate>
+      <category>Tech Deep Dive</category>
+      <description>AI 경쟁의 병목은 GPU에서 전력과 열 관리로 이동했습니다. 삼일 PwC의 49페이지 심층 리포트와 글로벌 최신 연구를 바탕으로 액체냉각(D2C), 액침냉각, 1MW 랙 밀도, M&amp;A 총력전, K-냉각 생존 전략을 분석합니다.</description>
     </item>
     <item>
       <title>[테크 딥다이브] 랙당 100kW 시대의 필연적 선택: 블랙웰(Blackwell) B200 7,656장 집약과 D2C 액체 냉각 아키텍처의 열역학적 진화</title>
