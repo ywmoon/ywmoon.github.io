@@ -1,5 +1,112 @@
 [
   {
+    "id": "2026-08-21-dc-infraops-trends-report",
+    "title": "DC InfraOps Trends - 2026년 08월 21일",
+    "date": "2026-08-21",
+    "time": "05:48",
+    "updated": "2026-08-21 05:48",
+    "category": "Newsletter",
+    "labels": [
+      "AWS",
+      "데이터센터",
+      "클라우드",
+      "AI인프라",
+      "DC-Trends",
+      "Daily-Newsletter",
+      "SMR",
+      "원전",
+      "엔비디아",
+      "액체냉각",
+      "전력망",
+      "마이크로소프트",
+      "구글",
+      "오라클"
+    ],
+    "summary": "Datacenter & Cloud Industry InfraOps Daily (2-Column) DAILY DIGEST Datacenter & Cloud Industry InfraOps Daily 2026년 08월 21일 (금) 💡 AI Executive Summary: Key News Insights 글로벌 빅테크의 AI 인프라 투자가 차세대 가속기 클라",
+    "status": "published",
+    "content_file": "data/posts/2026-08-21-dc-infraops-trends-report.md"
+  },
+  {
+    "id": "2026-08-21-daily-infraops-briefing",
+    "title": "[2026.08.21] 글로벌 인프라 브리핑: 네이버 'GW급' AI 팩토리 구상·CoreWeave 차세대 루빈 계약 & AWS 피지컬 AI 생태계 가동",
+    "date": "2026-08-21",
+    "time": "05:48",
+    "updated": "2026-08-21 05:48",
+    "category": "Daily Briefing",
+    "labels": [
+      "AWS",
+      "클라우드",
+      "데이터센터",
+      "AI인프라",
+      "인프라동향",
+      "네이버",
+      "CoreWeave",
+      "엔비디아",
+      "액체냉각",
+      "피지컬AI"
+    ],
+    "summary": "Daily InfraOps Digest 글로벌 클라우드 & 데이터센터 인프라 핵심 동향 브리핑 발행일: 2026년 8월 21일 | IT 인프라 아키텍트 & CTO를 위한 심층 기술 분석 리포트 📌 오늘의 3대 핵심 관전 포인트 (Key Highlights) 클라우드 경계의 확장 (Physical AI): AWS가 3D 물리 공간 로보틱스·자율주행 워크로드를",
+    "status": "published",
+    "content_file": "data/posts/2026-08-21-daily-infraops-briefing.md"
+  },
+  {
+    "id": "2026-08-21-august-megafarm-deepdive",
+    "title": "[테크 딥다이브] 텍스트를 넘어 물리적 공간으로: AWS '피지컬 AI' 인프라 아키텍처와 클라우드-엣지 플릿 러닝의 미래",
+    "date": "2026-08-21",
+    "time": "05:48",
+    "updated": "2026-08-21 05:48",
+    "category": "Tech Deep Dive",
+    "labels": [
+      "테크딥다이브",
+      "피지컬AI",
+      "클라우드인프라",
+      "AWS",
+      "데이터센터"
+    ],
+    "summary": "Cloud Infrastructure & Robotics Deep Dive 디지털 픽셀에서 물리 세계로: 피지컬 AI(Physical AI)를 지탱하는 클라우드-엣지 하이브리드 인프라 분석 대규모 언어 모델(LLM)의 한계를 돌파하는 차세대 물리 인텔리전스, 분산 플릿 러닝(Fleet Learning)과 합성 데이터 시뮬레이션 파이프라인의 공학적 메커니즘을",
+    "status": "published",
+    "content_file": "data/posts/2026-08-21-august-megafarm-deepdive.md"
+  },
+  {
+    "id": "2026-08-21-10min-tech-podcast",
+    "title": "[2026.08.21] [10-Min English Podcast] Big Tech CapEx Restructuring, Physical AI Shocks, and Sustainable Grid Integration",
+    "date": "2026-08-21",
+    "time": "05:48",
+    "updated": "2026-08-21 05:48",
+    "category": "Podcast",
+    "labels": [
+      "EnglishPodcast",
+      "TechEnglish",
+      "비즈니스영어",
+      "AWS",
+      "AI인프라",
+      "데이터센터",
+      "액체냉각"
+    ],
+    "summary": "🎧 10-MIN TECH ENGLISH PODCAST [2026.08.21] [10-Min English Podcast] Big Tech CapEx Restructuring, Physical AI Shocks, and Sustainable Grid Integration 2026년 8월 21일 DC InfraOps 데일리 심층 브리핑에서는 빅테크의 AI 인프",
+    "status": "published",
+    "content_file": "data/posts/2026-08-21-10min-tech-podcast.md"
+  },
+  {
+    "id": "2026-08-21-infra-glossary",
+    "title": "[인프라 용어사전] WUE (수자원 사용 효율) - AI 데이터센터의 갈증을 측정하는 지속가능성 핵심 지표",
+    "date": "2026-08-21",
+    "time": "05:48",
+    "updated": "2026-08-21 05:48",
+    "category": "Terminology",
+    "labels": [
+      "인프라용어사전",
+      "IT백과사전",
+      "WUE",
+      "구글",
+      "데이터센터",
+      "액체냉각"
+    ],
+    "summary": "Infrastructure Glossary WUE (Water Usage Effectiveness, 수자원 사용 효율) PUE를 넘어 초고집적 AI 데이터센터의 환경 지속가능성을 평가하는 글로벌 냉각 용수 측정 표준 📌 1. 30초 핵심 요약 & 개념 정의 WUE(Water Usage Effectiveness, 수자원 사용 효율)는 데이터센터가 IT 장비(",
+    "status": "published",
+    "content_file": "data/posts/2026-08-21-infra-glossary.md"
+  },
+  {
     "id": "2026-08-20-samilpwc-dc-cooling-industry",
     "title": "열을 잡는 자가 AI를 잡는다 — 데이터센터 냉각 기술의 부상과 글로벌 인프라 대전환",
     "date": "2026-08-20",
