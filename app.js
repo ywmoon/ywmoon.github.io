@@ -199,25 +199,11 @@ async function loadPosts() {
     const res = await fetch(getAbsoluteUrl('data/posts.json') + '?_t=' + Date.now());
     if (!res.ok) throw new Error('Failed to load posts');
     allPosts = await res.json();
-    const CAT_PRIORITY = {
-      'Daily Briefing': 1,
-      'Tech Deep Dive': 2,
-      'Terminology': 3,
-      'Podcast': 4,
-      'Newsletter': 5,
-      '데일리 브리핑': 1,
-      '테크 딥다이브': 2,
-      '용어사전': 3,
-      '팟캐스트': 4,
-      '뉴스레터': 5,
-      '데일리 뉴스레터': 5
-    };
+    // Sort strictly by Date & Time descending (Newest first)
     allPosts.sort((a, b) => {
-      if (a.date !== b.date) return new Date(b.date) - new Date(a.date);
-      const pA = CAT_PRIORITY[a.category] || 99;
-      const pB = CAT_PRIORITY[b.category] || 99;
-      if (pA !== pB) return pA - pB;
-      return (b.time || '').localeCompare(a.time || '');
+      const dtA = `${a.date || ''} ${a.time || '00:00'}`;
+      const dtB = `${b.date || ''} ${b.time || '00:00'}`;
+      return dtB.localeCompare(dtA);
     });
     filteredPosts = [...allPosts];
     updateCategoryTabCounts();
@@ -330,7 +316,9 @@ async function loadArticleContent(post) {
         headerIds: true,
         mangle: false
       });
-      return marked.parse(body);
+      // Protect range tildes between digits/words (e.g., 5~10년, 수개월~2년) from turning into GFM strikethrough
+      let processedBody = body.replace(/([0-9a-zA-Z가-힣])~([0-9a-zA-Z가-힣])/g, '$1&#126;$2');
+      return marked.parse(processedBody);
     }
     return body;
   } catch (e) {
