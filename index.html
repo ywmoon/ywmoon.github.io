@@ -295,10 +295,23 @@
         <!-- Injected Article HTML -->
       </div>
 
-      <!-- Simple Author Signature -->
-      <div class="dc-author-simple-signature" onclick="openProfileModal()" title="작성자 프로필 보기">
-        <img src="assets/avatar.jpg" alt="James Moon" class="dc-author-simple-avatar" />
-        <span class="dc-author-simple-name">James Moon <span class="dc-author-simple-ko">(문연욱)</span></span>
+      <!-- Simple Author Signature (Right-Aligned) -->
+      <div class="dc-author-sig-wrapper">
+        <div class="dc-author-simple-signature">
+          <div class="dc-author-sig-profile" onclick="openProfileModal()" title="작성자 프로필 보기">
+            <img src="assets/avatar.jpg" alt="James Moon" class="dc-author-simple-avatar" />
+            <span class="dc-author-simple-name">James Moon <span class="dc-author-simple-ko">(문연욱)</span></span>
+          </div>
+          <span class="dc-author-sig-divider"></span>
+          <div class="dc-author-sig-links">
+            <a href="mailto:ywmoon1202@gmail.com" class="dc-author-sig-icon-btn mail" title="이메일 문의 (ywmoon1202@gmail.com)">
+              <span>✉️</span>
+            </a>
+            <a href="https://www.linkedin.com/in/ywmoon" target="_blank" rel="noopener noreferrer" class="dc-author-sig-icon-btn linkedin" title="LinkedIn 프로필 바로가기">
+              <span>💼</span>
+            </a>
+          </div>
+        </div>
       </div>
 
       <!-- Related Posts Recommendations (Feature A) -->
