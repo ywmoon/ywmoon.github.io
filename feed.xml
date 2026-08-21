@@ -5,8 +5,16 @@
     <link>https://ywmoon.github.io</link>
     <description>글로벌 AI 데이터센터 전력망, 냉각, 클라우드 인프라 엔지니어링 데일리 트렌드</description>
     <language>ko</language>
-    <lastBuildDate>Fri, 21 Aug 2026 06:03:19 -0000</lastBuildDate>
+    <lastBuildDate>Fri, 21 Aug 2026 19:50:53 -0000</lastBuildDate>
     <atom:link href="https://ywmoon.github.io/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>제12차 전력수급기본계획 전력수요 재전망 분석</title>
+      <link>https://ywmoon.github.io/article/2026-08-21-12th-power-plan-demand-reforecast/</link>
+      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-08-21-12th-power-plan-demand-reforecast/</guid>
+      <pubDate>Fri, 21 Aug 2026 00:00:00 -0000</pubDate>
+      <category>Tech Deep Dive</category>
+      <description>제12차 전력수급기본계획(2026~2040) 전력수요 재전망 주요 내용과 9·10·11·12차 역대 계획 비교를 정리합니다. 반도체 및 데이터센터 추가수요 반영에 따른 2040년 목표 최대전력 상향(158.4GW), 부하 특성, 전력망 과제 및 산업계 대응 전략을 분석합니다.</description>
+    </item>
     <item>
       <title>DC InfraOps Trends - 2026년 08월 21일</title>
       <link>https://ywmoon.github.io/article/2026-08-21-dc-infraops-trends-report/</link>
