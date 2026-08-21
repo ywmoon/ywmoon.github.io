@@ -548,34 +548,43 @@ updated: "2026-08-21 20:00"
   </div>
 
   <!-- 8. 참고 자료 및 관련 보도 링크 -->
-  <h2 style="border-left: 5px solid #2563EB; padding-left: 14px; margin: 44px 0 20px 0; color: #0F172A; font-size: 22px; font-weight: 700; letter-spacing: -0.3px;">📚 8. 참고 자료 및 관련 보도 링크</h2>
+  <h2 style="border-left: 5px solid #2563EB; padding-left: 14px; margin: 44px 0 20px 0; color: #0F172A; font-size: 22px; font-weight: 700; letter-spacing: -0.3px;">📚 8. 관련 보도 및 참고 영상</h2>
 
   <div style="background-color: #F8FAFC; border: 1px solid #E2E8F0; border-radius: 8px; padding: 20px 24px; margin: 20px 0; font-size: 14px; line-height: 1.8;">
-    <strong style="color: #0F172A; font-size: 15px; display: block; margin-bottom: 8px;">🏛️ 정부 및 공식 발표 자료</strong>
-    <ul style="margin: 0 0 16px 0; padding-left: 20px; color: #475569;">
-      <li>산업통상자원부·12차 전기본 총괄위원회, <em>제12차 전력수급기본계획 전력수요 재전망 공개토론회(5차) 발표자료</em> (2026.08.20)</li>
-      <li>대한민국 정부, <a href="https://www.law.go.kr/법령/전기사업법" target="_blank" rel="noopener noreferrer" style="color: #2563EB; text-decoration: underline;">전기사업법 및 동법 시행령 (국가법령정보센터)</a></li>
-      <li>산업통상자원부, <a href="https://www.motie.go.kr" target="_blank" rel="noopener noreferrer" style="color: #2563EB; text-decoration: underline;">산업통상자원부 공식 전력수급기본계획 정책 포털</a></li>
-      <li>한국전력거래소(KPX), <a href="https://www.kpx.or.kr" target="_blank" rel="noopener noreferrer" style="color: #2563EB; text-decoration: underline;">KPX 전력정보시스템 및 장기 전력수급 통계</a></li>
-      <li>한국전력공사(KEPCO), <a href="https://home.kepco.co.kr" target="_blank" rel="noopener noreferrer" style="color: #2563EB; text-decoration: underline;">제10차·제11차 장기 송변전설비계획 공시</a></li>
-      <li>KDI 한국개발연구원, <a href="https://www.kdi.re.kr" target="_blank" rel="noopener noreferrer" style="color: #2563EB; text-decoration: underline;">KDI 경제동향 및 중장기 경제성장률 전망 보고서</a></li>
-    </ul>
 
-    <strong style="color: #0F172A; font-size: 15px; display: block; margin-bottom: 8px;">📰 제5차 토론회 관련 언론 보도</strong>
-    <ul style="margin: 0 0 16px 0; padding-left: 20px; color: #475569;">
-      <li><strong>에너지신문:</strong> <a href="https://www.skenews.kr" target="_blank" rel="noopener noreferrer" style="color: #2563EB; text-decoration: underline;">[12차 전기본 5차 토론회] 반도체·AI 데이터센터 반영…2040년 전력수요 대폭 상향</a></li>
-      <li><strong>에너지경제:</strong> <a href="https://www.ekn.kr" target="_blank" rel="noopener noreferrer" style="color: #2563EB; text-decoration: underline;">반도체 24.6GW·데이터센터 11.9GW…12차 전기본 전력수요 재전망 공개</a></li>
-      <li><strong>일렉트릭파워 (EPJ):</strong> <a href="http://www.epj.co.kr" target="_blank" rel="noopener noreferrer" style="color: #2563EB; text-decoration: underline;">12차 전기본 총괄위, 5차 대국민 정책토론회서 2040년 목표수요 158.4GW 제시</a></li>
-      <li><strong>에너지데일리:</strong> <a href="http://www.energydaily.co.kr" target="_blank" rel="noopener noreferrer" style="color: #2563EB; text-decoration: underline;">제12차 전력수급기본계획 전력수요 재전망 토론회 열려…기저부하 급증 대응 과제</a></li>
-      <li><strong>ESG경제:</strong> <a href="https://www.esgeconomy.com" target="_blank" rel="noopener noreferrer" style="color: #2563EB; text-decoration: underline;">AI·반도체 발 전력수요 급증과 2035 NDC 무탄소 전원 믹스 연계 과제</a></li>
-    </ul>
+    <!-- 유튜브 정책토론회 영상 카드 -->
+    <div style="background-color: #FFFFFF; border: 1px solid #E2E8F0; border-left: 4px solid #EF4444; border-radius: 8px; padding: 16px 20px; margin-bottom: 20px;">
+      <div style="font-size: 15px; font-weight: 700; color: #991B1B; margin-bottom: 6px;">🎥 정책토론회 다시보기 (기후에너지환경부 공식 생중계)</div>
+      <div style="font-size: 14px; color: #475569; margin-bottom: 10px;">
+        12차 전력수급기본계획 수립을 위한 <strong>"전기국가(4차) 대국민 정책토론회"</strong> 기후에너지환경부 공식 유튜브 영상입니다.
+      </div>
+      <a href="https://www.youtube.com/watch?v=KrwVyDuDjrQ" target="_blank" rel="noopener noreferrer" style="display: inline-flex; align-items: center; gap: 6px; background-color: #EF4444; color: #FFFFFF; font-size: 13px; font-weight: 600; padding: 7px 14px; border-radius: 6px; text-decoration: none;">
+        ▶ YouTube에서 토론회 영상 시청하기
+      </a>
+    </div>
 
-    <strong style="color: #0F172A; font-size: 15px; display: block; margin-bottom: 8px;">🌐 글로벌 리서치 및 참고 문헌</strong>
-    <ul style="margin: 0; padding-left: 20px; color: #475569;">
-      <li>에너지경제연구원(KEEI), <a href="https://www.keei.re.kr" target="_blank" rel="noopener noreferrer" style="color: #2563EB; text-decoration: underline;">KEEI STEM 모형 기반 중장기 에너지 수요 및 전기화 전망</a></li>
-      <li>IEA (International Energy Agency), <a href="https://www.iea.org/reports/electricity-2024" target="_blank" rel="noopener noreferrer" style="color: #2563EB; text-decoration: underline;"><em>Electricity 2024 / 2025: Analysis and Forecast to 2026 (Energy & AI)</em></a></li>
-      <li>Lawrence Berkeley National Laboratory (LBNL), <a href="https://www.lbl.gov" target="_blank" rel="noopener noreferrer" style="color: #2563EB; text-decoration: underline;"><em>United States Data Center Energy Usage Report & PUE Trends</em></a></li>
-    </ul>
+    <!-- 관련 언론 보도 -->
+    <div style="margin-bottom: 20px;">
+      <strong style="color: #0F172A; font-size: 15px; display: block; margin-bottom: 10px;">📰 제5차 토론회 관련 주요 언론 보도</strong>
+      <div style="display: flex; flex-direction: column; gap: 8px; color: #475569;">
+        <div>• <strong>에너지신문:</strong> <a href="https://www.skenews.kr" target="_blank" rel="noopener noreferrer" style="color: #2563EB; text-decoration: underline;">[12차 전기본 5차 토론회] 반도체·AI 데이터센터 반영…2040년 전력수요 대폭 상향</a></div>
+        <div>• <strong>에너지경제:</strong> <a href="https://www.ekn.kr" target="_blank" rel="noopener noreferrer" style="color: #2563EB; text-decoration: underline;">반도체 24.6GW·데이터센터 11.9GW…12차 전기본 전력수요 재전망 공개</a></div>
+        <div>• <strong>일렉트릭파워 (EPJ):</strong> <a href="http://www.epj.co.kr" target="_blank" rel="noopener noreferrer" style="color: #2563EB; text-decoration: underline;">12차 전기본 총괄위, 5차 대국민 정책토론회서 2040년 목표수요 158.4GW 제시</a></div>
+        <div>• <strong>에너지데일리:</strong> <a href="http://www.energydaily.co.kr" target="_blank" rel="noopener noreferrer" style="color: #2563EB; text-decoration: underline;">제12차 전력수급기본계획 전력수요 재전망 토론회 열려…기저부하 급증 대응 과제</a></div>
+        <div>• <strong>ESG경제:</strong> <a href="https://www.esgeconomy.com" target="_blank" rel="noopener noreferrer" style="color: #2563EB; text-decoration: underline;">AI·반도체 발 전력수요 급증과 2035 NDC 무탄소 전원 믹스 연계 과제</a></div>
+      </div>
+    </div>
+
+    <!-- 글로벌 리서치 및 참고 문헌 -->
+    <div>
+      <strong style="color: #0F172A; font-size: 15px; display: block; margin-bottom: 10px;">🌐 글로벌 리서치 및 참고 문헌</strong>
+      <div style="display: flex; flex-direction: column; gap: 8px; color: #475569;">
+        <div>• <strong>에너지경제연구원 (KEEI):</strong> <a href="https://www.keei.re.kr" target="_blank" rel="noopener noreferrer" style="color: #2563EB; text-decoration: underline;">KEEI STEM 모형 기반 중장기 에너지 수요 및 전기화 전망</a></div>
+        <div>• <strong>IEA (국제에너지기구):</strong> <a href="https://www.iea.org/reports/electricity-2024" target="_blank" rel="noopener noreferrer" style="color: #2563EB; text-decoration: underline;"><em>Electricity 2024 / 2025: Analysis and Forecast to 2026 (Energy & AI)</em></a></div>
+        <div>• <strong>LBNL (로렌스 버클리 국립연구소):</strong> <a href="https://www.lbl.gov" target="_blank" rel="noopener noreferrer" style="color: #2563EB; text-decoration: underline;"><em>United States Data Center Energy Usage Report & PUE Trends</em></a></div>
+      </div>
+    </div>
+
   </div>
 
   <!-- 맺음말 요약 카드 -->
