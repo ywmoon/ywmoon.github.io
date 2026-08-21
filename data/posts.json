@@ -1,5 +1,28 @@
 [
   {
+    "id": "2026-08-21-12th-power-plan-demand-reforecast",
+    "title": "제12차 전력수급기본계획 전력수요 재전망 분석",
+    "date": "2026-08-21",
+    "time": "20:00",
+    "updated": "2026-08-21 20:00",
+    "category": "Tech Deep Dive",
+    "labels": [
+      "전력수급기본계획",
+      "제12차전기본",
+      "데이터센터",
+      "AI전력수요",
+      "반도체클러스터",
+      "전력망",
+      "전력인프라",
+      "분산에너지",
+      "에너지정책",
+      "RE100"
+    ],
+    "summary": "제12차 전력수급기본계획(2026~2040) 전력수요 재전망 주요 내용과 9·10·11·12차 역대 계획 비교를 정리합니다. 반도체 및 데이터센터 추가수요 반영에 따른 2040년 목표 최대전력 상향(158.4GW), 부하 특성, 전력망 과제 및 산업계 대응 전략을 분석합니다.",
+    "status": "published",
+    "content_file": "data/posts/2026-08-21-12th-power-plan-demand-reforecast.md"
+  },
+  {
     "id": "2026-08-21-dc-infraops-trends-report",
     "title": "DC InfraOps Trends - 2026년 08월 21일",
     "date": "2026-08-21",
