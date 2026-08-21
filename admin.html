@@ -1001,6 +1001,11 @@
         <div class="stat-sub">현재 노출</div>
       </div>
       <div class="stat-card">
+        <div class="stat-label">총 누적 조회수</div>
+        <div class="stat-value" id="stat-views" style="color: var(--orange)">-</div>
+        <div class="stat-sub">실시간 전체 조회수</div>
+      </div>
+      <div class="stat-card">
         <div class="stat-label">숨김 글</div>
         <div class="stat-value" id="stat-hidden" style="color: var(--yellow)">-</div>
         <div class="stat-sub">비공개 보관</div>
@@ -1074,6 +1079,7 @@
             <th style="width: 95px;">날짜</th>
             <th style="width: 135px;">카테고리</th>
             <th>아티클 제목 & 요약</th>
+            <th style="width: 90px; text-align: center;">조회수</th>
             <th style="width: 105px;">SEO 진단</th>
             <th style="width: 85px;">상태</th>
             <th style="width: 185px; text-align: right;">액션</th>
@@ -1081,7 +1087,7 @@
         </thead>
         <tbody id="admin-table-body">
           <tr>
-            <td colspan="8" style="text-align: center; padding: 40px; color: var(--text-muted);">
+            <td colspan="9" style="text-align: center; padding: 40px; color: var(--text-muted);">
               <span class="loading-spinner"></span> 아티클 데이터 불러오는 중...
             </td>
           </tr>
@@ -1442,6 +1448,43 @@ let deletingPostId = null;
 let editorPostId = null;
 let editorFileSha = null;
 
+// ─── Firebase Realtime Database View Counter ─────────────────────
+const FIREBASE_DB_URL = 'https://ywmoon-blog-default-rtdb.firebaseio.com';
+let allViewCounts = {};
+
+function formatViewCount(num) {
+  if (!num || isNaN(num)) return '0';
+  if (num >= 10000) return (num / 10000).toFixed(1) + '만';
+  if (num >= 1000) return (num / 1000).toFixed(1) + 'k';
+  return Number(num).toLocaleString();
+}
+
+function getSafePostKey(postId) {
+  return (postId || '').replace(/[^a-zA-Z0-9_-]/g, '_');
+}
+
+async function fetchAllViewCounts() {
+  try {
+    const res = await fetch(`${FIREBASE_DB_URL}/views.json`);
+    if (res.ok) {
+      const data = await res.json();
+      if (data && typeof data === 'object') {
+        allViewCounts = data;
+        updateTotalViewsStat();
+        renderTable();
+      }
+    }
+  } catch (e) {
+    console.warn('View count fetch error:', e);
+  }
+}
+
+function updateTotalViewsStat() {
+  const total = Object.values(allViewCounts).reduce((acc, cur) => acc + (typeof cur === 'number' ? cur : 0), 0);
+  const el = document.getElementById('stat-views');
+  if (el) el.textContent = total.toLocaleString();
+}
+
 // ═══════════════════════════════════════════════════════════════
 // LOGIN & AUTH
 // ═══════════════════════════════════════════════════════════════
@@ -1635,6 +1678,7 @@ async function loadPosts() {
     populateTagDropdown();
     updateStats();
     renderTable();
+    fetchAllViewCounts();
   } catch (e) {
     showToast('❌ posts.json 로드 실패: ' + e.message, 'error');
   }
@@ -1667,6 +1711,7 @@ function updateStats() {
   document.getElementById('stat-hidden').textContent = hidden;
   document.getElementById('stat-cats').textContent = cats;
   document.getElementById('stat-seo').textContent = seoScore + '%';
+  updateTotalViewsStat();
 
   // Update filter badge counts
   document.getElementById('fcount-all').textContent = total;
@@ -1891,9 +1936,14 @@ function renderCalendar() {
     const postsHtml = dayPosts.map(p => {
       const catNorm = CAT_NORMALIZE[p.category] || p.category || 'Daily Briefing';
       const catEmoji = { 'Daily Briefing':'📋', 'Tech Deep Dive':'🔬', 'Terminology':'💡', 'Podcast':'🎧', 'Newsletter':'📧' }[catNorm] || '📄';
+      const safeKey = getSafePostKey(p.id);
+      const views = allViewCounts[safeKey] || 0;
       return `
-        <div class="calendar-post-chip" onclick="openMarkdownEditor('${p.id}')" title="[${catNorm}] ${p.title} (클릭하여 에디터 열기)">
-          <div style="font-size: 10px; color: var(--blue);">${catEmoji} ${catNorm}</div>
+        <div class="calendar-post-chip" onclick="openMarkdownEditor('${p.id}')" title="[${catNorm}] ${p.title} (실시간 조회수: ${views}회)">
+          <div style="font-size: 10px; color: var(--blue); display: flex; justify-content: space-between; align-items: center;">
+            <span>${catEmoji} ${catNorm}</span>
+            <span style="color: var(--orange); font-weight: 700;">👀 ${formatViewCount(views)}</span>
+          </div>
           <div class="calendar-chip-title">${p.title}</div>
         </div>
       `;
@@ -1950,7 +2000,7 @@ function renderTable() {
   const tbody = document.getElementById('admin-table-body');
 
   if (posts.length === 0) {
-    tbody.innerHTML = `<tr><td colspan="8">
+    tbody.innerHTML = `<tr><td colspan="9">
       <div class="empty-state">
         <div class="empty-icon">📭</div>
         <p>조건에 일치하는 아티클이 없습니다.</p>
@@ -1969,6 +2019,8 @@ function renderTable() {
     const toggleIcon = status === 'published' ? '🙈' : '👁️';
     const toggleTitle = status === 'published' ? '숨김 처리' : '공개 전환';
     const isChecked = selectedPostIds.has(p.id);
+    const safeKey = getSafePostKey(p.id);
+    const views = allViewCounts[safeKey] || 0;
 
     return `<tr>
       <td style="text-align:center;">
@@ -1991,6 +2043,9 @@ function renderTable() {
             : '<span style="font-size:11px;color:var(--text-muted);font-style:italic;">🏷️ 태그 없음</span>'}
         </div>
       </td>
+      <td style="text-align:center;font-family:var(--mono);font-size:12.5px;font-weight:700;color:var(--orange);" title="실시간 누적 조회수: ${Number(views).toLocaleString()}회">
+        👀 ${formatViewCount(views)}
+      </td>
       <td>${getSeoHealthBadgeHtml(p)}</td>
       <td>${statusHtml}</td>
       <td style="text-align:right;">
@@ -2004,6 +2059,9 @@ function renderTable() {
       </td>
     </tr>`;
   }).join('');
+
+  updateBulkBar();
+}
 
   updateBulkBar();
 }
