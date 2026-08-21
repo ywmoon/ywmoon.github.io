@@ -12,6 +12,97 @@ let searchQuery = '';
 let currentView = 'home';
 let previousView = 'home';
 
+// ─── Firebase Realtime Database View Counter ─────────────────────
+const FIREBASE_DB_URL = 'https://ywmoon-blog-default-rtdb.firebaseio.com';
+let allViewCounts = {};
+
+function formatViewCount(num) {
+  if (!num || isNaN(num)) return '0';
+  if (num >= 10000) return (num / 10000).toFixed(1) + '만';
+  if (num >= 1000) return (num / 1000).toFixed(1) + 'k';
+  return Number(num).toLocaleString();
+}
+
+function getSafePostKey(postId) {
+  return (postId || '').replace(/[^a-zA-Z0-9_-]/g, '_');
+}
+
+async function fetchAllViewCounts() {
+  try {
+    const res = await fetch(`${FIREBASE_DB_URL}/views.json`);
+    if (res.ok) {
+      const data = await res.json();
+      if (data && typeof data === 'object') {
+        allViewCounts = data;
+        updateCardViewBadges();
+      }
+    }
+  } catch (e) {
+    console.warn('View count fetch error:', e);
+  }
+}
+
+function updateCardViewBadges() {
+  document.querySelectorAll('.dc-card-views').forEach(el => {
+    const id = el.getAttribute('data-id');
+    const safeKey = getSafePostKey(id);
+    const count = allViewCounts[safeKey] || 0;
+    el.textContent = `👀 ${formatViewCount(count)}`;
+  });
+}
+
+async function recordArticleView(postId) {
+  if (!postId) return;
+  const safeKey = getSafePostKey(postId);
+  const storageKey = `dc_viewed_${safeKey}`;
+  const now = Date.now();
+  const lastViewed = localStorage.getItem(storageKey);
+
+  // 24시간 이내 동일 브라우저 재방문 시 중복 카운트 방지
+  const isNewView = !lastViewed || (now - parseInt(lastViewed, 10) > 24 * 60 * 60 * 1000);
+
+  const viewCountEl = document.getElementById('reader-view-count');
+  if (viewCountEl) {
+    viewCountEl.style.display = 'inline-flex';
+    viewCountEl.textContent = '👀 조회수 로딩...';
+  }
+
+  try {
+    let currentViews = allViewCounts[safeKey];
+    if (currentViews === undefined) {
+      const res = await fetch(`${FIREBASE_DB_URL}/views/${safeKey}.json`);
+      if (res.ok) {
+        const val = await res.json();
+        currentViews = (typeof val === 'number') ? val : 0;
+      } else {
+        currentViews = 0;
+      }
+    }
+
+    if (isNewView) {
+      currentViews = (currentViews || 0) + 1;
+      localStorage.setItem(storageKey, now.toString());
+      allViewCounts[safeKey] = currentViews;
+
+      // Firebase Realtime DB에 PUT으로 업데이트
+      fetch(`${FIREBASE_DB_URL}/views/${safeKey}.json`, {
+        method: 'PUT',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(currentViews)
+      }).catch(() => {});
+    }
+
+    if (viewCountEl) {
+      viewCountEl.textContent = `👀 조회수 ${Number(currentViews).toLocaleString()}회`;
+    }
+  } catch (err) {
+    console.warn('View record error:', err);
+    if (viewCountEl) {
+      viewCountEl.textContent = '👀 조회수 1회';
+    }
+  }
+}
+
 document.addEventListener('DOMContentLoaded', () => {
   initDropdowns();
   initShortcuts();
@@ -209,6 +300,7 @@ async function loadPosts() {
     updateCategoryTabCounts();
     populateNavDropdowns();
     handleHashRoute();
+    fetchAllViewCounts();
   } catch (err) {
     console.error(err);
     document.getElementById('posts-grid-container').innerHTML = `
@@ -593,6 +685,9 @@ async function openArticleView(articleId) {
   } catch (e) {
     document.getElementById('reader-read-time').textContent = '⏱️ 3분 분량';
   }
+
+  // 1-1. Record & Display Realtime View Count via Firebase
+  recordArticleView(post.id);
 
   // 2. Apply reader font size
   applyReaderFontSize();
@@ -1089,11 +1184,14 @@ function renderPostCards() {
     const displayTitle = highlightText(post.title, searchQuery);
     const displaySummary = highlightText(post.summary || '', searchQuery);
     const bookmarked = isBookmarked(post.id);
+    const safeKey = getSafePostKey(post.id);
+    const views = allViewCounts[safeKey] || 0;
     return `
     <div class="dc-post-card" onclick="window.location.hash='#article/${post.id}'">
       <div class="dc-card-top">
         <span class="dc-card-cat">${post.category || 'Daily Briefing'}</span>
         <div class="dc-card-top-right">
+          <span class="dc-card-views" data-id="${post.id}" title="조회수">👀 ${formatViewCount(views)}</span>
           <span class="dc-card-date">${post.date}${post.time ? ' ' + post.time : ''}</span>
           <button class="dc-card-bookmark-btn ${bookmarked ? 'active' : ''}" data-id="${post.id}" onclick="toggleBookmark('${post.id}', event)" title="북마크 저장/해제">${bookmarked ? '★' : '☆'}</button>
         </div>
@@ -1119,12 +1217,17 @@ function renderDirectoryTable() {
   }
   tbody.innerHTML = visible.map((post, idx) => {
     const displayTitle = highlightText(post.title, searchQuery);
+    const safeKey = getSafePostKey(post.id);
+    const views = allViewCounts[safeKey] || 0;
     return `
     <tr class="dc-table-row" onclick="window.location.hash='#article/${post.id}'" title="아티클 열기: ${post.title.replace(/"/g, '&quot;')}">
       <td style="font-weight:700;color:var(--text-muted);">${visible.length - idx}</td>
       <td style="font-family:var(--font-mono);font-size:12px;white-space:nowrap;">
         <div>${post.date}</div>
-        ${post.time ? `<div style="color:var(--text-muted);font-size:11px;">${post.time}</div>` : ''}
+        <div style="color:var(--text-muted);font-size:11px;display:flex;gap:5px;align-items:center;margin-top:2px;">
+          ${post.time ? `<span>${post.time}</span>` : ''}
+          <span title="조회수">👀 ${formatViewCount(views)}</span>
+        </div>
       </td>
       <td><span class="dc-card-cat">${post.category}</span></td>
       <td><strong class="dc-table-title">${displayTitle}</strong></td>
