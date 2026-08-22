@@ -3,10 +3,11 @@ id: 2026-08-23-haenam-solaseado-national-ai-datacenter
 title: "분산에너지법과 재생에너지 직결의 첫 시험대: 해남 솔라시도 3.2GW '국가 AI 컴퓨팅센터' 착공과 전력 계통 분산화 전략"
 date: 2026-08-23
 time: "12:00"
-category: Policy & Infra
+category: Tech Deep Dive
 status: published
 summary: "전라남도 해남 솔라시도 기업도시에 총사업비 2조 5,000억 원 규모의 '국가 AI 컴퓨팅센터'가 2026년 8월 3일 공식 착공했습니다. 2028년 고성능 GPU 1.5만 장, 2030년 5만 장 규모로 확장되는 국내 최대 공용 AI 인프라의 건축·전력 설계와, 수도권 전력망 포화를 우회하여 호남권 재생에너지(RE100)와 직결하는 'Load-to-Power' 분산 인프라 전략, 국산 NPU 실증 로드맵을 심층 분석합니다."
 labels:
+  - 테크딥다이브
   - 정책인프라
   - 국가AI컴퓨팅센터
   - 솔라시도
