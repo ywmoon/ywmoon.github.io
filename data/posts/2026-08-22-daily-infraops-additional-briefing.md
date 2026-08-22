@@ -22,7 +22,7 @@ labels:
 <div style='font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; line-height: 1.85; color: #1E293B; word-break: keep-all; font-size: 15.5px; max-width: 100%; margin: 0 auto;'>
 
   <!-- 리포트 헤더 배너 -->
-  <div style='background: linear-gradient(135deg, #0F172A 0%, #1E293B 60%, #334155 100%); color: #F8FAFC; padding: 38px 34px; border-radius: 16px; margin-bottom: 36px; box-shadow: 0 10px 25px -5px rgba(15, 23, 42, 0.25);'>
+  <div style='background: linear-gradient(135deg, #0F172A 0%, #1E293B 60%, #334155 100%); color: #F8FAFC; padding: 40px 34px; border-radius: 16px; margin-bottom: 36px; box-shadow: 0 10px 25px -5px rgba(15, 23, 42, 0.25);'>
     <div style='display: inline-block; background-color: #F59E0B; color: #0F172A; font-weight: 800; font-size: 12px; padding: 4px 12px; border-radius: 20px; text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 14px;'>Daily InfraOps Special Edition</div>
     <h1 style='font-size: 28px; font-weight: 800; line-height: 1.35; margin: 0 0 14px 0; color: #FFFFFF;'>한 주간 놓치지 말아야 할 데이터센터 인프라 추가 핵심 이슈 4선</h1>
     <p style='font-size: 15px; color: #CBD5E1; margin: 0;'>발행일: 2026년 8월 22일(토) | 주간 데일리 브리핑 미수록 심층 엔지니어링·전력 규제·물리 인프라 분석 리포트</p>
@@ -55,18 +55,20 @@ labels:
       ⚡ 1. 미국 최대 송전망 PJM의 'BYOP(자가발전 의무화)' 규제와 50MW+ 최우선 차단 충격
     </h2>
     <p style='font-size: 15px; margin-bottom: 14px;'>
-      미국 동부와 중서부 13개 주 6,500만 명의 전력 계통을 총괄하는 미국 최대 송전망 운영사 <strong>PJM 인터커넥션(PJM Interconnection)</strong>이 연방에너지규제위원회(FERC)에 제출한 신규 계통 연계 규제안은 글로벌 데이터센터 업계의 전력 조달 전략을 송두리째 뒤흔들고 있습니다.
+      미국 동부와 중서부 13개 주 6,500만 명의 전력 계통을 총괄하는 미국 최대 송전망 운영사 <strong>PJM 인터커넥션(PJM Interconnection)</strong>이 연방에너지규제위원회(FERC)에 제출한 신규 계통 연계 규제안은 글로벌 데이터센터 업계의 전력 조달 전략을 근본적으로 뒤흔들고 있습니다.
     </p>
     <p style='font-size: 15px; margin-bottom: 14px;'>
-      핵심 쟁점은 <strong>50MW 이상의 신규 하이퍼스케일 데이터센터</strong>를 전력망 비상사태(Grid Stress Event) 시 일반 시민이나 기간 산업에 앞서 <em>'최우선 전력 공급 차단(First-to-Cut)'</em> 대상으로 분류한다는 점입니다. 전력망 운영사는 혹서기나 혹한기 피크 타임에 전력 부족이 발생하면 사전 통보 없이 해당 데이터센터로의 송전을 차단할 권한을 갖게 됩니다.
+      핵심 쟁점은 <strong>50MW 이상의 신규 하이퍼스케일 데이터센터</strong>를 전력망 비상사태(Grid Stress Event) 발생 시 일반 시민이나 기간 산업에 앞서 <em>'최우선 전력 공급 차단(First-to-Cut)'</em> 대상 부하로 분류한다는 점입니다. 전력망 운영사는 혹서기나 혹한기 피크 타임에 계통 예비율이 임계치 아래로 떨어질 경우, 사전 통보 없이 해당 데이터센터로의 수전을 전면 차단할 법적 권한을 확보하게 됩니다.
     </p>
     <p style='font-size: 15px; margin-bottom: 14px;'>
-      이러한 최우선 셧다운을 회피하기 위해 PJM은 데이터센터 개발사에게 <strong>자체 발전 설비(BYOP: Bring Your Own Power)</strong> 구비를 법적으로 강제하는 요건을 신설했습니다. 데이터센터는 계통 연계를 신청할 때, 수전 용량의 상당 부분을 감당할 수 있는 온사이트(On-site) 항공전용 가스터빈(Aero-derivative Gas Turbine), SMR(소형모듈원자로), 또는 대용량 BESS(에너지저장장치) 구축 계획을 입증해야만 승인을 받을 수 있습니다.
+      이러한 강제 셧다운 위험을 회피하기 위해 PJM은 데이터센터 개발사에게 <strong>자체 발전 설비(BYOP: Bring Your Own Power)</strong> 구비를 의무화하는 요건을 신설했습니다. 신규 수전을 신청할 때, 수전 용량의 80~100%를 자체 충당할 수 있는 온사이트 항공전용 가스터빈(Aero-derivative Gas Turbine), SMR(소형모듈원자로), 또는 대용량 BESS(에너지저장장치) 구축 계획을 증명해야만 계통 연계 승인을 받을 수 있습니다.
     </p>
 
-    <div style='background-color: #F8FAFC; border-left: 4px solid #3B82F6; padding: 16px 20px; margin: 20px 0; border-radius: 0 8px 8px 0; font-size: 14.5px; color: #334155;'>
-      <strong>💬 전력 계통 아키텍처 관점의 파급효과:</strong><br/>
-      <em>"PJM의 BYOP 정책은 데이터센터 운영사가 이제 단순 수전 소비자(Consumer)가 아니라, 독자 발전소를 운영하는 독립발전사업자(IPP: Independent Power Producer)의 역할을 강제당하고 있음을 뜻합니다. 앞으로 하이퍼스케일러들은 부지 선정 시 변전소 거리뿐만 아니라, 천연가스 파이프라인 매설 여부와 온사이트 발전 인허가 가능성을 최우선으로 검토해야 합니다."</em>
+    <!-- 원문 인용구 박스 -->
+    <div style='background-color: #F8FAFC; border-left: 4px solid #3B82F6; padding: 18px 22px; margin: 20px 0; border-radius: 0 8px 8px 0; font-size: 14.5px; color: #334155; line-height: 1.75;'>
+      <strong>💬 PJM 계통 계획 총괄 및 Utility Dive 보도 인용:</strong><br/>
+      <em>"데이터센터의 폭발적인 전력 수요가 기존 가정용 전력망의 안정성을 위협하는 상황을 방치할 수 없습니다. 신규 대규모 데이터센터는 스스로 사용할 전력을 직접 가져오거나(BYOP), 비상시 계통 부하 경감을 위해 가장 먼저 전력망에서 분리될 각오를 해야 합니다. 이는 전력망 회복탄력성을 지키기 위한 불가피한 조치입니다."</em><br/>
+      <span style='font-size: 13px; color: #64748B;'>— Utility Dive 및 PJM FERC 제출 제안서 발췌</span>
     </div>
   </div>
 
@@ -76,14 +78,18 @@ labels:
       🏗️ 2. 데이터센터 물리 구조의 '탈(脫)콘크리트' 강구조(철골) 및 모듈러 전환
     </h2>
     <p style='font-size: 15px; margin-bottom: 14px;'>
-      차세대 AI 인프라의 등장은 토목 및 건축 구조 역학에도 전례 없는 패러다임 전환을 촉발하고 있습니다. 과거 공랭식 서버 랙의 무게는 랙당 500kg~800kg 수준에 불과했으나, 엔비디아 GB200 NVL72 등 차세대 수랭식 랙은 냉매가 충진된 쿨링 매니폴드와 백업 배터리 모듈로 인해 <strong>랙당 무게가 1.5톤에서 최대 2톤</strong>에 달합니다.
+      차세대 AI 인프라의 등장은 토목 및 건축 구조 역학에도 전례 없는 패러다임 전환을 촉발하고 있습니다. 과거 공랭식 서버 랙의 무게는 랙당 500kg~800kg 수준이었으나, 엔비디아 GB200 NVL72 등 차세대 수랭식 랙은 냉매가 충진된 쿨링 매니폴드와 백업 배터리 모듈로 인해 <strong>랙당 무게가 1.5톤에서 최대 2톤</strong>에 달합니다.
     </p>
     <p style='font-size: 15px; margin-bottom: 14px;'>
-      기존의 철근 콘크리트(RC) 구조는 바닥 슬래브의 처짐(Deflection) 현상과 진동 흡수에 한계가 있으며, 콘크리트 양생에만 수개월이 소요되어 급박한 AI 인프라 출시 일정을 맞출 수 없습니다. 이에 대응해 <strong>현대제철과 한미글로벌</strong>은 초고하중을 견디면서도 공기를 획기적으로 줄일 수 있는 <em>'데이터센터 전용 고성능 강구조(Steel Structure) 공법'</em> 기술 협력에 착수했습니다.
+      기존의 철근 콘크리트(RC) 구조는 바닥 슬래브의 처짐(Deflection) 현상과 진동 흡수에 한계가 있으며, 콘크리트 타설 및 양생에만 6~9개월이 소요되어 급박한 AI 인프라 출시 일정을 맞출 수 없습니다. 이에 대응해 <strong>현대제철과 한미글로벌</strong>은 초고하중을 견디면서도 공기를 획기적으로 단축하는 <em>'데이터센터 전용 고성능 강구조(Steel Structure) 공법'</em> 기술 협력에 착수했습니다.
     </p>
-    <p style='font-size: 15px; margin-bottom: 14px;'>
-      공장에서 규격화된 고강도 H형강과 바닥 데크 플레이트를 사전 제작(DfMA)하여 현장에서 볼트 체결 방식으로 조립하는 철골 모듈러 공법을 적용하면, 슬래브 하중 지지력을 ㎡당 2.5톤 이상으로 높이면서 전체 <strong>건축 공기(Construction Lead-time)를 기존 대비 30% 이상 단축</strong>할 수 있습니다. 국내에서도 아이에이(IA) 등이 모듈러 AIDC 사업에 신규 진출하며 물리 건축의 전환이 가속화되고 있습니다.
-    </p>
+
+    <!-- 원문 인용구 박스 -->
+    <div style='background-color: #FEF3C7; border-left: 4px solid #D97706; padding: 18px 22px; margin: 20px 0; border-radius: 0 8px 8px 0; font-size: 14.5px; color: #78350F; line-height: 1.75;'>
+      <strong>💬 현대제철-한미글로벌 MOU 공식 성명 인용:</strong><br/>
+      <em>"AI 데이터센터는 일반 건축물과 달리 초고밀도 서버와 액체냉각 배관 하중이 ㎡당 2톤 이상 집중됩니다. 공장에서 규격화된 고성능 H형강과 합성보를 사전 제작하는 DfMA(제조·조립 일체화) 공법을 도입하면, 바닥 슬래브 지지력을 25kN/㎡ 이상으로 확보하면서도 전체 건축 공기를 기존 콘크리트 대비 30% 이상 단축할 수 있습니다."</em><br/>
+      <span style='font-size: 13px; color: #92400E;'>— 전자신문 및 현대제철 공식 브리핑</span>
+    </div>
   </div>
 
   <!-- 이슈 3: 수중 및 우주 데이터센터 실증 -->
@@ -97,8 +103,16 @@ labels:
     <p style='font-size: 15px; margin-bottom: 14px;'>
       <strong>한국해양과학기술원(KIOST)</strong>은 울산시 연안 수심 30m 해저에 해수 냉각을 직접 활용하는 <em>수중 데이터센터(Underwater Data Center) 서버 모듈 실증</em>에 착수했습니다. 수심 30m의 해수는 연중 4~12℃의 저온을 일정하게 유지하므로, 압력 용기 외부로 열교환기를 배치하여 별도의 전기 칠러 가동 없이 완전 자연 냉각이 가능합니다. 이를 통해 냉각 전력 소비를 90% 이상 절감하여 <strong>PUE 1.05</strong>를 달성할 수 있습니다.
     </p>
+
+    <!-- 원문 인용구 박스 -->
+    <div style='background-color: #ECFDF5; border-left: 4px solid #059669; padding: 18px 22px; margin: 20px 0; border-radius: 0 8px 8px 0; font-size: 14.5px; color: #065F46; line-height: 1.75;'>
+      <strong>💬 KIOST 연구책임자 및 해양수산부 기술 브리핑 인용:</strong><br/>
+      <em>"해저 30m 압력 챔버 내부는 100% 무산소 질소 가스로 충진됩니다. 산소와 습기가 차단되므로 금속 핀과 커넥터의 부식이 원천 차단되어, 육상 데이터센터 대비 서버 하드웨어 고장률이 최대 80% 감소합니다. 부지 매입비와 냉각 전력비가 거의 들지 않는 수중 데이터센터는 엣지 AI 시대의 강력한 대안이 될 것입니다."</em><br/>
+      <span style='font-size: 13px; color: #047857;'>— 해양수산부 정책 브리핑 및 KIOST 공식 발표</span>
+    </div>
+
     <p style='font-size: 15px; margin-bottom: 14px;'>
-      수중 데이터센터는 산소와 습기가 없는 100% 고압 질소 가스로 밀폐되어 부품 산화가 일어나지 않으므로, 육상 데이터센터 대비 <strong>서버 고장률이 최대 80% 감소</strong>하는 운영상의 독보적 이점을 제공합니다. 한편 스페이스X(SpaceX)는 지상 전력망을 아예 거치지 않고 무한한 태양광 발전을 활용하는 <strong>최대 5,000억 달러 규모의 우주 저궤도(LEO) AI 데이터센터</strong> 프로젝트를 공식화하며 극한 인프라의 지평을 넓히고 있습니다.
+      한편 스페이스X(SpaceX)는 지상 전력망을 아예 거치지 않고 무한한 태양광 발전을 활용하는 <strong>최대 5,000억 달러 규모의 우주 저궤도(LEO) AI 데이터센터</strong> 프로젝트를 공식화하며 극한 인프라의 지평을 넓히고 있습니다.
     </p>
   </div>
 
@@ -113,6 +127,14 @@ labels:
     <p style='font-size: 15px; margin-bottom: 14px;'>
       미국 <strong>네바다주 나이 카운티(Nye County)</strong>는 지하수 수위 급락과 지역 농업용수 고갈 위기를 방지하기 위해 관내 모든 데이터센터 신규 개발을 <em>전면 금지</em>하는 초강력 조례를 가결했습니다. 캐나다 앨버타 유틸리티 위원회(AUC) 역시 올즈(Olds) 하이퍼스케일 데이터센터 전용 발전소 승인을 환경 적합성 미흡으로 최종 기각했습니다.
     </p>
+
+    <!-- 원문 인용구 박스 -->
+    <div style='background-color: #F8FAFC; border-left: 4px solid #EF4444; padding: 18px 22px; margin: 20px 0; border-radius: 0 8px 8px 0; font-size: 14.5px; color: #334155; line-height: 1.75;'>
+      <strong>💬 네바다주 나이 카운티 의회 의결문 &amp; 앨버타 AUC 결정문 발췌:</strong><br/>
+      <em>"증발식 냉각탑을 통해 매일 수백만 갤런의 지하수를 소비하는 데이터센터는 가뭄에 취약한 지역사회의 생존권을 위협합니다. 물 소비가 0(Zero Water Consumption)에 도달하는 완전 폐쇄형 건식 시스템을 입증하지 못하는 프로젝트에 대해서는 일체의 개발 승인을 불허합니다."</em><br/>
+      <span style='font-size: 13px; color: #64748B;'>— Nye County Commission 의결록 및 캐나다 AUC 공시</span>
+    </div>
+
     <p style='font-size: 15px; margin-bottom: 14px;'>
       이에 따라 증발식 냉각탑을 통해 수백만 리터의 물을 대기 중으로 날려 보내던 기존 방식은 완전히 퇴출 수순을 밟고 있습니다. 대신 공기와 냉매 사이를 밀폐된 핀 튜브로 열교환시키는 <strong>'완전 밀폐형 건식 냉각탑(Closed-loop Dry Cooler)'</strong>과 물 소비가 '0'인 무수(Zero-Water) 순환 공조 시스템이 하이퍼스케일러의 표준 아키텍처로 자리 잡았습니다.
     </p>
