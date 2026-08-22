@@ -3,10 +3,11 @@ id: 2026-08-23-anthropic-riot-12t-megadeal-power-pivot
 title: "비트코인 채굴소에서 초거대 AI 허브로: 앤트로픽-라이엇(Riot) 12조 8,500억 원 초대형 계약과 전력 부지 피벗(Pivot)"
 date: 2026-08-23
 time: "11:00"
-category: Market Strategy
+category: Tech Deep Dive
 status: published
 summary: "AI 프런티어 랩 앤트로픽(Anthropic)이 비트코인 채굴 대기업 라이엇 플랫폼스(Riot Platforms)와 191MW 규모, 최대 161억 달러(약 22.7조 원)에 달하는 22년 장기 데이터센터 계약을 체결했습니다. 맥쿼리·GIC와의 특수목적법인(JV) 구조, 하이퍼스케일러 종속을 탈피하는 기가와트급 수전 부지 확보 전략, ERCOT 4CP 회피 및 암호화폐 채굴소의 AI 인프라 리퍼포징 공학을 심층 분석합니다."
 labels:
+  - 테크딥다이브
   - 마켓전략
   - 앤트로픽
   - 라이엇플랫폼스
