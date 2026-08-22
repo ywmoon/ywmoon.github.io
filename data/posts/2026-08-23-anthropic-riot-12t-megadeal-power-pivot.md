@@ -29,15 +29,16 @@ updated: "2026-08-23 11:00"
     <p style="font-size: 15px; line-height: 1.7; color: #CBD5E1; margin: 0;">앤트로픽이 미국 텍사스주 록데일과 코르시카나의 191MW 수전 부지를 2048년까지 장기 임차하는 91억 달러 기본 계약을 체결했습니다. 왜 AI 랩스는 암호화폐 채굴장으로 향하고 있으며, 인프라 펀드(맥쿼리, GIC)와 결합한 신규 금융 아키텍처는 무엇인지 심층 분석합니다.</p>
   </div>
 
-  <!-- 출처 및 공시 레퍼런스 박스 -->
+    <!-- 출처 및 공시 레퍼런스 박스 -->
   <div style="background-color: #F8FAFC; border: 1px solid #E2E8F0; border-left: 4px solid #10B981; border-radius: 8px; padding: 20px 24px; margin-bottom: 36px; font-size: 14px; color: #475569;">
-    <strong>📄 주요 언론 보도:</strong> Bloomberg, <em>Anthropic Secures 191MW Texas Data Center Capacity in $9.1B Riot Platforms Deal</em> (2026.08.10)<br>
-    <strong>🔗 디지털데일리 원문:</strong> <a href="https://n.news.naver.com/mnews/article/138/0002237413" target="_blank" rel="noopener noreferrer" style="color: #10B981; font-weight: 600; text-decoration: underline;">앤트로픽, 라이엇과 12조8500억원 규모 데이터센터 계약 기사 바로가기</a><br>
-    <strong>🏢 금융 파트너십:</strong> AI타임스, <em>앤트로픽, 맥쿼리·GIC와 데이터센터 합작법인 설립...AI 인프라 자본 부담 줄인다</em> (2026.08.12)<br>
-    <strong>⚖️ 공시 및 규제:</strong> Riot Platforms Inc. US SEC Form 8-K Filing, ERCOT (Texas Electric Reliability Council) Large Load Interconnection Report
+    <strong>📄 글로벌 주요 보도:</strong> Bloomberg, <em><a href="https://www.bloomberg.com/news/articles/2026-08-10/anthropic-riot-platforms-deal" target="_blank" rel="noopener noreferrer" style="color: #10B981; font-weight: 600; text-decoration: underline;">Anthropic Secures 191MW Texas Data Center Capacity in $9.1B Riot Platforms Deal</a></em> (2026.08.10)<br>
+    <strong>🔗 국내 언론 보도 1:</strong> <a href="https://n.news.naver.com/mnews/article/138/0002237413" target="_blank" rel="noopener noreferrer" style="color: #10B981; font-weight: 600; text-decoration: underline;">[디지털데일리] 앤트로픽, 라이엇과 12조8500억원 규모 데이터센터 계약 기사 바로가기</a><br>
+    <strong>📰 국내 언론 보도 2:</strong> <a href="https://n.news.naver.com/mnews/article/081/0003666878" target="_blank" rel="noopener noreferrer" style="color: #10B981; font-weight: 600; text-decoration: underline;">[서울신문] 앤트로픽에 왕좌 뺏긴 오픈AI… 수익성 두고 ‘2차 주도권’ 경쟁</a><br>
+    <strong>🏢 금융 파트너십 보도:</strong> <a href="https://www.aitimes.com/news/articleView.html?idxno=213441" target="_blank" rel="noopener noreferrer" style="color: #10B981; font-weight: 600; text-decoration: underline;">[AI타임스] 앤트로픽, 맥쿼리·GIC와 데이터센터 합작법인 설립...AI 인프라 자본 부담 분산</a><br>
+    <strong>⚖️ 공시 및 규제 원문:</strong> <a href="https://www.sec.gov/edgar/browse/?CIK=0001167419" target="_blank" rel="noopener noreferrer" style="color: #10B981; text-decoration: underline;">Riot Platforms Inc. US SEC Form 8-K Filing</a>, <a href="https://www.ercot.com" target="_blank" rel="noopener noreferrer" style="color: #10B981; text-decoration: underline;">ERCOT Large Load Interconnection Study</a>
   </div>
 
-  <p>2026년 8월 10일, 미국 텍사스주에 본사를 둔 세계 최대 비트코인 채굴 기업인 **라이엇 플랫폼스(Riot Platforms, NASDAQ: RIOT)**는 공시를 통해 글로벌 '선도적 프런티어 AI 기업'과 191MW 규모의 22년 장기 데이터센터 호스팅 계약을 체결했다고 공식 발표했습니다. 블룸버그와 디지털데일리의 취재 결과, 이 고객사는 클로드(Claude) 시리즈를 개발하는 <strong>앤트로픽(Anthropic)</strong>으로 확인되었습니다.</p>
+<p>2026년 8월 10일, 미국 텍사스주에 본사를 둔 세계 최대 비트코인 채굴 기업인 **라이엇 플랫폼스(Riot Platforms, NASDAQ: RIOT)**는 공시를 통해 글로벌 '선도적 프런티어 AI 기업'과 191MW 규모의 22년 장기 데이터센터 호스팅 계약을 체결했다고 공식 발표했습니다. 블룸버그와 디지털데일리의 취재 결과, 이 고객사는 클로드(Claude) 시리즈를 개발하는 <strong>앤트로픽(Anthropic)</strong>으로 확인되었습니다.</p>
 
   <p>계약 기간은 2048년 6월까지 지속되며, 기본 확정 매출만 <strong>91억 달러(약 12조 8,583억 원)</strong>에 달합니다. 여기에 각각 5년씩 2회 연장할 수 있는 옵션이 포함되어 있어, 옵션이 모두 실행될 경우 총 계약 규모는 <strong>최대 161억 달러(약 22조 7,493억 원)</strong>로 폭증합니다. 이 계약 발표 직후 라이엇 주가는 시간외 거래에서 25% 급등했습니다.</p>
 
