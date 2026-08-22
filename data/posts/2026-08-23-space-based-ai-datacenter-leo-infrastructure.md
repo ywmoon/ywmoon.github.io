@@ -29,15 +29,17 @@ updated: "2026-08-23 14:00"
     <p style="font-size: 15px; line-height: 1.7; color: #CBD5E1; margin: 0;">지상의 4중 병목(전력 부족·냉각수 고갈·부지 확보 난항·탄소 규제)을 해결하기 위해 인공위성 저궤도(LEO)가 차세대 데이터센터 입지로 급부상하고 있습니다. 2027년 실증 궤도 진입을 앞둔 우주 기반 AI 데이터센터의 물리적 타당성과 통신·열역학 엔지니어링을 분석합니다.</p>
   </div>
 
-  <!-- 출처 및 공식 프로젝트 레퍼런스 박스 -->
+    <!-- 출처 및 공식 프로젝트 레퍼런스 박스 -->
   <div style="background-color: #F8FAFC; border: 1px solid #E2E8F0; border-left: 4px solid #8B5CF6; border-radius: 8px; padding: 20px 24px; margin-bottom: 36px; font-size: 14px; color: #475569;">
-    <strong>📄 공식 프로젝트 타당성 보고서:</strong> European Space Agency (ESA), <em>ASCEND (Advanced Space Cloud for European Net zero emissions and Data sovereignty) Feasibility Study</em> (Thales Alenia Space 주도, 2026)<br>
-    <strong>🔗 관련 언론 보도:</strong> 더퍼블릭, <em>[집중분석] 지상에서 우주로 가는 AI 데이터센터…빅테크의 ‘탈지구 프로젝트’</em> (2026.08.11)<br>
+    <strong>📄 공식 프로젝트 타당성 보고서:</strong> European Space Agency (ESA), <em><a href="https://www.esa.int" target="_blank" rel="noopener noreferrer" style="color: #8B5CF6; font-weight: 600; text-decoration: underline;">ASCEND (Advanced Space Cloud for European Net zero emissions and Data sovereignty) Feasibility Study</a></em> (Thales Alenia Space 주도, 2026)<br>
+    <strong>🔗 주요 언론 보도 1:</strong> <a href="https://news.google.com/rss/articles/CBMigwFBVV95cUxNcXlBdzBlaVpaTEdFdU9BUnk3djZEZzRFSC1NOGRta1o2TTQ0Q1VrUWRzUzRlS01YQUpSbUwtR0VTODBrMndkN2ZHSGlxM24xbzdzcHhPdlFJN2RPLTdjV2o2bWtNODFZS3RuelNCX3IzcWxCWE1GV0tnZ3JiLUxJQm5vZw?oc=5" target="_blank" rel="noopener noreferrer" style="color: #8B5CF6; font-weight: 600; text-decoration: underline;">[조선일보] 우주 AI 데이터센터 최대 난제 풀 ‘냉각 시스템’ 특허 나왔다</a><br>
+    <strong>📰 주요 언론 보도 2:</strong> <a href="https://news.google.com/rss/articles/CBMijAFBVV95cUxPZ1poWGhUZXVsckNDUVRzOTU2bVJDVFhWY2dVOTZER19kY2Ryd1dKdThjWmFnWDF6bEJlT2ZRYThheE9FdmI0NkFadlYzbENPQ0NYVHVVYkdDREhYRElFZzQ3X0l6RXpYNnY4ZGxMV1ZuRy1vWHVXUkZaVEctbGU0UGowOEtTc3FHU1prR9IBoAFBVV95cUxOUFl0R09FYW5FaTB5dVF5UkV3elZ1V3NHejdxWVNkV0ZMRkZjNnVlVWJIVUhxOE9GUmR2Q19CS2FPejNnc2JLTGhoVlZTNklNZVdOYWdwWkhTSlItdlpnNFdwYThaVGpwWjdEWU8yVDVpa3BNOW9lSVpQZzFFU3hDang5SUZBTENUZEdoVk5OVFZaTjJ2UDdlTk1RWFFUUEdX?oc=5" target="_blank" rel="noopener noreferrer" style="color: #8B5CF6; font-weight: 600; text-decoration: underline;">[Chosunbiz] 우주 데이터센터서 냉각이 어려운 이유는… “방열판으로 식히고 칩 발열 줄인다”</a><br>
+    <strong>📰 주요 언론 보도 3:</strong> <a href="https://news.google.com/rss/articles/CBMiT0FVX3lxTE9aWWhPbk5XVVVnbkpFaHoxZllwdnotUmNWMkdTbldKcGFmOEg0YlFRUHdKSm5saW1qVnBsUUFiRkZoaVpsVUtMUHowYm9BN1U?oc=5" target="_blank" rel="noopener noreferrer" style="color: #8B5CF6; font-weight: 600; text-decoration: underline;">[동아사이언스] 우주 AI 데이터센터 냉각, 태양광으로 해결될까</a><br>
     <strong>🚀 글로벌 민간 로드맵:</strong> Google Project Suncatcher (2027 시험 위성 발사), Starcloud & NVIDIA 궤도형 공공 클라우드 컨소시엄, SpaceX Starlink V3 Laser Mesh<br>
     <strong>📡 핵심 공학 표준:</strong> 위성 간 광통신(ISL, Inter-Satellite Laser Link), 우주 방사선 내복원 반도체(Rad-Hardened GPU/SoC)
   </div>
 
-  <p>지상 데이터센터의 전력 소모량이 2030년 1,000TWh에 육박할 것으로 전망되면서, 전력망 확보 실패와 수자원 고갈 규제(WUE 모라토리엄)로 인해 전 세계 수백 건의 하이퍼스케일 프로젝트가 기한 없이 지연되고 있습니다. 이 물리적 한계를 근본적으로 해결하기 위해 제안된 것이 바로 <strong>'우주 기반 AI 데이터센터(Space-based Data Center)'</strong>입니다.</p>
+<p>지상 데이터센터의 전력 소모량이 2030년 1,000TWh에 육박할 것으로 전망되면서, 전력망 확보 실패와 수자원 고갈 규제(WUE 모라토리엄)로 인해 전 세계 수백 건의 하이퍼스케일 프로젝트가 기한 없이 지연되고 있습니다. 이 물리적 한계를 근본적으로 해결하기 위해 제안된 것이 바로 <strong>'우주 기반 AI 데이터센터(Space-based Data Center)'</strong>입니다.</p>
 
   <p>유럽우주국(ESA)이 지원하고 탈레스 알레니아 스페이스(Thales Alenia Space)가 주관한 <strong>ASCEND 프로젝트</strong>의 2026년 타당성 조사 결과, 재사용 발사체 비용이 kg당 100달러 수준으로 하락하는 2030년대 초반이 되면 우주 데이터센터가 지상 데이터센터 대비 <strong>탄소 배출량을 연간 수천만 톤 감축하고 경제적 손익분기점(BEP)을 달성할 수 있다</strong>고 결론지었습니다. 2027년은 구글, 엔비디아 후원 스타클라우드, 스페이스X가 궤도 상용화 실증을 개시하는 원년이 될 전망입니다.</p>
 
