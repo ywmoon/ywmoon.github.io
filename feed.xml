@@ -5,7 +5,7 @@
     <link>https://ywmoon.github.io</link>
     <description>글로벌 AI 데이터센터 전력망, 냉각, 클라우드 인프라 엔지니어링 데일리 트렌드</description>
     <language>ko</language>
-    <lastBuildDate>Sun, 23 Aug 2026 08:19:08 -0000</lastBuildDate>
+    <lastBuildDate>Sun, 23 Aug 2026 08:28:37 -0000</lastBuildDate>
     <atom:link href="https://ywmoon.github.io/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
       <title>전력난과 탄소 규제를 넘어선 탈지구 인프라: 2027년 '우주 AI 데이터센터' 실증과 저궤도(LEO) 궤도 컴퓨팅 아키텍처</title>
@@ -37,7 +37,7 @@
       <guid isPermaLink="true">https://ywmoon.github.io/article/2026-08-23-anthropic-riot-12t-megadeal-power-pivot/</guid>
       <pubDate>Sun, 23 Aug 2026 00:00:00 -0000</pubDate>
       <category>Market Strategy</category>
-      <description>AI 프런티어 랩 앤트로픽(Anthropic)이 비트코인 채굴 대기업 라이엇 플랫폼스(Riot Platforms)와 191MW 규모, 최대 161억 달러(약 22.7조 원)에 달하는 22년 장기 데이터센터 계약을 체결했습니다. 맥쿼리·GIC와의 특수목적법인(JV) 설립과 함께 하이퍼스케일러 종속을 탈피하고 기가와트급 전력 부지를 직접 확보하는 AI 랩스의 '전력 랜드그랩(Power Land Grab)'과 인프라 리퍼포징 공학을 심층 분석합니다.</description>
+      <description>AI 프런티어 랩 앤트로픽(Anthropic)이 비트코인 채굴 대기업 라이엇 플랫폼스(Riot Platforms)와 191MW 규모, 최대 161억 달러(약 22.7조 원)에 달하는 22년 장기 데이터센터 계약을 체결했습니다. 맥쿼리·GIC와의 특수목적법인(JV) 구조, 하이퍼스케일러 종속을 탈피하는 기가와트급 수전 부지 확보 전략, ERCOT 4CP 회피 및 암호화폐 채굴소의 AI 인프라 리퍼포징 공학을 심층 분석합니다.</description>
     </item>
     <item>
       <title>차세대 AI 데이터센터 전력 패러다임: 800V DC(직류) 배전 아키텍처와 전력 변환 손실 혁신</title>
