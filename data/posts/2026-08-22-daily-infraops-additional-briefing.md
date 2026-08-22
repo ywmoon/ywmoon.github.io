@@ -14,7 +14,6 @@ labels:
   - 강구조
   - 수중데이터센터
   - 액체냉각
-  - WUE
   - 인프라규제
   - AWS
   - AI인프라
@@ -23,7 +22,7 @@ labels:
 <div style='font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; line-height: 1.85; color: #1E293B; word-break: keep-all; font-size: 15.5px; max-width: 100%; margin: 0 auto;'>
 
   <!-- 리포트 헤더 배너 -->
-  <div style='background: linear-gradient(135deg, #0F172A 0%, #1E293B 60%, #334155 100%); color: #F8FAFC; padding: 36px 32px; border-radius: 16px; margin-bottom: 36px; box-shadow: 0 10px 25px -5px rgba(15, 23, 42, 0.25);'>
+  <div style='background: linear-gradient(135deg, #0F172A 0%, #1E293B 60%, #334155 100%); color: #F8FAFC; padding: 38px 34px; border-radius: 16px; margin-bottom: 36px; box-shadow: 0 10px 25px -5px rgba(15, 23, 42, 0.25);'>
     <div style='display: inline-block; background-color: #F59E0B; color: #0F172A; font-weight: 800; font-size: 12px; padding: 4px 12px; border-radius: 20px; text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 14px;'>Daily InfraOps Special Edition</div>
     <h1 style='font-size: 28px; font-weight: 800; line-height: 1.35; margin: 0 0 14px 0; color: #FFFFFF;'>한 주간 놓치지 말아야 할 데이터센터 인프라 추가 핵심 이슈 4선</h1>
     <p style='font-size: 15px; color: #CBD5E1; margin: 0;'>발행일: 2026년 8월 22일(토) | 주간 데일리 브리핑 미수록 심층 엔지니어링·전력 규제·물리 인프라 분석 리포트</p>
@@ -51,7 +50,7 @@ labels:
   </div>
 
   <!-- 이슈 1: PJM 인터커넥션의 BYOP 규제 -->
-  <div style='margin-bottom: 48px;'>
+  <div style='margin-bottom: 50px;'>
     <h2 style='font-size: 22px; font-weight: 800; color: #0F172A; border-bottom: 2px solid #E2E8F0; padding-bottom: 12px; margin-bottom: 22px;'>
       ⚡ 1. 미국 최대 송전망 PJM의 'BYOP(자가발전 의무화)' 규제와 50MW+ 최우선 차단 충격
     </h2>
@@ -62,10 +61,9 @@ labels:
       핵심 쟁점은 <strong>50MW 이상의 신규 하이퍼스케일 데이터센터</strong>를 전력망 비상사태(Grid Stress Event) 시 일반 시민이나 기간 산업에 앞서 <em>'최우선 전력 공급 차단(First-to-Cut)'</em> 대상으로 분류한다는 점입니다. 전력망 운영사는 혹서기나 혹한기 피크 타임에 전력 부족이 발생하면 사전 통보 없이 해당 데이터센터로의 송전을 차단할 권한을 갖게 됩니다.
     </p>
     <p style='font-size: 15px; margin-bottom: 14px;'>
-      이러한 최우선 셧다운을 회피하기 위해 PJM은 데이터센터 개발사에게 <strong>자체 발전 설비(BYOP: Bring Your Own Power)</strong> 구비를 법적으로 강제하는 요건을 신설했습니다. 데이터센터는 계통 연계를 신청할 때, 수전 용량의 상당 부분을 감당할 수 있는 온사이트(On-site) 가스터빈, SMR(소형모듈원자로), 또는 대용량 BESS(에너지저장장치) 구축 계획을 입증해야만 승인을 받을 수 있습니다.
+      이러한 최우선 셧다운을 회피하기 위해 PJM은 데이터센터 개발사에게 <strong>자체 발전 설비(BYOP: Bring Your Own Power)</strong> 구비를 법적으로 강제하는 요건을 신설했습니다. 데이터센터는 계통 연계를 신청할 때, 수전 용량의 상당 부분을 감당할 수 있는 온사이트(On-site) 항공전용 가스터빈(Aero-derivative Gas Turbine), SMR(소형모듈원자로), 또는 대용량 BESS(에너지저장장치) 구축 계획을 입증해야만 승인을 받을 수 있습니다.
     </p>
 
-    <!-- 인용구 분석 박스 -->
     <div style='background-color: #F8FAFC; border-left: 4px solid #3B82F6; padding: 16px 20px; margin: 20px 0; border-radius: 0 8px 8px 0; font-size: 14.5px; color: #334155;'>
       <strong>💬 전력 계통 아키텍처 관점의 파급효과:</strong><br/>
       <em>"PJM의 BYOP 정책은 데이터센터 운영사가 이제 단순 수전 소비자(Consumer)가 아니라, 독자 발전소를 운영하는 독립발전사업자(IPP: Independent Power Producer)의 역할을 강제당하고 있음을 뜻합니다. 앞으로 하이퍼스케일러들은 부지 선정 시 변전소 거리뿐만 아니라, 천연가스 파이프라인 매설 여부와 온사이트 발전 인허가 가능성을 최우선으로 검토해야 합니다."</em>
@@ -73,7 +71,7 @@ labels:
   </div>
 
   <!-- 이슈 2: 탈콘크리트 철골 강구조 전환 -->
-  <div style='margin-bottom: 48px;'>
+  <div style='margin-bottom: 50px;'>
     <h2 style='font-size: 22px; font-weight: 800; color: #0F172A; border-bottom: 2px solid #E2E8F0; padding-bottom: 12px; margin-bottom: 22px;'>
       🏗️ 2. 데이터센터 물리 구조의 '탈(脫)콘크리트' 강구조(철골) 및 모듈러 전환
     </h2>
@@ -86,21 +84,10 @@ labels:
     <p style='font-size: 15px; margin-bottom: 14px;'>
       공장에서 규격화된 고강도 H형강과 바닥 데크 플레이트를 사전 제작(DfMA)하여 현장에서 볼트 체결 방식으로 조립하는 철골 모듈러 공법을 적용하면, 슬래브 하중 지지력을 ㎡당 2.5톤 이상으로 높이면서 전체 <strong>건축 공기(Construction Lead-time)를 기존 대비 30% 이상 단축</strong>할 수 있습니다. 국내에서도 아이에이(IA) 등이 모듈러 AIDC 사업에 신규 진출하며 물리 건축의 전환이 가속화되고 있습니다.
     </p>
-
-    <!-- 건축 역학 지표 카드 -->
-    <div style='background-color: #FEF3C7; border: 1px solid #FCD34D; border-radius: 10px; padding: 20px 24px; margin: 24px 0;'>
-      <div style='font-weight: 700; color: #92400E; font-size: 15px; margin-bottom: 8px;'>📐 [건축 엔지니어링 지표] 액체냉각 AI 랙 하중 분산 설계식</div>
-      <div style='font-family: monospace; font-size: 15px; font-weight: bold; color: #78350F; background-color: #FFFFFF; padding: 12px 16px; border-radius: 6px; border: 1px solid #FDE68A; margin-bottom: 12px;'>
-        바닥 설계 하중(kN/㎡) = [랙 자체 중량(kg) + 액체 냉매 중량(kg) + 배관 하중(kg)] ÷ 접지 유효 면적(㎡)
-      </div>
-      <div style='font-size: 14px; color: #92400E; line-height: 1.7;'>
-        <strong>👉 핵심 의미:</strong> 통상적인 데이터센터 바닥 설계 하중은 12~15kN/㎡(약 1.2~1.5톤/㎡)이지만, 차세대 액체냉각 AI 랙 배치는 최소 20~25kN/㎡의 집중 하중을 발생시킵니다. 이를 지탱하기 위해 고장력 강재 기둥과 하부 댐퍼(Damper) 진동 감쇄 시스템이 필수적으로 설계되어야 합니다.
-      </div>
-    </div>
   </div>
 
   <!-- 이슈 3: 수중 및 우주 데이터센터 실증 -->
-  <div style='margin-bottom: 48px;'>
+  <div style='margin-bottom: 50px;'>
     <h2 style='font-size: 22px; font-weight: 800; color: #0F172A; border-bottom: 2px solid #E2E8F0; padding-bottom: 12px; margin-bottom: 22px;'>
       🌊 3. 지상 그리드 한계를 넘는 '해저 수중 &amp; 궤도 우주' 극한 인프라 실증
     </h2>
@@ -116,7 +103,7 @@ labels:
   </div>
 
   <!-- 이슈 4: 수자원 효율(WUE)과 지자체 인허가 규제 -->
-  <div style='margin-bottom: 48px;'>
+  <div style='margin-bottom: 50px;'>
     <h2 style='font-size: 22px; font-weight: 800; color: #0F172A; border-bottom: 2px solid #E2E8F0; padding-bottom: 12px; margin-bottom: 22px;'>
       💧 4. PUE를 넘어선 WUE(수자원 효율성)와 글로벌 지자체의 인허가 금지령
     </h2>
@@ -129,17 +116,6 @@ labels:
     <p style='font-size: 15px; margin-bottom: 14px;'>
       이에 따라 증발식 냉각탑을 통해 수백만 리터의 물을 대기 중으로 날려 보내던 기존 방식은 완전히 퇴출 수순을 밟고 있습니다. 대신 공기와 냉매 사이를 밀폐된 핀 튜브로 열교환시키는 <strong>'완전 밀폐형 건식 냉각탑(Closed-loop Dry Cooler)'</strong>과 물 소비가 '0'인 무수(Zero-Water) 순환 공조 시스템이 하이퍼스케일러의 표준 아키텍처로 자리 잡았습니다.
     </p>
-
-    <!-- WUE 공식 카드 -->
-    <div style='background-color: #ECFDF5; border: 1px solid #A7F3D0; border-radius: 10px; padding: 20px 24px; margin: 24px 0;'>
-      <div style='font-weight: 700; color: #065F46; font-size: 15px; margin-bottom: 8px;'>💧 [친환경 수자원 지표] WUE 공식 및 제로 워터 목표치</div>
-      <div style='font-family: monospace; font-size: 16px; font-weight: bold; color: #064E3B; background-color: #FFFFFF; padding: 12px 16px; border-radius: 6px; border: 1px solid #6EE7B7; margin-bottom: 12px;'>
-        WUE (L/kWh) = 데이터센터 연간 총 냉각수 소비량(L) ÷ IT 장비 연간 소비전력(kWh)
-      </div>
-      <div style='font-size: 14px; color: #065F46; line-height: 1.7;'>
-        <strong>👉 인허가 벤치마크:</strong> 레거시 증발식 수랭 데이터센터의 WUE는 통상 1.5~2.0 L/kWh에 달합니다(1MW 서버 1년 가동 시 약 1,500만 리터 소모). 하지만 최근 미국과 유럽의 신규 인허가 가이드라인은 WUE 0.2 L/kWh 이하를 요구하고 있으며, 궁극적으로 증발이 없는 <em>WUE 0.00(Zero Water Consumption)</em>을 충족해야만 인허가 모라토리엄을 돌파할 수 있습니다.
-      </div>
-    </div>
   </div>
 
   <!-- 추가 이슈 4선 핵심 비교 요약 테이블 -->
@@ -179,7 +155,7 @@ labels:
           <tr style='background-color: #F8FAFC;'>
             <td style='padding: 12px 14px; border: 1px solid #E2E8F0; font-weight: 700; color: #059669;'>4. WUE 수자원 통제</td>
             <td style='padding: 12px 14px; border: 1px solid #E2E8F0;'>네바다 나이 카운티 DC 금지 및 앨버타 발전소 승인 기각</td>
-            <td style='padding: 12px 14px; border: 1px solid #E2E8F0;'>WUE 0.00 목표 / 100% 무수 공조</td>
+            <td style='padding: 12px 14px; border: 1px solid #E2E8F0;'>무증발 완전 폐쇄형 냉각</td>
             <td style='padding: 12px 14px; border: 1px solid #E2E8F0;'>완전 폐쇄형 건식 냉각탑(Closed-loop Dry Cooler) 전환</td>
           </tr>
         </tbody>
