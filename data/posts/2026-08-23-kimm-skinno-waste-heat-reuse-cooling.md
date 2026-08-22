@@ -29,15 +29,16 @@ updated: "2026-08-23 13:00"
     <p style="font-size: 15px; line-height: 1.7; color: #CBD5E1; margin: 0;">데이터센터에 투입되는 전력의 100%는 열역학 제1법칙에 따라 전량 열로 전환됩니다. AI 칩을 식힌 40~65℃ 액체 폐열을 냉각탑으로 버리지 않고, 전기화학적 히트펌프를 통해 도심 난방과 냉방으로 재생산하는 열순환 공학을 분석합니다.</p>
   </div>
 
-  <!-- 출처 및 연구 레퍼런스 박스 -->
+    <!-- 출처 및 연구 레퍼런스 박스 -->
   <div style="background-color: #F8FAFC; border: 1px solid #E2E8F0; border-left: 4px solid #059669; border-radius: 8px; padding: 20px 24px; margin-bottom: 36px; font-size: 14px; color: #475569;">
-    <strong>📄 공식 연구 논문 및 발표:</strong> 한국기계연구원(KIMM) 탄소중립기계연구소 김영 책임연구원팀·중앙대 김민성/김동규 교수팀·삼중테크, <em>전기화학적 압축기를 이용한 40℃ 저온 구동 화학흡착식 히트펌프 시스템 개발</em> (2026.08.05)<br>
-    <strong>🔗 전자신문 원문:</strong> <a href="https://www.etnews.com/20260805000310" target="_blank" rel="noopener noreferrer" style="color: #059669; font-weight: 600; text-decoration: underline;">버려지는 폐열, 냉방 활용...기계연 차세대 히트펌프 개발 기사 바로가기</a><br>
-    <strong>🤝 산업 실증 파트너십:</strong> SK이노베이션·기계연, <em>AI 데이터센터 액체냉각 플루이드(e-Fluids) 및 폐열 회수 실증 사업</em> (2026.08.10)<br>
-    <strong>⚖️ 글로벌 법적 규제:</strong> 유럽연합 에너지효율지침(EU EED, Directive 2023/1791) 제12조 (500kW 이상 데이터센터 폐열 재활용 의무화)
+    <strong>📄 공식 연구 발표:</strong> 한국기계연구원(KIMM) 탄소중립기계연구소 김영 책임연구원팀·중앙대 김민성/김동규 교수팀·삼중테크, <em>전기화학적 압축기를 이용한 40℃ 저온 구동 화학흡착식 히트펌프 시스템 개발</em> (2026.08.05)<br>
+    <strong>🔗 주요 언론 보도 1:</strong> <a href="https://www.etnews.com/20260805000310" target="_blank" rel="noopener noreferrer" style="color: #059669; font-weight: 600; text-decoration: underline;">[전자신문] 버려지는 폐열, 냉방 활용...기계연 차세대 히트펌프 개발 기사 바로가기</a><br>
+    <strong>📰 주요 언론 보도 2:</strong> <a href="https://news.google.com/rss/articles/CBMiVEFVX3lxTE5CUUtNWFZZTllTQXlIXzBEcm5oQndoQ2JwTDl5T3JKVnhXdDVURmtoV1pMMlpBREdEdTAtZERJWEREQUhuMFNwQ3E3QzhRWXJkaWhEMg?oc=5" target="_blank" rel="noopener noreferrer" style="color: #059669; font-weight: 600; text-decoration: underline;">[동아사이언스] 공장·데이터센터서 버려지는 40℃ 폐열, 냉방에 쓴다</a><br>
+    <strong>🤝 산업 실증 보도 3:</strong> <a href="https://news.google.com/rss/articles/CBMiTEFVX3lxTE1US2k5elhZX1BzVTgwQ0tPcm1SQU5rUXVYMkpzdEI1bTRxOG9UNHhpNldJR1VWaWlfNDRkWldtd2Fsb09RODNGY18tcTc?oc=5" target="_blank" rel="noopener noreferrer" style="color: #059669; font-weight: 600; text-decoration: underline;">[에너지프로슈머] AI 데이터센터 '전력·냉각' 승부…기계연·SK이노, 액체냉각·폐열회수 기술 맞손</a><br>
+    <strong>⚖️ 글로벌 법적 규제:</strong> <a href="https://energy.ec.europa.eu/topics/energy-efficiency/energy-efficiency-targets-directive-and-rules/energy-efficiency-directive_en" target="_blank" rel="noopener noreferrer" style="color: #059669; text-decoration: underline;">유럽연합 에너지효율지침(EU EED, Directive 2023/1791)</a> 제12조 (500kW 이상 데이터센터 폐열 재활용 의무화)
   </div>
 
-  <p>AI 가속기 칩셋의 열설계전력(TDP)이 1,000W를 돌파하면서 전 세계 데이터센터 냉각 인프라는 공랭(Air Cooling)에서 액체냉각(Liquid Cooling)으로 급속히 전환되고 있습니다. 그러나 지금까지의 냉각 기술 논의는 오직 '어떻게 칩의 열을 식힐 것인가'라는 <strong>단방향 방열(Heat Dissipation)</strong>에만 머물러 있었습니다.</p>
+<p>AI 가속기 칩셋의 열설계전력(TDP)이 1,000W를 돌파하면서 전 세계 데이터센터 냉각 인프라는 공랭(Air Cooling)에서 액체냉각(Liquid Cooling)으로 급속히 전환되고 있습니다. 그러나 지금까지의 냉각 기술 논의는 오직 '어떻게 칩의 열을 식힐 것인가'라는 <strong>단방향 방열(Heat Dissipation)</strong>에만 머물러 있었습니다.</p>
 
   <p>유럽연합(EU)의 개정 에너지효율지침(EED) 발효와 함께 글로벌 ESG 규제는 데이터센터를 향해 배출되는 폐열을 지역 사회와 산업에 재공급할 것을 요구하고 있습니다. 데이터센터 효율성 지표 역시 단순 PUE(Power Usage Effectiveness)에서 회수된 에너지를 차감하여 평가하는 <strong>ERE(Energy Reuse Effectiveness)</strong>로 완전히 전환되는 추세입니다.</p>
 
