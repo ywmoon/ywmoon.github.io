@@ -5,7 +5,7 @@ date: 2026-08-22
 time: "09:00"
 category: Weekly Report
 status: published
-summary: "2026년 8월 3주차 글로벌 클라우드 및 데이터센터 인프라옵스 주간 종합 결산 리포트. 엔비디아의 인프라 금융화(1050억 달러 보증 및 30억 달러 투자), 기가와트(GW)급 AI 팩토리 확장, SMR과 가스 발전 중심의 기저전원 확보전, 액체냉각 및 철골 강구조 전환, 글로벌 그리드락과 지자체 모라토리엄 규제를 심층 분석합니다."
+summary: "2026년 8월 3주차 글로벌 클라우드 및 데이터센터 인프라옵스 주간 종합 결산 리포트. 엔비디아의 인프라 금융화(1,050억 달러 보증 및 30억 달러 투자), 기가와트(GW)급 AI 팩토리 확장, SMR과 가스 발전 중심의 기저전원 확보전, 액체냉각 및 철골 강구조 전환, 글로벌 그리드락과 지자체 모라토리엄 규제를 심층 분석합니다."
 labels:
   - 주간리포트
   - AWS
@@ -18,17 +18,15 @@ labels:
   - 전력망
   - 인프라동향
   - 오픈AI
-  - PUE
-  - WUE
 ---
 
 <div style='font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; line-height: 1.85; color: #1E293B; word-break: keep-all; font-size: 15.5px; max-width: 100%; margin: 0 auto;'>
 
   <!-- 리포트 헤더 배너 -->
-  <div style='background: linear-gradient(135deg, #0F172A 0%, #1E3A8A 50%, #0369A1 100%); color: #F8FAFC; padding: 36px 32px; border-radius: 16px; margin-bottom: 36px; box-shadow: 0 10px 25px -5px rgba(15, 23, 42, 0.25);'>
-    <div style='display: inline-block; background-color: #38BDF8; color: #0F172A; font-weight: 800; font-size: 12px; padding: 4px 12px; border-radius: 20px; text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 14px;'>Weekly InfraOps Executive Summary</div>
+  <div style='background: linear-gradient(135deg, #0F172A 0%, #1E3A8A 50%, #0369A1 100%); color: #F8FAFC; padding: 38px 34px; border-radius: 16px; margin-bottom: 36px; box-shadow: 0 10px 25px -5px rgba(15, 23, 42, 0.25);'>
+    <div style='display: inline-block; background-color: #38BDF8; color: #0F172A; font-weight: 800; font-size: 12px; padding: 4px 12px; border-radius: 20px; text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 14px;'>Weekly InfraOps Executive Intelligence</div>
     <h1 style='font-size: 28px; font-weight: 800; line-height: 1.35; margin: 0 0 14px 0; color: #FFFFFF;'>2026년 8월 3주차 글로벌 클라우드 &amp; 데이터센터 인프라옵스 주간 종합 리포트</h1>
-    <p style='font-size: 15px; color: #BAE6FD; margin: 0;'>분석 기간: 2026년 8월 17일(월) ~ 8월 22일(토) | IT 인프라 아키텍트, 전력망 기획자 &amp; CTO를 위한 종합 분석</p>
+    <p style='font-size: 15px; color: #BAE6FD; margin: 0;'>분석 기간: 2026년 8월 17일(월) ~ 8월 22일(토) | IT 인프라 아키텍트, 전력망 기획자 &amp; CTO를 위한 종합 분석 리포트</p>
   </div>
 
   <!-- 주간 4대 핵심 관전 포인트 (Highlights Box) -->
@@ -53,49 +51,52 @@ labels:
   </div>
 
   <!-- 섹션 1: 클라우드 & 하이퍼스케일러 동향 -->
-  <div style='margin-bottom: 48px;'>
+  <div style='margin-bottom: 50px;'>
     <h2 style='font-size: 22px; font-weight: 800; color: #0F172A; border-bottom: 2px solid #E2E8F0; padding-bottom: 12px; margin-bottom: 22px;'>
-      🔍 섹션 1: 클라우드 &amp; 하이퍼스케일러 생태계 격변
+      🔍 섹션 1: 클라우드 &amp; 하이퍼스케일러 생태계 및 인프라 금융화 심층 분석
     </h2>
 
     <h3 style='font-size: 18px; font-weight: 700; color: #2563EB; margin-top: 24px; margin-bottom: 12px;'>
-      1. 엔비디아의 인프라 금융화: 1,050억 달러 보증과 '순환 금융(Circular Financing)' 논쟁
+      1. 엔비디아의 인프라 금융화: 1,050억 달러 보증, 지분 투자 및 '순환 금융(Circular Financing)' 논쟁
     </h3>
     <p style='font-size: 15px; margin-bottom: 14px;'>
-      이번 주 글로벌 테크 시장에서 가장 파급력이 컸던 소식은 <strong>엔비디아의 인프라 금융사(Financier)로의 피벗</strong>이었습니다. 엔비디아는 오픈AI(OpenAI)가 오하이오주 파이크 카운티(Pike County)에 추진 중인 8GW 규모의 초대형 AI 데이터센터 캠퍼스 구축을 지원하기 위해, 당초 검토되던 2,500억 달러 규모의 포괄 보증을 1단계 5GW 물량에 대한 <strong>최대 1,050억 달러(약 145조 원)</strong> 수준으로 최적화하여 최종 승인했습니다.
+      2026년 8월 3주차 글로벌 AI 인프라 업계의 가장 중대한 구조적 변화는 <strong>엔비디아의 인프라 금융사(Financier)로의 피벗</strong>입니다. 엔비디아는 오픈AI(OpenAI)가 미국 오하이오주 파이크 카운티(Pike County)에 추진 중인 8GW 규모의 초대형 AI 데이터센터 캠퍼스 구축을 지원하기 위해, 당초 검토되던 2,500억 달러 규모의 포괄 보증을 1단계 5GW 물량에 대한 <strong>최대 1,050억 달러(약 145조 원)</strong> 수준으로 최적화하여 최종 승인했습니다.
     </p>
     <p style='font-size: 15px; margin-bottom: 14px;'>
-      동시에 엔비디아는 해당 프로젝트의 실질적 개발사인 소프트뱅크 계열 <strong>SB 에너지(SB Energy)에 최대 30억 달러(약 4조 원)를 직접 지분 투자</strong>하기로 확정했습니다. 나아가 고객사의 AI 수요 부족 시 미사용 GPU 연산력을 엔비디아가 되사주는 <em>'Rent-back(역임차) 안전장치'</em>까지 계약 조건에 명시했습니다.
+      이와 동시에 엔비디아는 해당 프로젝트의 실질적 전력망 및 부지 개발사인 소프트뱅크 계열 <strong>SB 에너지(SB Energy)에 최대 30억 달러(약 4조 원)를 직접 지분 투자</strong>하기로 확정했습니다. 나아가 계약 조건에는 고객사의 AI 컴퓨팅 수요가 예상치에 미치지 못할 경우, 미사용 GPU 연산력을 엔비디아가 직접 되사주는 <em>'Rent-back(역임차) 안전장치'</em>까지 명시되었습니다.
+    </p>
+    <p style='font-size: 15px; margin-bottom: 14px;'>
+      이러한 구조는 칩 제조사가 고객사의 대출 원리금을 보증하고, 개발사에 직접 자본을 투입하며, 판매한 제품의 가동률까지 보장하는 전례 없는 '턴키 금융 모델'입니다. 월가 일각에서는 2000년대 닷컴 버블 당시 통신 장비 업체들의 벤더 파이낸싱을 연상시키는 '순환 금융 리스크'를 제기했으나, 젠슨 황 CEO는 실물 컴퓨팅 자산의 명확한 현금 흐름 창출력과 담보 가치를 근거로 리스크를 완벽히 통제할 수 있다고 정면 반박했습니다.
     </p>
     
     <div style='background-color: #F8FAFC; border-left: 4px solid #3B82F6; padding: 16px 20px; margin: 20px 0; border-radius: 0 8px 8px 0; font-size: 14.5px; color: #334155;'>
-      <strong>💬 인프라 금융 및 아키텍처 분석:</strong><br/>
-      <em>"엔비디아의 보증 및 역임차 모델은 칩 벤더가 고객사의 데이터센터 부지, 전력 계약, 부동산 개발 금융까지 통째로 보증하는 파격적 형태입니다. 일각에서는 닷컴 버블 당시의 통신 장비 벤더 파이낸싱을 연상시키는 '순환 금융 리스크'를 지적하지만, 젠슨 황 CEO는 실물 컴퓨팅 자산의 확실한 현금 창출력과 담보 가치를 근거로 리스크를 완벽히 통제할 수 있다고 강조했습니다."</em>
+      <strong>💬 인프라 금융 아키텍처 관점의 시사점:</strong><br/>
+      <em>"빅테크의 자본적 지출(CapEx)이 수십조 원 단위로 팽창하면서, GPU 확보 경쟁은 이제 단순 반도체 구매를 넘어 '전력 PPA 확보 + 부지 인허가 + 프로젝트 파이낸싱(PF)'을 하나의 통합 패키지로 묶어낼 수 있는 금융 역량 싸움으로 진화했습니다. 엔비디아는 이 생태계의 최상위 금융 보증인 역할을 자처하며 독점적 락인(Lock-in)을 완성하고 있습니다."</em>
     </div>
 
     <h3 style='font-size: 18px; font-weight: 700; color: #2563EB; margin-top: 28px; margin-bottom: 12px;'>
-      2. AWS의 루이지애나 180억 달러 제3 캠퍼스 &amp; Oracle Database@AWS 22개 리전 확장
+      2. AWS의 루이지애나 180억 달러 제3 캠퍼스 &amp; Oracle Database@AWS 22개 리전 전면 개방
     </h3>
     <p style='font-size: 15px; margin-bottom: 14px;'>
-      <strong>아마존웹서비스(AWS)</strong>는 미국 남부권의 풍부한 에너지와 수자원을 선점하기 위해 미국 루이지애나주 슈리브포트(Shreveport)에 60억 달러를 추가 투입, 총 <strong>180억 달러(약 24조 7,000억 원)</strong> 규모의 제3 하이퍼스케일 데이터센터 캠퍼스 착공에 돌입했습니다.
+      <strong>아마존웹서비스(AWS)</strong>는 북미 남부권의 풍부한 기저 전력과 수자원을 선점하기 위해 미국 루이지애나주 슈리브포트(Shreveport)에 60억 달러를 추가 투자, 총 <strong>180억 달러(약 24조 7,000억 원)</strong> 규모의 제3 하이퍼스케일 데이터센터 캠퍼스 착공에 돌입했습니다. 현지 전력사 엔터지(Entergy)와의 1.2GW 규모 장기 전력 공급 계약을 기반으로 설계된 이 캠퍼스는 향후 AWS 남부 클라우드 허브의 핵심 거점이 될 전망입니다.
     </p>
     <p style='font-size: 15px; margin-bottom: 14px;'>
-      동시에 오라클(Oracle)과의 전략적 파트너십을 통해 OCI 전용 하드웨어인 엑사데이터(Exadata)를 AWS 데이터센터 내부에 직접 탑재하는 <strong>'Oracle Database@AWS'</strong> 서비스를 글로벌 22개 리전으로 전면 개방했습니다. 이를 통해 엔터프라이즈 고객은 AWS의 컴퓨팅·AI 서비스(Amazon Bedrock, SageMaker)와 오라클의 미션 크리티컬 데이터베이스 간의 네트워크 지연시간을 1밀리초(ms) 이하로 단축하여 완벽한 멀티클라우드 아키텍처를 구현할 수 있게 되었습니다.
+      이와 함께 오라클(Oracle)과의 파트너십을 통해 OCI 전용 하드웨어인 엑사데이터(Exadata)를 AWS 데이터센터 가용 영역(AZ) 내부에 직접 탑재하는 <strong>'Oracle Database@AWS'</strong> 서비스를 글로벌 22개 리전으로 전면 개방했습니다. AWS의 컴퓨팅 인스턴스와 오라클 데이터베이스 간의 네트워크 지연시간을 전용 인터커넥트를 통해 1밀리초(ms) 이하로 단축함으로써, 엔터프라이즈 기업들이 데이터 마이그레이션 없이 복합 AI 파이프라인을 구축할 수 있는 이상적인 멀티클라우드 환경을 완성했습니다.
     </p>
 
     <h3 style='font-size: 18px; font-weight: 700; color: #2563EB; margin-top: 28px; margin-bottom: 12px;'>
       3. 특화 네오클라우드 CoreWeave의 베라 루빈(Vera Rubin) 메가 딜과 소버린 AI 팩토리
     </h3>
     <p style='font-size: 15px; margin-bottom: 14px;'>
-      GPU 특화 클라우드(Neocloud) 시장에서는 <strong>CoreWeave</strong>가 글로벌 퀀트 금융 기업 허드슨 리버 트레이딩(HRT)과 수십억 달러 규모의 계약을 체결하고 엔비디아 차세대 <em>'Vera Rubin NVL72'</em> 기반 초고성능 연구 플랫폼 공급에 착수했습니다.
+      GPU 특화 클라우드(Neocloud) 진영에서는 <strong>CoreWeave</strong>가 글로벌 퀀트 금융 기업 허드슨 리버 트레이딩(HRT)과 수십억 달러 규모의 계약을 체결하고 엔비디아 차세대 <em>'Vera Rubin NVL72'</em> 플랫폼 공급을 확정했습니다. Vera CPU, Rubin GPU, 3.6Tbps NVLink 패브릭으로 구성된 이 시스템은 밀리초 단위의 초단타 매매 알고리즘과 수학적 시뮬레이션을 처리하는 데 최적화되어 있습니다.
     </p>
     <p style='font-size: 15px; margin-bottom: 14px;'>
-      국내에서는 <strong>네이버(NAVER)</strong>가 엔비디아와의 소버린 AI 연합을 주축으로 춘천 '각', '각 세종'(약 270MW)을 잇는 단일 캠퍼스 <strong>'GW(기가와트)급 AI 팩토리'</strong> 로드맵을 가시화했습니다. 아울러 AWS는 국내 로보틱스 및 자율주행 선도 15개 기업과 손잡고 클라우드와 물리 디바이스를 잇는 <em>'AWS 피지컬 AI 프론티어 프로그램'</em>을 공식 론칭하며 산업 AI 주도권 경쟁에 불을 지폈습니다.
+      국내에서는 <strong>네이버(NAVER)</strong>가 엔비디아와의 소버린 AI 연합을 바탕으로 춘천 '각', '각 세종'(약 270MW)을 잇는 단일 캠퍼스 <strong>'GW(기가와트)급 AI 팩토리'</strong> 로드맵을 발표했습니다. 아울러 AWS는 국내 로보틱스 및 자율주행 선도 15개 기업과 손잡고 클라우드와 물리 디바이스를 잇는 <em>'AWS 피지컬 AI 프론티어 프로그램'</em>을 공식 론칭하며 산업 AI 주도권 경쟁을 본격화했습니다.
     </p>
   </div>
 
   <!-- 섹션 2: AI 인프라 & 하드웨어·수랭식 냉각 혁신 -->
-  <div style='margin-bottom: 48px;'>
+  <div style='margin-bottom: 50px;'>
     <h2 style='font-size: 22px; font-weight: 800; color: #0F172A; border-bottom: 2px solid #E2E8F0; padding-bottom: 12px; margin-bottom: 22px;'>
       ⚡ 섹션 2: AI 인프라 &amp; 하드웨어·수랭식 냉각·물리 아키텍처 혁신
     </h2>
@@ -104,39 +105,28 @@ labels:
       1. 액체냉각(수랭식) 공급망 내재화: 삼성전자 2,400억 광주 투자 &amp; NHN 팩토리X 가동
     </h3>
     <p style='font-size: 15px; margin-bottom: 14px;'>
-      엔비디아 블랙웰(B200, GB200) 및 차세대 칩셋의 열설계전력(TDP)이 랙당 100kW~140kW로 치솟으면서, 기존 공랭식 한계를 극복하는 직접 칩 액체냉각(Direct-to-Chip D2C) 인프라 구축이 산업 전반의 핵심 과제로 안착했습니다.
+      엔비디아 블랙웰(B200, GB200) 및 차세대 칩셋의 열설계전력(TDP)이 랙당 100kW~140kW로 치솟으면서, 기존 공랭식 한계를 극복하는 직접 칩 액체냉각(Direct-to-Chip D2C) 인프라 구축이 산업 전반의 핵심 과제로 안착했습니다. 공기의 열전도율(약 0.026 W/m·K)에 비해 액체 냉매의 열전도율(약 0.6 W/m·K)은 24배 이상 높아 고집적 발열을 효과적으로 제어할 수 있습니다.
     </p>
     <p style='font-size: 15px; margin-bottom: 14px;'>
-      <strong>삼성전자</strong>는 유럽 공조 기업 플랙트그룹(FläktGroup) 인수 후 첫 대규모 실행 조치로 광주사업장에 <strong>2,400억 원(약 1억 7,000만 달러)</strong>을 전격 투입해 데이터센터 전용 냉난방공조(HVAC) 및 냉각분배장치(CDU: Coolant Distribution Unit) 전용 양산 라인을 착공했습니다. 이는 대만 업체들이 주도하던 글로벌 액체냉각 공급망에 대항해 한국 제조 생태계의 내재화를 알리는 신호탄입니다.
+      <strong>삼성전자</strong>는 유럽 공조 기업 플랙트그룹(FläktGroup) 인수 후 첫 대규모 조치로 광주사업장에 <strong>2,400억 원(약 1억 7,000만 달러)</strong>을 전격 투입해 데이터센터 전용 냉난방공조(HVAC) 및 냉각분배장치(CDU: Coolant Distribution Unit) 전용 양산 라인을 착공했습니다. 이는 대만 업체들이 독점하던 글로벌 액체냉각 공급망에 대항해 한국 제조 생태계의 내재화를 이끄는 중요한 교두보입니다.
     </p>
     <p style='font-size: 15px; margin-bottom: 14px;'>
       국내 클라우드 업계에서는 <strong>NHN클라우드</strong>가 블랙웰 B200 GPU 7,656장을 직접 액체냉각 방식으로 통합 가동하는 하이퍼스케일 <em>'NHN 팩토리X 서울'</em>을 공식 공개했습니다. 정밀 유체 제어와 배관 설계를 통해 데이터센터 전체 전력 소비량을 기존 공랭식 대비 <strong>13.9% 절감</strong>하며 상용 인프라의 경제성을 입증했습니다.
     </p>
 
-    <!-- 기술 지표 공식 카드: 초고집적 랙 전력 밀도 -->
-    <div style='background-color: #FEF3C7; border: 1px solid #FCD34D; border-radius: 10px; padding: 20px 24px; margin: 24px 0;'>
-      <div style='font-weight: 700; color: #92400E; font-size: 15px; margin-bottom: 8px;'>📊 [인프라 기술 공식] 초고집적 AI 랙 전력 밀도와 냉각 한계선</div>
-      <div style='font-family: monospace; font-size: 16px; font-weight: bold; color: #78350F; background-color: #FFFFFF; padding: 12px 16px; border-radius: 6px; border: 1px solid #FDE68A; margin-bottom: 12px;'>
-        랙 전력 밀도 배율 = 랙당 소비전력(kW/Rack) ÷ 공랭식 공조 한계 기준선(20kW/Rack)
-      </div>
-      <div style='font-size: 14px; color: #92400E; line-height: 1.7;'>
-        <strong>👉 기술적 해석:</strong> 통상적인 엔터프라이즈 데이터센터 공랭식의 한계는 랙당 15~20kW입니다. 하지만 엔비디아 GB200 NVL72 시스템은 랙당 최대 132kW를 소비하므로 배율이 6.6배에 달합니다. 공기만으로는 칩 표면의 열을 방출할 수 없어, 열전도율이 공기 대비 약 24배 높은 액체 냉매를 사용하는 D2C 및 CDU 배관 순환 시스템이 필수적으로 요구됩니다.
-      </div>
-    </div>
-
     <h3 style='font-size: 18px; font-weight: 700; color: #D97706; margin-top: 28px; margin-bottom: 12px;'>
       2. 800VDC 직류 전원 혁신과 광 인터커넥트(Optical Interconnect) 하드웨어
     </h3>
     <p style='font-size: 15px; margin-bottom: 14px;'>
-      배전 부문에서는 엔비디아가 교류(AC)를 거치지 않고 변환 손실을 최소화하는 <strong>800VDC 직류(DC) 전원 시스템</strong>의 양산 체제 전환을 본격화했습니다. 글로벌 공조사 트레인(Trane)과 전력기기 기업 이튼(Eaton)은 직류 기반 통합 표준 레퍼런스 디자인을 공개했습니다.
+      배전 부문에서는 엔비디아가 교류(AC)와 직류(DC) 간 다단계 변환 손실(기존 10~15%)을 최소화하기 위해 <strong>800VDC 직류 전원 시스템</strong>의 양산 체제 전환을 본격화했습니다. 글로벌 공조사 트레인(Trane)과 전력기기 기업 이튼(Eaton)은 직류 기반 통합 표준 레퍼런스 디자인을 공개했습니다.
     </p>
     <p style='font-size: 15px; margin-bottom: 14px;'>
-      동시에 140kW급 랙 내 수백 가닥의 구리선 무게(수백 kg)와 신호 감쇄를 해결하기 위해 빛으로 칩 간 데이터를 전송하는 <strong>광 트랜시버(Optical Transceiver)</strong>와 512TB 초고용량 QLC SSD가 데이터센터의 차세대 표준 하드웨어로 확고히 자리 잡았습니다.
+      동시에 140kW급 랙 내 수백 가닥의 구리선 무게(수백 kg)와 신호 감쇄를 해결하기 위해 빛으로 칩 간 데이터를 전송하는 <strong>광 트랜시버(Optical Transceiver)</strong>와 DapuStor의 512TB 초고용량 QLC SSD가 데이터센터의 차세대 표준 하드웨어로 확고히 자리 잡았습니다.
     </p>
   </div>
 
   <!-- 섹션 3: 데이터센터 전력망 & 에너지 패러다임 -->
-  <div style='margin-bottom: 48px;'>
+  <div style='margin-bottom: 50px;'>
     <h2 style='font-size: 22px; font-weight: 800; color: #0F172A; border-bottom: 2px solid #E2E8F0; padding-bottom: 12px; margin-bottom: 22px;'>
       🔋 섹션 3: 데이터센터 전력망 &amp; 에너지 인프라 슈퍼사이클
     </h2>
@@ -151,18 +141,6 @@ labels:
       한편 SMR 상용화 시점(2030년 전후)까지의 심각한 전력 공백을 메우기 위해 화석연료 기반 가교(Bridge) 발전도 급증하고 있습니다. 미국 최대 에너지 기업 <strong>넥스트에라(NextEra)</strong>는 주정부로부터 33억 달러(약 4조 5,000억 원)의 자금을 확보하고 10GW 규모의 신규 천연가스 발전소 건설에 돌입했습니다. 아마존 역시 계통 연계 지연을 우회하고자 데이터센터 부지 내 전용 가스발전소를 직접 구축하는 자가발전(IPP) 전략을 선택했습니다.
     </p>
 
-    <!-- 지표 공식 카드: PUE vs WUE -->
-    <div style='background-color: #ECFDF5; border: 1px solid #A7F3D0; border-radius: 10px; padding: 20px 24px; margin: 24px 0;'>
-      <div style='font-weight: 700; color: #065F46; font-size: 15px; margin-bottom: 8px;'>💧 [친환경 종합 지표] PUE와 WUE의 상충(Trade-off) 극복 방정식</div>
-      <div style='font-family: monospace; font-size: 15px; font-weight: bold; color: #064E3B; background-color: #FFFFFF; padding: 12px 16px; border-radius: 6px; border: 1px solid #6EE7B7; margin-bottom: 12px;'>
-        • PUE = 데이터센터 총 전력 소비량(kWh) ÷ IT 장비 소비전력(kWh) (1.0 근접 목표)<br>
-        • WUE = 연간 냉각수 소비량(Liter) ÷ IT 장비 연간 소비전력(kWh) (0에 근접 목표)
-      </div>
-      <div style='font-size: 14px; color: #065F46; line-height: 1.7;'>
-        <strong>👉 인프라 설계 교훈:</strong> 증발식 냉각탑을 사용하면 PUE를 1.1 수준으로 낮출 수 있지만, 물 소비량이 급증해 WUE가 악화됩니다. 이는 지역 주민과의 극심한 수자원 분쟁을 유발합니다. 최근 하이퍼스케일러들은 PUE 1.15를 유지하면서도 물 소비를 0으로 만드는 <em>'완전 밀폐형 무수(Zero-Water) 건식 액체냉각 시스템'</em>으로 설계를 전면 수정하고 있습니다.
-      </div>
-    </div>
-
     <h3 style='font-size: 18px; font-weight: 700; color: #059669; margin-top: 28px; margin-bottom: 12px;'>
       2. 대한민국 제12차 전기본 27GW 상향 &amp; K-전력기기 수주 잭팟
     </h3>
@@ -170,12 +148,12 @@ labels:
       대한민국 정부의 <strong>제12차 전력수급기본계획(전기본)</strong>은 AI 데이터센터 및 반도체 클러스터의 전력 수요 폭증을 반영하여, 2040년 최대 전력 수요를 기존 전망치 대비 <strong>27GW 상향된 165GW</strong>로 공식 조정했습니다. 27GW는 대형 원자력 발전소 약 17~19기에 해당하는 막대한 용량입니다.
     </p>
     <p style='font-size: 15px; margin-bottom: 14px;'>
-      이 같은 글로벌 전력망 슈퍼사이클에 힘입어 국내 전력기기 업계의 실적도 폭발했습니다. <strong>㈜LS</strong>는 상반기 영업이익 1조 717억 원과 수주잔고 20조 원을 달성했으며, <strong>가온전선</strong>은 미국 AI 클라우드 데이터센터에 2,000억 원 규모의 대용량 버스덕트(Busduct) 공급 계약을 성사시켰습니다.
+      이 같은 글로벌 전력망 슈퍼사이클에 힘입어 국내 전력기기 업계의 실적도 폭발했습니다. <strong>㈜LS</strong>는 상반기 영업이익 1조 717억 원과 수주잔고 20조 원을 달성했으며, <strong>가온전선</strong>은 미국 AI 클라우드 데이터센터에 2,000억 원 규모의 대용량 버스덕트(Busduct) 공급 계약을 성사시켰습니다. HD현대일렉트릭과 효성중공업 미국 법인 역시 2029년까지의 물량을 조기 완판하며 전력망 핵심 공급자로 확고히 자리매김했습니다.
     </p>
   </div>
 
   <!-- 섹션 4: 규제 장벽 & 환경 상생 과제 -->
-  <div style='margin-bottom: 48px;'>
+  <div style='margin-bottom: 50px;'>
     <h2 style='font-size: 22px; font-weight: 800; color: #0F172A; border-bottom: 2px solid #E2E8F0; padding-bottom: 12px; margin-bottom: 22px;'>
       ⚖️ 섹션 4: 글로벌 그리드락(Gridlock), 인허가 모라토리엄 및 상생 모델
     </h2>
@@ -234,7 +212,7 @@ labels:
             <td style='padding: 12px 14px; border: 1px solid #E2E8F0; font-weight: 700; color: #DC2626;'>그리드락 규제</td>
             <td style='padding: 12px 14px; border: 1px solid #E2E8F0;'>미 PJM / 펜실베이니아주 / TVA</td>
             <td style='padding: 12px 14px; border: 1px solid #E2E8F0;'>50MW+ BYOP 의무화 / 전용 차등 요금제</td>
-            <td style='padding: 12px 14px; border: 1px solid #E2E8F0;'>PUE/WUE 환경 규제 및 지역 상생 폐열 난방 필수화</td>
+            <td style='padding: 12px 14px; border: 1px solid #E2E8F0;'>환경 규제 대응 및 지역 상생 폐열 난방 필수화</td>
           </tr>
         </tbody>
       </table>
