@@ -29,15 +29,18 @@ updated: "2026-08-23 12:00"
     <p style="font-size: 15px; line-height: 1.7; color: #CBD5E1; margin: 0;">수도권 송전망 건설 지연(그리드락)을 돌파하기 위해 대한민국 정부와 민간 컨소시엄이 '발전원 직결형 데이터센터' 구축에 돌입했습니다. 해남 솔라시도 국가 AI 컴퓨팅센터의 공학적 설계와 GPU/NPU 인프라 청사진을 분석합니다.</p>
   </div>
 
-  <!-- 출처 및 공식 레퍼런스 박스 -->
+    <!-- 출처 및 공식 레퍼런스 박스 -->
   <div style="background-color: #F8FAFC; border: 1px solid #E2E8F0; border-left: 4px solid #6366F1; border-radius: 8px; padding: 20px 24px; margin-bottom: 36px; font-size: 14px; color: #475569;">
-    <strong>🏛️ 주무 부처 및 공식 보도:</strong> 과학기술정보통신부·전라남도, <em>국가 AI 컴퓨팅센터 착공식 보도자료</em> (2026.08.03, 해남 솔라시도)<br>
-    <strong>🔗 서울파이낸스 보도:</strong> <a href="https://www.seoulfn.com/news/articleView.html?idxno=634785" target="_blank" rel="noopener noreferrer" style="color: #6366F1; font-weight: 600; text-decoration: underline;">해남 솔라시도 국가AI컴퓨팅센터 착공 기사 바로가기</a><br>
-    <strong>💻 GPU 서비스 공급사:</strong> 인공지능신문, <em>삼성SDS, 국가 AI GPU 컴퓨팅 서비스 개시... 최신 B300 및 H100 공급</em> (2026.08.11)<br>
-    <strong>⚖️ 근거 법령:</strong> <a href="https://www.law.go.kr" target="_blank" style="color: #6366F1; text-decoration: underline;">분산에너지 활성화 특별법</a> 제33조 (분산에너지 특화지역 내 직접 전력거래 특례)
+    <strong>🏛️ 주무 부처 및 공식 보도:</strong> 과학기술정보통신부·전라남도, <em>국가 AI 컴퓨팅센터 착공식 공식 보도자료</em> (2026.08.03, 해남 솔라시도)<br>
+    <strong>🔗 주요 언론 보도 1:</strong> <a href="https://www.seoulfn.com/news/articleView.html?idxno=634785" target="_blank" rel="noopener noreferrer" style="color: #6366F1; font-weight: 600; text-decoration: underline;">[서울파이낸스] 해남 솔라시도 국가AI컴퓨팅센터 착공…'AI 3대 강국' 핵심 인프라 시동</a><br>
+    <strong>📰 주요 언론 보도 2:</strong> <a href="https://n.news.naver.com/mnews/article/138/0002236370" target="_blank" rel="noopener noreferrer" style="color: #6366F1; font-weight: 600; text-decoration: underline;">[디지털데일리] 2.5조 ‘국가 AI컴퓨팅센터’ 첫삽…2028년 구축 목표 국내 AI 연산지원 출격</a><br>
+    <strong>📰 주요 언론 보도 3:</strong> <a href="https://n.news.naver.com/mnews/article/092/0002432847" target="_blank" rel="noopener noreferrer" style="color: #6366F1; font-weight: 600; text-decoration: underline;">[지디넷코리아] [현장] "AI 공급망 핵심 국가로"…정부·민간 협력 '국가AI컴퓨팅센터' 착공</a><br>
+    <strong>📰 주요 언론 보도 4:</strong> <a href="https://n.news.naver.com/mnews/article/092/0002432857" target="_blank" rel="noopener noreferrer" style="color: #6366F1; font-weight: 600; text-decoration: underline;">[지디넷코리아] "국가AI컴퓨팅센터 GPU, B200 확정 아냐…최신 AI 반도체 도입"</a><br>
+    <strong>💻 GPU 서비스 공급사:</strong> 삼성SDS, <em>국가 AI GPU 컴퓨팅 서비스 개시... 최신 B300 및 H100 공급</em> (2026.08.11)<br>
+    <strong>⚖️ 근거 법령:</strong> <a href="https://www.law.go.kr" target="_blank" rel="noopener noreferrer" style="color: #6366F1; text-decoration: underline;">분산에너지 활성화 특별법</a> 제33조 (분산에너지 특화지역 내 직접 전력거래 특례)
   </div>
 
-  <p>2026년 8월 3일, 전남 해남군 산이면 솔라시도 기업도시에서 대한민국 AI 연구와 첨단 산업의 핵심 두뇌가 될 <strong>'국가 AI 컴퓨팅센터' 착공식</strong>이 성대하게 개최되었습니다. 총사업비 약 2조 5,000억 원이 투입되는 이 센터는 부지 면적 4만 8,996㎡(연면적 1만 6,978㎡, 지상 2층) 규모로 건설되며, 2028년 완공을 목표로 하고 있습니다.</p>
+<p>2026년 8월 3일, 전남 해남군 산이면 솔라시도 기업도시에서 대한민국 AI 연구와 첨단 산업의 핵심 두뇌가 될 <strong>'국가 AI 컴퓨팅센터' 착공식</strong>이 성대하게 개최되었습니다. 총사업비 약 2조 5,000억 원이 투입되는 이 센터는 부지 면적 4만 8,996㎡(연면적 1만 6,978㎡, 지상 2층) 규모로 건설되며, 2028년 완공을 목표로 하고 있습니다.</p>
 
   <p>이 사업은 삼성SDS가 주관하는 민관 합작법인인 <strong>'한국AI컴퓨팅센터(KOACC)'</strong>(네이버클라우드, 삼성물산, 카카오, KT 등 참여)가 건설 및 운영을 전담합니다. 수도권 중심의 데이터센터 과밀과 송전선로 병목을 극복하기 위해 제정된 <strong>분산에너지 활성화 특별법의 제1호 국가 프로젝트</strong>로서, 호남권 2.5GW 태양광 및 신안 해상풍력 재생에너지를 현지에서 직접 소비(Load-to-Power)하는 RE100 기반 AIDC 집적단지(최종 3.2GW)의 핵심 앵커 시설입니다.</p>
 
