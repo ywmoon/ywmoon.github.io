@@ -5,7 +5,7 @@
     <link>https://ywmoon.github.io</link>
     <description>글로벌 AI 데이터센터 전력망, 냉각, 클라우드 인프라 엔지니어링 데일리 트렌드</description>
     <language>ko</language>
-    <lastBuildDate>Sun, 23 Aug 2026 08:28:37 -0000</lastBuildDate>
+    <lastBuildDate>Sun, 23 Aug 2026 08:38:15 -0000</lastBuildDate>
     <atom:link href="https://ywmoon.github.io/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
       <title>전력난과 탄소 규제를 넘어선 탈지구 인프라: 2027년 '우주 AI 데이터센터' 실증과 저궤도(LEO) 궤도 컴퓨팅 아키텍처</title>
@@ -28,7 +28,7 @@
       <link>https://ywmoon.github.io/article/2026-08-23-haenam-solaseado-national-ai-datacenter/</link>
       <guid isPermaLink="true">https://ywmoon.github.io/article/2026-08-23-haenam-solaseado-national-ai-datacenter/</guid>
       <pubDate>Sun, 23 Aug 2026 00:00:00 -0000</pubDate>
-      <category>Policy &amp; Infra</category>
+      <category>Tech Deep Dive</category>
       <description>전라남도 해남 솔라시도 기업도시에 총사업비 2조 5,000억 원 규모의 '국가 AI 컴퓨팅센터'가 2026년 8월 3일 공식 착공했습니다. 2028년 고성능 GPU 1.5만 장, 2030년 5만 장 규모로 확장되는 국내 최대 공용 AI 인프라의 건축·전력 설계와, 수도권 전력망 포화를 우회하여 호남권 재생에너지(RE100)와 직결하는 'Load-to-Power' 분산 인프라 전략, 국산 NPU 실증 로드맵을 심층 분석합니다.</description>
     </item>
     <item>
@@ -36,7 +36,7 @@
       <link>https://ywmoon.github.io/article/2026-08-23-anthropic-riot-12t-megadeal-power-pivot/</link>
       <guid isPermaLink="true">https://ywmoon.github.io/article/2026-08-23-anthropic-riot-12t-megadeal-power-pivot/</guid>
       <pubDate>Sun, 23 Aug 2026 00:00:00 -0000</pubDate>
-      <category>Market Strategy</category>
+      <category>Tech Deep Dive</category>
       <description>AI 프런티어 랩 앤트로픽(Anthropic)이 비트코인 채굴 대기업 라이엇 플랫폼스(Riot Platforms)와 191MW 규모, 최대 161억 달러(약 22.7조 원)에 달하는 22년 장기 데이터센터 계약을 체결했습니다. 맥쿼리·GIC와의 특수목적법인(JV) 구조, 하이퍼스케일러 종속을 탈피하는 기가와트급 수전 부지 확보 전략, ERCOT 4CP 회피 및 암호화폐 채굴소의 AI 인프라 리퍼포징 공학을 심층 분석합니다.</description>
     </item>
     <item>
