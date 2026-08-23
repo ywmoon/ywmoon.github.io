@@ -14,7 +14,7 @@ labels:
   - 클라우드
   - CapEx
   - 클라우데라
-updated: "2026-08-24 07:00"
+updated: "2026-08-24 07:08"
 ---
 
 <div style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.85; color: #1E293B; max-width: 860px; margin: 0 auto; word-break: keep-all; font-size: 15.5px;">
@@ -185,7 +185,7 @@ updated: "2026-08-24 07:00"
       <li>[ESG경제] <a href="https://news.google.com/rss/articles/CBMibEFVX3lxTFBKQUV4YkZmOXp1anNzLXNtYlBCWDFpQWxtWmM5VExkeUQzZ09seTFlWExMajBUR3VtUkJkOHJHemJuZC1icUE2aGQyVUlOZmd2a1dhMy1IZXNiUzBaMURUdWJaZGFJTklkblFxeA?oc=5" style="color: #0284C7; text-decoration: none; font-weight: 500;" target="_blank">한화큐셀·MS, AI 데이터센터 ‘자체 전력용량 확보’ 모델 검토</a></li>
       <li>[AI라이프경제] <a href="https://news.google.com/rss/articles/CBMia0FVX3lxTE1zREI2eFhIMWlUSF9Eb3lVLS1WY1JPT2lIYmJfeXU4dlprZ1lFZFJ4bzBVNW5PblU4RmZtTmhVZDBiaVV6LUZZaTVGdkRla0hYUHJNMTNtdUluOGJsWXFZbVVGcG9QVWtJdFBV?oc=5" style="color: #0284C7; text-decoration: none; font-weight: 500;" target="_blank">구글이 인도에 20조원을 쏟는다… AI 데이터센터 경쟁, 미국 밖으로 번졌다</a></li>
       <li>[인공지능신문] <a href="https://www.aitimes.kr/news/articleView.html?idxno=41533" style="color: #0284C7; text-decoration: none; font-weight: 500;" target="_blank">클라우데라, 엔비디아와 협력해 아파치 스파크 가속… 클라우드 비용 절감</a></li>
-      <li>[조선일보] <a href="https://www.chosun.com/economy/economy_general/2026/08/21/XRQIKWUGBVFDBMYTBNOQE5IE6E/" style="color: #0284C7; text-decoration: none; font-weight: 500;" target="_blank">엔비디아, 오픈AI 데이터센터 ‘채무 보증’ 절반 축소</a></li>
+
       <li>[Reuters] <a href="https://news.google.com/rss/articles/CBMirgFBVV95cUxQYnVtUUVfYWJoSUhsRXpLZGNEdHM0eFBmU0hVZzZiVzlDdUZXWkV2X3k1bGppdnp5Zy1fcy1HYnBGc0pPXzZoRmpsZmtPTDRqSFd5anNGR1hnMDlOYjk2U1BZeU42UTh4RUxiaE1XSWRyZW9RTjUtWjYzVXM5N0ZYU0VXdXRSNmNmZnRpREUzdDE4U3l4VDBIa3JPdklOUjdvbFp3dGRZdlZnQjBwSEE?oc=5" style="color: #0284C7; text-decoration: none; font-weight: 500;" target="_blank">Nvidia invests in data center developer Cloverleaf Infrastructure</a></li>
       <li>[Data Center Dynamics] <a href="https://news.google.com/rss/articles/CBMingFBVV95cUxNNnBuOWNfOUpLaXRtcmxqdnk2UzllRkU0eFRNaVFUWF9la05GUldlaXM4RUFRNkdVQ0I2ajI2TDM2Ym9USXB5b21NYjQxeW5yTmx5aGJUQVZ3alBMU0FmT1ZUdUhadDhqUE12Wnd0eVlUZWR1bDN5OE50VHFFeEZMZFpKdGw0cEtZanktZW94eEtFcEt6WnhSZzV0SWJZZw?oc=5" style="color: #0284C7; text-decoration: none; font-weight: 500;" target="_blank">US utility TVA imposes new rates on data center firms</a></li>
       <li>[Roanoke Times] <a href="https://news.google.com/rss/articles/CBMinwFBVV95cUxNdko4SUVwb21RMTN5NENoMzdLSjhYTTJEN0Jfems2ZTFfVXR2TG83Y3R6TUIzeXZnblBTV2xyWkloUF9tZkxrY0MtaHhJR1NEZVowOVN3TEliZ0ItNm9HdHZpQVl3SVJUa2xRcVQ2TnRHd0pwVTB1YmVITE1MT0Z0Mi1wY1g4TVdsU01nQ01YQ0FGeFBpeEEwdl9XUWZtZ0E?oc=5" style="color: #0284C7; text-decoration: none; font-weight: 500;" target="_blank">Water fight erupts over Amazon data center proposal in King George</a></li>
