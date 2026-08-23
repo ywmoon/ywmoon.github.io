@@ -13,6 +13,7 @@ labels:
   - 엔비디아
   - AI팩토리
   - 클라우드
+updated: "2026-08-24 07:00"
 ---
 
 <div style='font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; line-height: 1.85; color: #1E293B; word-break: keep-all; max-width: 840px; margin: 0 auto; padding: 20px 0;'>
@@ -142,7 +143,7 @@ labels:
   <!-- 4장: 결론 및 핵심 시사점 -->
   <div style='margin-bottom: 20px;'>
     <h2 style='display: flex; align-items: center; font-size: 24px; font-weight: 700; color: #0F172A; border-left: 5px solid #2563EB; padding-left: 14px; margin-bottom: 20px; letter-spacing: -0.02em;'>
-      💡 전력 인프라 & 하드웨어 수직계열화의 아키텍처적 시사점
+      💡 전력 인프라 & 하드웨어 수직계열화 관련 시사점
     </h2>
     <div style='background-color: #F8FAFC; border: 1px solid #E2E8F0; border-radius: 8px; padding: 20px; margin-bottom: 20px;'>
       <p style='font-size: 15px; color: #334155; margin-bottom: 12px; line-height: 1.75;'>
