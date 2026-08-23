@@ -1687,7 +1687,11 @@ body {
   
   /* Newsletter & Email Table Mobile Responsive Engine */
   .dc-responsive-row {
-    display: table-row;
+    display: flex !important;
+    flex-direction: column !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    box-sizing: border-box !important;
   }
 
   /* 1. Global Reader & Raw HTML Wrapper mobile constraints */
@@ -1772,15 +1776,6 @@ body {
   }
 
   /* 5. 2-Column Rows (.dc-responsive-row) => 100% Width Stack */
-  .dc-reader-body .dc-responsive-row,
-  .dc-responsive-row {
-    display: flex !important;
-    flex-direction: column !important;
-    width: 100% !important;
-    max-width: 100% !important;
-    box-sizing: border-box !important;
-  }
-
   .dc-reader-body td.responsive-col,
   .dc-reader-body .responsive-col,
   td.responsive-col {
@@ -1789,8 +1784,8 @@ body {
     max-width: 100% !important;
     min-width: 0 !important;
     box-sizing: border-box !important;
-    margin-bottom: 20px !important;
-    padding: 14px 10px !important;
+    margin-bottom: 18px !important;
+    padding: 14px 12px !important;
     float: none !important;
     clear: both !important;
   }
@@ -1806,39 +1801,66 @@ body {
     border: none !important;
   }
 
-  /* 6. Market Indicators Table: Compact sizing to fit mobile screen */
-  .dc-reader-body td.responsive-col table {
+  /* 6. Market Indicators Table: Maintain clean tabular data structure */
+  .dc-reader-body td.responsive-col table:not(.dc-chart-table) {
     width: 100% !important;
     max-width: 100% !important;
+    display: table !important;
+    border-collapse: collapse !important;
     box-sizing: border-box !important;
+    margin: 0 !important;
   }
 
-  .dc-reader-body td.responsive-col table th,
-  .dc-reader-body td.responsive-col table td {
-    font-size: 10.5px !important;
-    padding: 5px 2px !important;
-    line-height: 1.3 !important;
-    word-break: break-all !important;
+  .dc-reader-body td.responsive-col table:not(.dc-chart-table) tbody {
+    display: table-row-group !important;
+    width: 100% !important;
+  }
+
+  .dc-reader-body td.responsive-col table:not(.dc-chart-table) tr {
+    display: table-row !important;
+    width: 100% !important;
+    flex-direction: unset !important;
+  }
+
+  .dc-reader-body td.responsive-col table:not(.dc-chart-table) th,
+  .dc-reader-body td.responsive-col table:not(.dc-chart-table) td {
+    display: table-cell !important;
+    font-size: 11px !important;
+    padding: 6px 3px !important;
+    line-height: 1.35 !important;
+    text-align: center !important;
+    vertical-align: middle !important;
   }
 
   /* 7. Chart 2x2 Grid images: 1-Column Responsive Stack */
-  .dc-reader-body td.responsive-col table tr {
+  .dc-reader-body .dc-chart-table,
+  .dc-reader-body td.responsive-col table.dc-chart-table {
+    display: block !important;
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+
+  .dc-reader-body .dc-chart-table tr,
+  .dc-reader-body td.responsive-col table.dc-chart-table tr {
     display: flex !important;
     flex-direction: column !important;
+    align-items: center !important;
     width: 100% !important;
   }
 
-  .dc-reader-body td.responsive-col table tr td[align="center"] {
+  .dc-reader-body .dc-chart-table td,
+  .dc-reader-body td.responsive-col table.dc-chart-table td {
     display: block !important;
     width: 100% !important;
     max-width: 100% !important;
     padding: 6px 0 !important;
     box-sizing: border-box !important;
+    text-align: center !important;
   }
 
   .dc-reader-body td.responsive-col img {
     width: 100% !important;
-    max-width: 100% !important;
+    max-width: 320px !important;
     height: auto !important;
     display: block !important;
     margin: 0 auto !important;
@@ -1846,28 +1868,22 @@ body {
     box-sizing: border-box !important;
   }
 
-  /* 8. Fix excessive inner cell padding in email layout */
-  .dc-reader-body td[style*="padding: 26px 36px"],
-  .dc-reader-body td[style*="padding: 28px 36px"],
-  .dc-reader-body td[style*="padding: 0 36px 28px 36px"],
-  .dc-reader-body td[style*="padding: 20px 36px"],
-  .dc-reader-body td[style*="padding: 24px 36px"],
-  .dc-reader-body td[style*="padding: 30px 36px"],
-  .dc-reader-body td[style*="padding: 20px 24px"],
-  .dc-reader-body td[style*="padding:28px 36px"],
-  .dc-reader-body td[style*="padding:26px 36px"] {
-    padding: 16px 10px !important;
+  /* 8. News Item Titles & Links: Multi-line wrapped readability on mobile */
+  .dc-reader-body td.responsive-col a {
+    word-break: break-word !important;
+    overflow-wrap: break-word !important;
+    white-space: normal !important;
+    line-height: 1.45 !important;
   }
 
-  /* 9. Truncate long news titles without breaking layout */
-  .dc-reader-body div[style*="text-overflow: ellipsis"] {
+  .dc-reader-body td.responsive-col div {
+    white-space: normal !important;
+    word-break: break-word !important;
+    overflow-wrap: break-word !important;
     max-width: 100% !important;
-    overflow: hidden !important;
-    text-overflow: ellipsis !important;
-    white-space: nowrap !important;
   }
 
-  /* 10. AI Summary text justification and wrapping */
+  /* 9. AI Summary text justification and wrapping */
   .dc-reader-body td[style*="text-align: justify"],
   .dc-reader-body td[style*="text-align:justify"] {
     text-align: left !important;
