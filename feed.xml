@@ -5,8 +5,48 @@
     <link>https://ywmoon.github.io</link>
     <description>글로벌 AI 데이터센터 전력망, 냉각, 클라우드 인프라 엔지니어링 데일리 트렌드</description>
     <language>ko</language>
-    <lastBuildDate>Sun, 23 Aug 2026 22:41:50 -0000</lastBuildDate>
+    <lastBuildDate>Mon, 24 Aug 2026 05:45:05 -0000</lastBuildDate>
     <atom:link href="https://ywmoon.github.io/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>DC InfraOps Trends - 2026년 08월 24일</title>
+      <link>https://ywmoon.github.io/article/2026-08-24-dc-infraops-trends-report/</link>
+      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-08-24-dc-infraops-trends-report/</guid>
+      <pubDate>Mon, 24 Aug 2026 00:00:00 -0000</pubDate>
+      <category>Newsletter</category>
+      <description>Datacenter &amp; Cloud Industry InfraOps Daily (2-Column) DAILY DIGEST Datacenter &amp; Cloud Industry InfraOps Daily 2026년 08월 24일 (월) 💡 AI Executive Summary: Key News Insights 글로벌 빅테크의 AI 인프라 확장이 아시아·남미 등 신</description>
+    </item>
+    <item>
+      <title>[2026.08.24] [10-Min English Podcast] Global AI Infrastructure Capital Shift, 800VDC Power Standards, and Utility BYOP Mandates</title>
+      <link>https://ywmoon.github.io/article/2026-08-24-10min-tech-podcast/</link>
+      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-08-24-10min-tech-podcast/</guid>
+      <pubDate>Mon, 24 Aug 2026 00:00:00 -0000</pubDate>
+      <category>Podcast</category>
+      <description>🎧 10-MIN TECH ENGLISH PODCAST [2026.08.24] [10-Min English Podcast] Global AI Infrastructure Capital Shift, 800VDC Power Standards, and Utility BYOP Mandates 오늘의 10분 심층 팟캐스트는 글로벌 빅테크의 아시아·남미 신흥 인프라 거점</description>
+    </item>
+    <item>
+      <title>[2026.08.24] 오늘의 글로벌 클라우드 &amp; 데이터센터 인프라 핵심 동향 브리핑</title>
+      <link>https://ywmoon.github.io/article/2026-08-24-daily-infraops-briefing/</link>
+      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-08-24-daily-infraops-briefing/</guid>
+      <pubDate>Mon, 24 Aug 2026 00:00:00 -0000</pubDate>
+      <category>Daily Briefing</category>
+      <description>DAILY INFRAOPS DIGEST 2026년 8월 24일 글로벌 클라우드 &amp; AI 데이터센터 인프라 핵심 동향 엔비디아의 전력·부지 번들링 투자부터 공공 유틸리티 규제, 재생에너지 자가발전(BTM) 및 빅테크 글로벌 CapEx 지형 분석 📌 오늘의 3대 핵심 관전 포인트 (Key Highlights) 엔비디아의 전력·부지 '번들링 플레이'와 리스크 통</description>
+    </item>
+    <item>
+      <title>[테크 딥다이브] 연산 장벽에서 전력 장벽으로: 엔비디아의 '부지·전력 번들링'과 AI 팩토리 풀스택 통합 아키텍처</title>
+      <link>https://ywmoon.github.io/article/2026-08-24-august-megafarm-deepdive/</link>
+      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-08-24-august-megafarm-deepdive/</guid>
+      <pubDate>Mon, 24 Aug 2026 00:00:00 -0000</pubDate>
+      <category>Tech Deep Dive</category>
+      <description>🚀 서론: 기술 패러다임의 전환과 문제 제기 인공지능(AI) 인프라 시장의 병목 지점이 반도체 미세공정 및 고대역폭 메모리(HBM) 수급 한계에서 '전력 계통(Grid)'과 '물리적 부지(Land)' 확보 단계로 급격히 전이되고 있습니다. 단일 데이터센터 랙당 전력 밀도가 과거 10~15kW 수준에서 고밀도 액체냉각 기반 100~130kW(NVIDIA NV</description>
+    </item>
+    <item>
+      <title>[인프라 용어사전] VPP (Virtual Power Plant, 가상발전소) - AI 데이터센터 전력난을 해결하는 분산 에너지 소프트웨어 플랫폼</title>
+      <link>https://ywmoon.github.io/article/2026-08-24-infra-glossary/</link>
+      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-08-24-infra-glossary/</guid>
+      <pubDate>Mon, 24 Aug 2026 00:00:00 -0000</pubDate>
+      <category>Terminology</category>
+      <description>📌 1. 30초 핵심 요약 &amp; 개념 정의 VPP(가상발전소, Virtual Power Plant)는 물리적으로 분산된 다양한 소규모 발전원(태양광, 풍력, 연료전지)과 유연성 자원(BESS, 전기차, 데이터센터 백업 발전기, 부하 감축 설비)을 사물인터넷(IoT) 및 클라우드 기반 중앙 제어 플랫폼으로 연계하여, 마치 단일 대형 발전소처럼 통합 제어·운영하</description>
+    </item>
     <item>
       <title>전력난과 탄소 규제를 넘어선 탈지구 인프라: 2027년 '우주 AI 데이터센터' 실증과 저궤도(LEO) 궤도 컴퓨팅 아키텍처</title>
       <link>https://ywmoon.github.io/article/2026-08-23-space-based-ai-datacenter-leo-infrastructure/</link>
