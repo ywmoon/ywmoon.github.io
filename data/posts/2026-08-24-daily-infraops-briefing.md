@@ -14,6 +14,7 @@ labels:
   - 클라우드
   - CapEx
   - 클라우데라
+updated: "2026-08-24 07:00"
 ---
 
 <div style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.85; color: #1E293B; max-width: 860px; margin: 0 auto; word-break: keep-all; font-size: 15.5px;">
@@ -87,16 +88,7 @@ labels:
       AI 데이터센터의 기하급수적인 전력 및 용수 소비가 지역사회 및 기존 전력망 운영사와의 구조적 마찰을 심화시키고 있습니다. 최근 주요 동향은 인프라 운영사들이 중앙 집중형 공공 유틸리티 의존도를 탈피해야 하는 현실적 필요성을 보여줍니다.
     </p>
 
-    <!-- 지표/수식 카드 -->
-    <div style="border: 1px solid #CBD5E1; border-radius: 6px; padding: 16px 20px; margin: 20px 0; background-color: #FFFFFF;">
-      <div style="font-size: 13px; font-weight: 700; color: #64748B; margin-bottom: 6px;">📊 인프라 효율 및 전력 지표 참고</div>
-      <div style="font-size: 15px; font-weight: 700; color: #0F172A; background-color: #F1F5F9; padding: 8px 12px; border-radius: 4px; font-family: monospace;">
-        PUE (전력효율지수) = 데이터센터 총 투입 전력량 ÷ IT 장비 소비 전력량
-      </div>
-      <p style="font-size: 13.5px; color: #475569; margin: 8px 0 0 0;">
-        👉 <strong>핵심 의미:</strong> 1.0에 가까울수록 냉각이나 배전에 낭비되는 전력이 적음을 뜻하며, 최근 공공 전력망 요금 인상과 수자원 규제는 PUE 최적화뿐만 아니라 전력 공급원 자체의 독립성 확보를 요구하고 있습니다.
-      </p>
-    </div>
+
 
     <ul style="padding-left: 20px; margin: 16px 0; color: #334155;">
       <li style="margin-bottom: 12px;">
@@ -176,7 +168,7 @@ labels:
   <!-- 5. 에디터 분석 총평 -->
   <section style="background-color: #0F172A; color: #F8FAFC; border-radius: 8px; padding: 22px 24px; margin-bottom: 36px;">
     <h2 style="font-size: 17px; font-weight: 700; color: #38BDF8; margin: 0 0 10px 0;">
-      🎯 수석 테크 에디터 인프라 총평
+      🎯 마무리
     </h2>
     <p style="font-size: 14.5px; line-height: 1.8; margin: 0; color: #E2E8F0;">
       오늘 전해진 소식들의 공통된 분모는 <strong>'물리적 한계(전력·수자원·인허가) 돌파'</strong>와 <strong>'인프라 자본 효율화'</strong>입니다. 엔비디아가 부지와 전력망을 직접 번들링하여 하드웨어 생태계를 보호하는 동시에 채무 보증 위험을 조정한 점, 하이퍼스케일러들이 BTM 자가발전과 해외 신흥국으로 분산 투자를 가속화하는 점, 그리고 데이터 레이어에서 GPU 가속으로 클라우드 인프라 비용을 통제하려는 시도는 모두 2026년 인프라 경쟁의 패러다임이 '단순 칩 확보'에서 '종합적인 물리 인프라 및 운영 효율 최적화'로 완전히 전환되었음을 보여줍니다.
