@@ -368,9 +368,11 @@ async function loadArticleContent(post) {
       const styleMatches = trimmed.match(/<style[^>]*>[\s\S]*?<\/style>/gi);
       const styles = styleMatches ? styleMatches.join('\n') : '';
 
-      // 1. Unwrap outer email table shell (<table ... padding: 25px 0><td ... padding-left: 20px>)
-      htmlContent = htmlContent.replace(/<table[^>]*style="[^"]*padding:\s*25px 0[^"]*"[^>]*>\s*<tr[^>]*>\s*<td[^>]*style="[^"]*padding-left:\s*20px[^"]*"[^>]*>/i, '');
-      htmlContent = htmlContent.replace(/<\/td>\s*<\/tr>\s*<\/table>\s*$/i, '');
+      // 1. Unwrap outer email table shells (<table ... padding: 25px 0> or <table ... background-color: #F1F5F9 ...>)
+      htmlContent = htmlContent
+        .replace(/<table[^>]*style="[^"]*(?:padding:\s*25px 0|background-color:\s*#F1F5F9)[^"]*"[^>]*>\s*<tr[^>]*>\s*<td[^>]*style="[^"]*(?:padding-left:\s*20px|padding:\s*0)[^"]*"[^>]*>/i, '')
+        .replace(/<table[^>]*style="[^"]*background-color:\s*#F1F5F9[^"]*"[^>]*>\s*<tr[^>]*>\s*<td[^>]*align="center"[^>]*>/i, '')
+        .replace(/<\/td>\s*<\/tr>\s*<\/table>\s*$/i, '');
       
       // 2. Tag 2-column TRs with class dc-responsive-row for seamless mobile 1-column stacking
       htmlContent = htmlContent.replace(
@@ -378,20 +380,35 @@ async function loadArticleContent(post) {
         '<tr$1 class="dc-responsive-row">$2'
       );
 
-      // 3. Sanitize fixed desktop widths (1100, 500, 504) and outer paddings
+      // 3. Mark 2x2 Market Chart grid tables specifically with dc-chart-table
+      htmlContent = htmlContent.replace(
+        /(<td[^>]*class=["'][^"']*responsive-col[^"']*["'][^>]*align=["']center["'][^>]*>\s*<table)/gi,
+        '$1 class="dc-chart-table"'
+      );
+
+      // 4. Sanitize all fixed desktop widths (1100, 504, 502, 500, etc.)
       htmlContent = htmlContent
-        .replace(/width=["'](1100|500|504)["']/gi, 'width="100%"')
-        .replace(/(?:max-)?width:\s*(?:1100|500|504)px;?/gi, '')
+        .replace(/width=["'](1100|504|502|500|480|450)["']/gi, 'width="100%"')
+        .replace(/(?:max-)?width:\s*(?:1100|504|502|500|480|450)px;?/gi, 'width: 100%; max-width: 100%;')
         .replace(/padding-left:\s*20px;?/gi, '')
+        .replace(/margin:\s*4px 0 10px 8px;?/gi, 'margin: 4px 0 10px 0; max-width: 100%; box-sizing: border-box;')
         .replace(/padding:\s*26px 36px/gi, 'padding: 16px 14px')
         .replace(/padding:\s*28px 36px 18px 36px/gi, 'padding: 16px 14px')
         .replace(/padding:\s*0 36px 28px 36px/gi, 'padding: 16px 14px')
+        .replace(/padding:\s*0 36px 30px 36px/gi, 'padding: 16px 14px')
         .replace(/padding:\s*20px 24px/gi, 'padding: 14px 12px')
+        .replace(/padding:\s*20px 22px/gi, 'padding: 14px 12px')
         .replace(/padding:\s*20px 36px/gi, 'padding: 14px 12px')
         .replace(/padding:\s*24px 36px/gi, 'padding: 14px 12px')
         .replace(/padding:\s*30px 36px/gi, 'padding: 14px 12px');
 
-      // 4. Responsive header title styling with word wrapping
+      // 5. Allow news title text wrapping on mobile
+      htmlContent = htmlContent.replace(
+        /overflow:\s*hidden;\s*text-overflow:\s*ellipsis;\s*white-space:\s*nowrap;/gi,
+        'word-break: break-word; overflow-wrap: break-word; line-height: 1.45;'
+      );
+
+      // 6. Responsive header title styling with word wrapping
       htmlContent = htmlContent.replace(
         /font-size:\s*24px;\s*font-weight:\s*800;\s*line-height:\s*1.3em;/gi,
         'font-size: 19px; font-weight: 800; line-height: 1.35em; word-break: break-word; overflow-wrap: break-word;'
