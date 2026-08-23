@@ -1093,13 +1093,16 @@ body {
 
 .dc-reader-body p,
 .dc-reader-body li,
-.dc-reader-body td,
-.dc-reader-body th,
 .dc-reader-body blockquote,
 .dc-reader-body .dc-vocab-desc,
 .dc-reader-body .dc-vocab-mean,
 .dc-reader-body .dc-callout-box {
   font-size: 1em !important;
+}
+
+.dc-reader-body table:not(.responsive-outer):not([class*="responsive"]) td,
+.dc-reader-body table:not(.responsive-outer):not([class*="responsive"]) th {
+  font-size: 1em;
 }
 
 .dc-reader-body h2 {
@@ -1117,6 +1120,18 @@ body {
 .dc-reader-body img:not([src*="workers.dev"]):not([width="1"]) {
   max-width: 100%;
   height: auto;
+}
+
+/* Raw HTML Newsletter / Email Template Container */
+.dc-raw-html-wrapper {
+  width: 100%;
+  max-width: 100%;
+  overflow-x: auto;
+  box-sizing: border-box;
+}
+
+.dc-raw-html-wrapper table {
+  max-width: 100%;
 }
 
 /* ─── Google AdSense Clean Container ─── */
