@@ -5,8 +5,48 @@
     <link>https://ywmoon.github.io</link>
     <description>글로벌 AI 데이터센터 전력망, 냉각, 클라우드 인프라 엔지니어링 데일리 트렌드</description>
     <language>ko</language>
-    <lastBuildDate>Mon, 24 Aug 2026 05:45:05 -0000</lastBuildDate>
+    <lastBuildDate>Tue, 25 Aug 2026 05:45:55 -0000</lastBuildDate>
     <atom:link href="https://ywmoon.github.io/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>[2026.08.25] [10-Min English Podcast] The $3 Trillion AI Infrastructure Supercycle: Hyperscale CapEx, Liquid-Cooled Gigawatt Deployments, and Grid Autonomy</title>
+      <link>https://ywmoon.github.io/article/2026-08-25-10min-tech-podcast/</link>
+      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-08-25-10min-tech-podcast/</guid>
+      <pubDate>Tue, 25 Aug 2026 00:00:00 -0000</pubDate>
+      <category>Podcast</category>
+      <description>🎧 10-MIN TECH ENGLISH PODCAST [2026.08.25] [10-Min English Podcast] The $3 Trillion AI Infrastructure Supercycle: Hyperscale CapEx, Liquid-Cooled Gigawatt Deployments, and Grid Autonomy 2026년 8월 25일 D</description>
+    </item>
+    <item>
+      <title>[인프라 용어사전] 소버린 클라우드 (Sovereign Cloud) - 데이터 주권과 AI 인프라 자립을 위한 기술 아키텍처</title>
+      <link>https://ywmoon.github.io/article/2026-08-25-infra-glossary/</link>
+      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-08-25-infra-glossary/</guid>
+      <pubDate>Tue, 25 Aug 2026 00:00:00 -0000</pubDate>
+      <category>Terminology</category>
+      <description>📌 1. 30초 핵심 요약 &amp; 개념 정의 소버린 클라우드(Sovereign Cloud)는 특정 국가나 관할 구역의 데이터 주권(Data Sovereignty) 법률과 규제 요건을 완벽하게 준수하도록 설계된 독립형 클라우드 인프라입니다. 단순히 서버가 해당 국가 영토 내에 물리적으로 위치하는 것을 넘어, 데이터의 저장·처리·접근 권한, 하드웨어 공급망, 암호</description>
+    </item>
+    <item>
+      <title>DC InfraOps Trends - 2026년 08월 25일</title>
+      <link>https://ywmoon.github.io/article/2026-08-25-dc-infraops-trends-report/</link>
+      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-08-25-dc-infraops-trends-report/</guid>
+      <pubDate>Tue, 25 Aug 2026 00:00:00 -0000</pubDate>
+      <category>Newsletter</category>
+      <description>Datacenter &amp; Cloud Industry InfraOps Daily (2-Column) DAILY DIGEST Datacenter &amp; Cloud Industry InfraOps Daily 2026년 08월 25일 (화) 💡 AI Executive Summary: Key News Insights 글로벌 빅테크의 AI 인프라 자본지출(CapEx)이 초</description>
+    </item>
+    <item>
+      <title>[2026.08.25] 오늘의 글로벌 클라우드 &amp; 데이터센터 인프라 핵심 동향 브리핑</title>
+      <link>https://ywmoon.github.io/article/2026-08-25-daily-infraops-briefing/</link>
+      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-08-25-daily-infraops-briefing/</guid>
+      <pubDate>Tue, 25 Aug 2026 00:00:00 -0000</pubDate>
+      <category>Daily Briefing</category>
+      <description>📌 오늘의 3대 핵심 관전 포인트 (Key Highlights)차세대 아키텍처와 에이전틱 AI 워크로드: 엔비디아의 베라 루빈(Vera Rubin) 및 블랙웰(Blackwell) 아키텍처가 장기 컨텍스트 및 멀티스텝 추론 부하에 대응해 메가와트(MW)당 처리 효율을 대폭 끌어올린 반면, 고대역폭 메모리(HBM) 가격 상승으로 서버 공급 단가가 최대 17% </description>
+    </item>
+    <item>
+      <title>[테크 딥다이브] GPU 품귀와 전력 한계의 대안, 이종 AI 가속기(GPU·NPU) 통합 오케스트레이션 아키텍처 분석</title>
+      <link>https://ywmoon.github.io/article/2026-08-25-august-megafarm-deepdive/</link>
+      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-08-25-august-megafarm-deepdive/</guid>
+      <pubDate>Tue, 25 Aug 2026 00:00:00 -0000</pubDate>
+      <category>Tech Deep Dive</category>
+      <description>🚀 서론: 단일 GPU 의존도의 한계와 이종 컴퓨팅 전환 엔터프라이즈 AI 모델의 매개변수 규모가 조(Trillion) 단위로 확장됨에 따라 데이터센터의 인프라 요구량은 지수함수적으로 증가하고 있습니다. 엔비디아의 데이터센터 부문 매출이 전년 대비 100% 이상 급증하는 시장 지표는 생성형 AI 워크로드를 감당하기 위한 고성능 가속기 수요의 폭발성을 명확히</description>
+    </item>
     <item>
       <title>DC InfraOps Trends - 2026년 08월 24일</title>
       <link>https://ywmoon.github.io/article/2026-08-24-dc-infraops-trends-report/</link>
