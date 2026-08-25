@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>[테크 딥다이브] 궤도 AI 컴퓨팅의 공학적 실현 가능성: 진공 방열·방사선 차폐·발사 경제성(TCO) 분석</title>
+  <meta name="description" content="🚀 서론: 지상 인프라의 물리적 한계와 궤도 컴퓨팅 패러다임 글로벌 인공지능(AI) 워크로드의 기하급수적 증가는 지상 데이터센터 인프라를 전력 공급, 부지 확보, 열관리라는 삼중의 물리적 한계로 몰아넣고 있습니다. 수십 메가와트(MW) 수준을 넘어 기가와트(GW) 급 단일 캠퍼스가 요구되는 초거대 언어 모델(LLM) 훈련 및 추론 환경에서, 지상 전력망(G" />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://ywmoon.github.io/article/2026-08-26-august-megafarm-deepdive/" />
+  <!-- OpenGraph -->
+  <meta property="og:type" content="article" />
+  <meta property="og:title" content="[테크 딥다이브] 궤도 AI 컴퓨팅의 공학적 실현 가능성: 진공 방열·방사선 차폐·발사 경제성(TCO) 분석" />
+  <meta property="og:description" content="🚀 서론: 지상 인프라의 물리적 한계와 궤도 컴퓨팅 패러다임 글로벌 인공지능(AI) 워크로드의 기하급수적 증가는 지상 데이터센터 인프라를 전력 공급, 부지 확보, 열관리라는 삼중의 물리적 한계로 몰아넣고 있습니다. 수십 메가와트(MW) 수준을 넘어 기가와트(GW) 급 단일 캠퍼스가 요구되는 초거대 언어 모델(LLM) 훈련 및 추론 환경에서, 지상 전력망(G" />
+  <meta property="og:url" content="https://ywmoon.github.io/article/2026-08-26-august-megafarm-deepdive/" />
+  <meta property="og:image" content="https://ywmoon.github.io/assets/avatar.jpg" />
+  <meta property="og:site_name" content="Datacenter InfraOps &amp; Cloud Industry Notes" />
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="[테크 딥다이브] 궤도 AI 컴퓨팅의 공학적 실현 가능성: 진공 방열·방사선 차폐·발사 경제성(TCO) 분석" />
+  <meta name="twitter:description" content="🚀 서론: 지상 인프라의 물리적 한계와 궤도 컴퓨팅 패러다임 글로벌 인공지능(AI) 워크로드의 기하급수적 증가는 지상 데이터센터 인프라를 전력 공급, 부지 확보, 열관리라는 삼중의 물리적 한계로 몰아넣고 있습니다. 수십 메가와트(MW) 수준을 넘어 기가와트(GW) 급 단일 캠퍼스가 요구되는 초거대 언어 모델(LLM) 훈련 및 추론 환경에서, 지상 전력망(G" />
+  <meta name="twitter:image" content="https://ywmoon.github.io/assets/avatar.jpg" />
+  <!-- Structured Data: Google Schema.org (Article) -->
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "TechArticle",
+  "headline": "[테크 딥다이브] 궤도 AI 컴퓨팅의 공학적 실현 가능성: 진공 방열·방사선 차폐·발사 경제성(TCO) 분석",
+  "description": "🚀 서론: 지상 인프라의 물리적 한계와 궤도 컴퓨팅 패러다임 글로벌 인공지능(AI) 워크로드의 기하급수적 증가는 지상 데이터센터 인프라를 전력 공급, 부지 확보, 열관리라는 삼중의 물리적 한계로 몰아넣고 있습니다. 수십 메가와트(MW) 수준을 넘어 기가와트(GW) 급 단일 캠퍼스가 요구되는 초거대 언어 모델(LLM) 훈련 및 추론 환경에서, 지상 전력망(G",
+  "datePublished": "2026-08-26T04:56:00+09:00",
+  "dateModified": "2026-08-26 04:56:00+09:00",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://ywmoon.github.io/article/2026-08-26-august-megafarm-deepdive/"
+  },
+  "author": {
+    "@type": "Person",
+    "name": "James Moon (문연욱)",
+    "jobTitle": "AWS Data Center Engineering Operations Cluster Manager",
+    "url": "https://www.linkedin.com/in/ywmoon"
+  },
+  "publisher": {
+    "@type": "Person",
+    "name": "James Moon",
+    "url": "https://ywmoon.github.io",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://ywmoon.github.io/assets/avatar.jpg"
+    }
+  },
+  "image": "https://ywmoon.github.io/assets/avatar.jpg",
+  "keywords": "테크딥다이브, 우주데이터센터, 스페이스X, 엔비디아, 베라루빈, 데이터센터"
+}
+  </script>
+  <!-- Instant redirect for real users -->
+  <meta http-equiv="refresh" content="0; url=https://ywmoon.github.io/#article/2026-08-26-august-megafarm-deepdive" />
+  <script>window.location.replace('https://ywmoon.github.io/#article/2026-08-26-august-megafarm-deepdive');</script>
+</head>
+<body></body>
+</html>
