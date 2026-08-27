@@ -5,8 +5,48 @@
     <link>https://ywmoon.github.io</link>
     <description>글로벌 AI 데이터센터 전력망, 냉각, 클라우드 인프라 엔지니어링 데일리 트렌드</description>
     <language>ko</language>
-    <lastBuildDate>Thu, 27 Aug 2026 21:50:01 -0000</lastBuildDate>
+    <lastBuildDate>Fri, 28 Aug 2026 06:03:56 -0000</lastBuildDate>
     <atom:link href="https://ywmoon.github.io/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>[인프라 용어사전] RoCE (RDMA over Converged Ethernet) - 대규모 AI GPU 클러스터의 초저지연 백본 네트워크</title>
+      <link>https://ywmoon.github.io/article/2026-08-28-infra-glossary/</link>
+      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-08-28-infra-glossary/</guid>
+      <pubDate>Fri, 28 Aug 2026 00:00:00 -0000</pubDate>
+      <category>Terminology</category>
+      <description>📌 1. 30초 핵심 요약 &amp; 개념 정의 RoCE(RDMA over Converged Ethernet, 로키)는 표준 이더넷(Ethernet) 네트워크 환경에서 운영체제(OS) 커널을 거치지 않고 서버 간 메모리를 직접 읽고 쓸 수 있게 해주는 초저지연·고대역폭 전송 기술입니다. 전통적인 TCP/IP 통신에서는 데이터 송수신 시 CPU가 인터럽트를 처리하고</description>
+    </item>
+    <item>
+      <title>[2026.08.28] [10-Min English Podcast] Global AI CapEx Surges Past $200B: AWS GPU Procurement, SMR Deployments, and Grid BYOP Mandates</title>
+      <link>https://ywmoon.github.io/article/2026-08-28-10min-tech-podcast/</link>
+      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-08-28-10min-tech-podcast/</guid>
+      <pubDate>Fri, 28 Aug 2026 00:00:00 -0000</pubDate>
+      <category>Podcast</category>
+      <description>🎧 10-MIN TECH ENGLISH PODCAST [2026.08.28] [10-Min English Podcast] Global AI CapEx Surges Past $200B: AWS GPU Procurement, SMR Deployments, and Grid BYOP Mandates 2026년 8월 28일자 DC 인프라옵스 데일리 심층 브리핑입니다</description>
+    </item>
+    <item>
+      <title>[테크 딥다이브] AWS 200만 GPU 배치와 초고밀도 인프라: 에이전틱 AI 시대의 전력·냉각·네트워크 엔지니어링 분석</title>
+      <link>https://ywmoon.github.io/article/2026-08-28-august-megafarm-deepdive/</link>
+      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-08-28-august-megafarm-deepdive/</guid>
+      <pubDate>Fri, 28 Aug 2026 00:00:00 -0000</pubDate>
+      <category>Tech Deep Dive</category>
+      <description>아마존웹서비스(AWS)가 엔비디아와 차세대 GPU 200만 개 공급 계약을 체결하며 글로벌 AI 인프라 확충에 나섰습니다. 이번 투자는 단순한 가속기 수량의 확장이 아니라, 자율형 에이전트(Agentic AI)와 물리 기반 AI(Physical AI) 처리를 위해 데이터센터의 전력 밀도, 액체 냉각 메커니즘, 엑사스케일 인터커넥트 아키텍처를 전면 재설계해야</description>
+    </item>
+    <item>
+      <title>[2026.08.28] 오늘의 글로벌 클라우드 &amp; 데이터센터 인프라 핵심 동향 브리핑</title>
+      <link>https://ywmoon.github.io/article/2026-08-28-daily-infraops-briefing/</link>
+      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-08-28-daily-infraops-briefing/</guid>
+      <pubDate>Fri, 28 Aug 2026 00:00:00 -0000</pubDate>
+      <category>Daily Briefing</category>
+      <description>Daily InfraOps Digest 글로벌 클라우드 &amp; 데이터센터 인프라 핵심 동향 브리핑 발행일: 2026년 8월 28일 | IT 인프라·클라우드 아키텍처·데이터센터 전력 및 거버넌스 분석 📌 오늘의 3대 핵심 관전 포인트 (Key Highlights) 아마존의 엔비디아 GPU 200만 개 도입 및 초대형 CapEx 가속: AWS가 차세대 AI 모델 </description>
+    </item>
+    <item>
+      <title>DC InfraOps Trends - 2026년 08월 28일</title>
+      <link>https://ywmoon.github.io/article/2026-08-28-dc-infraops-trends-report/</link>
+      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-08-28-dc-infraops-trends-report/</guid>
+      <pubDate>Fri, 28 Aug 2026 00:00:00 -0000</pubDate>
+      <category>Newsletter</category>
+      <description>Datacenter &amp; Cloud Industry InfraOps Daily (2-Column) DAILY DIGEST Datacenter &amp; Cloud Industry InfraOps Daily 2026년 08월 28일 (금) 💡 AI Executive Summary: Key News Insights 글로벌 빅테크의 AI 인프라 자본지출(CapEx)이 초</description>
+    </item>
     <item>
       <title>AI 전력망 쇼크를 막아라: 정부의 인공지능 데이터센터(AIDC) 그리드코드 수립과 전력계통 접속 전략</title>
       <link>https://ywmoon.github.io/article/2026-08-27-aidc-grid-code-power-strategy/</link>
