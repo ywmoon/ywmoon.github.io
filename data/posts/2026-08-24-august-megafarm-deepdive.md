@@ -13,7 +13,6 @@ labels:
   - 엔비디아
   - AI팩토리
   - 클라우드
-updated: "2026-08-24 07:07"
 ---
 
 <div style='font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; line-height: 1.85; color: #1E293B; word-break: keep-all; max-width: 840px; margin: 0 auto; padding: 20px 0;'>
@@ -40,6 +39,16 @@ updated: "2026-08-24 07:07"
       기존의 하이퍼스케일 데이터센터 아키텍처는 부동산 개발사가 부지를 매입하고, 지역 전력회사(Utility)와 수전 계약을 체결한 뒤 빌딩을 올리고 서버를 단계적으로 채워 넣는 선형적 분업 구조였습니다. 반면 생성형 AI가 요구하는 'AI 팩토리'는 수만 개의 GPU가 단일 가상 컴퓨터처럼 초저지연 병렬 연산을 수행해야 하므로, 부지 선정 단계부터 열역학적 냉각 설계와 수전 용량 프로파일링이 결합되어야 합니다.
     </p>
 
+    <!-- 공식 카드 -->
+    <div style='background-color: #F8FAFC; border: 1px solid #E2E8F0; border-radius: 8px; padding: 18px 20px; margin: 24px 0;'>
+      <div style='font-weight: 700; color: #1E293B; font-size: 15px; margin-bottom: 8px;'>[핵심 공학 지표: 데이터센터 계통 접속 대기 비용 지수]</div>
+      <div style='font-family: monospace; font-size: 16px; color: #2563EB; background: #FFFFFF; border: 1px dashed #CBD5E1; padding: 10px 14px; border-radius: 6px; margin-bottom: 8px;'>
+        유효 인프라 가동률 = (확보된 계통 수전 용량 MW ÷ 칩셋 요구 피크 전력 MW) × (1 - 열화 손실율)
+      </div>
+      <div style='font-size: 14px; color: #64748B;'>
+        👉 <strong>핵심 의미</strong>: 고성능 가속기 칩셋을 대량 보유하더라도 실제 송전망(Transmission Grid)에서 물리적으로 인가받은 수전 용량이 미달할 경우 전체 인프라의 TCO 효율은 급격히 하락하며, 선제적 전력망 확보가 전체 컴퓨팅 출력의 병목을 결정함을 의미합니다.
+      </div>
+    </div>
 
     <p style='font-size: 16px; color: #334155; margin-bottom: 18px; text-align: justify;'>
       엔비디아는 통합 설계 최적화 플랫폼인 'DSX(Data Center System Optimization)'를 통해 부지 지형, 기상 조건 기반의 수랭식 냉각탑 설계, 변전소 인입 선로의 전력 품질(Power Quality)을 사전 시뮬레이션합니다. 이를 통해 클로버리프가 개발하는 약 10GW 규모의 파이프라인 부지에 NVLink 클러스터와 인피니밴드 패브릭에 최적화된 토폴로지를 사전 탑재하여 표준화된 공정을 구축합니다.
@@ -133,7 +142,7 @@ updated: "2026-08-24 07:07"
   <!-- 4장: 결론 및 핵심 시사점 -->
   <div style='margin-bottom: 20px;'>
     <h2 style='display: flex; align-items: center; font-size: 24px; font-weight: 700; color: #0F172A; border-left: 5px solid #2563EB; padding-left: 14px; margin-bottom: 20px; letter-spacing: -0.02em;'>
-      💡 전력 인프라 & 하드웨어 수직계열화 관련 시사점
+      💡 전력 인프라 & 하드웨어 수직계열화의 아키텍처적 시사점
     </h2>
     <div style='background-color: #F8FAFC; border: 1px solid #E2E8F0; border-radius: 8px; padding: 20px; margin-bottom: 20px;'>
       <p style='font-size: 15px; color: #334155; margin-bottom: 12px; line-height: 1.75;'>
