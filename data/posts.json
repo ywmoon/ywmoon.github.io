@@ -1,5 +1,91 @@
 [
   {
+    "id": "2026-08-29-nvidia-huggingface-acquisition-platform-monopoly",
+    "title": "[테크 딥다이브] 하드웨어를 넘어 소프트웨어 허브까지: 엔비디아의 '허깅페이스(Hugging Face)' 인수 추진과 AI 생태계 수직독점 전략",
+    "date": "2026-08-29",
+    "time": "07:38",
+    "updated": "2026-08-29 13:33",
+    "category": "Tech Deep Dive",
+    "labels": [
+      "테크딥다이브",
+      "엔비디아",
+      "허깅페이스",
+      "오픈소스AI",
+      "NIM",
+      "쿠다",
+      "클라우드",
+      "AI거버넌스"
+    ],
+    "summary": "엔비디아가 글로벌 오픈소스 AI의 중심축인 '허깅페이스(Hugging Face)' 인수를 전격 추진하며 하드웨어(GPU)에서 소프트웨어 플랫폼(Model Hub)으로 이어지는 완벽한 수직 계열화에 나섰습니다. CUDA 락인을 넘어선 NIM 마이크로서비스 통합, 오픈소스 모델 배포 파이프라인 독점, 그리고 빅테크 클라우드(CSP)에 미칠 지각변동을 심층 분석합니다.",
+    "status": "published",
+    "content_file": "data/posts/2026-08-29-nvidia-huggingface-acquisition-platform-monopoly.md"
+  },
+  {
+    "id": "2026-08-29-k-mythos-sovereign-cybersecurity-ai",
+    "title": "[테크 딥다이브] AI 해킹에 맞서는 AI 방패: 정부 주도 'K-미토스(K-Mythos)'와 자율 사이버보안 AI 아키텍처 (네이버 vs SKT)",
+    "date": "2026-08-29",
+    "time": "07:35",
+    "updated": "2026-08-29 13:33",
+    "category": "Tech Deep Dive",
+    "labels": [
+      "테크딥다이브",
+      "사이버보안",
+      "K-미토스",
+      "소버린AI",
+      "네이버클라우드",
+      "SKT",
+      "LG CNS",
+      "업스테이지",
+      "에이전틱AI"
+    ],
+    "summary": "생성형 AI와 자율 에이전트를 악용한 정밀 사이버 공격이 폭증함에 따라, 정부(과기정통부·KISA)가 주도하는 한국형 보안 특화 파운데이션 모델 'K-미토스(K-Mythos)' 구축 사업이 본격화되었습니다. 네이버클라우드-LG CNS 연합과 SKT-업스테이지 연합의 기술 아키텍처, 오펜시브/디펜시브 자율 에이전트 오케스트레이션, 망분리 소버린 보안 인프라를 심층 분석합니다.",
+    "status": "published",
+    "content_file": "data/posts/2026-08-29-k-mythos-sovereign-cybersecurity-ai.md"
+  },
+  {
+    "id": "2026-08-29-hbf-high-bandwidth-flash-memory-tiering",
+    "title": "[테크 딥다이브] HBM의 한계를 넘어서: 초거대 추론 시대를 위한 'HBF(High Bandwidth Flash)'와 CXL 3.1 계층형 메모리 아키텍처",
+    "date": "2026-08-29",
+    "time": "07:32",
+    "updated": "2026-08-29 13:33",
+    "category": "Tech Deep Dive",
+    "labels": [
+      "테크딥다이브",
+      "반도체",
+      "HBM",
+      "HBF",
+      "CXL",
+      "엔비디아",
+      "메모리아키텍처",
+      "AI추론"
+    ],
+    "summary": "초장문(Long-context) 및 자율 에이전트 시대가 열리며 KV 캐시 급증으로 인한 '메모리 월(Memory Wall)'이 심화되고 있습니다. DRAM 기반 HBM의 극심한 가격/용량 한계를 극복하기 위해 부상한 고대역폭 낸드 플래시 'HBF(High Bandwidth Flash)'와 CXL 3.1 기반 계층형 메모리(Tiered Memory) 아키텍처를 엔지니어링 및 TCO 관점에서 심층 분석합니다.",
+    "status": "published",
+    "content_file": "data/posts/2026-08-29-hbf-high-bandwidth-flash-memory-tiering.md"
+  },
+  {
+    "id": "2026-08-29-floating-datacenter-fdc-marine-power",
+    "title": "[테크 딥다이브] 바다 위 AI 팩토리: 해상 부유식 데이터센터(FDC)와 K-조선의 독립 전원·해수 직랭 아키텍처",
+    "date": "2026-08-29",
+    "time": "07:30",
+    "updated": "2026-08-29 13:33",
+    "category": "Tech Deep Dive",
+    "labels": [
+      "테크딥다이브",
+      "데이터센터",
+      "해상데이터센터",
+      "FDC",
+      "SMR",
+      "HD현대",
+      "한화오션",
+      "액체냉각",
+      "전력망"
+    ],
+    "summary": "육상 전력망 포화와 부지 고갈, 냉각수 규제를 극복하기 위해 바다 위에 초거대 AI 데이터센터를 띄우는 '해상 부유식 데이터센터(Floating Data Center, FDC)'가 글로벌 인프라의 새로운 대안으로 부상하고 있습니다. HD현대와 한화오션 등 K-조선이 주도하는 해수 직접 열교환 수랭 공학, 선박용 이중연료 발전기 및 해상 SMR 연계 독립 전원 패키지, 해양 방진·내진 엔지니어링을 심층 분석합니다.",
+    "status": "published",
+    "content_file": "data/posts/2026-08-29-floating-datacenter-fdc-marine-power.md"
+  },
+  {
     "id": "2026-08-28-infra-glossary",
     "title": "[인프라 용어사전] RoCE (RDMA over Converged Ethernet) - 대규모 AI GPU 클러스터의 초저지연 백본 네트워크",
     "date": "2026-08-28",
