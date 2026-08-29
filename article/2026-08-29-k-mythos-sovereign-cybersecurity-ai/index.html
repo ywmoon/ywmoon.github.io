@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>[테크 딥다이브] AI 해킹에 맞서는 AI 방패: 정부 주도 'K-미토스(K-Mythos)'와 자율 사이버보안 AI 아키텍처 (네이버 vs SKT)</title>
+  <meta name="description" content="생성형 AI와 자율 에이전트를 악용한 정밀 사이버 공격이 폭증함에 따라, 정부(과기정통부·KISA)가 주도하는 한국형 보안 특화 파운데이션 모델 'K-미토스(K-Mythos)' 구축 사업이 본격화되었습니다. 네이버클라우드-LG CNS 연합과 SKT-업스테이지 연합의 기술 아키텍처, 오펜시브/디펜시브 자율 에이전트 오케스트레이션, 망분리 소버린 보안 인프라를 심층 분석합니다." />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://ywmoon.github.io/article/2026-08-29-k-mythos-sovereign-cybersecurity-ai/" />
+  <!-- OpenGraph -->
+  <meta property="og:type" content="article" />
+  <meta property="og:title" content="[테크 딥다이브] AI 해킹에 맞서는 AI 방패: 정부 주도 'K-미토스(K-Mythos)'와 자율 사이버보안 AI 아키텍처 (네이버 vs SKT)" />
+  <meta property="og:description" content="생성형 AI와 자율 에이전트를 악용한 정밀 사이버 공격이 폭증함에 따라, 정부(과기정통부·KISA)가 주도하는 한국형 보안 특화 파운데이션 모델 'K-미토스(K-Mythos)' 구축 사업이 본격화되었습니다. 네이버클라우드-LG CNS 연합과 SKT-업스테이지 연합의 기술 아키텍처, 오펜시브/디펜시브 자율 에이전트 오케스트레이션, 망분리 소버린 보안 인프라를 심층 분석합니다." />
+  <meta property="og:url" content="https://ywmoon.github.io/article/2026-08-29-k-mythos-sovereign-cybersecurity-ai/" />
+  <meta property="og:image" content="https://ywmoon.github.io/assets/avatar.jpg" />
+  <meta property="og:site_name" content="Datacenter InfraOps &amp; Cloud Industry Notes" />
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="[테크 딥다이브] AI 해킹에 맞서는 AI 방패: 정부 주도 'K-미토스(K-Mythos)'와 자율 사이버보안 AI 아키텍처 (네이버 vs SKT)" />
+  <meta name="twitter:description" content="생성형 AI와 자율 에이전트를 악용한 정밀 사이버 공격이 폭증함에 따라, 정부(과기정통부·KISA)가 주도하는 한국형 보안 특화 파운데이션 모델 'K-미토스(K-Mythos)' 구축 사업이 본격화되었습니다. 네이버클라우드-LG CNS 연합과 SKT-업스테이지 연합의 기술 아키텍처, 오펜시브/디펜시브 자율 에이전트 오케스트레이션, 망분리 소버린 보안 인프라를 심층 분석합니다." />
+  <meta name="twitter:image" content="https://ywmoon.github.io/assets/avatar.jpg" />
+  <!-- Structured Data: Google Schema.org (Article) -->
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "TechArticle",
+  "headline": "[테크 딥다이브] AI 해킹에 맞서는 AI 방패: 정부 주도 'K-미토스(K-Mythos)'와 자율 사이버보안 AI 아키텍처 (네이버 vs SKT)",
+  "description": "생성형 AI와 자율 에이전트를 악용한 정밀 사이버 공격이 폭증함에 따라, 정부(과기정통부·KISA)가 주도하는 한국형 보안 특화 파운데이션 모델 'K-미토스(K-Mythos)' 구축 사업이 본격화되었습니다. 네이버클라우드-LG CNS 연합과 SKT-업스테이지 연합의 기술 아키텍처, 오펜시브/디펜시브 자율 에이전트 오케스트레이션, 망분리 소버린 보안 인프라를 심층 분석합니다.",
+  "datePublished": "2026-08-29T07:35:00+09:00",
+  "dateModified": "2026-08-29 13:33:00+09:00",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://ywmoon.github.io/article/2026-08-29-k-mythos-sovereign-cybersecurity-ai/"
+  },
+  "author": {
+    "@type": "Person",
+    "name": "James Moon (문연욱)",
+    "jobTitle": "AWS Data Center Engineering Operations Cluster Manager",
+    "url": "https://www.linkedin.com/in/ywmoon"
+  },
+  "publisher": {
+    "@type": "Person",
+    "name": "James Moon",
+    "url": "https://ywmoon.github.io",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://ywmoon.github.io/assets/avatar.jpg"
+    }
+  },
+  "image": "https://ywmoon.github.io/assets/avatar.jpg",
+  "keywords": "테크딥다이브, 사이버보안, K-미토스, 소버린AI, 네이버클라우드, SKT, LG CNS, 업스테이지, 에이전틱AI"
+}
+  </script>
+  <!-- Instant redirect for real users -->
+  <meta http-equiv="refresh" content="0; url=https://ywmoon.github.io/#article/2026-08-29-k-mythos-sovereign-cybersecurity-ai" />
+  <script>window.location.replace('https://ywmoon.github.io/#article/2026-08-29-k-mythos-sovereign-cybersecurity-ai');</script>
+</head>
+<body></body>
+</html>
