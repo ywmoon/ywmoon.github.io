@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>[테크 딥다이브] HBM의 한계를 넘어서: 초거대 추론 시대를 위한 'HBF(High Bandwidth Flash)'와 CXL 3.1 계층형 메모리 아키텍처</title>
+  <meta name="description" content="초장문(Long-context) 및 자율 에이전트 시대가 열리며 KV 캐시 급증으로 인한 '메모리 월(Memory Wall)'이 심화되고 있습니다. DRAM 기반 HBM의 극심한 가격/용량 한계를 극복하기 위해 부상한 고대역폭 낸드 플래시 'HBF(High Bandwidth Flash)'와 CXL 3.1 기반 계층형 메모리(Tiered Memory) 아키텍처를 엔지니어링 및 TCO 관점에서 심층 분석합니다." />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://ywmoon.github.io/article/2026-08-29-hbf-high-bandwidth-flash-memory-tiering/" />
+  <!-- OpenGraph -->
+  <meta property="og:type" content="article" />
+  <meta property="og:title" content="[테크 딥다이브] HBM의 한계를 넘어서: 초거대 추론 시대를 위한 'HBF(High Bandwidth Flash)'와 CXL 3.1 계층형 메모리 아키텍처" />
+  <meta property="og:description" content="초장문(Long-context) 및 자율 에이전트 시대가 열리며 KV 캐시 급증으로 인한 '메모리 월(Memory Wall)'이 심화되고 있습니다. DRAM 기반 HBM의 극심한 가격/용량 한계를 극복하기 위해 부상한 고대역폭 낸드 플래시 'HBF(High Bandwidth Flash)'와 CXL 3.1 기반 계층형 메모리(Tiered Memory) 아키텍처를 엔지니어링 및 TCO 관점에서 심층 분석합니다." />
+  <meta property="og:url" content="https://ywmoon.github.io/article/2026-08-29-hbf-high-bandwidth-flash-memory-tiering/" />
+  <meta property="og:image" content="https://ywmoon.github.io/assets/avatar.jpg" />
+  <meta property="og:site_name" content="Datacenter InfraOps &amp; Cloud Industry Notes" />
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="[테크 딥다이브] HBM의 한계를 넘어서: 초거대 추론 시대를 위한 'HBF(High Bandwidth Flash)'와 CXL 3.1 계층형 메모리 아키텍처" />
+  <meta name="twitter:description" content="초장문(Long-context) 및 자율 에이전트 시대가 열리며 KV 캐시 급증으로 인한 '메모리 월(Memory Wall)'이 심화되고 있습니다. DRAM 기반 HBM의 극심한 가격/용량 한계를 극복하기 위해 부상한 고대역폭 낸드 플래시 'HBF(High Bandwidth Flash)'와 CXL 3.1 기반 계층형 메모리(Tiered Memory) 아키텍처를 엔지니어링 및 TCO 관점에서 심층 분석합니다." />
+  <meta name="twitter:image" content="https://ywmoon.github.io/assets/avatar.jpg" />
+  <!-- Structured Data: Google Schema.org (Article) -->
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "TechArticle",
+  "headline": "[테크 딥다이브] HBM의 한계를 넘어서: 초거대 추론 시대를 위한 'HBF(High Bandwidth Flash)'와 CXL 3.1 계층형 메모리 아키텍처",
+  "description": "초장문(Long-context) 및 자율 에이전트 시대가 열리며 KV 캐시 급증으로 인한 '메모리 월(Memory Wall)'이 심화되고 있습니다. DRAM 기반 HBM의 극심한 가격/용량 한계를 극복하기 위해 부상한 고대역폭 낸드 플래시 'HBF(High Bandwidth Flash)'와 CXL 3.1 기반 계층형 메모리(Tiered Memory) 아키텍처를 엔지니어링 및 TCO 관점에서 심층 분석합니다.",
+  "datePublished": "2026-08-29T07:32:00+09:00",
+  "dateModified": "2026-08-29 13:33:00+09:00",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://ywmoon.github.io/article/2026-08-29-hbf-high-bandwidth-flash-memory-tiering/"
+  },
+  "author": {
+    "@type": "Person",
+    "name": "James Moon (문연욱)",
+    "jobTitle": "AWS Data Center Engineering Operations Cluster Manager",
+    "url": "https://www.linkedin.com/in/ywmoon"
+  },
+  "publisher": {
+    "@type": "Person",
+    "name": "James Moon",
+    "url": "https://ywmoon.github.io",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://ywmoon.github.io/assets/avatar.jpg"
+    }
+  },
+  "image": "https://ywmoon.github.io/assets/avatar.jpg",
+  "keywords": "테크딥다이브, 반도체, HBM, HBF, CXL, 엔비디아, 메모리아키텍처, AI추론"
+}
+  </script>
+  <!-- Instant redirect for real users -->
+  <meta http-equiv="refresh" content="0; url=https://ywmoon.github.io/#article/2026-08-29-hbf-high-bandwidth-flash-memory-tiering" />
+  <script>window.location.replace('https://ywmoon.github.io/#article/2026-08-29-hbf-high-bandwidth-flash-memory-tiering');</script>
+</head>
+<body></body>
+</html>
