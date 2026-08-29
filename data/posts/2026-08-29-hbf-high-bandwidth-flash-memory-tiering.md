@@ -130,10 +130,10 @@ labels:
   </ul>
 
   <!-- 4장: 결론 -->
-  <h2 style='border-left: 4px solid #8B5CF6; padding-left: 12px; color: #0F172A; font-size: 1.4rem; margin-top: 40px; margin-bottom: 20px;'>🎯 4장: 결론 및 아키텍트 관점의 미래 전망</h2>
+  <h2 style='border-left: 4px solid #8B5CF6; padding-left: 12px; color: #0F172A; font-size: 1.4rem; margin-top: 40px; margin-bottom: 20px;'>🎯 4장: 결론 및 차세대 메모리 미래 전망</h2>
   
   <p>AI 연산의 중심축이 파라미터 크기 경쟁에서 '사고 시간(Thinking Time)과 컨텍스트 길이' 경쟁으로 진화함에 따라, 메모리 아키텍처의 패러다임 역시 단일 초고속 HBM에서 <strong>'HBM(연산 대역폭) + HBF(용량·비용) + CXL(확장성)'</strong>의 삼위일체 구조로 빠르게 재편될 것입니다.</p>
 
-  <p>인프라 아키텍트와 AI 서비스 개발자들은 단순한 가속기 연산 성능(TFLOPS)에만 집중할 것이 아니라, 워크로드의 토큰 재사용률(Token Reuse Rate)과 캐시 접근 패턴을 정밀 분석하여 계층형 메모리 스택을 최적화하는 소프트웨어-하드웨어 공동 설계(Co-design) 역량을 확보해야 합니다.</p>
+  <p>향후 AI 시스템 엔지니어링에서는 단순한 가속기 연산 속도(TFLOPS)에만 집중할 것이 아니라, 워크로드의 토큰 재사용률(Token Reuse Rate)과 캐시 접근 패턴을 정밀 분석하여 계층형 메모리 스택을 최적화하는 소프트웨어-하드웨어 공동 설계(Co-design) 역량이 핵심 경쟁력이 될 것입니다.</p>
 
 </div>
