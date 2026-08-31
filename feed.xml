@@ -5,7 +5,7 @@
     <link>https://ywmoon.github.io</link>
     <description>글로벌 AI 데이터센터 전력망, 냉각, 클라우드 인프라 엔지니어링 데일리 트렌드</description>
     <language>ko</language>
-    <lastBuildDate>Mon, 31 Aug 2026 06:08:24 -0000</lastBuildDate>
+    <lastBuildDate>Mon, 31 Aug 2026 19:56:59 -0000</lastBuildDate>
     <atom:link href="https://ywmoon.github.io/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
       <title>DC InfraOps Trends - 2026년 08월 31일</title>
@@ -37,7 +37,7 @@
       <guid isPermaLink="true">https://ywmoon.github.io/article/2026-08-31-august-megafarm-deepdive/</guid>
       <pubDate>Mon, 31 Aug 2026 00:00:00 -0000</pubDate>
       <category>Tech Deep Dive</category>
-      <description>글로벌 생성형 AI 워크로드의 확산과 초대형 파운데이션 모델의 매개변수 증가는 하이퍼스케일 데이터센터의 전력 밀도, 상호연결 대역폭, 자본적 지출(CAPEX) 구조를 근본적으로 재편하고 있습니다. 최근 AWS가 발표한 5억 달러(약 7,000억 원) 규모의 글로벌 AI 인재 양성 및 '스튜던트 리워드(Student Rewards)' 프로그램은 단순한 교육 </description>
+      <description>글로벌 생성형 AI 워크로드의 확산과 초대형 파운데이션 모델의 매개변수 급증은 하이퍼스케일 데이터센터의 전력 밀도, 상호연결 대역폭, 자본적 지출(CAPEX) 구조를 근본적으로 재편하고 있습니다. 최근 AWS가 발표한 5억 달러(약 7,000억 원) 규모의 글로벌 AI 인재 양성 프로그램은 단순한 교육 지원을 넘어 커스텀 ASIC 생태계 락인을 위한 고도의 전략입니다.</description>
     </item>
     <item>
       <title>[2026.08.31] [10-Min English Podcast] Navigating GPU Debt Syndication, Captive Power Mandates, and 200kW Liquid Cooling Resilience</title>
