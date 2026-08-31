@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>[테크 딥다이브] 단일 칩 경쟁에서 랙 스케일(Rack-Scale) 시스템으로: AI 데이터센터 전력 밀도 한계와 D2C 액체 냉각 표준화 분석</title>
+  <meta name="description" content="🚀 서론: 기술 패러다임의 전환과 물리적 한계의 직면 인공지능(AI) 인프라의 발전 축이 개별 반도체 다이(Die)의 연산 성능 개선에서 데이터센터 단위의 '랙 스케일(Rack-Scale) 통합 컴퓨팅'으로 급격히 전환되고 있습니다. 대규모 언어 모델(LLM)과 멀티모달 파운데이션 모델의 매개변수가 수조 개 단위로 팽창함에 따라, 단일 가속기(GPU/NPU" />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://ywmoon.github.io/article/2026-09-01-august-megafarm-deepdive/" />
+  <!-- OpenGraph -->
+  <meta property="og:type" content="article" />
+  <meta property="og:title" content="[테크 딥다이브] 단일 칩 경쟁에서 랙 스케일(Rack-Scale) 시스템으로: AI 데이터센터 전력 밀도 한계와 D2C 액체 냉각 표준화 분석" />
+  <meta property="og:description" content="🚀 서론: 기술 패러다임의 전환과 물리적 한계의 직면 인공지능(AI) 인프라의 발전 축이 개별 반도체 다이(Die)의 연산 성능 개선에서 데이터센터 단위의 '랙 스케일(Rack-Scale) 통합 컴퓨팅'으로 급격히 전환되고 있습니다. 대규모 언어 모델(LLM)과 멀티모달 파운데이션 모델의 매개변수가 수조 개 단위로 팽창함에 따라, 단일 가속기(GPU/NPU" />
+  <meta property="og:url" content="https://ywmoon.github.io/article/2026-09-01-august-megafarm-deepdive/" />
+  <meta property="og:image" content="https://ywmoon.github.io/assets/avatar.jpg" />
+  <meta property="og:site_name" content="Datacenter InfraOps &amp; Cloud Industry Notes" />
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="[테크 딥다이브] 단일 칩 경쟁에서 랙 스케일(Rack-Scale) 시스템으로: AI 데이터센터 전력 밀도 한계와 D2C 액체 냉각 표준화 분석" />
+  <meta name="twitter:description" content="🚀 서론: 기술 패러다임의 전환과 물리적 한계의 직면 인공지능(AI) 인프라의 발전 축이 개별 반도체 다이(Die)의 연산 성능 개선에서 데이터센터 단위의 '랙 스케일(Rack-Scale) 통합 컴퓨팅'으로 급격히 전환되고 있습니다. 대규모 언어 모델(LLM)과 멀티모달 파운데이션 모델의 매개변수가 수조 개 단위로 팽창함에 따라, 단일 가속기(GPU/NPU" />
+  <meta name="twitter:image" content="https://ywmoon.github.io/assets/avatar.jpg" />
+  <!-- Structured Data: Google Schema.org (Article) -->
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "TechArticle",
+  "headline": "[테크 딥다이브] 단일 칩 경쟁에서 랙 스케일(Rack-Scale) 시스템으로: AI 데이터센터 전력 밀도 한계와 D2C 액체 냉각 표준화 분석",
+  "description": "🚀 서론: 기술 패러다임의 전환과 물리적 한계의 직면 인공지능(AI) 인프라의 발전 축이 개별 반도체 다이(Die)의 연산 성능 개선에서 데이터센터 단위의 '랙 스케일(Rack-Scale) 통합 컴퓨팅'으로 급격히 전환되고 있습니다. 대규모 언어 모델(LLM)과 멀티모달 파운데이션 모델의 매개변수가 수조 개 단위로 팽창함에 따라, 단일 가속기(GPU/NPU",
+  "datePublished": "2026-09-01T05:46:00+09:00",
+  "dateModified": "2026-09-01 05:46:00+09:00",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://ywmoon.github.io/article/2026-09-01-august-megafarm-deepdive/"
+  },
+  "author": {
+    "@type": "Person",
+    "name": "James Moon (문연욱)",
+    "jobTitle": "AWS Data Center Engineering Operations Cluster Manager",
+    "url": "https://www.linkedin.com/in/ywmoon"
+  },
+  "publisher": {
+    "@type": "Person",
+    "name": "James Moon",
+    "url": "https://ywmoon.github.io",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://ywmoon.github.io/assets/avatar.jpg"
+    }
+  },
+  "image": "https://ywmoon.github.io/assets/avatar.jpg",
+  "keywords": "테크딥다이브, 액체냉각, 랙스케일, 엔비디아, 블랙웰, AI인프라, 데이터센터"
+}
+  </script>
+  <!-- Instant redirect for real users -->
+  <meta http-equiv="refresh" content="0; url=https://ywmoon.github.io/#article/2026-09-01-august-megafarm-deepdive" />
+  <script>window.location.replace('https://ywmoon.github.io/#article/2026-09-01-august-megafarm-deepdive');</script>
+</head>
+<body></body>
+</html>
