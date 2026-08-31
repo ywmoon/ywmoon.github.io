@@ -1,5 +1,117 @@
 [
   {
+    "id": "2026-09-01-august-megafarm-deepdive",
+    "title": "[테크 딥다이브] 단일 칩 경쟁에서 랙 스케일(Rack-Scale) 시스템으로: AI 데이터센터 전력 밀도 한계와 D2C 액체 냉각 표준화 분석",
+    "date": "2026-09-01",
+    "time": "05:46",
+    "updated": "2026-09-01 05:46",
+    "category": "Tech Deep Dive",
+    "labels": [
+      "테크딥다이브",
+      "액체냉각",
+      "랙스케일",
+      "엔비디아",
+      "블랙웰",
+      "AI인프라",
+      "데이터센터"
+    ],
+    "summary": "🚀 서론: 기술 패러다임의 전환과 물리적 한계의 직면 인공지능(AI) 인프라의 발전 축이 개별 반도체 다이(Die)의 연산 성능 개선에서 데이터센터 단위의 '랙 스케일(Rack-Scale) 통합 컴퓨팅'으로 급격히 전환되고 있습니다. 대규모 언어 모델(LLM)과 멀티모달 파운데이션 모델의 매개변수가 수조 개 단위로 팽창함에 따라, 단일 가속기(GPU/NPU",
+    "status": "published",
+    "content_file": "data/posts/2026-09-01-august-megafarm-deepdive.md"
+  },
+  {
+    "id": "2026-09-01-dc-infraops-trends-report",
+    "title": "DC InfraOps Trends - 2026년 09월 01일",
+    "date": "2026-09-01",
+    "time": "05:46",
+    "updated": "2026-09-01 05:46",
+    "category": "Newsletter",
+    "labels": [
+      "AWS",
+      "데이터센터",
+      "클라우드",
+      "AI인프라",
+      "DC-Trends",
+      "Daily-Newsletter",
+      "SMR",
+      "원전",
+      "엔비디아",
+      "액체냉각",
+      "전력망",
+      "마이크로소프트",
+      "구글",
+      "오라클",
+      "신재생에너지"
+    ],
+    "summary": "Datacenter & Cloud Industry InfraOps Daily (2-Column) 글로벌 AI 데이터센터 확충이 전력망 과부하와 막대한 수자원 소비 및 소음 피해를 야기하며 지역사회 반발을 촉발하는 가운데, 데이터센터 수용 여부가 미국 정치권의 핵심 쟁점으로 급부상함. 도널드 트럼프 전 미국 대통령은 데이터센터 건립을 반대하는 지역... ͏ ",
+    "status": "published",
+    "content_file": "data/posts/2026-09-01-dc-infraops-trends-report.md"
+  },
+  {
+    "id": "2026-09-01-infra-glossary",
+    "title": "[인프라 용어사전] DPU (Data Processing Unit) - 호스트 연산 자원과 인프라 오버헤드를 분리하는 차세대 프로세서",
+    "date": "2026-09-01",
+    "time": "05:46",
+    "updated": "2026-09-01 05:46",
+    "category": "Terminology",
+    "labels": [
+      "인프라용어사전",
+      "IT백과사전",
+      "DPU",
+      "AWS",
+      "데이터센터",
+      "클라우드인프라",
+      "서버아키텍처"
+    ],
+    "summary": "Infrastructure Architecture DPU (Data Processing Unit, 데이터 처리 장치) 서버 호스트 CPU/GPU가 연산 본연에만 집중할 수 있도록 네트워크 가상화, 보안 암호화, 스토리지 입출력 등 인프라 전반의 제어 플레인을 전담 처리하는 독립형 가속 SoC 아키텍처 📌 1. 30초 핵심 요약 & 개념 정의 DPU(Data",
+    "status": "published",
+    "content_file": "data/posts/2026-09-01-infra-glossary.md"
+  },
+  {
+    "id": "2026-09-01-daily-infraops-briefing",
+    "title": "[2026.09.01] 오늘의 글로벌 클라우드 & 데이터센터 인프라 핵심 동향 브리핑",
+    "date": "2026-09-01",
+    "time": "05:46",
+    "updated": "2026-09-01 05:46",
+    "category": "Daily Briefing",
+    "labels": [
+      "AWS",
+      "Azure",
+      "멀티클라우드",
+      "엔비디아",
+      "데이터센터",
+      "액체냉각",
+      "AI인프라",
+      "소버린AI",
+      "메타"
+    ],
+    "summary": "📌 오늘의 3대 핵심 관전 포인트 (Key Highlights) AWS·MS 애저, 멀티클라우드 전용 사설망 인터커넥트 프리뷰 공개: 양대 하이퍼스케일러 간 물리적 직접 연동을 지원하여 공용 인터넷이나 서드파티 코로케이션 허브(Equinix 등)를 거치지 않고도 초저지연·고보안 크로스 클라우드 데이터 파이프라인 구축이 가능해졌습니다. 엔비디아의 '풀스택 시",
+    "status": "published",
+    "content_file": "data/posts/2026-09-01-daily-infraops-briefing.md"
+  },
+  {
+    "id": "2026-09-01-10min-tech-podcast",
+    "title": "[2026.09.01] [10-Min English Podcast] Global AI Data Center Gridlocks, SLB's $4.1B Cooling Deal, and Multicloud Interconnect Architecture",
+    "date": "2026-09-01",
+    "time": "05:46",
+    "updated": "2026-09-01 05:46",
+    "category": "Podcast",
+    "labels": [
+      "EnglishPodcast",
+      "TechEnglish",
+      "비즈니스영어",
+      "AWS",
+      "Azure",
+      "데이터센터",
+      "액체냉각",
+      "SLB",
+      "전력망"
+    ],
+    "summary": "🎧 10-MIN TECH ENGLISH PODCAST [2026.09.01] [10-Min English Podcast] Global AI Data Center Gridlocks, SLB's $4.1B Cooling Deal, and Multicloud Interconnect Architecture 오늘의 10분 심층 팟캐스트는 글로벌 AI 데이터센터 확충",
+    "status": "published",
+    "content_file": "data/posts/2026-09-01-10min-tech-podcast.md"
+  },
+  {
     "id": "2026-08-31-dc-infraops-trends-report",
     "title": "DC InfraOps Trends - 2026년 08월 31일",
     "date": "2026-08-31",
