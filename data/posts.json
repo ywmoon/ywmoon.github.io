@@ -1,5 +1,114 @@
 [
   {
+    "id": "2026-09-02-dc-infraops-trends-report",
+    "title": "DC InfraOps Trends - 2026년 09월 02일",
+    "date": "2026-09-02",
+    "time": "05:56",
+    "updated": "2026-09-02 05:56",
+    "category": "Newsletter",
+    "labels": [
+      "AWS",
+      "데이터센터",
+      "클라우드",
+      "AI인프라",
+      "DC-Trends",
+      "Daily-Newsletter",
+      "SMR",
+      "원전",
+      "엔비디아",
+      "액체냉각",
+      "전력망",
+      "마이크로소프트",
+      "구글",
+      "오라클",
+      "신재생에너지"
+    ],
+    "summary": "Datacenter & Cloud Industry InfraOps Daily (2-Column) 인공지능(AI) 파운데이션 모델사 앤트로픽이 엔비디아의 신용 보강을 발판 삼아 네오클라우드 기업 람다(Lambda)와 350억 달러(약 48조 원) 규모의 클라우드 컴퓨팅 계약을 체결함 . 본 계약은 엔비디아가 헛8(Hut 8)의 텍사스 350MW급 ... ͏ ",
+    "status": "published",
+    "content_file": "data/posts/2026-09-02-dc-infraops-trends-report.md"
+  },
+  {
+    "id": "2026-09-02-infra-glossary",
+    "title": "[인프라 용어사전] 엣지 NPU (Edge NPU) - 초저전력 피지컬 AI를 구동하는 도메인 특화 반도체 아키텍처",
+    "date": "2026-09-02",
+    "time": "05:56",
+    "updated": "2026-09-02 05:56",
+    "category": "Terminology",
+    "labels": [
+      "인프라용어사전",
+      "IT백과사전",
+      "엣지NPU",
+      "AWS",
+      "하드웨어",
+      "피지컬AI"
+    ],
+    "summary": "📌 1. 30초 핵심 요약 & 개념 정의 엣지 NPU(Edge Neural Processing Unit)는 수 와트(W) 이하의 극단적인 전력 및 방열 제약이 존재하는 엣지 단말(스마트 팩토리, 자율이동로봇, 지능형 CCTV 등)에서 심층 신경망(DNN)의 추론(Inference) 연산만을 전담 처리하도록 하드웨어 레벨에서 특화 설계된 도메인 특화 프로세서",
+    "status": "published",
+    "content_file": "data/posts/2026-09-02-infra-glossary.md"
+  },
+  {
+    "id": "2026-09-02-daily-infraops-briefing",
+    "title": "[2026.09.02] 글로벌 클라우드 & 데이터센터 인프라 핵심 동향 브리핑",
+    "date": "2026-09-02",
+    "time": "05:56",
+    "updated": "2026-09-02 05:56",
+    "category": "Daily Briefing",
+    "labels": [
+      "AWS",
+      "엔비디아",
+      "앤트로픽",
+      "구글",
+      "데이터센터",
+      "전력인프라",
+      "클라우드"
+    ],
+    "summary": "📌 오늘의 3대 핵심 관전 포인트 (Key Highlights) 엔비디아의 상면·컴퓨팅 중개 모델과 350억 달러 메가딜: 엔비디아가 텍사스 헛8 데이터센터 상면을 직접 리스하고 지분 투자사인 람다(Lambda)를 통해 앤트로픽에 GPU를 공급하는 다각적 오프밸런스 파이낸싱 구조를 본격화했습니다. 이달 초 엔스케일과의 450억 달러 계약에 이어 AI 스타트",
+    "status": "published",
+    "content_file": "data/posts/2026-09-02-daily-infraops-briefing.md"
+  },
+  {
+    "id": "2026-09-02-10min-tech-podcast",
+    "title": "[2026.09.02] [10-Min English Podcast] Nvidia's $35B Tripartite Credit Architecture, ERCOT's 700GW Grid Purge, and the High-Density Engineering Frontier",
+    "date": "2026-09-02",
+    "time": "05:56",
+    "updated": "2026-09-02 05:56",
+    "category": "Podcast",
+    "labels": [
+      "EnglishPodcast",
+      "TechEnglish",
+      "비즈니스영어",
+      "AI인프라",
+      "데이터센터",
+      "액체냉각",
+      "Nvidia",
+      "Anthropic",
+      "초전도",
+      "전력망"
+    ],
+    "summary": "🎧 10-MIN TECH ENGLISH PODCAST [2026.09.02] [10-Min English Podcast] Nvidia's $35B Tripartite Credit Architecture, ERCOT's 700GW Grid Purge, and the High-Density Engineering Frontier 오늘의 10분 심층 팟캐스트는 엔",
+    "status": "published",
+    "content_file": "data/posts/2026-09-02-10min-tech-podcast.md"
+  },
+  {
+    "id": "2026-09-02-august-megafarm-deepdive",
+    "title": "[테크 딥다이브] 중앙 집중형 추론의 물리적 한계와 피지컬 AI: '클라우드-엣지 분산 오케스트레이션' 인프라 전환 분석",
+    "date": "2026-09-02",
+    "time": "05:56",
+    "updated": "2026-09-02 05:56",
+    "category": "Tech Deep Dive",
+    "labels": [
+      "테크딥다이브",
+      "피지컬AI",
+      "엣지NPU",
+      "AWS",
+      "데이터센터인프라",
+      "하이브리드클라우드"
+    ],
+    "summary": "🚀 서론: 기술 패러다임의 전환과 문제 제기지난 수년간 글로벌 인공지능(AI) 인프라 투자는 하이퍼스케일 데이터센터 내부의 초거대 가속기 클러스터 확충에 집중되어 왔습니다. 수만 개 단위의 GPU를 초고속 인피니밴드(InfiniBand) 패브릭으로 연결하고, 기가와트(GW) 규모의 전력을 투입해 거대언어모델(LLM)을 사전 학습(Pre-training)하고",
+    "status": "published",
+    "content_file": "data/posts/2026-09-02-august-megafarm-deepdive.md"
+  },
+  {
     "id": "2026-09-01-nvidia-vera-rubin-architecture-deepdive",
     "title": "[테크 딥다이브] 엔비디아 베라 루빈(Vera Rubin) 아키텍처 완벽 분석: HBM4·NVLink 6·Vera CPU 기반 차세대 AI 슈퍼플랫폼의 모든 것",
     "date": "2026-09-01",
