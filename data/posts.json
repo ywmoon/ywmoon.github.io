@@ -4,7 +4,7 @@
     "title": "[테크 딥다이브] 엔비디아 베라 루빈(Vera Rubin) 아키텍처 완벽 분석: HBM4·NVLink 6·Vera CPU 기반 차세대 AI 슈퍼플랫폼의 모든 것",
     "date": "2026-09-01",
     "time": "20:45",
-    "updated": "2026-09-01 20:44",
+    "updated": "2026-09-01 20:47",
     "category": "Tech Deep Dive",
     "labels": [
       "테크딥다이브",
@@ -16,9 +16,11 @@
       "NVLink6",
       "VeraCPU",
       "데이터센터",
-      "AI가속기"
+      "AI가속기",
+      "액침냉각",
+      "AI인프라"
     ],
-    "summary": "블랙웰(Blackwell)을 넘어선 엔비디아의 차세대 랙스케일 AI 슈퍼컴퓨팅 플랫폼 '베라 루빈(Vera Rubin)'을 하드웨어 아키텍처, 6대 핵심 칩셋, HBM4 메모리 서브시스템, NVLink 6 패브릭, TCO 및 최신 공급망 동향까지 기술적으로 심층 분석합니다.",
+    "summary": "블랙웰(Blackwell)을 넘어선 엔비디아의 차세대 랙스케일 AI 슈퍼컴퓨팅 플랫폼 '베라 루빈(Vera Rubin)'을 TSMC 3nm 다이 아키텍처, 6대 전용 칩셋, 2048-bit HBM4 메모리 서브시스템, NVLink 6 스케일업 패브릭, 800G 네트워크, 열역학적 수랭 설계 및 TCO 경제학까지 기술적으로 완벽하게 심층 분석합니다.",
     "status": "published",
     "content_file": "data/posts/2026-09-01-nvidia-vera-rubin-architecture-deepdive.md"
   },
