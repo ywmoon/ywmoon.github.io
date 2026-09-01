@@ -5,8 +5,48 @@
     <link>https://ywmoon.github.io</link>
     <description>글로벌 AI 데이터센터 전력망, 냉각, 클라우드 인프라 엔지니어링 데일리 트렌드</description>
     <language>ko</language>
-    <lastBuildDate>Tue, 01 Sep 2026 20:47:44 -0000</lastBuildDate>
+    <lastBuildDate>Wed, 02 Sep 2026 05:56:22 -0000</lastBuildDate>
     <atom:link href="https://ywmoon.github.io/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>DC InfraOps Trends - 2026년 09월 02일</title>
+      <link>https://ywmoon.github.io/article/2026-09-02-dc-infraops-trends-report/</link>
+      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-09-02-dc-infraops-trends-report/</guid>
+      <pubDate>Wed, 02 Sep 2026 00:00:00 -0000</pubDate>
+      <category>Newsletter</category>
+      <description>Datacenter &amp; Cloud Industry InfraOps Daily (2-Column) 인공지능(AI) 파운데이션 모델사 앤트로픽이 엔비디아의 신용 보강을 발판 삼아 네오클라우드 기업 람다(Lambda)와 350억 달러(약 48조 원) 규모의 클라우드 컴퓨팅 계약을 체결함 . 본 계약은 엔비디아가 헛8(Hut 8)의 텍사스 350MW급 ... ͏ </description>
+    </item>
+    <item>
+      <title>[인프라 용어사전] 엣지 NPU (Edge NPU) - 초저전력 피지컬 AI를 구동하는 도메인 특화 반도체 아키텍처</title>
+      <link>https://ywmoon.github.io/article/2026-09-02-infra-glossary/</link>
+      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-09-02-infra-glossary/</guid>
+      <pubDate>Wed, 02 Sep 2026 00:00:00 -0000</pubDate>
+      <category>Terminology</category>
+      <description>📌 1. 30초 핵심 요약 &amp; 개념 정의 엣지 NPU(Edge Neural Processing Unit)는 수 와트(W) 이하의 극단적인 전력 및 방열 제약이 존재하는 엣지 단말(스마트 팩토리, 자율이동로봇, 지능형 CCTV 등)에서 심층 신경망(DNN)의 추론(Inference) 연산만을 전담 처리하도록 하드웨어 레벨에서 특화 설계된 도메인 특화 프로세서</description>
+    </item>
+    <item>
+      <title>[2026.09.02] 글로벌 클라우드 &amp; 데이터센터 인프라 핵심 동향 브리핑</title>
+      <link>https://ywmoon.github.io/article/2026-09-02-daily-infraops-briefing/</link>
+      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-09-02-daily-infraops-briefing/</guid>
+      <pubDate>Wed, 02 Sep 2026 00:00:00 -0000</pubDate>
+      <category>Daily Briefing</category>
+      <description>📌 오늘의 3대 핵심 관전 포인트 (Key Highlights) 엔비디아의 상면·컴퓨팅 중개 모델과 350억 달러 메가딜: 엔비디아가 텍사스 헛8 데이터센터 상면을 직접 리스하고 지분 투자사인 람다(Lambda)를 통해 앤트로픽에 GPU를 공급하는 다각적 오프밸런스 파이낸싱 구조를 본격화했습니다. 이달 초 엔스케일과의 450억 달러 계약에 이어 AI 스타트</description>
+    </item>
+    <item>
+      <title>[2026.09.02] [10-Min English Podcast] Nvidia's $35B Tripartite Credit Architecture, ERCOT's 700GW Grid Purge, and the High-Density Engineering Frontier</title>
+      <link>https://ywmoon.github.io/article/2026-09-02-10min-tech-podcast/</link>
+      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-09-02-10min-tech-podcast/</guid>
+      <pubDate>Wed, 02 Sep 2026 00:00:00 -0000</pubDate>
+      <category>Podcast</category>
+      <description>🎧 10-MIN TECH ENGLISH PODCAST [2026.09.02] [10-Min English Podcast] Nvidia's $35B Tripartite Credit Architecture, ERCOT's 700GW Grid Purge, and the High-Density Engineering Frontier 오늘의 10분 심층 팟캐스트는 엔</description>
+    </item>
+    <item>
+      <title>[테크 딥다이브] 중앙 집중형 추론의 물리적 한계와 피지컬 AI: '클라우드-엣지 분산 오케스트레이션' 인프라 전환 분석</title>
+      <link>https://ywmoon.github.io/article/2026-09-02-august-megafarm-deepdive/</link>
+      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-09-02-august-megafarm-deepdive/</guid>
+      <pubDate>Wed, 02 Sep 2026 00:00:00 -0000</pubDate>
+      <category>Tech Deep Dive</category>
+      <description>🚀 서론: 기술 패러다임의 전환과 문제 제기지난 수년간 글로벌 인공지능(AI) 인프라 투자는 하이퍼스케일 데이터센터 내부의 초거대 가속기 클러스터 확충에 집중되어 왔습니다. 수만 개 단위의 GPU를 초고속 인피니밴드(InfiniBand) 패브릭으로 연결하고, 기가와트(GW) 규모의 전력을 투입해 거대언어모델(LLM)을 사전 학습(Pre-training)하고</description>
+    </item>
     <item>
       <title>[테크 딥다이브] 엔비디아 베라 루빈(Vera Rubin) 아키텍처 완벽 분석: HBM4·NVLink 6·Vera CPU 기반 차세대 AI 슈퍼플랫폼의 모든 것</title>
       <link>https://ywmoon.github.io/article/2026-09-01-nvidia-vera-rubin-architecture-deepdive/</link>
