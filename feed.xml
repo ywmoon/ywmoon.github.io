@@ -5,8 +5,48 @@
     <link>https://ywmoon.github.io</link>
     <description>글로벌 AI 데이터센터 전력망, 냉각, 클라우드 인프라 엔지니어링 데일리 트렌드</description>
     <language>ko</language>
-    <lastBuildDate>Wed, 02 Sep 2026 05:56:22 -0000</lastBuildDate>
+    <lastBuildDate>Mon, 07 Sep 2026 05:12:16 -0000</lastBuildDate>
     <atom:link href="https://ywmoon.github.io/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>[인프라 용어사전] 800V DC 랙 아키텍처 (800V DC Rack Architecture) - 메가와트급 AI 랙의 전력 손실과 구리 병목을 돌파하는 차세대 전력 배전 규격</title>
+      <link>https://ywmoon.github.io/article/2026-09-07-infra-glossary/</link>
+      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-09-07-infra-glossary/</guid>
+      <pubDate>Mon, 07 Sep 2026 00:00:00 -0000</pubDate>
+      <category>Terminology</category>
+      <description>Tech Glossary · Power Distribution 800V DC 랙 아키텍처 (800V DC Rack Architecture) AI 가속기 랙의 소비 전력이 메가와트(MW) 단위로 폭증함에 따라, 전력 전송 시 발생하는 도체 발열과 구리 버스바 무게를 물리적으로 감축하기 위해 도입되는 차세대 고전압 직류 배전 아키텍처 📌 1. 30초 핵심 요약</description>
+    </item>
+    <item>
+      <title>DC InfraOps Trends - 2026년 09월 07일</title>
+      <link>https://ywmoon.github.io/article/2026-09-07-dc-infraops-trends-report/</link>
+      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-09-07-dc-infraops-trends-report/</guid>
+      <pubDate>Mon, 07 Sep 2026 00:00:00 -0000</pubDate>
+      <category>Newsletter</category>
+      <description>Datacenter &amp; Cloud Industry InfraOps Daily (2-Column) 1. 대규모 컴퓨팅 공급 계약과 고전압 전력 설비 M&amp;A를 통한 인프라 수직계열화 글로벌 인프라 시장에서 초대형 컴퓨팅 조달 빅딜과 랙 전력 효율화를 위한 부품사 인수합병(M&amp;A)이 가속화됨. 크루소(Crusoe)는 퀀트 트레이딩 기업 제인 스트리트와... ͏ </description>
+    </item>
+    <item>
+      <title>[2026.09.07] [10-Min English Podcast] Mega Compute Procurement, Modular Data Center Alliances, Next-Gen Liquid Cooling, and Grid Resilience Under Civic Friction</title>
+      <link>https://ywmoon.github.io/article/2026-09-07-10min-tech-podcast/</link>
+      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-09-07-10min-tech-podcast/</guid>
+      <pubDate>Mon, 07 Sep 2026 00:00:00 -0000</pubDate>
+      <category>Podcast</category>
+      <description>🎧 10-MIN TECH ENGLISH PODCAST [2026.09.07] [10-Min English Podcast] Mega Compute Procurement, Modular Data Center Alliances, Next-Gen Liquid Cooling, and Grid Resilience Under Civic Friction 오늘의 10분 심</description>
+    </item>
+    <item>
+      <title>[2026.09.07] 오늘의 글로벌 클라우드 &amp; 데이터센터 인프라 핵심 동향 브리핑</title>
+      <link>https://ywmoon.github.io/article/2026-09-07-daily-infraops-briefing/</link>
+      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-09-07-daily-infraops-briefing/</guid>
+      <pubDate>Mon, 07 Sep 2026 00:00:00 -0000</pubDate>
+      <category>Daily Briefing</category>
+      <description>📌 오늘의 3대 핵심 관전 포인트 (Key Highlights) 빅테크 컴퓨팅 자원의 우선순위 재편: 엔비디아가 AWS에 200만 개 규모의 GPU 공급을 확정하며 물리적 AI(Physical AI) 생태계 구축에 속도를 내는 한편, 마이크로소프트와 아마존은 저수익 클라우드 게임 인프라의 무제한 정책을 폐지하고 한정된 랙 전력과 상면을 생성형·에이전틱 AI</description>
+    </item>
+    <item>
+      <title>[테크 딥다이브] 200만 GPU 시대와 피지컬 AI: 120kW 초고밀도 랙과 액체냉각이 촉발한 데이터센터의 물리적 재편</title>
+      <link>https://ywmoon.github.io/article/2026-09-07-august-megafarm-deepdive/</link>
+      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-09-07-august-megafarm-deepdive/</guid>
+      <pubDate>Mon, 07 Sep 2026 00:00:00 -0000</pubDate>
+      <category>Tech Deep Dive</category>
+      <description>Executive Summary 엔비디아가 아마존웹서비스(AWS)에 최대 200만 개에 달하는 차세대 GPU 공급을 본격화하면서, 글로벌 클라우드 인프라는 거대언어모델(LLM) 중심의 텍스트 생성을 넘어 현실 세계의 물리 법칙과 로보틱스를 연산하는 '피지컬 AI(Physical AI)' 시대로 급격히 전환되고 있습니다. 랙당 소비 전력이 기존 10~15kW</description>
+    </item>
     <item>
       <title>DC InfraOps Trends - 2026년 09월 02일</title>
       <link>https://ywmoon.github.io/article/2026-09-02-dc-infraops-trends-report/</link>
