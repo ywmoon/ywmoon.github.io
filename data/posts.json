@@ -1,5 +1,110 @@
 [
   {
+    "id": "2026-09-08-daily-infraops-briefing",
+    "title": "[2026.09.08] 오늘의 글로벌 클라우드 & 데이터센터 인프라 핵심 동향 브리핑",
+    "date": "2026-09-08",
+    "time": "06:11",
+    "updated": "2026-09-08 06:11",
+    "category": "Daily Briefing",
+    "labels": [
+      "AWS",
+      "마이크로소프트",
+      "데이터센터",
+      "AI인프라",
+      "수랭식냉각",
+      "전력망",
+      "PPA"
+    ],
+    "summary": "Daily InfraOps Digest 2026년 9월 8일 브리핑 글로벌 AI 클라우드 100조 원대 약정 경쟁과 차세대 인프라 생태계 재편 초대형 컴퓨팅 파이프라인 장기 선점, 에너지 기업과의 20년 PPA, 고효율 폐루프 냉각 및 모듈러 공법을 둘러싼 엔지니어링 쟁점 분석 📌 오늘의 3대 핵심 관전 포인트 (Key Highlights) 앤트로픽의 1,",
+    "status": "published",
+    "content_file": "data/posts/2026-09-08-daily-infraops-briefing.md"
+  },
+  {
+    "id": "2026-09-08-10min-tech-podcast",
+    "title": "[2026.09.08] [10-Min English Podcast] The AI Infrastructure Squeeze: Astronomical Compute Pledges, Behind-the-Meter Power, and Midterm Politics",
+    "date": "2026-09-08",
+    "time": "06:11",
+    "updated": "2026-09-08 06:11",
+    "category": "Podcast",
+    "labels": [
+      "EnglishPodcast",
+      "TechEnglish",
+      "비즈니스영어",
+      "AWS",
+      "AI인프라",
+      "데이터센터",
+      "액체냉각"
+    ],
+    "summary": "🎧 10-MIN TECH ENGLISH PODCAST [2026.09.08] [10-Min English Podcast] The AI Infrastructure Squeeze: Astronomical Compute Pledges, Behind-the-Meter Power, and Midterm Politics 오늘의 10분 심층 팟캐스트는 2026년 9월 ",
+    "status": "published",
+    "content_file": "data/posts/2026-09-08-10min-tech-podcast.md"
+  },
+  {
+    "id": "2026-09-08-infra-glossary",
+    "title": "[인프라 용어사전] PMDC (Prefabricated Modular Data Center) - 현장 타설을 넘어 공장 표준화 조립으로 공기를 50% 단축하는 AI 전산실 아키텍처",
+    "date": "2026-09-08",
+    "time": "06:11",
+    "updated": "2026-09-08 06:11",
+    "category": "Terminology",
+    "labels": [
+      "인프라용어사전",
+      "IT백과사전",
+      "PMDC",
+      "모듈러데이터센터",
+      "데이터센터"
+    ],
+    "summary": "Infrastructure Tech Glossary 분류: 데이터센터 하드웨어 & 건축 엔지니어링 PMDC (Prefabricated Modular Data Center) 현장에서 철근 콘크리트 골조를 올리고 배관을 용접하던 전통적 건축 방식을 탈피하여, 전력·냉각·IT 랙 모듈을 통제된 공장에서 80% 이상 사전 제작(Pre-fabrication) 및 사",
+    "status": "published",
+    "content_file": "data/posts/2026-09-08-infra-glossary.md"
+  },
+  {
+    "id": "2026-09-08-dc-infraops-trends-report",
+    "title": "DC InfraOps Trends - 2026년 09월 08일",
+    "date": "2026-09-08",
+    "time": "06:11",
+    "updated": "2026-09-08 06:11",
+    "category": "Newsletter",
+    "labels": [
+      "AWS",
+      "데이터센터",
+      "클라우드",
+      "AI인프라",
+      "DC-Trends",
+      "Daily-Newsletter",
+      "SMR",
+      "엔비디아",
+      "액체냉각",
+      "전력망",
+      "마이크로소프트",
+      "구글",
+      "오라클",
+      "신재생에너지",
+      "가스터빈"
+    ],
+    "summary": "Datacenter & Cloud Industry InfraOps Daily (2-Column) 1. 천문학적 컴퓨팅 지출 약정과 맞춤형 AI 데이터센터 공급망 재편 인공지능(AI) 고도화에 따른 연산 자원 확보전이 심화되면서 초대형 장기 계약과 맞춤형 공급 구조가 정착되는 양상임. 앤트로픽은 아마존웹서비스(AWS) 클라우드에 1,000억 달러(... ͏ ",
+    "status": "published",
+    "content_file": "data/posts/2026-09-08-dc-infraops-trends-report.md"
+  },
+  {
+    "id": "2026-09-08-august-megafarm-deepdive",
+    "title": "[테크 딥다이브] AI 인프라 공급 리드타임 병목과 모듈러(PFDC) 아키텍처의 부상: 고집적 전력·액체냉각 패키징과 TCO 분석",
+    "date": "2026-09-08",
+    "time": "06:11",
+    "updated": "2026-09-08 06:11",
+    "category": "Tech Deep Dive",
+    "labels": [
+      "테크딥다이브",
+      "모듈러데이터센터",
+      "PFDC",
+      "액체냉각",
+      "AWS",
+      "데이터센터"
+    ],
+    "summary": "인공지능 연산 수요의 폭증은 컴퓨팅 반도체의 진화 속도뿐 아니라 이를 수용하는 물리적 인프라의 공급 속도에 심각한 구조적 괴리를 야기하고 있습니다. 앤트로픽의 대규모 클라우드 지출 약정에서 드러나듯 조 단위 AI 워크로드가 가속화되는 가운데, 전통적인 현장 타설 방식의 데이터센터 건축은 24~36개월에 달하는 긴 리드타임으로 인해 중대한 공급 병목에 직면했",
+    "status": "published",
+    "content_file": "data/posts/2026-09-08-august-megafarm-deepdive.md"
+  },
+  {
     "id": "2026-09-07-infra-glossary",
     "title": "[인프라 용어사전] 800V DC 랙 아키텍처 (800V DC Rack Architecture) - 메가와트급 AI 랙의 전력 손실과 구리 병목을 돌파하는 차세대 전력 배전 규격",
     "date": "2026-09-07",
