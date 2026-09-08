@@ -5,8 +5,48 @@
     <link>https://ywmoon.github.io</link>
     <description>글로벌 AI 데이터센터 전력망, 냉각, 클라우드 인프라 엔지니어링 데일리 트렌드</description>
     <language>ko</language>
-    <lastBuildDate>Tue, 08 Sep 2026 06:11:35 -0000</lastBuildDate>
+    <lastBuildDate>Wed, 09 Sep 2026 05:55:26 -0000</lastBuildDate>
     <atom:link href="https://ywmoon.github.io/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>[2026.09.09] 오늘의 글로벌 클라우드 &amp; 데이터센터 인프라 핵심 동향 브리핑</title>
+      <link>https://ywmoon.github.io/article/2026-09-09-daily-infraops-briefing/</link>
+      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-09-09-daily-infraops-briefing/</guid>
+      <pubDate>Wed, 09 Sep 2026 00:00:00 -0000</pubDate>
+      <category>Daily Briefing</category>
+      <description>DAILY INFRA DIGEST 글로벌 클라우드 &amp; 데이터센터 인프라 핵심 동향 브리핑 발행일자: 2026년 9월 9일 | 인프라 아키텍처·에너지 그리드·실리콘 생태계 심층 분석 📌 오늘의 3대 핵심 관전 포인트 (Key Highlights) 빅테크-팹리스 간 조 단위 지분 연계(Equity Warrant)와 맞춤형 추론 실리콘 동맹: AWS가 퀄컴과 향</description>
+    </item>
+    <item>
+      <title>DC InfraOps Trends - 2026년 09월 09일</title>
+      <link>https://ywmoon.github.io/article/2026-09-09-dc-infraops-trends-report/</link>
+      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-09-09-dc-infraops-trends-report/</guid>
+      <pubDate>Wed, 09 Sep 2026 00:00:00 -0000</pubDate>
+      <category>Newsletter</category>
+      <description>Datacenter &amp; Cloud Industry InfraOps Daily (2-Column) 1. 퀄컴-아마존 600억 달러 맞춤형 칩 동맹과 CXL 기반 원칩 인프라 혁신 빅테크의 연산 인프라 확보전이 엔비디아 단일 의존 탈피와 맞춤형 실리콘 생태계 구축으로 재편되는 양상임. 퀄컴은 아마존웹서비스(AWS)와 최대 600억 달러(약 81조 원... ͏ </description>
+    </item>
+    <item>
+      <title>[테크 딥다이브] AI 추론 인프라의 전력·대역폭 장벽 돌파: AWS·퀄컴의 600억 달러 맞춤형 실리콘과 1.6Tbps 광인터커넥트 전략</title>
+      <link>https://ywmoon.github.io/article/2026-09-09-august-megafarm-deepdive/</link>
+      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-09-09-august-megafarm-deepdive/</guid>
+      <pubDate>Wed, 09 Sep 2026 00:00:00 -0000</pubDate>
+      <category>Tech Deep Dive</category>
+      <description>인공지능 데이터센터(AIDC)의 중심축이 파라미터 사전 학습(Pre-training)에서 상시 대규모 서비스 구동을 위한 추론(Inference)으로 급격히 재편되고 있습니다. 퀄컴과 아마존웹서비스(AWS)가 체결한 10년간 최대 600억 달러 규모의 다세대 맞춤형 AI 추론 실리콘 및 1.6Tbps 광인터커넥트 공동 개발 계약은 단순한 칩 수급 다변화를 </description>
+    </item>
+    <item>
+      <title>[인프라 용어사전] CXL (Compute Express Link) - 서버 간 메모리 장벽을 허무는 차세대 캐시 일관성 인터커넥트</title>
+      <link>https://ywmoon.github.io/article/2026-09-09-infra-glossary/</link>
+      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-09-09-infra-glossary/</guid>
+      <pubDate>Wed, 09 Sep 2026 00:00:00 -0000</pubDate>
+      <category>Terminology</category>
+      <description>인프라 핵심 아키텍처 해설 CXL (Compute Express Link): 고속 메모리 풀링과 캐시 일관성의 표준 📌 1. 30초 핵심 요약 &amp; 개념 정의 공식 정의: CXL(Compute Express Link)은 고성능 연산 장치(CPU, GPU, 맞춤형 가속기)와 메모리 디바이스 간의 초저지연 통신 및 하드웨어 기반 캐시 일관성(Cache Coher</description>
+    </item>
+    <item>
+      <title>[2026.09.09] [10-Min English Podcast] The Sixty-Billion-Dollar Silicon Alliance, Nuclear Baseload Capitalization, and Mounting Grid Security Fractures</title>
+      <link>https://ywmoon.github.io/article/2026-09-09-10min-tech-podcast/</link>
+      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-09-09-10min-tech-podcast/</guid>
+      <pubDate>Wed, 09 Sep 2026 00:00:00 -0000</pubDate>
+      <category>Podcast</category>
+      <description>🎧 10-MIN TECH ENGLISH PODCAST [2026.09.09] [10-Min English Podcast] The Sixty-Billion-Dollar Silicon Alliance, Nuclear Baseload Capitalization, and Mounting Grid Security Fractures 오늘의 10분 심층 팟캐스트는 퀄컴</description>
+    </item>
     <item>
       <title>[2026.09.08] 오늘의 글로벌 클라우드 &amp; 데이터센터 인프라 핵심 동향 브리핑</title>
       <link>https://ywmoon.github.io/article/2026-09-08-daily-infraops-briefing/</link>
