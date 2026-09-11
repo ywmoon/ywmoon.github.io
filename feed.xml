@@ -5,16 +5,8 @@
     <link>https://ywmoon.github.io</link>
     <description>글로벌 AI 데이터센터 전력망, 냉각, 클라우드 인프라 엔지니어링 데일리 트렌드</description>
     <language>ko</language>
-    <lastBuildDate>Sat, 12 Sep 2026 08:29:23 -0000</lastBuildDate>
+    <lastBuildDate>Sat, 12 Sep 2026 08:31:37 -0000</lastBuildDate>
     <atom:link href="https://ywmoon.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <item>
-      <title>[산업 &amp; 기술 분석] 화면 속 LLM에서 산업 현장으로: 최태원 회장의 울산 AX 현장경영과 '피지컬 AI(Physical AI)' 인프라 아키텍처</title>
-      <link>https://ywmoon.github.io/article/2026-09-12-physical-ai-manufacturing-ax-sk-ulsan-datacenter/</link>
-      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-09-12-physical-ai-manufacturing-ax-sk-ulsan-datacenter/</guid>
-      <pubDate>Sat, 12 Sep 2026 00:00:00 -0000</pubDate>
-      <category>Tech Deep Dive</category>
-      <description>최태원 SK그룹 회장이 2GW 규모의 비수도권 최대 'SK AI 데이터센터 울산'과 정유·석유화학의 심장인 'SK이노베이션 울산CLX'를 방문해 그룹의 'AI 풀스택 AX(인공지능 전환)' 현장경영을 단행했습니다. 텍스트를 넘어 물리적 산업 장비와 센서를 직접 통제하는 '피지컬 AI(Physical AI)'의 핵심 엔지니어링, 현장 듀얼 브레인(AI+엔지니어 경험) 운영체계, 그리고 10ms 초저지연 에지-클라우드 통합 인프라를 심층 분석합니다.</description>
-    </item>
     <item>
       <title>[테크 딥다이브] 빅테크의 24/7 무탄소 기저부하 해법: 구글이 1GW를 점찍은 '차세대 강화지열발전(EGS)'과 AIDC 전력 공학</title>
       <link>https://ywmoon.github.io/article/2026-09-12-fervo-energy-egs-google-geothermal-power-datacenter/</link>
