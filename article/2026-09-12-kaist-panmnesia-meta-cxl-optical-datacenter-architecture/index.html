@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>[테크 딥다이브] 데이터센터 전체를 단일 거대 칩으로: KAIST·파네시아·메타의 CXL 광 패브릭 기반 차세대 AI 데이터센터 아키텍처 분석</title>
+  <meta name="description" content="KAIST 정명수 교수 연구팀과 파네시아(Panmnesia), 미국 메타(Meta)가 세계적 학술지 'Nature Reviews Electrical Engineering'에 게재한 CXL 기반 단일 칩형 차세대 AI 데이터센터 아키텍처를 심층 분석합니다. 960개 가속기를 단일 메모리 공간으로 묶는 CXL-Direct 캐시 일관성, 광통신(Optical I/O) 결합, 나노초(ns)급 지연시간 달성 메커니즘과 인프라 TCO 혁신을 공학적으로 완벽히 해부합니다." />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://ywmoon.github.io/article/2026-09-12-kaist-panmnesia-meta-cxl-optical-datacenter-architecture/" />
+  <!-- OpenGraph -->
+  <meta property="og:type" content="article" />
+  <meta property="og:title" content="[테크 딥다이브] 데이터센터 전체를 단일 거대 칩으로: KAIST·파네시아·메타의 CXL 광 패브릭 기반 차세대 AI 데이터센터 아키텍처 분석" />
+  <meta property="og:description" content="KAIST 정명수 교수 연구팀과 파네시아(Panmnesia), 미국 메타(Meta)가 세계적 학술지 'Nature Reviews Electrical Engineering'에 게재한 CXL 기반 단일 칩형 차세대 AI 데이터센터 아키텍처를 심층 분석합니다. 960개 가속기를 단일 메모리 공간으로 묶는 CXL-Direct 캐시 일관성, 광통신(Optical I/O) 결합, 나노초(ns)급 지연시간 달성 메커니즘과 인프라 TCO 혁신을 공학적으로 완벽히 해부합니다." />
+  <meta property="og:url" content="https://ywmoon.github.io/article/2026-09-12-kaist-panmnesia-meta-cxl-optical-datacenter-architecture/" />
+  <meta property="og:image" content="https://ywmoon.github.io/assets/avatar.jpg" />
+  <meta property="og:site_name" content="Datacenter InfraOps &amp; Cloud Industry Notes" />
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="[테크 딥다이브] 데이터센터 전체를 단일 거대 칩으로: KAIST·파네시아·메타의 CXL 광 패브릭 기반 차세대 AI 데이터센터 아키텍처 분석" />
+  <meta name="twitter:description" content="KAIST 정명수 교수 연구팀과 파네시아(Panmnesia), 미국 메타(Meta)가 세계적 학술지 'Nature Reviews Electrical Engineering'에 게재한 CXL 기반 단일 칩형 차세대 AI 데이터센터 아키텍처를 심층 분석합니다. 960개 가속기를 단일 메모리 공간으로 묶는 CXL-Direct 캐시 일관성, 광통신(Optical I/O) 결합, 나노초(ns)급 지연시간 달성 메커니즘과 인프라 TCO 혁신을 공학적으로 완벽히 해부합니다." />
+  <meta name="twitter:image" content="https://ywmoon.github.io/assets/avatar.jpg" />
+  <!-- Structured Data: Google Schema.org (Article) -->
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "TechArticle",
+  "headline": "[테크 딥다이브] 데이터센터 전체를 단일 거대 칩으로: KAIST·파네시아·메타의 CXL 광 패브릭 기반 차세대 AI 데이터센터 아키텍처 분석",
+  "description": "KAIST 정명수 교수 연구팀과 파네시아(Panmnesia), 미국 메타(Meta)가 세계적 학술지 'Nature Reviews Electrical Engineering'에 게재한 CXL 기반 단일 칩형 차세대 AI 데이터센터 아키텍처를 심층 분석합니다. 960개 가속기를 단일 메모리 공간으로 묶는 CXL-Direct 캐시 일관성, 광통신(Optical I/O) 결합, 나노초(ns)급 지연시간 달성 메커니즘과 인프라 TCO 혁신을 공학적으로 완벽히 해부합니다.",
+  "datePublished": "2026-09-12T09:00:00+09:00",
+  "dateModified": "2026-09-12 09:00:00+09:00",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://ywmoon.github.io/article/2026-09-12-kaist-panmnesia-meta-cxl-optical-datacenter-architecture/"
+  },
+  "author": {
+    "@type": "Person",
+    "name": "James Moon (문연욱)",
+    "jobTitle": "AWS Data Center Engineering Operations Cluster Manager",
+    "url": "https://www.linkedin.com/in/ywmoon"
+  },
+  "publisher": {
+    "@type": "Person",
+    "name": "James Moon",
+    "url": "https://ywmoon.github.io",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://ywmoon.github.io/assets/avatar.jpg"
+    }
+  },
+  "image": "https://ywmoon.github.io/assets/avatar.jpg",
+  "keywords": "테크딥다이브, CXL, 파네시아, Panmnesia, 메타, Meta, KAIST, AI데이터센터, 차세대인프라, 네이처, NREE, 광통신, 메모리풀링"
+}
+  </script>
+  <!-- Instant redirect for real users -->
+  <meta http-equiv="refresh" content="0; url=https://ywmoon.github.io/#article/2026-09-12-kaist-panmnesia-meta-cxl-optical-datacenter-architecture" />
+  <script>window.location.replace('https://ywmoon.github.io/#article/2026-09-12-kaist-panmnesia-meta-cxl-optical-datacenter-architecture');</script>
+</head>
+<body></body>
+</html>
