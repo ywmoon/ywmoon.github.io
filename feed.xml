@@ -5,7 +5,7 @@
     <link>https://ywmoon.github.io</link>
     <description>글로벌 AI 데이터센터 전력망, 냉각, 클라우드 인프라 엔지니어링 데일리 트렌드</description>
     <language>ko</language>
-    <lastBuildDate>Sat, 12 Sep 2026 09:52:27 -0000</lastBuildDate>
+    <lastBuildDate>Sat, 12 Sep 2026 10:00:30 -0000</lastBuildDate>
     <atom:link href="https://ywmoon.github.io/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
       <title>[테크 딥다이브] GPU 백만 개를 묶는 빛의 혁명: AWS·MS·엔비디아가 올인하는 '중공심 광섬유(HCF)'와 초저지연 DCI 공학</title>
@@ -13,7 +13,7 @@
       <guid isPermaLink="true">https://ywmoon.github.io/article/2026-09-12-aws-hollow-core-fiber-hcf-datacenter-optics-deepdive/</guid>
       <pubDate>Sat, 12 Sep 2026 00:00:00 -0000</pubDate>
       <category>Tech Deep Dive</category>
-      <description>한국 언론 최초로 공개된 미국 마운틴뷰 AWS 네트워킹 랩의 중공심 광섬유(HCF) 기술을 심층 분석합니다. 유리 코어 대신 공기(진공)로 빛을 통과시켜 굴절률 한계를 극복하고 전송 속도를 초당 30만km(광속 99.7%)로 끌어올린 HCF의 마이크로스트럭처, km당 3.3µs 초저지연 메커니즘, 프로젝트 레이니어(Project Rainier)의 백만 GPU 클러스터링, 코닝·루메니시티·코히어런트와의 글로벌 광통신 밸류체인을 완벽 해부합니다.</description>
+      <description>한국 언론 최초로 공개된 미국 마운틴뷰 AWS 네트워킹 랩의 중공심 광섬유(HCF) 기술을 완벽하게 심층 분석합니다. 유리 코어 대신 공기(진공)로 빛을 통과시켜 굴절률 한계를 극복하고 전송 속도를 초당 30만km(광속 99.7%)로 끌어올린 HCF의 마이크로스트럭처, km당 3.3µs 초저지연 메커니즘, 100만 GPU '프로젝트 레이니어(Project Rainier)'의 분산 All-Reduce 통신 병목 제거, 코닝·루메니시티·코히어런트·루멘텀과의 글로벌 광통신 밸류체인 및 1.6T 광모듈 연동까지 팩트와 수치 기반으로 완벽 해부합니다.</description>
     </item>
     <item>
       <title>[테크 딥다이브] 빅테크의 24/7 무탄소 기저부하 해법: 구글이 1GW를 점찍은 '차세대 강화지열발전(EGS)'과 AIDC 전력 공학</title>
