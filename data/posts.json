@@ -1,5 +1,111 @@
 [
   {
+    "id": "2026-09-14-dc-infraops-trends-report",
+    "title": "DC InfraOps Trends - 2026년 09월 14일",
+    "date": "2026-09-14",
+    "time": "06:01",
+    "updated": "2026-09-14 06:01",
+    "category": "Newsletter",
+    "labels": [
+      "AWS",
+      "데이터센터",
+      "클라우드",
+      "AI인프라",
+      "DC-Trends",
+      "Daily-Newsletter",
+      "SMR",
+      "원전",
+      "엔비디아",
+      "액체냉각",
+      "전력망",
+      "마이크로소프트",
+      "구글",
+      "오라클",
+      "신재생에너지"
+    ],
+    "summary": "Datacenter & Cloud Industry InfraOps Daily (2-Column) 1. MS 38GW 확충 로드맵과 오라클 285억 달러 CapEx가 견인하는 연산 인프라 레이스 글로벌 빅테크의 연산 용량 부족이 심화되면서 초대형 데이터센터 증설과 공격적 자본 투입이 전례 없는 규모로 확대되는 추세임. 마이크로소프트는 서버 부족에 ... ͏ ",
+    "status": "published",
+    "content_file": "data/posts/2026-09-14-dc-infraops-trends-report.md"
+  },
+  {
+    "id": "2026-09-14-daily-infraops-briefing",
+    "title": "[2026.09.14] 오늘의 글로벌 클라우드 & 데이터센터 인프라 핵심 동향 브리핑",
+    "date": "2026-09-14",
+    "time": "06:01",
+    "updated": "2026-09-14 06:01",
+    "category": "Daily Briefing",
+    "labels": [
+      "AWS",
+      "마이크로소프트",
+      "구글클라우드",
+      "데이터센터",
+      "AI인프라",
+      "전력망",
+      "광통신",
+      "클라우드"
+    ],
+    "summary": "📌 오늘의 3대 핵심 관전 포인트 (Key Highlights) 기가와트(GW) 단위로 재편되는 하이퍼스케일러 전력 포트폴리오: 마이크로소프트가 2032년까지 전 세계 데이터센터 용량을 38GW로 확대하는 장기 로드맵을 가동한 가운데, 알파벳은 연간 CapEx 전망치를 최대 2,050억 달러로 상향하며 구글 클라우드 부문 82% 매출 성장에 화답하는 대규모",
+    "status": "published",
+    "content_file": "data/posts/2026-09-14-daily-infraops-briefing.md"
+  },
+  {
+    "id": "2026-09-14-10min-tech-podcast",
+    "title": "[2026.09.14] [10-Min English Podcast] Hyperscale Compute Acceleration, Marine Floating Topologies, SMR Baselines, and Ratepayer Regulatory Pushback",
+    "date": "2026-09-14",
+    "time": "06:01",
+    "updated": "2026-09-14 06:01",
+    "category": "Podcast",
+    "labels": [
+      "EnglishPodcast",
+      "TechEnglish",
+      "비즈니스영어",
+      "AWS",
+      "AI인프라",
+      "데이터센터",
+      "액체냉각"
+    ],
+    "summary": "🎧 10-MIN TECH ENGLISH PODCAST [2026.09.14] [10-Min English Podcast] Hyperscale Compute Acceleration, Marine Floating Topologies, SMR Baselines, and Ratepayer Regulatory Pushback 오늘의 10분 심층 팟캐스트는 글로벌 데",
+    "status": "published",
+    "content_file": "data/posts/2026-09-14-10min-tech-podcast.md"
+  },
+  {
+    "id": "2026-09-14-infra-glossary",
+    "title": "[인프라 용어사전] BYOP (Bring Your Own Power) - 38GW 전력 대란 속 빅테크가 자체 발전소를 직결하는 아키텍처",
+    "date": "2026-09-14",
+    "time": "06:01",
+    "updated": "2026-09-14 06:01",
+    "category": "Terminology",
+    "labels": [
+      "인프라용어사전",
+      "IT백과사전",
+      "BYOP",
+      "AWS",
+      "데이터센터"
+    ],
+    "summary": "Architecture Standard 인프라 분류: 전력 계통 및 분산 에너지 아키텍처 BYOP (Bring Your Own Power, 자가 발전 조달 모델) 초대형 AI 데이터센터 증설 과정에서 공용 전력망(Public Grid)의 송전 용량 배정과 수전 변전소 인입 공사의 극심한 병목을 우회하기 위해, 데이터센터 부지 내에 자체 발전 설비를 구축하거",
+    "status": "published",
+    "content_file": "data/posts/2026-09-14-infra-glossary.md"
+  },
+  {
+    "id": "2026-09-14-august-megafarm-deepdive",
+    "title": "[테크 딥다이브] 비디오 파운데이션 모델의 클라우드 흡수: AWS 베드록-트웰브랩스 연동이 촉발한 엔터프라이즈 멀티모달 RAG 인프라 재편",
+    "date": "2026-09-14",
+    "time": "06:01",
+    "updated": "2026-09-14 06:01",
+    "category": "Tech Deep Dive",
+    "labels": [
+      "테크딥다이브",
+      "트웰브랩스",
+      "아마존베드록",
+      "멀티모달RAG",
+      "AWS",
+      "데이터센터"
+    ],
+    "summary": "엔터프라이즈 데이터의 80% 이상을 차지하는 비정형 비디오 자산은 그동안 막대한 스토리지 비용 대비 검색 및 분석 효율이 극히 낮은 '다크 데이터(Dark Data)'로 분류되어 왔습니다. 최근 한국 AI 스타트업 트웰브랩스의 영상 특화 파운데이션 모델 '마렝고(Marengo)'가 아마존 베드록 지식 기반(Knowledge Bases for Amazon B",
+    "status": "published",
+    "content_file": "data/posts/2026-09-14-august-megafarm-deepdive.md"
+  },
+  {
     "id": "2026-09-12-august-2026-aidc-cloud-infra-intelligence-whitepaper",
     "title": "2026년 8월 글로벌 AIDC & Cloud 인프라 인텔리전스 종합 결산 보고서",
     "date": "2026-09-12",
