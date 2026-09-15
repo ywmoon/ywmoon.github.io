@@ -5,8 +5,48 @@
     <link>https://ywmoon.github.io</link>
     <description>글로벌 AI 데이터센터 전력망, 냉각, 클라우드 인프라 엔지니어링 데일리 트렌드</description>
     <language>ko</language>
-    <lastBuildDate>Tue, 15 Sep 2026 05:53:52 -0000</lastBuildDate>
+    <lastBuildDate>Wed, 16 Sep 2026 05:53:13 -0000</lastBuildDate>
     <atom:link href="https://ywmoon.github.io/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>[2026.09.16] [10-Min English Podcast] Kinetic Cloud Casualties, Gigawatt Physical AI Deployments, and the Race for Megawatt-to-Token Computational Efficiency</title>
+      <link>https://ywmoon.github.io/article/2026-09-16-10min-tech-podcast/</link>
+      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-09-16-10min-tech-podcast/</guid>
+      <pubDate>Wed, 16 Sep 2026 00:00:00 -0000</pubDate>
+      <category>Podcast</category>
+      <description>🎧 10-MIN TECH ENGLISH PODCAST [2026.09.16] [10-Min English Podcast] Kinetic Cloud Casualties, Gigawatt Physical AI Deployments, and the Race for Megawatt-to-Token Computational Efficiency 오늘의 10분 심층 팟</description>
+    </item>
+    <item>
+      <title>[테크 딥다이브] 가용 영역(AZ) 고가용성의 종말: 바레인 사태로 본 하이퍼스케일 물리적 결손과 크로스 리전 복원력 공학</title>
+      <link>https://ywmoon.github.io/article/2026-09-16-august-megafarm-deepdive/</link>
+      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-09-16-august-megafarm-deepdive/</guid>
+      <pubDate>Wed, 16 Sep 2026 00:00:00 -0000</pubDate>
+      <category>Tech Deep Dive</category>
+      <description>클라우드 인프라 업계는 지난 15년 동안 99.99% 이상의 고가용성과 11 9s(99.999999999%)에 달하는 스토리지 내구성을 앞세워 기업 워크로드의 전면 이전을 주도해 왔습니다. 그러나 최근 발생한 AWS 중동 바레인(me-south-1) 데이터센터 설비의 물리적 피격 및 데이터 영구 복구 불가(Irreversible Data Loss) 사태는 </description>
+    </item>
+    <item>
+      <title>[인프라 용어사전] 피지컬 AI (Physical AI) - 초거대 AIDC 무인 자율 관제와 물리 인프라 지능화 아키텍처</title>
+      <link>https://ywmoon.github.io/article/2026-09-16-infra-glossary/</link>
+      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-09-16-infra-glossary/</guid>
+      <pubDate>Wed, 16 Sep 2026 00:00:00 -0000</pubDate>
+      <category>Terminology</category>
+      <description>📌 1. 30초 핵심 요약 &amp; 개념 정의 직관적 비유: 전통적인 데이터센터 관제가 병실 침상에 부착된 정적 환자 모니터와 간호 인력의 주기적인 순찰에 의존했다면, 피지컬 AI(Physical AI)는 병동 전체를 자율 주행하며 환자의 호흡음, 체온 변화, 미세 혈류 이상을 실시간으로 감지하고 처방을 보조하는 '지능형 자율 회진 로봇 시스템'에 비유할 수 있</description>
+    </item>
+    <item>
+      <title>DC InfraOps Trends - 2026년 09월 16일</title>
+      <link>https://ywmoon.github.io/article/2026-09-16-dc-infraops-trends-report/</link>
+      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-09-16-dc-infraops-trends-report/</guid>
+      <pubDate>Wed, 16 Sep 2026 00:00:00 -0000</pubDate>
+      <category>Newsletter</category>
+      <description>Datacenter &amp; Cloud Industry InfraOps Daily (2-Column) 1. KT클라우드 1GW 로드맵과 글로벌 기가와트급 증설 및 피지컬 AI 결합 하이퍼스케일 거점 확보와 피지컬 AI 관제 도입이 결합되며 연산 인프라가 급격히 대형화되는 추세임. 국내에서는 KT클라우드가 2031년까지 전국 20여 곳에 1GW 규모 A... ͏ </description>
+    </item>
+    <item>
+      <title>[2026.09.16] 오늘의 글로벌 클라우드 &amp; 데이터센터 인프라 핵심 동향 브리핑</title>
+      <link>https://ywmoon.github.io/article/2026-09-16-daily-infraops-briefing/</link>
+      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-09-16-daily-infraops-briefing/</guid>
+      <pubDate>Wed, 16 Sep 2026 00:00:00 -0000</pubDate>
+      <category>Daily Briefing</category>
+      <description>글로벌 IT 인프라와 클라우드 아키텍처 생태계는 연산 밀도의 물리적 한계와 전력망 포화, 그리고 지정학적 공급망 및 물리적 보안 리스크라는 삼중고에 직면해 있습니다. 2026년 9월 16일 전해진 주요 기술 뉴스를 바탕으로, 엔지니어링 의사결정권자와 클라우드 아키텍트가 반드시 파악해야 할 당일 핵심 인프라 동향을 심층 분석합니다. 📌 오늘의 3대 핵심 관전</description>
+    </item>
     <item>
       <title>[2026.09.15] 오늘의 글로벌 클라우드 &amp; 데이터센터 인프라 핵심 동향 브리핑</title>
       <link>https://ywmoon.github.io/article/2026-09-15-daily-infraops-briefing/</link>
