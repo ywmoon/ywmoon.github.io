@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>[테크 딥다이브] 가용 영역(AZ) 고가용성의 종말: 바레인 사태로 본 하이퍼스케일 물리적 결손과 크로스 리전 복원력 공학</title>
+  <meta name="description" content="클라우드 인프라 업계는 지난 15년 동안 99.99% 이상의 고가용성과 11 9s(99.999999999%)에 달하는 스토리지 내구성을 앞세워 기업 워크로드의 전면 이전을 주도해 왔습니다. 그러나 최근 발생한 AWS 중동 바레인(me-south-1) 데이터센터 설비의 물리적 피격 및 데이터 영구 복구 불가(Irreversible Data Loss) 사태는 " />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://ywmoon.github.io/article/2026-09-16-august-megafarm-deepdive/" />
+  <!-- OpenGraph -->
+  <meta property="og:type" content="article" />
+  <meta property="og:title" content="[테크 딥다이브] 가용 영역(AZ) 고가용성의 종말: 바레인 사태로 본 하이퍼스케일 물리적 결손과 크로스 리전 복원력 공학" />
+  <meta property="og:description" content="클라우드 인프라 업계는 지난 15년 동안 99.99% 이상의 고가용성과 11 9s(99.999999999%)에 달하는 스토리지 내구성을 앞세워 기업 워크로드의 전면 이전을 주도해 왔습니다. 그러나 최근 발생한 AWS 중동 바레인(me-south-1) 데이터센터 설비의 물리적 피격 및 데이터 영구 복구 불가(Irreversible Data Loss) 사태는 " />
+  <meta property="og:url" content="https://ywmoon.github.io/article/2026-09-16-august-megafarm-deepdive/" />
+  <meta property="og:image" content="https://ywmoon.github.io/assets/avatar.jpg" />
+  <meta property="og:site_name" content="Datacenter InfraOps &amp; Cloud Industry Notes" />
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="[테크 딥다이브] 가용 영역(AZ) 고가용성의 종말: 바레인 사태로 본 하이퍼스케일 물리적 결손과 크로스 리전 복원력 공학" />
+  <meta name="twitter:description" content="클라우드 인프라 업계는 지난 15년 동안 99.99% 이상의 고가용성과 11 9s(99.999999999%)에 달하는 스토리지 내구성을 앞세워 기업 워크로드의 전면 이전을 주도해 왔습니다. 그러나 최근 발생한 AWS 중동 바레인(me-south-1) 데이터센터 설비의 물리적 피격 및 데이터 영구 복구 불가(Irreversible Data Loss) 사태는 " />
+  <meta name="twitter:image" content="https://ywmoon.github.io/assets/avatar.jpg" />
+  <!-- Structured Data: Google Schema.org (Article) -->
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "TechArticle",
+  "headline": "[테크 딥다이브] 가용 영역(AZ) 고가용성의 종말: 바레인 사태로 본 하이퍼스케일 물리적 결손과 크로스 리전 복원력 공학",
+  "description": "클라우드 인프라 업계는 지난 15년 동안 99.99% 이상의 고가용성과 11 9s(99.999999999%)에 달하는 스토리지 내구성을 앞세워 기업 워크로드의 전면 이전을 주도해 왔습니다. 그러나 최근 발생한 AWS 중동 바레인(me-south-1) 데이터센터 설비의 물리적 피격 및 데이터 영구 복구 불가(Irreversible Data Loss) 사태는 ",
+  "datePublished": "2026-09-16T05:53:00+09:00",
+  "dateModified": "2026-09-16 05:53:00+09:00",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://ywmoon.github.io/article/2026-09-16-august-megafarm-deepdive/"
+  },
+  "author": {
+    "@type": "Person",
+    "name": "James Moon (문연욱)",
+    "jobTitle": "AWS Data Center Engineering Operations Cluster Manager",
+    "url": "https://www.linkedin.com/in/ywmoon"
+  },
+  "publisher": {
+    "@type": "Person",
+    "name": "James Moon",
+    "url": "https://ywmoon.github.io",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://ywmoon.github.io/assets/avatar.jpg"
+    }
+  },
+  "image": "https://ywmoon.github.io/assets/avatar.jpg",
+  "keywords": "테크딥다이브, 클라우드인프라, 재해복구, AWS, 데이터센터"
+}
+  </script>
+  <!-- Instant redirect for real users -->
+  <meta http-equiv="refresh" content="0; url=https://ywmoon.github.io/#article/2026-09-16-august-megafarm-deepdive" />
+  <script>window.location.replace('https://ywmoon.github.io/#article/2026-09-16-august-megafarm-deepdive');</script>
+</head>
+<body></body>
+</html>
