@@ -1,5 +1,112 @@
 [
   {
+    "id": "2026-09-17-dc-infraops-trends-report",
+    "title": "DC InfraOps Trends - 2026년 09월 17일",
+    "date": "2026-09-17",
+    "time": "05:54",
+    "updated": "2026-09-17 05:54",
+    "category": "Newsletter",
+    "labels": [
+      "AWS",
+      "데이터센터",
+      "클라우드",
+      "AI인프라",
+      "DC-Trends",
+      "Daily-Newsletter",
+      "SMR",
+      "엔비디아",
+      "액체냉각",
+      "전력망",
+      "마이크로소프트",
+      "구글",
+      "오라클",
+      "신재생에너지",
+      "가스터빈"
+    ],
+    "summary": "Datacenter & Cloud Industry InfraOps Daily (2-Column) 1. 구글-엔비디아 AI 에너지 동맹과 코어위브 루빈 가동 및 800V·연산 효율 혁신 구글과 엔비디아가 에메랄드 AI와 손잡고 데이터센터를 전력망 유연성 조절 자원으로 전환하는 'AI 에너지 동맹'을 전격 결성함 . 실시간 연산 부하 제어로 계통 병... ͏ ",
+    "status": "published",
+    "content_file": "data/posts/2026-09-17-dc-infraops-trends-report.md"
+  },
+  {
+    "id": "2026-09-17-august-megafarm-deepdive",
+    "title": "[테크 딥다이브] 하이퍼스케일 클라우드의 물리적 한계: 가용영역(AZ) 설계 결함과 크로스 리전 복원력의 재구성",
+    "date": "2026-09-17",
+    "time": "05:54",
+    "updated": "2026-09-17 05:54",
+    "category": "Tech Deep Dive",
+    "labels": [
+      "테크딥다이브",
+      "클라우드인프라",
+      "재해복구",
+      "AWS",
+      "데이터센터"
+    ],
+    "summary": "Infrastructure Architecture Analysis 하이퍼스케일 클라우드의 물리적 한계: 가용영역(AZ) 설계 결함과 크로스 리전 복원력의 재구성 중동 하이퍼스케일 시설의 물리적 피격과 영구 데이터 유실 사태가 던진 공학적 경고: 동기식 다중 가용영역(Multi-AZ) 복제의 지리적 반경 한계, 스토리지 어레이 손상 메커니즘, 그리고 데이터 ",
+    "status": "published",
+    "content_file": "data/posts/2026-09-17-august-megafarm-deepdive.md"
+  },
+  {
+    "id": "2026-09-17-daily-infraops-briefing",
+    "title": "[2026.09.17] 오늘의 글로벌 클라우드 & 데이터센터 인프라 핵심 동향 브리핑",
+    "date": "2026-09-17",
+    "time": "05:54",
+    "updated": "2026-09-17 05:54",
+    "category": "Daily Briefing",
+    "labels": [
+      "AWS",
+      "엔비디아",
+      "클라우드",
+      "데이터센터",
+      "AI인프라",
+      "멀티클라우드",
+      "인프라동향"
+    ],
+    "summary": "2026년 9월 17일, 글로벌 클라우드 및 데이터센터 인프라 지형은 지정학적 물리적 충격과 차세대 초고집적 AI 하드웨어의 전력·냉각 한계 극복이라는 중대한 전환점에 직면했습니다. 중동 지역의 군사적 분쟁으로 인한 하이퍼스케일러 데이터센터 시설 피격 및 데이터 영구 손실 사태는 클라우드 복원력의 근본적 설계를 재검토하게 만들고 있으며, 엔비디아와 코어위브",
+    "status": "published",
+    "content_file": "data/posts/2026-09-17-daily-infraops-briefing.md"
+  },
+  {
+    "id": "2026-09-17-infra-glossary",
+    "title": "[인프라 용어사전] 그리드 인터랙티브 데이터센터 (Grid-Interactive Data Center) - 전력망 유연성 자원으로 진화하는 차세대 AI 전력 아키텍처",
+    "date": "2026-09-17",
+    "time": "05:54",
+    "updated": "2026-09-17 05:54",
+    "category": "Terminology",
+    "labels": [
+      "인프라용어사전",
+      "IT백과사전",
+      "그리드인터랙티브데이터센터",
+      "구글",
+      "엔비디아",
+      "데이터센터"
+    ],
+    "summary": "📌 1. 30초 핵심 요약 & 개념 정의 그리드 인터랙티브 데이터센터(Grid-Interactive Data Center, GIDC)는 송전망(전기 계통)으로부터 전력을 일방적으로 공급받아 소모하던 기존의 수동적 부하(Passive Load) 모델에서 벗어나, 전력망의 주파수, 전압, 실시간 수급 상태를 감지하여 IT 연산 부하와 전력 인프라를 능동적으로 ",
+    "status": "published",
+    "content_file": "data/posts/2026-09-17-infra-glossary.md"
+  },
+  {
+    "id": "2026-09-17-10min-tech-podcast",
+    "title": "[2026.09.17] [10-Min English Podcast] Google-Nvidia AI Energy Alliance, 800V DC Architecture, Onsite SMR Permits, and Sovereign Cloud Fortification",
+    "date": "2026-09-17",
+    "time": "05:54",
+    "updated": "2026-09-17 05:54",
+    "category": "Podcast",
+    "labels": [
+      "EnglishPodcast",
+      "TechEnglish",
+      "비즈니스영어",
+      "AWS",
+      "AI인프라",
+      "데이터센터",
+      "액체냉각",
+      "SMR",
+      "전력망"
+    ],
+    "summary": "🎧 10-MIN TECH ENGLISH PODCAST [2026.09.17] [10-Min English Podcast] Google-Nvidia AI Energy Alliance, 800V DC Architecture, Onsite SMR Permits, and Sovereign Cloud Fortification 2026년 9월 17일 DC InfraO",
+    "status": "published",
+    "content_file": "data/posts/2026-09-17-10min-tech-podcast.md"
+  },
+  {
     "id": "2026-09-16-10min-tech-podcast",
     "title": "[2026.09.16] [10-Min English Podcast] Kinetic Cloud Casualties, Gigawatt Physical AI Deployments, and the Race for Megawatt-to-Token Computational Efficiency",
     "date": "2026-09-16",
