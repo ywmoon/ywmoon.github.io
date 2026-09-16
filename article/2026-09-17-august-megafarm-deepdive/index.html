@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>[테크 딥다이브] 하이퍼스케일 클라우드의 물리적 한계: 가용영역(AZ) 설계 결함과 크로스 리전 복원력의 재구성</title>
+  <meta name="description" content="Infrastructure Architecture Analysis 하이퍼스케일 클라우드의 물리적 한계: 가용영역(AZ) 설계 결함과 크로스 리전 복원력의 재구성 중동 하이퍼스케일 시설의 물리적 피격과 영구 데이터 유실 사태가 던진 공학적 경고: 동기식 다중 가용영역(Multi-AZ) 복제의 지리적 반경 한계, 스토리지 어레이 손상 메커니즘, 그리고 데이터 " />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://ywmoon.github.io/article/2026-09-17-august-megafarm-deepdive/" />
+  <!-- OpenGraph -->
+  <meta property="og:type" content="article" />
+  <meta property="og:title" content="[테크 딥다이브] 하이퍼스케일 클라우드의 물리적 한계: 가용영역(AZ) 설계 결함과 크로스 리전 복원력의 재구성" />
+  <meta property="og:description" content="Infrastructure Architecture Analysis 하이퍼스케일 클라우드의 물리적 한계: 가용영역(AZ) 설계 결함과 크로스 리전 복원력의 재구성 중동 하이퍼스케일 시설의 물리적 피격과 영구 데이터 유실 사태가 던진 공학적 경고: 동기식 다중 가용영역(Multi-AZ) 복제의 지리적 반경 한계, 스토리지 어레이 손상 메커니즘, 그리고 데이터 " />
+  <meta property="og:url" content="https://ywmoon.github.io/article/2026-09-17-august-megafarm-deepdive/" />
+  <meta property="og:image" content="https://ywmoon.github.io/assets/avatar.jpg" />
+  <meta property="og:site_name" content="Datacenter InfraOps &amp; Cloud Industry Notes" />
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="[테크 딥다이브] 하이퍼스케일 클라우드의 물리적 한계: 가용영역(AZ) 설계 결함과 크로스 리전 복원력의 재구성" />
+  <meta name="twitter:description" content="Infrastructure Architecture Analysis 하이퍼스케일 클라우드의 물리적 한계: 가용영역(AZ) 설계 결함과 크로스 리전 복원력의 재구성 중동 하이퍼스케일 시설의 물리적 피격과 영구 데이터 유실 사태가 던진 공학적 경고: 동기식 다중 가용영역(Multi-AZ) 복제의 지리적 반경 한계, 스토리지 어레이 손상 메커니즘, 그리고 데이터 " />
+  <meta name="twitter:image" content="https://ywmoon.github.io/assets/avatar.jpg" />
+  <!-- Structured Data: Google Schema.org (Article) -->
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "TechArticle",
+  "headline": "[테크 딥다이브] 하이퍼스케일 클라우드의 물리적 한계: 가용영역(AZ) 설계 결함과 크로스 리전 복원력의 재구성",
+  "description": "Infrastructure Architecture Analysis 하이퍼스케일 클라우드의 물리적 한계: 가용영역(AZ) 설계 결함과 크로스 리전 복원력의 재구성 중동 하이퍼스케일 시설의 물리적 피격과 영구 데이터 유실 사태가 던진 공학적 경고: 동기식 다중 가용영역(Multi-AZ) 복제의 지리적 반경 한계, 스토리지 어레이 손상 메커니즘, 그리고 데이터 ",
+  "datePublished": "2026-09-17T05:54:00+09:00",
+  "dateModified": "2026-09-17 05:54:00+09:00",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://ywmoon.github.io/article/2026-09-17-august-megafarm-deepdive/"
+  },
+  "author": {
+    "@type": "Person",
+    "name": "James Moon (문연욱)",
+    "jobTitle": "AWS Data Center Engineering Operations Cluster Manager",
+    "url": "https://www.linkedin.com/in/ywmoon"
+  },
+  "publisher": {
+    "@type": "Person",
+    "name": "James Moon",
+    "url": "https://ywmoon.github.io",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://ywmoon.github.io/assets/avatar.jpg"
+    }
+  },
+  "image": "https://ywmoon.github.io/assets/avatar.jpg",
+  "keywords": "테크딥다이브, 클라우드인프라, 재해복구, AWS, 데이터센터"
+}
+  </script>
+  <!-- Instant redirect for real users -->
+  <meta http-equiv="refresh" content="0; url=https://ywmoon.github.io/#article/2026-09-17-august-megafarm-deepdive" />
+  <script>window.location.replace('https://ywmoon.github.io/#article/2026-09-17-august-megafarm-deepdive');</script>
+</head>
+<body></body>
+</html>
