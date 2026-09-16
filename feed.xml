@@ -5,8 +5,48 @@
     <link>https://ywmoon.github.io</link>
     <description>글로벌 AI 데이터센터 전력망, 냉각, 클라우드 인프라 엔지니어링 데일리 트렌드</description>
     <language>ko</language>
-    <lastBuildDate>Wed, 16 Sep 2026 05:53:13 -0000</lastBuildDate>
+    <lastBuildDate>Thu, 17 Sep 2026 05:54:29 -0000</lastBuildDate>
     <atom:link href="https://ywmoon.github.io/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>DC InfraOps Trends - 2026년 09월 17일</title>
+      <link>https://ywmoon.github.io/article/2026-09-17-dc-infraops-trends-report/</link>
+      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-09-17-dc-infraops-trends-report/</guid>
+      <pubDate>Thu, 17 Sep 2026 00:00:00 -0000</pubDate>
+      <category>Newsletter</category>
+      <description>Datacenter &amp; Cloud Industry InfraOps Daily (2-Column) 1. 구글-엔비디아 AI 에너지 동맹과 코어위브 루빈 가동 및 800V·연산 효율 혁신 구글과 엔비디아가 에메랄드 AI와 손잡고 데이터센터를 전력망 유연성 조절 자원으로 전환하는 'AI 에너지 동맹'을 전격 결성함 . 실시간 연산 부하 제어로 계통 병... ͏ </description>
+    </item>
+    <item>
+      <title>[테크 딥다이브] 하이퍼스케일 클라우드의 물리적 한계: 가용영역(AZ) 설계 결함과 크로스 리전 복원력의 재구성</title>
+      <link>https://ywmoon.github.io/article/2026-09-17-august-megafarm-deepdive/</link>
+      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-09-17-august-megafarm-deepdive/</guid>
+      <pubDate>Thu, 17 Sep 2026 00:00:00 -0000</pubDate>
+      <category>Tech Deep Dive</category>
+      <description>Infrastructure Architecture Analysis 하이퍼스케일 클라우드의 물리적 한계: 가용영역(AZ) 설계 결함과 크로스 리전 복원력의 재구성 중동 하이퍼스케일 시설의 물리적 피격과 영구 데이터 유실 사태가 던진 공학적 경고: 동기식 다중 가용영역(Multi-AZ) 복제의 지리적 반경 한계, 스토리지 어레이 손상 메커니즘, 그리고 데이터 </description>
+    </item>
+    <item>
+      <title>[2026.09.17] 오늘의 글로벌 클라우드 &amp; 데이터센터 인프라 핵심 동향 브리핑</title>
+      <link>https://ywmoon.github.io/article/2026-09-17-daily-infraops-briefing/</link>
+      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-09-17-daily-infraops-briefing/</guid>
+      <pubDate>Thu, 17 Sep 2026 00:00:00 -0000</pubDate>
+      <category>Daily Briefing</category>
+      <description>2026년 9월 17일, 글로벌 클라우드 및 데이터센터 인프라 지형은 지정학적 물리적 충격과 차세대 초고집적 AI 하드웨어의 전력·냉각 한계 극복이라는 중대한 전환점에 직면했습니다. 중동 지역의 군사적 분쟁으로 인한 하이퍼스케일러 데이터센터 시설 피격 및 데이터 영구 손실 사태는 클라우드 복원력의 근본적 설계를 재검토하게 만들고 있으며, 엔비디아와 코어위브</description>
+    </item>
+    <item>
+      <title>[인프라 용어사전] 그리드 인터랙티브 데이터센터 (Grid-Interactive Data Center) - 전력망 유연성 자원으로 진화하는 차세대 AI 전력 아키텍처</title>
+      <link>https://ywmoon.github.io/article/2026-09-17-infra-glossary/</link>
+      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-09-17-infra-glossary/</guid>
+      <pubDate>Thu, 17 Sep 2026 00:00:00 -0000</pubDate>
+      <category>Terminology</category>
+      <description>📌 1. 30초 핵심 요약 &amp; 개념 정의 그리드 인터랙티브 데이터센터(Grid-Interactive Data Center, GIDC)는 송전망(전기 계통)으로부터 전력을 일방적으로 공급받아 소모하던 기존의 수동적 부하(Passive Load) 모델에서 벗어나, 전력망의 주파수, 전압, 실시간 수급 상태를 감지하여 IT 연산 부하와 전력 인프라를 능동적으로 </description>
+    </item>
+    <item>
+      <title>[2026.09.17] [10-Min English Podcast] Google-Nvidia AI Energy Alliance, 800V DC Architecture, Onsite SMR Permits, and Sovereign Cloud Fortification</title>
+      <link>https://ywmoon.github.io/article/2026-09-17-10min-tech-podcast/</link>
+      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-09-17-10min-tech-podcast/</guid>
+      <pubDate>Thu, 17 Sep 2026 00:00:00 -0000</pubDate>
+      <category>Podcast</category>
+      <description>🎧 10-MIN TECH ENGLISH PODCAST [2026.09.17] [10-Min English Podcast] Google-Nvidia AI Energy Alliance, 800V DC Architecture, Onsite SMR Permits, and Sovereign Cloud Fortification 2026년 9월 17일 DC InfraO</description>
+    </item>
     <item>
       <title>[2026.09.16] [10-Min English Podcast] Kinetic Cloud Casualties, Gigawatt Physical AI Deployments, and the Race for Megawatt-to-Token Computational Efficiency</title>
       <link>https://ywmoon.github.io/article/2026-09-16-10min-tech-podcast/</link>
