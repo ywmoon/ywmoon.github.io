@@ -1,5 +1,113 @@
 [
   {
+    "id": "2026-09-18-10min-tech-podcast",
+    "title": "[2026.09.18] [10-Min English Podcast] The Grid Paywall, Amazon's $8B Power Play, and the Era of Captive Generation",
+    "date": "2026-09-18",
+    "time": "05:54",
+    "updated": "2026-09-18 05:54",
+    "category": "Podcast",
+    "labels": [
+      "EnglishPodcast",
+      "TechEnglish",
+      "비즈니스영어",
+      "AWS",
+      "AI인프라",
+      "데이터센터",
+      "Generac",
+      "SMR"
+    ],
+    "summary": "🎧 10-MIN TECH ENGLISH PODCAST [2026.09.18] [10-Min English Podcast] The Grid Paywall, Amazon's $8B Power Play, and the Era of Captive Generation 2026년 9월 18일 DC InfraOps 데일리 브리핑은 글로벌 AI 인프라를 뒤흔드는 4대 핵",
+    "status": "published",
+    "content_file": "data/posts/2026-09-18-10min-tech-podcast.md"
+  },
+  {
+    "id": "2026-09-18-dc-infraops-trends-report",
+    "title": "DC InfraOps Trends - 2026년 09월 18일",
+    "date": "2026-09-18",
+    "time": "05:54",
+    "updated": "2026-09-18 05:54",
+    "category": "Newsletter",
+    "labels": [
+      "AWS",
+      "데이터센터",
+      "클라우드",
+      "AI인프라",
+      "DC-Trends",
+      "Daily-Newsletter",
+      "SMR",
+      "원전",
+      "엔비디아",
+      "액체냉각",
+      "전력망",
+      "마이크로소프트",
+      "구글",
+      "오라클",
+      "신재생에너지"
+    ],
+    "summary": "Datacenter & Cloud Industry InfraOps Daily (2-Column) 1. 미 하원 전력비 전가 차단법 통과와 온사이트 원전 수혜 및 계통 갈등 미국 연방 하원이 데이터센터로 인한 전력망 증설 비용을 일반 가계에 전가하지 못하도록 강제하는 법안을 417대 3의 압도적 찬성으로 통과시키고 , 초당적 지지로 '소비자 보호법... ͏ ",
+    "status": "published",
+    "content_file": "data/posts/2026-09-18-dc-infraops-trends-report.md"
+  },
+  {
+    "id": "2026-09-18-august-megafarm-deepdive",
+    "title": "[테크 딥다이브] 데이터 사일로를 넘는 에이전틱 AI: 세일즈포스-AWS-구글 연합과 멀티클라우드 제로 ETL 아키텍처 분석",
+    "date": "2026-09-18",
+    "time": "05:53",
+    "updated": "2026-09-18 05:53",
+    "category": "Tech Deep Dive",
+    "labels": [
+      "테크딥다이브",
+      "에이전틱AI",
+      "멀티클라우드",
+      "AWS",
+      "데이터센터"
+    ],
+    "summary": "📌 엔지니어링 브리프 요약 생성형 AI 패러다임이 단순 질의응답형 챗봇에서 다단계 작업을 자율 수행하는 '에이전틱 AI(Agentic AI)'로 급격히 전환되면서, 분산된 엔터프라이즈 데이터의 물리적 이동 없이 실시간 접근을 보장하는 '제로 ETL(Zero-ETL) 양방향 페더레이션'과 '멀티클라우드 크로스 추론 파이프라인'이 핵심 인프라 과제로 부상했습니",
+    "status": "published",
+    "content_file": "data/posts/2026-09-18-august-megafarm-deepdive.md"
+  },
+  {
+    "id": "2026-09-18-daily-infraops-briefing",
+    "title": "[2026.09.18] 오늘의 글로벌 클라우드 & 데이터센터 인프라 핵심 동향 브리핑",
+    "date": "2026-09-18",
+    "time": "05:53",
+    "updated": "2026-09-18 05:53",
+    "category": "Daily Briefing",
+    "labels": [
+      "AWS",
+      "클라우드",
+      "데이터센터",
+      "AI인프라",
+      "재해복구",
+      "전력망",
+      "엔비디아",
+      "애플"
+    ],
+    "summary": "글로벌 하이퍼스케일 클라우드와 AI 데이터센터 인프라는 연산 밀도의 급격한 상승과 전력 수급 불균형, 지정학적 물리적 안보 위협이라는 복합적인 도전에 직면해 있습니다. 본 리포트는 오늘 수집된 주요 인프라 현안을 바탕으로 기술적, 아키텍처적 관점에서 심층 분석을 제공합니다.📌 오늘의 3대 핵심 관전 포인트 (Key Highlights)물리적 타격에 의한 클",
+    "status": "published",
+    "content_file": "data/posts/2026-09-18-daily-infraops-briefing.md"
+  },
+  {
+    "id": "2026-09-18-infra-glossary",
+    "title": "[인프라 용어사전] SMR (Small Modular Reactor) - 송전망 병목과 전력비 규제를 돌파하는 AI 데이터센터 온사이트 기저전원",
+    "date": "2026-09-18",
+    "time": "05:53",
+    "updated": "2026-09-18 05:53",
+    "category": "Terminology",
+    "labels": [
+      "인프라용어사전",
+      "IT백과사전",
+      "SMR",
+      "소형모듈원전",
+      "AWS",
+      "데이터센터",
+      "전력인프라"
+    ],
+    "summary": "전력 인프라 아키텍처 SMR (Small Modular Reactor, 소형 모듈 원자로) 공공 전력망 대기열과 계통 보강 규제를 우회하여 AI 데이터센터에 24/7 무탄소 기저전력을 직결하는 차세대 분산 원자력 발전 시스템 📌 1. 30초 핵심 요약 & 개념 정의 직관적 비유: 수백 킬로미터 떨어진 대형 댐에서 긴 송수관로를 통해 물을 끌어오는 중앙 집중",
+    "status": "published",
+    "content_file": "data/posts/2026-09-18-infra-glossary.md"
+  },
+  {
     "id": "2026-09-17-dc-infraops-trends-report",
     "title": "DC InfraOps Trends - 2026년 09월 17일",
     "date": "2026-09-17",
