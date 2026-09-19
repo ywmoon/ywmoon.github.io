@@ -5,8 +5,16 @@
     <link>https://ywmoon.github.io</link>
     <description>글로벌 AI 데이터센터 전력망, 냉각, 클라우드 인프라 엔지니어링 데일리 트렌드</description>
     <language>ko</language>
-    <lastBuildDate>Fri, 18 Sep 2026 05:54:06 -0000</lastBuildDate>
+    <lastBuildDate>Sun, 20 Sep 2026 00:25:34 -0000</lastBuildDate>
     <atom:link href="https://ywmoon.github.io/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>[테크 딥다이브] 2027년 대한민국 예산안 심층 분석: 엔비디아 '베라 루빈' GPU 1만장과 국가 전략 AIDC 대전환</title>
+      <link>https://ywmoon.github.io/article/2026-09-20-2027-budget-aidc-gpu-strategy/</link>
+      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-09-20-2027-budget-aidc-gpu-strategy/</guid>
+      <pubDate>Sun, 20 Sep 2026 00:00:00 -0000</pubDate>
+      <category>Tech Deep Dive</category>
+      <description>대한민국 기획예산처가 발표한 2027년도 예산안(총 820.9조원)을 AI 데이터센터(AIDC) 인프라 관점에서 정밀 해부합니다. 엔비디아 차세대 '베라 루빈(Vera Rubin)' GPU 1만장 구매(3.9조원), 10MW 실증 테스트랩, 액체냉각 소부장 R&amp;D, 345kV 변전소 44개 구축, 10GW 송전단 ESS 등 국가 주도 AIDC 완결형 생태계 구축 전략을 분석합니다.</description>
+    </item>
     <item>
       <title>[2026.09.18] [10-Min English Podcast] The Grid Paywall, Amazon's $8B Power Play, and the Era of Captive Generation</title>
       <link>https://ywmoon.github.io/article/2026-09-18-10min-tech-podcast/</link>
