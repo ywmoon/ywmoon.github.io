@@ -1,5 +1,30 @@
 [
   {
+    "id": "2026-09-20-2027-budget-aidc-gpu-strategy",
+    "title": "[테크 딥다이브] 2027년 대한민국 예산안 심층 분석: 엔비디아 '베라 루빈' GPU 1만장과 국가 전략 AIDC 대전환",
+    "date": "2026-09-20",
+    "time": "08:00",
+    "updated": "2026-09-20 08:00",
+    "category": "Tech Deep Dive",
+    "labels": [
+      "테크딥다이브",
+      "2027년예산안",
+      "AI데이터센터",
+      "AIDC",
+      "베라루빈",
+      "엔비디아",
+      "액체냉각",
+      "10MW테스트랩",
+      "전력망",
+      "345kV",
+      "ESS",
+      "데이터센터인프라"
+    ],
+    "summary": "대한민국 기획예산처가 발표한 2027년도 예산안(총 820.9조원)을 AI 데이터센터(AIDC) 인프라 관점에서 정밀 해부합니다. 엔비디아 차세대 '베라 루빈(Vera Rubin)' GPU 1만장 구매(3.9조원), 10MW 실증 테스트랩, 액체냉각 소부장 R&D, 345kV 변전소 44개 구축, 10GW 송전단 ESS 등 국가 주도 AIDC 완결형 생태계 구축 전략을 분석합니다.",
+    "status": "published",
+    "content_file": "data/posts/2026-09-20-2027-budget-aidc-gpu-strategy.md"
+  },
+  {
     "id": "2026-09-18-10min-tech-podcast",
     "title": "[2026.09.18] [10-Min English Podcast] The Grid Paywall, Amazon's $8B Power Play, and the Era of Captive Generation",
     "date": "2026-09-18",
