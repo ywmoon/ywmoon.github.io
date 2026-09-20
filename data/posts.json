@@ -1,5 +1,109 @@
 [
   {
+    "id": "2026-09-21-daily-infraops-briefing",
+    "title": "[2026.09.21] 오늘의 글로벌 클라우드 & 데이터센터 인프라 핵심 동향 브리핑",
+    "date": "2026-09-21",
+    "time": "05:54",
+    "updated": "2026-09-21 05:54",
+    "category": "Daily Briefing",
+    "labels": [
+      "AWS",
+      "클라우드",
+      "데이터센터",
+      "AI인프라",
+      "인프라동향"
+    ],
+    "summary": "DAILY INFRASTRUCTURE DIGEST | 2026년 9월 21일 글로벌 클라우드 & 데이터센터 인프라 핵심 동향 브리핑 중동 리전 물리적 충돌에 따른 데이터 손실 쟁점부터 24억 달러 규모의 비상 발전 설비 조달, 전력 배전 공급망 다변화 및 차세대 AI 서버리스 런타임 개편까지 오늘 수집된 핵심 인프라 기술 분석을 전달합니다. 📌 오늘의 3대",
+    "status": "published",
+    "content_file": "data/posts/2026-09-21-daily-infraops-briefing.md"
+  },
+  {
+    "id": "2026-09-21-dc-infraops-trends-report",
+    "title": "DC InfraOps Trends - 2026년 09월 21일",
+    "date": "2026-09-21",
+    "time": "05:54",
+    "updated": "2026-09-21 05:54",
+    "category": "Newsletter",
+    "labels": [
+      "AWS",
+      "데이터센터",
+      "클라우드",
+      "AI인프라",
+      "DC-Trends",
+      "Daily-Newsletter",
+      "SMR",
+      "원전",
+      "엔비디아",
+      "액체냉각",
+      "전력망",
+      "마이크로소프트",
+      "구글",
+      "오라클",
+      "신재생에너지"
+    ],
+    "summary": "Datacenter & Cloud Industry InfraOps Daily (2-Column) 1. 버지니아 인허가 규제와 트럼프 국유지 개방 역풍 및 글로벌 모라토리엄 확산 데이터센터의 전력 독점에 따른 가계 전기료 상승 반발로 인허가 규제와 정치적 역풍이 전방위로 분출되는 양상임. 미국 최대 집적지인 버지니아주의 애비게일 스팬버거 주지사는 ... ͏ ",
+    "status": "published",
+    "content_file": "data/posts/2026-09-21-dc-infraops-trends-report.md"
+  },
+  {
+    "id": "2026-09-21-infra-glossary",
+    "title": "[인프라 용어사전] 멀티 리전 액티브-액티브 (Multi-Region Active-Active) - 물리적 재난에도 무중단을 보장하는 글로벌 분산 아키텍처",
+    "date": "2026-09-21",
+    "time": "05:54",
+    "updated": "2026-09-21 05:54",
+    "category": "Terminology",
+    "labels": [
+      "인프라용어사전",
+      "IT백과사전",
+      "멀티리전액티브액티브",
+      "AWS",
+      "재해복구"
+    ],
+    "summary": "Cloud & Infrastructure Architecture 멀티 리전 액티브-액티브 (Multi-Region Active-Active) 단일 가용 영역(AZ)을 넘어 지리적으로 완전히 격리된 복수 리전 간 트래픽을 상시 분산 처리하고 무중단 복원력을 확보하는 최고 등급의 분산 클라우드 아키텍처 📌 1. 30초 핵심 요약 & 개념 정의 💡 직관적 비유로",
+    "status": "published",
+    "content_file": "data/posts/2026-09-21-infra-glossary.md"
+  },
+  {
+    "id": "2026-09-21-10min-tech-podcast",
+    "title": "[2026.09.21] [10-Min English Podcast] Navigating Data Center Moratoriums, Neo-Cloud Liquidity, Magnetic Chillers, and Sovereign Compute",
+    "date": "2026-09-21",
+    "time": "05:54",
+    "updated": "2026-09-21 05:54",
+    "category": "Podcast",
+    "labels": [
+      "EnglishPodcast",
+      "TechEnglish",
+      "비즈니스영어",
+      "AWS",
+      "AI인프라",
+      "데이터센터",
+      "액체냉각",
+      "SovereignAI",
+      "모듈러데이터센터"
+    ],
+    "summary": "🎧 10-MIN TECH ENGLISH PODCAST [2026.09.21] [10-Min English Podcast] Navigating Data Center Moratoriums, Neo-Cloud Liquidity, Magnetic Chillers, and Sovereign Compute 오늘의 10분 심층 팟캐스트는 글로벌 데이터센터 인프라를 강타",
+    "status": "published",
+    "content_file": "data/posts/2026-09-21-10min-tech-podcast.md"
+  },
+  {
+    "id": "2026-09-21-august-megafarm-deepdive",
+    "title": "[테크 딥다이브] 기가와트(GW)급 AI 데이터센터의 전력 계통 전환과 초고압 전력 인프라 아키텍처",
+    "date": "2026-09-21",
+    "time": "05:54",
+    "updated": "2026-09-21 05:54",
+    "category": "Tech Deep Dive",
+    "labels": [
+      "테크딥다이브",
+      "AI데이터센터",
+      "전력인프라",
+      "초고압변전소",
+      "AWS"
+    ],
+    "summary": "🚀 서론: 기술 패러다임의 전환과 전력 인프라의 물리적 한계 인공지능 가속기 클러스터의 연산 밀도가 기하급수적으로 팽창하면서, 글로벌 하이퍼스케일러들의 핵심 병목이 반도체 팹(Fab) 수급에서 '물리적 전력 수전 및 계통 연계'로 급격히 이전되었습니다. 수만 개의 고전력 GPU가 집적된 단일 트레이닝 및 대규모 추론 클러스터는 100MW(메가와트)를 넘어 ",
+    "status": "published",
+    "content_file": "data/posts/2026-09-21-august-megafarm-deepdive.md"
+  },
+  {
     "id": "2026-09-20-2027-budget-aidc-gpu-strategy",
     "title": "[테크 딥다이브] 2027년 대한민국 예산안 심층 분석: 엔비디아 '베라 루빈' GPU 1만장과 국가 전략 AIDC 대전환",
     "date": "2026-09-20",
