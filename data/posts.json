@@ -1,5 +1,113 @@
 [
   {
+    "id": "2026-09-22-august-megafarm-deepdive",
+    "title": "[테크 딥다이브] 메가와트 랙 시대의 전력망 병목: 초고밀도 AI 데이터센터의 전력 배전 및 냉각 아키텍처 재설계",
+    "date": "2026-09-22",
+    "time": "05:48",
+    "updated": "2026-09-22 05:48",
+    "category": "Tech Deep Dive",
+    "labels": [
+      "테크딥다이브",
+      "AI데이터센터",
+      "전력인프라",
+      "액체냉각",
+      "AWS",
+      "엔비디아"
+    ],
+    "summary": "🚀 서론: 기술 패러다임의 전환과 문제 제기 컴퓨팅 연산 밀도 폭증과 전력망 수전 한계가 촉발한 인프라 병목 현상 엔비디아의 차세대 AI 가속기 출하량이 전년 대비 2배 이상 증가할 것이라는 공급망 관측과 함께 인공지능 인프라는 완전히 새로운 물리적 국면에 진입했습니다. 연산 성능을 나타내는 TFLOPS의 확장은 필연적으로 칩셋의 열설계전력(TDP)과 랙(",
+    "status": "published",
+    "content_file": "data/posts/2026-09-22-august-megafarm-deepdive.md"
+  },
+  {
+    "id": "2026-09-22-10min-tech-podcast",
+    "title": "[2026.09.22] [10-Min English Podcast] Grid Moratoriums, Prefabricated Fast-Tracking, and the High-Voltage Direct-Current Frontier",
+    "date": "2026-09-22",
+    "time": "05:48",
+    "updated": "2026-09-22 05:48",
+    "category": "Podcast",
+    "labels": [
+      "EnglishPodcast",
+      "TechEnglish",
+      "비즈니스영어",
+      "AWS",
+      "AI인프라",
+      "데이터센터",
+      "액체냉각"
+    ],
+    "summary": "🎧 10-MIN TECH ENGLISH PODCAST [2026.09.22] [10-Min English Podcast] Grid Moratoriums, Prefabricated Fast-Tracking, and the High-Voltage Direct-Current Frontier 오늘의 10분 심층 팟캐스트는 텍사스의 신규 데이터센터 인허가 전면 중단",
+    "status": "published",
+    "content_file": "data/posts/2026-09-22-10min-tech-podcast.md"
+  },
+  {
+    "id": "2026-09-22-daily-infraops-briefing",
+    "title": "[2026.09.22] 오늘의 글로벌 클라우드 & 데이터센터 인프라 핵심 동향 브리핑",
+    "date": "2026-09-22",
+    "time": "05:48",
+    "updated": "2026-09-22 05:48",
+    "category": "Daily Briefing",
+    "labels": [
+      "AWS",
+      "마이크로소프트",
+      "엔비디아",
+      "클라우드",
+      "데이터센터",
+      "AI인프라",
+      "전력망",
+      "변압기",
+      "NPU",
+      "EDA"
+    ],
+    "summary": "Daily InfraOps Digest 글로벌 클라우드 & 데이터센터 인프라 핵심 기술 동향 발행일: 2026년 9월 22일 | 대상: 인프라 아키텍트, 시스템 엔지니어, 기술 총괄 리더 📌 오늘의 3대 핵심 관전 포인트 (Key Highlights) 엔비디아 차세대 AI 칩 증산과 '전력 인입 병목'에 따른 43조 원 수주 사이클: 가속기 공급 물량이 2",
+    "status": "published",
+    "content_file": "data/posts/2026-09-22-daily-infraops-briefing.md"
+  },
+  {
+    "id": "2026-09-22-dc-infraops-trends-report",
+    "title": "DC InfraOps Trends - 2026년 09월 22일",
+    "date": "2026-09-22",
+    "time": "05:48",
+    "updated": "2026-09-22 05:48",
+    "category": "Newsletter",
+    "labels": [
+      "AWS",
+      "데이터센터",
+      "클라우드",
+      "AI인프라",
+      "DC-Trends",
+      "Daily-Newsletter",
+      "SMR",
+      "원전",
+      "엔비디아",
+      "액체냉각",
+      "전력망",
+      "마이크로소프트",
+      "구글",
+      "오라클",
+      "신재생에너지"
+    ],
+    "summary": "Datacenter & Cloud Industry InfraOps Daily (2-Column) 1. 텍사스 인허가 전면 중단과 캘리포니아 7개 규제법 서명 및 680억 달러 인프라 좌초 전력망 포화와 자원 고갈에 직면한 각국 정부가 강도 높은 규제 입법과 행정 처분을 연이어 쏟아내며 인프라 병목이 심화되는 양상임. 미국 내 핵심 데이터센터 증설... ͏ ",
+    "status": "published",
+    "content_file": "data/posts/2026-09-22-dc-infraops-trends-report.md"
+  },
+  {
+    "id": "2026-09-22-infra-glossary",
+    "title": "[인프라 용어사전] 그리드 코드 (Grid Code) - AI 데이터센터의 전력망 접속을 결정짓는 계통 연계 기술 기준",
+    "date": "2026-09-22",
+    "time": "05:48",
+    "updated": "2026-09-22 05:48",
+    "category": "Terminology",
+    "labels": [
+      "인프라용어사전",
+      "IT백과사전",
+      "그리드코드",
+      "전력인프라",
+      "데이터센터"
+    ],
+    "summary": "전력 인프라 & 계통 엔지니어링 그리드 코드 (Grid Code) 초대형 AI 데이터센터가 공공 전력망에 안전하게 접속하기 위해 충족해야 하는 전력 품질, 주파수 추종 및 전압 안정성 기술 기준 📌 1. 30초 핵심 요약 & 개념 정의 💡 직관적 비유로 이해하기 수백 량의 고속 화물 열차가 단일 국가 철도망에 진입할 때, 제동 장치와 속도 유지 규정을 지키",
+    "status": "published",
+    "content_file": "data/posts/2026-09-22-infra-glossary.md"
+  },
+  {
     "id": "2026-09-21-daily-infraops-briefing",
     "title": "[2026.09.21] 오늘의 글로벌 클라우드 & 데이터센터 인프라 핵심 동향 브리핑",
     "date": "2026-09-21",
