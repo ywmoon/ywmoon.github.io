@@ -83,7 +83,7 @@
     }
   </script>
 
-  <link rel="stylesheet" href="style.css?v=20260922_2013" />
+  <link rel="stylesheet" href="style.css?v=20260922_2220" />
 </head>
 <body>
 
@@ -129,13 +129,18 @@
         </button>
       </nav>
 
-      <!-- Utility Area: Desktop Search & Mobile Hamburger Toggle -->
+      <!-- Utility Area: Desktop Search & Theme Toggle & Mobile Hamburger Toggle -->
       <div class="dc-nav-actions">
         <div class="dc-search-box" id="desktop-search-box">
           <span class="dc-search-icon">🔍</span>
           <input type="text" id="global-search-input" placeholder="키워드, 기술, 기업 검색..." oninput="handleSearchInput(this.value)" />
           <button id="search-clear-btn" class="dc-search-clear" onclick="clearSearch()" style="display:none;">✕</button>
         </div>
+
+        <!-- Dark / Light Theme Toggle Button -->
+        <button class="dc-theme-toggle-btn" id="theme-toggle-btn" onclick="toggleTheme()" aria-label="테마 전환" title="다크/라이트 모드 전환">
+          <span id="theme-toggle-icon">🌙</span>
+        </button>
 
         <!-- Mobile Hamburger Toggle Button -->
         <button class="dc-mobile-menu-btn" id="mobile-menu-toggle-btn" onclick="toggleMobileMenu()" aria-label="메뉴 열기">
@@ -188,6 +193,10 @@
 
           <button class="dc-mobile-nav-item" onclick="openProfileModal(); closeMobileMenu();">
             <span>👤 James Moon 프로필</span>
+          </button>
+
+          <button class="dc-mobile-nav-item" onclick="toggleTheme(); closeMobileMenu();">
+            <span id="mobile-theme-text">🌙 다크 모드로 전환</span>
           </button>
         </div>
       </div>
@@ -274,68 +283,101 @@
         </div>
       </div>
       
-      <div class="dc-reader-header">
-        <div class="dc-reader-meta-row">
-          <div class="dc-reader-badges" id="reader-badges"></div>
-          <div class="dc-reader-meta-right">
-            <span id="reader-meta-date">2026-08-16</span>
-            <span class="dc-read-time-badge" id="reader-read-time">⏱️ 계산 중...</span>
-            <span class="dc-view-time-badge" id="reader-view-count" style="display: none;">👀 조회수 계산 중...</span>
+      <!-- 2-Column Responsive Reader Layout Container -->
+      <div class="dc-reader-layout-container">
+        <!-- Left Column: Main Article Content (Optimized Reading Width 780~820px) -->
+        <div class="dc-reader-main-col">
+          <div class="dc-reader-header">
+            <div class="dc-reader-meta-row">
+              <div class="dc-reader-badges" id="reader-badges"></div>
+              <div class="dc-reader-meta-right">
+                <span id="reader-meta-date">2026-08-16</span>
+                <span class="dc-read-time-badge" id="reader-read-time">⏱️ 계산 중...</span>
+                <span class="dc-view-time-badge" id="reader-view-count" style="display: none;">👀 조회수 계산 중...</span>
+              </div>
+            </div>
+            <h1 class="dc-reader-title" id="reader-title">아티클 제목</h1>
           </div>
+
+          <!-- Mobile Foldable Table of Contents (TOC) -->
+          <div class="dc-mobile-toc-accordion" id="reader-mobile-toc-box" style="display: none;">
+            <button class="dc-mobile-toc-toggle" onclick="toggleMobileToc()">
+              <span>📑 목차 바로가기</span>
+              <span class="dc-mobile-toc-arrow" id="mobile-toc-arrow">▾</span>
+            </button>
+            <ul class="dc-toc-list" id="reader-mobile-toc-list"></ul>
+          </div>
+
+          <div class="dc-reader-body" id="reader-body-content">
+            <!-- Injected Article HTML -->
+          </div>
+
+          <!-- Simple Author Signature (Right-Aligned) -->
+          <div class="dc-author-sig-wrapper">
+            <div class="dc-author-simple-signature">
+              <div class="dc-author-sig-profile" onclick="openProfileModal()" title="작성자 프로필 보기">
+                <img src="assets/avatar.jpg" alt="James Moon" class="dc-author-simple-avatar" />
+                <span class="dc-author-simple-name">James Moon <span class="dc-author-simple-ko">(문연욱)</span></span>
+              </div>
+              <span class="dc-author-sig-divider"></span>
+              <div class="dc-author-sig-links">
+                <a href="mailto:ywmoon1202@gmail.com" class="dc-author-sig-icon-btn mail" title="이메일 문의 (ywmoon1202@gmail.com)">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="color: var(--text-secondary);"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+                </a>
+                <a href="https://www.linkedin.com/in/ywmoon" target="_blank" rel="noopener noreferrer" class="dc-author-sig-icon-btn linkedin" title="LinkedIn 프로필 바로가기">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="#0A66C2"><path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.28 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.75M6.46 10.9v8.37H9.2V10.9H6.46M7.83 6.64a1.65 1.65 0 0 0-1.66 1.66 1.66 1.66 0 0 0 1.66 1.66 1.66 1.66 0 0 0 1.66-1.66c0-.92-.74-1.66-1.66-1.66Z"/></svg>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Related Posts Recommendations (Feature A) -->
+          <div class="dc-related-section" id="reader-related-section" style="display: none;">
+            <div class="dc-related-header">📚 함께 읽으면 좋은 관련 아티클</div>
+            <div class="dc-related-grid" id="reader-related-grid"></div>
+          </div>
+
+          <!-- Google AdSense: Dedicated Article Bottom Clean Ad Slot -->
+          <div class="dc-ad-container" id="dc-ad-bottom-wrapper">
+            <div class="dc-ad-label">SPONSORED</div>
+            <ins class="adsbygoogle"
+                 style="display:block"
+                 data-ad-client="ca-pub-6383413671515974"
+                 data-ad-slot="4973174354"
+                 data-ad-format="auto"
+                 data-full-width-responsive="true"></ins>
+          </div>
+
+          <!-- Previous / Next Post Navigation Footer -->
+          <nav class="dc-post-nav" id="reader-post-nav">
+            <!-- Injected by app.js -->
+          </nav>
         </div>
-        <h1 class="dc-reader-title" id="reader-title">아티클 제목</h1>
-      </div>
 
-      <!-- Auto-generated Table of Contents (TOC) -->
-      <div class="dc-toc-box" id="reader-toc-box" style="display: none;">
-        <div class="dc-toc-title">📑 목차 바로가기</div>
-        <ul class="dc-toc-list" id="reader-toc-list"></ul>
-      </div>
-
-      <div class="dc-reader-body" id="reader-body-content">
-        <!-- Injected Article HTML -->
-      </div>
-
-      <!-- Simple Author Signature (Right-Aligned) -->
-      <div class="dc-author-sig-wrapper">
-        <div class="dc-author-simple-signature">
-          <div class="dc-author-sig-profile" onclick="openProfileModal()" title="작성자 프로필 보기">
-            <img src="assets/avatar.jpg" alt="James Moon" class="dc-author-simple-avatar" />
-            <span class="dc-author-simple-name">James Moon <span class="dc-author-simple-ko">(문연욱)</span></span>
+        <!-- Right Column: Sticky Floating Table of Contents Sidebar (Desktop) -->
+        <aside class="dc-reader-sidebar" id="reader-desktop-sidebar" style="display: none;">
+          <div class="dc-sidebar-sticky-box">
+            <div class="dc-sidebar-toc-header">
+              <span class="dc-sidebar-toc-icon">📑</span>
+              <span class="dc-sidebar-toc-title">목차 (Contents)</span>
+            </div>
+            <nav class="dc-sidebar-toc-nav" id="sidebar-toc-nav">
+              <ul class="dc-sidebar-toc-list" id="sidebar-toc-list"></ul>
+            </nav>
+            <div class="dc-sidebar-quick-tools">
+              <button class="dc-sidebar-tool-btn" onclick="scrollToTop()" title="맨 위로 이동">
+                <span>↑</span> 맨 위로
+              </button>
+              <button class="dc-sidebar-tool-btn" onclick="toggleCurrentArticleBookmark()" title="북마크 보관">
+                <span id="sidebar-bookmark-icon">⭐</span> 북마크
+              </button>
+              <button class="dc-sidebar-tool-btn" onclick="copyArticleUrl()" title="링크 복사">
+                <span>🔗</span> 공유
+              </button>
+            </div>
           </div>
-          <span class="dc-author-sig-divider"></span>
-          <div class="dc-author-sig-links">
-            <a href="mailto:ywmoon1202@gmail.com" class="dc-author-sig-icon-btn mail" title="이메일 문의 (ywmoon1202@gmail.com)">
-              <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="color: var(--text-secondary);"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
-            </a>
-            <a href="https://www.linkedin.com/in/ywmoon" target="_blank" rel="noopener noreferrer" class="dc-author-sig-icon-btn linkedin" title="LinkedIn 프로필 바로가기">
-              <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="#0A66C2"><path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.28 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.75M6.46 10.9v8.37H9.2V10.9H6.46M7.83 6.64a1.65 1.65 0 0 0-1.66 1.66 1.66 1.66 0 0 0 1.66 1.66 1.66 1.66 0 0 0 1.66-1.66c0-.92-.74-1.66-1.66-1.66Z"/></svg>
-            </a>
-          </div>
-        </div>
+        </aside>
       </div>
-
-      <!-- Related Posts Recommendations (Feature A) -->
-      <div class="dc-related-section" id="reader-related-section" style="display: none;">
-        <div class="dc-related-header">📚 함께 읽으면 좋은 관련 아티클</div>
-        <div class="dc-related-grid" id="reader-related-grid"></div>
-      </div>
-
-      <!-- Google AdSense: Dedicated Article Bottom Clean Ad Slot -->
-      <div class="dc-ad-container" id="dc-ad-bottom-wrapper">
-        <div class="dc-ad-label">SPONSORED</div>
-        <ins class="adsbygoogle"
-             style="display:block"
-             data-ad-client="ca-pub-6383413671515974"
-             data-ad-slot="4973174354"
-             data-ad-format="auto"
-             data-full-width-responsive="true"></ins>
-      </div>
-
-      <!-- Previous / Next Post Navigation Footer -->
-      <nav class="dc-post-nav" id="reader-post-nav">
-        <!-- Injected by app.js -->
-      </nav>
     </article>
   </main>
 
@@ -400,6 +442,6 @@
   <!-- Back to Top Floating Button -->
   <button class="dc-back-to-top" id="back-to-top-btn" onclick="scrollToTop()" aria-label="맨 위로 이동">↑</button>
 
-  <script src="app.js?v=20260922_2013"></script>
+  <script src="app.js?v=20260922_2220"></script>
 </body>
 </html>
