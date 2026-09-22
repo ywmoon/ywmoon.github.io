@@ -104,7 +104,37 @@ async function recordArticleView(postId) {
   }
 }
 
+// ─── Dark / Light Mode Theme Management ───────────────────────────
+function initTheme() {
+  const savedTheme = localStorage.getItem('dc_theme');
+  const prefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+  const theme = savedTheme || (prefersDark ? 'dark' : 'light');
+  applyTheme(theme, false);
+}
+
+function applyTheme(theme, notify = false) {
+  document.documentElement.setAttribute('data-theme', theme);
+  localStorage.setItem('dc_theme', theme);
+  
+  const icon = document.getElementById('theme-toggle-icon');
+  if (icon) icon.textContent = theme === 'dark' ? '☀️' : '🌙';
+
+  const mobText = document.getElementById('mobile-theme-text');
+  if (mobText) mobText.textContent = theme === 'dark' ? '☀️ 라이트 모드로 전환' : '🌙 다크 모드로 전환';
+
+  if (notify) {
+    showToast(theme === 'dark' ? '🌙 다크 모드가 적용되었습니다.' : '☀️ 라이트 모드가 적용되었습니다.');
+  }
+}
+
+function toggleTheme() {
+  const current = document.documentElement.getAttribute('data-theme') || 'light';
+  const next = current === 'dark' ? 'light' : 'dark';
+  applyTheme(next, true);
+}
+
 document.addEventListener('DOMContentLoaded', () => {
+  initTheme();
   initDropdowns();
   initShortcuts();
   initFontSize();
@@ -850,27 +880,81 @@ function renderRelatedPosts(currentPost) {
   section.style.display = 'block';
 }
 
+function toggleMobileToc() {
+  const box = document.getElementById('reader-mobile-toc-box');
+  if (box) box.classList.toggle('open');
+}
+
+function scrollToHeading(id) {
+  const el = document.getElementById(id);
+  if (!el) return;
+  const navHeight = 76;
+  const y = el.getBoundingClientRect().top + window.pageYOffset - navHeight;
+  window.scrollTo({ top: y, behavior: 'smooth' });
+}
+
+let scrollSpyObserver = null;
+function setupScrollSpy(headings) {
+  if (scrollSpyObserver) {
+    scrollSpyObserver.disconnect();
+  }
+
+  const tocItems = document.querySelectorAll('.dc-sidebar-toc-item');
+  if (!tocItems.length) return;
+
+  scrollSpyObserver = new IntersectionObserver((entries) => {
+    entries.forEach((entry) => {
+      if (entry.isIntersecting) {
+        const id = entry.target.id;
+        tocItems.forEach((item) => {
+          if (item.getAttribute('data-target') === id) {
+            item.classList.add('active');
+            item.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+          } else {
+            item.classList.remove('active');
+          }
+        });
+      }
+    });
+  }, {
+    rootMargin: '-80px 0px -70% 0px',
+    threshold: 0
+  });
+
+  headings.forEach(h => scrollSpyObserver.observe(h));
+}
+
 function buildTableOfContents(bodyEl) {
-  const tocBox = document.getElementById('reader-toc-box');
-  const tocList = document.getElementById('reader-toc-list');
-  if (!tocBox || !tocList) return;
+  const mobileBox = document.getElementById('reader-mobile-toc-box');
+  const mobileList = document.getElementById('reader-mobile-toc-list');
+  const sidebarEl = document.getElementById('reader-desktop-sidebar');
+  const sidebarList = document.getElementById('sidebar-toc-list');
 
   const headings = bodyEl.querySelectorAll('h2, h3, h4');
   if (headings.length < 2) {
-    tocBox.style.display = 'none';
-    tocList.innerHTML = '';
+    if (mobileBox) mobileBox.style.display = 'none';
+    if (sidebarEl) sidebarEl.style.display = 'none';
     return;
   }
 
-  tocList.innerHTML = Array.from(headings).map((h, idx) => {
+  if (sidebarEl) sidebarEl.style.display = 'block';
+  if (mobileBox) mobileBox.style.display = 'block';
+
+  const itemsHtml = Array.from(headings).map((h, idx) => {
     const headingId = `heading-sec-${idx}`;
     h.id = headingId;
     const levelClass = h.tagName.toLowerCase();
     const text = h.textContent.trim();
-    return `<li class="dc-toc-item ${levelClass}"><a href="#${headingId}" onclick="event.preventDefault(); document.getElementById('${headingId}').scrollIntoView({behavior:'smooth'});">${text}</a></li>`;
+    return `
+      <li class="dc-sidebar-toc-item ${levelClass}" data-target="${headingId}">
+        <a href="#${headingId}" onclick="event.preventDefault(); scrollToHeading('${headingId}');" title="${text}">${text}</a>
+      </li>`;
   }).join('');
 
-  tocBox.style.display = 'block';
+  if (sidebarList) sidebarList.innerHTML = itemsHtml;
+  if (mobileList) mobileList.innerHTML = itemsHtml;
+
+  setupScrollSpy(headings);
 }
 
 function renderPostNavigation(currentPost) {
