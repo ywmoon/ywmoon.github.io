@@ -15,6 +15,7 @@ let previousView = 'home';
 // ─── Firebase Realtime Database View Counter ─────────────────────
 const FIREBASE_DB_URL = 'https://ywmoon-blog-default-rtdb.firebaseio.com';
 let allViewCounts = {};
+let searchDebounceTimer = null;
 
 function formatViewCount(num) {
   if (!num || isNaN(num)) return '0';
@@ -583,6 +584,8 @@ function highlightText(text, query) {
 
 function openHomeView() {
   currentView = 'home';
+  const bar = document.getElementById('reading-progress-bar');
+  if (bar) bar.style.width = '0%';
   document.getElementById('hero-section').style.display = 'block';
   document.getElementById('posts-grid-section').style.display = 'block';
   document.getElementById('table-section').style.display = 'none';
@@ -596,6 +599,8 @@ function openHomeView() {
 function openTableView() {
   previousView = 'table';
   currentView = 'table';
+  const bar = document.getElementById('reading-progress-bar');
+  if (bar) bar.style.width = '0%';
   document.getElementById('hero-section').style.display = 'none';
   document.getElementById('posts-grid-section').style.display = 'none';
   document.getElementById('table-section').style.display = 'block';
@@ -613,7 +618,7 @@ async function openArticleView(articleId) {
   const post = allPosts.find(p => p.id === decodedId || p.id === articleId || decodeURIComponent(p.id) === decodedId);
   if (!post) {
     console.warn('Post not found for id:', articleId, 'decoded:', decodedId);
-    alert('해당 아티클을 찾을 수 없습니다.');
+    showToast('⚠️ 해당 아티클을 찾을 수 없습니다.');
     navigateHome();
     return;
   }
@@ -651,7 +656,10 @@ async function openArticleView(articleId) {
   try {
     const plainText = content.replace(/<[^>]+>/g, ' ').replace(/\s+/g, ' ').trim();
     const charCount = plainText.length;
-    const readMin = Math.max(1, Math.ceil(charCount / 500));
+    const korChars = (plainText.match(/[가-힣]/g) || []).length;
+    const korRatio = charCount > 0 ? korChars / charCount : 0;
+    const avgCPM = korRatio > 0.4 ? 800 : 1100; // 한국어 중심: 800자/분, 영문 중심: 1100자/분
+    const readMin = Math.max(1, Math.ceil(charCount / avgCPM));
     document.getElementById('reader-read-time').textContent = `⏱️ 약 ${readMin}분 (${charCount.toLocaleString()}자)`;
   } catch (e) {
     document.getElementById('reader-read-time').textContent = '⏱️ 3분 분량';
@@ -746,21 +754,13 @@ function setupCodeBlockCopyButtons(container) {
 
 function copyCodeBlock(btn, pre) {
   const code = pre.querySelector('code') ? pre.querySelector('code').innerText : pre.innerText;
-  if (navigator.clipboard && window.isSecureContext) {
-    navigator.clipboard.writeText(code).then(() => {
-      btn.innerHTML = '✅ 복사됨!';
-      setTimeout(() => { btn.innerHTML = '📋 복사'; }, 2000);
-    });
-  } else {
-    const input = document.createElement('textarea');
-    input.value = code;
-    document.body.appendChild(input);
-    input.select();
-    document.execCommand('copy');
-    document.body.removeChild(input);
+  navigator.clipboard.writeText(code).then(() => {
     btn.innerHTML = '✅ 복사됨!';
     setTimeout(() => { btn.innerHTML = '📋 복사'; }, 2000);
-  }
+  }).catch(() => {
+    btn.innerHTML = '⚠️ 복사 실패';
+    setTimeout(() => { btn.innerHTML = '📋 복사'; }, 2000);
+  });
 }
 
 // ─── Podcast Audio Player Enhancer (Feature E) ────────────────────
@@ -813,13 +813,19 @@ function renderRelatedPosts(currentPost) {
   const currentLabels = new Set(currentPost.labels || []);
   const published = allPosts.filter(p => (p.status || 'published') === 'published' && p.id !== currentPost.id);
 
-  // Score posts based on matching tags (weight 2) + matching category (weight 1)
+  // Score posts based on matching tags (weight 2) + matching category (weight 1) + recency (within 30 days: weight 1)
+  const now = new Date();
   const scored = published.map(p => {
     let score = 0;
     if (p.category === currentPost.category) score += 1;
     (p.labels || []).forEach(l => {
       if (currentLabels.has(l)) score += 2;
     });
+    if (p.date) {
+      const postDate = new Date(p.date);
+      const diffDays = (now - postDate) / (1000 * 60 * 60 * 24);
+      if (diffDays >= 0 && diffDays <= 30) score += 1;
+    }
     return { post: p, score };
   });
 
@@ -849,7 +855,7 @@ function buildTableOfContents(bodyEl) {
   const tocList = document.getElementById('reader-toc-list');
   if (!tocBox || !tocList) return;
 
-  const headings = bodyEl.querySelectorAll('h2, h3');
+  const headings = bodyEl.querySelectorAll('h2, h3, h4');
   if (headings.length < 2) {
     tocBox.style.display = 'none';
     tocList.innerHTML = '';
@@ -859,7 +865,7 @@ function buildTableOfContents(bodyEl) {
   tocList.innerHTML = Array.from(headings).map((h, idx) => {
     const headingId = `heading-sec-${idx}`;
     h.id = headingId;
-    const levelClass = h.tagName.toLowerCase() === 'h3' ? 'h3' : 'h2';
+    const levelClass = h.tagName.toLowerCase();
     const text = h.textContent.trim();
     return `<li class="dc-toc-item ${levelClass}"><a href="#${headingId}" onclick="event.preventDefault(); document.getElementById('${headingId}').scrollIntoView({behavior:'smooth'});">${text}</a></li>`;
   }).join('');
@@ -911,19 +917,11 @@ function copyArticleUrl() {
   const url = match
     ? `https://ywmoon.github.io/article/${match[1]}/`
     : window.location.href;
-  if (navigator.clipboard && window.isSecureContext) {
-    navigator.clipboard.writeText(url).then(() => {
-      showToast('🔗 아티클 링크가 클립보드에 복사되었습니다!');
-    });
-  } else {
-    const input = document.createElement('input');
-    input.value = url;
-    document.body.appendChild(input);
-    input.select();
-    document.execCommand('copy');
-    document.body.removeChild(input);
+  navigator.clipboard.writeText(url).then(() => {
     showToast('🔗 아티클 링크가 클립보드에 복사되었습니다!');
-  }
+  }).catch(() => {
+    showToast('⚠️ 링크 복사에 실패했습니다.');
+  });
 }
 
 function shareLinkedIn() {
@@ -1082,7 +1080,10 @@ function handleSearchInput(val) {
   if (clearBtn) clearBtn.style.display = searchQuery ? 'inline-block' : 'none';
   const mobClearBtn = document.getElementById('mobile-search-clear-btn');
   if (mobClearBtn) mobClearBtn.style.display = searchQuery ? 'inline-block' : 'none';
-  applyFilters();
+  clearTimeout(searchDebounceTimer);
+  searchDebounceTimer = setTimeout(() => {
+    applyFilters();
+  }, 200);
 }
 
 function handleMobileSearchInput(val) {
@@ -1093,10 +1094,14 @@ function handleMobileSearchInput(val) {
   if (clearBtn) clearBtn.style.display = searchQuery ? 'inline-block' : 'none';
   const mobClearBtn = document.getElementById('mobile-search-clear-btn');
   if (mobClearBtn) mobClearBtn.style.display = searchQuery ? 'inline-block' : 'none';
-  applyFilters();
+  clearTimeout(searchDebounceTimer);
+  searchDebounceTimer = setTimeout(() => {
+    applyFilters();
+  }, 200);
 }
 
 function clearSearch() {
+  clearTimeout(searchDebounceTimer);
   const deskInput = document.getElementById('global-search-input');
   if (deskInput) deskInput.value = '';
   const mobInput = document.getElementById('mobile-search-input');
