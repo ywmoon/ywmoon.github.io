@@ -2,7 +2,7 @@
   "name": "Datacenter InfraOps & Cloud Industry Notes",
   "short_name": "DC InfraOps",
   "description": "Global Hyperscale AI Data Center, Power Grid (SMR/BESS), Liquid Cooling & Cloud InfraOps & Cloud Industry Notes",
-  "start_url": "/index.html",
+  "start_url": "/",
   "scope": "/",
   "display": "standalone",
   "orientation": "portrait",
