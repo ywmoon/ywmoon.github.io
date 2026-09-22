@@ -1,5 +1,109 @@
 [
   {
+    "id": "2026-09-23-august-megafarm-deepdive",
+    "title": "[테크 딥다이브] 랙당 100kW 시대의 필연: 엔비디아 NVL72 규격과 2.5MW 대용량 CDU 기반 D2C 액체냉각 아키텍처 분석",
+    "date": "2026-09-23",
+    "time": "05:57",
+    "updated": "2026-09-23 05:57",
+    "category": "Tech Deep Dive",
+    "labels": [
+      "테크딥다이브",
+      "액체냉각",
+      "CDU",
+      "엔비디아",
+      "데이터센터"
+    ],
+    "summary": "생성형 AI 모델의 매개변수가 조 단위를 넘어서고 학습·추론 클러스터가 초고집적화되면서, 데이터센터 인프라는 전례 없는 열역학적 한계선에 직면했습니다. 엔비디아 블랙웰(Blackwell) 아키텍처 기반 GB200 NVL72 랙이 120kW~132kW에 달하는 극단적인 전력 밀도를 요구함에 따라, 지난 수십 년간 엔터프라이즈 전산실을 지탱해 온 공랭식(Air",
+    "status": "published",
+    "content_file": "data/posts/2026-09-23-august-megafarm-deepdive.md"
+  },
+  {
+    "id": "2026-09-23-dc-infraops-trends-report",
+    "title": "DC InfraOps Trends - 2026년 09월 23일",
+    "date": "2026-09-23",
+    "time": "05:57",
+    "updated": "2026-09-23 05:57",
+    "category": "Newsletter",
+    "labels": [
+      "AWS",
+      "데이터센터",
+      "클라우드",
+      "AI인프라",
+      "DC-Trends",
+      "Daily-Newsletter",
+      "SMR",
+      "원전",
+      "엔비디아",
+      "액체냉각",
+      "전력망",
+      "마이크로소프트",
+      "구글",
+      "오라클",
+      "신재생에너지"
+    ],
+    "summary": "Datacenter & Cloud Industry InfraOps Daily (2-Column) 1. LG-엔비디아·MS 전력·냉각 인프라 동맹 구축과 2.5MW 액체냉각 승인 인공지능 연산 가속에 따른 극한의 발열과 전력 스파이크가 데이터센터 확장의 핵심 병목으로 부상하자 글로벌 빅테크의 인프라 하드웨어 협력망 재편이 본격화됨. 엔비디아가 고전... ͏ ",
+    "status": "published",
+    "content_file": "data/posts/2026-09-23-dc-infraops-trends-report.md"
+  },
+  {
+    "id": "2026-09-23-10min-tech-podcast",
+    "title": "[2026.09.23] [10-Min English Podcast] The Megawatt Shift: Liquid Cooling Alliances, Nuclear Uprates, and the 20GW Infrastructure Frontier",
+    "date": "2026-09-23",
+    "time": "05:57",
+    "updated": "2026-09-23 05:57",
+    "category": "Podcast",
+    "labels": [
+      "EnglishPodcast",
+      "TechEnglish",
+      "비즈니스영어",
+      "AWS",
+      "AI인프라",
+      "데이터센터",
+      "액체냉각"
+    ],
+    "summary": "🎧 10-MIN TECH ENGLISH PODCAST [2026.09.23] [10-Min English Podcast] The Megawatt Shift: Liquid Cooling Alliances, Nuclear Uprates, and the 20GW Infrastructure Frontier 오늘의 10분 심층 팟캐스트는 AI 팩토리 전력·발열 한계",
+    "status": "published",
+    "content_file": "data/posts/2026-09-23-10min-tech-podcast.md"
+  },
+  {
+    "id": "2026-09-23-infra-glossary",
+    "title": "[인프라 용어사전] L2L 냉각 (Liquid-to-Liquid Cooling) - 메가와트급 AI 데이터센터를 지탱하는 액체 대 액체 열교환 아키텍처",
+    "date": "2026-09-23",
+    "time": "05:57",
+    "updated": "2026-09-23 05:57",
+    "category": "Terminology",
+    "labels": [
+      "인프라용어사전",
+      "IT백과사전",
+      "L2L액체냉각",
+      "AWS",
+      "데이터센터"
+    ],
+    "summary": "📌 1. 30초 핵심 요약 & 개념 정의 L2L(Liquid-to-Liquid) 냉각은 고집적 IT 랙 내부의 발열체(GPU, CPU, 메모리)에서 열을 흡수한 2차 냉각 유체(IT 장비 측 루프)의 열에너지를, 냉각수 분배 장치(CDU, Coolant Distribution Unit) 내 판형 열교환기(Plate Heat Exchanger)를 통해 건물 ",
+    "status": "published",
+    "content_file": "data/posts/2026-09-23-infra-glossary.md"
+  },
+  {
+    "id": "2026-09-23-daily-infraops-briefing",
+    "title": "[2026.09.23] 오늘의 글로벌 클라우드 & 데이터센터 인프라 핵심 동향 브리핑",
+    "date": "2026-09-23",
+    "time": "05:57",
+    "updated": "2026-09-23 05:57",
+    "category": "Daily Briefing",
+    "labels": [
+      "AWS",
+      "클라우드",
+      "데이터센터",
+      "AI인프라",
+      "인프라동향",
+      "액체냉각",
+      "에너지인프라"
+    ],
+    "summary": "글로벌 클라우드 & 데이터센터 인프라 일일 브리핑 인프라 엔지니어링, 클라우드 아키텍처, 에너지 계통 및 데이터 주권 관련 주요 기술 이슈와 정책 변화를 심층 분석합니다. 📌 오늘의 3대 핵심 관전 포인트 (Key Highlights) 전력·냉각 물리적 한계 돌파를 위한 하이퍼스케일 파트너십: LG그룹이 마이크로소프트와 차세대 데이터센터 인프라 공급 협약을",
+    "status": "published",
+    "content_file": "data/posts/2026-09-23-daily-infraops-briefing.md"
+  },
+  {
     "id": "2026-09-22-august-megafarm-deepdive",
     "title": "[테크 딥다이브] 메가와트 랙 시대의 전력망 병목: 초고밀도 AI 데이터센터의 전력 배전 및 냉각 아키텍처 재설계",
     "date": "2026-09-22",
