@@ -5,7 +5,7 @@
     <link>https://ywmoon.github.io</link>
     <description>글로벌 AI 데이터센터 전력망, 냉각, 클라우드 인프라 엔지니어링 데일리 트렌드</description>
     <language>ko</language>
-    <lastBuildDate>Tue, 22 Sep 2026 05:48:55 -0000</lastBuildDate>
+    <lastBuildDate>Tue, 22 Sep 2026 20:44:21 -0000</lastBuildDate>
     <atom:link href="https://ywmoon.github.io/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
       <title>[테크 딥다이브] 메가와트 랙 시대의 전력망 병목: 초고밀도 AI 데이터센터의 전력 배전 및 냉각 아키텍처 재설계</title>
@@ -1125,7 +1125,7 @@
       <guid isPermaLink="true">https://ywmoon.github.io/article/2026-08-17-bess-battery-storage/</guid>
       <pubDate>Mon, 17 Aug 2026 00:00:00 -0000</pubDate>
       <category>Terminology</category>
-      <description>POWER &amp; INFRASTRUCTURE GLOSSARY BESS (배터리 에너지 저장 시스템) 간헐적인 신재생 에너지를 AI 클러스터의 안정적인 '기저 전력'으로 변환하는 차세대 유틸리티급 전력 아키텍처 📌 1. 30초 핵심 요약 &amp; 개념 정의 BESS(Battery Energy Storage System, 배터리 에너지 저장 시스템)는 태양광·풍력 등 </description>
+      <description>간헐적 신재생 에너지를 AI 클러스터의 안정적 기저 전력으로 변환하는 유틸리티급 BESS 아키텍처. 엔비디아-SB에너지-오픈AI의 10GW 오하이오 캠퍼스, 테슬라 메가팩 46.7GWh 배치, CAISO 12.3GW 저녁 피크 방어 및 ERCOT 실증 데이터, NFPA 855·UL 9540A 표준까지 팩트 기반 기술 총정리.</description>
     </item>
     <item>
       <title>[테크 딥다이브] '10GW AI 데이터센터'의 물리적 한계와 '컴퓨팅 금융 플랫폼': 빅테크 전력 전쟁의 패러다임 전환</title>
