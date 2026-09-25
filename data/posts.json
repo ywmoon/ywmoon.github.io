@@ -1,5 +1,113 @@
 [
   {
+    "id": "2026-09-26-daily-infraops-briefing",
+    "title": "[2026.09.26] 오늘의 글로벌 클라우드 & 데이터센터 인프라 핵심 동향 브리핑",
+    "date": "2026-09-26",
+    "time": "00:10",
+    "updated": "2026-09-26 00:10",
+    "category": "Daily Briefing",
+    "labels": [
+      "AWS",
+      "마이크로소프트",
+      "데이터센터",
+      "AI인프라",
+      "액체냉각",
+      "LG전자",
+      "엔비디아",
+      "클라우드"
+    ],
+    "summary": "📌 오늘의 3대 핵심 관전 포인트 (Key Highlights) 초대규모 AI 클러스터 확장 가속: AWS가 엔비디아와 협력하여 200만 개 규모의 추가 GPU 인프라 증설에 돌입했으며, 마이크로소프트는 지정학적 긴장 속에서도 중동 지역에 약 13조 원을 투입하고 인도 텔랑가나의 5GW 데이터센터 전력망 로드맵과 연계해 하이데라바드 클라우드 리전을 공식 가",
+    "status": "published",
+    "content_file": "data/posts/2026-09-26-daily-infraops-briefing.md"
+  },
+  {
+    "id": "2026-09-26-dc-infraops-trends-report",
+    "title": "DC InfraOps Trends - 2026년 09월 26일",
+    "date": "2026-09-26",
+    "time": "00:10",
+    "updated": "2026-09-26 00:10",
+    "category": "Newsletter",
+    "labels": [
+      "AWS",
+      "데이터센터",
+      "클라우드",
+      "AI인프라",
+      "DC-Trends",
+      "Daily-Newsletter",
+      "SMR",
+      "원전",
+      "엔비디아",
+      "액체냉각",
+      "마이크로소프트",
+      "구글",
+      "오라클",
+      "가스터빈",
+      "반도체"
+    ],
+    "summary": "Datacenter & Cloud Industry InfraOps Daily (2-Column) 1. 오라클 프로젝트 주피터 불가항력 선언과 송전망 병목발 금융 리스크 전이 공공 전력망의 극심한 송배전 적체로 준공 지연이 누적되자 빅테크 인프라 프로젝트가 계약 이행 불능에 빠지며 금융 리스크로 비화되는 양상임. 오라클이 미국 뉴멕시코주 AI 데이... ͏ ",
+    "status": "published",
+    "content_file": "data/posts/2026-09-26-dc-infraops-trends-report.md"
+  },
+  {
+    "id": "2026-09-26-august-megafarm-deepdive",
+    "title": "[테크 딥다이브] 메가와트(MW)급 액체냉각과 칠러 인프라: 랙당 100kW 시대 AI 데이터센터의 열역학적 아키텍처 전환",
+    "date": "2026-09-26",
+    "time": "00:10",
+    "updated": "2026-09-26 00:10",
+    "category": "Tech Deep Dive",
+    "labels": [
+      "테크딥다이브",
+      "액체냉각",
+      "칠러",
+      "엔비디아",
+      "마이크로소프트",
+      "데이터센터"
+    ],
+    "summary": "인공지능(AI) 워크로드의 폭증과 대규모 GPU 클러스터의 집적화는 데이터센터의 열관리 체계를 근본적으로 재편하고 있습니다. 단일 랙당 전력 밀도가 100kW를 돌파함에 따라 기존 공랭식 시스템은 물리적 한계에 봉착했으며, 칩 표면의 직접 액체냉각(Direct-to-Chip)과 메가와트(MW)급 고효율 칠러(Chiller)를 유기적으로 결합한 통합 열역학 ",
+    "status": "published",
+    "content_file": "data/posts/2026-09-26-august-megafarm-deepdive.md"
+  },
+  {
+    "id": "2026-09-26-10min-tech-podcast",
+    "title": "[2026.09.26] [10-Min English Podcast] Force Majeure Contagion in AI Power Queues, Orbital TPU Compute, Sovereign Megadeals, and the 800V DC Transition",
+    "date": "2026-09-26",
+    "time": "00:10",
+    "updated": "2026-09-26 00:10",
+    "category": "Podcast",
+    "labels": [
+      "EnglishPodcast",
+      "TechEnglish",
+      "비즈니스영어",
+      "데이터센터",
+      "AI인프라",
+      "ForceMajeure",
+      "800VDC",
+      "액체냉각"
+    ],
+    "summary": "🎧 10-MIN TECH ENGLISH PODCAST [2026.09.26] [10-Min English Podcast] Force Majeure Contagion in AI Power Queues, Orbital TPU Compute, Sovereign Megadeals, and the 800V DC Transition 오늘의 10분 심층 팟캐스트는 전력",
+    "status": "published",
+    "content_file": "data/posts/2026-09-26-10min-tech-podcast.md"
+  },
+  {
+    "id": "2026-09-26-infra-glossary",
+    "title": "[인프라 용어사전] L2A 냉각 (Liquid-to-Air Cooling) - 배관 공사 없이 AI GPU를 수랭화하는 고밀도 랙 열교환 아키텍처",
+    "date": "2026-09-26",
+    "time": "00:10",
+    "updated": "2026-09-26 00:10",
+    "category": "Terminology",
+    "labels": [
+      "인프라용어사전",
+      "IT백과사전",
+      "L2A냉각",
+      "액체냉각",
+      "AI데이터센터",
+      "AWS"
+    ],
+    "summary": "Data Center Infrastructure Tech Glossary L2A 냉각 (Liquid-to-Air Cooling) 중앙 시설 배관 공사 없이 공랭식 데이터센터에 수랭식 초고집적 AI 가속기를 즉시 도입할 수 있도록 설계된 폐루프 열교환 아키텍처 📌 1. 30초 핵심 요약 & 개념 정의 L2A(Liquid-to-Air) 냉각은 서버 랙 내부의 ",
+    "status": "published",
+    "content_file": "data/posts/2026-09-26-infra-glossary.md"
+  },
+  {
     "id": "2026-09-24-10min-tech-podcast",
     "title": "[2026.09.24] [10-Min English Podcast] High-Density Cooling Breakthroughs, SMR Nuclear Fleets, 1GW Direct AI Leases, and Rising Permitting Moratoria",
     "date": "2026-09-24",
