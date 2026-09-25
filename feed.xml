@@ -5,8 +5,48 @@
     <link>https://ywmoon.github.io</link>
     <description>글로벌 AI 데이터센터 전력망, 냉각, 클라우드 인프라 엔지니어링 데일리 트렌드</description>
     <language>ko</language>
-    <lastBuildDate>Thu, 24 Sep 2026 09:37:19 -0000</lastBuildDate>
+    <lastBuildDate>Sat, 26 Sep 2026 00:10:12 -0000</lastBuildDate>
     <atom:link href="https://ywmoon.github.io/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>[2026.09.26] 오늘의 글로벌 클라우드 &amp; 데이터센터 인프라 핵심 동향 브리핑</title>
+      <link>https://ywmoon.github.io/article/2026-09-26-daily-infraops-briefing/</link>
+      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-09-26-daily-infraops-briefing/</guid>
+      <pubDate>Sat, 26 Sep 2026 00:00:00 -0000</pubDate>
+      <category>Daily Briefing</category>
+      <description>📌 오늘의 3대 핵심 관전 포인트 (Key Highlights) 초대규모 AI 클러스터 확장 가속: AWS가 엔비디아와 협력하여 200만 개 규모의 추가 GPU 인프라 증설에 돌입했으며, 마이크로소프트는 지정학적 긴장 속에서도 중동 지역에 약 13조 원을 투입하고 인도 텔랑가나의 5GW 데이터센터 전력망 로드맵과 연계해 하이데라바드 클라우드 리전을 공식 가</description>
+    </item>
+    <item>
+      <title>DC InfraOps Trends - 2026년 09월 26일</title>
+      <link>https://ywmoon.github.io/article/2026-09-26-dc-infraops-trends-report/</link>
+      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-09-26-dc-infraops-trends-report/</guid>
+      <pubDate>Sat, 26 Sep 2026 00:00:00 -0000</pubDate>
+      <category>Newsletter</category>
+      <description>Datacenter &amp; Cloud Industry InfraOps Daily (2-Column) 1. 오라클 프로젝트 주피터 불가항력 선언과 송전망 병목발 금융 리스크 전이 공공 전력망의 극심한 송배전 적체로 준공 지연이 누적되자 빅테크 인프라 프로젝트가 계약 이행 불능에 빠지며 금융 리스크로 비화되는 양상임. 오라클이 미국 뉴멕시코주 AI 데이... ͏ </description>
+    </item>
+    <item>
+      <title>[테크 딥다이브] 메가와트(MW)급 액체냉각과 칠러 인프라: 랙당 100kW 시대 AI 데이터센터의 열역학적 아키텍처 전환</title>
+      <link>https://ywmoon.github.io/article/2026-09-26-august-megafarm-deepdive/</link>
+      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-09-26-august-megafarm-deepdive/</guid>
+      <pubDate>Sat, 26 Sep 2026 00:00:00 -0000</pubDate>
+      <category>Tech Deep Dive</category>
+      <description>인공지능(AI) 워크로드의 폭증과 대규모 GPU 클러스터의 집적화는 데이터센터의 열관리 체계를 근본적으로 재편하고 있습니다. 단일 랙당 전력 밀도가 100kW를 돌파함에 따라 기존 공랭식 시스템은 물리적 한계에 봉착했으며, 칩 표면의 직접 액체냉각(Direct-to-Chip)과 메가와트(MW)급 고효율 칠러(Chiller)를 유기적으로 결합한 통합 열역학 </description>
+    </item>
+    <item>
+      <title>[2026.09.26] [10-Min English Podcast] Force Majeure Contagion in AI Power Queues, Orbital TPU Compute, Sovereign Megadeals, and the 800V DC Transition</title>
+      <link>https://ywmoon.github.io/article/2026-09-26-10min-tech-podcast/</link>
+      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-09-26-10min-tech-podcast/</guid>
+      <pubDate>Sat, 26 Sep 2026 00:00:00 -0000</pubDate>
+      <category>Podcast</category>
+      <description>🎧 10-MIN TECH ENGLISH PODCAST [2026.09.26] [10-Min English Podcast] Force Majeure Contagion in AI Power Queues, Orbital TPU Compute, Sovereign Megadeals, and the 800V DC Transition 오늘의 10분 심층 팟캐스트는 전력</description>
+    </item>
+    <item>
+      <title>[인프라 용어사전] L2A 냉각 (Liquid-to-Air Cooling) - 배관 공사 없이 AI GPU를 수랭화하는 고밀도 랙 열교환 아키텍처</title>
+      <link>https://ywmoon.github.io/article/2026-09-26-infra-glossary/</link>
+      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-09-26-infra-glossary/</guid>
+      <pubDate>Sat, 26 Sep 2026 00:00:00 -0000</pubDate>
+      <category>Terminology</category>
+      <description>Data Center Infrastructure Tech Glossary L2A 냉각 (Liquid-to-Air Cooling) 중앙 시설 배관 공사 없이 공랭식 데이터센터에 수랭식 초고집적 AI 가속기를 즉시 도입할 수 있도록 설계된 폐루프 열교환 아키텍처 📌 1. 30초 핵심 요약 &amp; 개념 정의 L2A(Liquid-to-Air) 냉각은 서버 랙 내부의 </description>
+    </item>
     <item>
       <title>[2026.09.24] [10-Min English Podcast] High-Density Cooling Breakthroughs, SMR Nuclear Fleets, 1GW Direct AI Leases, and Rising Permitting Moratoria</title>
       <link>https://ywmoon.github.io/article/2026-09-24-10min-tech-podcast/</link>
@@ -1166,46 +1206,6 @@
       <pubDate>Tue, 18 Aug 2026 00:00:00 -0000</pubDate>
       <category>Daily Briefing</category>
       <description>Daily InfraOps Digest 글로벌 클라우드 &amp; 데이터센터 인프라 핵심 동향 브리핑 2026년 8월 18일 | 인프라 아키텍처·전력망·AI 하드웨어 심층 분석 📌 오늘의 3대 핵심 관전 포인트 (Key Highlights) 엔비디아의 인프라 금융화(Financier): 단순 칩 벤더를 넘어 OpenAI 데이터센터 대상 1,050억 달러 신용 보증</description>
-    </item>
-    <item>
-      <title>[2026.08.18] [10-Min English Podcast] The Trillion-Dollar AI Grid Pivot: Mega-Guarantees, SMR Baseload Alliances, and High-Density Thermal Frontiers</title>
-      <link>https://ywmoon.github.io/article/2026-08-18-10min-tech-podcast/</link>
-      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-08-18-10min-tech-podcast/</guid>
-      <pubDate>Tue, 18 Aug 2026 00:00:00 -0000</pubDate>
-      <category>Podcast</category>
-      <description>🎧 10-MIN TECH ENGLISH PODCAST [2026.08.18] [10-Min English Podcast] The Trillion-Dollar AI Grid Pivot: Mega-Guarantees, SMR Baseload Alliances, and High-Density Thermal Frontiers 오늘의 10분 심층 팟캐스트는 글로벌 </description>
-    </item>
-    <item>
-      <title>[인프라 용어사전] BESS (Battery Energy Storage System) - 10GW급 AI 데이터센터의 전력 병목을 해소하는 거대 에너지 저장소</title>
-      <link>https://ywmoon.github.io/article/2026-08-17-bess-battery-storage/</link>
-      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-08-17-bess-battery-storage/</guid>
-      <pubDate>Mon, 17 Aug 2026 00:00:00 -0000</pubDate>
-      <category>Terminology</category>
-      <description>간헐적 신재생 에너지를 AI 클러스터의 안정적 기저 전력으로 변환하는 유틸리티급 BESS 아키텍처. 엔비디아-SB에너지-오픈AI의 10GW 오하이오 캠퍼스, 테슬라 메가팩 46.7GWh 배치, CAISO 12.3GW 저녁 피크 방어 및 ERCOT 실증 데이터, NFPA 855·UL 9540A 표준까지 팩트 기반 기술 총정리.</description>
-    </item>
-    <item>
-      <title>[테크 딥다이브] '10GW AI 데이터센터'의 물리적 한계와 '컴퓨팅 금융 플랫폼': 빅테크 전력 전쟁의 패러다임 전환</title>
-      <link>https://ywmoon.github.io/article/2026-08-17-august-megafarm-deepdive/</link>
-      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-08-17-august-megafarm-deepdive/</guid>
-      <pubDate>Mon, 17 Aug 2026 00:00:00 -0000</pubDate>
-      <category>Tech Deep Dive</category>
-      <description>EXECUTIVE ARCHITECT BRIEFING 10GW 초거대 AI 팩토리와 GPU 금융화: 인프라 아키텍처의 한계 돌파 전략 엔비디아의 오픈AI 오하이오 10GW 프로젝트 채무 보증 축소는 단순한 재무적 조율이 아닙니다. 이는 AI 인프라 확장이 '실리콘 칩 수급' 단계에서 '국가 전력망 수용 한계'와 '수백조 원 규모의 자본 집약도(CapEx)'라</description>
-    </item>
-    <item>
-      <title>[2026.08.17] [10-Min English Podcast] Global AI Infra CapEx De-Risking, Nuclear SMR Baseload Power, and Liquid Cooling Architecture</title>
-      <link>https://ywmoon.github.io/article/2026-08-17-10min-tech-podcast/</link>
-      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-08-17-10min-tech-podcast/</guid>
-      <pubDate>Mon, 17 Aug 2026 00:00:00 -0000</pubDate>
-      <category>Podcast</category>
-      <description>🎧 10-MIN TECH ENGLISH PODCAST [2026.08.17] [10-Min English Podcast] Global AI Infra CapEx De-Risking, Nuclear SMR Baseload Power, and Liquid Cooling Architecture 오늘의 10분 심층 팟캐스트는 엔비디아의 오픈AI 금융 보증 축소 및</description>
-    </item>
-    <item>
-      <title>[2026.08.17] 오늘의 글로벌 클라우드 &amp; 데이터센터 인프라 핵심 동향 브리핑</title>
-      <link>https://ywmoon.github.io/article/2026-08-17-daily-infraops-briefing/</link>
-      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-08-17-daily-infraops-briefing/</guid>
-      <pubDate>Mon, 17 Aug 2026 00:00:00 -0000</pubDate>
-      <category>Daily Briefing</category>
-      <description>Daily InfraOps Digest 초대형 AI 팩토리 금융 리스크 관리와 하이퍼스케일러의 실전 엔터프라이즈 확장 2026년 8월 17일 | 글로벌 IT 인프라·클라우드·데이터센터 분석 리포트 📌 오늘의 3대 핵심 관전 포인트 (Key Highlights) 엔비디아의 'GPU 보증 리스크 통제'와 에너지 지분 투자: 오픈AI의 10GW 오하이오 프로젝트</description>
     </item>
   </channel>
 </rss>
