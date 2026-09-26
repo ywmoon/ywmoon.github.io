@@ -1133,12 +1133,52 @@ body {
 .dc-reader-main-col {
   flex: 1;
   min-width: 0;
-  max-width: 820px; /* 황금 가독성 독서 폭 */
+  max-width: 820px; /* 황금 가독성 독서 폭 (기본: 우측 목차 사이드바 존재 시) */
   width: 100%;
 }
 
-/* Wide Breakout for Data Tables and Diagrams */
-.dc-reader-body table {
+/* Newsletter & Raw HTML 1100px Full-Width Layout (No Sidebar) */
+.is-newsletter-mode .dc-reader-nav,
+.dc-article-reader:has(.dc-raw-html-wrapper) .dc-reader-nav {
+  max-width: 1100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.dc-reader-layout-container.is-newsletter,
+.dc-reader-layout-container:has(.dc-raw-html-wrapper) {
+  justify-content: center;
+}
+
+.dc-reader-layout-container.is-newsletter .dc-reader-sidebar,
+.dc-reader-layout-container:has(.dc-raw-html-wrapper) .dc-reader-sidebar {
+  display: none !important;
+}
+
+.dc-reader-layout-container.is-newsletter .dc-reader-main-col,
+.dc-reader-layout-container:has(.dc-raw-html-wrapper) .dc-reader-main-col {
+  max-width: 1100px !important;
+  width: 100% !important;
+  margin: 0 auto;
+}
+
+.dc-reader-layout-container.is-newsletter .dc-reader-header,
+.dc-reader-layout-container:has(.dc-raw-html-wrapper) .dc-reader-header {
+  max-width: 1100px;
+  margin: 0 auto 24px auto;
+}
+
+/* Regular posts without sidebar */
+.dc-reader-layout-container.no-sidebar .dc-reader-sidebar {
+  display: none !important;
+}
+.dc-reader-layout-container.no-sidebar .dc-reader-main-col {
+  max-width: 860px;
+  margin: 0 auto;
+}
+
+/* Wide Breakout for Data Tables and Diagrams (Exclude Raw HTML / Newsletter nested tables) */
+.dc-reader-body table:not(.responsive-outer):not([class*="responsive"]):not(.dc-raw-html-wrapper table) {
   width: 100% !important;
   max-width: 100% !important;
   margin: 22px 0 !important;
@@ -1398,14 +1438,30 @@ body {
 
 /* Raw HTML Newsletter / Email Template Container */
 .dc-raw-html-wrapper {
-  width: 100%;
-  max-width: 100%;
-  overflow-x: auto;
+  width: 100% !important;
+  max-width: 100% !important;
   box-sizing: border-box;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
 }
 
 .dc-raw-html-wrapper table {
+  box-sizing: border-box;
   max-width: 100%;
+}
+
+.dc-raw-html-wrapper table.responsive-outer,
+.dc-reader-body table.responsive-outer {
+  width: 100% !important;
+  max-width: 1100px !important;
+  margin: 0 auto !important;
+  box-sizing: border-box !important;
+}
+
+/* Reset inner newsletter tables so they don't break layout */
+.dc-raw-html-wrapper table:not(.responsive-outer) {
+  margin: 0 !important;
+  border-collapse: collapse;
 }
 
 /* ─── Google AdSense Clean Container ─── */
@@ -1856,6 +1912,57 @@ body {
 /* ==========================================================================
    Responsive Breakpoints & Mobile Optimization
    ========================================================================== */
+@media (max-width: 1140px) {
+  .dc-article-reader {
+    padding: 28px 20px;
+  }
+
+  /* Newsletter 2-Column Tables (Market Indicators & Graphs) Stack Vertically */
+  .dc-reader-body table.responsive-outer,
+  .dc-reader-body .responsive-outer,
+  table.responsive-outer {
+    width: 100% !important;
+    max-width: 100% !important;
+    min-width: 0 !important;
+    margin: 0 auto !important;
+    box-sizing: border-box !important;
+  }
+
+  .dc-reader-body td.responsive-col,
+  .dc-reader-body .responsive-col,
+  td.responsive-col {
+    display: block !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    min-width: 0 !important;
+    box-sizing: border-box !important;
+    margin-bottom: 18px !important;
+    padding: 14px 12px !important;
+    float: none !important;
+    clear: both !important;
+  }
+
+  .dc-reader-body td.responsive-spacer,
+  .dc-reader-body .responsive-spacer,
+  td.responsive-spacer {
+    display: none !important;
+    width: 0 !important;
+    height: 0 !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    border: none !important;
+  }
+
+  .dc-reader-body td.responsive-col table:not(.dc-chart-table) {
+    width: 100% !important;
+    max-width: 100% !important;
+    display: table !important;
+    border-collapse: collapse !important;
+    box-sizing: border-box !important;
+    margin: 0 !important;
+  }
+}
+
 @media (max-width: 992px) {
   .dc-nav-menu {
     display: none;
