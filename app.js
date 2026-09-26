@@ -682,6 +682,25 @@ async function openArticleView(articleId) {
   const content = await loadArticleContent(post);
   bodyEl.innerHTML = content;
 
+  // Determine if post is Newsletter or raw HTML template (1100px full width mode)
+  const isNewsletter = (post.category === 'Newsletter') || 
+                       (post.category === 'Weekly Report') || 
+                       content.includes('dc-raw-html-wrapper') || 
+                       content.includes('responsive-outer');
+  const layoutContainer = document.querySelector('.dc-reader-layout-container');
+  if (isNewsletter) {
+    reader.classList.add('is-newsletter-mode');
+    if (layoutContainer) {
+      layoutContainer.classList.add('is-newsletter');
+      layoutContainer.classList.remove('has-sidebar');
+    }
+  } else {
+    reader.classList.remove('is-newsletter-mode');
+    if (layoutContainer) {
+      layoutContainer.classList.remove('is-newsletter');
+    }
+  }
+
   // 1. Calculate reading time & character count
   try {
     const plainText = content.replace(/<[^>]+>/g, ' ').replace(/\s+/g, ' ').trim();
@@ -929,14 +948,35 @@ function buildTableOfContents(bodyEl) {
   const mobileList = document.getElementById('reader-mobile-toc-list');
   const sidebarEl = document.getElementById('reader-desktop-sidebar');
   const sidebarList = document.getElementById('sidebar-toc-list');
+  const layoutContainer = document.querySelector('.dc-reader-layout-container');
+
+  // If newsletter mode, always keep sidebar hidden so 1100px layout stays clean
+  const reader = document.getElementById('article-reader-section');
+  if (reader && reader.classList.contains('is-newsletter-mode')) {
+    if (mobileBox) mobileBox.style.display = 'none';
+    if (sidebarEl) sidebarEl.style.display = 'none';
+    if (layoutContainer) {
+      layoutContainer.classList.remove('has-sidebar');
+      layoutContainer.classList.add('is-newsletter');
+    }
+    return;
+  }
 
   const headings = bodyEl.querySelectorAll('h2, h3, h4');
   if (headings.length < 2) {
     if (mobileBox) mobileBox.style.display = 'none';
     if (sidebarEl) sidebarEl.style.display = 'none';
+    if (layoutContainer) {
+      layoutContainer.classList.add('no-sidebar');
+      layoutContainer.classList.remove('has-sidebar');
+    }
     return;
   }
 
+  if (layoutContainer) {
+    layoutContainer.classList.remove('no-sidebar');
+    layoutContainer.classList.add('has-sidebar');
+  }
   if (sidebarEl) sidebarEl.style.display = 'block';
   if (mobileBox) mobileBox.style.display = 'block';
 
