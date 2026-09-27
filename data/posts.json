@@ -1,5 +1,112 @@
 [
   {
+    "id": "2026-09-28-dc-infraops-trends-report",
+    "title": "DC InfraOps Trends - 2026년 09월 28일",
+    "date": "2026-09-28",
+    "time": "05:59",
+    "updated": "2026-09-28 05:59",
+    "category": "Newsletter",
+    "labels": [
+      "AWS",
+      "데이터센터",
+      "클라우드",
+      "AI인프라",
+      "DC-Trends",
+      "Daily-Newsletter",
+      "SMR",
+      "원전",
+      "엔비디아",
+      "액체냉각",
+      "전력망",
+      "마이크로소프트",
+      "구글",
+      "오라클",
+      "신재생에너지"
+    ],
+    "summary": "Datacenter & Cloud Industry InfraOps Daily (2-Column) 1. 러시아의 우크라이나 데이터센터 군사 타격과 물리적 인프라 안보화 현대 하이브리드전에서 데이터센터가 군사적 표적으로 급부상하며 물리적 인프라 방호가 국가 안보의 선결 과제로 직결됨. 러시아군이 우크라이나 기간 통신망을 겨냥해 미사일·드론 공습을 단... ͏ ",
+    "status": "published",
+    "content_file": "data/posts/2026-09-28-dc-infraops-trends-report.md"
+  },
+  {
+    "id": "2026-09-28-august-megafarm-deepdive",
+    "title": "[테크 딥다이브] 100kW 랙 밀도의 열역학적 한계와 액체냉각 표준화: 엔비디아 '칩 투 칠러' 생태계와 차세대 데이터센터 아키텍처",
+    "date": "2026-09-28",
+    "time": "05:59",
+    "updated": "2026-09-28 05:59",
+    "category": "Tech Deep Dive",
+    "labels": [
+      "테크딥다이브",
+      "액체냉각",
+      "엔비디아",
+      "AWS",
+      "데이터센터"
+    ],
+    "summary": "핵심 요약: 인공지능(AI) 가속기 클러스터의 전력 밀도가 랙당 100kW를 초과하면서 수십 년간 데이터센터를 지탱해 온 공랭식 냉각 체계가 물리적 한계에 봉착했습니다. 엔비디아가 하드웨어 파트너십을 통해 냉각수 분배 장치(CDU)와 칠러를 아우르는 규격을 정립하고, LG전자가 'DSX 레디' 인증을 획득하며 엔터프라이즈 냉각 공급망에 진입한 것은 단순한 ",
+    "status": "published",
+    "content_file": "data/posts/2026-09-28-august-megafarm-deepdive.md"
+  },
+  {
+    "id": "2026-09-28-10min-tech-podcast",
+    "title": "[2026.09.28] [10-Min English Podcast] Physical Warfare Hardening, Amazon's $8B Generator Warrants, and Mega-Watt Liquid Cooling",
+    "date": "2026-09-28",
+    "time": "05:59",
+    "updated": "2026-09-28 05:59",
+    "category": "Podcast",
+    "labels": [
+      "EnglishPodcast",
+      "TechEnglish",
+      "비즈니스영어",
+      "AWS",
+      "AI인프라",
+      "데이터센터",
+      "액체냉각"
+    ],
+    "summary": "🎧 10-MIN TECH ENGLISH PODCAST [2026.09.28] [10-Min English Podcast] Physical Warfare Hardening, Amazon's $8B Generator Warrants, and Mega-Watt Liquid Cooling 오늘의 10분 심층 팟캐스트는 현대 하이브리드전에서 군사 표적으로 부상한 우",
+    "status": "published",
+    "content_file": "data/posts/2026-09-28-10min-tech-podcast.md"
+  },
+  {
+    "id": "2026-09-28-infra-glossary",
+    "title": "[인프라 용어사전] 칠러 (Chiller) - AI 고밀도 데이터센터의 열을 외부로 방출하는 중앙 냉각 플랜트의 심장",
+    "date": "2026-09-28",
+    "time": "05:59",
+    "updated": "2026-09-28 05:59",
+    "category": "Terminology",
+    "labels": [
+      "인프라용어사전",
+      "IT백과사전",
+      "칠러",
+      "엔비디아",
+      "데이터센터"
+    ],
+    "summary": "냉각 인프라 아키텍처 칠러 (Chiller) : 중앙 냉동 설비 초고집적 AI 랙에서 발생한 대규모 열에너지를 냉매 사이클을 통해 외부로 방출하고, 정밀하게 제어된 저온 냉수를 공급하는 중앙 냉각 플랜트의 핵심 장비 📌 1. 30초 핵심 요약 & 개념 정의 데이터센터 칠러(Chiller, 냉동기)는 상변화(Phase Change) 냉매 사이클을 활용하여 열",
+    "status": "published",
+    "content_file": "data/posts/2026-09-28-infra-glossary.md"
+  },
+  {
+    "id": "2026-09-28-daily-infraops-briefing",
+    "title": "[2026.09.28] 데일리 인프라 종합 리포트: 칩 투 칠러 액체냉각 승인부터 아마존-제너랙 80억 달러 전력망 계약까지",
+    "date": "2026-09-28",
+    "time": "05:59",
+    "updated": "2026-09-28 05:59",
+    "category": "Daily Briefing",
+    "labels": [
+      "데이터센터",
+      "액체냉각",
+      "전력인프라",
+      "엔비디아",
+      "LG전자",
+      "아마존",
+      "제너랙",
+      "구글",
+      "마이크로소프트",
+      "클라우드"
+    ],
+    "summary": "Daily InfraOps Digest 글로벌 AI 데이터센터 인프라 동향: 메가와트급 열관리 표준화와 전력 기자재 공급망 선점 경쟁 발행일: 2026년 9월 28일 | 테크 에디터 인프라 분석팀 📌 오늘의 3대 핵심 관전 포인트 (Key Highlights) 액체냉각 생태계 표준화 진입: LG전자가 엔비디아 파트너 네트워크(NPN)의 Preferred 파",
+    "status": "published",
+    "content_file": "data/posts/2026-09-28-daily-infraops-briefing.md"
+  },
+  {
     "id": "2026-09-26-daily-infraops-briefing",
     "title": "[2026.09.26] 오늘의 글로벌 클라우드 & 데이터센터 인프라 핵심 동향 브리핑",
     "date": "2026-09-26",
