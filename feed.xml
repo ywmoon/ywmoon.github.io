@@ -5,8 +5,48 @@
     <link>https://ywmoon.github.io</link>
     <description>글로벌 AI 데이터센터 전력망, 냉각, 클라우드 인프라 엔지니어링 데일리 트렌드</description>
     <language>ko</language>
-    <lastBuildDate>Mon, 28 Sep 2026 05:59:53 -0000</lastBuildDate>
+    <lastBuildDate>Tue, 29 Sep 2026 05:53:01 -0000</lastBuildDate>
     <atom:link href="https://ywmoon.github.io/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>[인프라 용어사전] 랙 스케일 아키텍처 (Rack-Scale Architecture) - 개별 서버를 넘어 랙 전체를 단일 컴퓨터로 통합하는 초고밀도 AI 인프라의 표준</title>
+      <link>https://ywmoon.github.io/article/2026-09-29-infra-glossary/</link>
+      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-09-29-infra-glossary/</guid>
+      <pubDate>Tue, 29 Sep 2026 00:00:00 -0000</pubDate>
+      <category>Terminology</category>
+      <description>1일 1 IT 인프라 용어사전 랙 스케일 아키텍처 (Rack-Scale Architecture) 개별 1U/2U 서버 섀시 단위를 탈피하여 랙(Rack) 전체를 단일 컴퓨팅 노드로 묶어내는 차세대 초고밀도 인프라 엔지니어링 패러다임 📌 1. 30초 핵심 요약 &amp; 개념 정의 직관적 비유: 과거의 데이터센터가 개별 PC 수십 대를 책상 위에 올려두고 랜선으로 </description>
+    </item>
+    <item>
+      <title>[테크 딥다이브] 전력 계통 연계 5년 병목과 오프그리드 아키텍처: 빅테크가 현장 발전과 궤도 컴퓨팅으로 눈을 돌리는 공학적 이유</title>
+      <link>https://ywmoon.github.io/article/2026-09-29-august-megafarm-deepdive/</link>
+      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-09-29-august-megafarm-deepdive/</guid>
+      <pubDate>Tue, 29 Sep 2026 00:00:00 -0000</pubDate>
+      <category>Tech Deep Dive</category>
+      <description>Executive Summary: 인공지능 가속기 클러스터의 전력 수요가 기가와트(GW) 단위로 급증하면서, 공공 유틸리티 전력망의 계통 연계 사전 검토(Interconnection Queue)에만 4~7년이 소요되는 물리적 병목이 현실화되었습니다. 반도체 조달 주기(6~12개월)와 전력망 인입 주기 간의 극심한 시차는 빅테크 기업들로 하여금 송전망을 경유</description>
+    </item>
+    <item>
+      <title>[2026.09.29] [10-Min English Podcast] High-Density Liquid Cooling DBO Standard, ASEAN Power Clash, and the Grid Saturation Shock</title>
+      <link>https://ywmoon.github.io/article/2026-09-29-10min-tech-podcast/</link>
+      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-09-29-10min-tech-podcast/</guid>
+      <pubDate>Tue, 29 Sep 2026 00:00:00 -0000</pubDate>
+      <category>Podcast</category>
+      <description>🎧 10-MIN TECH ENGLISH PODCAST [2026.09.29] [10-Min English Podcast] High-Density Liquid Cooling DBO Standard, ASEAN Power Clash, and the Grid Saturation Shock 오늘의 10분 심층 팟캐스트는 현대엔지니어링의 8,700억 원 규모 군산 </description>
+    </item>
+    <item>
+      <title>[2026.09.29] 오늘의 글로벌 클라우드 &amp; 데이터센터 인프라 핵심 동향 브리핑</title>
+      <link>https://ywmoon.github.io/article/2026-09-29-daily-infraops-briefing/</link>
+      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-09-29-daily-infraops-briefing/</guid>
+      <pubDate>Tue, 29 Sep 2026 00:00:00 -0000</pubDate>
+      <category>Daily Briefing</category>
+      <description>2026년 9월 29일, 글로벌 클라우드 및 데이터센터 인프라 분야에서는 전력 계통 연계 병목을 해소하기 위한 대체 부지·발전 모델 도입, 차세대 가속기 클러스터 확장에 수반되는 고밀도 전력·열관리 밸류체인 재편, 그리고 인프라 확장에 따른 지자체 조세 혜택 검증 및 지역 사회 수용성 리스크가 주요 의제로 부각되었습니다. 오늘 수집된 주요 소식을 바탕으로 </description>
+    </item>
+    <item>
+      <title>DC InfraOps Trends - 2026년 09월 29일</title>
+      <link>https://ywmoon.github.io/article/2026-09-29-dc-infraops-trends-report/</link>
+      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-09-29-dc-infraops-trends-report/</guid>
+      <pubDate>Tue, 29 Sep 2026 00:00:00 -0000</pubDate>
+      <category>Newsletter</category>
+      <description>Datacenter &amp; Cloud Industry InfraOps Daily (2-Column) 1. 군산 8700억 베라 루빈 대응 AIDC 착공과 차세대 액체냉각 DBO 모델 안착 엔비디아 차세대 가속기 도입에 맞춰 글로벌 시장에서 고밀도 랙 배치가 가속화되는 가운데, 필리핀 YCO 클라우드가 아올라니와 1만 장 이상의 블랙웰 울트라 GPU ... ͏ </description>
+    </item>
     <item>
       <title>DC InfraOps Trends - 2026년 09월 28일</title>
       <link>https://ywmoon.github.io/article/2026-09-28-dc-infraops-trends-report/</link>
@@ -1166,46 +1206,6 @@
       <pubDate>Thu, 20 Aug 2026 00:00:00 -0000</pubDate>
       <category>Terminology</category>
       <description>냉각 인프라 아키텍처 CDU (Coolant Distribution Unit, 냉각수 분배 장치) 랙당 100kW가 넘는 블랙웰(B200) 시대를 지탱하는 유체 순환과 열교환의 중앙 관제 센터 📌 1. 30초 핵심 요약 &amp; 개념 정의 CDU(Coolant Distribution Unit, 냉각수 분배 장치)는 고밀도 AI 데이터센터의 액체 냉각(Liquid</description>
-    </item>
-    <item>
-      <title>[테크 딥다이브] 랙당 100kW 시대의 필연적 선택: 블랙웰(Blackwell) B200 7,656장 집약과 D2C 액체 냉각 아키텍처의 열역학적 진화</title>
-      <link>https://ywmoon.github.io/article/2026-08-20-august-megafarm-deepdive/</link>
-      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-08-20-august-megafarm-deepdive/</guid>
-      <pubDate>Thu, 20 Aug 2026 00:00:00 -0000</pubDate>
-      <category>Tech Deep Dive</category>
-      <description>Architecture Deep Dive 공랭의 물리적 한계 돌파: B200 초대규모 클러스터와 액체 냉각(Liquid Cooling) 인프라 대전환 초거대 AI 모델의 파라미터 폭증과 엔비디아 블랙웰(Blackwell) 아키텍처 도입은 데이터센터 랙당 전력 밀도를 100kW 이상으로 끌어올렸습니다. 7,656장에 달하는 B200 GPU를 단일 클러스터로 </description>
-    </item>
-    <item>
-      <title>[2026.08.19] 오늘의 글로벌 클라우드 &amp; 데이터센터 인프라 핵심 동향 브리핑</title>
-      <link>https://ywmoon.github.io/article/2026-08-19-daily-infraops-briefing/</link>
-      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-08-19-daily-infraops-briefing/</guid>
-      <pubDate>Wed, 19 Aug 2026 00:00:00 -0000</pubDate>
-      <category>Daily Briefing</category>
-      <description>Daily InfraOps Digest 글로벌 클라우드 &amp; 데이터센터 인프라 핵심 브리핑 발행일: 2026년 8월 19일 | 작성: 수석 테크 에디터 📌 오늘의 3대 핵심 관전 포인트 (Key Highlights) 엔비디아, 오픈AI DC에 1050억 달러(약 150조 원) 초대형 지원: 젠슨 황 CEO가 '순환금융(Circular Financing)' 논</description>
-    </item>
-    <item>
-      <title>[테크 딥다이브] '모델 경쟁'에서 '에이전트 거버넌스'로: 엔터프라이즈 멀티 에이전트 오케스트레이션과 인프라 아키텍처의 패러다임 전환</title>
-      <link>https://ywmoon.github.io/article/2026-08-19-august-megafarm-deepdive/</link>
-      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-08-19-august-megafarm-deepdive/</guid>
-      <pubDate>Wed, 19 Aug 2026 00:00:00 -0000</pubDate>
-      <category>Tech Deep Dive</category>
-      <description>Infrastructure Deep Dive 엔터프라이즈 AI의 2막: 수십만 자율 에이전트 생태계를 지탱하는 거버넌스 패브릭(Fabric)과 인프라 혁신 단일 거대언어모델(LLM) 파라미터 경쟁을 넘어, 수천·수만 개의 이기종 에이전트가 협업하는 분산 오케스트레이션 환경에서의 보안, 감사 추적, TCO 최적화 아키텍처를 심층 분석합니다. 🚀 서론: 기술 </description>
-    </item>
-    <item>
-      <title>[인프라 용어사전] D2C 액체냉각 (Direct-to-Chip Liquid Cooling) - 랙당 100kW+ AI 하이퍼스케일 시대를 여는 칩 직냉 기술</title>
-      <link>https://ywmoon.github.io/article/2026-08-19-infra-glossary/</link>
-      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-08-19-infra-glossary/</guid>
-      <pubDate>Wed, 19 Aug 2026 00:00:00 -0000</pubDate>
-      <category>Terminology</category>
-      <description>데이터센터 열관리 &amp; 하드웨어 아키텍처 D2C 액체냉각 (Direct-to-Chip Cooling) 고발열 차세대 AI 가속기(GPU/NPU) 표면에 콜드플레이트를 직접 밀착시켜 냉각수를 순환시키는 고효율 열교환 인프라 기술 📌 1. 30초 핵심 요약 &amp; 개념 정의 D2C(Direct-to-Chip, 직접 칩 냉각) 기술은 공기로 서버 내부 전체를 식히는 </description>
-    </item>
-    <item>
-      <title>DC InfraOps Trends - 2026년 08월 19일</title>
-      <link>https://ywmoon.github.io/article/2026-08-19-dc-infraops-trends-report/</link>
-      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-08-19-dc-infraops-trends-report/</guid>
-      <pubDate>Wed, 19 Aug 2026 00:00:00 -0000</pubDate>
-      <category>Newsletter</category>
-      <description>Datacenter &amp; Cloud Industry InfraOps Daily (2-Column) DAILY DIGEST Datacenter &amp; Cloud Industry InfraOps Daily 2026년 08월 19일 (수) 💡 AI Executive Summary: Key News Insights 글로벌 빅테크의 AI 인프라 확장이 거점 다변화와 클라</description>
     </item>
   </channel>
 </rss>
