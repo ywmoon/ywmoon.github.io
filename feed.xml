@@ -5,8 +5,48 @@
     <link>https://ywmoon.github.io</link>
     <description>글로벌 AI 데이터센터 전력망, 냉각, 클라우드 인프라 엔지니어링 데일리 트렌드</description>
     <language>ko</language>
-    <lastBuildDate>Tue, 29 Sep 2026 05:53:01 -0000</lastBuildDate>
+    <lastBuildDate>Wed, 30 Sep 2026 05:54:18 -0000</lastBuildDate>
     <atom:link href="https://ywmoon.github.io/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>[2026.09.30] 오늘의 글로벌 클라우드 &amp; 데이터센터 인프라 핵심 동향 브리핑</title>
+      <link>https://ywmoon.github.io/article/2026-09-30-daily-infraops-briefing/</link>
+      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-09-30-daily-infraops-briefing/</guid>
+      <pubDate>Wed, 30 Sep 2026 00:00:00 -0000</pubDate>
+      <category>Daily Briefing</category>
+      <description>📌 오늘의 3대 핵심 관전 포인트 (Key Highlights) 국방·안보 클라우드의 공통 표준화 (AWS, NATO 전 회원국 ‘제한 등급’ 최초 승인): 퍼블릭 클라우드 기업 최초로 북대서양조약기구(NATO) 전 회원국에서 'NATO 제한(NR)' 등급 기밀 데이터를 처리할 수 있는 D32 규격 승인을 획득했습니다. 나토 32개국 전역의 15개 리전(유</description>
+    </item>
+    <item>
+      <title>DC InfraOps Trends - 2026년 09월 30일</title>
+      <link>https://ywmoon.github.io/article/2026-09-30-dc-infraops-trends-report/</link>
+      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-09-30-dc-infraops-trends-report/</guid>
+      <pubDate>Wed, 30 Sep 2026 00:00:00 -0000</pubDate>
+      <category>Newsletter</category>
+      <description>Datacenter &amp; Cloud Industry InfraOps Daily (2-Column) 1. 삼성 6개사의 美 헬릭스 10억 달러 투자와 풀스택 인프라 동맹 구축 글로벌 AI 데이터센터 건설 수요가 급증하는 가운데 삼성전자와 삼성물산 등 삼성 6개 계열사가 미국 차세대 AI 인프라 기업 헬릭스(Helix)에 총 10억 달러(약 1조 3,... ͏ </description>
+    </item>
+    <item>
+      <title>[테크 딥다이브] 에어갭 폐쇄망의 종언: AWS의 NATO 기밀 승인과 소버린 기밀 컴퓨팅(TSE) 아키텍처 분석</title>
+      <link>https://ywmoon.github.io/article/2026-09-30-august-megafarm-deepdive/</link>
+      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-09-30-august-megafarm-deepdive/</guid>
+      <pubDate>Wed, 30 Sep 2026 00:00:00 -0000</pubDate>
+      <category>Tech Deep Dive</category>
+      <description>글로벌 국방 및 국가 안보 환경에서 퍼블릭 클라우드는 오랫동안 도입 배제의 대상이었습니다. 멀티테넌트(Multi-tenant) 가상화 구조에서 발생할 수 있는 잠재적 사이드채널 공격, 물리적 데이터 저장 위치의 모호성, 그리고 외교적 관할권 충돌 문제는 민감 데이터를 다루는 군사 조직이 상용 인프라를 기피하게 만든 핵심 요인이었습니다. 그러나 최근 북대서양</description>
+    </item>
+    <item>
+      <title>[2026.09.30] [10-Min English Podcast] Full-Stack Turnkey Alliances, Sovereign Defense Cloud, Nuclear SMR Licensing, and 800V DC Infrastructure</title>
+      <link>https://ywmoon.github.io/article/2026-09-30-10min-tech-podcast/</link>
+      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-09-30-10min-tech-podcast/</guid>
+      <pubDate>Wed, 30 Sep 2026 00:00:00 -0000</pubDate>
+      <category>Podcast</category>
+      <description>🎧 10-MIN TECH ENGLISH PODCAST [2026.09.30] [10-Min English Podcast] Full-Stack Turnkey Alliances, Sovereign Defense Cloud, Nuclear SMR Licensing, and 800V DC Infrastructure 오늘의 10분 심층 팟캐스트는 글로벌 AI 인프라</description>
+    </item>
+    <item>
+      <title>[인프라 용어사전] 기밀 컴퓨팅 (Confidential Computing) - 데이터 사용 중(In-Use) 메모리 암호화와 하드웨어 기반 제로 트러스트</title>
+      <link>https://ywmoon.github.io/article/2026-09-30-infra-glossary/</link>
+      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-09-30-infra-glossary/</guid>
+      <pubDate>Wed, 30 Sep 2026 00:00:00 -0000</pubDate>
+      <category>Terminology</category>
+      <description>📌 1. 30초 핵심 요약 &amp; 개념 정의 직관적 비유: 호텔 객실에 개인 금고를 설치해 문서를 보관(저장 데이터 암호화)하고, 복도에 경호원을 배치해 운반(전송 데이터 암호화)하더라도, 투숙객이 책상 위에 문서를 펼쳐놓고 읽는 순간(처리 중 데이터)에는 몰래카메라나 마스터키를 쥔 호텔 관리자의 시선에 무방비로 노출될 수 있습니다. 기밀 컴퓨팅(Confide</description>
+    </item>
     <item>
       <title>[인프라 용어사전] 랙 스케일 아키텍처 (Rack-Scale Architecture) - 개별 서버를 넘어 랙 전체를 단일 컴퓨터로 통합하는 초고밀도 AI 인프라의 표준</title>
       <link>https://ywmoon.github.io/article/2026-09-29-infra-glossary/</link>
@@ -1166,46 +1206,6 @@
       <pubDate>Fri, 21 Aug 2026 00:00:00 -0000</pubDate>
       <category>Terminology</category>
       <description>Infrastructure Glossary WUE (Water Usage Effectiveness, 수자원 사용 효율) PUE를 넘어 초고집적 AI 데이터센터의 환경 지속가능성을 평가하는 글로벌 냉각 용수 측정 표준 📌 1. 30초 핵심 요약 &amp; 개념 정의 WUE(Water Usage Effectiveness, 수자원 사용 효율)는 데이터센터가 IT 장비(</description>
-    </item>
-    <item>
-      <title>열을 잡는 자가 AI를 잡는다 — 데이터센터 냉각 기술의 부상과 글로벌 인프라 대전환</title>
-      <link>https://ywmoon.github.io/article/2026-08-20-samilpwc-dc-cooling-industry/</link>
-      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-08-20-samilpwc-dc-cooling-industry/</guid>
-      <pubDate>Thu, 20 Aug 2026 00:00:00 -0000</pubDate>
-      <category>Tech Deep Dive</category>
-      <description>AI 경쟁의 병목은 GPU 확보에서 전력과 열 관리 능력으로 이동했습니다. 삼일 PwC의 49페이지 심층 리포트와 글로벌 최신 연구를 바탕으로 액체냉각(D2C), 액침냉각, 1MW 랙 밀도, M&amp;A 총력전, K-냉각 생존 전략을 분석합니다.</description>
-    </item>
-    <item>
-      <title>[2026.08.20] 오늘의 글로벌 클라우드 &amp; 데이터센터 인프라 핵심 동향 브리핑</title>
-      <link>https://ywmoon.github.io/article/2026-08-20-daily-infraops-briefing/</link>
-      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-08-20-daily-infraops-briefing/</guid>
-      <pubDate>Thu, 20 Aug 2026 00:00:00 -0000</pubDate>
-      <category>Daily Briefing</category>
-      <description>Daily InfraOps Digest 2026년 8월 20일 글로벌 클라우드 &amp; 데이터센터 인프라 브리핑 엔터프라이즈 멀티클라우드 통합, 초대형 GPU 팩토리 가동, 차세대 데이터센터 냉각 설비 및 노르딕 청정에너지 허브 분석 📌 오늘의 3대 핵심 관전 포인트 (Key Highlights) 하이브리드·멀티클라우드 표준화 가속: 오라클과 AWS의 심층 연동</description>
-    </item>
-    <item>
-      <title>[2026.08.20] [10-Min English Podcast] The Hyper-Dense Compute Frontier: SMR Alliances, Direct-to-Chip Thermal Scaling, and Gridlock Politics</title>
-      <link>https://ywmoon.github.io/article/2026-08-20-10min-tech-podcast/</link>
-      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-08-20-10min-tech-podcast/</guid>
-      <pubDate>Thu, 20 Aug 2026 00:00:00 -0000</pubDate>
-      <category>Podcast</category>
-      <description>🎧 10-MIN TECH ENGLISH PODCAST [2026.08.20] [10-Min English Podcast] The Hyper-Dense Compute Frontier: SMR Alliances, Direct-to-Chip Thermal Scaling, and Gridlock Politics 오늘의 10분 심층 팟캐스트는 구글의 오클라호마 50</description>
-    </item>
-    <item>
-      <title>DC InfraOps Trends - 2026년 08월 20일</title>
-      <link>https://ywmoon.github.io/article/2026-08-20-dc-infraops-trends-report/</link>
-      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-08-20-dc-infraops-trends-report/</guid>
-      <pubDate>Thu, 20 Aug 2026 00:00:00 -0000</pubDate>
-      <category>Newsletter</category>
-      <description>Datacenter &amp; Cloud Industry InfraOps Daily (2-Column) DAILY DIGEST Datacenter &amp; Cloud Industry InfraOps Daily 2026년 08월 20일 (목) 💡 AI Executive Summary: Key News Insights 글로벌 빅테크의 AI 인프라 투자가 초대형 하이퍼스케일</description>
-    </item>
-    <item>
-      <title>[인프라 용어사전] CDU (Coolant Distribution Unit) - 초거대 AI 데이터센터 수랭 혁신의 심장</title>
-      <link>https://ywmoon.github.io/article/2026-08-20-infra-glossary/</link>
-      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-08-20-infra-glossary/</guid>
-      <pubDate>Thu, 20 Aug 2026 00:00:00 -0000</pubDate>
-      <category>Terminology</category>
-      <description>냉각 인프라 아키텍처 CDU (Coolant Distribution Unit, 냉각수 분배 장치) 랙당 100kW가 넘는 블랙웰(B200) 시대를 지탱하는 유체 순환과 열교환의 중앙 관제 센터 📌 1. 30초 핵심 요약 &amp; 개념 정의 CDU(Coolant Distribution Unit, 냉각수 분배 장치)는 고밀도 AI 데이터센터의 액체 냉각(Liquid</description>
     </item>
   </channel>
 </rss>
