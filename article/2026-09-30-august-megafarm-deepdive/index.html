@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>[테크 딥다이브] 에어갭 폐쇄망의 종언: AWS의 NATO 기밀 승인과 소버린 기밀 컴퓨팅(TSE) 아키텍처 분석</title>
+  <meta name="description" content="글로벌 국방 및 국가 안보 환경에서 퍼블릭 클라우드는 오랫동안 도입 배제의 대상이었습니다. 멀티테넌트(Multi-tenant) 가상화 구조에서 발생할 수 있는 잠재적 사이드채널 공격, 물리적 데이터 저장 위치의 모호성, 그리고 외교적 관할권 충돌 문제는 민감 데이터를 다루는 군사 조직이 상용 인프라를 기피하게 만든 핵심 요인이었습니다. 그러나 최근 북대서양" />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://ywmoon.github.io/article/2026-09-30-august-megafarm-deepdive/" />
+  <!-- OpenGraph -->
+  <meta property="og:type" content="article" />
+  <meta property="og:title" content="[테크 딥다이브] 에어갭 폐쇄망의 종언: AWS의 NATO 기밀 승인과 소버린 기밀 컴퓨팅(TSE) 아키텍처 분석" />
+  <meta property="og:description" content="글로벌 국방 및 국가 안보 환경에서 퍼블릭 클라우드는 오랫동안 도입 배제의 대상이었습니다. 멀티테넌트(Multi-tenant) 가상화 구조에서 발생할 수 있는 잠재적 사이드채널 공격, 물리적 데이터 저장 위치의 모호성, 그리고 외교적 관할권 충돌 문제는 민감 데이터를 다루는 군사 조직이 상용 인프라를 기피하게 만든 핵심 요인이었습니다. 그러나 최근 북대서양" />
+  <meta property="og:url" content="https://ywmoon.github.io/article/2026-09-30-august-megafarm-deepdive/" />
+  <meta property="og:image" content="https://ywmoon.github.io/assets/avatar.jpg" />
+  <meta property="og:site_name" content="Datacenter InfraOps &amp; Cloud Industry Notes" />
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="[테크 딥다이브] 에어갭 폐쇄망의 종언: AWS의 NATO 기밀 승인과 소버린 기밀 컴퓨팅(TSE) 아키텍처 분석" />
+  <meta name="twitter:description" content="글로벌 국방 및 국가 안보 환경에서 퍼블릭 클라우드는 오랫동안 도입 배제의 대상이었습니다. 멀티테넌트(Multi-tenant) 가상화 구조에서 발생할 수 있는 잠재적 사이드채널 공격, 물리적 데이터 저장 위치의 모호성, 그리고 외교적 관할권 충돌 문제는 민감 데이터를 다루는 군사 조직이 상용 인프라를 기피하게 만든 핵심 요인이었습니다. 그러나 최근 북대서양" />
+  <meta name="twitter:image" content="https://ywmoon.github.io/assets/avatar.jpg" />
+  <!-- Structured Data: Google Schema.org (Article) -->
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "TechArticle",
+  "headline": "[테크 딥다이브] 에어갭 폐쇄망의 종언: AWS의 NATO 기밀 승인과 소버린 기밀 컴퓨팅(TSE) 아키텍처 분석",
+  "description": "글로벌 국방 및 국가 안보 환경에서 퍼블릭 클라우드는 오랫동안 도입 배제의 대상이었습니다. 멀티테넌트(Multi-tenant) 가상화 구조에서 발생할 수 있는 잠재적 사이드채널 공격, 물리적 데이터 저장 위치의 모호성, 그리고 외교적 관할권 충돌 문제는 민감 데이터를 다루는 군사 조직이 상용 인프라를 기피하게 만든 핵심 요인이었습니다. 그러나 최근 북대서양",
+  "datePublished": "2026-09-30T05:54:00+09:00",
+  "dateModified": "2026-09-30 05:54:00+09:00",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://ywmoon.github.io/article/2026-09-30-august-megafarm-deepdive/"
+  },
+  "author": {
+    "@type": "Person",
+    "name": "James Moon (문연욱)",
+    "jobTitle": "AWS Data Center Engineering Operations Cluster Manager",
+    "url": "https://www.linkedin.com/in/ywmoon"
+  },
+  "publisher": {
+    "@type": "Person",
+    "name": "James Moon",
+    "url": "https://ywmoon.github.io",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://ywmoon.github.io/assets/avatar.jpg"
+    }
+  },
+  "image": "https://ywmoon.github.io/assets/avatar.jpg",
+  "keywords": "테크딥다이브, 소버린클라우드, 기밀컴퓨팅, AWS, 데이터센터"
+}
+  </script>
+  <!-- Instant redirect for real users -->
+  <meta http-equiv="refresh" content="0; url=https://ywmoon.github.io/#article/2026-09-30-august-megafarm-deepdive" />
+  <script>window.location.replace('https://ywmoon.github.io/#article/2026-09-30-august-megafarm-deepdive');</script>
+</head>
+<body></body>
+</html>
