@@ -1,5 +1,112 @@
 [
   {
+    "id": "2026-10-01-infra-glossary",
+    "title": "[인프라 용어사전] 인컨트리 추론 (In-Country Inferencing) - 데이터 주권과 규제 장벽을 넘는 국경 완결형 AI 아키텍처",
+    "date": "2026-10-01",
+    "time": "05:54",
+    "updated": "2026-10-01 05:54",
+    "category": "Terminology",
+    "labels": [
+      "인프라용어사전",
+      "IT백과사전",
+      "인컨트리추론",
+      "AWS",
+      "데이터센터"
+    ],
+    "summary": "Cloud & AI Infrastructure 인컨트리 추론 (In-Country Inferencing) 데이터 국외 반출을 원천 차단하고 지정된 국가 리전 경계 내에서 AI 모델 가중치와 연산 파이프라인을 100% 완결하는 엔터프라이즈 인프라 기술 📌 1. 30초 핵심 요약 & 개념 정의 💡 비유로 이해하기 해외 본사나 지사로 기밀 서류 원본을 발송해 결",
+    "status": "published",
+    "content_file": "data/posts/2026-10-01-infra-glossary.md"
+  },
+  {
+    "id": "2026-10-01-august-megafarm-deepdive",
+    "title": "[테크 딥다이브] 소버린 AI와 로컬 인-플레이스 추론 아키텍처: 데이터 주권·네트워크 지연 한계 극복을 위한 하이퍼스케일러의 인프라 전환",
+    "date": "2026-10-01",
+    "time": "05:54",
+    "updated": "2026-10-01 05:54",
+    "category": "Tech Deep Dive",
+    "labels": [
+      "테크딥다이브",
+      "소버린AI",
+      "인리전추론",
+      "AWS",
+      "데이터센터"
+    ],
+    "summary": "🚀 서론: 기술 패러다임의 전환과 문제 제기 생성형 인공지능(AI) 기술이 개념 증명(PoC) 단계를 넘어 금융, 제조, 공공, 의료 등 핵심 미션 크리티컬 워크로드로 전면 확산되면서, 전 세계 엔터프라이즈 인프라 아키텍처는 전례 없는 기술적 병목과 직면하고 있습니다. 지난 2년간 대규모 언어 모델(LLM)의 공급 방식은 소수의 글로벌 거대 데이터센터 클러",
+    "status": "published",
+    "content_file": "data/posts/2026-10-01-august-megafarm-deepdive.md"
+  },
+  {
+    "id": "2026-10-01-dc-infraops-trends-report",
+    "title": "DC InfraOps Trends - 2026년 10월 01일",
+    "date": "2026-10-01",
+    "time": "05:54",
+    "updated": "2026-10-01 05:54",
+    "category": "Newsletter",
+    "labels": [
+      "AWS",
+      "데이터센터",
+      "클라우드",
+      "AI인프라",
+      "DC-Trends",
+      "Daily-Newsletter",
+      "SMR",
+      "원전",
+      "엔비디아",
+      "액체냉각",
+      "전력망",
+      "마이크로소프트",
+      "구글",
+      "오라클",
+      "신재생에너지"
+    ],
+    "summary": "Datacenter & Cloud Industry InfraOps Daily (2-Column) 1. AWS 서울 리전 클로드 5 출시와 소버린 데이터 주권 및 종속성 딜레마 아마존웹서비스(AWS)가 서울 리전에 앤트로픽의 최신 인공지능 모델 '클로드 오퍼스 5'와 '소넷 5'를 전격 출시함 . 이번 조치로 데이터 국외 반출 규제에 묶였던 국내 ... ͏ ",
+    "status": "published",
+    "content_file": "data/posts/2026-10-01-dc-infraops-trends-report.md"
+  },
+  {
+    "id": "2026-10-01-10min-tech-podcast",
+    "title": "[2026.10.01] [10-Min English Podcast] Sovereign Claude 5 Rollout, 4MW Modular PMDC, CoreWeave Rubin Deployments, and Grid Cost Politics",
+    "date": "2026-10-01",
+    "time": "05:54",
+    "updated": "2026-10-01 05:54",
+    "category": "Podcast",
+    "labels": [
+      "EnglishPodcast",
+      "TechEnglish",
+      "비즈니스영어",
+      "AWS",
+      "소버린AI",
+      "모듈러데이터센터",
+      "CoreWeave",
+      "액체냉각",
+      "전력망인프라"
+    ],
+    "summary": "🎧 10-MIN TECH ENGLISH PODCAST [2026.10.01] [10-Min English Podcast] Sovereign Claude 5 Rollout, 4MW Modular PMDC, CoreWeave Rubin Deployments, and Grid Cost Politics 2026년 10월 1일 DC InfraOps Daily 브리핑",
+    "status": "published",
+    "content_file": "data/posts/2026-10-01-10min-tech-podcast.md"
+  },
+  {
+    "id": "2026-10-01-daily-infraops-briefing",
+    "title": "[2026.10.01] 오늘의 글로벌 클라우드 & 데이터센터 인프라 핵심 동향 브리핑",
+    "date": "2026-10-01",
+    "time": "05:54",
+    "updated": "2026-10-01 05:54",
+    "category": "Daily Briefing",
+    "labels": [
+      "AWS",
+      "클라우드",
+      "데이터센터",
+      "AI인프라",
+      "인프라동향",
+      "액체냉각",
+      "시놉시스",
+      "코어위브"
+    ],
+    "summary": "Daily InfraOps Digest 글로벌 클라우드 및 데이터센터 인프라 테크 리포트 발행일: 2026년 10월 1일 | 대상: 인프라 아키텍트, 시스템 엔지니어, 기술 의사결정권자 📌 오늘의 3대 핵심 관전 포인트 (Key Highlights) 빅테크 자체 반도체 생태계의 IP 내재화: AWS가 전자설계자동화(EDA) 및 반도체 설계자산(IP) 선도 ",
+    "status": "published",
+    "content_file": "data/posts/2026-10-01-daily-infraops-briefing.md"
+  },
+  {
     "id": "2026-09-30-daily-infraops-briefing",
     "title": "[2026.09.30] 오늘의 글로벌 클라우드 & 데이터센터 인프라 핵심 동향 브리핑",
     "date": "2026-09-30",
