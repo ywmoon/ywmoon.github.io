@@ -5,8 +5,48 @@
     <link>https://ywmoon.github.io</link>
     <description>글로벌 AI 데이터센터 전력망, 냉각, 클라우드 인프라 엔지니어링 데일리 트렌드</description>
     <language>ko</language>
-    <lastBuildDate>Thu, 01 Oct 2026 05:54:52 -0000</lastBuildDate>
+    <lastBuildDate>Fri, 02 Oct 2026 05:56:57 -0000</lastBuildDate>
     <atom:link href="https://ywmoon.github.io/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>[2026.10.02] 오늘의 글로벌 클라우드 &amp; 데이터센터 인프라 핵심 동향 브리핑</title>
+      <link>https://ywmoon.github.io/article/2026-10-02-daily-infraops-briefing/</link>
+      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-10-02-daily-infraops-briefing/</guid>
+      <pubDate>Fri, 02 Oct 2026 00:00:00 -0000</pubDate>
+      <category>Daily Briefing</category>
+      <description>Daily InfraOps Digest | Global Cloud &amp; Data Center Intelligence 글로벌 AI 데이터센터 인프라 동향: 기저부하 원전 20년 장기계약, 랙 냉각 아키텍처 생태계 재편 및 자체 가속기 동맹 2026년 10월 2일 기준 글로벌 클라우드 제공업체(CSP), 전력 유틸리티, 냉각 솔루션 제조사 및 AI 인프라 스타트</description>
+    </item>
+    <item>
+      <title>DC InfraOps Trends - 2026년 10월 02일</title>
+      <link>https://ywmoon.github.io/article/2026-10-02-dc-infraops-trends-report/</link>
+      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-10-02-dc-infraops-trends-report/</guid>
+      <pubDate>Fri, 02 Oct 2026 00:00:00 -0000</pubDate>
+      <category>Newsletter</category>
+      <description>Datacenter &amp; Cloud Industry InfraOps Daily (2-Column) 1. 아마존 메릴랜드 690MW 원전 장기 PPA와 글로벌 전력 확보전 아마존(AWS)이 미국 최대 원전 기업 콘스텔레이션 에너지와 20년 장기 전력구매계약(PPA)을 체결하고 메릴랜드주 캘버트 클리프스 원전에서 690MW의 무탄소 전력을 확보함 . ... ͏ </description>
+    </item>
+    <item>
+      <title>[인프라 용어사전] 궤도 데이터센터 (Orbital Data Center) - 무한 태양광과 심우주 복사 냉각으로 지상 전력난을 돌파하는 차세대 AI 인프라</title>
+      <link>https://ywmoon.github.io/article/2026-10-02-infra-glossary/</link>
+      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-10-02-infra-glossary/</guid>
+      <pubDate>Fri, 02 Oct 2026 00:00:00 -0000</pubDate>
+      <category>Terminology</category>
+      <description>Infrastructure Tech Glossary 궤도 데이터센터 (Orbital Data Center) 지상 전력망 병목과 냉각수 고갈을 넘어, 대기권 밖 24시간 태양광 발전과 심우주 절대온도 복사 방열을 활용해 대규모 연산을 수행하는 우주 기반 컴퓨팅 아키텍처 📌 1. 30초 핵심 요약 &amp; 개념 정의 궤도 데이터센터(Orbital Data Cente</description>
+    </item>
+    <item>
+      <title>[2026.10.02] [10-Min English Podcast] Nuclear PPAs, Chip-to-Chiller Turnkey, and Grid Regulatory Halts</title>
+      <link>https://ywmoon.github.io/article/2026-10-02-10min-tech-podcast/</link>
+      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-10-02-10min-tech-podcast/</guid>
+      <pubDate>Fri, 02 Oct 2026 00:00:00 -0000</pubDate>
+      <category>Podcast</category>
+      <description>🎧 10-MIN TECH ENGLISH PODCAST [2026.10.02] [10-Min English Podcast] Nuclear PPAs, Chip-to-Chiller Turnkey, and Grid Regulatory Halts 오늘의 10분 심층 팟캐스트는 2026년 10월 2일 글로벌 데이터센터 및 전력 인프라 시장을 뒤흔든 4대 핵심 이슈를 </description>
+    </item>
+    <item>
+      <title>[테크 딥다이브] 네오클라우드(Neocloud)의 부상과 엔비디아 풀스택 레퍼런스 아키텍처: 하이퍼스케일러 과점을 흔드는 GPU 특화 인프라의 경제학과 기술 생태계</title>
+      <link>https://ywmoon.github.io/article/2026-10-02-august-megafarm-deepdive/</link>
+      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-10-02-august-megafarm-deepdive/</guid>
+      <pubDate>Fri, 02 Oct 2026 00:00:00 -0000</pubDate>
+      <category>Tech Deep Dive</category>
+      <description>인공지능 워크로드가 대규모 사전 학습(Pre-training) 중심에서 24시간 무중단 실시간 추론(Inference) 서비스로 급격히 전환되면서, 글로벌 컴퓨팅 인프라의 물리적·경제적 구조가 근본적인 재편을 겪고 있습니다. 기존 아마존웹서비스(AWS), 마이크로소프트 애저(Azure), 구글 클라우드(GCP)로 대변되는 전통적 하이퍼스케일러는 다중 임대(</description>
+    </item>
     <item>
       <title>[인프라 용어사전] 인컨트리 추론 (In-Country Inferencing) - 데이터 주권과 규제 장벽을 넘는 국경 완결형 AI 아키텍처</title>
       <link>https://ywmoon.github.io/article/2026-10-01-infra-glossary/</link>
@@ -1166,46 +1206,6 @@
       <pubDate>Sun, 23 Aug 2026 00:00:00 -0000</pubDate>
       <category>Tech Deep Dive</category>
       <description>전라남도 해남 솔라시도 기업도시에 총사업비 2조 5,000억 원 규모의 '국가 AI 컴퓨팅센터'가 2026년 8월 3일 공식 착공했습니다. 2028년 고성능 GPU 1.5만 장, 2030년 5만 장 규모로 확장되는 국내 최대 공용 AI 인프라의 건축·전력 설계와, 수도권 전력망 포화를 우회하여 호남권 재생에너지(RE100)와 직결하는 'Load-to-Power' 분산 인프라 전략, 국산 NPU 실증 로드맵을 심층 분석합니다.</description>
-    </item>
-    <item>
-      <title>비트코인 채굴소에서 초거대 AI 허브로: 앤트로픽-라이엇(Riot) 12조 8,500억 원 초대형 계약과 전력 부지 피벗(Pivot)</title>
-      <link>https://ywmoon.github.io/article/2026-08-23-anthropic-riot-12t-megadeal-power-pivot/</link>
-      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-08-23-anthropic-riot-12t-megadeal-power-pivot/</guid>
-      <pubDate>Sun, 23 Aug 2026 00:00:00 -0000</pubDate>
-      <category>Tech Deep Dive</category>
-      <description>AI 프런티어 랩 앤트로픽(Anthropic)이 비트코인 채굴 대기업 라이엇 플랫폼스(Riot Platforms)와 191MW 규모, 최대 161억 달러(약 22.7조 원)에 달하는 22년 장기 데이터센터 계약을 체결했습니다. 맥쿼리·GIC와의 특수목적법인(JV) 구조, 하이퍼스케일러 종속을 탈피하는 기가와트급 수전 부지 확보 전략, ERCOT 4CP 회피 및 암호화폐 채굴소의 AI 인프라 리퍼포징 공학을 심층 분석합니다.</description>
-    </item>
-    <item>
-      <title>차세대 AI 데이터센터 전력 패러다임: 800V DC(직류) 배전 아키텍처와 전력 변환 손실 혁신</title>
-      <link>https://ywmoon.github.io/article/2026-08-23-800v-dc-distribution-architecture/</link>
-      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-08-23-800v-dc-distribution-architecture/</guid>
-      <pubDate>Sun, 23 Aug 2026 00:00:00 -0000</pubDate>
-      <category>Tech Deep Dive</category>
-      <description>AI 가속기 랙 밀도가 100kW를 넘어 1.2MW 시대로 진입함에 따라 기존 480V/400V AC 배전 시스템은 도체 단면적, I²R 발열 손실, 다단계 전력 변환 비효율의 물리적 한계에 직면했습니다. 슈나이더 일렉트릭과 엔비디아가 제시한 800V DC 아키텍처, 파워 사이드카(Sidecar) 분리 설계, 반도체 차단기(SSCB), BESS 직결 시너지 및 LS일렉트릭-GS건설의 직류 얼라이언스를 바탕으로 차세대 데이터센터 전력망의 공학적 대전환을 심층 분석합니다.</description>
-    </item>
-    <item>
-      <title>[2026.08.22] 데일리 인프라옵스 브리핑 특별판: 한 주간 놓치지 말아야 할 추가 핵심 이슈 4선</title>
-      <link>https://ywmoon.github.io/article/2026-08-22-daily-infraops-additional-briefing/</link>
-      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-08-22-daily-infraops-additional-briefing/</guid>
-      <pubDate>Sat, 22 Aug 2026 00:00:00 -0000</pubDate>
-      <category>Daily Briefing</category>
-      <description>주간 Daily Briefing에서 미처 다루지 못한 데이터센터 인프라 심층 추가 핵심 이슈 4선. 미국 최대 PJM 송전망의 50MW+ 자가발전(BYOP) 의무화, 현대제철-한미글로벌의 DC 전용 철골 강구조 전환, KIOST 울산 해저 수중 데이터센터 실증(PUE 1.05), 네바다 수자원 금지령과 WUE 규제를 심층 분석합니다.</description>
-    </item>
-    <item>
-      <title>[주간 종합 결산] 8월 3주차 글로벌 클라우드 &amp; 데이터센터 인프라옵스 트렌드 종합 리포트 (8.17~8.22)</title>
-      <link>https://ywmoon.github.io/article/2026-08-22-weekly-infraops-wrapup/</link>
-      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-08-22-weekly-infraops-wrapup/</guid>
-      <pubDate>Sat, 22 Aug 2026 00:00:00 -0000</pubDate>
-      <category>Weekly Report</category>
-      <description>2026년 8월 3주차 글로벌 클라우드 및 데이터센터 인프라옵스 주간 종합 결산 리포트. 엔비디아의 인프라 금융화(1,050억 달러 보증 및 30억 달러 투자), 기가와트(GW)급 AI 팩토리 확장, SMR과 가스 발전 중심의 기저전원 확보전, 액체냉각 및 철골 강구조 전환, 글로벌 그리드락과 지자체 모라토리엄 규제를 심층 분석합니다.</description>
-    </item>
-    <item>
-      <title>제12차 전력수급기본계획 전력수요 재전망 분석</title>
-      <link>https://ywmoon.github.io/article/2026-08-21-12th-power-plan-demand-reforecast/</link>
-      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-08-21-12th-power-plan-demand-reforecast/</guid>
-      <pubDate>Fri, 21 Aug 2026 00:00:00 -0000</pubDate>
-      <category>Tech Deep Dive</category>
-      <description>제12차 전력수급기본계획(2026~2040) 전력수요 재전망 주요 내용과 9·10·11·12차 역대 계획 비교를 정리합니다. 반도체 및 데이터센터 추가수요 반영에 따른 2040년 목표 최대전력 상향(158.4GW), 부하 특성, 전력망 과제 및 산업계 대응 전략을 분석합니다.</description>
     </item>
   </channel>
 </rss>
