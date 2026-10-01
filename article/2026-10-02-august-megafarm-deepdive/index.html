@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>[테크 딥다이브] 네오클라우드(Neocloud)의 부상과 엔비디아 풀스택 레퍼런스 아키텍처: 하이퍼스케일러 과점을 흔드는 GPU 특화 인프라의 경제학과 기술 생태계</title>
+  <meta name="description" content="인공지능 워크로드가 대규모 사전 학습(Pre-training) 중심에서 24시간 무중단 실시간 추론(Inference) 서비스로 급격히 전환되면서, 글로벌 컴퓨팅 인프라의 물리적·경제적 구조가 근본적인 재편을 겪고 있습니다. 기존 아마존웹서비스(AWS), 마이크로소프트 애저(Azure), 구글 클라우드(GCP)로 대변되는 전통적 하이퍼스케일러는 다중 임대(" />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://ywmoon.github.io/article/2026-10-02-august-megafarm-deepdive/" />
+  <!-- OpenGraph -->
+  <meta property="og:type" content="article" />
+  <meta property="og:title" content="[테크 딥다이브] 네오클라우드(Neocloud)의 부상과 엔비디아 풀스택 레퍼런스 아키텍처: 하이퍼스케일러 과점을 흔드는 GPU 특화 인프라의 경제학과 기술 생태계" />
+  <meta property="og:description" content="인공지능 워크로드가 대규모 사전 학습(Pre-training) 중심에서 24시간 무중단 실시간 추론(Inference) 서비스로 급격히 전환되면서, 글로벌 컴퓨팅 인프라의 물리적·경제적 구조가 근본적인 재편을 겪고 있습니다. 기존 아마존웹서비스(AWS), 마이크로소프트 애저(Azure), 구글 클라우드(GCP)로 대변되는 전통적 하이퍼스케일러는 다중 임대(" />
+  <meta property="og:url" content="https://ywmoon.github.io/article/2026-10-02-august-megafarm-deepdive/" />
+  <meta property="og:image" content="https://ywmoon.github.io/assets/avatar.jpg" />
+  <meta property="og:site_name" content="Datacenter InfraOps &amp; Cloud Industry Notes" />
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="[테크 딥다이브] 네오클라우드(Neocloud)의 부상과 엔비디아 풀스택 레퍼런스 아키텍처: 하이퍼스케일러 과점을 흔드는 GPU 특화 인프라의 경제학과 기술 생태계" />
+  <meta name="twitter:description" content="인공지능 워크로드가 대규모 사전 학습(Pre-training) 중심에서 24시간 무중단 실시간 추론(Inference) 서비스로 급격히 전환되면서, 글로벌 컴퓨팅 인프라의 물리적·경제적 구조가 근본적인 재편을 겪고 있습니다. 기존 아마존웹서비스(AWS), 마이크로소프트 애저(Azure), 구글 클라우드(GCP)로 대변되는 전통적 하이퍼스케일러는 다중 임대(" />
+  <meta name="twitter:image" content="https://ywmoon.github.io/assets/avatar.jpg" />
+  <!-- Structured Data: Google Schema.org (Article) -->
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "TechArticle",
+  "headline": "[테크 딥다이브] 네오클라우드(Neocloud)의 부상과 엔비디아 풀스택 레퍼런스 아키텍처: 하이퍼스케일러 과점을 흔드는 GPU 특화 인프라의 경제학과 기술 생태계",
+  "description": "인공지능 워크로드가 대규모 사전 학습(Pre-training) 중심에서 24시간 무중단 실시간 추론(Inference) 서비스로 급격히 전환되면서, 글로벌 컴퓨팅 인프라의 물리적·경제적 구조가 근본적인 재편을 겪고 있습니다. 기존 아마존웹서비스(AWS), 마이크로소프트 애저(Azure), 구글 클라우드(GCP)로 대변되는 전통적 하이퍼스케일러는 다중 임대(",
+  "datePublished": "2026-10-02T05:56:00+09:00",
+  "dateModified": "2026-10-02 05:56:00+09:00",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://ywmoon.github.io/article/2026-10-02-august-megafarm-deepdive/"
+  },
+  "author": {
+    "@type": "Person",
+    "name": "James Moon (문연욱)",
+    "jobTitle": "AWS Data Center Engineering Operations Cluster Manager",
+    "url": "https://www.linkedin.com/in/ywmoon"
+  },
+  "publisher": {
+    "@type": "Person",
+    "name": "James Moon",
+    "url": "https://ywmoon.github.io",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://ywmoon.github.io/assets/avatar.jpg"
+    }
+  },
+  "image": "https://ywmoon.github.io/assets/avatar.jpg",
+  "keywords": "테크딥다이브, 네오클라우드, 엔비디아, GPU인프라, 데이터센터"
+}
+  </script>
+  <!-- Instant redirect for real users -->
+  <meta http-equiv="refresh" content="0; url=https://ywmoon.github.io/#article/2026-10-02-august-megafarm-deepdive" />
+  <script>window.location.replace('https://ywmoon.github.io/#article/2026-10-02-august-megafarm-deepdive');</script>
+</head>
+<body></body>
+</html>
