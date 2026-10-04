@@ -5,8 +5,48 @@
     <link>https://ywmoon.github.io</link>
     <description>글로벌 AI 데이터센터 전력망, 냉각, 클라우드 인프라 엔지니어링 데일리 트렌드</description>
     <language>ko</language>
-    <lastBuildDate>Fri, 02 Oct 2026 05:56:57 -0000</lastBuildDate>
+    <lastBuildDate>Mon, 05 Oct 2026 05:56:36 -0000</lastBuildDate>
     <atom:link href="https://ywmoon.github.io/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>[2026.10.05] 오늘의 글로벌 클라우드 &amp; 데이터센터 인프라 핵심 동향 브리핑</title>
+      <link>https://ywmoon.github.io/article/2026-10-05-daily-infraops-briefing/</link>
+      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-10-05-daily-infraops-briefing/</guid>
+      <pubDate>Mon, 05 Oct 2026 00:00:00 -0000</pubDate>
+      <category>Daily Briefing</category>
+      <description>📌 오늘의 3대 핵심 관전 포인트 (Key Highlights)하이퍼스케일러의 80억 달러 규모 하드웨어 유동화: 아마존이 엔비디아 AI 가속기 칩셋을 외부 투자자에게 오프밸런스(Off-balance) 형태로 분할 이전하는 금융 구조를 검토하며, 대규모 인프라 투자(CapEx)의 재무 건전성 관리 모델이 부상하고 있습니다.육상 전력·부지 병목과 대체 인프라</description>
+    </item>
+    <item>
+      <title>[2026.10.05] [10-Min English Podcast] Amazon's $8B GPU Securitization, Municipal NDA Repeal, and Grid-Resilient Baseload Architectures</title>
+      <link>https://ywmoon.github.io/article/2026-10-05-10min-tech-podcast/</link>
+      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-10-05-10min-tech-podcast/</guid>
+      <pubDate>Mon, 05 Oct 2026 00:00:00 -0000</pubDate>
+      <category>Podcast</category>
+      <description>🎧 10-MIN TECH ENGLISH PODCAST [2026.10.05] [10-Min English Podcast] Amazon's $8B GPU Securitization, Municipal NDA Repeal, and Grid-Resilient Baseload Architectures 오늘의 10분 심층 팟캐스트는 글로벌 하이퍼스케일러들의 자본 지</description>
+    </item>
+    <item>
+      <title>[인프라 용어사전] CSPM (Cloud Security Posture Management) - 클라우드 인프라 설정 오류와 컴플라이언스를 자동 검증하는 아키텍처</title>
+      <link>https://ywmoon.github.io/article/2026-10-05-infra-glossary/</link>
+      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-10-05-infra-glossary/</guid>
+      <pubDate>Mon, 05 Oct 2026 00:00:00 -0000</pubDate>
+      <category>Terminology</category>
+      <description>Cloud Infrastructure &amp; Security CSPM (Cloud Security Posture Management) 퍼블릭 클라우드 전반의 리소스 구성 상태를 실시간 스캔하여 잘못된 설정(Misconfiguration)과 컴플라이언스 위반을 자동 탐지·교정하는 핵심 클라우드 인프라 거버넌스 아키텍처 📌 1. 30초 핵심 요약 &amp; 개념 정의 💡</description>
+    </item>
+    <item>
+      <title>[테크 딥다이브] 공유 책임 모델의 경계를 넘어: AWS SIP 프레임워크와 하이퍼스케일 클라우드 보안 아키텍처의 패러다임 전환</title>
+      <link>https://ywmoon.github.io/article/2026-10-05-august-megafarm-deepdive/</link>
+      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-10-05-august-megafarm-deepdive/</guid>
+      <pubDate>Mon, 05 Oct 2026 00:00:00 -0000</pubDate>
+      <category>Tech Deep Dive</category>
+      <description>핵심 요약: 국내 대표 OTT 플랫폼 티빙(TVING)의 침해 사고 후속 조치로 추진된 AWS SIP(Security Improvement Program) 도입은 단순한 개별 보안 솔루션의 추가가 아니라, 클라우드 컴퓨팅 태동기부터 유지되어 온 '공유 책임 모델(Shared Responsibility Model)'의 구조적 한계를 극복하려는 아키텍처적 전환</description>
+    </item>
+    <item>
+      <title>DC InfraOps Trends - 2026년 10월 05일</title>
+      <link>https://ywmoon.github.io/article/2026-10-05-dc-infraops-trends-report/</link>
+      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-10-05-dc-infraops-trends-report/</guid>
+      <pubDate>Mon, 05 Oct 2026 00:00:00 -0000</pubDate>
+      <category>Newsletter</category>
+      <description>Datacenter &amp; Cloud Industry InfraOps Daily (2-Column) 1. 아마존 10억 달러 상생 투자와 비밀유지협약 철폐 및 전 세계적 주민 수용성 충돌 AI 데이터센터 확산에 따른 전력망 과부하와 소음·용수 고갈 우려로 미국 전역에서 100개 이상의 인허가 유예(모라토리엄)가 발생하는 등 주민 반발이 거세짐 . 이... ͏ </description>
+    </item>
     <item>
       <title>[2026.10.02] 오늘의 글로벌 클라우드 &amp; 데이터센터 인프라 핵심 동향 브리핑</title>
       <link>https://ywmoon.github.io/article/2026-10-02-daily-infraops-briefing/</link>
@@ -1166,46 +1206,6 @@
       <pubDate>Mon, 24 Aug 2026 00:00:00 -0000</pubDate>
       <category>Daily Briefing</category>
       <description>DAILY INFRAOPS DIGEST 2026년 8월 24일 글로벌 클라우드 &amp; AI 데이터센터 인프라 핵심 동향 엔비디아의 전력·부지 번들링 투자부터 공공 유틸리티 규제, 재생에너지 자가발전(BTM) 및 빅테크 글로벌 CapEx 지형 분석 📌 오늘의 3대 핵심 관전 포인트 (Key Highlights) 엔비디아의 전력·부지 '번들링 플레이'와 리스크 통</description>
-    </item>
-    <item>
-      <title>[테크 딥다이브] 연산 장벽에서 전력 장벽으로: 엔비디아의 '부지·전력 번들링'과 AI 팩토리 풀스택 통합 아키텍처</title>
-      <link>https://ywmoon.github.io/article/2026-08-24-august-megafarm-deepdive/</link>
-      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-08-24-august-megafarm-deepdive/</guid>
-      <pubDate>Mon, 24 Aug 2026 00:00:00 -0000</pubDate>
-      <category>Tech Deep Dive</category>
-      <description>🚀 서론: 기술 패러다임의 전환과 문제 제기 인공지능(AI) 인프라 시장의 병목 지점이 반도체 미세공정 및 고대역폭 메모리(HBM) 수급 한계에서 '전력 계통(Grid)'과 '물리적 부지(Land)' 확보 단계로 급격히 전이되고 있습니다. 단일 데이터센터 랙당 전력 밀도가 과거 10~15kW 수준에서 고밀도 액체냉각 기반 100~130kW(NVIDIA NV</description>
-    </item>
-    <item>
-      <title>[인프라 용어사전] VPP (Virtual Power Plant, 가상발전소) - AI 데이터센터 전력난을 해결하는 분산 에너지 소프트웨어 플랫폼</title>
-      <link>https://ywmoon.github.io/article/2026-08-24-infra-glossary/</link>
-      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-08-24-infra-glossary/</guid>
-      <pubDate>Mon, 24 Aug 2026 00:00:00 -0000</pubDate>
-      <category>Terminology</category>
-      <description>📌 1. 30초 핵심 요약 &amp; 개념 정의 VPP(가상발전소, Virtual Power Plant)는 물리적으로 분산된 다양한 소규모 발전원(태양광, 풍력, 연료전지)과 유연성 자원(BESS, 전기차, 데이터센터 백업 발전기, 부하 감축 설비)을 사물인터넷(IoT) 및 클라우드 기반 중앙 제어 플랫폼으로 연계하여, 마치 단일 대형 발전소처럼 통합 제어·운영하</description>
-    </item>
-    <item>
-      <title>전력난과 탄소 규제를 넘어선 탈지구 인프라: 2027년 '우주 AI 데이터센터' 실증과 저궤도(LEO) 궤도 컴퓨팅 아키텍처</title>
-      <link>https://ywmoon.github.io/article/2026-08-23-space-based-ai-datacenter-leo-infrastructure/</link>
-      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-08-23-space-based-ai-datacenter-leo-infrastructure/</guid>
-      <pubDate>Sun, 23 Aug 2026 00:00:00 -0000</pubDate>
-      <category>Tech Deep Dive</category>
-      <description>지상 데이터센터가 직면한 전력망 포화(Gridlock), 냉각수 고갈(WUE), 지자체 인허가 규제를 해결하기 위해 연산 인프라가 지구 궤도로 올라가고 있습니다. 유럽우주국(ESA)의 ASCEND 프로젝트 타당성 결과, 스페이스X 스타링크 레이저 메쉬 네트워크와 xAI 연계, 구글·스타클라우드의 2027년 궤도 배치 로드맵을 바탕으로 태양광 무한 발전, 3K 복사 방열, 방사선 차폐(Rad-Hard) 및 궤도 엣지 AI 아키텍처를 심층 분석합니다.</description>
-    </item>
-    <item>
-      <title>버려지는 열을 냉난방 에너지로: 기계연구원(KIMM)·SK이노베이션 액체냉각 폐열 회수(Waste Heat Recovery) 기술과 도심 구역난방 연계 공학</title>
-      <link>https://ywmoon.github.io/article/2026-08-23-kimm-skinno-waste-heat-reuse-cooling/</link>
-      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-08-23-kimm-skinno-waste-heat-reuse-cooling/</guid>
-      <pubDate>Sun, 23 Aug 2026 00:00:00 -0000</pubDate>
-      <category>Tech Deep Dive</category>
-      <description>AI 가속기의 고발열을 해결하는 액체냉각 기술이 단순한 방열을 넘어 '폐열 회수(Heat Reuse)'의 순환 경제로 진화하고 있습니다. 한국기계연구원이 개발한 40℃ 저온 폐열 구동 화학흡착식 히트펌프(비냉방출력 SCP 346.5 W/kg)와 SK이노베이션의 액체냉각-폐열회수 실증을 바탕으로, EU EED 규제 대응, PUE 한계를 돌파하는 ERE(에너지 재사용 효율) 메커니즘과 도심 구역난방 연계 공학을 심층 분석합니다.</description>
-    </item>
-    <item>
-      <title>분산에너지법과 재생에너지 직결의 첫 시험대: 해남 솔라시도 3.2GW '국가 AI 컴퓨팅센터' 착공과 전력 계통 분산화 전략</title>
-      <link>https://ywmoon.github.io/article/2026-08-23-haenam-solaseado-national-ai-datacenter/</link>
-      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-08-23-haenam-solaseado-national-ai-datacenter/</guid>
-      <pubDate>Sun, 23 Aug 2026 00:00:00 -0000</pubDate>
-      <category>Tech Deep Dive</category>
-      <description>전라남도 해남 솔라시도 기업도시에 총사업비 2조 5,000억 원 규모의 '국가 AI 컴퓨팅센터'가 2026년 8월 3일 공식 착공했습니다. 2028년 고성능 GPU 1.5만 장, 2030년 5만 장 규모로 확장되는 국내 최대 공용 AI 인프라의 건축·전력 설계와, 수도권 전력망 포화를 우회하여 호남권 재생에너지(RE100)와 직결하는 'Load-to-Power' 분산 인프라 전략, 국산 NPU 실증 로드맵을 심층 분석합니다.</description>
     </item>
   </channel>
 </rss>
