@@ -1,5 +1,111 @@
 [
   {
+    "id": "2026-10-05-daily-infraops-briefing",
+    "title": "[2026.10.05] 오늘의 글로벌 클라우드 & 데이터센터 인프라 핵심 동향 브리핑",
+    "date": "2026-10-05",
+    "time": "05:56",
+    "updated": "2026-10-05 05:56",
+    "category": "Daily Briefing",
+    "labels": [
+      "AWS",
+      "클라우드",
+      "데이터센터",
+      "AI인프라",
+      "인프라동향",
+      "CapEx",
+      "옵저버빌리티",
+      "클라우드보안"
+    ],
+    "summary": "📌 오늘의 3대 핵심 관전 포인트 (Key Highlights)하이퍼스케일러의 80억 달러 규모 하드웨어 유동화: 아마존이 엔비디아 AI 가속기 칩셋을 외부 투자자에게 오프밸런스(Off-balance) 형태로 분할 이전하는 금융 구조를 검토하며, 대규모 인프라 투자(CapEx)의 재무 건전성 관리 모델이 부상하고 있습니다.육상 전력·부지 병목과 대체 인프라",
+    "status": "published",
+    "content_file": "data/posts/2026-10-05-daily-infraops-briefing.md"
+  },
+  {
+    "id": "2026-10-05-10min-tech-podcast",
+    "title": "[2026.10.05] [10-Min English Podcast] Amazon's $8B GPU Securitization, Municipal NDA Repeal, and Grid-Resilient Baseload Architectures",
+    "date": "2026-10-05",
+    "time": "05:56",
+    "updated": "2026-10-05 05:56",
+    "category": "Podcast",
+    "labels": [
+      "EnglishPodcast",
+      "TechEnglish",
+      "비즈니스영어",
+      "AWS",
+      "AI인프라",
+      "데이터센터",
+      "GPU유동화",
+      "전력망"
+    ],
+    "summary": "🎧 10-MIN TECH ENGLISH PODCAST [2026.10.05] [10-Min English Podcast] Amazon's $8B GPU Securitization, Municipal NDA Repeal, and Grid-Resilient Baseload Architectures 오늘의 10분 심층 팟캐스트는 글로벌 하이퍼스케일러들의 자본 지",
+    "status": "published",
+    "content_file": "data/posts/2026-10-05-10min-tech-podcast.md"
+  },
+  {
+    "id": "2026-10-05-infra-glossary",
+    "title": "[인프라 용어사전] CSPM (Cloud Security Posture Management) - 클라우드 인프라 설정 오류와 컴플라이언스를 자동 검증하는 아키텍처",
+    "date": "2026-10-05",
+    "time": "05:56",
+    "updated": "2026-10-05 05:56",
+    "category": "Terminology",
+    "labels": [
+      "인프라용어사전",
+      "IT백과사전",
+      "CSPM",
+      "AWS",
+      "클라우드보안"
+    ],
+    "summary": "Cloud Infrastructure & Security CSPM (Cloud Security Posture Management) 퍼블릭 클라우드 전반의 리소스 구성 상태를 실시간 스캔하여 잘못된 설정(Misconfiguration)과 컴플라이언스 위반을 자동 탐지·교정하는 핵심 클라우드 인프라 거버넌스 아키텍처 📌 1. 30초 핵심 요약 & 개념 정의 💡",
+    "status": "published",
+    "content_file": "data/posts/2026-10-05-infra-glossary.md"
+  },
+  {
+    "id": "2026-10-05-august-megafarm-deepdive",
+    "title": "[테크 딥다이브] 공유 책임 모델의 경계를 넘어: AWS SIP 프레임워크와 하이퍼스케일 클라우드 보안 아키텍처의 패러다임 전환",
+    "date": "2026-10-05",
+    "time": "05:56",
+    "updated": "2026-10-05 05:56",
+    "category": "Tech Deep Dive",
+    "labels": [
+      "테크딥다이브",
+      "클라우드보안",
+      "제로트러스트",
+      "AWS",
+      "데이터센터"
+    ],
+    "summary": "핵심 요약: 국내 대표 OTT 플랫폼 티빙(TVING)의 침해 사고 후속 조치로 추진된 AWS SIP(Security Improvement Program) 도입은 단순한 개별 보안 솔루션의 추가가 아니라, 클라우드 컴퓨팅 태동기부터 유지되어 온 '공유 책임 모델(Shared Responsibility Model)'의 구조적 한계를 극복하려는 아키텍처적 전환",
+    "status": "published",
+    "content_file": "data/posts/2026-10-05-august-megafarm-deepdive.md"
+  },
+  {
+    "id": "2026-10-05-dc-infraops-trends-report",
+    "title": "DC InfraOps Trends - 2026년 10월 05일",
+    "date": "2026-10-05",
+    "time": "05:56",
+    "updated": "2026-10-05 05:56",
+    "category": "Newsletter",
+    "labels": [
+      "AWS",
+      "데이터센터",
+      "클라우드",
+      "AI인프라",
+      "DC-Trends",
+      "Daily-Newsletter",
+      "SMR",
+      "원전",
+      "엔비디아",
+      "액체냉각",
+      "전력망",
+      "마이크로소프트",
+      "구글",
+      "오라클",
+      "신재생에너지"
+    ],
+    "summary": "Datacenter & Cloud Industry InfraOps Daily (2-Column) 1. 아마존 10억 달러 상생 투자와 비밀유지협약 철폐 및 전 세계적 주민 수용성 충돌 AI 데이터센터 확산에 따른 전력망 과부하와 소음·용수 고갈 우려로 미국 전역에서 100개 이상의 인허가 유예(모라토리엄)가 발생하는 등 주민 반발이 거세짐 . 이... ͏ ",
+    "status": "published",
+    "content_file": "data/posts/2026-10-05-dc-infraops-trends-report.md"
+  },
+  {
     "id": "2026-10-02-daily-infraops-briefing",
     "title": "[2026.10.02] 오늘의 글로벌 클라우드 & 데이터센터 인프라 핵심 동향 브리핑",
     "date": "2026-10-02",
