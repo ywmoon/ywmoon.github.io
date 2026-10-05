@@ -1,5 +1,114 @@
 [
   {
+    "id": "2026-10-06-infra-glossary",
+    "title": "[인프라 용어사전] 액침 냉각 (Immersion Cooling) - 100kW+ 초고발열 AI 랙을 절연 유체에 통째로 담그는 차세대 열관리 아키텍처",
+    "date": "2026-10-06",
+    "time": "05:49",
+    "updated": "2026-10-06 05:49",
+    "category": "Terminology",
+    "labels": [
+      "인프라용어사전",
+      "IT백과사전",
+      "액침냉각",
+      "AWS",
+      "데이터센터"
+    ],
+    "summary": "Next-Gen Thermal Architecture 액침 냉각 (Immersion Cooling) 비전도성 유전체 용액에 고집적 IT 서버를 완전 침전시켜 100kW+ 고발열을 제어하고 팬을 영구 제거하는 궁극의 열관리 기술 📌 1. 30초 핵심 요약 & 개념 정의 직관적 비유: 방수 스마트폰을 차가운 수조에 담그듯, 전기가 통하지 않는 특수 절연 오일(",
+    "status": "published",
+    "content_file": "data/posts/2026-10-06-infra-glossary.md"
+  },
+  {
+    "id": "2026-10-06-august-megafarm-deepdive",
+    "title": "[테크 딥다이브] AI 팩토리의 과도 부하와 전력망 한계: 엔비디아 BESS 표준 편입이 촉발한 데이터센터 전력 아키텍처 전환",
+    "date": "2026-10-06",
+    "time": "05:49",
+    "updated": "2026-10-06 05:49",
+    "category": "Tech Deep Dive",
+    "labels": [
+      "테크딥다이브",
+      "BESS",
+      "AI팩토리",
+      "엔비디아",
+      "AWS",
+      "데이터센터전력",
+      "마이크로그리드"
+    ],
+    "summary": "🚀 서론: 기술 패러다임의 전환과 문제 제기 생성형 AI 모델의 규모가 수천억 개 파라미터에서 조 단위 매개변수로 확장됨에 따라, 초거대 AI 컴퓨팅 인프라를 지탱하는 전력 시스템은 전례 없는 물리적 한계에 직면했습니다. 과거 범용 클라우드 데이터센터의 워크로드가 예측 가능한 주간·야간 트래픽 곡선을 보였다면, 수만 개의 GPU가 고속 패브릭으로 묶인 현대",
+    "status": "published",
+    "content_file": "data/posts/2026-10-06-august-megafarm-deepdive.md"
+  },
+  {
+    "id": "2026-10-06-daily-infraops-briefing",
+    "title": "[2026.10.06] 오늘의 글로벌 클라우드 & 데이터센터 인프라 핵심 동향 브리핑",
+    "date": "2026-10-06",
+    "time": "05:49",
+    "updated": "2026-10-06 05:49",
+    "category": "Daily Briefing",
+    "labels": [
+      "AWS",
+      "엔비디아",
+      "클라우드",
+      "데이터센터",
+      "AI인프라",
+      "BESS",
+      "오프밸런스",
+      "인프라동향"
+    ],
+    "summary": "글로벌 하이퍼스케일러들의 인공지능(AI) 인프라 구축 경쟁이 천문학적인 자본 지출(CapEx)의 한계와 지역 전력망 수용성의 장벽에 직면하면서, 인프라의 재무 구조와 기술 아키텍처 전반에 걸쳐 중대한 패러다임 전환이 나타나고 있습니다. 아마존(AWS)은 11조 원 규모의 최신 AI 가속기를 특수목적법인(SPV)으로 이전해 대차대조표 부담을 덜어내는 오프밸런",
+    "status": "published",
+    "content_file": "data/posts/2026-10-06-daily-infraops-briefing.md"
+  },
+  {
+    "id": "2026-10-06-10min-tech-podcast",
+    "title": "[2026.10.06] [10-Min English Podcast] 5GW Cooling Mega-Deals, First U.S. SMR Permits, and the Rising Cost of Grid Resistance",
+    "date": "2026-10-06",
+    "time": "05:49",
+    "updated": "2026-10-06 05:49",
+    "category": "Podcast",
+    "labels": [
+      "EnglishPodcast",
+      "TechEnglish",
+      "비즈니스영어",
+      "AWS",
+      "AI인프라",
+      "데이터센터",
+      "액체냉각",
+      "SMR",
+      "전력망"
+    ],
+    "summary": "🎧 10-MIN TECH ENGLISH PODCAST [2026.10.06] [10-Min English Podcast] 5GW Cooling Mega-Deals, First U.S. SMR Permits, and the Rising Cost of Grid Resistance 2026년 10월 6일 DC InfraOps 데일리 심층 브리핑에서는 AI 인프라",
+    "status": "published",
+    "content_file": "data/posts/2026-10-06-10min-tech-podcast.md"
+  },
+  {
+    "id": "2026-10-06-dc-infraops-trends-report",
+    "title": "DC InfraOps Trends - 2026년 10월 06일",
+    "date": "2026-10-06",
+    "time": "05:49",
+    "updated": "2026-10-06 05:49",
+    "category": "Newsletter",
+    "labels": [
+      "AWS",
+      "데이터센터",
+      "클라우드",
+      "AI인프라",
+      "DC-Trends",
+      "Daily-Newsletter",
+      "SMR",
+      "원전",
+      "엔비디아",
+      "액체냉각",
+      "전력망",
+      "마이크로소프트",
+      "구글",
+      "오라클",
+      "신재생에너지"
+    ],
+    "summary": "Datacenter & Cloud Industry InfraOps Daily (2-Column) 1. LG전자 북미 5GW 냉각 대형 수주와 차세대 가속기 랙·공조 생태계 확장 초고발열 AI 가속기 확산에 발맞춰 LG전자가 북미 인프라 전문 기업과 총 5GW 규모의 AI 데이터센터 냉각 솔루션 장기 공급 계약을 체결함 . 이번 수주는 최대 5조 ... ͏ ",
+    "status": "published",
+    "content_file": "data/posts/2026-10-06-dc-infraops-trends-report.md"
+  },
+  {
     "id": "2026-10-05-daily-infraops-briefing",
     "title": "[2026.10.05] 오늘의 글로벌 클라우드 & 데이터센터 인프라 핵심 동향 브리핑",
     "date": "2026-10-05",
