@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>[테크 딥다이브] AI 팩토리의 과도 부하와 전력망 한계: 엔비디아 BESS 표준 편입이 촉발한 데이터센터 전력 아키텍처 전환</title>
+  <meta name="description" content="🚀 서론: 기술 패러다임의 전환과 문제 제기 생성형 AI 모델의 규모가 수천억 개 파라미터에서 조 단위 매개변수로 확장됨에 따라, 초거대 AI 컴퓨팅 인프라를 지탱하는 전력 시스템은 전례 없는 물리적 한계에 직면했습니다. 과거 범용 클라우드 데이터센터의 워크로드가 예측 가능한 주간·야간 트래픽 곡선을 보였다면, 수만 개의 GPU가 고속 패브릭으로 묶인 현대" />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://ywmoon.github.io/article/2026-10-06-august-megafarm-deepdive/" />
+  <!-- OpenGraph -->
+  <meta property="og:type" content="article" />
+  <meta property="og:title" content="[테크 딥다이브] AI 팩토리의 과도 부하와 전력망 한계: 엔비디아 BESS 표준 편입이 촉발한 데이터센터 전력 아키텍처 전환" />
+  <meta property="og:description" content="🚀 서론: 기술 패러다임의 전환과 문제 제기 생성형 AI 모델의 규모가 수천억 개 파라미터에서 조 단위 매개변수로 확장됨에 따라, 초거대 AI 컴퓨팅 인프라를 지탱하는 전력 시스템은 전례 없는 물리적 한계에 직면했습니다. 과거 범용 클라우드 데이터센터의 워크로드가 예측 가능한 주간·야간 트래픽 곡선을 보였다면, 수만 개의 GPU가 고속 패브릭으로 묶인 현대" />
+  <meta property="og:url" content="https://ywmoon.github.io/article/2026-10-06-august-megafarm-deepdive/" />
+  <meta property="og:image" content="https://ywmoon.github.io/assets/avatar.jpg" />
+  <meta property="og:site_name" content="Datacenter InfraOps &amp; Cloud Industry Notes" />
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="[테크 딥다이브] AI 팩토리의 과도 부하와 전력망 한계: 엔비디아 BESS 표준 편입이 촉발한 데이터센터 전력 아키텍처 전환" />
+  <meta name="twitter:description" content="🚀 서론: 기술 패러다임의 전환과 문제 제기 생성형 AI 모델의 규모가 수천억 개 파라미터에서 조 단위 매개변수로 확장됨에 따라, 초거대 AI 컴퓨팅 인프라를 지탱하는 전력 시스템은 전례 없는 물리적 한계에 직면했습니다. 과거 범용 클라우드 데이터센터의 워크로드가 예측 가능한 주간·야간 트래픽 곡선을 보였다면, 수만 개의 GPU가 고속 패브릭으로 묶인 현대" />
+  <meta name="twitter:image" content="https://ywmoon.github.io/assets/avatar.jpg" />
+  <!-- Structured Data: Google Schema.org (Article) -->
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "TechArticle",
+  "headline": "[테크 딥다이브] AI 팩토리의 과도 부하와 전력망 한계: 엔비디아 BESS 표준 편입이 촉발한 데이터센터 전력 아키텍처 전환",
+  "description": "🚀 서론: 기술 패러다임의 전환과 문제 제기 생성형 AI 모델의 규모가 수천억 개 파라미터에서 조 단위 매개변수로 확장됨에 따라, 초거대 AI 컴퓨팅 인프라를 지탱하는 전력 시스템은 전례 없는 물리적 한계에 직면했습니다. 과거 범용 클라우드 데이터센터의 워크로드가 예측 가능한 주간·야간 트래픽 곡선을 보였다면, 수만 개의 GPU가 고속 패브릭으로 묶인 현대",
+  "datePublished": "2026-10-06T05:49:00+09:00",
+  "dateModified": "2026-10-06 05:49:00+09:00",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://ywmoon.github.io/article/2026-10-06-august-megafarm-deepdive/"
+  },
+  "author": {
+    "@type": "Person",
+    "name": "James Moon (문연욱)",
+    "jobTitle": "AWS Data Center Engineering Operations Cluster Manager",
+    "url": "https://www.linkedin.com/in/ywmoon"
+  },
+  "publisher": {
+    "@type": "Person",
+    "name": "James Moon",
+    "url": "https://ywmoon.github.io",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://ywmoon.github.io/assets/avatar.jpg"
+    }
+  },
+  "image": "https://ywmoon.github.io/assets/avatar.jpg",
+  "keywords": "테크딥다이브, BESS, AI팩토리, 엔비디아, AWS, 데이터센터전력, 마이크로그리드"
+}
+  </script>
+  <!-- Instant redirect for real users -->
+  <meta http-equiv="refresh" content="0; url=https://ywmoon.github.io/#article/2026-10-06-august-megafarm-deepdive" />
+  <script>window.location.replace('https://ywmoon.github.io/#article/2026-10-06-august-megafarm-deepdive');</script>
+</head>
+<body></body>
+</html>
