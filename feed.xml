@@ -5,8 +5,48 @@
     <link>https://ywmoon.github.io</link>
     <description>글로벌 AI 데이터센터 전력망, 냉각, 클라우드 인프라 엔지니어링 데일리 트렌드</description>
     <language>ko</language>
-    <lastBuildDate>Tue, 06 Oct 2026 05:49:36 -0000</lastBuildDate>
+    <lastBuildDate>Wed, 07 Oct 2026 05:51:14 -0000</lastBuildDate>
     <atom:link href="https://ywmoon.github.io/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>[2026.10.07] [10-Min English Podcast] Google's 3.6GW Nuclear PPA, AWS Campus Grid Friction, 800V DC Rack Transitions, and Hyperscale Infrastructure Expansion</title>
+      <link>https://ywmoon.github.io/article/2026-10-07-10min-tech-podcast/</link>
+      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-10-07-10min-tech-podcast/</guid>
+      <pubDate>Wed, 07 Oct 2026 00:00:00 -0000</pubDate>
+      <category>Podcast</category>
+      <description>🎧 10-MIN TECH ENGLISH PODCAST [2026.10.07] [10-Min English Podcast] Google's 3.6GW Nuclear PPA, AWS Campus Grid Friction, 800V DC Rack Transitions, and Hyperscale Infrastructure Expansion 오늘의 10분 심층 팟</description>
+    </item>
+    <item>
+      <title>DC InfraOps Trends - 2026년 10월 07일</title>
+      <link>https://ywmoon.github.io/article/2026-10-07-dc-infraops-trends-report/</link>
+      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-10-07-dc-infraops-trends-report/</guid>
+      <pubDate>Wed, 07 Oct 2026 00:00:00 -0000</pubDate>
+      <category>Newsletter</category>
+      <description>Datacenter &amp; Cloud Industry InfraOps Daily (2-Column) 1. 구글과 콘스텔레이션 3.6GW 초대형 원전 계약과 기저전원 직접 연계 확산 구글이 콘스텔레이션 에너지와 20년 장기 전력 공급 계약을 체결해 PJM 전력망 내 3.6GW 규모의 전력을 선제 확보함 . 이번 계약을 통해 콘스텔레이션이 보유한 원전 ... ͏ </description>
+    </item>
+    <item>
+      <title>[인프라 용어사전] BTM (Behind-the-Meter) - 계통 병목을 우회하는 데이터센터 온사이트 직결 전력 아키텍처</title>
+      <link>https://ywmoon.github.io/article/2026-10-07-infra-glossary/</link>
+      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-10-07-infra-glossary/</guid>
+      <pubDate>Wed, 07 Oct 2026 00:00:00 -0000</pubDate>
+      <category>Terminology</category>
+      <description>전력 인프라 아키텍처 기저전원 직결 하이퍼스케일 전력망 BTM (Behind-the-Meter, 계통 후면 전력 연계) 공용 송전망의 병목과 접속 대기열을 우회하여 발전원과 대규모 부하를 구내에서 직접 물리적으로 연결하는 차세대 전력 수전 체계 📌 1. 30초 핵심 요약 &amp; 개념 정의 BTM(Behind-the-Meter, 계통 후면 전력 연계)은 전력 소</description>
+    </item>
+    <item>
+      <title>[테크 딥다이브] 기가와트(GW)급 AI 데이터센터의 전력망 병목과 온사이트 에너지 아키텍처: 계통 연계 지연 극복을 위한 BTM 직결 및 분산 인프라 전략</title>
+      <link>https://ywmoon.github.io/article/2026-10-07-august-megafarm-deepdive/</link>
+      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-10-07-august-megafarm-deepdive/</guid>
+      <pubDate>Wed, 07 Oct 2026 00:00:00 -0000</pubDate>
+      <category>Tech Deep Dive</category>
+      <description>Technical Infrastructure Deep Dive 기가와트(GW)급 AI 데이터센터의 전력망 병목과 온사이트 에너지 아키텍처: 계통 연계 지연 극복을 위한 BTM 직결 및 분산 인프라 전략 생성형 AI 워크로드의 가속화는 단일 데이터센터 캠퍼스의 수전 용량을 수백 메가와트(MW)에서 기가와트(GW) 단위로 급증시켰습니다. 그러나 공용 송전망의 </description>
+    </item>
+    <item>
+      <title>[2026.10.07] 오늘의 글로벌 클라우드 &amp; 데이터센터 인프라 핵심 동향 브리핑</title>
+      <link>https://ywmoon.github.io/article/2026-10-07-daily-infraops-briefing/</link>
+      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-10-07-daily-infraops-briefing/</guid>
+      <pubDate>Wed, 07 Oct 2026 00:00:00 -0000</pubDate>
+      <category>Daily Briefing</category>
+      <description>글로벌 클라우드 &amp; 데이터센터 인프라 데일리 다이제스트 인공지능 가속기 수급, 기저부하 전력 계약, 대규모 자본 지출(CapEx) 유동화 구조 및 인허가 투명성에 이르는 글로벌 핵심 인프라 기술 분석 📌 오늘의 3대 핵심 관전 포인트 (Key Highlights) 자본 지출(CapEx)의 구조적 한계와 오프밸런스(Off-Balance) 유동화: 연간 약 2</description>
+    </item>
     <item>
       <title>[인프라 용어사전] 액침 냉각 (Immersion Cooling) - 100kW+ 초고발열 AI 랙을 절연 유체에 통째로 담그는 차세대 열관리 아키텍처</title>
       <link>https://ywmoon.github.io/article/2026-10-06-infra-glossary/</link>
@@ -1166,46 +1206,6 @@
       <pubDate>Wed, 26 Aug 2026 00:00:00 -0000</pubDate>
       <category>Daily Briefing</category>
       <description>Daily InfraOps Digest 차세대 가속기 도입 가속화와 인프라 입지 패러다임의 확장 발행일자: 2026년 8월 26일 | 작성: 글로벌 IT·데이터센터 인프라 수석 에디터 📌 오늘의 3대 핵심 관전 포인트 (Key Highlights) 스페이스X-엔비디아 연합의 우주 궤도 AI 데이터센터 로드맵: 스페이스X가 엔비디아 차세대 '베라 루빈(Ver</description>
-    </item>
-    <item>
-      <title>[인프라 용어사전] NVLink (NVIDIA GPU Interconnect) - 거대 AI 클러스터의 두뇌를 하나로 묶는 초고속 인터커넥트</title>
-      <link>https://ywmoon.github.io/article/2026-08-26-infra-glossary/</link>
-      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-08-26-infra-glossary/</guid>
-      <pubDate>Wed, 26 Aug 2026 00:00:00 -0000</pubDate>
-      <category>Terminology</category>
-      <description>📌 1. 30초 핵심 요약 &amp; 개념 정의 NVLink(엔비디아 고속 인터커넥트)는 표준 PCIe 버스의 대역폭 한계를 극복하고 여러 GPU 간, 또는 GPU와 CPU 간에 메모리를 직접 공유하고 초고속으로 데이터를 교환하도록 설계된 양방향 점대점(Point-to-Point) 고속 시리얼 통신 인터페이스입니다. 💡 직관적 비유: 일반 서버가 좁은 시내 도로(</description>
-    </item>
-    <item>
-      <title>DC InfraOps Trends - 2026년 08월 26일</title>
-      <link>https://ywmoon.github.io/article/2026-08-26-dc-infraops-trends-report/</link>
-      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-08-26-dc-infraops-trends-report/</guid>
-      <pubDate>Wed, 26 Aug 2026 00:00:00 -0000</pubDate>
-      <category>Newsletter</category>
-      <description>Datacenter &amp; Cloud Industry InfraOps Daily (2-Column) DAILY DIGEST Datacenter &amp; Cloud Industry InfraOps Daily 2026년 08월 26일 (수) 💡 AI Executive Summary: Key News Insights SpaceX와 엔비디아가 협력하여 지상 부지 및 전력 </description>
-    </item>
-    <item>
-      <title>[2026.08.25] [10-Min English Podcast] The $3 Trillion AI Infrastructure Supercycle: Hyperscale CapEx, Liquid-Cooled Gigawatt Deployments, and Grid Autonomy</title>
-      <link>https://ywmoon.github.io/article/2026-08-25-10min-tech-podcast/</link>
-      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-08-25-10min-tech-podcast/</guid>
-      <pubDate>Tue, 25 Aug 2026 00:00:00 -0000</pubDate>
-      <category>Podcast</category>
-      <description>🎧 10-MIN TECH ENGLISH PODCAST [2026.08.25] [10-Min English Podcast] The $3 Trillion AI Infrastructure Supercycle: Hyperscale CapEx, Liquid-Cooled Gigawatt Deployments, and Grid Autonomy 2026년 8월 25일 D</description>
-    </item>
-    <item>
-      <title>[인프라 용어사전] 소버린 클라우드 (Sovereign Cloud) - 데이터 주권과 AI 인프라 자립을 위한 기술 아키텍처</title>
-      <link>https://ywmoon.github.io/article/2026-08-25-infra-glossary/</link>
-      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-08-25-infra-glossary/</guid>
-      <pubDate>Tue, 25 Aug 2026 00:00:00 -0000</pubDate>
-      <category>Terminology</category>
-      <description>📌 1. 30초 핵심 요약 &amp; 개념 정의 소버린 클라우드(Sovereign Cloud)는 특정 국가나 관할 구역의 데이터 주권(Data Sovereignty) 법률과 규제 요건을 완벽하게 준수하도록 설계된 독립형 클라우드 인프라입니다. 단순히 서버가 해당 국가 영토 내에 물리적으로 위치하는 것을 넘어, 데이터의 저장·처리·접근 권한, 하드웨어 공급망, 암호</description>
-    </item>
-    <item>
-      <title>DC InfraOps Trends - 2026년 08월 25일</title>
-      <link>https://ywmoon.github.io/article/2026-08-25-dc-infraops-trends-report/</link>
-      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-08-25-dc-infraops-trends-report/</guid>
-      <pubDate>Tue, 25 Aug 2026 00:00:00 -0000</pubDate>
-      <category>Newsletter</category>
-      <description>Datacenter &amp; Cloud Industry InfraOps Daily (2-Column) DAILY DIGEST Datacenter &amp; Cloud Industry InfraOps Daily 2026년 08월 25일 (화) 💡 AI Executive Summary: Key News Insights 글로벌 빅테크의 AI 인프라 자본지출(CapEx)이 초</description>
     </item>
   </channel>
 </rss>
