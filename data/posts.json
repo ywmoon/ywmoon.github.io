@@ -1,5 +1,117 @@
 [
   {
+    "id": "2026-10-12-dc-infraops-trends-report",
+    "title": "DC InfraOps Trends - 2026년 10월 12일",
+    "date": "2026-10-12",
+    "time": "06:02",
+    "updated": "2026-10-12 06:02",
+    "category": "Newsletter",
+    "labels": [
+      "AWS",
+      "데이터센터",
+      "클라우드",
+      "AI인프라",
+      "DC-Trends",
+      "Daily-Newsletter",
+      "SMR",
+      "원전",
+      "엔비디아",
+      "액체냉각",
+      "전력망",
+      "마이크로소프트",
+      "구글",
+      "오라클",
+      "신재생에너지"
+    ],
+    "summary": "Datacenter & Cloud Industry InfraOps Daily (2-Column) 1. 얀덱스 데이터센터 연쇄 드론 피격과 인프라의 전시 군사 표적화 우크라이나가 러시아 최대 IT·AI 기업 얀덱스의 사소보 데이터센터를 드론으로 타격해 화재와 클라우드 중단을 초래한 데 이어 , 블라디미르 시설을 멈춰 세우고 칼루가 캠퍼스까지 나흘 ... ͏ ",
+    "char_count": 61249,
+    "read_time": 56,
+    "status": "published",
+    "content_file": "data/posts/2026-10-12-dc-infraops-trends-report.md"
+  },
+  {
+    "id": "2026-10-12-august-megafarm-deepdive",
+    "title": "[테크 딥다이브] 랙당 130kW 초고밀도 시대를 향한 전환: Direct-to-Chip 액체냉각 아키텍처와 하이퍼스케일 인프라의 열역학적 재설계",
+    "date": "2026-10-12",
+    "time": "06:02",
+    "updated": "2026-10-12 06:02",
+    "category": "Tech Deep Dive",
+    "labels": [
+      "테크딥다이브",
+      "액체냉각",
+      "블랙웰",
+      "AWS",
+      "데이터센터"
+    ],
+    "summary": "🚀 서론: 기술 패러다임의 전환과 문제 제기 생성형 AI 모델의 매개변수가 수조 개 단위로 확장되고 조 단위 토큰을 처리하는 거대언어모델(LLM) 학습 및 추론 클러스터가 보편화되면서, 글로벌 데이터센터 인프라는 전례 없는 물리적 한계선에 도달하고 있습니다. 지난 수십 년간 엔터프라이즈 컴퓨팅 환경을 지탱해 온 공랭식(Air Cooling) 기반의 데이터센",
+    "char_count": 6898,
+    "read_time": 9,
+    "status": "published",
+    "content_file": "data/posts/2026-10-12-august-megafarm-deepdive.md"
+  },
+  {
+    "id": "2026-10-12-daily-infraops-briefing",
+    "title": "[2026.10.12] 글로벌 AI 인프라 자본시장 검증과 물리적 안보 리스크 심층 브리핑",
+    "date": "2026-10-12",
+    "time": "06:02",
+    "updated": "2026-10-12 06:02",
+    "category": "Daily Briefing",
+    "labels": [
+      "AWS",
+      "클라우드",
+      "데이터센터",
+      "AI인프라",
+      "인프라동향"
+    ],
+    "summary": "글로벌 AI 인프라 자본시장 검증과 물리적 안보 리스크 심층 분석 2026년 10월 12일 | 데일리 인프라 종합 리포트 (Daily InfraOps Digest) 📌 오늘의 3대 핵심 관전 포인트 (Key Highlights) AI 전용 데이터센터 자본 조달의 제동과 가치 재평가: 엔비디아의 지원과 오픈AI·메타 계약을 확보했던 호주 퍼머스(Firmus)",
+    "char_count": 5715,
+    "read_time": 8,
+    "status": "published",
+    "content_file": "data/posts/2026-10-12-daily-infraops-briefing.md"
+  },
+  {
+    "id": "2026-10-12-infra-glossary",
+    "title": "[인프라 용어사전] 블래스트 래디어스 (Blast Radius) - 국소 장애의 전체 확산을 차단하는 인프라 격리 반경",
+    "date": "2026-10-12",
+    "time": "06:02",
+    "updated": "2026-10-12 06:02",
+    "category": "Terminology",
+    "labels": [
+      "인프라용어사전",
+      "IT백과사전",
+      "블래스트래디어스",
+      "AWS",
+      "데이터센터"
+    ],
+    "summary": "핵심 인프라 개념 분류: 클라우드 / 고가용성 아키텍처 (Fault Domain) 블래스트 래디어스(Blast Radius)는 군사학의 '폭발 반경'에서 유래한 인프라 공학 개념으로, 특정 서버 랙, 가용 영역(AZ), 데이터센터 건물 또는 소프트웨어 모듈에 치명적인 장애나 물리적 파괴가 발생했을 때 영향이 미칠 수 있는 '최대 장애 파급 범위(Failur",
+    "char_count": 3517,
+    "read_time": 5,
+    "status": "published",
+    "content_file": "data/posts/2026-10-12-infra-glossary.md"
+  },
+  {
+    "id": "2026-10-12-10min-tech-podcast",
+    "title": "[2026.10.12] [10-Min English Podcast] Physical Warfare on Cloud Hubs, Firmus IPO Pullback, and Virtual Gas Pipelines",
+    "date": "2026-10-12",
+    "time": "06:02",
+    "updated": "2026-10-12 06:02",
+    "category": "Podcast",
+    "labels": [
+      "EnglishPodcast",
+      "TechEnglish",
+      "비즈니스영어",
+      "AWS",
+      "AI인프라",
+      "데이터센터",
+      "액체냉각"
+    ],
+    "summary": "🎧 10-MIN TECH ENGLISH PODCAST [2026.10.12] [10-Min English Podcast] Physical Warfare on Cloud Hubs, Firmus IPO Pullback, and Virtual Gas Pipelines 오늘의 10분 심층 팟캐스트는 러시아 얀덱스 데이터센터 연쇄 드론 피격에 따른 물리적 인프라 안",
+    "char_count": 16112,
+    "read_time": 15,
+    "status": "published",
+    "content_file": "data/posts/2026-10-12-10min-tech-podcast.md"
+  },
+  {
     "id": "2026-10-08-daily-infraops-briefing",
     "title": "[2026.10.08] 오늘의 글로벌 클라우드 & 데이터센터 인프라 핵심 동향 브리핑",
     "date": "2026-10-08",
@@ -17,6 +129,8 @@
       "인프라동향"
     ],
     "summary": "2026년 10월 8일 데일리 인프라 종합 리포트(Daily InfraOps Digest)입니다. AI 워크로드 급증에 대응하기 위한 기저부하 전력 확보 경쟁과 각국 지자체의 인허가·환경 규제가 정면 충돌하고 있으며, 퍼블릭 클라우드 마켓플레이스에서는 멀티 파운데이션 모델 유통망의 구조적 재편이 가속화되고 있습니다. 오늘 수집된 주요 인프라 쟁점을 심층 분",
+    "char_count": 6175,
+    "read_time": 8,
     "status": "published",
     "content_file": "data/posts/2026-10-08-daily-infraops-briefing.md"
   },
@@ -37,6 +151,8 @@
       "데이터센터"
     ],
     "summary": "🚀 서론: 기술 패러다임의 전환과 문제 제기 현대자동차그룹의 로보틱스 계열사 보스턴다이내믹스(Boston Dynamics)가 7개월간 이어진 경영 공백을 깨고 로히트 프라사드(Rohit Prasad) 전 아마존 수석부사장 겸 수석과학자를 신임 최고경영자(CEO)로 선임했다. 2013년 아마존에 합류해 대화형 음성 인터페이스 '알렉사(Alexa)'의 상용화를",
+    "char_count": 5736,
+    "read_time": 8,
     "status": "published",
     "content_file": "data/posts/2026-10-08-august-megafarm-deepdive.md"
   },
@@ -65,6 +181,8 @@
       "신재생에너지"
     ],
     "summary": "Datacenter & Cloud Industry InfraOps Daily (2-Column) 1. 수도권 서부 AI 인프라 대규모 수주와 북미 분산 발전엔진 공급망 진입 수도권 송전망 포화 속에서도 서부권을 중심으로 초대형 AI 데이터센터 신축 및 운영 수주가 집중됨. 현대엔지니어링이 인천 원창동에 8,700억 원 규모의 50MW급 데이터센터... ͏ ",
+    "char_count": 41180,
+    "read_time": 38,
     "status": "published",
     "content_file": "data/posts/2026-10-08-dc-infraops-trends-report.md"
   },
@@ -85,6 +203,8 @@
       "액체냉각"
     ],
     "summary": "🎧 10-MIN TECH ENGLISH PODCAST [2026.10.08] [10-Min English Podcast] Grid Saturation, Moratorium Clashes, SMR Interconnections, and the Physical AI Compute Frontier 오늘의 10분 심층 팟캐스트는 2026년 10월 8일 글로벌 데이",
+    "char_count": 14777,
+    "read_time": 14,
     "status": "published",
     "content_file": "data/posts/2026-10-08-10min-tech-podcast.md"
   },
@@ -103,6 +223,8 @@
       "데이터센터"
     ],
     "summary": "📌 1. 30초 핵심 요약 & 개념 정의 [개념 정의] 오프그리드 데이터센터(Off-Grid Data Center)란 국가 및 지역 공용 송배전망(Utility Grid)과의 연결에 의존하지 않고, 부지 내부에 독자적인 발전 설비를 구축하여 상시 운전에 필요한 모든 전력을 자체 생산 및 소비하는 독립 자립형 전력 아키텍처를 의미합니다. 직관적 비유: 도시 ",
+    "char_count": 3310,
+    "read_time": 5,
     "status": "published",
     "content_file": "data/posts/2026-10-08-infra-glossary.md"
   },
@@ -126,6 +248,8 @@
       "액체냉각"
     ],
     "summary": "🎧 10-MIN TECH ENGLISH PODCAST [2026.10.07] [10-Min English Podcast] Google's 3.6GW Nuclear PPA, AWS Campus Grid Friction, 800V DC Rack Transitions, and Hyperscale Infrastructure Expansion 오늘의 10분 심층 팟",
+    "char_count": 14973,
+    "read_time": 14,
     "status": "published",
     "content_file": "data/posts/2026-10-07-10min-tech-podcast.md"
   },
@@ -154,6 +278,8 @@
       "신재생에너지"
     ],
     "summary": "Datacenter & Cloud Industry InfraOps Daily (2-Column) 1. 구글과 콘스텔레이션 3.6GW 초대형 원전 계약과 기저전원 직접 연계 확산 구글이 콘스텔레이션 에너지와 20년 장기 전력 공급 계약을 체결해 PJM 전력망 내 3.6GW 규모의 전력을 선제 확보함 . 이번 계약을 통해 콘스텔레이션이 보유한 원전 ... ͏ ",
+    "char_count": 46631,
+    "read_time": 43,
     "status": "published",
     "content_file": "data/posts/2026-10-07-dc-infraops-trends-report.md"
   },
@@ -174,6 +300,8 @@
       "AWS"
     ],
     "summary": "전력 인프라 아키텍처 기저전원 직결 하이퍼스케일 전력망 BTM (Behind-the-Meter, 계통 후면 전력 연계) 공용 송전망의 병목과 접속 대기열을 우회하여 발전원과 대규모 부하를 구내에서 직접 물리적으로 연결하는 차세대 전력 수전 체계 📌 1. 30초 핵심 요약 & 개념 정의 BTM(Behind-the-Meter, 계통 후면 전력 연계)은 전력 소",
+    "char_count": 3339,
+    "read_time": 5,
     "status": "published",
     "content_file": "data/posts/2026-10-07-infra-glossary.md"
   },
@@ -193,6 +321,8 @@
       "AWS"
     ],
     "summary": "Technical Infrastructure Deep Dive 기가와트(GW)급 AI 데이터센터의 전력망 병목과 온사이트 에너지 아키텍처: 계통 연계 지연 극복을 위한 BTM 직결 및 분산 인프라 전략 생성형 AI 워크로드의 가속화는 단일 데이터센터 캠퍼스의 수전 용량을 수백 메가와트(MW)에서 기가와트(GW) 단위로 급증시켰습니다. 그러나 공용 송전망의 ",
+    "char_count": 5488,
+    "read_time": 7,
     "status": "published",
     "content_file": "data/posts/2026-10-07-august-megafarm-deepdive.md"
   },
@@ -212,6 +342,8 @@
       "인프라금융"
     ],
     "summary": "글로벌 클라우드 & 데이터센터 인프라 데일리 다이제스트 인공지능 가속기 수급, 기저부하 전력 계약, 대규모 자본 지출(CapEx) 유동화 구조 및 인허가 투명성에 이르는 글로벌 핵심 인프라 기술 분석 📌 오늘의 3대 핵심 관전 포인트 (Key Highlights) 자본 지출(CapEx)의 구조적 한계와 오프밸런스(Off-Balance) 유동화: 연간 약 2",
+    "char_count": 5124,
+    "read_time": 7,
     "status": "published",
     "content_file": "data/posts/2026-10-07-daily-infraops-briefing.md"
   },
@@ -230,6 +362,8 @@
       "데이터센터"
     ],
     "summary": "Next-Gen Thermal Architecture 액침 냉각 (Immersion Cooling) 비전도성 유전체 용액에 고집적 IT 서버를 완전 침전시켜 100kW+ 고발열을 제어하고 팬을 영구 제거하는 궁극의 열관리 기술 📌 1. 30초 핵심 요약 & 개념 정의 직관적 비유: 방수 스마트폰을 차가운 수조에 담그듯, 전기가 통하지 않는 특수 절연 오일(",
+    "char_count": 3494,
+    "read_time": 5,
     "status": "published",
     "content_file": "data/posts/2026-10-06-infra-glossary.md"
   },
@@ -250,6 +384,8 @@
       "마이크로그리드"
     ],
     "summary": "🚀 서론: 기술 패러다임의 전환과 문제 제기 생성형 AI 모델의 규모가 수천억 개 파라미터에서 조 단위 매개변수로 확장됨에 따라, 초거대 AI 컴퓨팅 인프라를 지탱하는 전력 시스템은 전례 없는 물리적 한계에 직면했습니다. 과거 범용 클라우드 데이터센터의 워크로드가 예측 가능한 주간·야간 트래픽 곡선을 보였다면, 수만 개의 GPU가 고속 패브릭으로 묶인 현대",
+    "char_count": 6578,
+    "read_time": 9,
     "status": "published",
     "content_file": "data/posts/2026-10-06-august-megafarm-deepdive.md"
   },
@@ -271,6 +407,8 @@
       "인프라동향"
     ],
     "summary": "글로벌 하이퍼스케일러들의 인공지능(AI) 인프라 구축 경쟁이 천문학적인 자본 지출(CapEx)의 한계와 지역 전력망 수용성의 장벽에 직면하면서, 인프라의 재무 구조와 기술 아키텍처 전반에 걸쳐 중대한 패러다임 전환이 나타나고 있습니다. 아마존(AWS)은 11조 원 규모의 최신 AI 가속기를 특수목적법인(SPV)으로 이전해 대차대조표 부담을 덜어내는 오프밸런",
+    "char_count": 6040,
+    "read_time": 8,
     "status": "published",
     "content_file": "data/posts/2026-10-06-daily-infraops-briefing.md"
   },
@@ -293,6 +431,8 @@
       "전력망"
     ],
     "summary": "🎧 10-MIN TECH ENGLISH PODCAST [2026.10.06] [10-Min English Podcast] 5GW Cooling Mega-Deals, First U.S. SMR Permits, and the Rising Cost of Grid Resistance 2026년 10월 6일 DC InfraOps 데일리 심층 브리핑에서는 AI 인프라",
+    "char_count": 15321,
+    "read_time": 14,
     "status": "published",
     "content_file": "data/posts/2026-10-06-10min-tech-podcast.md"
   },
@@ -321,6 +461,8 @@
       "신재생에너지"
     ],
     "summary": "Datacenter & Cloud Industry InfraOps Daily (2-Column) 1. LG전자 북미 5GW 냉각 대형 수주와 차세대 가속기 랙·공조 생태계 확장 초고발열 AI 가속기 확산에 발맞춰 LG전자가 북미 인프라 전문 기업과 총 5GW 규모의 AI 데이터센터 냉각 솔루션 장기 공급 계약을 체결함 . 이번 수주는 최대 5조 ... ͏ ",
+    "char_count": 39054,
+    "read_time": 36,
     "status": "published",
     "content_file": "data/posts/2026-10-06-dc-infraops-trends-report.md"
   },
@@ -342,6 +484,8 @@
       "클라우드보안"
     ],
     "summary": "📌 오늘의 3대 핵심 관전 포인트 (Key Highlights)하이퍼스케일러의 80억 달러 규모 하드웨어 유동화: 아마존이 엔비디아 AI 가속기 칩셋을 외부 투자자에게 오프밸런스(Off-balance) 형태로 분할 이전하는 금융 구조를 검토하며, 대규모 인프라 투자(CapEx)의 재무 건전성 관리 모델이 부상하고 있습니다.육상 전력·부지 병목과 대체 인프라",
+    "char_count": 4994,
+    "read_time": 7,
     "status": "published",
     "content_file": "data/posts/2026-10-05-daily-infraops-briefing.md"
   },
@@ -363,6 +507,8 @@
       "전력망"
     ],
     "summary": "🎧 10-MIN TECH ENGLISH PODCAST [2026.10.05] [10-Min English Podcast] Amazon's $8B GPU Securitization, Municipal NDA Repeal, and Grid-Resilient Baseload Architectures 오늘의 10분 심층 팟캐스트는 글로벌 하이퍼스케일러들의 자본 지",
+    "char_count": 14959,
+    "read_time": 14,
     "status": "published",
     "content_file": "data/posts/2026-10-05-10min-tech-podcast.md"
   },
@@ -381,6 +527,8 @@
       "클라우드보안"
     ],
     "summary": "Cloud Infrastructure & Security CSPM (Cloud Security Posture Management) 퍼블릭 클라우드 전반의 리소스 구성 상태를 실시간 스캔하여 잘못된 설정(Misconfiguration)과 컴플라이언스 위반을 자동 탐지·교정하는 핵심 클라우드 인프라 거버넌스 아키텍처 📌 1. 30초 핵심 요약 & 개념 정의 💡",
+    "char_count": 4772,
+    "read_time": 6,
     "status": "published",
     "content_file": "data/posts/2026-10-05-infra-glossary.md"
   },
@@ -399,6 +547,8 @@
       "데이터센터"
     ],
     "summary": "핵심 요약: 국내 대표 OTT 플랫폼 티빙(TVING)의 침해 사고 후속 조치로 추진된 AWS SIP(Security Improvement Program) 도입은 단순한 개별 보안 솔루션의 추가가 아니라, 클라우드 컴퓨팅 태동기부터 유지되어 온 '공유 책임 모델(Shared Responsibility Model)'의 구조적 한계를 극복하려는 아키텍처적 전환",
+    "char_count": 7278,
+    "read_time": 10,
     "status": "published",
     "content_file": "data/posts/2026-10-05-august-megafarm-deepdive.md"
   },
@@ -427,6 +577,8 @@
       "신재생에너지"
     ],
     "summary": "Datacenter & Cloud Industry InfraOps Daily (2-Column) 1. 아마존 10억 달러 상생 투자와 비밀유지협약 철폐 및 전 세계적 주민 수용성 충돌 AI 데이터센터 확산에 따른 전력망 과부하와 소음·용수 고갈 우려로 미국 전역에서 100개 이상의 인허가 유예(모라토리엄)가 발생하는 등 주민 반발이 거세짐 . 이... ͏ ",
+    "char_count": 51308,
+    "read_time": 47,
     "status": "published",
     "content_file": "data/posts/2026-10-05-dc-infraops-trends-report.md"
   },
@@ -448,6 +600,8 @@
       "구글클라우드"
     ],
     "summary": "Daily InfraOps Digest | Global Cloud & Data Center Intelligence 글로벌 AI 데이터센터 인프라 동향: 기저부하 원전 20년 장기계약, 랙 냉각 아키텍처 생태계 재편 및 자체 가속기 동맹 2026년 10월 2일 기준 글로벌 클라우드 제공업체(CSP), 전력 유틸리티, 냉각 솔루션 제조사 및 AI 인프라 스타트",
+    "char_count": 5374,
+    "read_time": 7,
     "status": "published",
     "content_file": "data/posts/2026-10-02-daily-infraops-briefing.md"
   },
@@ -476,6 +630,8 @@
       "신재생에너지"
     ],
     "summary": "Datacenter & Cloud Industry InfraOps Daily (2-Column) 1. 아마존 메릴랜드 690MW 원전 장기 PPA와 글로벌 전력 확보전 아마존(AWS)이 미국 최대 원전 기업 콘스텔레이션 에너지와 20년 장기 전력구매계약(PPA)을 체결하고 메릴랜드주 캘버트 클리프스 원전에서 690MW의 무탄소 전력을 확보함 . ... ͏ ",
+    "char_count": 38272,
+    "read_time": 35,
     "status": "published",
     "content_file": "data/posts/2026-10-02-dc-infraops-trends-report.md"
   },
@@ -497,6 +653,8 @@
       "데이터센터"
     ],
     "summary": "Infrastructure Tech Glossary 궤도 데이터센터 (Orbital Data Center) 지상 전력망 병목과 냉각수 고갈을 넘어, 대기권 밖 24시간 태양광 발전과 심우주 절대온도 복사 방열을 활용해 대규모 연산을 수행하는 우주 기반 컴퓨팅 아키텍처 📌 1. 30초 핵심 요약 & 개념 정의 궤도 데이터센터(Orbital Data Cente",
+    "char_count": 3753,
+    "read_time": 5,
     "status": "published",
     "content_file": "data/posts/2026-10-02-infra-glossary.md"
   },
@@ -520,6 +678,8 @@
       "LS일렉트릭"
     ],
     "summary": "🎧 10-MIN TECH ENGLISH PODCAST [2026.10.02] [10-Min English Podcast] Nuclear PPAs, Chip-to-Chiller Turnkey, and Grid Regulatory Halts 오늘의 10분 심층 팟캐스트는 2026년 10월 2일 글로벌 데이터센터 및 전력 인프라 시장을 뒤흔든 4대 핵심 이슈를 ",
+    "char_count": 15023,
+    "read_time": 14,
     "status": "published",
     "content_file": "data/posts/2026-10-02-10min-tech-podcast.md"
   },
@@ -538,6 +698,8 @@
       "데이터센터"
     ],
     "summary": "인공지능 워크로드가 대규모 사전 학습(Pre-training) 중심에서 24시간 무중단 실시간 추론(Inference) 서비스로 급격히 전환되면서, 글로벌 컴퓨팅 인프라의 물리적·경제적 구조가 근본적인 재편을 겪고 있습니다. 기존 아마존웹서비스(AWS), 마이크로소프트 애저(Azure), 구글 클라우드(GCP)로 대변되는 전통적 하이퍼스케일러는 다중 임대(",
+    "char_count": 6468,
+    "read_time": 9,
     "status": "published",
     "content_file": "data/posts/2026-10-02-august-megafarm-deepdive.md"
   },
@@ -556,6 +718,8 @@
       "데이터센터"
     ],
     "summary": "Cloud & AI Infrastructure 인컨트리 추론 (In-Country Inferencing) 데이터 국외 반출을 원천 차단하고 지정된 국가 리전 경계 내에서 AI 모델 가중치와 연산 파이프라인을 100% 완결하는 엔터프라이즈 인프라 기술 📌 1. 30초 핵심 요약 & 개념 정의 💡 비유로 이해하기 해외 본사나 지사로 기밀 서류 원본을 발송해 결",
+    "char_count": 3886,
+    "read_time": 5,
     "status": "published",
     "content_file": "data/posts/2026-10-01-infra-glossary.md"
   },
@@ -574,6 +738,8 @@
       "데이터센터"
     ],
     "summary": "🚀 서론: 기술 패러다임의 전환과 문제 제기 생성형 인공지능(AI) 기술이 개념 증명(PoC) 단계를 넘어 금융, 제조, 공공, 의료 등 핵심 미션 크리티컬 워크로드로 전면 확산되면서, 전 세계 엔터프라이즈 인프라 아키텍처는 전례 없는 기술적 병목과 직면하고 있습니다. 지난 2년간 대규모 언어 모델(LLM)의 공급 방식은 소수의 글로벌 거대 데이터센터 클러",
+    "char_count": 6344,
+    "read_time": 8,
     "status": "published",
     "content_file": "data/posts/2026-10-01-august-megafarm-deepdive.md"
   },
@@ -602,6 +768,8 @@
       "신재생에너지"
     ],
     "summary": "Datacenter & Cloud Industry InfraOps Daily (2-Column) 1. AWS 서울 리전 클로드 5 출시와 소버린 데이터 주권 및 종속성 딜레마 아마존웹서비스(AWS)가 서울 리전에 앤트로픽의 최신 인공지능 모델 '클로드 오퍼스 5'와 '소넷 5'를 전격 출시함 . 이번 조치로 데이터 국외 반출 규제에 묶였던 국내 ... ͏ ",
+    "char_count": 44142,
+    "read_time": 41,
     "status": "published",
     "content_file": "data/posts/2026-10-01-dc-infraops-trends-report.md"
   },
@@ -624,6 +792,8 @@
       "전력망인프라"
     ],
     "summary": "🎧 10-MIN TECH ENGLISH PODCAST [2026.10.01] [10-Min English Podcast] Sovereign Claude 5 Rollout, 4MW Modular PMDC, CoreWeave Rubin Deployments, and Grid Cost Politics 2026년 10월 1일 DC InfraOps Daily 브리핑",
+    "char_count": 15227,
+    "read_time": 14,
     "status": "published",
     "content_file": "data/posts/2026-10-01-10min-tech-podcast.md"
   },
@@ -645,6 +815,8 @@
       "코어위브"
     ],
     "summary": "Daily InfraOps Digest 글로벌 클라우드 및 데이터센터 인프라 테크 리포트 발행일: 2026년 10월 1일 | 대상: 인프라 아키텍트, 시스템 엔지니어, 기술 의사결정권자 📌 오늘의 3대 핵심 관전 포인트 (Key Highlights) 빅테크 자체 반도체 생태계의 IP 내재화: AWS가 전자설계자동화(EDA) 및 반도체 설계자산(IP) 선도 ",
+    "char_count": 5550,
+    "read_time": 7,
     "status": "published",
     "content_file": "data/posts/2026-10-01-daily-infraops-briefing.md"
   },
@@ -669,6 +841,8 @@
       "AI데이터센터"
     ],
     "summary": "📌 오늘의 3대 핵심 관전 포인트 (Key Highlights) 국방·안보 클라우드의 공통 표준화 (AWS, NATO 전 회원국 ‘제한 등급’ 최초 승인): 퍼블릭 클라우드 기업 최초로 북대서양조약기구(NATO) 전 회원국에서 'NATO 제한(NR)' 등급 기밀 데이터를 처리할 수 있는 D32 규격 승인을 획득했습니다. 나토 32개국 전역의 15개 리전(유",
+    "char_count": 6185,
+    "read_time": 8,
     "status": "published",
     "content_file": "data/posts/2026-09-30-daily-infraops-briefing.md"
   },
@@ -697,6 +871,8 @@
       "신재생에너지"
     ],
     "summary": "Datacenter & Cloud Industry InfraOps Daily (2-Column) 1. 삼성 6개사의 美 헬릭스 10억 달러 투자와 풀스택 인프라 동맹 구축 글로벌 AI 데이터센터 건설 수요가 급증하는 가운데 삼성전자와 삼성물산 등 삼성 6개 계열사가 미국 차세대 AI 인프라 기업 헬릭스(Helix)에 총 10억 달러(약 1조 3,... ͏ ",
+    "char_count": 47249,
+    "read_time": 43,
     "status": "published",
     "content_file": "data/posts/2026-09-30-dc-infraops-trends-report.md"
   },
@@ -715,6 +891,8 @@
       "데이터센터"
     ],
     "summary": "글로벌 국방 및 국가 안보 환경에서 퍼블릭 클라우드는 오랫동안 도입 배제의 대상이었습니다. 멀티테넌트(Multi-tenant) 가상화 구조에서 발생할 수 있는 잠재적 사이드채널 공격, 물리적 데이터 저장 위치의 모호성, 그리고 외교적 관할권 충돌 문제는 민감 데이터를 다루는 군사 조직이 상용 인프라를 기피하게 만든 핵심 요인이었습니다. 그러나 최근 북대서양",
+    "char_count": 7093,
+    "read_time": 9,
     "status": "published",
     "content_file": "data/posts/2026-09-30-august-megafarm-deepdive.md"
   },
@@ -741,6 +919,8 @@
       "데이터센터"
     ],
     "summary": "🎧 10-MIN TECH ENGLISH PODCAST [2026.09.30] [10-Min English Podcast] Full-Stack Turnkey Alliances, Sovereign Defense Cloud, Nuclear SMR Licensing, and 800V DC Infrastructure 오늘의 10분 심층 팟캐스트는 글로벌 AI 인프라",
+    "char_count": 15346,
+    "read_time": 14,
     "status": "published",
     "content_file": "data/posts/2026-09-30-10min-tech-podcast.md"
   },
@@ -760,6 +940,8 @@
       "클라우드보안"
     ],
     "summary": "📌 1. 30초 핵심 요약 & 개념 정의 직관적 비유: 호텔 객실에 개인 금고를 설치해 문서를 보관(저장 데이터 암호화)하고, 복도에 경호원을 배치해 운반(전송 데이터 암호화)하더라도, 투숙객이 책상 위에 문서를 펼쳐놓고 읽는 순간(처리 중 데이터)에는 몰래카메라나 마스터키를 쥔 호텔 관리자의 시선에 무방비로 노출될 수 있습니다. 기밀 컴퓨팅(Confide",
+    "char_count": 4200,
+    "read_time": 6,
     "status": "published",
     "content_file": "data/posts/2026-09-30-infra-glossary.md"
   },
@@ -781,6 +963,8 @@
       "AI인프라"
     ],
     "summary": "1일 1 IT 인프라 용어사전 랙 스케일 아키텍처 (Rack-Scale Architecture) 개별 1U/2U 서버 섀시 단위를 탈피하여 랙(Rack) 전체를 단일 컴퓨팅 노드로 묶어내는 차세대 초고밀도 인프라 엔지니어링 패러다임 📌 1. 30초 핵심 요약 & 개념 정의 직관적 비유: 과거의 데이터센터가 개별 PC 수십 대를 책상 위에 올려두고 랜선으로 ",
+    "char_count": 3503,
+    "read_time": 5,
     "status": "published",
     "content_file": "data/posts/2026-09-29-infra-glossary.md"
   },
@@ -801,6 +985,8 @@
       "데이터센터"
     ],
     "summary": "Executive Summary: 인공지능 가속기 클러스터의 전력 수요가 기가와트(GW) 단위로 급증하면서, 공공 유틸리티 전력망의 계통 연계 사전 검토(Interconnection Queue)에만 4~7년이 소요되는 물리적 병목이 현실화되었습니다. 반도체 조달 주기(6~12개월)와 전력망 인입 주기 간의 극심한 시차는 빅테크 기업들로 하여금 송전망을 경유",
+    "char_count": 7180,
+    "read_time": 9,
     "status": "published",
     "content_file": "data/posts/2026-09-29-august-megafarm-deepdive.md"
   },
@@ -822,6 +1008,8 @@
       "전력망"
     ],
     "summary": "🎧 10-MIN TECH ENGLISH PODCAST [2026.09.29] [10-Min English Podcast] High-Density Liquid Cooling DBO Standard, ASEAN Power Clash, and the Grid Saturation Shock 오늘의 10분 심층 팟캐스트는 현대엔지니어링의 8,700억 원 규모 군산 ",
+    "char_count": 16393,
+    "read_time": 15,
     "status": "published",
     "content_file": "data/posts/2026-09-29-10min-tech-podcast.md"
   },
@@ -840,6 +1028,8 @@
       "인프라동향"
     ],
     "summary": "2026년 9월 29일, 글로벌 클라우드 및 데이터센터 인프라 분야에서는 전력 계통 연계 병목을 해소하기 위한 대체 부지·발전 모델 도입, 차세대 가속기 클러스터 확장에 수반되는 고밀도 전력·열관리 밸류체인 재편, 그리고 인프라 확장에 따른 지자체 조세 혜택 검증 및 지역 사회 수용성 리스크가 주요 의제로 부각되었습니다. 오늘 수집된 주요 소식을 바탕으로 ",
+    "char_count": 6019,
+    "read_time": 8,
     "status": "published",
     "content_file": "data/posts/2026-09-29-daily-infraops-briefing.md"
   },
@@ -868,6 +1058,8 @@
       "반도체"
     ],
     "summary": "Datacenter & Cloud Industry InfraOps Daily (2-Column) 1. 군산 8700억 베라 루빈 대응 AIDC 착공과 차세대 액체냉각 DBO 모델 안착 엔비디아 차세대 가속기 도입에 맞춰 글로벌 시장에서 고밀도 랙 배치가 가속화되는 가운데, 필리핀 YCO 클라우드가 아올라니와 1만 장 이상의 블랙웰 울트라 GPU ... ͏ ",
+    "char_count": 43149,
+    "read_time": 40,
     "status": "published",
     "content_file": "data/posts/2026-09-29-dc-infraops-trends-report.md"
   },
@@ -896,6 +1088,8 @@
       "신재생에너지"
     ],
     "summary": "Datacenter & Cloud Industry InfraOps Daily (2-Column) 1. 러시아의 우크라이나 데이터센터 군사 타격과 물리적 인프라 안보화 현대 하이브리드전에서 데이터센터가 군사적 표적으로 급부상하며 물리적 인프라 방호가 국가 안보의 선결 과제로 직결됨. 러시아군이 우크라이나 기간 통신망을 겨냥해 미사일·드론 공습을 단... ͏ ",
+    "char_count": 50388,
+    "read_time": 46,
     "status": "published",
     "content_file": "data/posts/2026-09-28-dc-infraops-trends-report.md"
   },
@@ -914,6 +1108,8 @@
       "데이터센터"
     ],
     "summary": "핵심 요약: 인공지능(AI) 가속기 클러스터의 전력 밀도가 랙당 100kW를 초과하면서 수십 년간 데이터센터를 지탱해 온 공랭식 냉각 체계가 물리적 한계에 봉착했습니다. 엔비디아가 하드웨어 파트너십을 통해 냉각수 분배 장치(CDU)와 칠러를 아우르는 규격을 정립하고, LG전자가 'DSX 레디' 인증을 획득하며 엔터프라이즈 냉각 공급망에 진입한 것은 단순한 ",
+    "char_count": 6572,
+    "read_time": 9,
     "status": "published",
     "content_file": "data/posts/2026-09-28-august-megafarm-deepdive.md"
   },
@@ -934,6 +1130,8 @@
       "액체냉각"
     ],
     "summary": "🎧 10-MIN TECH ENGLISH PODCAST [2026.09.28] [10-Min English Podcast] Physical Warfare Hardening, Amazon's $8B Generator Warrants, and Mega-Watt Liquid Cooling 오늘의 10분 심층 팟캐스트는 현대 하이브리드전에서 군사 표적으로 부상한 우",
+    "char_count": 14505,
+    "read_time": 14,
     "status": "published",
     "content_file": "data/posts/2026-09-28-10min-tech-podcast.md"
   },
@@ -952,6 +1150,8 @@
       "데이터센터"
     ],
     "summary": "냉각 인프라 아키텍처 칠러 (Chiller) : 중앙 냉동 설비 초고집적 AI 랙에서 발생한 대규모 열에너지를 냉매 사이클을 통해 외부로 방출하고, 정밀하게 제어된 저온 냉수를 공급하는 중앙 냉각 플랜트의 핵심 장비 📌 1. 30초 핵심 요약 & 개념 정의 데이터센터 칠러(Chiller, 냉동기)는 상변화(Phase Change) 냉매 사이클을 활용하여 열",
+    "char_count": 3980,
+    "read_time": 5,
     "status": "published",
     "content_file": "data/posts/2026-09-28-infra-glossary.md"
   },
@@ -975,6 +1175,8 @@
       "클라우드"
     ],
     "summary": "Daily InfraOps Digest 글로벌 AI 데이터센터 인프라 동향: 메가와트급 열관리 표준화와 전력 기자재 공급망 선점 경쟁 발행일: 2026년 9월 28일 | 테크 에디터 인프라 분석팀 📌 오늘의 3대 핵심 관전 포인트 (Key Highlights) 액체냉각 생태계 표준화 진입: LG전자가 엔비디아 파트너 네트워크(NPN)의 Preferred 파",
+    "char_count": 5169,
+    "read_time": 7,
     "status": "published",
     "content_file": "data/posts/2026-09-28-daily-infraops-briefing.md"
   },
@@ -996,6 +1198,8 @@
       "클라우드"
     ],
     "summary": "📌 오늘의 3대 핵심 관전 포인트 (Key Highlights) 초대규모 AI 클러스터 확장 가속: AWS가 엔비디아와 협력하여 200만 개 규모의 추가 GPU 인프라 증설에 돌입했으며, 마이크로소프트는 지정학적 긴장 속에서도 중동 지역에 약 13조 원을 투입하고 인도 텔랑가나의 5GW 데이터센터 전력망 로드맵과 연계해 하이데라바드 클라우드 리전을 공식 가",
+    "char_count": 5467,
+    "read_time": 7,
     "status": "published",
     "content_file": "data/posts/2026-09-26-daily-infraops-briefing.md"
   },
@@ -1024,6 +1228,8 @@
       "반도체"
     ],
     "summary": "Datacenter & Cloud Industry InfraOps Daily (2-Column) 1. 오라클 프로젝트 주피터 불가항력 선언과 송전망 병목발 금융 리스크 전이 공공 전력망의 극심한 송배전 적체로 준공 지연이 누적되자 빅테크 인프라 프로젝트가 계약 이행 불능에 빠지며 금융 리스크로 비화되는 양상임. 오라클이 미국 뉴멕시코주 AI 데이... ͏ ",
+    "char_count": 36990,
+    "read_time": 34,
     "status": "published",
     "content_file": "data/posts/2026-09-26-dc-infraops-trends-report.md"
   },
@@ -1043,6 +1249,8 @@
       "데이터센터"
     ],
     "summary": "인공지능(AI) 워크로드의 폭증과 대규모 GPU 클러스터의 집적화는 데이터센터의 열관리 체계를 근본적으로 재편하고 있습니다. 단일 랙당 전력 밀도가 100kW를 돌파함에 따라 기존 공랭식 시스템은 물리적 한계에 봉착했으며, 칩 표면의 직접 액체냉각(Direct-to-Chip)과 메가와트(MW)급 고효율 칠러(Chiller)를 유기적으로 결합한 통합 열역학 ",
+    "char_count": 6255,
+    "read_time": 8,
     "status": "published",
     "content_file": "data/posts/2026-09-26-august-megafarm-deepdive.md"
   },
@@ -1064,6 +1272,8 @@
       "액체냉각"
     ],
     "summary": "🎧 10-MIN TECH ENGLISH PODCAST [2026.09.26] [10-Min English Podcast] Force Majeure Contagion in AI Power Queues, Orbital TPU Compute, Sovereign Megadeals, and the 800V DC Transition 오늘의 10분 심층 팟캐스트는 전력",
+    "char_count": 15692,
+    "read_time": 15,
     "status": "published",
     "content_file": "data/posts/2026-09-26-10min-tech-podcast.md"
   },
@@ -1083,6 +1293,8 @@
       "AWS"
     ],
     "summary": "Data Center Infrastructure Tech Glossary L2A 냉각 (Liquid-to-Air Cooling) 중앙 시설 배관 공사 없이 공랭식 데이터센터에 수랭식 초고집적 AI 가속기를 즉시 도입할 수 있도록 설계된 폐루프 열교환 아키텍처 📌 1. 30초 핵심 요약 & 개념 정의 L2A(Liquid-to-Air) 냉각은 서버 랙 내부의 ",
+    "char_count": 3277,
+    "read_time": 5,
     "status": "published",
     "content_file": "data/posts/2026-09-26-infra-glossary.md"
   },
@@ -1103,6 +1315,8 @@
       "액체냉각"
     ],
     "summary": "🎧 10-MIN TECH ENGLISH PODCAST [2026.09.24] [10-Min English Podcast] High-Density Cooling Breakthroughs, SMR Nuclear Fleets, 1GW Direct AI Leases, and Rising Permitting Moratoria 오늘의 10분 심층 팟캐스트는 AI 전력",
+    "char_count": 13379,
+    "read_time": 13,
     "status": "published",
     "content_file": "data/posts/2026-09-24-10min-tech-podcast.md"
   },
@@ -1131,6 +1345,8 @@
       "신재생에너지"
     ],
     "summary": "Datacenter & Cloud Industry InfraOps Daily (2-Column) 1. 슈퍼마이크로 베라 루빈 랙 출하와 LG전자-SK엔무브 액침냉각 동맹 인공지능 연산 집적도가 한계치에 다다르며 랙당 전력 소모와 극한의 발열을 제어하기 위한 하드웨어 아키텍처 혁신이 가속화됨. 글로벌 서버 제조사 슈퍼마이크로는 1,152개의 최신 ... ͏ ",
+    "char_count": 42523,
+    "read_time": 39,
     "status": "published",
     "content_file": "data/posts/2026-09-24-dc-infraops-trends-report.md"
   },
@@ -1149,6 +1365,8 @@
       "데이터센터"
     ],
     "summary": "생성형 AI 모델의 매개변수가 조 단위를 넘어서고 학습·추론 클러스터가 초고집적화되면서, 데이터센터 인프라는 전례 없는 열역학적 한계선에 직면했습니다. 엔비디아 블랙웰(Blackwell) 아키텍처 기반 GB200 NVL72 랙이 120kW~132kW에 달하는 극단적인 전력 밀도를 요구함에 따라, 지난 수십 년간 엔터프라이즈 전산실을 지탱해 온 공랭식(Air",
+    "char_count": 7377,
+    "read_time": 10,
     "status": "published",
     "content_file": "data/posts/2026-09-23-august-megafarm-deepdive.md"
   },
@@ -1177,6 +1395,8 @@
       "신재생에너지"
     ],
     "summary": "Datacenter & Cloud Industry InfraOps Daily (2-Column) 1. LG-엔비디아·MS 전력·냉각 인프라 동맹 구축과 2.5MW 액체냉각 승인 인공지능 연산 가속에 따른 극한의 발열과 전력 스파이크가 데이터센터 확장의 핵심 병목으로 부상하자 글로벌 빅테크의 인프라 하드웨어 협력망 재편이 본격화됨. 엔비디아가 고전... ͏ ",
+    "char_count": 49711,
+    "read_time": 46,
     "status": "published",
     "content_file": "data/posts/2026-09-23-dc-infraops-trends-report.md"
   },
@@ -1197,6 +1417,8 @@
       "액체냉각"
     ],
     "summary": "🎧 10-MIN TECH ENGLISH PODCAST [2026.09.23] [10-Min English Podcast] The Megawatt Shift: Liquid Cooling Alliances, Nuclear Uprates, and the 20GW Infrastructure Frontier 오늘의 10분 심층 팟캐스트는 AI 팩토리 전력·발열 한계",
+    "char_count": 14618,
+    "read_time": 14,
     "status": "published",
     "content_file": "data/posts/2026-09-23-10min-tech-podcast.md"
   },
@@ -1215,6 +1437,8 @@
       "데이터센터"
     ],
     "summary": "📌 1. 30초 핵심 요약 & 개념 정의 L2L(Liquid-to-Liquid) 냉각은 고집적 IT 랙 내부의 발열체(GPU, CPU, 메모리)에서 열을 흡수한 2차 냉각 유체(IT 장비 측 루프)의 열에너지를, 냉각수 분배 장치(CDU, Coolant Distribution Unit) 내 판형 열교환기(Plate Heat Exchanger)를 통해 건물 ",
+    "char_count": 3585,
+    "read_time": 5,
     "status": "published",
     "content_file": "data/posts/2026-09-23-infra-glossary.md"
   },
@@ -1235,6 +1459,8 @@
       "에너지인프라"
     ],
     "summary": "글로벌 클라우드 & 데이터센터 인프라 일일 브리핑 인프라 엔지니어링, 클라우드 아키텍처, 에너지 계통 및 데이터 주권 관련 주요 기술 이슈와 정책 변화를 심층 분석합니다. 📌 오늘의 3대 핵심 관전 포인트 (Key Highlights) 전력·냉각 물리적 한계 돌파를 위한 하이퍼스케일 파트너십: LG그룹이 마이크로소프트와 차세대 데이터센터 인프라 공급 협약을",
+    "char_count": 5366,
+    "read_time": 7,
     "status": "published",
     "content_file": "data/posts/2026-09-23-daily-infraops-briefing.md"
   },
@@ -1254,6 +1480,8 @@
       "엔비디아"
     ],
     "summary": "🚀 서론: 기술 패러다임의 전환과 문제 제기 컴퓨팅 연산 밀도 폭증과 전력망 수전 한계가 촉발한 인프라 병목 현상 엔비디아의 차세대 AI 가속기 출하량이 전년 대비 2배 이상 증가할 것이라는 공급망 관측과 함께 인공지능 인프라는 완전히 새로운 물리적 국면에 진입했습니다. 연산 성능을 나타내는 TFLOPS의 확장은 필연적으로 칩셋의 열설계전력(TDP)과 랙(",
+    "char_count": 5855,
+    "read_time": 8,
     "status": "published",
     "content_file": "data/posts/2026-09-22-august-megafarm-deepdive.md"
   },
@@ -1274,6 +1502,8 @@
       "액체냉각"
     ],
     "summary": "🎧 10-MIN TECH ENGLISH PODCAST [2026.09.22] [10-Min English Podcast] Grid Moratoriums, Prefabricated Fast-Tracking, and the High-Voltage Direct-Current Frontier 오늘의 10분 심층 팟캐스트는 텍사스의 신규 데이터센터 인허가 전면 중단",
+    "char_count": 14717,
+    "read_time": 14,
     "status": "published",
     "content_file": "data/posts/2026-09-22-10min-tech-podcast.md"
   },
@@ -1297,6 +1527,8 @@
       "EDA"
     ],
     "summary": "Daily InfraOps Digest 글로벌 클라우드 & 데이터센터 인프라 핵심 기술 동향 발행일: 2026년 9월 22일 | 대상: 인프라 아키텍트, 시스템 엔지니어, 기술 총괄 리더 📌 오늘의 3대 핵심 관전 포인트 (Key Highlights) 엔비디아 차세대 AI 칩 증산과 '전력 인입 병목'에 따른 43조 원 수주 사이클: 가속기 공급 물량이 2",
+    "char_count": 6283,
+    "read_time": 8,
     "status": "published",
     "content_file": "data/posts/2026-09-22-daily-infraops-briefing.md"
   },
@@ -1325,6 +1557,8 @@
       "신재생에너지"
     ],
     "summary": "Datacenter & Cloud Industry InfraOps Daily (2-Column) 1. 텍사스 인허가 전면 중단과 캘리포니아 7개 규제법 서명 및 680억 달러 인프라 좌초 전력망 포화와 자원 고갈에 직면한 각국 정부가 강도 높은 규제 입법과 행정 처분을 연이어 쏟아내며 인프라 병목이 심화되는 양상임. 미국 내 핵심 데이터센터 증설... ͏ ",
+    "char_count": 47461,
+    "read_time": 44,
     "status": "published",
     "content_file": "data/posts/2026-09-22-dc-infraops-trends-report.md"
   },
@@ -1343,6 +1577,8 @@
       "데이터센터"
     ],
     "summary": "전력 인프라 & 계통 엔지니어링 그리드 코드 (Grid Code) 초대형 AI 데이터센터가 공공 전력망에 안전하게 접속하기 위해 충족해야 하는 전력 품질, 주파수 추종 및 전압 안정성 기술 기준 📌 1. 30초 핵심 요약 & 개념 정의 💡 직관적 비유로 이해하기 수백 량의 고속 화물 열차가 단일 국가 철도망에 진입할 때, 제동 장치와 속도 유지 규정을 지키",
+    "char_count": 3164,
+    "read_time": 4,
     "status": "published",
     "content_file": "data/posts/2026-09-22-infra-glossary.md"
   },
@@ -1361,6 +1597,8 @@
       "인프라동향"
     ],
     "summary": "DAILY INFRASTRUCTURE DIGEST | 2026년 9월 21일 글로벌 클라우드 & 데이터센터 인프라 핵심 동향 브리핑 중동 리전 물리적 충돌에 따른 데이터 손실 쟁점부터 24억 달러 규모의 비상 발전 설비 조달, 전력 배전 공급망 다변화 및 차세대 AI 서버리스 런타임 개편까지 오늘 수집된 핵심 인프라 기술 분석을 전달합니다. 📌 오늘의 3대",
+    "char_count": 5715,
+    "read_time": 8,
     "status": "published",
     "content_file": "data/posts/2026-09-21-daily-infraops-briefing.md"
   },
@@ -1389,6 +1627,8 @@
       "신재생에너지"
     ],
     "summary": "Datacenter & Cloud Industry InfraOps Daily (2-Column) 1. 버지니아 인허가 규제와 트럼프 국유지 개방 역풍 및 글로벌 모라토리엄 확산 데이터센터의 전력 독점에 따른 가계 전기료 상승 반발로 인허가 규제와 정치적 역풍이 전방위로 분출되는 양상임. 미국 최대 집적지인 버지니아주의 애비게일 스팬버거 주지사는 ... ͏ ",
+    "char_count": 53686,
+    "read_time": 49,
     "status": "published",
     "content_file": "data/posts/2026-09-21-dc-infraops-trends-report.md"
   },
@@ -1407,6 +1647,8 @@
       "재해복구"
     ],
     "summary": "Cloud & Infrastructure Architecture 멀티 리전 액티브-액티브 (Multi-Region Active-Active) 단일 가용 영역(AZ)을 넘어 지리적으로 완전히 격리된 복수 리전 간 트래픽을 상시 분산 처리하고 무중단 복원력을 확보하는 최고 등급의 분산 클라우드 아키텍처 📌 1. 30초 핵심 요약 & 개념 정의 💡 직관적 비유로",
+    "char_count": 4248,
+    "read_time": 6,
     "status": "published",
     "content_file": "data/posts/2026-09-21-infra-glossary.md"
   },
@@ -1429,6 +1671,8 @@
       "모듈러데이터센터"
     ],
     "summary": "🎧 10-MIN TECH ENGLISH PODCAST [2026.09.21] [10-Min English Podcast] Navigating Data Center Moratoriums, Neo-Cloud Liquidity, Magnetic Chillers, and Sovereign Compute 오늘의 10분 심층 팟캐스트는 글로벌 데이터센터 인프라를 강타",
+    "char_count": 14920,
+    "read_time": 14,
     "status": "published",
     "content_file": "data/posts/2026-09-21-10min-tech-podcast.md"
   },
@@ -1447,6 +1691,8 @@
       "AWS"
     ],
     "summary": "🚀 서론: 기술 패러다임의 전환과 전력 인프라의 물리적 한계 인공지능 가속기 클러스터의 연산 밀도가 기하급수적으로 팽창하면서, 글로벌 하이퍼스케일러들의 핵심 병목이 반도체 팹(Fab) 수급에서 '물리적 전력 수전 및 계통 연계'로 급격히 이전되었습니다. 수만 개의 고전력 GPU가 집적된 단일 트레이닝 및 대규모 추론 클러스터는 100MW(메가와트)를 넘어 ",
+    "char_count": 5098,
+    "read_time": 7,
     "status": "published",
     "content_file": "data/posts/2026-09-21-august-megafarm-deepdive.md"
   },
@@ -1472,6 +1718,8 @@
       "데이터센터인프라"
     ],
     "summary": "대한민국 기획예산처가 발표한 2027년도 예산안(총 820.9조원)을 AI 데이터센터(AIDC) 인프라 관점에서 정밀 해부합니다. 엔비디아 차세대 '베라 루빈(Vera Rubin)' GPU 1만장 구매(3.9조원), 10MW 실증 테스트랩, 액체냉각 소부장 R&D, 345kV 변전소 44개 구축, 10GW 송전단 ESS 등 국가 주도 AIDC 완결형 생태계 구축 전략을 분석합니다.",
+    "char_count": 5355,
+    "read_time": 7,
     "status": "published",
     "content_file": "data/posts/2026-09-20-2027-budget-aidc-gpu-strategy.md"
   },
@@ -1493,6 +1741,8 @@
       "SMR"
     ],
     "summary": "🎧 10-MIN TECH ENGLISH PODCAST [2026.09.18] [10-Min English Podcast] The Grid Paywall, Amazon's $8B Power Play, and the Era of Captive Generation 2026년 9월 18일 DC InfraOps 데일리 브리핑은 글로벌 AI 인프라를 뒤흔드는 4대 핵",
+    "char_count": 14710,
+    "read_time": 14,
     "status": "published",
     "content_file": "data/posts/2026-09-18-10min-tech-podcast.md"
   },
@@ -1521,6 +1771,8 @@
       "신재생에너지"
     ],
     "summary": "Datacenter & Cloud Industry InfraOps Daily (2-Column) 1. 미 하원 전력비 전가 차단법 통과와 온사이트 원전 수혜 및 계통 갈등 미국 연방 하원이 데이터센터로 인한 전력망 증설 비용을 일반 가계에 전가하지 못하도록 강제하는 법안을 417대 3의 압도적 찬성으로 통과시키고 , 초당적 지지로 '소비자 보호법... ͏ ",
+    "char_count": 35553,
+    "read_time": 33,
     "status": "published",
     "content_file": "data/posts/2026-09-18-dc-infraops-trends-report.md"
   },
@@ -1539,6 +1791,8 @@
       "데이터센터"
     ],
     "summary": "📌 엔지니어링 브리프 요약 생성형 AI 패러다임이 단순 질의응답형 챗봇에서 다단계 작업을 자율 수행하는 '에이전틱 AI(Agentic AI)'로 급격히 전환되면서, 분산된 엔터프라이즈 데이터의 물리적 이동 없이 실시간 접근을 보장하는 '제로 ETL(Zero-ETL) 양방향 페더레이션'과 '멀티클라우드 크로스 추론 파이프라인'이 핵심 인프라 과제로 부상했습니",
+    "char_count": 7280,
+    "read_time": 10,
     "status": "published",
     "content_file": "data/posts/2026-09-18-august-megafarm-deepdive.md"
   },
@@ -1560,6 +1814,8 @@
       "애플"
     ],
     "summary": "글로벌 하이퍼스케일 클라우드와 AI 데이터센터 인프라는 연산 밀도의 급격한 상승과 전력 수급 불균형, 지정학적 물리적 안보 위협이라는 복합적인 도전에 직면해 있습니다. 본 리포트는 오늘 수집된 주요 인프라 현안을 바탕으로 기술적, 아키텍처적 관점에서 심층 분석을 제공합니다.📌 오늘의 3대 핵심 관전 포인트 (Key Highlights)물리적 타격에 의한 클",
+    "char_count": 4889,
+    "read_time": 7,
     "status": "published",
     "content_file": "data/posts/2026-09-18-daily-infraops-briefing.md"
   },
@@ -1580,6 +1836,8 @@
       "전력인프라"
     ],
     "summary": "전력 인프라 아키텍처 SMR (Small Modular Reactor, 소형 모듈 원자로) 공공 전력망 대기열과 계통 보강 규제를 우회하여 AI 데이터센터에 24/7 무탄소 기저전력을 직결하는 차세대 분산 원자력 발전 시스템 📌 1. 30초 핵심 요약 & 개념 정의 직관적 비유: 수백 킬로미터 떨어진 대형 댐에서 긴 송수관로를 통해 물을 끌어오는 중앙 집중",
+    "char_count": 3386,
+    "read_time": 5,
     "status": "published",
     "content_file": "data/posts/2026-09-18-infra-glossary.md"
   },
@@ -1608,6 +1866,8 @@
       "가스터빈"
     ],
     "summary": "Datacenter & Cloud Industry InfraOps Daily (2-Column) 1. 구글-엔비디아 AI 에너지 동맹과 코어위브 루빈 가동 및 800V·연산 효율 혁신 구글과 엔비디아가 에메랄드 AI와 손잡고 데이터센터를 전력망 유연성 조절 자원으로 전환하는 'AI 에너지 동맹'을 전격 결성함 . 실시간 연산 부하 제어로 계통 병... ͏ ",
+    "char_count": 39719,
+    "read_time": 37,
     "status": "published",
     "content_file": "data/posts/2026-09-17-dc-infraops-trends-report.md"
   },
@@ -1626,6 +1886,8 @@
       "데이터센터"
     ],
     "summary": "Infrastructure Architecture Analysis 하이퍼스케일 클라우드의 물리적 한계: 가용영역(AZ) 설계 결함과 크로스 리전 복원력의 재구성 중동 하이퍼스케일 시설의 물리적 피격과 영구 데이터 유실 사태가 던진 공학적 경고: 동기식 다중 가용영역(Multi-AZ) 복제의 지리적 반경 한계, 스토리지 어레이 손상 메커니즘, 그리고 데이터 ",
+    "char_count": 6432,
+    "read_time": 9,
     "status": "published",
     "content_file": "data/posts/2026-09-17-august-megafarm-deepdive.md"
   },
@@ -1646,6 +1908,8 @@
       "인프라동향"
     ],
     "summary": "2026년 9월 17일, 글로벌 클라우드 및 데이터센터 인프라 지형은 지정학적 물리적 충격과 차세대 초고집적 AI 하드웨어의 전력·냉각 한계 극복이라는 중대한 전환점에 직면했습니다. 중동 지역의 군사적 분쟁으로 인한 하이퍼스케일러 데이터센터 시설 피격 및 데이터 영구 손실 사태는 클라우드 복원력의 근본적 설계를 재검토하게 만들고 있으며, 엔비디아와 코어위브",
+    "char_count": 7676,
+    "read_time": 10,
     "status": "published",
     "content_file": "data/posts/2026-09-17-daily-infraops-briefing.md"
   },
@@ -1665,6 +1929,8 @@
       "데이터센터"
     ],
     "summary": "📌 1. 30초 핵심 요약 & 개념 정의 그리드 인터랙티브 데이터센터(Grid-Interactive Data Center, GIDC)는 송전망(전기 계통)으로부터 전력을 일방적으로 공급받아 소모하던 기존의 수동적 부하(Passive Load) 모델에서 벗어나, 전력망의 주파수, 전압, 실시간 수급 상태를 감지하여 IT 연산 부하와 전력 인프라를 능동적으로 ",
+    "char_count": 3176,
+    "read_time": 4,
     "status": "published",
     "content_file": "data/posts/2026-09-17-infra-glossary.md"
   },
@@ -1687,6 +1953,8 @@
       "전력망"
     ],
     "summary": "🎧 10-MIN TECH ENGLISH PODCAST [2026.09.17] [10-Min English Podcast] Google-Nvidia AI Energy Alliance, 800V DC Architecture, Onsite SMR Permits, and Sovereign Cloud Fortification 2026년 9월 17일 DC InfraO",
+    "char_count": 14390,
+    "read_time": 14,
     "status": "published",
     "content_file": "data/posts/2026-09-17-10min-tech-podcast.md"
   },
@@ -1710,6 +1978,8 @@
       "효성중공업"
     ],
     "summary": "🎧 10-MIN TECH ENGLISH PODCAST [2026.09.16] [10-Min English Podcast] Kinetic Cloud Casualties, Gigawatt Physical AI Deployments, and the Race for Megawatt-to-Token Computational Efficiency 오늘의 10분 심층 팟",
+    "char_count": 15303,
+    "read_time": 14,
     "status": "published",
     "content_file": "data/posts/2026-09-16-10min-tech-podcast.md"
   },
@@ -1728,6 +1998,8 @@
       "데이터센터"
     ],
     "summary": "클라우드 인프라 업계는 지난 15년 동안 99.99% 이상의 고가용성과 11 9s(99.999999999%)에 달하는 스토리지 내구성을 앞세워 기업 워크로드의 전면 이전을 주도해 왔습니다. 그러나 최근 발생한 AWS 중동 바레인(me-south-1) 데이터센터 설비의 물리적 피격 및 데이터 영구 복구 불가(Irreversible Data Loss) 사태는 ",
+    "char_count": 5930,
+    "read_time": 8,
     "status": "published",
     "content_file": "data/posts/2026-09-16-august-megafarm-deepdive.md"
   },
@@ -1746,6 +2018,8 @@
       "데이터센터"
     ],
     "summary": "📌 1. 30초 핵심 요약 & 개념 정의 직관적 비유: 전통적인 데이터센터 관제가 병실 침상에 부착된 정적 환자 모니터와 간호 인력의 주기적인 순찰에 의존했다면, 피지컬 AI(Physical AI)는 병동 전체를 자율 주행하며 환자의 호흡음, 체온 변화, 미세 혈류 이상을 실시간으로 감지하고 처방을 보조하는 '지능형 자율 회진 로봇 시스템'에 비유할 수 있",
+    "char_count": 3676,
+    "read_time": 5,
     "status": "published",
     "content_file": "data/posts/2026-09-16-infra-glossary.md"
   },
@@ -1774,6 +2048,8 @@
       "신재생에너지"
     ],
     "summary": "Datacenter & Cloud Industry InfraOps Daily (2-Column) 1. KT클라우드 1GW 로드맵과 글로벌 기가와트급 증설 및 피지컬 AI 결합 하이퍼스케일 거점 확보와 피지컬 AI 관제 도입이 결합되며 연산 인프라가 급격히 대형화되는 추세임. 국내에서는 KT클라우드가 2031년까지 전국 20여 곳에 1GW 규모 A... ͏ ",
+    "char_count": 44214,
+    "read_time": 41,
     "status": "published",
     "content_file": "data/posts/2026-09-16-dc-infraops-trends-report.md"
   },
@@ -1793,6 +2069,8 @@
       "AI인프라"
     ],
     "summary": "글로벌 IT 인프라와 클라우드 아키텍처 생태계는 연산 밀도의 물리적 한계와 전력망 포화, 그리고 지정학적 공급망 및 물리적 보안 리스크라는 삼중고에 직면해 있습니다. 2026년 9월 16일 전해진 주요 기술 뉴스를 바탕으로, 엔지니어링 의사결정권자와 클라우드 아키텍트가 반드시 파악해야 할 당일 핵심 인프라 동향을 심층 분석합니다. 📌 오늘의 3대 핵심 관전",
+    "char_count": 5211,
+    "read_time": 7,
     "status": "published",
     "content_file": "data/posts/2026-09-16-daily-infraops-briefing.md"
   },
@@ -1811,6 +2089,8 @@
       "인프라동향"
     ],
     "summary": "📌 오늘의 3대 핵심 관전 포인트 (Key Highlights) 빅테크의 공격적 자본지출(CapEx)과 잉여현금흐름(FCF)의 상충: 아마존 앤디 재시 CEO의 2,200억 달러(약 300조 원) 규모 AWS 인프라 투자 발표와 알리바바의 AI 매출 확대 이면에서 발생한 가파른 현금흐름 둔화 압박. 사모펀드 연계 오프밸런스 파이낸싱 및 커스텀 실리콘 전용 ",
+    "char_count": 4622,
+    "read_time": 6,
     "status": "published",
     "content_file": "data/posts/2026-09-15-daily-infraops-briefing.md"
   },
@@ -1830,6 +2110,8 @@
       "데이터센터"
     ],
     "summary": "발행일: 2026년 9월 | 기술 분석 보고서 | 글로벌 클라우드 & AI 인프라 아키텍처🚀 서론: 기술 패러다임의 전환과 문제 제기글라우드 및 인공지능(AI) 인프라 시장이 중대한 변곡점에 진입했다. 지난 10여 년간 데이터센터 확장의 기준이었던 수십 메가와트(MW) 단위의 하이퍼스케일 설비는 수백 메가와트를 넘어 단일 캠퍼스 기준 기가와트(GW) 단위의",
+    "char_count": 5728,
+    "read_time": 8,
     "status": "published",
     "content_file": "data/posts/2026-09-15-august-megafarm-deepdive.md"
   },
@@ -1848,6 +2130,8 @@
       "데이터센터"
     ],
     "summary": "하드웨어 아키텍처 차세대 네트워킹 반도체 패키징 CPO(Co-Packaged Optics)는 스위칭 ASIC 및 가속기 반도체와 광학 변환 엔진(Optical Engine)을 동일 기판 위에 단일 패키지로 통합 실장하여 전기 신호 배선 손실을 억제하고 데이터센터 인터커넥트 전력을 획기적으로 절감하는 물리 계층 패키징 아키텍처입니다. 📌 1. 30초 핵심 요",
+    "char_count": 3626,
+    "read_time": 5,
     "status": "published",
     "content_file": "data/posts/2026-09-15-infra-glossary.md"
   },
@@ -1868,6 +2152,8 @@
       "액체냉각"
     ],
     "summary": "🎧 10-MIN TECH ENGLISH PODCAST [2026.09.15] [10-Min English Podcast] Mega CapEx Liquidity Divergence, Grid Prefinancing Clashes, 800VDC Distribution, and Regulatory Moratoria 오늘의 10분 심층 팟캐스트는 2026년 9월 ",
+    "char_count": 14565,
+    "read_time": 14,
     "status": "published",
     "content_file": "data/posts/2026-09-15-10min-tech-podcast.md"
   },
@@ -1896,6 +2182,8 @@
       "가스터빈"
     ],
     "summary": "Datacenter & Cloud Industry InfraOps Daily (2-Column) 1. 빅테크 메가 CapEx 베팅과 자금 조달 리스크 및 오라클의 구조조정 양극화 글로벌 빅테크의 공격적인 설비 투자가 가속화되는 가운데 인프라 확충과 재무적 지속가능성 사이의 괴리가 극명해지는 국면임. 메타는 캐나다 앨버타에 130억 캐나다 달러(약... ͏ ",
+    "char_count": 41582,
+    "read_time": 38,
     "status": "published",
     "content_file": "data/posts/2026-09-15-dc-infraops-trends-report.md"
   },
@@ -1924,6 +2212,8 @@
       "신재생에너지"
     ],
     "summary": "Datacenter & Cloud Industry InfraOps Daily (2-Column) 1. MS 38GW 확충 로드맵과 오라클 285억 달러 CapEx가 견인하는 연산 인프라 레이스 글로벌 빅테크의 연산 용량 부족이 심화되면서 초대형 데이터센터 증설과 공격적 자본 투입이 전례 없는 규모로 확대되는 추세임. 마이크로소프트는 서버 부족에 ... ͏ ",
+    "char_count": 47060,
+    "read_time": 43,
     "status": "published",
     "content_file": "data/posts/2026-09-14-dc-infraops-trends-report.md"
   },
@@ -1945,6 +2235,8 @@
       "클라우드"
     ],
     "summary": "📌 오늘의 3대 핵심 관전 포인트 (Key Highlights) 기가와트(GW) 단위로 재편되는 하이퍼스케일러 전력 포트폴리오: 마이크로소프트가 2032년까지 전 세계 데이터센터 용량을 38GW로 확대하는 장기 로드맵을 가동한 가운데, 알파벳은 연간 CapEx 전망치를 최대 2,050억 달러로 상향하며 구글 클라우드 부문 82% 매출 성장에 화답하는 대규모",
+    "char_count": 5222,
+    "read_time": 7,
     "status": "published",
     "content_file": "data/posts/2026-09-14-daily-infraops-briefing.md"
   },
@@ -1965,6 +2257,8 @@
       "액체냉각"
     ],
     "summary": "🎧 10-MIN TECH ENGLISH PODCAST [2026.09.14] [10-Min English Podcast] Hyperscale Compute Acceleration, Marine Floating Topologies, SMR Baselines, and Ratepayer Regulatory Pushback 오늘의 10분 심층 팟캐스트는 글로벌 데",
+    "char_count": 15168,
+    "read_time": 14,
     "status": "published",
     "content_file": "data/posts/2026-09-14-10min-tech-podcast.md"
   },
@@ -1983,6 +2277,8 @@
       "데이터센터"
     ],
     "summary": "Architecture Standard 인프라 분류: 전력 계통 및 분산 에너지 아키텍처 BYOP (Bring Your Own Power, 자가 발전 조달 모델) 초대형 AI 데이터센터 증설 과정에서 공용 전력망(Public Grid)의 송전 용량 배정과 수전 변전소 인입 공사의 극심한 병목을 우회하기 위해, 데이터센터 부지 내에 자체 발전 설비를 구축하거",
+    "char_count": 3533,
+    "read_time": 5,
     "status": "published",
     "content_file": "data/posts/2026-09-14-infra-glossary.md"
   },
@@ -2002,6 +2298,8 @@
       "데이터센터"
     ],
     "summary": "엔터프라이즈 데이터의 80% 이상을 차지하는 비정형 비디오 자산은 그동안 막대한 스토리지 비용 대비 검색 및 분석 효율이 극히 낮은 '다크 데이터(Dark Data)'로 분류되어 왔습니다. 최근 한국 AI 스타트업 트웰브랩스의 영상 특화 파운데이션 모델 '마렝고(Marengo)'가 아마존 베드록 지식 기반(Knowledge Bases for Amazon B",
+    "char_count": 6621,
+    "read_time": 9,
     "status": "published",
     "content_file": "data/posts/2026-09-14-august-megafarm-deepdive.md"
   },
@@ -2029,6 +2327,8 @@
       "인프라백서"
     ],
     "summary": "2026년 8월 한 달간 수집된 10만 5,390건의 국내외 인프라 뉴스와 3,442건의 핵심 브리핑 데이터를 전수 분석한 8월 AIDC & Cloud 인프라 결산 종합 보고서입니다. A4 35~40장 분량의 방대한 스케일(약 76,000자 이상)로 ① SMR과 원전 피봇을 필두로 한 기저부하 전력 대란, ② 150kW 랙 시대 액체/액침냉각 및 폐열 회수(ERE) 공학, ③ 해남 솔라시도 2.5조 국가 AI 컴퓨팅센터 등 국내외 메가팜 분산 재배치, ④ 빅테크 CapEx 실적 분석 및 1.6T 광통신 패브릭까지 10대 핵심 장으로 완벽히 집대성했습니다.",
+    "char_count": 31228,
+    "read_time": 40,
     "status": "published",
     "content_file": "data/posts/2026-09-12-august-2026-aidc-cloud-infra-intelligence-whitepaper.md"
   },
@@ -2054,6 +2354,8 @@
       "인프라동향"
     ],
     "summary": "2026년 7월부터 9월까지 뉴스 크롤러 마스터 DB에 누적된 총 29만 9,880건의 기사를 전수 분석하여 AIDC 및 클라우드 인프라의 핵심 트렌드 이동을 계량화했습니다. 정규화 보도량 기준 1,007% 폭증한 CXL, 992% 급상승한 울산 AX, 77.5% 증가한 액침냉각(Immersion Cooling), 지열발전(EGS), SMR, 원전, HVDC, 변전소, HCF 광섬유 등 2026년 3분기 핵심 급상승 기술 TOP 20과 5대 토픽 클러스터 네트워크를 A4 45장 이상의 초대형 백서 스케일(약 86,000자 이상)로 완벽히 집대성했습니다.",
+    "char_count": 27576,
+    "read_time": 35,
     "status": "published",
     "content_file": "data/posts/2026-09-12-q3-ai-datacenter-momentum-keyword-analytics.md"
   },
@@ -2081,6 +2383,8 @@
       "프로젝트레이니어"
     ],
     "summary": "한국 언론 최초로 공개된 미국 마운틴뷰 AWS 네트워킹 랩의 중공심 광섬유(HCF) 기술을 완벽하게 심층 분석합니다. 유리 코어 대신 공기(진공)로 빛을 통과시켜 굴절률 한계를 극복하고 전송 속도를 초당 30만km(광속 99.7%)로 끌어올린 HCF의 마이크로스트럭처, km당 3.3µs 초저지연 메커니즘, 100만 GPU '프로젝트 레이니어(Project Rainier)'의 분산 All-Reduce 통신 병목 제거, 코닝·루메니시티·코히어런트·루멘텀과의 글로벌 광통신 밸류체인 및 1.6T 광모듈 연동까지 팩트와 수치 기반으로 완벽 해부합니다.",
+    "char_count": 9117,
+    "read_time": 12,
     "status": "published",
     "content_file": "data/posts/2026-09-12-aws-hollow-core-fiber-hcf-datacenter-optics-deepdive.md"
   },
@@ -2106,6 +2410,8 @@
       "전력망"
     ],
     "summary": "AI 데이터센터의 폭발적인 전력 수요를 해결할 궁극의 무탄소 기저부하(Baseload)로 '차세대 강화지열발전(EGS)'이 급부상하고 있습니다. 구글과 1GW 규모 역사상 최대 PPA를 체결한 퍼보 에너지(Fervo Energy)의 수평 시추 및 와인랙(Wine-rack) 저류층 공학, 광섬유 DAS 음향 감지, SMR 대비 3~5배 빠른 공기 단축 및 MWh당 100달러대 발전단가(LCOE) 경제학을 심층 해부합니다.",
+    "char_count": 5468,
+    "read_time": 7,
     "status": "published",
     "content_file": "data/posts/2026-09-12-fervo-energy-egs-google-geothermal-power-datacenter.md"
   },
@@ -2132,6 +2438,8 @@
       "메모리풀링"
     ],
     "summary": "KAIST 정명수 교수 연구팀과 파네시아(Panmnesia), 미국 메타(Meta)가 세계적 학술지 'Nature Reviews Electrical Engineering'에 게재한 CXL 기반 단일 칩형 차세대 AI 데이터센터 아키텍처를 심층 분석합니다. 960개 가속기를 단일 메모리 공간으로 묶는 CXL-Direct 캐시 일관성, 광통신(Optical I/O) 결합, 나노초(ns)급 지연시간 달성 메커니즘과 인프라 TCO 혁신을 공학적으로 완벽히 해부합니다.",
+    "char_count": 6704,
+    "read_time": 9,
     "status": "published",
     "content_file": "data/posts/2026-09-12-kaist-panmnesia-meta-cxl-optical-datacenter-architecture.md"
   },
@@ -2160,6 +2468,8 @@
       "가스터빈"
     ],
     "summary": "Datacenter & Cloud Industry InfraOps Daily (2-Column) 1. 엔비디아-호주 2GW AI 팩토리 연합과 소버린 클라우드 확장 엔비디아가 호주 데이터센터 생태계의 8개 파트너사와 연합해 2027년까지 최대 2GW 규모의 AI 팩토리 인프라를 구축하기로 공식 발표함 . 이는 호주 내 AI 연산 용량을 2배 이상... ͏ ",
+    "char_count": 38351,
+    "read_time": 35,
     "status": "published",
     "content_file": "data/posts/2026-09-11-dc-infraops-trends-report.md"
   },
@@ -2182,6 +2492,8 @@
       "데이터센터인프라"
     ],
     "summary": "🎧 10-MIN TECH ENGLISH PODCAST [2026.09.11] [10-Min English Podcast] NVIDIA's 2GW Australian Alliance, SK's Industrial AI Full-Stack, and the Physics of Cooling and Power Bottlenecks 오늘의 10분 심층 팟캐스트는 엔",
+    "char_count": 15885,
+    "read_time": 15,
     "status": "published",
     "content_file": "data/posts/2026-09-11-10min-tech-podcast.md"
   },
@@ -2200,6 +2512,8 @@
       "데이터센터"
     ],
     "summary": "하드웨어 & 데이터센터 차세대 인프라 규격 초고밀도 컴퓨팅 전통적인 데이터센터가 정형 데이터를 저장하고 비즈니스 애플리케이션 트랜잭션을 처리하는 '창고'였다면, AI 팩토리(AI Factory)는 대규모 전력과 원시 데이터를 투입해 고부가가치 연산 결과물인 '토큰(Token)'을 연속적으로 찍어내는 전용 산업 생산 설비입니다. 📌 1. 30초 핵심 요약 &",
+    "char_count": 3685,
+    "read_time": 5,
     "status": "published",
     "content_file": "data/posts/2026-09-11-infra-glossary.md"
   },
@@ -2218,6 +2532,8 @@
       "데이터센터"
     ],
     "summary": "최근 아마존웹서비스(AWS)가 차세대 AI 코딩 도구인 '키로(Kiro)'의 전 세계 학생 무료 배포를 공식화하며 대규모 사용자 기반 확대에 나섰습니다. 그러나 서비스 레이어의 공격적인 확장은 백엔드 데이터센터에 전례 없는 규모의 24/7 지속 추론(Inference) 트래픽을 유입시키는 촉매제입니다. 엔비디아 고성능 GPU 기반의 전통적 인프라가 맞닥뜨린",
+    "char_count": 6518,
+    "read_time": 9,
     "status": "published",
     "content_file": "data/posts/2026-09-11-august-megafarm-deepdive.md"
   },
@@ -2240,6 +2556,8 @@
       "인프라동향"
     ],
     "summary": "Daily InfraOps Digest 글로벌 하이퍼스케일러 전력·실리콘 다각화와 인프라 리드타임 병목 발행일: 2026년 9월 11일 | 분석 대상: 글로벌 클라우드 CSP, 팹리스 반도체 및 데이터센터 전력망 동향 📌 오늘의 3대 핵심 관전 포인트 (Key Highlights) 원전 직결 PPA와 사모펀드 자본 집행의 명암: 구글이 핀란드 하미나 캠퍼스",
+    "char_count": 5151,
+    "read_time": 7,
     "status": "published",
     "content_file": "data/posts/2026-09-11-daily-infraops-briefing.md"
   },
@@ -2260,6 +2578,8 @@
       "액체냉각"
     ],
     "summary": "🎧 10-MIN TECH ENGLISH PODCAST [2026.09.10] [10-Min English Podcast] Nuclear PPAs, Sovereign Silicon, and the Global Data Center Regulatory Backlash 오늘의 10분 심층 팟캐스트는 구글의 핀란드 130억 유로 투자 및 포르툼과의 22년 장기 원",
+    "char_count": 14552,
+    "read_time": 14,
     "status": "published",
     "content_file": "data/posts/2026-09-10-10min-tech-podcast.md"
   },
@@ -2288,6 +2608,8 @@
       "신재생에너지"
     ],
     "summary": "Datacenter & Cloud Industry InfraOps Daily (2-Column) 1. 구글-포르툼 22년 원전 PPA와 빅테크 초거대 CapEx 파이낸싱 차별화 글로벌 빅테크의 AI 인프라 확장이 전력원 수직계열화와 조 단위 자본 조달을 축으로 고도화되는 추세임. 구글은 핀란드에 130억 유로(약 20조 원)를 투입해 3개 신규 ... ͏ ",
+    "char_count": 40295,
+    "read_time": 37,
     "status": "published",
     "content_file": "data/posts/2026-09-10-dc-infraops-trends-report.md"
   },
@@ -2306,6 +2628,8 @@
       "데이터센터"
     ],
     "summary": "인프라 아키텍처 심층 분석 리포트 본 분석은 아마존웹서비스(AWS)와 퀄컴(Qualcomm)이 체결한 10개년 맞춤형 AI 추론 실리콘 공급 협약과 1.6Tbps 광 인터커넥트 개발 계획을 바탕으로, 데이터센터 컴퓨팅 패러다임이 '학습 중심 범용 가속기'에서 '전력 효율 및 서빙 TCO 중심 도메인 특화 실리콘'으로 이동하는 공학적 메커니즘을 규명합니다. ",
+    "char_count": 6574,
+    "read_time": 9,
     "status": "published",
     "content_file": "data/posts/2026-09-10-august-megafarm-deepdive.md"
   },
@@ -2327,6 +2651,8 @@
       "소버린AI"
     ],
     "summary": "DAILY INFRASTRUCTURE DIGEST | 2026.09.10 글로벌 AI 인프라 자본 집약과 병목의 공존: 가속기 수급 다변화부터 전력·규제 장벽까지 인공지능 워크로드가 데이터센터의 전력 밀도와 공급망 한계를 시험하면서, 글로벌 하이퍼스케일러들의 인프라 전략이 다층화되고 있습니다. 한편에서는 특정 가속기 벤더에 대한 종속성을 완화하고 대규모 추",
+    "char_count": 5996,
+    "read_time": 8,
     "status": "published",
     "content_file": "data/posts/2026-09-10-daily-infraops-briefing.md"
   },
@@ -2346,6 +2672,8 @@
       "구글"
     ],
     "summary": "📌 1. 30초 핵심 요약 & 개념 정의 PPA(Power Purchase Agreement, 전력구매계약)는 데이터센터를 운영하는 대규모 전력 수용가(소비 기업)와 전력 발전 사업자(원자력, 신재생에너지 발전사 등)가 사전에 합의된 고정 단가와 계약 기간(통상 10년~25년)을 바탕으로 전력을 직접 거래하는 장기 전력 조달 계약 아키텍처입니다. 일반 상업",
+    "char_count": 3005,
+    "read_time": 4,
     "status": "published",
     "content_file": "data/posts/2026-09-10-infra-glossary.md"
   },
@@ -2368,6 +2696,8 @@
       "클라우드"
     ],
     "summary": "DAILY INFRA DIGEST 글로벌 클라우드 & 데이터센터 인프라 핵심 동향 브리핑 발행일자: 2026년 9월 9일 | 인프라 아키텍처·에너지 그리드·실리콘 생태계 심층 분석 📌 오늘의 3대 핵심 관전 포인트 (Key Highlights) 빅테크-팹리스 간 조 단위 지분 연계(Equity Warrant)와 맞춤형 추론 실리콘 동맹: AWS가 퀄컴과 향",
+    "char_count": 7319,
+    "read_time": 10,
     "status": "published",
     "content_file": "data/posts/2026-09-09-daily-infraops-briefing.md"
   },
@@ -2396,6 +2726,8 @@
       "신재생에너지"
     ],
     "summary": "Datacenter & Cloud Industry InfraOps Daily (2-Column) 1. 퀄컴-아마존 600억 달러 맞춤형 칩 동맹과 CXL 기반 원칩 인프라 혁신 빅테크의 연산 인프라 확보전이 엔비디아 단일 의존 탈피와 맞춤형 실리콘 생태계 구축으로 재편되는 양상임. 퀄컴은 아마존웹서비스(AWS)와 최대 600억 달러(약 81조 원... ͏ ",
+    "char_count": 39543,
+    "read_time": 36,
     "status": "published",
     "content_file": "data/posts/2026-09-09-dc-infraops-trends-report.md"
   },
@@ -2415,6 +2747,8 @@
       "퀄컴"
     ],
     "summary": "인공지능 데이터센터(AIDC)의 중심축이 파라미터 사전 학습(Pre-training)에서 상시 대규모 서비스 구동을 위한 추론(Inference)으로 급격히 재편되고 있습니다. 퀄컴과 아마존웹서비스(AWS)가 체결한 10년간 최대 600억 달러 규모의 다세대 맞춤형 AI 추론 실리콘 및 1.6Tbps 광인터커넥트 공동 개발 계약은 단순한 칩 수급 다변화를 ",
+    "char_count": 5938,
+    "read_time": 8,
     "status": "published",
     "content_file": "data/posts/2026-09-09-august-megafarm-deepdive.md"
   },
@@ -2433,6 +2767,8 @@
       "데이터센터"
     ],
     "summary": "인프라 핵심 아키텍처 해설 CXL (Compute Express Link): 고속 메모리 풀링과 캐시 일관성의 표준 📌 1. 30초 핵심 요약 & 개념 정의 공식 정의: CXL(Compute Express Link)은 고성능 연산 장치(CPU, GPU, 맞춤형 가속기)와 메모리 디바이스 간의 초저지연 통신 및 하드웨어 기반 캐시 일관성(Cache Coher",
+    "char_count": 3481,
+    "read_time": 5,
     "status": "published",
     "content_file": "data/posts/2026-09-09-infra-glossary.md"
   },
@@ -2454,6 +2790,8 @@
       "CXL"
     ],
     "summary": "🎧 10-MIN TECH ENGLISH PODCAST [2026.09.09] [10-Min English Podcast] The Sixty-Billion-Dollar Silicon Alliance, Nuclear Baseload Capitalization, and Mounting Grid Security Fractures 오늘의 10분 심층 팟캐스트는 퀄컴",
+    "char_count": 14383,
+    "read_time": 14,
     "status": "published",
     "content_file": "data/posts/2026-09-09-10min-tech-podcast.md"
   },
@@ -2474,6 +2812,8 @@
       "PPA"
     ],
     "summary": "Daily InfraOps Digest 2026년 9월 8일 브리핑 글로벌 AI 클라우드 100조 원대 약정 경쟁과 차세대 인프라 생태계 재편 초대형 컴퓨팅 파이프라인 장기 선점, 에너지 기업과의 20년 PPA, 고효율 폐루프 냉각 및 모듈러 공법을 둘러싼 엔지니어링 쟁점 분석 📌 오늘의 3대 핵심 관전 포인트 (Key Highlights) 앤트로픽의 1,",
+    "char_count": 5652,
+    "read_time": 8,
     "status": "published",
     "content_file": "data/posts/2026-09-08-daily-infraops-briefing.md"
   },
@@ -2494,6 +2834,8 @@
       "액체냉각"
     ],
     "summary": "🎧 10-MIN TECH ENGLISH PODCAST [2026.09.08] [10-Min English Podcast] The AI Infrastructure Squeeze: Astronomical Compute Pledges, Behind-the-Meter Power, and Midterm Politics 오늘의 10분 심층 팟캐스트는 2026년 9월 ",
+    "char_count": 15080,
+    "read_time": 14,
     "status": "published",
     "content_file": "data/posts/2026-09-08-10min-tech-podcast.md"
   },
@@ -2512,6 +2854,8 @@
       "데이터센터"
     ],
     "summary": "Infrastructure Tech Glossary 분류: 데이터센터 하드웨어 & 건축 엔지니어링 PMDC (Prefabricated Modular Data Center) 현장에서 철근 콘크리트 골조를 올리고 배관을 용접하던 전통적 건축 방식을 탈피하여, 전력·냉각·IT 랙 모듈을 통제된 공장에서 80% 이상 사전 제작(Pre-fabrication) 및 사",
+    "char_count": 3622,
+    "read_time": 5,
     "status": "published",
     "content_file": "data/posts/2026-09-08-infra-glossary.md"
   },
@@ -2540,6 +2884,8 @@
       "가스터빈"
     ],
     "summary": "Datacenter & Cloud Industry InfraOps Daily (2-Column) 1. 천문학적 컴퓨팅 지출 약정과 맞춤형 AI 데이터센터 공급망 재편 인공지능(AI) 고도화에 따른 연산 자원 확보전이 심화되면서 초대형 장기 계약과 맞춤형 공급 구조가 정착되는 양상임. 앤트로픽은 아마존웹서비스(AWS) 클라우드에 1,000억 달러(... ͏ ",
+    "char_count": 35771,
+    "read_time": 33,
     "status": "published",
     "content_file": "data/posts/2026-09-08-dc-infraops-trends-report.md"
   },
@@ -2559,6 +2905,8 @@
       "데이터센터"
     ],
     "summary": "인공지능 연산 수요의 폭증은 컴퓨팅 반도체의 진화 속도뿐 아니라 이를 수용하는 물리적 인프라의 공급 속도에 심각한 구조적 괴리를 야기하고 있습니다. 앤트로픽의 대규모 클라우드 지출 약정에서 드러나듯 조 단위 AI 워크로드가 가속화되는 가운데, 전통적인 현장 타설 방식의 데이터센터 건축은 24~36개월에 달하는 긴 리드타임으로 인해 중대한 공급 병목에 직면했",
+    "char_count": 6202,
+    "read_time": 8,
     "status": "published",
     "content_file": "data/posts/2026-09-08-august-megafarm-deepdive.md"
   },
@@ -2579,6 +2927,8 @@
       "하드웨어"
     ],
     "summary": "Tech Glossary · Power Distribution 800V DC 랙 아키텍처 (800V DC Rack Architecture) AI 가속기 랙의 소비 전력이 메가와트(MW) 단위로 폭증함에 따라, 전력 전송 시 발생하는 도체 발열과 구리 버스바 무게를 물리적으로 감축하기 위해 도입되는 차세대 고전압 직류 배전 아키텍처 📌 1. 30초 핵심 요약",
+    "char_count": 3606,
+    "read_time": 5,
     "status": "published",
     "content_file": "data/posts/2026-09-07-infra-glossary.md"
   },
@@ -2607,6 +2957,8 @@
       "신재생에너지"
     ],
     "summary": "Datacenter & Cloud Industry InfraOps Daily (2-Column) 1. 대규모 컴퓨팅 공급 계약과 고전압 전력 설비 M&A를 통한 인프라 수직계열화 글로벌 인프라 시장에서 초대형 컴퓨팅 조달 빅딜과 랙 전력 효율화를 위한 부품사 인수합병(M&A)이 가속화됨. 크루소(Crusoe)는 퀀트 트레이딩 기업 제인 스트리트와... ͏ ",
+    "char_count": 67561,
+    "read_time": 62,
     "status": "published",
     "content_file": "data/posts/2026-09-07-dc-infraops-trends-report.md"
   },
@@ -2627,6 +2979,8 @@
       "액체냉각"
     ],
     "summary": "🎧 10-MIN TECH ENGLISH PODCAST [2026.09.07] [10-Min English Podcast] Mega Compute Procurement, Modular Data Center Alliances, Next-Gen Liquid Cooling, and Grid Resilience Under Civic Friction 오늘의 10분 심",
+    "char_count": 15058,
+    "read_time": 14,
     "status": "published",
     "content_file": "data/posts/2026-09-07-10min-tech-podcast.md"
   },
@@ -2648,6 +3002,8 @@
       "클라우드"
     ],
     "summary": "📌 오늘의 3대 핵심 관전 포인트 (Key Highlights) 빅테크 컴퓨팅 자원의 우선순위 재편: 엔비디아가 AWS에 200만 개 규모의 GPU 공급을 확정하며 물리적 AI(Physical AI) 생태계 구축에 속도를 내는 한편, 마이크로소프트와 아마존은 저수익 클라우드 게임 인프라의 무제한 정책을 폐지하고 한정된 랙 전력과 상면을 생성형·에이전틱 AI",
+    "char_count": 4375,
+    "read_time": 6,
     "status": "published",
     "content_file": "data/posts/2026-09-07-daily-infraops-briefing.md"
   },
@@ -2667,6 +3023,8 @@
       "데이터센터"
     ],
     "summary": "Executive Summary 엔비디아가 아마존웹서비스(AWS)에 최대 200만 개에 달하는 차세대 GPU 공급을 본격화하면서, 글로벌 클라우드 인프라는 거대언어모델(LLM) 중심의 텍스트 생성을 넘어 현실 세계의 물리 법칙과 로보틱스를 연산하는 '피지컬 AI(Physical AI)' 시대로 급격히 전환되고 있습니다. 랙당 소비 전력이 기존 10~15kW",
+    "char_count": 6953,
+    "read_time": 9,
     "status": "published",
     "content_file": "data/posts/2026-09-07-august-megafarm-deepdive.md"
   },
@@ -2695,6 +3053,8 @@
       "신재생에너지"
     ],
     "summary": "Datacenter & Cloud Industry InfraOps Daily (2-Column) 인공지능(AI) 파운데이션 모델사 앤트로픽이 엔비디아의 신용 보강을 발판 삼아 네오클라우드 기업 람다(Lambda)와 350억 달러(약 48조 원) 규모의 클라우드 컴퓨팅 계약을 체결함 . 본 계약은 엔비디아가 헛8(Hut 8)의 텍사스 350MW급 ... ͏ ",
+    "char_count": 45037,
+    "read_time": 41,
     "status": "published",
     "content_file": "data/posts/2026-09-02-dc-infraops-trends-report.md"
   },
@@ -2714,6 +3074,8 @@
       "피지컬AI"
     ],
     "summary": "📌 1. 30초 핵심 요약 & 개념 정의 엣지 NPU(Edge Neural Processing Unit)는 수 와트(W) 이하의 극단적인 전력 및 방열 제약이 존재하는 엣지 단말(스마트 팩토리, 자율이동로봇, 지능형 CCTV 등)에서 심층 신경망(DNN)의 추론(Inference) 연산만을 전담 처리하도록 하드웨어 레벨에서 특화 설계된 도메인 특화 프로세서",
+    "char_count": 3273,
+    "read_time": 5,
     "status": "published",
     "content_file": "data/posts/2026-09-02-infra-glossary.md"
   },
@@ -2734,6 +3096,8 @@
       "클라우드"
     ],
     "summary": "📌 오늘의 3대 핵심 관전 포인트 (Key Highlights) 엔비디아의 상면·컴퓨팅 중개 모델과 350억 달러 메가딜: 엔비디아가 텍사스 헛8 데이터센터 상면을 직접 리스하고 지분 투자사인 람다(Lambda)를 통해 앤트로픽에 GPU를 공급하는 다각적 오프밸런스 파이낸싱 구조를 본격화했습니다. 이달 초 엔스케일과의 450억 달러 계약에 이어 AI 스타트",
+    "char_count": 3789,
+    "read_time": 5,
     "status": "published",
     "content_file": "data/posts/2026-09-02-daily-infraops-briefing.md"
   },
@@ -2757,6 +3121,8 @@
       "전력망"
     ],
     "summary": "🎧 10-MIN TECH ENGLISH PODCAST [2026.09.02] [10-Min English Podcast] Nvidia's $35B Tripartite Credit Architecture, ERCOT's 700GW Grid Purge, and the High-Density Engineering Frontier 오늘의 10분 심층 팟캐스트는 엔",
+    "char_count": 14501,
+    "read_time": 14,
     "status": "published",
     "content_file": "data/posts/2026-09-02-10min-tech-podcast.md"
   },
@@ -2776,6 +3142,8 @@
       "하이브리드클라우드"
     ],
     "summary": "🚀 서론: 기술 패러다임의 전환과 문제 제기지난 수년간 글로벌 인공지능(AI) 인프라 투자는 하이퍼스케일 데이터센터 내부의 초거대 가속기 클러스터 확충에 집중되어 왔습니다. 수만 개 단위의 GPU를 초고속 인피니밴드(InfiniBand) 패브릭으로 연결하고, 기가와트(GW) 규모의 전력을 투입해 거대언어모델(LLM)을 사전 학습(Pre-training)하고",
+    "char_count": 6222,
+    "read_time": 8,
     "status": "published",
     "content_file": "data/posts/2026-09-02-august-megafarm-deepdive.md"
   },
@@ -2801,6 +3169,8 @@
       "AI인프라"
     ],
     "summary": "블랙웰(Blackwell)을 넘어선 엔비디아의 차세대 랙스케일 AI 슈퍼컴퓨팅 플랫폼 '베라 루빈(Vera Rubin)'을 TSMC 3nm 다이 아키텍처, 6대 전용 칩셋, 2048-bit HBM4 메모리 서브시스템, NVLink 6 스케일업 패브릭, 800G 네트워크, 열역학적 수랭 설계 및 TCO 경제학까지 기술적으로 완벽하게 심층 분석합니다.",
+    "char_count": 8405,
+    "read_time": 8,
     "status": "published",
     "content_file": "data/posts/2026-09-01-nvidia-vera-rubin-architecture-deepdive.md"
   },
@@ -2821,6 +3191,8 @@
       "데이터센터"
     ],
     "summary": "🚀 서론: 기술 패러다임의 전환과 물리적 한계의 직면 인공지능(AI) 인프라의 발전 축이 개별 반도체 다이(Die)의 연산 성능 개선에서 데이터센터 단위의 '랙 스케일(Rack-Scale) 통합 컴퓨팅'으로 급격히 전환되고 있습니다. 대규모 언어 모델(LLM)과 멀티모달 파운데이션 모델의 매개변수가 수조 개 단위로 팽창함에 따라, 단일 가속기(GPU/NPU",
+    "char_count": 5189,
+    "read_time": 7,
     "status": "published",
     "content_file": "data/posts/2026-09-01-august-megafarm-deepdive.md"
   },
@@ -2849,6 +3221,8 @@
       "신재생에너지"
     ],
     "summary": "Datacenter & Cloud Industry InfraOps Daily (2-Column) 글로벌 AI 데이터센터 확충이 전력망 과부하와 막대한 수자원 소비 및 소음 피해를 야기하며 지역사회 반발을 촉발하는 가운데, 데이터센터 수용 여부가 미국 정치권의 핵심 쟁점으로 급부상함. 도널드 트럼프 전 미국 대통령은 데이터센터 건립을 반대하는 지역... ͏ ",
+    "char_count": 37434,
+    "read_time": 35,
     "status": "published",
     "content_file": "data/posts/2026-09-01-dc-infraops-trends-report.md"
   },
@@ -2869,6 +3243,8 @@
       "서버아키텍처"
     ],
     "summary": "Infrastructure Architecture DPU (Data Processing Unit, 데이터 처리 장치) 서버 호스트 CPU/GPU가 연산 본연에만 집중할 수 있도록 네트워크 가상화, 보안 암호화, 스토리지 입출력 등 인프라 전반의 제어 플레인을 전담 처리하는 독립형 가속 SoC 아키텍처 📌 1. 30초 핵심 요약 & 개념 정의 DPU(Data",
+    "char_count": 3170,
+    "read_time": 4,
     "status": "published",
     "content_file": "data/posts/2026-09-01-infra-glossary.md"
   },
@@ -2891,6 +3267,8 @@
       "메타"
     ],
     "summary": "📌 오늘의 3대 핵심 관전 포인트 (Key Highlights) AWS·MS 애저, 멀티클라우드 전용 사설망 인터커넥트 프리뷰 공개: 양대 하이퍼스케일러 간 물리적 직접 연동을 지원하여 공용 인터넷이나 서드파티 코로케이션 허브(Equinix 등)를 거치지 않고도 초저지연·고보안 크로스 클라우드 데이터 파이프라인 구축이 가능해졌습니다. 엔비디아의 '풀스택 시",
+    "char_count": 4482,
+    "read_time": 6,
     "status": "published",
     "content_file": "data/posts/2026-09-01-daily-infraops-briefing.md"
   },
@@ -2913,6 +3291,8 @@
       "전력망"
     ],
     "summary": "🎧 10-MIN TECH ENGLISH PODCAST [2026.09.01] [10-Min English Podcast] Global AI Data Center Gridlocks, SLB's $4.1B Cooling Deal, and Multicloud Interconnect Architecture 오늘의 10분 심층 팟캐스트는 글로벌 AI 데이터센터 확충",
+    "char_count": 14517,
+    "read_time": 14,
     "status": "published",
     "content_file": "data/posts/2026-09-01-10min-tech-podcast.md"
   },
@@ -2941,6 +3321,8 @@
       "신재생에너지"
     ],
     "summary": "Datacenter & Cloud Industry InfraOps Daily (2-Column) 엔비디아가 AI 특화 클라우드 기업들에 제공하던 수익 공유 및 대출 보증 금융 프로그램을 반독점 조사와 경영 간섭 논란으로 전격 보류·재조정하며 인프라 생태계 파트너십 재편에 나섬 . 이에 대응해 인프라 스타트업들은 사모 부채 시장을 통한 독자 자금 ... ͏ ",
+    "char_count": 46519,
+    "read_time": 43,
     "status": "published",
     "content_file": "data/posts/2026-08-31-dc-infraops-trends-report.md"
   },
@@ -2960,6 +3342,8 @@
       "데이터센터"
     ],
     "summary": "📌 1. 30초 핵심 요약 & 개념 정의 💡 한 줄 정의: AI 네오클라우드(AI Neocloud)는 일반적인 웹 서버나 데이터베이스 구동을 위한 범용 가상화 환경을 배제하고, 수천~수만 개의 GPU를 초저지연 고속 패브릭으로 묶어 대규모 AI 모델의 분산 학습과 추론에만 100% 최적화한 차세대 특화 클라우드 서비스 인프라입니다. 과거의 전통적 퍼블릭 클",
+    "char_count": 2877,
+    "read_time": 4,
     "status": "published",
     "content_file": "data/posts/2026-08-31-infra-glossary.md"
   },
@@ -2982,6 +3366,8 @@
       "소버린AI"
     ],
     "summary": "Daily InfraOps Digest 엔비디아의 AI 클라우드 파이낸싱 재조정과 하이퍼스케일러 전력·인프라 확장 전략 발행일: 2026년 8월 31일 | 작성: 글로벌 IT·데이터센터 인프라 수석 테크 에디터 📌 오늘의 3대 핵심 관전 포인트 (Key Highlights) 엔비디아의 AI 네오클라우드 파이낸싱 재검토와 하이퍼스케일러 락인: 엔비디아가 신흥",
+    "char_count": 3546,
+    "read_time": 5,
     "status": "published",
     "content_file": "data/posts/2026-08-31-daily-infraops-briefing.md"
   },
@@ -3000,6 +3386,8 @@
       "데이터센터"
     ],
     "summary": "글로벌 생성형 AI 워크로드의 확산과 초대형 파운데이션 모델의 매개변수 급증은 하이퍼스케일 데이터센터의 전력 밀도, 상호연결 대역폭, 자본적 지출(CAPEX) 구조를 근본적으로 재편하고 있습니다. 최근 AWS가 발표한 5억 달러(약 7,000억 원) 규모의 글로벌 AI 인재 양성 프로그램은 단순한 교육 지원을 넘어 커스텀 ASIC 생태계 락인을 위한 고도의 전략입니다.",
+    "char_count": 7214,
+    "read_time": 10,
     "status": "published",
     "content_file": "data/posts/2026-08-31-august-megafarm-deepdive.md"
   },
@@ -3022,6 +3410,8 @@
       "전력망"
     ],
     "summary": "🎧 10-MIN TECH ENGLISH PODCAST [2026.08.31] [10-Min English Podcast] Navigating GPU Debt Syndication, Captive Power Mandates, and 200kW Liquid Cooling Resilience 오늘의 10분 심층 팟캐스트는 엔비디아의 AI 클라우드 수익 공유 금융",
+    "char_count": 14392,
+    "read_time": 14,
     "status": "published",
     "content_file": "data/posts/2026-08-31-10min-tech-podcast.md"
   },
@@ -3043,6 +3433,8 @@
       "AI거버넌스"
     ],
     "summary": "엔비디아가 글로벌 오픈소스 AI의 중심축인 '허깅페이스(Hugging Face)' 인수를 전격 추진하며 하드웨어(GPU)에서 소프트웨어 플랫폼(Model Hub)으로 이어지는 완벽한 수직 계열화에 나섰습니다. CUDA 락인을 넘어선 NIM 마이크로서비스 통합, 오픈소스 모델 배포 파이프라인 독점, 그리고 빅테크 클라우드(CSP)에 미칠 지각변동을 심층 분석합니다.",
+    "char_count": 3024,
+    "read_time": 4,
     "status": "published",
     "content_file": "data/posts/2026-08-29-nvidia-huggingface-acquisition-platform-monopoly.md"
   },
@@ -3065,6 +3457,8 @@
       "에이전틱AI"
     ],
     "summary": "생성형 AI와 자율 에이전트를 악용한 정밀 사이버 공격이 폭증함에 따라, 정부(과기정통부·KISA)가 주도하는 한국형 보안 특화 파운데이션 모델 'K-미토스(K-Mythos)' 구축 사업이 본격화되었습니다. 네이버클라우드-LG CNS 연합과 SKT-업스테이지 연합의 기술 아키텍처, 오펜시브/디펜시브 자율 에이전트 오케스트레이션, 망분리 소버린 보안 인프라를 심층 분석합니다.",
+    "char_count": 2872,
+    "read_time": 4,
     "status": "published",
     "content_file": "data/posts/2026-08-29-k-mythos-sovereign-cybersecurity-ai.md"
   },
@@ -3086,6 +3480,8 @@
       "AI추론"
     ],
     "summary": "초장문(Long-context) 및 자율 에이전트 시대가 열리며 KV 캐시 급증으로 인한 '메모리 월(Memory Wall)'이 심화되고 있습니다. DRAM 기반 HBM의 극심한 가격/용량 한계를 극복하기 위해 부상한 고대역폭 낸드 플래시 'HBF(High Bandwidth Flash)'와 CXL 3.1 기반 계층형 메모리(Tiered Memory) 아키텍처를 엔지니어링 및 TCO 관점에서 심층 분석합니다.",
+    "char_count": 3510,
+    "read_time": 5,
     "status": "published",
     "content_file": "data/posts/2026-08-29-hbf-high-bandwidth-flash-memory-tiering.md"
   },
@@ -3108,6 +3504,8 @@
       "전력망"
     ],
     "summary": "육상 전력망 포화와 부지 고갈, 냉각수 규제를 극복하기 위해 바다 위에 초거대 AI 데이터센터를 띄우는 '해상 부유식 데이터센터(Floating Data Center, FDC)'가 글로벌 인프라의 새로운 대안으로 부상하고 있습니다. HD현대와 한화오션 등 K-조선이 주도하는 해수 직접 열교환 수랭 공학, 선박용 이중연료 발전기 및 해상 SMR 연계 독립 전원 패키지, 해양 방진·내진 엔지니어링을 심층 분석합니다.",
+    "char_count": 3987,
+    "read_time": 5,
     "status": "published",
     "content_file": "data/posts/2026-08-29-floating-datacenter-fdc-marine-power.md"
   },
@@ -3128,6 +3526,8 @@
       "AI네트워킹"
     ],
     "summary": "📌 1. 30초 핵심 요약 & 개념 정의 RoCE(RDMA over Converged Ethernet, 로키)는 표준 이더넷(Ethernet) 네트워크 환경에서 운영체제(OS) 커널을 거치지 않고 서버 간 메모리를 직접 읽고 쓸 수 있게 해주는 초저지연·고대역폭 전송 기술입니다. 전통적인 TCP/IP 통신에서는 데이터 송수신 시 CPU가 인터럽트를 처리하고",
+    "char_count": 2600,
+    "read_time": 4,
     "status": "published",
     "content_file": "data/posts/2026-08-28-infra-glossary.md"
   },
@@ -3148,6 +3548,8 @@
       "액체냉각"
     ],
     "summary": "🎧 10-MIN TECH ENGLISH PODCAST [2026.08.28] [10-Min English Podcast] Global AI CapEx Surges Past $200B: AWS GPU Procurement, SMR Deployments, and Grid BYOP Mandates 2026년 8월 28일자 DC 인프라옵스 데일리 심층 브리핑입니다",
+    "char_count": 15362,
+    "read_time": 14,
     "status": "published",
     "content_file": "data/posts/2026-08-28-10min-tech-podcast.md"
   },
@@ -3167,6 +3569,8 @@
       "데이터센터"
     ],
     "summary": "아마존웹서비스(AWS)가 엔비디아와 차세대 GPU 200만 개 공급 계약을 체결하며 글로벌 AI 인프라 확충에 나섰습니다. 이번 투자는 단순한 가속기 수량의 확장이 아니라, 자율형 에이전트(Agentic AI)와 물리 기반 AI(Physical AI) 처리를 위해 데이터센터의 전력 밀도, 액체 냉각 메커니즘, 엑사스케일 인터커넥트 아키텍처를 전면 재설계해야",
+    "char_count": 4602,
+    "read_time": 6,
     "status": "published",
     "content_file": "data/posts/2026-08-28-august-megafarm-deepdive.md"
   },
@@ -3188,6 +3592,8 @@
       "인프라동향"
     ],
     "summary": "Daily InfraOps Digest 글로벌 클라우드 & 데이터센터 인프라 핵심 동향 브리핑 발행일: 2026년 8월 28일 | IT 인프라·클라우드 아키텍처·데이터센터 전력 및 거버넌스 분석 📌 오늘의 3대 핵심 관전 포인트 (Key Highlights) 아마존의 엔비디아 GPU 200만 개 도입 및 초대형 CapEx 가속: AWS가 차세대 AI 모델 ",
+    "char_count": 4588,
+    "read_time": 6,
     "status": "published",
     "content_file": "data/posts/2026-08-28-daily-infraops-briefing.md"
   },
@@ -3216,6 +3622,8 @@
       "반도체"
     ],
     "summary": "Datacenter & Cloud Industry InfraOps Daily (2-Column) DAILY DIGEST Datacenter & Cloud Industry InfraOps Daily 2026년 08월 28일 (금) 💡 AI Executive Summary: Key News Insights 글로벌 빅테크의 AI 인프라 자본지출(CapEx)이 초",
+    "char_count": 28098,
+    "read_time": 26,
     "status": "published",
     "content_file": "data/posts/2026-08-28-dc-infraops-trends-report.md"
   },
@@ -3239,6 +3647,8 @@
       "한전"
     ],
     "summary": "초거대 LLM 학습·추론 과정에서 발생하는 0.001초(ms) 단위 MW급 전력 급변(Bursty Load)과 GW급 하이퍼스케일 전력 수요에 대응하기 위해, 기후에너지환경부가 2026년 연내 'AIDC 전용 그리드코드(Grid-Code)' 수립에 착수했습니다. 고립계통 특수성을 고려한 고장감내(FRT), 램프레이트 제어, UPS/BESS의 초고속 주파수 응답(FFR) 자원화, 국내 언론 보도 종합 분석 및 미국 FERC/NERC·IEEE의 최신 글로벌 규제 동향을 전면 심층 분석합니다.",
+    "char_count": 6046,
+    "read_time": 8,
     "status": "published",
     "content_file": "data/posts/2026-08-27-aidc-grid-code-power-strategy.md"
   },
@@ -3265,6 +3675,8 @@
       "오라클"
     ],
     "summary": "Datacenter & Cloud Industry InfraOps Daily (2-Column) DAILY DIGEST Datacenter & Cloud Industry InfraOps Daily 2026년 08월 27일 (목) 💡 AI Executive Summary: Key News Insights 글로벌 빅테크 및 전문 클라우드 기업들이 초대형 컴퓨팅",
+    "char_count": 27799,
+    "read_time": 26,
     "status": "published",
     "content_file": "data/posts/2026-08-27-dc-infraops-trends-report.md"
   },
@@ -3287,6 +3699,8 @@
       "클라우드아키텍처"
     ],
     "summary": "Daily InfraOps Digest 글로벌 클라우드 & 데이터센터 인프라 핵심 동향 브리핑 2026년 8월 27일 | 작성: IT 인프라 수석 테크 에디터 📌 오늘의 3대 핵심 관전 포인트 (Key Highlights) 전력망 인입 병목과 지역사회 수용성(Grid Congestion & Public Consent): 마이크로소프트의 위스콘신 대규모 캠퍼",
+    "char_count": 5496,
+    "read_time": 7,
     "status": "published",
     "content_file": "data/posts/2026-08-27-daily-infraops-briefing.md"
   },
@@ -3305,6 +3719,8 @@
       "금융IT인프라"
     ],
     "summary": "Enterprise AI Infrastructure 금융·법률 도메인 생성형 AI의 인프라 전환: 비결정론적 모델 한계 극복을 위한 검증형 데이터 파이프라인과 하드웨어 격리 아키텍처 구글 클라우드의 도메인 특화 제미나이 엔터프라이즈 릴리즈와 금융 데이터 직결 파이프라인을 중심으로, 엔터프라이즈 AI 스택이 직면한 환각 제어, 데이터 주권 보호, 추론 레이턴",
+    "char_count": 4127,
+    "read_time": 6,
     "status": "published",
     "content_file": "data/posts/2026-08-27-august-megafarm-deepdive.md"
   },
@@ -3325,6 +3741,8 @@
       "마이크로소프트"
     ],
     "summary": "📌 1. 30초 핵심 요약 & 개념 정의 PUE (Power Usage Effectiveness, 전력 사용 효율성)는 데이터센터 전체가 소비하는 총 전력량 중 서버, 스토리지, 네트워크 스위치 등 실제 IT 장비가 순수하게 소비하는 전력의 비율을 정량화한 글로벌 표준 에너지 효율 지표입니다. 2007년 글로벌 비영리 컨소시엄 그린 그리드(The Green",
+    "char_count": 2602,
+    "read_time": 4,
     "status": "published",
     "content_file": "data/posts/2026-08-27-infra-glossary.md"
   },
@@ -3344,6 +3762,8 @@
       "데이터센터"
     ],
     "summary": "🚀 서론: 지상 인프라의 물리적 한계와 궤도 컴퓨팅 패러다임 글로벌 인공지능(AI) 워크로드의 기하급수적 증가는 지상 데이터센터 인프라를 전력 공급, 부지 확보, 열관리라는 삼중의 물리적 한계로 몰아넣고 있습니다. 수십 메가와트(MW) 수준을 넘어 기가와트(GW) 급 단일 캠퍼스가 요구되는 초거대 언어 모델(LLM) 훈련 및 추론 환경에서, 지상 전력망(G",
+    "char_count": 3917,
+    "read_time": 5,
     "status": "published",
     "content_file": "data/posts/2026-08-26-august-megafarm-deepdive.md"
   },
@@ -3366,6 +3786,8 @@
       "인프라동향"
     ],
     "summary": "Daily InfraOps Digest 차세대 가속기 도입 가속화와 인프라 입지 패러다임의 확장 발행일자: 2026년 8월 26일 | 작성: 글로벌 IT·데이터센터 인프라 수석 에디터 📌 오늘의 3대 핵심 관전 포인트 (Key Highlights) 스페이스X-엔비디아 연합의 우주 궤도 AI 데이터센터 로드맵: 스페이스X가 엔비디아 차세대 '베라 루빈(Ver",
+    "char_count": 4222,
+    "read_time": 6,
     "status": "published",
     "content_file": "data/posts/2026-08-26-daily-infraops-briefing.md"
   },
@@ -3386,6 +3808,8 @@
       "데이터센터"
     ],
     "summary": "📌 1. 30초 핵심 요약 & 개념 정의 NVLink(엔비디아 고속 인터커넥트)는 표준 PCIe 버스의 대역폭 한계를 극복하고 여러 GPU 간, 또는 GPU와 CPU 간에 메모리를 직접 공유하고 초고속으로 데이터를 교환하도록 설계된 양방향 점대점(Point-to-Point) 고속 시리얼 통신 인터페이스입니다. 💡 직관적 비유: 일반 서버가 좁은 시내 도로(",
+    "char_count": 2450,
+    "read_time": 4,
     "status": "published",
     "content_file": "data/posts/2026-08-26-infra-glossary.md"
   },
@@ -3413,6 +3837,8 @@
       "반도체"
     ],
     "summary": "Datacenter & Cloud Industry InfraOps Daily (2-Column) DAILY DIGEST Datacenter & Cloud Industry InfraOps Daily 2026년 08월 26일 (수) 💡 AI Executive Summary: Key News Insights SpaceX와 엔비디아가 협력하여 지상 부지 및 전력 ",
+    "char_count": 27874,
+    "read_time": 26,
     "status": "published",
     "content_file": "data/posts/2026-08-26-dc-infraops-trends-report.md"
   },
@@ -3433,6 +3859,8 @@
       "액체냉각"
     ],
     "summary": "🎧 10-MIN TECH ENGLISH PODCAST [2026.08.25] [10-Min English Podcast] The $3 Trillion AI Infrastructure Supercycle: Hyperscale CapEx, Liquid-Cooled Gigawatt Deployments, and Grid Autonomy 2026년 8월 25일 D",
+    "char_count": 14249,
+    "read_time": 13,
     "status": "published",
     "content_file": "data/posts/2026-08-25-10min-tech-podcast.md"
   },
@@ -3453,6 +3881,8 @@
       "AI인프라"
     ],
     "summary": "📌 1. 30초 핵심 요약 & 개념 정의 소버린 클라우드(Sovereign Cloud)는 특정 국가나 관할 구역의 데이터 주권(Data Sovereignty) 법률과 규제 요건을 완벽하게 준수하도록 설계된 독립형 클라우드 인프라입니다. 단순히 서버가 해당 국가 영토 내에 물리적으로 위치하는 것을 넘어, 데이터의 저장·처리·접근 권한, 하드웨어 공급망, 암호",
+    "char_count": 2129,
+    "read_time": 3,
     "status": "published",
     "content_file": "data/posts/2026-08-25-infra-glossary.md"
   },
@@ -3481,6 +3911,8 @@
       "신재생에너지"
     ],
     "summary": "Datacenter & Cloud Industry InfraOps Daily (2-Column) DAILY DIGEST Datacenter & Cloud Industry InfraOps Daily 2026년 08월 25일 (화) 💡 AI Executive Summary: Key News Insights 글로벌 빅테크의 AI 인프라 자본지출(CapEx)이 초",
+    "char_count": 28017,
+    "read_time": 26,
     "status": "published",
     "content_file": "data/posts/2026-08-25-dc-infraops-trends-report.md"
   },
@@ -3501,6 +3933,8 @@
       "소버린AI"
     ],
     "summary": "📌 오늘의 3대 핵심 관전 포인트 (Key Highlights)차세대 아키텍처와 에이전틱 AI 워크로드: 엔비디아의 베라 루빈(Vera Rubin) 및 블랙웰(Blackwell) 아키텍처가 장기 컨텍스트 및 멀티스텝 추론 부하에 대응해 메가와트(MW)당 처리 효율을 대폭 끌어올린 반면, 고대역폭 메모리(HBM) 가격 상승으로 서버 공급 단가가 최대 17% ",
+    "char_count": 3688,
+    "read_time": 5,
     "status": "published",
     "content_file": "data/posts/2026-08-25-daily-infraops-briefing.md"
   },
@@ -3521,6 +3955,8 @@
       "TCO최적화"
     ],
     "summary": "🚀 서론: 단일 GPU 의존도의 한계와 이종 컴퓨팅 전환 엔터프라이즈 AI 모델의 매개변수 규모가 조(Trillion) 단위로 확장됨에 따라 데이터센터의 인프라 요구량은 지수함수적으로 증가하고 있습니다. 엔비디아의 데이터센터 부문 매출이 전년 대비 100% 이상 급증하는 시장 지표는 생성형 AI 워크로드를 감당하기 위한 고성능 가속기 수요의 폭발성을 명확히",
+    "char_count": 3797,
+    "read_time": 5,
     "status": "published",
     "content_file": "data/posts/2026-08-25-august-megafarm-deepdive.md"
   },
@@ -3548,6 +3984,8 @@
       "신재생에너지"
     ],
     "summary": "Datacenter & Cloud Industry InfraOps Daily (2-Column) DAILY DIGEST Datacenter & Cloud Industry InfraOps Daily 2026년 08월 24일 (월) 💡 AI Executive Summary: Key News Insights 글로벌 빅테크의 AI 인프라 확장이 아시아·남미 등 신",
+    "char_count": 32850,
+    "read_time": 30,
     "status": "published",
     "content_file": "data/posts/2026-08-24-dc-infraops-trends-report.md"
   },
@@ -3568,6 +4006,8 @@
       "액체냉각"
     ],
     "summary": "🎧 10-MIN TECH ENGLISH PODCAST [2026.08.24] [10-Min English Podcast] Global AI Infrastructure Capital Shift, 800VDC Power Standards, and Utility BYOP Mandates 오늘의 10분 심층 팟캐스트는 글로벌 빅테크의 아시아·남미 신흥 인프라 거점",
+    "char_count": 14668,
+    "read_time": 14,
     "status": "published",
     "content_file": "data/posts/2026-08-24-10min-tech-podcast.md"
   },
@@ -3588,6 +4028,8 @@
       "클라우데라"
     ],
     "summary": "DAILY INFRAOPS DIGEST 2026년 8월 24일 글로벌 클라우드 & AI 데이터센터 인프라 핵심 동향 엔비디아의 전력·부지 번들링 투자부터 공공 유틸리티 규제, 재생에너지 자가발전(BTM) 및 빅테크 글로벌 CapEx 지형 분석 📌 오늘의 3대 핵심 관전 포인트 (Key Highlights) 엔비디아의 전력·부지 '번들링 플레이'와 리스크 통",
+    "char_count": 4551,
+    "read_time": 6,
     "status": "published",
     "content_file": "data/posts/2026-08-24-daily-infraops-briefing.md"
   },
@@ -3607,6 +4049,8 @@
       "클라우드"
     ],
     "summary": "🚀 서론: 기술 패러다임의 전환과 문제 제기 인공지능(AI) 인프라 시장의 병목 지점이 반도체 미세공정 및 고대역폭 메모리(HBM) 수급 한계에서 '전력 계통(Grid)'과 '물리적 부지(Land)' 확보 단계로 급격히 전이되고 있습니다. 단일 데이터센터 랙당 전력 밀도가 과거 10~15kW 수준에서 고밀도 액체냉각 기반 100~130kW(NVIDIA NV",
+    "char_count": 3420,
+    "read_time": 5,
     "status": "published",
     "content_file": "data/posts/2026-08-24-august-megafarm-deepdive.md"
   },
@@ -3627,6 +4071,8 @@
       "엔비디아"
     ],
     "summary": "📌 1. 30초 핵심 요약 & 개념 정의 VPP(가상발전소, Virtual Power Plant)는 물리적으로 분산된 다양한 소규모 발전원(태양광, 풍력, 연료전지)과 유연성 자원(BESS, 전기차, 데이터센터 백업 발전기, 부하 감축 설비)을 사물인터넷(IoT) 및 클라우드 기반 중앙 제어 플랫폼으로 연계하여, 마치 단일 대형 발전소처럼 통합 제어·운영하",
+    "char_count": 2783,
+    "read_time": 4,
     "status": "published",
     "content_file": "data/posts/2026-08-24-infra-glossary.md"
   },
@@ -3650,6 +4096,8 @@
       "스타십"
     ],
     "summary": "지상 데이터센터가 직면한 전력망 포화(Gridlock), 냉각수 고갈(WUE), 지자체 인허가 규제를 해결하기 위해 연산 인프라가 지구 궤도로 올라가고 있습니다. 유럽우주국(ESA)의 ASCEND 프로젝트 타당성 결과, 스페이스X 스타링크 레이저 메쉬 네트워크와 xAI 연계, 구글·스타클라우드의 2027년 궤도 배치 로드맵을 바탕으로 태양광 무한 발전, 3K 복사 방열, 방사선 차폐(Rad-Hard) 및 궤도 엣지 AI 아키텍처를 심층 분석합니다.",
+    "char_count": 6367,
+    "read_time": 8,
     "status": "published",
     "content_file": "data/posts/2026-08-23-space-based-ai-datacenter-leo-infrastructure.md"
   },
@@ -3673,6 +4121,8 @@
       "탄소중립"
     ],
     "summary": "AI 가속기의 고발열을 해결하는 액체냉각 기술이 단순한 방열을 넘어 '폐열 회수(Heat Reuse)'의 순환 경제로 진화하고 있습니다. 한국기계연구원이 개발한 40℃ 저온 폐열 구동 화학흡착식 히트펌프(비냉방출력 SCP 346.5 W/kg)와 SK이노베이션의 액체냉각-폐열회수 실증을 바탕으로, EU EED 규제 대응, PUE 한계를 돌파하는 ERE(에너지 재사용 효율) 메커니즘과 도심 구역난방 연계 공학을 심층 분석합니다.",
+    "char_count": 5768,
+    "read_time": 8,
     "status": "published",
     "content_file": "data/posts/2026-08-23-kimm-skinno-waste-heat-reuse-cooling.md"
   },
@@ -3697,6 +4147,8 @@
       "NPU"
     ],
     "summary": "전라남도 해남 솔라시도 기업도시에 총사업비 2조 5,000억 원 규모의 '국가 AI 컴퓨팅센터'가 2026년 8월 3일 공식 착공했습니다. 2028년 고성능 GPU 1.5만 장, 2030년 5만 장 규모로 확장되는 국내 최대 공용 AI 인프라의 건축·전력 설계와, 수도권 전력망 포화를 우회하여 호남권 재생에너지(RE100)와 직결하는 'Load-to-Power' 분산 인프라 전략, 국산 NPU 실증 로드맵을 심층 분석합니다.",
+    "char_count": 5610,
+    "read_time": 8,
     "status": "published",
     "content_file": "data/posts/2026-08-23-haenam-solaseado-national-ai-datacenter.md"
   },
@@ -3721,6 +4173,8 @@
       "텍사스ERCOT"
     ],
     "summary": "AI 프런티어 랩 앤트로픽(Anthropic)이 비트코인 채굴 대기업 라이엇 플랫폼스(Riot Platforms)와 191MW 규모, 최대 161억 달러(약 22.7조 원)에 달하는 22년 장기 데이터센터 계약을 체결했습니다. 맥쿼리·GIC와의 특수목적법인(JV) 구조, 하이퍼스케일러 종속을 탈피하는 기가와트급 수전 부지 확보 전략, ERCOT 4CP 회피 및 암호화폐 채굴소의 AI 인프라 리퍼포징 공학을 심층 분석합니다.",
+    "char_count": 6340,
+    "read_time": 8,
     "status": "published",
     "content_file": "data/posts/2026-08-23-anthropic-riot-12t-megadeal-power-pivot.md"
   },
@@ -3744,6 +4198,8 @@
       "SSCB"
     ],
     "summary": "AI 가속기 랙 밀도가 100kW를 넘어 1.2MW 시대로 진입함에 따라 기존 480V/400V AC 배전 시스템은 도체 단면적, I²R 발열 손실, 다단계 전력 변환 비효율의 물리적 한계에 직면했습니다. 슈나이더 일렉트릭과 엔비디아가 제시한 800V DC 아키텍처, 파워 사이드카(Sidecar) 분리 설계, 반도체 차단기(SSCB), BESS 직결 시너지 및 LS일렉트릭-GS건설의 직류 얼라이언스를 바탕으로 차세대 데이터센터 전력망의 공학적 대전환을 심층 분석합니다.",
+    "char_count": 6048,
+    "read_time": 8,
     "status": "published",
     "content_file": "data/posts/2026-08-23-800v-dc-distribution-architecture.md"
   },
@@ -3767,6 +4223,8 @@
       "AI인프라"
     ],
     "summary": "주간 Daily Briefing에서 미처 다루지 못한 데이터센터 인프라 심층 추가 핵심 이슈 4선. 미국 최대 PJM 송전망의 50MW+ 자가발전(BYOP) 의무화, 현대제철-한미글로벌의 DC 전용 철골 강구조 전환, KIOST 울산 해저 수중 데이터센터 실증(PUE 1.05), 네바다 수자원 금지령과 WUE 규제를 심층 분석합니다.",
+    "char_count": 4818,
+    "read_time": 7,
     "status": "published",
     "content_file": "data/posts/2026-08-22-daily-infraops-additional-briefing.md"
   },
@@ -3791,6 +4249,8 @@
       "오픈AI"
     ],
     "summary": "2026년 8월 3주차 글로벌 클라우드 및 데이터센터 인프라옵스 주간 종합 결산 리포트. 엔비디아의 인프라 금융화(1,050억 달러 보증 및 30억 달러 투자), 기가와트(GW)급 AI 팩토리 확장, SMR과 가스 발전 중심의 기저전원 확보전, 액체냉각 및 철골 강구조 전환, 글로벌 그리드락과 지자체 모라토리엄 규제를 심층 분석합니다.",
+    "char_count": 7183,
+    "read_time": 9,
     "status": "published",
     "content_file": "data/posts/2026-08-22-weekly-infraops-wrapup.md"
   },
@@ -3814,6 +4274,8 @@
       "RE100"
     ],
     "summary": "제12차 전력수급기본계획(2026~2040) 전력수요 재전망 주요 내용과 9·10·11·12차 역대 계획 비교를 정리합니다. 반도체 및 데이터센터 추가수요 반영에 따른 2040년 목표 최대전력 상향(158.4GW), 부하 특성, 전력망 과제 및 산업계 대응 전략을 분석합니다.",
+    "char_count": 8769,
+    "read_time": 11,
     "status": "published",
     "content_file": "data/posts/2026-08-21-12th-power-plan-demand-reforecast.md"
   },
@@ -3841,6 +4303,8 @@
       "오라클"
     ],
     "summary": "Datacenter & Cloud Industry InfraOps Daily (2-Column) DAILY DIGEST Datacenter & Cloud Industry InfraOps Daily 2026년 08월 21일 (금) 💡 AI Executive Summary: Key News Insights 글로벌 빅테크의 AI 인프라 투자가 차세대 가속기 클라",
+    "char_count": 28882,
+    "read_time": 27,
     "status": "published",
     "content_file": "data/posts/2026-08-21-dc-infraops-trends-report.md"
   },
@@ -3864,6 +4328,8 @@
       "피지컬AI"
     ],
     "summary": "Daily InfraOps Digest 글로벌 클라우드 & 데이터센터 인프라 핵심 동향 브리핑 발행일: 2026년 8월 21일 | IT 인프라 아키텍트 & CTO를 위한 심층 기술 분석 리포트 📌 오늘의 3대 핵심 관전 포인트 (Key Highlights) 클라우드 경계의 확장 (Physical AI): AWS가 3D 물리 공간 로보틱스·자율주행 워크로드를",
+    "char_count": 4907,
+    "read_time": 7,
     "status": "published",
     "content_file": "data/posts/2026-08-21-daily-infraops-briefing.md"
   },
@@ -3882,6 +4348,8 @@
       "데이터센터"
     ],
     "summary": "Cloud Infrastructure & Robotics Deep Dive 디지털 픽셀에서 물리 세계로: 피지컬 AI(Physical AI)를 지탱하는 클라우드-엣지 하이브리드 인프라 분석 대규모 언어 모델(LLM)의 한계를 돌파하는 차세대 물리 인텔리전스, 분산 플릿 러닝(Fleet Learning)과 합성 데이터 시뮬레이션 파이프라인의 공학적 메커니즘을",
+    "char_count": 5096,
+    "read_time": 7,
     "status": "published",
     "content_file": "data/posts/2026-08-21-august-megafarm-deepdive.md"
   },
@@ -3902,6 +4370,8 @@
       "액체냉각"
     ],
     "summary": "🎧 10-MIN TECH ENGLISH PODCAST [2026.08.21] [10-Min English Podcast] Big Tech CapEx Restructuring, Physical AI Shocks, and Sustainable Grid Integration 2026년 8월 21일 DC InfraOps 데일리 심층 브리핑에서는 빅테크의 AI 인프",
+    "char_count": 12233,
+    "read_time": 12,
     "status": "published",
     "content_file": "data/posts/2026-08-21-10min-tech-podcast.md"
   },
@@ -3921,6 +4391,8 @@
       "액체냉각"
     ],
     "summary": "Infrastructure Glossary WUE (Water Usage Effectiveness, 수자원 사용 효율) PUE를 넘어 초고집적 AI 데이터센터의 환경 지속가능성을 평가하는 글로벌 냉각 용수 측정 표준 📌 1. 30초 핵심 요약 & 개념 정의 WUE(Water Usage Effectiveness, 수자원 사용 효율)는 데이터센터가 IT 장비(",
+    "char_count": 2679,
+    "read_time": 4,
     "status": "published",
     "content_file": "data/posts/2026-08-21-infra-glossary.md"
   },
@@ -3944,6 +4416,8 @@
       "데이터센터인프라"
     ],
     "summary": "AI 경쟁의 병목은 GPU 확보에서 전력과 열 관리 능력으로 이동했습니다. 삼일 PwC의 49페이지 심층 리포트와 글로벌 최신 연구를 바탕으로 액체냉각(D2C), 액침냉각, 1MW 랙 밀도, M&A 총력전, K-냉각 생존 전략을 분석합니다.",
+    "char_count": 7403,
+    "read_time": 10,
     "status": "published",
     "content_file": "data/posts/2026-08-20-samilpwc-dc-cooling-industry.md"
   },
@@ -3968,6 +4442,8 @@
       "노르딕"
     ],
     "summary": "Daily InfraOps Digest 2026년 8월 20일 글로벌 클라우드 & 데이터센터 인프라 브리핑 엔터프라이즈 멀티클라우드 통합, 초대형 GPU 팩토리 가동, 차세대 데이터센터 냉각 설비 및 노르딕 청정에너지 허브 분석 📌 오늘의 3대 핵심 관전 포인트 (Key Highlights) 하이브리드·멀티클라우드 표준화 가속: 오라클과 AWS의 심층 연동",
+    "char_count": 4443,
+    "read_time": 6,
     "status": "published",
     "content_file": "data/posts/2026-08-20-daily-infraops-briefing.md"
   },
@@ -3988,6 +4464,8 @@
       "SMR"
     ],
     "summary": "🎧 10-MIN TECH ENGLISH PODCAST [2026.08.20] [10-Min English Podcast] The Hyper-Dense Compute Frontier: SMR Alliances, Direct-to-Chip Thermal Scaling, and Gridlock Politics 오늘의 10분 심층 팟캐스트는 구글의 오클라호마 50",
+    "char_count": 13933,
+    "read_time": 13,
     "status": "published",
     "content_file": "data/posts/2026-08-20-10min-tech-podcast.md"
   },
@@ -4015,6 +4493,8 @@
       "오라클"
     ],
     "summary": "Datacenter & Cloud Industry InfraOps Daily (2-Column) DAILY DIGEST Datacenter & Cloud Industry InfraOps Daily 2026년 08월 20일 (목) 💡 AI Executive Summary: Key News Insights 글로벌 빅테크의 AI 인프라 투자가 초대형 하이퍼스케일",
+    "char_count": 28391,
+    "read_time": 26,
     "status": "published",
     "content_file": "data/posts/2026-08-20-dc-infraops-trends-report.md"
   },
@@ -4035,6 +4515,8 @@
       "엔비디아"
     ],
     "summary": "냉각 인프라 아키텍처 CDU (Coolant Distribution Unit, 냉각수 분배 장치) 랙당 100kW가 넘는 블랙웰(B200) 시대를 지탱하는 유체 순환과 열교환의 중앙 관제 센터 📌 1. 30초 핵심 요약 & 개념 정의 CDU(Coolant Distribution Unit, 냉각수 분배 장치)는 고밀도 AI 데이터센터의 액체 냉각(Liquid",
+    "char_count": 2814,
+    "read_time": 4,
     "status": "published",
     "content_file": "data/posts/2026-08-20-infra-glossary.md"
   },
@@ -4055,6 +4537,8 @@
       "인프라아키텍처"
     ],
     "summary": "Architecture Deep Dive 공랭의 물리적 한계 돌파: B200 초대규모 클러스터와 액체 냉각(Liquid Cooling) 인프라 대전환 초거대 AI 모델의 파라미터 폭증과 엔비디아 블랙웰(Blackwell) 아키텍처 도입은 데이터센터 랙당 전력 밀도를 100kW 이상으로 끌어올렸습니다. 7,656장에 달하는 B200 GPU를 단일 클러스터로 ",
+    "char_count": 4916,
+    "read_time": 7,
     "status": "published",
     "content_file": "data/posts/2026-08-20-august-megafarm-deepdive.md"
   },
@@ -4079,6 +4563,8 @@
       "인프라동향"
     ],
     "summary": "Daily InfraOps Digest 글로벌 클라우드 & 데이터센터 인프라 핵심 브리핑 발행일: 2026년 8월 19일 | 작성: 수석 테크 에디터 📌 오늘의 3대 핵심 관전 포인트 (Key Highlights) 엔비디아, 오픈AI DC에 1050억 달러(약 150조 원) 초대형 지원: 젠슨 황 CEO가 '순환금융(Circular Financing)' 논",
+    "char_count": 3920,
+    "read_time": 5,
     "status": "published",
     "content_file": "data/posts/2026-08-19-daily-infraops-briefing.md"
   },
@@ -4098,6 +4584,8 @@
       "데이터센터"
     ],
     "summary": "Infrastructure Deep Dive 엔터프라이즈 AI의 2막: 수십만 자율 에이전트 생태계를 지탱하는 거버넌스 패브릭(Fabric)과 인프라 혁신 단일 거대언어모델(LLM) 파라미터 경쟁을 넘어, 수천·수만 개의 이기종 에이전트가 협업하는 분산 오케스트레이션 환경에서의 보안, 감사 추적, TCO 최적화 아키텍처를 심층 분석합니다. 🚀 서론: 기술 ",
+    "char_count": 4779,
+    "read_time": 6,
     "status": "published",
     "content_file": "data/posts/2026-08-19-august-megafarm-deepdive.md"
   },
@@ -4118,6 +4606,8 @@
       "액체냉각"
     ],
     "summary": "데이터센터 열관리 & 하드웨어 아키텍처 D2C 액체냉각 (Direct-to-Chip Cooling) 고발열 차세대 AI 가속기(GPU/NPU) 표면에 콜드플레이트를 직접 밀착시켜 냉각수를 순환시키는 고효율 열교환 인프라 기술 📌 1. 30초 핵심 요약 & 개념 정의 D2C(Direct-to-Chip, 직접 칩 냉각) 기술은 공기로 서버 내부 전체를 식히는 ",
+    "char_count": 3360,
+    "read_time": 5,
     "status": "published",
     "content_file": "data/posts/2026-08-19-infra-glossary.md"
   },
@@ -4146,6 +4636,8 @@
       "신재생에너지"
     ],
     "summary": "Datacenter & Cloud Industry InfraOps Daily (2-Column) DAILY DIGEST Datacenter & Cloud Industry InfraOps Daily 2026년 08월 19일 (수) 💡 AI Executive Summary: Key News Insights 글로벌 빅테크의 AI 인프라 확장이 거점 다변화와 클라",
+    "char_count": 31533,
+    "read_time": 29,
     "status": "published",
     "content_file": "data/posts/2026-08-19-dc-infraops-trends-report.md"
   },
@@ -4167,6 +4659,8 @@
       "전력망"
     ],
     "summary": "🎧 10-MIN TECH ENGLISH PODCAST [2026.08.19] [10-Min English Podcast] Global CapEx Realignment, Power & Thermal Breakthroughs, and the Regulatory Wall 오늘의 10분 심층 팟캐스트는 글로벌 AI 인프라 CapEx 재편, 아마존의 180억 달러 ",
+    "char_count": 10394,
+    "read_time": 10,
     "status": "published",
     "content_file": "data/posts/2026-08-19-10min-tech-podcast.md"
   },
@@ -4186,6 +4680,8 @@
       "전력인프라"
     ],
     "summary": "Electric Power Grid AI 전력망의 핵심 혁신 기술 ⚡ 기가와트(GW) 시대, 발전소에서 AI 랙까지 손실 없이 꽂는 전력 고속도로 수 기가와트(GW) 전력을 집어삼키는 초대형 차세대 AI 데이터센터를 위해, 원거리 대규모 발전원(원전·신재생)에서 생산된 전력을 무손실로 직접 끌어오고 제어하는 초고압 직류 송전망 기술입니다. 📌 1. 30초 ",
+    "char_count": 2887,
+    "read_time": 4,
     "status": "published",
     "content_file": "data/posts/2026-08-18-infra-glossary.md"
   },
@@ -4214,6 +4710,8 @@
       "가스터빈"
     ],
     "summary": "Datacenter & Cloud Industry InfraOps Daily (2-Column) DAILY DIGEST Datacenter & Cloud Industry InfraOps Daily 2026년 08월 18일 (화) 💡 AI Executive Summary: Key News Insights 글로벌 빅테크의 AI 인프라 확장 전략이 대규모 직접 ",
+    "char_count": 29721,
+    "read_time": 28,
     "status": "published",
     "content_file": "data/posts/2026-08-18-dc-infraops-trends-report.md"
   },
@@ -4233,6 +4731,8 @@
       "전력망인프라"
     ],
     "summary": "🚀 서론: 기술 패러다임의 전환과 문제 제기 — '컴퓨팅 칩'에서 '전력·금융 결합 인프라'로 인공지능(AI) 인프라 시장이 단일 가속기(GPU)의 연산 성능 경쟁 단계를 넘어, 전력망(Grid) 확보, 기가와트(GW) 규모의 전력 직결, 그리고 천문학적인 자본 조달 구조가 결합된 '초거대 유틸리티 인프라' 영역으로 급격히 진화하고 있습니다. 최근 엔비디아",
+    "char_count": 4426,
+    "read_time": 6,
     "status": "published",
     "content_file": "data/posts/2026-08-18-august-megafarm-deepdive.md"
   },
@@ -4254,6 +4754,8 @@
       "하이퍼스케일러"
     ],
     "summary": "Daily InfraOps Digest 글로벌 클라우드 & 데이터센터 인프라 핵심 동향 브리핑 2026년 8월 18일 | 인프라 아키텍처·전력망·AI 하드웨어 심층 분석 📌 오늘의 3대 핵심 관전 포인트 (Key Highlights) 엔비디아의 인프라 금융화(Financier): 단순 칩 벤더를 넘어 OpenAI 데이터센터 대상 1,050억 달러 신용 보증",
+    "char_count": 3145,
+    "read_time": 4,
     "status": "published",
     "content_file": "data/posts/2026-08-18-daily-infraops-briefing.md"
   },
@@ -4275,6 +4777,8 @@
       "액체냉각"
     ],
     "summary": "🎧 10-MIN TECH ENGLISH PODCAST [2026.08.18] [10-Min English Podcast] The Trillion-Dollar AI Grid Pivot: Mega-Guarantees, SMR Baseload Alliances, and High-Density Thermal Frontiers 오늘의 10분 심층 팟캐스트는 글로벌 ",
+    "char_count": 12062,
+    "read_time": 11,
     "status": "published",
     "content_file": "data/posts/2026-08-18-10min-tech-podcast.md"
   },
@@ -4295,6 +4799,8 @@
       "시설운영관리"
     ],
     "summary": "전기·기계·배관·소방(MEP) 인프라의 100% 가용성 보장, 24/365 긴급 상황 조치 및 이벤트 대응 체계, 차세대 액체 냉각(Liquid Cooling) 기술 개발, 그리고 MOP/SOP/EOP/COE/SLD 등 필수 운영 문서·도면 체계를 심층 분석합니다.",
+    "char_count": 7598,
+    "read_time": 10,
     "status": "hidden",
     "content_file": "data/posts/2026-08-17-aws-dceo-team-introduction.md"
   },
@@ -4318,6 +4824,8 @@
       "신재생에너지"
     ],
     "summary": "간헐적 신재생 에너지를 AI 클러스터의 안정적 기저 전력으로 변환하는 유틸리티급 BESS 아키텍처. 엔비디아-SB에너지-오픈AI의 10GW 오하이오 캠퍼스, 테슬라 메가팩 46.7GWh 배치, CAISO 12.3GW 저녁 피크 방어 및 ERCOT 실증 데이터, NFPA 855·UL 9540A 표준까지 팩트 기반 기술 총정리.",
+    "char_count": 9141,
+    "read_time": 12,
     "status": "published",
     "content_file": "data/posts/2026-08-17-bess-battery-storage.md"
   },
@@ -4338,6 +4846,8 @@
       "컴퓨팅금융"
     ],
     "summary": "EXECUTIVE ARCHITECT BRIEFING 10GW 초거대 AI 팩토리와 GPU 금융화: 인프라 아키텍처의 한계 돌파 전략 엔비디아의 오픈AI 오하이오 10GW 프로젝트 채무 보증 축소는 단순한 재무적 조율이 아닙니다. 이는 AI 인프라 확장이 '실리콘 칩 수급' 단계에서 '국가 전력망 수용 한계'와 '수백조 원 규모의 자본 집약도(CapEx)'라",
+    "char_count": 5323,
+    "read_time": 7,
     "status": "published",
     "content_file": "data/posts/2026-08-17-august-megafarm-deepdive.md"
   },
@@ -4359,6 +4869,8 @@
       "전력망"
     ],
     "summary": "🎧 10-MIN TECH ENGLISH PODCAST [2026.08.17] [10-Min English Podcast] Global AI Infra CapEx De-Risking, Nuclear SMR Baseload Power, and Liquid Cooling Architecture 오늘의 10분 심층 팟캐스트는 엔비디아의 오픈AI 금융 보증 축소 및",
+    "char_count": 10673,
+    "read_time": 10,
     "status": "published",
     "content_file": "data/posts/2026-08-17-10min-tech-podcast.md"
   },
@@ -4381,6 +4893,8 @@
       "전력망"
     ],
     "summary": "Daily InfraOps Digest 초대형 AI 팩토리 금융 리스크 관리와 하이퍼스케일러의 실전 엔터프라이즈 확장 2026년 8월 17일 | 글로벌 IT 인프라·클라우드·데이터센터 분석 리포트 📌 오늘의 3대 핵심 관전 포인트 (Key Highlights) 엔비디아의 'GPU 보증 리스크 통제'와 에너지 지분 투자: 오픈AI의 10GW 오하이오 프로젝트",
+    "char_count": 5227,
+    "read_time": 7,
     "status": "published",
     "content_file": "data/posts/2026-08-17-daily-infraops-briefing.md"
   },
@@ -4409,6 +4923,8 @@
       "신재생에너지"
     ],
     "summary": "Datacenter & Cloud Industry InfraOps Daily (2-Column) DAILY DIGEST Datacenter & Cloud Industry InfraOps Daily 2026년 08월 17일 (월) 💡 AI Executive Summary: Key News Insights 글로벌 빅테크의 AI 인프라 투자 구조가 무제한적 자금",
+    "char_count": 33682,
+    "read_time": 31,
     "status": "published",
     "content_file": "data/posts/2026-08-17-dc-infraops-trends-report.md"
   },
@@ -4429,6 +4945,8 @@
       "항공MRO"
     ],
     "summary": "🚀 서론: 미션 크리티컬 인더스트리의 생성형 AI 전환과 인프라 패러다임 시프트 항공기 운항 및 정비(MRO, Maintenance, Repair, and Overhaul)는 단 0.01%의 오류도 용납되지 않는 대표적인 '미션 크리티컬(Mission-Critical)' 산업입니다. 수십만 개의 정밀 부품과 복잡다단한 비행 기록 장치(FDR), 퀵 액세스 ",
+    "char_count": 3751,
+    "read_time": 5,
     "status": "published",
     "content_file": "data/posts/2026-08-16-mro-generative-ai-cloud.md"
   },
@@ -4447,6 +4965,8 @@
       "뉴스레터"
     ],
     "summary": "Datacenter & Cloud Industry InfraOps Daily (2-Column) DAILY DIGEST Datacenter & Cloud Industry InfraOps Daily 2026년 08월 14일 (금) 💡 AI Executive Summary: Key News Insights 글로벌 빅테크의 AI 컴퓨팅 주도권 확보전이 단순 설비",
+    "char_count": 34147,
+    "read_time": 32,
     "status": "published",
     "content_file": "data/posts/2026-08-14-dc-infraops-trends-report.md"
   },
@@ -4465,6 +4985,8 @@
       "뉴스레터"
     ],
     "summary": "Datacenter & Cloud Industry InfraOps Daily (2-Column) DAILY DIGEST Datacenter & Cloud Industry InfraOps Daily 2026년 08월 13일 (목) 💡 AI Executive Summary: Key News Insights 글로벌 빅테크의 AI 컴퓨팅 주도권 경쟁이 심화되는 가",
+    "char_count": 34227,
+    "read_time": 32,
     "status": "published",
     "content_file": "data/posts/2026-08-13-dc-infraops-trends-report.md"
   }
