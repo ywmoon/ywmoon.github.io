@@ -5,8 +5,48 @@
     <link>https://ywmoon.github.io</link>
     <description>글로벌 AI 데이터센터 전력망, 냉각, 클라우드 인프라 엔지니어링 데일리 트렌드</description>
     <language>ko</language>
-    <lastBuildDate>Thu, 08 Oct 2026 05:52:15 -0000</lastBuildDate>
+    <lastBuildDate>Mon, 12 Oct 2026 06:02:42 -0000</lastBuildDate>
     <atom:link href="https://ywmoon.github.io/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>DC InfraOps Trends - 2026년 10월 12일</title>
+      <link>https://ywmoon.github.io/article/2026-10-12-dc-infraops-trends-report/</link>
+      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-10-12-dc-infraops-trends-report/</guid>
+      <pubDate>Mon, 12 Oct 2026 00:00:00 -0000</pubDate>
+      <category>Newsletter</category>
+      <description>Datacenter &amp; Cloud Industry InfraOps Daily (2-Column) 1. 얀덱스 데이터센터 연쇄 드론 피격과 인프라의 전시 군사 표적화 우크라이나가 러시아 최대 IT·AI 기업 얀덱스의 사소보 데이터센터를 드론으로 타격해 화재와 클라우드 중단을 초래한 데 이어 , 블라디미르 시설을 멈춰 세우고 칼루가 캠퍼스까지 나흘 ... ͏ </description>
+    </item>
+    <item>
+      <title>[테크 딥다이브] 랙당 130kW 초고밀도 시대를 향한 전환: Direct-to-Chip 액체냉각 아키텍처와 하이퍼스케일 인프라의 열역학적 재설계</title>
+      <link>https://ywmoon.github.io/article/2026-10-12-august-megafarm-deepdive/</link>
+      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-10-12-august-megafarm-deepdive/</guid>
+      <pubDate>Mon, 12 Oct 2026 00:00:00 -0000</pubDate>
+      <category>Tech Deep Dive</category>
+      <description>🚀 서론: 기술 패러다임의 전환과 문제 제기 생성형 AI 모델의 매개변수가 수조 개 단위로 확장되고 조 단위 토큰을 처리하는 거대언어모델(LLM) 학습 및 추론 클러스터가 보편화되면서, 글로벌 데이터센터 인프라는 전례 없는 물리적 한계선에 도달하고 있습니다. 지난 수십 년간 엔터프라이즈 컴퓨팅 환경을 지탱해 온 공랭식(Air Cooling) 기반의 데이터센</description>
+    </item>
+    <item>
+      <title>[2026.10.12] 글로벌 AI 인프라 자본시장 검증과 물리적 안보 리스크 심층 브리핑</title>
+      <link>https://ywmoon.github.io/article/2026-10-12-daily-infraops-briefing/</link>
+      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-10-12-daily-infraops-briefing/</guid>
+      <pubDate>Mon, 12 Oct 2026 00:00:00 -0000</pubDate>
+      <category>Daily Briefing</category>
+      <description>글로벌 AI 인프라 자본시장 검증과 물리적 안보 리스크 심층 분석 2026년 10월 12일 | 데일리 인프라 종합 리포트 (Daily InfraOps Digest) 📌 오늘의 3대 핵심 관전 포인트 (Key Highlights) AI 전용 데이터센터 자본 조달의 제동과 가치 재평가: 엔비디아의 지원과 오픈AI·메타 계약을 확보했던 호주 퍼머스(Firmus)</description>
+    </item>
+    <item>
+      <title>[인프라 용어사전] 블래스트 래디어스 (Blast Radius) - 국소 장애의 전체 확산을 차단하는 인프라 격리 반경</title>
+      <link>https://ywmoon.github.io/article/2026-10-12-infra-glossary/</link>
+      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-10-12-infra-glossary/</guid>
+      <pubDate>Mon, 12 Oct 2026 00:00:00 -0000</pubDate>
+      <category>Terminology</category>
+      <description>핵심 인프라 개념 분류: 클라우드 / 고가용성 아키텍처 (Fault Domain) 블래스트 래디어스(Blast Radius)는 군사학의 '폭발 반경'에서 유래한 인프라 공학 개념으로, 특정 서버 랙, 가용 영역(AZ), 데이터센터 건물 또는 소프트웨어 모듈에 치명적인 장애나 물리적 파괴가 발생했을 때 영향이 미칠 수 있는 '최대 장애 파급 범위(Failur</description>
+    </item>
+    <item>
+      <title>[2026.10.12] [10-Min English Podcast] Physical Warfare on Cloud Hubs, Firmus IPO Pullback, and Virtual Gas Pipelines</title>
+      <link>https://ywmoon.github.io/article/2026-10-12-10min-tech-podcast/</link>
+      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-10-12-10min-tech-podcast/</guid>
+      <pubDate>Mon, 12 Oct 2026 00:00:00 -0000</pubDate>
+      <category>Podcast</category>
+      <description>🎧 10-MIN TECH ENGLISH PODCAST [2026.10.12] [10-Min English Podcast] Physical Warfare on Cloud Hubs, Firmus IPO Pullback, and Virtual Gas Pipelines 오늘의 10분 심층 팟캐스트는 러시아 얀덱스 데이터센터 연쇄 드론 피격에 따른 물리적 인프라 안</description>
+    </item>
     <item>
       <title>[2026.10.08] 오늘의 글로벌 클라우드 &amp; 데이터센터 인프라 핵심 동향 브리핑</title>
       <link>https://ywmoon.github.io/article/2026-10-08-daily-infraops-briefing/</link>
@@ -1166,46 +1206,6 @@
       <pubDate>Fri, 28 Aug 2026 00:00:00 -0000</pubDate>
       <category>Podcast</category>
       <description>🎧 10-MIN TECH ENGLISH PODCAST [2026.08.28] [10-Min English Podcast] Global AI CapEx Surges Past $200B: AWS GPU Procurement, SMR Deployments, and Grid BYOP Mandates 2026년 8월 28일자 DC 인프라옵스 데일리 심층 브리핑입니다</description>
-    </item>
-    <item>
-      <title>[테크 딥다이브] AWS 200만 GPU 배치와 초고밀도 인프라: 에이전틱 AI 시대의 전력·냉각·네트워크 엔지니어링 분석</title>
-      <link>https://ywmoon.github.io/article/2026-08-28-august-megafarm-deepdive/</link>
-      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-08-28-august-megafarm-deepdive/</guid>
-      <pubDate>Fri, 28 Aug 2026 00:00:00 -0000</pubDate>
-      <category>Tech Deep Dive</category>
-      <description>아마존웹서비스(AWS)가 엔비디아와 차세대 GPU 200만 개 공급 계약을 체결하며 글로벌 AI 인프라 확충에 나섰습니다. 이번 투자는 단순한 가속기 수량의 확장이 아니라, 자율형 에이전트(Agentic AI)와 물리 기반 AI(Physical AI) 처리를 위해 데이터센터의 전력 밀도, 액체 냉각 메커니즘, 엑사스케일 인터커넥트 아키텍처를 전면 재설계해야</description>
-    </item>
-    <item>
-      <title>[2026.08.28] 오늘의 글로벌 클라우드 &amp; 데이터센터 인프라 핵심 동향 브리핑</title>
-      <link>https://ywmoon.github.io/article/2026-08-28-daily-infraops-briefing/</link>
-      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-08-28-daily-infraops-briefing/</guid>
-      <pubDate>Fri, 28 Aug 2026 00:00:00 -0000</pubDate>
-      <category>Daily Briefing</category>
-      <description>Daily InfraOps Digest 글로벌 클라우드 &amp; 데이터센터 인프라 핵심 동향 브리핑 발행일: 2026년 8월 28일 | IT 인프라·클라우드 아키텍처·데이터센터 전력 및 거버넌스 분석 📌 오늘의 3대 핵심 관전 포인트 (Key Highlights) 아마존의 엔비디아 GPU 200만 개 도입 및 초대형 CapEx 가속: AWS가 차세대 AI 모델 </description>
-    </item>
-    <item>
-      <title>DC InfraOps Trends - 2026년 08월 28일</title>
-      <link>https://ywmoon.github.io/article/2026-08-28-dc-infraops-trends-report/</link>
-      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-08-28-dc-infraops-trends-report/</guid>
-      <pubDate>Fri, 28 Aug 2026 00:00:00 -0000</pubDate>
-      <category>Newsletter</category>
-      <description>Datacenter &amp; Cloud Industry InfraOps Daily (2-Column) DAILY DIGEST Datacenter &amp; Cloud Industry InfraOps Daily 2026년 08월 28일 (금) 💡 AI Executive Summary: Key News Insights 글로벌 빅테크의 AI 인프라 자본지출(CapEx)이 초</description>
-    </item>
-    <item>
-      <title>AI 전력망 쇼크를 막아라: 정부의 인공지능 데이터센터(AIDC) 그리드코드 수립과 전력계통 접속 전략</title>
-      <link>https://ywmoon.github.io/article/2026-08-27-aidc-grid-code-power-strategy/</link>
-      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-08-27-aidc-grid-code-power-strategy/</guid>
-      <pubDate>Thu, 27 Aug 2026 00:00:00 -0000</pubDate>
-      <category>Tech Deep Dive</category>
-      <description>초거대 LLM 학습·추론 과정에서 발생하는 0.001초(ms) 단위 MW급 전력 급변(Bursty Load)과 GW급 하이퍼스케일 전력 수요에 대응하기 위해, 기후에너지환경부가 2026년 연내 'AIDC 전용 그리드코드(Grid-Code)' 수립에 착수했습니다. 고립계통 특수성을 고려한 고장감내(FRT), 램프레이트 제어, UPS/BESS의 초고속 주파수 응답(FFR) 자원화, 국내 언론 보도 종합 분석 및 미국 FERC/NERC·IEEE의 최신 글로벌 규제 동향을 전면 심층 분석합니다.</description>
-    </item>
-    <item>
-      <title>DC InfraOps Trends - 2026년 08월 27일</title>
-      <link>https://ywmoon.github.io/article/2026-08-27-dc-infraops-trends-report/</link>
-      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-08-27-dc-infraops-trends-report/</guid>
-      <pubDate>Thu, 27 Aug 2026 00:00:00 -0000</pubDate>
-      <category>Newsletter</category>
-      <description>Datacenter &amp; Cloud Industry InfraOps Daily (2-Column) DAILY DIGEST Datacenter &amp; Cloud Industry InfraOps Daily 2026년 08월 27일 (목) 💡 AI Executive Summary: Key News Insights 글로벌 빅테크 및 전문 클라우드 기업들이 초대형 컴퓨팅</description>
     </item>
   </channel>
 </rss>
