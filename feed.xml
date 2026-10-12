@@ -5,8 +5,48 @@
     <link>https://ywmoon.github.io</link>
     <description>글로벌 AI 데이터센터 전력망, 냉각, 클라우드 인프라 엔지니어링 데일리 트렌드</description>
     <language>ko</language>
-    <lastBuildDate>Mon, 12 Oct 2026 06:02:42 -0000</lastBuildDate>
+    <lastBuildDate>Tue, 13 Oct 2026 05:52:28 -0000</lastBuildDate>
     <atom:link href="https://ywmoon.github.io/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>[2026.10.13] 오늘의 글로벌 클라우드 &amp; 데이터센터 인프라 핵심 동향 브리핑</title>
+      <link>https://ywmoon.github.io/article/2026-10-13-daily-infraops-briefing/</link>
+      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-10-13-daily-infraops-briefing/</guid>
+      <pubDate>Tue, 13 Oct 2026 00:00:00 -0000</pubDate>
+      <category>Daily Briefing</category>
+      <description>DAILY INFRAOPS DIGEST 글로벌 클라우드 &amp; 데이터센터 인프라 핵심 동향 리포트 발행일: 2026년 10월 13일 | IT 인프라 아키텍트 및 엔지니어링 의사결정권자를 위한 심층 분석 📌 오늘의 3대 핵심 관전 포인트 (Key Highlights) 1. 전력망 기저부하 확보와 데이터센터 거버넌스 투명성 전환 구글이 컨스텔레이션 에너지와 손잡고</description>
+    </item>
+    <item>
+      <title>[2026.10.13] [10-Min English Podcast] Hyperscale Custom Silicon Accelerators, Landmark PJM Grid Rulings, and Direct-to-Chip Thermal Realities</title>
+      <link>https://ywmoon.github.io/article/2026-10-13-10min-tech-podcast/</link>
+      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-10-13-10min-tech-podcast/</guid>
+      <pubDate>Tue, 13 Oct 2026 00:00:00 -0000</pubDate>
+      <category>Podcast</category>
+      <description>🎧 10-MIN TECH ENGLISH PODCAST [2026.10.13] [10-Min English Podcast] Hyperscale Custom Silicon Accelerators, Landmark PJM Grid Rulings, and Direct-to-Chip Thermal Realities 2026년 10월 13일 DC InfraOps Da</description>
+    </item>
+    <item>
+      <title>[테크 딥다이브] 아마존의 70억 달러 데카르트 인수와 이종 실리콘 추상화: 엔비디아 독점 탈피와 하이퍼스케일러 자체 칩 경제학</title>
+      <link>https://ywmoon.github.io/article/2026-10-13-august-megafarm-deepdive/</link>
+      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-10-13-august-megafarm-deepdive/</guid>
+      <pubDate>Tue, 13 Oct 2026 00:00:00 -0000</pubDate>
+      <category>Tech Deep Dive</category>
+      <description>핵심 요약: 아마존이 70억 달러(약 9조 4,000억 원) 규모로 AI 스타트업 데카르트(Decart) 인수를 추진하고 있습니다. 본 분석은 엔비디아의 CUDA 생태계가 구축한 소프트웨어 장벽을 해체하고, AWS의 자체 가속기인 트레이니엄(Trainium)을 비롯한 이종(Heterogeneous) AI 반도체로 워크로드를 유연하게 전이시키는 소프트웨어 추</description>
+    </item>
+    <item>
+      <title>[인프라 용어사전] 커스텀 AI 가속기 (Custom AI Accelerator) - 빅테크의 엔비디아 탈피와 기가와트급 AI 데이터센터의 핵심 심장</title>
+      <link>https://ywmoon.github.io/article/2026-10-13-infra-glossary/</link>
+      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-10-13-infra-glossary/</guid>
+      <pubDate>Tue, 13 Oct 2026 00:00:00 -0000</pubDate>
+      <category>Terminology</category>
+      <description>📌 1. 30초 핵심 요약 &amp; 개념 정의 💡 직관적 비유 모든 작업을 두루 해내지만 무겁고 전력을 많이 소모하는 '만능 스위스 아미 나이프(범용 GPU)' 대신, 거대 언어 모델(LLM)의 핵심인 행렬 곱셈과 신경망 연산만을 가장 빠른 속도로 처리하도록 불필요한 기능을 전부 깎아내고 맞춤 제작한 '초정밀 산업용 커스텀 머시닝 툴'에 해당합니다. 커스텀 AI</description>
+    </item>
+    <item>
+      <title>DC InfraOps Trends - 2026년 10월 13일</title>
+      <link>https://ywmoon.github.io/article/2026-10-13-dc-infraops-trends-report/</link>
+      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-10-13-dc-infraops-trends-report/</guid>
+      <pubDate>Tue, 13 Oct 2026 00:00:00 -0000</pubDate>
+      <category>Newsletter</category>
+      <description>Datacenter &amp; Cloud Industry InfraOps Daily (2-Column) 1. 빅테크 자체 AI 가속기 생태계 구축과 대규모 M&amp;A 및 컴퓨팅 조달 다변화 아마존이 가상환경 및 월드모델 AI 개발사 데카르트(Decart)를 70억 달러(약 9조 4,000억 원)에 인수하기 위한 최종 협상에 착수함 . 앞서 앤트로픽이 60억... ͏ </description>
+    </item>
     <item>
       <title>DC InfraOps Trends - 2026년 10월 12일</title>
       <link>https://ywmoon.github.io/article/2026-10-12-dc-infraops-trends-report/</link>
@@ -1166,46 +1206,6 @@
       <pubDate>Sat, 29 Aug 2026 00:00:00 -0000</pubDate>
       <category>Tech Deep Dive</category>
       <description>엔비디아가 글로벌 오픈소스 AI의 중심축인 '허깅페이스(Hugging Face)' 인수를 전격 추진하며 하드웨어(GPU)에서 소프트웨어 플랫폼(Model Hub)으로 이어지는 완벽한 수직 계열화에 나섰습니다. CUDA 락인을 넘어선 NIM 마이크로서비스 통합, 오픈소스 모델 배포 파이프라인 독점, 그리고 빅테크 클라우드(CSP)에 미칠 지각변동을 심층 분석합니다.</description>
-    </item>
-    <item>
-      <title>[테크 딥다이브] AI 해킹에 맞서는 AI 방패: 정부 주도 'K-미토스(K-Mythos)'와 자율 사이버보안 AI 아키텍처 (네이버 vs SKT)</title>
-      <link>https://ywmoon.github.io/article/2026-08-29-k-mythos-sovereign-cybersecurity-ai/</link>
-      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-08-29-k-mythos-sovereign-cybersecurity-ai/</guid>
-      <pubDate>Sat, 29 Aug 2026 00:00:00 -0000</pubDate>
-      <category>Tech Deep Dive</category>
-      <description>생성형 AI와 자율 에이전트를 악용한 정밀 사이버 공격이 폭증함에 따라, 정부(과기정통부·KISA)가 주도하는 한국형 보안 특화 파운데이션 모델 'K-미토스(K-Mythos)' 구축 사업이 본격화되었습니다. 네이버클라우드-LG CNS 연합과 SKT-업스테이지 연합의 기술 아키텍처, 오펜시브/디펜시브 자율 에이전트 오케스트레이션, 망분리 소버린 보안 인프라를 심층 분석합니다.</description>
-    </item>
-    <item>
-      <title>[테크 딥다이브] HBM의 한계를 넘어서: 초거대 추론 시대를 위한 'HBF(High Bandwidth Flash)'와 CXL 3.1 계층형 메모리 아키텍처</title>
-      <link>https://ywmoon.github.io/article/2026-08-29-hbf-high-bandwidth-flash-memory-tiering/</link>
-      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-08-29-hbf-high-bandwidth-flash-memory-tiering/</guid>
-      <pubDate>Sat, 29 Aug 2026 00:00:00 -0000</pubDate>
-      <category>Tech Deep Dive</category>
-      <description>초장문(Long-context) 및 자율 에이전트 시대가 열리며 KV 캐시 급증으로 인한 '메모리 월(Memory Wall)'이 심화되고 있습니다. DRAM 기반 HBM의 극심한 가격/용량 한계를 극복하기 위해 부상한 고대역폭 낸드 플래시 'HBF(High Bandwidth Flash)'와 CXL 3.1 기반 계층형 메모리(Tiered Memory) 아키텍처를 엔지니어링 및 TCO 관점에서 심층 분석합니다.</description>
-    </item>
-    <item>
-      <title>[테크 딥다이브] 바다 위 AI 팩토리: 해상 부유식 데이터센터(FDC)와 K-조선의 독립 전원·해수 직랭 아키텍처</title>
-      <link>https://ywmoon.github.io/article/2026-08-29-floating-datacenter-fdc-marine-power/</link>
-      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-08-29-floating-datacenter-fdc-marine-power/</guid>
-      <pubDate>Sat, 29 Aug 2026 00:00:00 -0000</pubDate>
-      <category>Tech Deep Dive</category>
-      <description>육상 전력망 포화와 부지 고갈, 냉각수 규제를 극복하기 위해 바다 위에 초거대 AI 데이터센터를 띄우는 '해상 부유식 데이터센터(Floating Data Center, FDC)'가 글로벌 인프라의 새로운 대안으로 부상하고 있습니다. HD현대와 한화오션 등 K-조선이 주도하는 해수 직접 열교환 수랭 공학, 선박용 이중연료 발전기 및 해상 SMR 연계 독립 전원 패키지, 해양 방진·내진 엔지니어링을 심층 분석합니다.</description>
-    </item>
-    <item>
-      <title>[인프라 용어사전] RoCE (RDMA over Converged Ethernet) - 대규모 AI GPU 클러스터의 초저지연 백본 네트워크</title>
-      <link>https://ywmoon.github.io/article/2026-08-28-infra-glossary/</link>
-      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-08-28-infra-glossary/</guid>
-      <pubDate>Fri, 28 Aug 2026 00:00:00 -0000</pubDate>
-      <category>Terminology</category>
-      <description>📌 1. 30초 핵심 요약 &amp; 개념 정의 RoCE(RDMA over Converged Ethernet, 로키)는 표준 이더넷(Ethernet) 네트워크 환경에서 운영체제(OS) 커널을 거치지 않고 서버 간 메모리를 직접 읽고 쓸 수 있게 해주는 초저지연·고대역폭 전송 기술입니다. 전통적인 TCP/IP 통신에서는 데이터 송수신 시 CPU가 인터럽트를 처리하고</description>
-    </item>
-    <item>
-      <title>[2026.08.28] [10-Min English Podcast] Global AI CapEx Surges Past $200B: AWS GPU Procurement, SMR Deployments, and Grid BYOP Mandates</title>
-      <link>https://ywmoon.github.io/article/2026-08-28-10min-tech-podcast/</link>
-      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-08-28-10min-tech-podcast/</guid>
-      <pubDate>Fri, 28 Aug 2026 00:00:00 -0000</pubDate>
-      <category>Podcast</category>
-      <description>🎧 10-MIN TECH ENGLISH PODCAST [2026.08.28] [10-Min English Podcast] Global AI CapEx Surges Past $200B: AWS GPU Procurement, SMR Deployments, and Grid BYOP Mandates 2026년 8월 28일자 DC 인프라옵스 데일리 심층 브리핑입니다</description>
     </item>
   </channel>
 </rss>
