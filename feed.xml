@@ -5,8 +5,48 @@
     <link>https://ywmoon.github.io</link>
     <description>글로벌 AI 데이터센터 전력망, 냉각, 클라우드 인프라 엔지니어링 데일리 트렌드</description>
     <language>ko</language>
-    <lastBuildDate>Wed, 14 Oct 2026 06:16:40 -0000</lastBuildDate>
+    <lastBuildDate>Thu, 15 Oct 2026 07:44:35 -0000</lastBuildDate>
     <atom:link href="https://ywmoon.github.io/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>[2026.10.15] [10-Min English Podcast] Kinetic Threats to Mega Infrastructure, Immersion Cooling Alliances, Grid Cost-Sharing Friction, and Hyper-Scale CapEx Discipline</title>
+      <link>https://ywmoon.github.io/article/2026-10-15-10min-tech-podcast/</link>
+      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-10-15-10min-tech-podcast/</guid>
+      <pubDate>Thu, 15 Oct 2026 00:00:00 -0000</pubDate>
+      <category>Podcast</category>
+      <description>🎧 10-MIN TECH ENGLISH PODCAST [2026.10.15] [10-Min English Podcast] Kinetic Threats to Mega Infrastructure, Immersion Cooling Alliances, Grid Cost-Sharing Friction, and Hyper-Scale CapEx Discipline 오늘</description>
+    </item>
+    <item>
+      <title>[2026.10.15] 오늘의 글로벌 클라우드 &amp; 데이터센터 인프라 핵심 동향 브리핑</title>
+      <link>https://ywmoon.github.io/article/2026-10-15-daily-infraops-briefing/</link>
+      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-10-15-daily-infraops-briefing/</guid>
+      <pubDate>Thu, 15 Oct 2026 00:00:00 -0000</pubDate>
+      <category>Daily Briefing</category>
+      <description>DAILY INFRAOPS DIGEST 글로벌 AI 인프라 자본 지출의 다변화와 그리드·물리 계층의 구조적 혁신 발행일: 2026년 10월 15일 | 대상: 인프라 아키텍트, 시스템 엔지니어, 기술 의사결정권자 📌 오늘의 3대 핵심 관전 포인트 (Key Highlights) 1,300억 달러 리스 부채와 조세·입지 규제의 본격화: 마이크로소프트의 대규모 장</description>
+    </item>
+    <item>
+      <title>[테크 딥다이브] 랙당 100kW 고밀도 AI 시대를 향한 분기점: 공랭 한계 돌파를 위한 액침냉각(Immersion Cooling) 표준화와 설비·EPC 통합 아키텍처 분석</title>
+      <link>https://ywmoon.github.io/article/2026-10-15-august-megafarm-deepdive/</link>
+      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-10-15-august-megafarm-deepdive/</guid>
+      <pubDate>Thu, 15 Oct 2026 00:00:00 -0000</pubDate>
+      <category>Tech Deep Dive</category>
+      <description>TECH DEEP DIVE AI 인프라 · 차세대 냉각 아키텍처 초거대 생성형 AI 모델의 연산 밀도가 급상승하면서 데이터센터 랙당 열부하가 100kW를 돌파하고 있습니다. 본 칼럼에서는 전통적 공랭 방식의 열역학적 임계점과 D2C(Direct-to-Chip)의 구조적 한계를 짚고, 최근 산업계에서 본격화된 액침냉각(Immersion Cooling) 기술 </description>
+    </item>
+    <item>
+      <title>DC InfraOps Trends - 2026년 10월 15일</title>
+      <link>https://ywmoon.github.io/article/2026-10-15-dc-infraops-trends-report/</link>
+      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-10-15-dc-infraops-trends-report/</guid>
+      <pubDate>Thu, 15 Oct 2026 00:00:00 -0000</pubDate>
+      <category>Newsletter</category>
+      <description>Datacenter &amp; Cloud Industry InfraOps Daily (2-Column) 1. 러시아 스베르방크 메가 데이터센터 피격과 국가 핵심 인프라 물리 안보 위기 우크라이나가 얀덱스에 이어 러시아 최대 국영은행 스베르방크의 사라토프주 발라코보 메가 데이터센터를 드론으로 정밀 타격함 . 차세대 국가 AI 슈퍼컴퓨터 배치가 예정되었던 ... ͏ </description>
+    </item>
+    <item>
+      <title>[인프라 용어사전] 유전체 냉각유 (Dielectric Coolant) - 메가와트급 AI 하드웨어를 위한 비전도성 열전달 매체의 공학적 규격과 설계 기준</title>
+      <link>https://ywmoon.github.io/article/2026-10-15-infra-glossary/</link>
+      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-10-15-infra-glossary/</guid>
+      <pubDate>Thu, 15 Oct 2026 00:00:00 -0000</pubDate>
+      <category>Terminology</category>
+      <description>📌 1. 30초 핵심 요약 &amp; 개념 정의 \&quot;전기가 통하지 않는 특수 절연 유체로 고발열 연산 장치를 직접 감싸, 공기보다 1,000배 높은 체적 열용량으로 열을 흡수하는 차세대 열전달 유체\&quot; 공식 정의: 유전체 냉각유(Dielectric Coolant 또는 Dielectric Fluid)는 절연 파괴 전압(Dielectric Breakdown Voltage</description>
+    </item>
     <item>
       <title>[2026.10.14] 오늘의 글로벌 클라우드 &amp; 데이터센터 인프라 핵심 동향 브리핑</title>
       <link>https://ywmoon.github.io/article/2026-10-14-daily-infraops-briefing/</link>
@@ -1166,46 +1206,6 @@
       <pubDate>Tue, 01 Sep 2026 00:00:00 -0000</pubDate>
       <category>Newsletter</category>
       <description>Datacenter &amp; Cloud Industry InfraOps Daily (2-Column) 글로벌 AI 데이터센터 확충이 전력망 과부하와 막대한 수자원 소비 및 소음 피해를 야기하며 지역사회 반발을 촉발하는 가운데, 데이터센터 수용 여부가 미국 정치권의 핵심 쟁점으로 급부상함. 도널드 트럼프 전 미국 대통령은 데이터센터 건립을 반대하는 지역... ͏ </description>
-    </item>
-    <item>
-      <title>[인프라 용어사전] DPU (Data Processing Unit) - 호스트 연산 자원과 인프라 오버헤드를 분리하는 차세대 프로세서</title>
-      <link>https://ywmoon.github.io/article/2026-09-01-infra-glossary/</link>
-      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-09-01-infra-glossary/</guid>
-      <pubDate>Tue, 01 Sep 2026 00:00:00 -0000</pubDate>
-      <category>Terminology</category>
-      <description>Infrastructure Architecture DPU (Data Processing Unit, 데이터 처리 장치) 서버 호스트 CPU/GPU가 연산 본연에만 집중할 수 있도록 네트워크 가상화, 보안 암호화, 스토리지 입출력 등 인프라 전반의 제어 플레인을 전담 처리하는 독립형 가속 SoC 아키텍처 📌 1. 30초 핵심 요약 &amp; 개념 정의 DPU(Data</description>
-    </item>
-    <item>
-      <title>[2026.09.01] 오늘의 글로벌 클라우드 &amp; 데이터센터 인프라 핵심 동향 브리핑</title>
-      <link>https://ywmoon.github.io/article/2026-09-01-daily-infraops-briefing/</link>
-      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-09-01-daily-infraops-briefing/</guid>
-      <pubDate>Tue, 01 Sep 2026 00:00:00 -0000</pubDate>
-      <category>Daily Briefing</category>
-      <description>📌 오늘의 3대 핵심 관전 포인트 (Key Highlights) AWS·MS 애저, 멀티클라우드 전용 사설망 인터커넥트 프리뷰 공개: 양대 하이퍼스케일러 간 물리적 직접 연동을 지원하여 공용 인터넷이나 서드파티 코로케이션 허브(Equinix 등)를 거치지 않고도 초저지연·고보안 크로스 클라우드 데이터 파이프라인 구축이 가능해졌습니다. 엔비디아의 '풀스택 시</description>
-    </item>
-    <item>
-      <title>[2026.09.01] [10-Min English Podcast] Global AI Data Center Gridlocks, SLB's $4.1B Cooling Deal, and Multicloud Interconnect Architecture</title>
-      <link>https://ywmoon.github.io/article/2026-09-01-10min-tech-podcast/</link>
-      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-09-01-10min-tech-podcast/</guid>
-      <pubDate>Tue, 01 Sep 2026 00:00:00 -0000</pubDate>
-      <category>Podcast</category>
-      <description>🎧 10-MIN TECH ENGLISH PODCAST [2026.09.01] [10-Min English Podcast] Global AI Data Center Gridlocks, SLB's $4.1B Cooling Deal, and Multicloud Interconnect Architecture 오늘의 10분 심층 팟캐스트는 글로벌 AI 데이터센터 확충</description>
-    </item>
-    <item>
-      <title>DC InfraOps Trends - 2026년 08월 31일</title>
-      <link>https://ywmoon.github.io/article/2026-08-31-dc-infraops-trends-report/</link>
-      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-08-31-dc-infraops-trends-report/</guid>
-      <pubDate>Mon, 31 Aug 2026 00:00:00 -0000</pubDate>
-      <category>Newsletter</category>
-      <description>Datacenter &amp; Cloud Industry InfraOps Daily (2-Column) 엔비디아가 AI 특화 클라우드 기업들에 제공하던 수익 공유 및 대출 보증 금융 프로그램을 반독점 조사와 경영 간섭 논란으로 전격 보류·재조정하며 인프라 생태계 파트너십 재편에 나섬 . 이에 대응해 인프라 스타트업들은 사모 부채 시장을 통한 독자 자금 ... ͏ </description>
-    </item>
-    <item>
-      <title>[인프라 용어사전] AI 네오클라우드 (AI Neocloud) - GPU 집약적 초거대 AI 연산을 위한 특화 인프라 아키텍처</title>
-      <link>https://ywmoon.github.io/article/2026-08-31-infra-glossary/</link>
-      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-08-31-infra-glossary/</guid>
-      <pubDate>Mon, 31 Aug 2026 00:00:00 -0000</pubDate>
-      <category>Terminology</category>
-      <description>📌 1. 30초 핵심 요약 &amp; 개념 정의 💡 한 줄 정의: AI 네오클라우드(AI Neocloud)는 일반적인 웹 서버나 데이터베이스 구동을 위한 범용 가상화 환경을 배제하고, 수천~수만 개의 GPU를 초저지연 고속 패브릭으로 묶어 대규모 AI 모델의 분산 학습과 추론에만 100% 최적화한 차세대 특화 클라우드 서비스 인프라입니다. 과거의 전통적 퍼블릭 클</description>
     </item>
   </channel>
 </rss>
