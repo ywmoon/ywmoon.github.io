@@ -5,8 +5,48 @@
     <link>https://ywmoon.github.io</link>
     <description>글로벌 AI 데이터센터 전력망, 냉각, 클라우드 인프라 엔지니어링 데일리 트렌드</description>
     <language>ko</language>
-    <lastBuildDate>Sun, 18 Oct 2026 10:54:25 -0000</lastBuildDate>
+    <lastBuildDate>Mon, 19 Oct 2026 06:01:14 -0000</lastBuildDate>
     <atom:link href="https://ywmoon.github.io/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>[2026.10.19] [10-Min English Podcast] Grid Saturation, Kinetic Vulnerabilities, and Hyperscale Infrastructure Realignment</title>
+      <link>https://ywmoon.github.io/article/2026-10-19-10min-tech-podcast/</link>
+      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-10-19-10min-tech-podcast/</guid>
+      <pubDate>Mon, 19 Oct 2026 00:00:00 -0000</pubDate>
+      <category>Podcast</category>
+      <description>🎧 10-MIN TECH ENGLISH PODCAST [2026.10.19] [10-Min English Podcast] Grid Saturation, Kinetic Vulnerabilities, and Hyperscale Infrastructure Realignment 오늘의 10분 심층 팟캐스트는 영국 내셔널그리드 연계 지체로 인한 마이크로소프트의 에식</description>
+    </item>
+    <item>
+      <title>DC InfraOps Trends - 2026년 10월 19일</title>
+      <link>https://ywmoon.github.io/article/2026-10-19-dc-infraops-trends-report/</link>
+      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-10-19-dc-infraops-trends-report/</guid>
+      <pubDate>Mon, 19 Oct 2026 00:00:00 -0000</pubDate>
+      <category>Newsletter</category>
+      <description>Datacenter &amp; Cloud Industry InfraOps Daily (2-Column) 1. 전력망 연계 지연에 따른 빅테크 계약 철회와 북미·유럽 AIDC 개발 차질의 현실화 영국 전력망(National Grid)의 송전 용량 포화와 계통 연계가 2030년대까지 지체될 것이라는 우려가 커지자 , 마이크로소프트(MS)가 영국 에식스주 라... ͏ </description>
+    </item>
+    <item>
+      <title>[인프라 용어사전] 계통 연계 대기열 (Interconnection Queue) - 기가와트급 AI 데이터센터의 착공을 가로막는 전력망 진입 장벽</title>
+      <link>https://ywmoon.github.io/article/2026-10-19-glossary-interconnection-queue/</link>
+      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-10-19-glossary-interconnection-queue/</guid>
+      <pubDate>Mon, 19 Oct 2026 00:00:00 -0000</pubDate>
+      <category>Terminology</category>
+      <description>📌 1. 30초 핵심 요약 &amp; 개념 정의직관적 비유: 수백 대의 초대형 덤프트럭(수백 MW 규모의 하이퍼스케일 AI 데이터센터)이 고속도로에 진입하려고 1차선 톨게이트 앞에 끝없이 줄을 서 있는 형국입니다. 톨게이트 관리국(송전망 운영사)은 트럭 1대가 지나갈 때마다 아스팔트가 파손되지 않는지, 교량 하중(송전망 열용량 및 전압 안정도)을 견딜 수 있는지 </description>
+    </item>
+    <item>
+      <title>[2026.10.19] 오늘의 글로벌 클라우드 &amp; 데이터센터 인프라 핵심 동향 브리핑</title>
+      <link>https://ywmoon.github.io/article/2026-10-19-daily-infraops-briefing/</link>
+      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-10-19-daily-infraops-briefing/</guid>
+      <pubDate>Mon, 19 Oct 2026 00:00:00 -0000</pubDate>
+      <category>Daily Briefing</category>
+      <description>Daily InfraOps Digest글로벌 클라우드 &amp; 데이터센터 인프라 핵심 동향 리포트발행일자: 2026년 10월 19일 | 작성: IT 인프라 전문 테크 에디터📌 오늘의 핵심 관전 포인트 (Key Highlights)전력망 병목에 따른 하이퍼스케일러 계약 철회: 영국 내 송전망 접속 지연(최대 2030년대)으로 마이크로소프트의 엔스케일 에식스 캠퍼스</description>
+    </item>
+    <item>
+      <title>[테크 딥다이브] 전력 계통 연계 병목과 AIDC 개발 리스크: MS-엔스케일 계약 파기가 드러낸 인프라 PF 및 공급망 구조의 균열</title>
+      <link>https://ywmoon.github.io/article/2026-10-19-deepdive-hyperscale-grid-bottleneck-nscale-datacenter/</link>
+      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-10-19-deepdive-hyperscale-grid-bottleneck-nscale-datacenter/</guid>
+      <pubDate>Mon, 19 Oct 2026 00:00:00 -0000</pubDate>
+      <category>Tech Deep Dive</category>
+      <description>글로벌 인공지능(AI) 인프라 확장이 전례 없는 구조적 장벽에 직면했습니다. 연산 가속기 칩의 공급 부족을 넘어, 송배전망의 '계통 연계 대기열(Interconnection Queue)' 적체가 기가와트(GW)급 메가 프로젝트의 물리적 존립을 위협하고 있습니다. 마이크로소프트의 영국 대규모 데이터센터 임대 계약 철회와 북미 47개 프로젝트의 제동은 '선(先</description>
+    </item>
     <item>
       <title>DC InfraOps Trends - 2026년 10월 16일</title>
       <link>https://ywmoon.github.io/article/2026-10-16-dc-infraops-trends-report/</link>
@@ -1166,46 +1206,6 @@
       <pubDate>Mon, 07 Sep 2026 00:00:00 -0000</pubDate>
       <category>Podcast</category>
       <description>🎧 10-MIN TECH ENGLISH PODCAST [2026.09.07] [10-Min English Podcast] Mega Compute Procurement, Modular Data Center Alliances, Next-Gen Liquid Cooling, and Grid Resilience Under Civic Friction 오늘의 10분 심</description>
-    </item>
-    <item>
-      <title>[2026.09.07] 오늘의 글로벌 클라우드 &amp; 데이터센터 인프라 핵심 동향 브리핑</title>
-      <link>https://ywmoon.github.io/article/2026-09-07-daily-infraops-briefing/</link>
-      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-09-07-daily-infraops-briefing/</guid>
-      <pubDate>Mon, 07 Sep 2026 00:00:00 -0000</pubDate>
-      <category>Daily Briefing</category>
-      <description>📌 오늘의 3대 핵심 관전 포인트 (Key Highlights) 빅테크 컴퓨팅 자원의 우선순위 재편: 엔비디아가 AWS에 200만 개 규모의 GPU 공급을 확정하며 물리적 AI(Physical AI) 생태계 구축에 속도를 내는 한편, 마이크로소프트와 아마존은 저수익 클라우드 게임 인프라의 무제한 정책을 폐지하고 한정된 랙 전력과 상면을 생성형·에이전틱 AI</description>
-    </item>
-    <item>
-      <title>[테크 딥다이브] 200만 GPU 시대와 피지컬 AI: 120kW 초고밀도 랙과 액체냉각이 촉발한 데이터센터의 물리적 재편</title>
-      <link>https://ywmoon.github.io/article/2026-09-07-august-megafarm-deepdive/</link>
-      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-09-07-august-megafarm-deepdive/</guid>
-      <pubDate>Mon, 07 Sep 2026 00:00:00 -0000</pubDate>
-      <category>Tech Deep Dive</category>
-      <description>Executive Summary 엔비디아가 아마존웹서비스(AWS)에 최대 200만 개에 달하는 차세대 GPU 공급을 본격화하면서, 글로벌 클라우드 인프라는 거대언어모델(LLM) 중심의 텍스트 생성을 넘어 현실 세계의 물리 법칙과 로보틱스를 연산하는 '피지컬 AI(Physical AI)' 시대로 급격히 전환되고 있습니다. 랙당 소비 전력이 기존 10~15kW</description>
-    </item>
-    <item>
-      <title>DC InfraOps Trends - 2026년 09월 02일</title>
-      <link>https://ywmoon.github.io/article/2026-09-02-dc-infraops-trends-report/</link>
-      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-09-02-dc-infraops-trends-report/</guid>
-      <pubDate>Wed, 02 Sep 2026 00:00:00 -0000</pubDate>
-      <category>Newsletter</category>
-      <description>Datacenter &amp; Cloud Industry InfraOps Daily (2-Column) 인공지능(AI) 파운데이션 모델사 앤트로픽이 엔비디아의 신용 보강을 발판 삼아 네오클라우드 기업 람다(Lambda)와 350억 달러(약 48조 원) 규모의 클라우드 컴퓨팅 계약을 체결함 . 본 계약은 엔비디아가 헛8(Hut 8)의 텍사스 350MW급 ... ͏ </description>
-    </item>
-    <item>
-      <title>[인프라 용어사전] 엣지 NPU (Edge NPU) - 초저전력 피지컬 AI를 구동하는 도메인 특화 반도체 아키텍처</title>
-      <link>https://ywmoon.github.io/article/2026-09-02-infra-glossary/</link>
-      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-09-02-infra-glossary/</guid>
-      <pubDate>Wed, 02 Sep 2026 00:00:00 -0000</pubDate>
-      <category>Terminology</category>
-      <description>📌 1. 30초 핵심 요약 &amp; 개념 정의 엣지 NPU(Edge Neural Processing Unit)는 수 와트(W) 이하의 극단적인 전력 및 방열 제약이 존재하는 엣지 단말(스마트 팩토리, 자율이동로봇, 지능형 CCTV 등)에서 심층 신경망(DNN)의 추론(Inference) 연산만을 전담 처리하도록 하드웨어 레벨에서 특화 설계된 도메인 특화 프로세서</description>
-    </item>
-    <item>
-      <title>[2026.09.02] 글로벌 클라우드 &amp; 데이터센터 인프라 핵심 동향 브리핑</title>
-      <link>https://ywmoon.github.io/article/2026-09-02-daily-infraops-briefing/</link>
-      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-09-02-daily-infraops-briefing/</guid>
-      <pubDate>Wed, 02 Sep 2026 00:00:00 -0000</pubDate>
-      <category>Daily Briefing</category>
-      <description>📌 오늘의 3대 핵심 관전 포인트 (Key Highlights) 엔비디아의 상면·컴퓨팅 중개 모델과 350억 달러 메가딜: 엔비디아가 텍사스 헛8 데이터센터 상면을 직접 리스하고 지분 투자사인 람다(Lambda)를 통해 앤트로픽에 GPU를 공급하는 다각적 오프밸런스 파이낸싱 구조를 본격화했습니다. 이달 초 엔스케일과의 450억 달러 계약에 이어 AI 스타트</description>
     </item>
   </channel>
 </rss>

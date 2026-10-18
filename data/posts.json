@@ -1,5 +1,118 @@
 [
   {
+    "id": "2026-10-19-10min-tech-podcast",
+    "title": "[2026.10.19] [10-Min English Podcast] Grid Saturation, Kinetic Vulnerabilities, and Hyperscale Infrastructure Realignment",
+    "date": "2026-10-19",
+    "time": "06:01",
+    "updated": "2026-10-19 06:01",
+    "category": "Podcast",
+    "labels": [
+      "EnglishPodcast",
+      "TechEnglish",
+      "비즈니스영어",
+      "AWS",
+      "AI인프라",
+      "데이터센터",
+      "액체냉각"
+    ],
+    "summary": "🎧 10-MIN TECH ENGLISH PODCAST [2026.10.19] [10-Min English Podcast] Grid Saturation, Kinetic Vulnerabilities, and Hyperscale Infrastructure Realignment 오늘의 10분 심층 팟캐스트는 영국 내셔널그리드 연계 지체로 인한 마이크로소프트의 에식",
+    "char_count": 14190,
+    "read_time": 13,
+    "status": "published",
+    "content_file": "data/posts/2026-10-19-10min-tech-podcast.md"
+  },
+  {
+    "id": "2026-10-19-dc-infraops-trends-report",
+    "title": "DC InfraOps Trends - 2026년 10월 19일",
+    "date": "2026-10-19",
+    "time": "06:01",
+    "updated": "2026-10-19 06:01",
+    "category": "Newsletter",
+    "labels": [
+      "AWS",
+      "데이터센터",
+      "클라우드",
+      "AI인프라",
+      "DC-Trends",
+      "Daily-Newsletter",
+      "SMR",
+      "원전",
+      "엔비디아",
+      "액체냉각",
+      "전력망",
+      "마이크로소프트",
+      "구글",
+      "오라클",
+      "신재생에너지"
+    ],
+    "summary": "Datacenter & Cloud Industry InfraOps Daily (2-Column) 1. 전력망 연계 지연에 따른 빅테크 계약 철회와 북미·유럽 AIDC 개발 차질의 현실화 영국 전력망(National Grid)의 송전 용량 포화와 계통 연계가 2030년대까지 지체될 것이라는 우려가 커지자 , 마이크로소프트(MS)가 영국 에식스주 라... ͏ ",
+    "char_count": 47851,
+    "read_time": 44,
+    "status": "published",
+    "content_file": "data/posts/2026-10-19-dc-infraops-trends-report.md"
+  },
+  {
+    "id": "2026-10-19-glossary-interconnection-queue",
+    "title": "[인프라 용어사전] 계통 연계 대기열 (Interconnection Queue) - 기가와트급 AI 데이터센터의 착공을 가로막는 전력망 진입 장벽",
+    "date": "2026-10-19",
+    "time": "06:01",
+    "updated": "2026-10-19 06:01",
+    "category": "Terminology",
+    "labels": [
+      "인프라용어사전",
+      "IT백과사전",
+      "계통연계대기열",
+      "AWS",
+      "데이터센터"
+    ],
+    "summary": "📌 1. 30초 핵심 요약 & 개념 정의직관적 비유: 수백 대의 초대형 덤프트럭(수백 MW 규모의 하이퍼스케일 AI 데이터센터)이 고속도로에 진입하려고 1차선 톨게이트 앞에 끝없이 줄을 서 있는 형국입니다. 톨게이트 관리국(송전망 운영사)은 트럭 1대가 지나갈 때마다 아스팔트가 파손되지 않는지, 교량 하중(송전망 열용량 및 전압 안정도)을 견딜 수 있는지 ",
+    "char_count": 3938,
+    "read_time": 5,
+    "status": "published",
+    "content_file": "data/posts/2026-10-19-glossary-interconnection-queue.md"
+  },
+  {
+    "id": "2026-10-19-daily-infraops-briefing",
+    "title": "[2026.10.19] 오늘의 글로벌 클라우드 & 데이터센터 인프라 핵심 동향 브리핑",
+    "date": "2026-10-19",
+    "time": "06:01",
+    "updated": "2026-10-19 06:01",
+    "category": "Daily Briefing",
+    "labels": [
+      "AWS",
+      "클라우드",
+      "데이터센터",
+      "AI인프라",
+      "인프라동향"
+    ],
+    "summary": "Daily InfraOps Digest글로벌 클라우드 & 데이터센터 인프라 핵심 동향 리포트발행일자: 2026년 10월 19일 | 작성: IT 인프라 전문 테크 에디터📌 오늘의 핵심 관전 포인트 (Key Highlights)전력망 병목에 따른 하이퍼스케일러 계약 철회: 영국 내 송전망 접속 지연(최대 2030년대)으로 마이크로소프트의 엔스케일 에식스 캠퍼스",
+    "char_count": 7620,
+    "read_time": 10,
+    "status": "published",
+    "content_file": "data/posts/2026-10-19-daily-infraops-briefing.md"
+  },
+  {
+    "id": "2026-10-19-deepdive-hyperscale-grid-bottleneck-nscale-datacenter",
+    "title": "[테크 딥다이브] 전력 계통 연계 병목과 AIDC 개발 리스크: MS-엔스케일 계약 파기가 드러낸 인프라 PF 및 공급망 구조의 균열",
+    "date": "2026-10-19",
+    "time": "06:01",
+    "updated": "2026-10-19 06:01",
+    "category": "Tech Deep Dive",
+    "labels": [
+      "테크딥다이브",
+      "AI데이터센터",
+      "전력계통연계",
+      "마이크로소프트",
+      "인프라금융",
+      "차세대인프라"
+    ],
+    "summary": "글로벌 인공지능(AI) 인프라 확장이 전례 없는 구조적 장벽에 직면했습니다. 연산 가속기 칩의 공급 부족을 넘어, 송배전망의 '계통 연계 대기열(Interconnection Queue)' 적체가 기가와트(GW)급 메가 프로젝트의 물리적 존립을 위협하고 있습니다. 마이크로소프트의 영국 대규모 데이터센터 임대 계약 철회와 북미 47개 프로젝트의 제동은 '선(先",
+    "char_count": 6975,
+    "read_time": 9,
+    "status": "published",
+    "content_file": "data/posts/2026-10-19-deepdive-hyperscale-grid-bottleneck-nscale-datacenter.md"
+  },
+  {
     "id": "2026-10-16-dc-infraops-trends-report",
     "title": "DC InfraOps Trends - 2026년 10월 16일",
     "date": "2026-10-16",
