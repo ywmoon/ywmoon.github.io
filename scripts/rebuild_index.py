@@ -74,9 +74,12 @@ def main():
         'Newsletter': '📧'
     }
 
+    # [Rev35.7 카테고리 정규화] 단일 고아 카테고리(Weekly Report 등) 및 한글 구버전 카테고리명을 5대 표준 카테고리로 일원화
     CAT_NORMALIZE = {
         '데일리 브리핑': 'Daily Briefing',
         '테크 딥다이브': 'Tech Deep Dive',
+        'Weekly Report': 'Tech Deep Dive',
+        '주간 리포트': 'Tech Deep Dive',
         '용어사전': 'Terminology',
         'IT 용어사전': 'Terminology',
         '팟캐스트': 'Podcast',
@@ -95,7 +98,7 @@ def main():
             with open(fpath, 'r', encoding='utf-8') as f:
                 content = f.read()
                 
-            meta, _ = parse_frontmatter(content)
+            meta, body = parse_frontmatter(content)
             pid = meta.get('id') or fname[:-3]
             raw_cat = meta.get('category') or 'Daily Briefing'
             cat = CAT_NORMALIZE.get(raw_cat, raw_cat)
@@ -120,6 +123,16 @@ def main():
                     updated_val = datetime.fromtimestamp(mtime).strftime('%Y-%m-%d %H:%M')
                 except Exception:
                     updated_val = None
+
+            # 본문 글자 수 및 예상 읽기 시간(분) 사전 계산 (한글 기준 분당 800자, 영문 기준 1,100자)
+            plain_text = re.sub(r'<[^>]+>', ' ', body)
+            plain_text = re.sub(r'```[\s\S]*?```', ' ', plain_text)
+            plain_text = re.sub(r'\s+', ' ', plain_text).strip()
+            char_count = len(plain_text)
+            kor_chars = len(re.findall(r'[가-힣]', plain_text))
+            kor_ratio = (kor_chars / char_count) if char_count > 0 else 0
+            avg_cpm = 800 if kor_ratio > 0.4 else 1100
+            read_time_min = max(1, (char_count + avg_cpm - 1) // avg_cpm) if char_count > 0 else 1
             
             posts.append({
                 'id': pid,
@@ -130,18 +143,16 @@ def main():
                 'category': cat,
                 'labels': meta.get('labels') if isinstance(meta.get('labels'), list) else [],
                 'summary': meta.get('summary') or '',
+                'char_count': char_count,
+                'read_time': read_time_min,
                 'status': meta.get('status') or 'published',
                 'content_file': f'data/posts/{fname}'
             })
         except Exception as e:
             print(f"   ⚠️ 파일 읽기 오류 ({fname}): {e}")
             
-    # 정렬: 1순위 날짜 최신순(내림차순) -> 2순위 카테고리 황금 순서(오름차순) -> 3순위 시간(내림차순)
-    posts.sort(key=lambda x: (
-        x.get('date', ''),
-        -CATEGORY_ORDER.get(x.get('category', ''), 99),
-        x.get('time', '')
-    ), reverse=True)
+    # 정렬: 1순위 등록 날짜 및 시간 최신순(내림차순)
+    posts.sort(key=lambda x: f"{x.get('date', '')} {x.get('time', '00:00')}", reverse=True)
     
     # 1. Write posts.json
     with open(index_file, 'w', encoding='utf-8') as f:
@@ -216,6 +227,37 @@ def main():
         spa_url = f'https://ywmoon.github.io/#article/{pid}'
         full_title = title_esc
 
+        # JSON-LD Schema for Google Rich Snippets
+        json_ld_schema = json.dumps({
+            "@context": "https://schema.org",
+            "@type": "TechArticle" if "Tech" in p.get('category', '') else "BlogPosting",
+            "headline": title,
+            "description": summary,
+            "datePublished": f"{p.get('date', today_str)}T{p.get('time', '07:30')}:00+09:00",
+            "dateModified": f"{p.get('updated', p.get('date', today_str))}:00+09:00" if p.get('updated') else f"{p.get('date', today_str)}T{p.get('time', '07:30')}:00+09:00",
+            "mainEntityOfPage": {
+                "@type": "WebPage",
+                "@id": canonical_url
+            },
+            "author": {
+                "@type": "Person",
+                "name": "James Moon (문연욱)",
+                "jobTitle": "AWS Data Center Engineering Operations Cluster Manager",
+                "url": "https://www.linkedin.com/in/ywmoon"
+            },
+            "publisher": {
+                "@type": "Person",
+                "name": "James Moon",
+                "url": "https://ywmoon.github.io",
+                "logo": {
+                    "@type": "ImageObject",
+                    "url": "https://ywmoon.github.io/assets/avatar.jpg"
+                }
+            },
+            "image": "https://ywmoon.github.io/assets/avatar.jpg",
+            "keywords": ", ".join(p.get('labels', []))
+        }, ensure_ascii=False, indent=2)
+
         stub_html = f"""<!DOCTYPE html>
 <html lang="ko">
 <head>
@@ -237,6 +279,10 @@ def main():
   <meta name="twitter:title" content="{full_title}" />
   <meta name="twitter:description" content="{summary_esc}" />
   <meta name="twitter:image" content="https://ywmoon.github.io/assets/avatar.jpg" />
+  <!-- Structured Data: Google Schema.org (Article) -->
+  <script type="application/ld+json">
+{json_ld_schema}
+  </script>
   <!-- Instant redirect for real users -->
   <meta http-equiv="refresh" content="0; url={spa_url}" />
   <script>window.location.replace('{spa_url}');</script>

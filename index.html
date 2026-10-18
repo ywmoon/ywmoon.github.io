@@ -83,7 +83,7 @@
     }
   </script>
 
-  <link rel="stylesheet" href="style.css?v=20260926_0930" />
+  <link rel="stylesheet" href="style.css?v=20261010_01" />
 </head>
 <body>
 
@@ -207,14 +207,14 @@
   <main class="dc-main-viewport" id="main-content">
     <!-- Home / Category Filter Section -->
     <section class="dc-hero-section" id="hero-section">
-      <!-- Category Filter Tabs -->
+      <!-- Category Filter Tabs (Rev35.7: All Posts는 4대 오리지널 아티클만 노출하며, 이메일 원문은 Newsletter 전용 탭으로 분리) -->
       <div class="dc-category-tabs" id="category-tabs">
-        <button class="dc-cat-tab active" data-cat="ALL" onclick="filterCategory('ALL')">All Posts <span class="dc-tab-count" id="count-all">0</span></button>
+        <button class="dc-cat-tab active" data-cat="ALL" onclick="filterCategory('ALL')" title="4대 오리지널 아티클 피드 (브리핑·딥다이브·용어사전·팟캐스트)">All Posts <span class="dc-tab-count" id="count-all">0</span></button>
         <button class="dc-cat-tab" data-cat="Daily Briefing" onclick="filterCategory('Daily Briefing')">📋 Daily Briefing <span class="dc-tab-count" id="count-briefing">0</span></button>
         <button class="dc-cat-tab" data-cat="Tech Deep Dive" onclick="filterCategory('Tech Deep Dive')">🔬 Tech Deep Dive <span class="dc-tab-count" id="count-deepdive">0</span></button>
         <button class="dc-cat-tab" data-cat="Terminology" onclick="filterCategory('Terminology')">💡 Terminology <span class="dc-tab-count" id="count-glossary">0</span></button>
         <button class="dc-cat-tab" data-cat="Podcast" onclick="filterCategory('Podcast')">🎧 Podcast <span class="dc-tab-count" id="count-podcast">0</span></button>
-        <button class="dc-cat-tab" data-cat="Newsletter" onclick="filterCategory('Newsletter')">📧 Newsletter <span class="dc-tab-count" id="count-newsletter">0</span></button>
+        <button class="dc-cat-tab" data-cat="Newsletter" onclick="filterCategory('Newsletter')" title="일일 뉴스 메일링 2-Column 전체 원문 아카이브">📧 Newsletter Archive <span class="dc-tab-count" id="count-newsletter">0</span></button>
         <button class="dc-cat-tab" data-cat="BOOKMARKS" onclick="filterCategory('BOOKMARKS')" title="내가 저장한 북마크 아티클">⭐ Bookmarks <span class="dc-tab-count" id="count-bookmarks">0</span></button>
       </div>
     </section>
@@ -442,6 +442,6 @@
   <!-- Back to Top Floating Button -->
   <button class="dc-back-to-top" id="back-to-top-btn" onclick="scrollToTop()" aria-label="맨 위로 이동">↑</button>
 
-  <script src="app.js?v=20260926_0930"></script>
+  <script src="app.js?v=20261018_01"></script>
 </body>
 </html>

@@ -189,9 +189,71 @@ function toggleBookmark(id, e) {
   localStorage.setItem('dc_bookmarks', JSON.stringify(bookmarks));
   updateCategoryTabCounts();
   updateBookmarkButtons();
+  syncOfflineCache();
   showToast(added ? '⭐ 북마크에 저장되었습니다!' : '⭐ 북마크가 해제되었습니다.');
   if (currentCategory === 'BOOKMARKS') {
     applyFilters();
+  }
+}
+
+// ─── Recent Views Tracking & Offline Cache Sync (Feature 4-②) ────
+const RECENT_VIEWS_KEY = 'dc_recent_views';
+const MAX_RECENT_VIEWS = 10;
+
+function getRecentViews() {
+  try {
+    return JSON.parse(localStorage.getItem(RECENT_VIEWS_KEY) || '[]');
+  } catch (e) {
+    return [];
+  }
+}
+
+function recordRecentView(postId) {
+  if (!postId) return;
+  let recent = getRecentViews().filter(id => id !== postId);
+  recent.unshift(postId);
+  if (recent.length > MAX_RECENT_VIEWS) recent = recent.slice(0, MAX_RECENT_VIEWS);
+  localStorage.setItem(RECENT_VIEWS_KEY, JSON.stringify(recent));
+  syncOfflineCache();
+}
+
+function syncOfflineCache() {
+  if (!allPosts || allPosts.length === 0) return;
+  const bookmarks = getBookmarks();
+  const recentViews = getRecentViews();
+  const targetIds = new Set([...bookmarks, ...recentViews]);
+  const urlsToCache = [];
+
+  allPosts.forEach(post => {
+    if (targetIds.has(post.id) && post.content_file) {
+      urlsToCache.push(getAbsoluteUrl(post.content_file));
+    }
+  });
+  urlsToCache.push(getAbsoluteUrl('data/posts.json'));
+
+  // 1. Send message to Service Worker controller if available
+  if ('serviceWorker' in navigator && navigator.serviceWorker.controller) {
+    navigator.serviceWorker.controller.postMessage({
+      type: 'CACHE_OFFLINE_POSTS',
+      urls: urlsToCache
+    });
+  }
+
+  // 2. Direct browser CacheStorage preheating (if caches API supported)
+  if ('caches' in window) {
+    caches.open('dc-infraops-v20261010_01').then(async (cache) => {
+      for (const url of urlsToCache) {
+        try {
+          const match = await cache.match(url);
+          if (!match) {
+            const res = await fetch(url);
+            if (res && res.status === 200) {
+              await cache.put(url, res);
+            }
+          }
+        } catch (e) {}
+      }
+    }).catch(() => {});
   }
 }
 
@@ -318,8 +380,17 @@ function getAbsoluteUrl(path) {
 // ─── Load Posts (lightweight index) ──────────────────────────────
 async function loadPosts() {
   try {
-    const res = await fetch(getAbsoluteUrl('data/posts.json') + '?_t=' + Date.now());
-    if (!res.ok) throw new Error('Failed to load posts');
+    const cleanUrl = getAbsoluteUrl('data/posts.json');
+    let res;
+    try {
+      res = await fetch(cleanUrl + '?_t=' + Date.now());
+      if (!res.ok) throw new Error('Network failed');
+    } catch (netErr) {
+      // Offline fallback: try clean URL matching Service Worker cache
+      res = await fetch(cleanUrl);
+      if (!res.ok) throw netErr;
+    }
+
     allPosts = await res.json();
     // Sort strictly by Date & Time descending (Newest first)
     allPosts.sort((a, b) => {
@@ -332,6 +403,7 @@ async function loadPosts() {
     populateNavDropdowns();
     handleHashRoute();
     fetchAllViewCounts();
+    syncOfflineCache();
   } catch (err) {
     console.error(err);
     document.getElementById('posts-grid-container').innerHTML = `
@@ -381,9 +453,16 @@ function parseMd(raw) {
 async function loadArticleContent(post) {
   if (!post.content_file) return post.summary || '';
   try {
-    const fileUrl = getAbsoluteUrl(post.content_file) + '?_t=' + Date.now();
-    const res = await fetch(fileUrl);
-    if (!res.ok) throw new Error('Not found');
+    const cleanFileUrl = getAbsoluteUrl(post.content_file);
+    let res;
+    try {
+      res = await fetch(cleanFileUrl + '?_t=' + Date.now());
+      if (!res.ok) throw new Error('Network failed');
+    } catch (netErr) {
+      // Offline fallback: fetch clean URL from Service Worker cache
+      res = await fetch(cleanFileUrl);
+      if (!res.ok) throw netErr;
+    }
     const raw = await res.text();
     const { body } = parseMd(raw);
     
@@ -674,6 +753,19 @@ async function openArticleView(articleId) {
   document.getElementById('reader-badges').innerHTML = `
     <span class="dc-card-cat">${post.category || 'Daily Briefing'}</span>
     ${(post.labels || []).map(l => `<span class="dc-tag-pill">#${l}</span>`).join(' ')}`;
+
+  // Pre-calculated reading time displayed instantly (Feature 5-①)
+  const initialReadTime = post.read_time
+    ? `⏱️ 약 ${post.read_time}분 (${(post.char_count || 0).toLocaleString()}자)`
+    : '⏱️ 계산 중...';
+  document.getElementById('reader-read-time').textContent = initialReadTime;
+
+  // Track recent view for offline PWA cache (Feature 4-②)
+  recordRecentView(post.id);
+
+  if (!navigator.onLine) {
+    showToast('📴 오프라인 모드: 저장된 캐시에서 아티클을 불러옵니다.');
+  }
 
   // Show loading spinner while fetching .md content
   const bodyEl = document.getElementById('reader-body-content');
@@ -1001,7 +1093,15 @@ function renderPostNavigation(currentPost) {
   const navEl = document.getElementById('reader-post-nav');
   if (!navEl) return;
 
-  const published = allPosts.filter(p => (p.status || 'published') === 'published');
+  // [Rev35.7 아티클 내비게이션 동질성 보장]
+  // 일반 블로그 아티클(브리핑/딥다이브/용어사전/팟캐스트) 열람 시 1MB급 이메일 원본(Newsletter)으로
+  // 갑자기 넘어가지 않도록, 현재 글이 Newsletter인지 여부에 따라 동일한 그룹 내에서만 이전/다음 글을 연결합니다.
+  const isCurrentNewsletter = matchCategory(currentPost.category, 'Newsletter');
+  const published = allPosts.filter(p => {
+    if ((p.status || 'published') !== 'published') return false;
+    const isPNewsletter = matchCategory(p.category, 'Newsletter');
+    return isCurrentNewsletter ? isPNewsletter : !isPNewsletter;
+  });
   const idx = published.findIndex(p => p.id === currentPost.id);
   if (idx === -1) {
     navEl.innerHTML = '';
@@ -1095,12 +1195,22 @@ const CAT_ALIAS = {
   '팟캐스트': ['Podcast', '팟캐스트', '10분 팟캐스트', '테크 팟캐스트'],
   'Daily Briefing': ['Daily Briefing', '데일리 브리핑', '브리핑'],
   '데일리 브리핑': ['Daily Briefing', '데일리 브리핑', '브리핑'],
-  'Tech Deep Dive': ['Tech Deep Dive', '테크 딥다이브', '딥다이브'],
-  '테크 딥다이브': ['Tech Deep Dive', '테크 딥다이브', '딥다이브']
+  'Tech Deep Dive': ['Tech Deep Dive', '테크 딥다이브', '딥다이브', 'Weekly Report'],
+  '테크 딥다이브': ['Tech Deep Dive', '테크 딥다이브', '딥다이브', 'Weekly Report']
 };
 
+/**
+ * [Rev35.7 카테고리 매칭 & 메인 피드 자기잠식(Cannibalization) 방지]
+ * - 'ALL' (메인 피드 기본 탭)에서는 4대 오리지널 블로그 콘텐츠(Daily Briefing, Tech Deep Dive, Terminology, Podcast)만
+ *   깔끔하게 노출하고, 1MB 분량의 이메일 발송 원본 아카이브(Newsletter)는 '📧 Newsletter' 전용 탭 클릭 시에만 노출되도록 분리합니다.
+ * - 단, '📋 전체 아티클 (Table)' 디렉토리 뷰나 검색어/태그 필터가 활성화된 경우에는 전체 아카이브 검색을 위해 Newsletter도 함께 포함합니다.
+ */
 function matchCategory(postCat, filterCat) {
-  if (!filterCat || filterCat === 'ALL') return true;
+  if (!filterCat || filterCat === 'ALL') {
+    if (currentView === 'table' || searchQuery || currentTag) return true;
+    const newsletterAliases = CAT_ALIAS['Newsletter'] || ['Newsletter'];
+    return !newsletterAliases.includes(postCat);
+  }
   if (postCat === filterCat) return true;
   const aliases = CAT_ALIAS[filterCat];
   if (aliases && aliases.includes(postCat)) return true;
@@ -1110,8 +1220,10 @@ function matchCategory(postCat, filterCat) {
 function updateCategoryTabCounts() {
   const published = allPosts.filter(p => (p.status || 'published') === 'published');
   const bookmarks = getBookmarks();
+  const newsletterAliases = CAT_ALIAS['Newsletter'] || ['Newsletter'];
   const counts = {
-    all: published.length,
+    // 'All Posts' 카운트는 메인 피드에 기본 노출되는 4대 오리지널 아티클 수와 정확히 일치시킴
+    all: published.filter(p => !newsletterAliases.includes(p.category)).length,
     briefing: published.filter(p => matchCategory(p.category, 'Daily Briefing')).length,
     deepdive: published.filter(p => matchCategory(p.category, 'Tech Deep Dive')).length,
     glossary: published.filter(p => matchCategory(p.category, 'Terminology')).length,
@@ -1271,38 +1383,106 @@ function updateFilterStatusBar() {
   }
 }
 
-// ─── Renderers ────────────────────────────────────────────────────
+// ─── Renderers (Infinite Scroll Lazy Rendering: Feature 4-①) ──────
+const POSTS_PER_PAGE = 18;
+let renderedPostCount = 0;
+let infiniteScrollObserver = null;
+
+function renderPostCardHtml(post) {
+  const displayTitle = highlightText(post.title, searchQuery);
+  const displaySummary = highlightText(post.summary || '', searchQuery);
+  const bookmarked = isBookmarked(post.id);
+  const safeKey = getSafePostKey(post.id);
+  const views = allViewCounts[safeKey] || 0;
+  const readTimeBadge = post.read_time ? `<span class="dc-card-read-time" title="예상 읽기 시간">⏱️ ${post.read_time}분</span>` : '';
+
+  return `
+  <div class="dc-post-card" onclick="window.location.hash='#article/${post.id}'">
+    <div class="dc-card-top">
+      <span class="dc-card-cat">${post.category || 'Daily Briefing'}</span>
+      <div class="dc-card-top-right">
+        ${readTimeBadge}
+        <span class="dc-card-views" data-id="${post.id}" title="조회수">👀 ${formatViewCount(views)}</span>
+        <span class="dc-card-date">${post.date}${post.time ? ' ' + post.time : ''}</span>
+        <button class="dc-card-bookmark-btn ${bookmarked ? 'active' : ''}" data-id="${post.id}" onclick="toggleBookmark('${post.id}', event)" title="북마크 저장/해제">${bookmarked ? '★' : '☆'}</button>
+      </div>
+    </div>
+    <h3 class="dc-card-title">${displayTitle}</h3>
+    <p class="dc-card-summary">${displaySummary}</p>
+    <div class="dc-card-tags">
+      ${(post.labels || []).slice(0,4).map(l=>`<span class="dc-tag-pill">#${highlightText(l, searchQuery)}</span>`).join('')}
+    </div>
+  </div>`;
+}
+
 function renderPostCards() {
   const container = document.getElementById('posts-grid-container');
   if (!container) return;
+
+  if (infiniteScrollObserver) {
+    infiniteScrollObserver.disconnect();
+    infiniteScrollObserver = null;
+  }
+
+  renderedPostCount = 0;
+  container.innerHTML = '';
+
   const visible = filteredPosts.filter(p => (p.status || 'published') === 'published');
   if (visible.length === 0) {
     container.innerHTML = `<div style="grid-column:1/-1;padding:60px 20px;text-align:center;color:var(--text-muted);">🔍 조건에 일치하는 아티클이 없습니다.</div>`;
     return;
   }
-  container.innerHTML = visible.map(post => {
-    const displayTitle = highlightText(post.title, searchQuery);
-    const displaySummary = highlightText(post.summary || '', searchQuery);
-    const bookmarked = isBookmarked(post.id);
-    const safeKey = getSafePostKey(post.id);
-    const views = allViewCounts[safeKey] || 0;
-    return `
-    <div class="dc-post-card" onclick="window.location.hash='#article/${post.id}'">
-      <div class="dc-card-top">
-        <span class="dc-card-cat">${post.category || 'Daily Briefing'}</span>
-        <div class="dc-card-top-right">
-          <span class="dc-card-views" data-id="${post.id}" title="조회수">👀 ${formatViewCount(views)}</span>
-          <span class="dc-card-date">${post.date}${post.time ? ' ' + post.time : ''}</span>
-          <button class="dc-card-bookmark-btn ${bookmarked ? 'active' : ''}" data-id="${post.id}" onclick="toggleBookmark('${post.id}', event)" title="북마크 저장/해제">${bookmarked ? '★' : '☆'}</button>
-        </div>
-      </div>
-      <h3 class="dc-card-title">${displayTitle}</h3>
-      <p class="dc-card-summary">${displaySummary}</p>
-      <div class="dc-card-tags">
-        ${(post.labels || []).slice(0,4).map(l=>`<span class="dc-tag-pill">#${highlightText(l, searchQuery)}</span>`).join('')}
-      </div>
-    </div>`;
-  }).join('');
+
+  renderNextPostBatch();
+}
+
+function renderNextPostBatch() {
+  const container = document.getElementById('posts-grid-container');
+  if (!container) return;
+
+  const visible = filteredPosts.filter(p => (p.status || 'published') === 'published');
+  if (renderedPostCount >= visible.length) return;
+
+  // Remove existing loader sentinel or end message before appending next batch
+  const existingSentinel = document.getElementById('infinite-scroll-sentinel');
+  if (existingSentinel) existingSentinel.remove();
+  const existingEndMsg = container.querySelector('.dc-posts-end-message');
+  if (existingEndMsg) existingEndMsg.remove();
+
+  const nextBatch = visible.slice(renderedPostCount, renderedPostCount + POSTS_PER_PAGE);
+  const batchHtml = nextBatch.map(renderPostCardHtml).join('');
+  container.insertAdjacentHTML('beforeend', batchHtml);
+  renderedPostCount += nextBatch.length;
+
+  updateCardViewBadges();
+  updateBookmarkButtons();
+
+  if (renderedPostCount < visible.length) {
+    // Append sentinel element for IntersectionObserver
+    const sentinel = document.createElement('div');
+    sentinel.id = 'infinite-scroll-sentinel';
+    sentinel.className = 'dc-infinite-loader';
+    sentinel.innerHTML = '<div class="dc-infinite-spinner"></div><span>더 많은 아티클 불러오는 중...</span>';
+    container.appendChild(sentinel);
+
+    if (infiniteScrollObserver) infiniteScrollObserver.disconnect();
+    infiniteScrollObserver = new IntersectionObserver((entries) => {
+      if (entries[0] && entries[0].isIntersecting) {
+        renderNextPostBatch();
+      }
+    }, {
+      rootMargin: '400px 0px 400px 0px'
+    });
+    infiniteScrollObserver.observe(sentinel);
+  } else {
+    // All articles rendered
+    if (visible.length > POSTS_PER_PAGE) {
+      const endMsg = document.createElement('div');
+      endMsg.className = 'dc-posts-end-message';
+      endMsg.textContent = `✨ 총 ${visible.length}개의 아티클을 모두 불러왔습니다.`;
+      container.appendChild(endMsg);
+    }
+  }
 }
 
 function renderDirectoryTable() {
@@ -1319,6 +1499,7 @@ function renderDirectoryTable() {
     const displayTitle = highlightText(post.title, searchQuery);
     const safeKey = getSafePostKey(post.id);
     const views = allViewCounts[safeKey] || 0;
+    const readTimeBadge = post.read_time ? `<span title="예상 읽기 시간">⏱️ ${post.read_time}분</span>` : '';
     return `
     <tr class="dc-table-row" onclick="window.location.hash='#article/${post.id}'" title="아티클 열기: ${post.title.replace(/"/g, '&quot;')}">
       <td style="font-weight:700;color:var(--text-muted);">${visible.length - idx}</td>
@@ -1326,6 +1507,7 @@ function renderDirectoryTable() {
         <div>${post.date}</div>
         <div style="color:var(--text-muted);font-size:11px;display:flex;gap:5px;align-items:center;margin-top:2px;">
           ${post.time ? `<span>${post.time}</span>` : ''}
+          ${readTimeBadge}
           <span title="조회수">👀 ${formatViewCount(views)}</span>
         </div>
       </td>
