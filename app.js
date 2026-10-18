@@ -1093,15 +1093,7 @@ function renderPostNavigation(currentPost) {
   const navEl = document.getElementById('reader-post-nav');
   if (!navEl) return;
 
-  // [Rev35.7 아티클 내비게이션 동질성 보장]
-  // 일반 블로그 아티클(브리핑/딥다이브/용어사전/팟캐스트) 열람 시 1MB급 이메일 원본(Newsletter)으로
-  // 갑자기 넘어가지 않도록, 현재 글이 Newsletter인지 여부에 따라 동일한 그룹 내에서만 이전/다음 글을 연결합니다.
-  const isCurrentNewsletter = matchCategory(currentPost.category, 'Newsletter');
-  const published = allPosts.filter(p => {
-    if ((p.status || 'published') !== 'published') return false;
-    const isPNewsletter = matchCategory(p.category, 'Newsletter');
-    return isCurrentNewsletter ? isPNewsletter : !isPNewsletter;
-  });
+  const published = allPosts.filter(p => (p.status || 'published') === 'published');
   const idx = published.findIndex(p => p.id === currentPost.id);
   if (idx === -1) {
     navEl.innerHTML = '';
@@ -1200,17 +1192,11 @@ const CAT_ALIAS = {
 };
 
 /**
- * [Rev35.7 카테고리 매칭 & 메인 피드 자기잠식(Cannibalization) 방지]
- * - 'ALL' (메인 피드 기본 탭)에서는 4대 오리지널 블로그 콘텐츠(Daily Briefing, Tech Deep Dive, Terminology, Podcast)만
- *   깔끔하게 노출하고, 1MB 분량의 이메일 발송 원본 아카이브(Newsletter)는 '📧 Newsletter' 전용 탭 클릭 시에만 노출되도록 분리합니다.
- * - 단, '📋 전체 아티클 (Table)' 디렉토리 뷰나 검색어/태그 필터가 활성화된 경우에는 전체 아카이브 검색을 위해 Newsletter도 함께 포함합니다.
+ * [카테고리 매칭]
+ * - 'ALL' (첫 화면 기본 탭) 선택 시 Newsletter를 포함한 전체 발행 아티클을 최신순으로 모두 함께 표시합니다.
  */
 function matchCategory(postCat, filterCat) {
-  if (!filterCat || filterCat === 'ALL') {
-    if (currentView === 'table' || searchQuery || currentTag) return true;
-    const newsletterAliases = CAT_ALIAS['Newsletter'] || ['Newsletter'];
-    return !newsletterAliases.includes(postCat);
-  }
+  if (!filterCat || filterCat === 'ALL') return true;
   if (postCat === filterCat) return true;
   const aliases = CAT_ALIAS[filterCat];
   if (aliases && aliases.includes(postCat)) return true;
@@ -1220,10 +1206,8 @@ function matchCategory(postCat, filterCat) {
 function updateCategoryTabCounts() {
   const published = allPosts.filter(p => (p.status || 'published') === 'published');
   const bookmarks = getBookmarks();
-  const newsletterAliases = CAT_ALIAS['Newsletter'] || ['Newsletter'];
   const counts = {
-    // 'All Posts' 카운트는 메인 피드에 기본 노출되는 4대 오리지널 아티클 수와 정확히 일치시킴
-    all: published.filter(p => !newsletterAliases.includes(p.category)).length,
+    all: published.length,
     briefing: published.filter(p => matchCategory(p.category, 'Daily Briefing')).length,
     deepdive: published.filter(p => matchCategory(p.category, 'Tech Deep Dive')).length,
     glossary: published.filter(p => matchCategory(p.category, 'Terminology')).length,
