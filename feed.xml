@@ -5,8 +5,48 @@
     <link>https://ywmoon.github.io</link>
     <description>글로벌 AI 데이터센터 전력망, 냉각, 클라우드 인프라 엔지니어링 데일리 트렌드</description>
     <language>ko</language>
-    <lastBuildDate>Mon, 19 Oct 2026 06:01:14 -0000</lastBuildDate>
+    <lastBuildDate>Tue, 20 Oct 2026 05:57:26 -0000</lastBuildDate>
     <atom:link href="https://ywmoon.github.io/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>DC InfraOps Trends - 2026년 10월 20일</title>
+      <link>https://ywmoon.github.io/article/2026-10-20-dc-infraops-trends-report/</link>
+      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-10-20-dc-infraops-trends-report/</guid>
+      <pubDate>Tue, 20 Oct 2026 00:00:00 -0000</pubDate>
+      <category>Newsletter</category>
+      <description>Datacenter &amp; Cloud Industry InfraOps Daily (2-Column) 1. 전력망 연계 지연에 따른 계약 철회 파장과 네오클라우드 IPO 위기 및 자구책 영국 국영 전력망(National Grid)의 송전 용량 포화와 계통 연계 지연이 2030년대까지 장기화될 것이라는 우려가 현실화되자 , 마이크로소프트(MS)가 영국 ... ͏ </description>
+    </item>
+    <item>
+      <title>[2026.10.20] 오늘의 글로벌 클라우드 &amp; 데이터센터 인프라 핵심 동향 브리핑</title>
+      <link>https://ywmoon.github.io/article/2026-10-20-daily-infraops-briefing/</link>
+      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-10-20-daily-infraops-briefing/</guid>
+      <pubDate>Tue, 20 Oct 2026 00:00:00 -0000</pubDate>
+      <category>Daily Briefing</category>
+      <description>📌 오늘의 핵심 관전 포인트 (Key Highlights) 전력 계통 연계 지연과 대규모 계약 철회: 영국의 전력망 연계 지연 우려로 마이크로소프트(MS)가 20억 파운드(약 3.5조 원) 규모의 엔스케일(Nscale) 데이터센터 임대 계약을 전격 철회하며, 글로벌 네오클라우드 진영의 IPO 및 유동성에 연쇄 충격을 주고 있습니다. 온사이트(On-site)</description>
+    </item>
+    <item>
+      <title>[2026.10.20] [10-Min English Podcast] The Grid Reality Check: Contract Terminations, Nuclear Baseload Pivots, and Physical Hardening in AI Infrastructure</title>
+      <link>https://ywmoon.github.io/article/2026-10-20-10min-tech-podcast/</link>
+      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-10-20-10min-tech-podcast/</guid>
+      <pubDate>Tue, 20 Oct 2026 00:00:00 -0000</pubDate>
+      <category>Podcast</category>
+      <description>🎧 10-MIN TECH ENGLISH PODCAST [2026.10.20] [10-Min English Podcast] The Grid Reality Check: Contract Terminations, Nuclear Baseload Pivots, and Physical Hardening in AI Infrastructure 오늘의 10분 심층 팟캐스트는</description>
+    </item>
+    <item>
+      <title>[인프라 용어사전] 스위치기어 (Switchgear) - AI 데이터센터의 전력 제어 및 배전 안전 관문</title>
+      <link>https://ywmoon.github.io/article/2026-10-20-glossary-electrical-switchgear/</link>
+      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-10-20-glossary-electrical-switchgear/</guid>
+      <pubDate>Tue, 20 Oct 2026 00:00:00 -0000</pubDate>
+      <category>Terminology</category>
+      <description>📌 1. 30초 핵심 요약 &amp; 개념 정의스위치기어(Switchgear)는 데이터센터 인프라로 유입되는 전력을 분배하고, 이상 전류나 과부하 발생 시 회로를 즉각 차단하여 하부 IT 랙과 무정전 전원장치(UPS) 등의 핵심 설비를 보호하는 전력 개폐 및 보호 장치 어셈블리입니다. 공항의 출입국 심사대와 보안 게이트가 승객의 흐름을 안전하게 통제하듯, 스위치기</description>
+    </item>
+    <item>
+      <title>[테크 딥다이브] 폐쇄 화력발전소 부지와 12기 SMR의 결합: 아마존이 제시한 AI 데이터센터 ‘그리드 큐(Queue) 우회’와 온사이트 기저전력 아키텍처</title>
+      <link>https://ywmoon.github.io/article/2026-10-20-deepdive-amazon-smr-coal-to-nuclear-power-architecture/</link>
+      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-10-20-deepdive-amazon-smr-coal-to-nuclear-power-architecture/</guid>
+      <pubDate>Tue, 20 Oct 2026 00:00:00 -0000</pubDate>
+      <category>Tech Deep Dive</category>
+      <description>Deep Dive Tech Column폐쇄 화력발전소 부지와 12기 SMR의 결합: 아마존이 제시한 AI 데이터센터 ‘그리드 큐(Queue) 우회’와 온사이트 기저전력 아키텍처송전망 증설 지연에 따른 하이퍼스케일러의 프로젝트 이탈이 가시화되는 가운데, 탈석탄 브라운필드 인프라와 4세대 소형모듈원자로(SMR)를 직결하여 계통 연계 병목을 돌파하는 새로운 엔지</description>
+    </item>
     <item>
       <title>[2026.10.19] [10-Min English Podcast] Grid Saturation, Kinetic Vulnerabilities, and Hyperscale Infrastructure Realignment</title>
       <link>https://ywmoon.github.io/article/2026-10-19-10min-tech-podcast/</link>
@@ -1166,46 +1206,6 @@
       <pubDate>Tue, 08 Sep 2026 00:00:00 -0000</pubDate>
       <category>Terminology</category>
       <description>Infrastructure Tech Glossary 분류: 데이터센터 하드웨어 &amp; 건축 엔지니어링 PMDC (Prefabricated Modular Data Center) 현장에서 철근 콘크리트 골조를 올리고 배관을 용접하던 전통적 건축 방식을 탈피하여, 전력·냉각·IT 랙 모듈을 통제된 공장에서 80% 이상 사전 제작(Pre-fabrication) 및 사</description>
-    </item>
-    <item>
-      <title>DC InfraOps Trends - 2026년 09월 08일</title>
-      <link>https://ywmoon.github.io/article/2026-09-08-dc-infraops-trends-report/</link>
-      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-09-08-dc-infraops-trends-report/</guid>
-      <pubDate>Tue, 08 Sep 2026 00:00:00 -0000</pubDate>
-      <category>Newsletter</category>
-      <description>Datacenter &amp; Cloud Industry InfraOps Daily (2-Column) 1. 천문학적 컴퓨팅 지출 약정과 맞춤형 AI 데이터센터 공급망 재편 인공지능(AI) 고도화에 따른 연산 자원 확보전이 심화되면서 초대형 장기 계약과 맞춤형 공급 구조가 정착되는 양상임. 앤트로픽은 아마존웹서비스(AWS) 클라우드에 1,000억 달러(... ͏ </description>
-    </item>
-    <item>
-      <title>[테크 딥다이브] AI 인프라 공급 리드타임 병목과 모듈러(PFDC) 아키텍처의 부상: 고집적 전력·액체냉각 패키징과 TCO 분석</title>
-      <link>https://ywmoon.github.io/article/2026-09-08-august-megafarm-deepdive/</link>
-      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-09-08-august-megafarm-deepdive/</guid>
-      <pubDate>Tue, 08 Sep 2026 00:00:00 -0000</pubDate>
-      <category>Tech Deep Dive</category>
-      <description>인공지능 연산 수요의 폭증은 컴퓨팅 반도체의 진화 속도뿐 아니라 이를 수용하는 물리적 인프라의 공급 속도에 심각한 구조적 괴리를 야기하고 있습니다. 앤트로픽의 대규모 클라우드 지출 약정에서 드러나듯 조 단위 AI 워크로드가 가속화되는 가운데, 전통적인 현장 타설 방식의 데이터센터 건축은 24~36개월에 달하는 긴 리드타임으로 인해 중대한 공급 병목에 직면했</description>
-    </item>
-    <item>
-      <title>[인프라 용어사전] 800V DC 랙 아키텍처 (800V DC Rack Architecture) - 메가와트급 AI 랙의 전력 손실과 구리 병목을 돌파하는 차세대 전력 배전 규격</title>
-      <link>https://ywmoon.github.io/article/2026-09-07-infra-glossary/</link>
-      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-09-07-infra-glossary/</guid>
-      <pubDate>Mon, 07 Sep 2026 00:00:00 -0000</pubDate>
-      <category>Terminology</category>
-      <description>Tech Glossary · Power Distribution 800V DC 랙 아키텍처 (800V DC Rack Architecture) AI 가속기 랙의 소비 전력이 메가와트(MW) 단위로 폭증함에 따라, 전력 전송 시 발생하는 도체 발열과 구리 버스바 무게를 물리적으로 감축하기 위해 도입되는 차세대 고전압 직류 배전 아키텍처 📌 1. 30초 핵심 요약</description>
-    </item>
-    <item>
-      <title>DC InfraOps Trends - 2026년 09월 07일</title>
-      <link>https://ywmoon.github.io/article/2026-09-07-dc-infraops-trends-report/</link>
-      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-09-07-dc-infraops-trends-report/</guid>
-      <pubDate>Mon, 07 Sep 2026 00:00:00 -0000</pubDate>
-      <category>Newsletter</category>
-      <description>Datacenter &amp; Cloud Industry InfraOps Daily (2-Column) 1. 대규모 컴퓨팅 공급 계약과 고전압 전력 설비 M&amp;A를 통한 인프라 수직계열화 글로벌 인프라 시장에서 초대형 컴퓨팅 조달 빅딜과 랙 전력 효율화를 위한 부품사 인수합병(M&amp;A)이 가속화됨. 크루소(Crusoe)는 퀀트 트레이딩 기업 제인 스트리트와... ͏ </description>
-    </item>
-    <item>
-      <title>[2026.09.07] [10-Min English Podcast] Mega Compute Procurement, Modular Data Center Alliances, Next-Gen Liquid Cooling, and Grid Resilience Under Civic Friction</title>
-      <link>https://ywmoon.github.io/article/2026-09-07-10min-tech-podcast/</link>
-      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-09-07-10min-tech-podcast/</guid>
-      <pubDate>Mon, 07 Sep 2026 00:00:00 -0000</pubDate>
-      <category>Podcast</category>
-      <description>🎧 10-MIN TECH ENGLISH PODCAST [2026.09.07] [10-Min English Podcast] Mega Compute Procurement, Modular Data Center Alliances, Next-Gen Liquid Cooling, and Grid Resilience Under Civic Friction 오늘의 10분 심</description>
     </item>
   </channel>
 </rss>
