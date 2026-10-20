@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>[테크 딥다이브] 단일 가용영역 전력 장애가 촉발한 금융 인프라 마비: 하이퍼스케일 장애 격리 도메인의 한계와 크로스 리전 복원력 아키텍처</title>
+  <meta name="description" content="2026년 10월 20일, 구글 클라우드(GCP)의 영국 런던 리전(europe-west2) 내 단일 가용영역(europe-west2-b)에서 발생한 전력 공급 이상(Power Event)은 글로벌 금융 및 공공 전산망에 막대한 충격을 안겼다. 약 6시간 이상 지속된 이번 장애로 인해 로이즈(Lloyds), HSBC, 스코틀랜드 은행 등 영국 주요 시중은행" />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://ywmoon.github.io/article/2026-10-21-deepdive-gcp-london-outage-fault-domain-resilience/" />
+  <!-- OpenGraph -->
+  <meta property="og:type" content="article" />
+  <meta property="og:title" content="[테크 딥다이브] 단일 가용영역 전력 장애가 촉발한 금융 인프라 마비: 하이퍼스케일 장애 격리 도메인의 한계와 크로스 리전 복원력 아키텍처" />
+  <meta property="og:description" content="2026년 10월 20일, 구글 클라우드(GCP)의 영국 런던 리전(europe-west2) 내 단일 가용영역(europe-west2-b)에서 발생한 전력 공급 이상(Power Event)은 글로벌 금융 및 공공 전산망에 막대한 충격을 안겼다. 약 6시간 이상 지속된 이번 장애로 인해 로이즈(Lloyds), HSBC, 스코틀랜드 은행 등 영국 주요 시중은행" />
+  <meta property="og:url" content="https://ywmoon.github.io/article/2026-10-21-deepdive-gcp-london-outage-fault-domain-resilience/" />
+  <meta property="og:image" content="https://ywmoon.github.io/assets/avatar.jpg" />
+  <meta property="og:site_name" content="Datacenter InfraOps &amp; Cloud Industry Notes" />
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="[테크 딥다이브] 단일 가용영역 전력 장애가 촉발한 금융 인프라 마비: 하이퍼스케일 장애 격리 도메인의 한계와 크로스 리전 복원력 아키텍처" />
+  <meta name="twitter:description" content="2026년 10월 20일, 구글 클라우드(GCP)의 영국 런던 리전(europe-west2) 내 단일 가용영역(europe-west2-b)에서 발생한 전력 공급 이상(Power Event)은 글로벌 금융 및 공공 전산망에 막대한 충격을 안겼다. 약 6시간 이상 지속된 이번 장애로 인해 로이즈(Lloyds), HSBC, 스코틀랜드 은행 등 영국 주요 시중은행" />
+  <meta name="twitter:image" content="https://ywmoon.github.io/assets/avatar.jpg" />
+  <!-- Structured Data: Google Schema.org (Article) -->
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "TechArticle",
+  "headline": "[테크 딥다이브] 단일 가용영역 전력 장애가 촉발한 금융 인프라 마비: 하이퍼스케일 장애 격리 도메인의 한계와 크로스 리전 복원력 아키텍처",
+  "description": "2026년 10월 20일, 구글 클라우드(GCP)의 영국 런던 리전(europe-west2) 내 단일 가용영역(europe-west2-b)에서 발생한 전력 공급 이상(Power Event)은 글로벌 금융 및 공공 전산망에 막대한 충격을 안겼다. 약 6시간 이상 지속된 이번 장애로 인해 로이즈(Lloyds), HSBC, 스코틀랜드 은행 등 영국 주요 시중은행",
+  "datePublished": "2026-10-21T05:52:00+09:00",
+  "dateModified": "2026-10-21 05:52:00+09:00",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://ywmoon.github.io/article/2026-10-21-deepdive-gcp-london-outage-fault-domain-resilience/"
+  },
+  "author": {
+    "@type": "Person",
+    "name": "James Moon (문연욱)",
+    "jobTitle": "AWS Data Center Engineering Operations Cluster Manager",
+    "url": "https://www.linkedin.com/in/ywmoon"
+  },
+  "publisher": {
+    "@type": "Person",
+    "name": "James Moon",
+    "url": "https://ywmoon.github.io",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://ywmoon.github.io/assets/avatar.jpg"
+    }
+  },
+  "image": "https://ywmoon.github.io/assets/avatar.jpg",
+  "keywords": "테크딥다이브, 구글클라우드, 가용영역, 클라우드복원력, 금융인프라, 장애격리"
+}
+  </script>
+  <!-- Instant redirect for real users -->
+  <meta http-equiv="refresh" content="0; url=https://ywmoon.github.io/#article/2026-10-21-deepdive-gcp-london-outage-fault-domain-resilience" />
+  <script>window.location.replace('https://ywmoon.github.io/#article/2026-10-21-deepdive-gcp-london-outage-fault-domain-resilience');</script>
+</head>
+<body></body>
+</html>

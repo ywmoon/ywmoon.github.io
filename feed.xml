@@ -5,8 +5,48 @@
     <link>https://ywmoon.github.io</link>
     <description>글로벌 AI 데이터센터 전력망, 냉각, 클라우드 인프라 엔지니어링 데일리 트렌드</description>
     <language>ko</language>
-    <lastBuildDate>Tue, 20 Oct 2026 05:57:26 -0000</lastBuildDate>
+    <lastBuildDate>Wed, 21 Oct 2026 05:52:31 -0000</lastBuildDate>
     <atom:link href="https://ywmoon.github.io/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>[2026.10.21] 오늘의 글로벌 클라우드 &amp; 데이터센터 인프라 핵심 동향 브리핑</title>
+      <link>https://ywmoon.github.io/article/2026-10-21-daily-infraops-briefing/</link>
+      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-10-21-daily-infraops-briefing/</guid>
+      <pubDate>Wed, 21 Oct 2026 00:00:00 -0000</pubDate>
+      <category>Daily Briefing</category>
+      <description>📌 오늘의 핵심 관전 포인트 (Key Highlights)구글 클라우드 런던 리전 전력 장애: 가용영역 ‘europe-west2-b’에서 발생한 전력 공급 중단 사고로 주요 시중은행, 핀테크, 공공의료 서비스가 6시간 이상 마비되며 하이퍼스케일러 단일 장애점(SPOF) 리스크가 수면 위로 부상했습니다.빅테크의 960MW 온사이트 SMR 직접 확보: 아마존이</description>
+    </item>
+    <item>
+      <title>[인프라 용어사전] 가용 영역 (Availability Zone) - 단일 존 전력 장애를 격리하고 무중단을 구현하는 클라우드 고가용성의 물리적 방화벽</title>
+      <link>https://ywmoon.github.io/article/2026-10-21-glossary-availability-zone/</link>
+      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-10-21-glossary-availability-zone/</guid>
+      <pubDate>Wed, 21 Oct 2026 00:00:00 -0000</pubDate>
+      <category>Terminology</category>
+      <description>Cloud Infrastructure &amp; Resilience Architecture 가용 영역 (Availability Zone, AZ) 단일 데이터센터 설비의 전력·냉각 장애가 전체 리전으로 번지는 연쇄 결함을 원천 격리하는 클라우드 엔지니어링의 핵심 단위 📌 1. 30초 핵심 요약 &amp; 개념 정의 공학적 정의: 가용 영역(Availability Zone,</description>
+    </item>
+    <item>
+      <title>[2026.10.21] [10-Min English Podcast] London Hyperscale Power Cascades, 960MW On-Site SMRs, and the AI Infrastructure Debt Shakeout</title>
+      <link>https://ywmoon.github.io/article/2026-10-21-10min-tech-podcast/</link>
+      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-10-21-10min-tech-podcast/</guid>
+      <pubDate>Wed, 21 Oct 2026 00:00:00 -0000</pubDate>
+      <category>Podcast</category>
+      <description>🎧 10-MIN TECH ENGLISH PODCAST [2026.10.21] [10-Min English Podcast] London Hyperscale Power Cascades, 960MW On-Site SMRs, and the AI Infrastructure Debt Shakeout 오늘의 10분 심층 팟캐스트는 구글 클라우드 런던 리전의 전력 장애로</description>
+    </item>
+    <item>
+      <title>[테크 딥다이브] 단일 가용영역 전력 장애가 촉발한 금융 인프라 마비: 하이퍼스케일 장애 격리 도메인의 한계와 크로스 리전 복원력 아키텍처</title>
+      <link>https://ywmoon.github.io/article/2026-10-21-deepdive-gcp-london-outage-fault-domain-resilience/</link>
+      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-10-21-deepdive-gcp-london-outage-fault-domain-resilience/</guid>
+      <pubDate>Wed, 21 Oct 2026 00:00:00 -0000</pubDate>
+      <category>Tech Deep Dive</category>
+      <description>2026년 10월 20일, 구글 클라우드(GCP)의 영국 런던 리전(europe-west2) 내 단일 가용영역(europe-west2-b)에서 발생한 전력 공급 이상(Power Event)은 글로벌 금융 및 공공 전산망에 막대한 충격을 안겼다. 약 6시간 이상 지속된 이번 장애로 인해 로이즈(Lloyds), HSBC, 스코틀랜드 은행 등 영국 주요 시중은행</description>
+    </item>
+    <item>
+      <title>DC InfraOps Trends - 2026년 10월 21일</title>
+      <link>https://ywmoon.github.io/article/2026-10-21-dc-infraops-trends-report/</link>
+      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-10-21-dc-infraops-trends-report/</guid>
+      <pubDate>Wed, 21 Oct 2026 00:00:00 -0000</pubDate>
+      <category>Newsletter</category>
+      <description>Datacenter &amp; Cloud Industry InfraOps Daily (2-Column) 1. 런던 구글 클라우드 전력 장애 발 대규모 금융·공공 마비 사태와 하이퍼스케일러 의존 리스크 구글 클라우드의 영국 런던 데이터센터 리전(europe-west2-b)에서 치명적인 전력 문제(Power event)로 인한 인프라 장애가 발생함 . 이번... ͏ </description>
+    </item>
     <item>
       <title>DC InfraOps Trends - 2026년 10월 20일</title>
       <link>https://ywmoon.github.io/article/2026-10-20-dc-infraops-trends-report/</link>
@@ -1166,46 +1206,6 @@
       <pubDate>Wed, 09 Sep 2026 00:00:00 -0000</pubDate>
       <category>Tech Deep Dive</category>
       <description>인공지능 데이터센터(AIDC)의 중심축이 파라미터 사전 학습(Pre-training)에서 상시 대규모 서비스 구동을 위한 추론(Inference)으로 급격히 재편되고 있습니다. 퀄컴과 아마존웹서비스(AWS)가 체결한 10년간 최대 600억 달러 규모의 다세대 맞춤형 AI 추론 실리콘 및 1.6Tbps 광인터커넥트 공동 개발 계약은 단순한 칩 수급 다변화를 </description>
-    </item>
-    <item>
-      <title>[인프라 용어사전] CXL (Compute Express Link) - 서버 간 메모리 장벽을 허무는 차세대 캐시 일관성 인터커넥트</title>
-      <link>https://ywmoon.github.io/article/2026-09-09-infra-glossary/</link>
-      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-09-09-infra-glossary/</guid>
-      <pubDate>Wed, 09 Sep 2026 00:00:00 -0000</pubDate>
-      <category>Terminology</category>
-      <description>인프라 핵심 아키텍처 해설 CXL (Compute Express Link): 고속 메모리 풀링과 캐시 일관성의 표준 📌 1. 30초 핵심 요약 &amp; 개념 정의 공식 정의: CXL(Compute Express Link)은 고성능 연산 장치(CPU, GPU, 맞춤형 가속기)와 메모리 디바이스 간의 초저지연 통신 및 하드웨어 기반 캐시 일관성(Cache Coher</description>
-    </item>
-    <item>
-      <title>[2026.09.09] [10-Min English Podcast] The Sixty-Billion-Dollar Silicon Alliance, Nuclear Baseload Capitalization, and Mounting Grid Security Fractures</title>
-      <link>https://ywmoon.github.io/article/2026-09-09-10min-tech-podcast/</link>
-      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-09-09-10min-tech-podcast/</guid>
-      <pubDate>Wed, 09 Sep 2026 00:00:00 -0000</pubDate>
-      <category>Podcast</category>
-      <description>🎧 10-MIN TECH ENGLISH PODCAST [2026.09.09] [10-Min English Podcast] The Sixty-Billion-Dollar Silicon Alliance, Nuclear Baseload Capitalization, and Mounting Grid Security Fractures 오늘의 10분 심층 팟캐스트는 퀄컴</description>
-    </item>
-    <item>
-      <title>[2026.09.08] 오늘의 글로벌 클라우드 &amp; 데이터센터 인프라 핵심 동향 브리핑</title>
-      <link>https://ywmoon.github.io/article/2026-09-08-daily-infraops-briefing/</link>
-      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-09-08-daily-infraops-briefing/</guid>
-      <pubDate>Tue, 08 Sep 2026 00:00:00 -0000</pubDate>
-      <category>Daily Briefing</category>
-      <description>Daily InfraOps Digest 2026년 9월 8일 브리핑 글로벌 AI 클라우드 100조 원대 약정 경쟁과 차세대 인프라 생태계 재편 초대형 컴퓨팅 파이프라인 장기 선점, 에너지 기업과의 20년 PPA, 고효율 폐루프 냉각 및 모듈러 공법을 둘러싼 엔지니어링 쟁점 분석 📌 오늘의 3대 핵심 관전 포인트 (Key Highlights) 앤트로픽의 1,</description>
-    </item>
-    <item>
-      <title>[2026.09.08] [10-Min English Podcast] The AI Infrastructure Squeeze: Astronomical Compute Pledges, Behind-the-Meter Power, and Midterm Politics</title>
-      <link>https://ywmoon.github.io/article/2026-09-08-10min-tech-podcast/</link>
-      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-09-08-10min-tech-podcast/</guid>
-      <pubDate>Tue, 08 Sep 2026 00:00:00 -0000</pubDate>
-      <category>Podcast</category>
-      <description>🎧 10-MIN TECH ENGLISH PODCAST [2026.09.08] [10-Min English Podcast] The AI Infrastructure Squeeze: Astronomical Compute Pledges, Behind-the-Meter Power, and Midterm Politics 오늘의 10분 심층 팟캐스트는 2026년 9월 </description>
-    </item>
-    <item>
-      <title>[인프라 용어사전] PMDC (Prefabricated Modular Data Center) - 현장 타설을 넘어 공장 표준화 조립으로 공기를 50% 단축하는 AI 전산실 아키텍처</title>
-      <link>https://ywmoon.github.io/article/2026-09-08-infra-glossary/</link>
-      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-09-08-infra-glossary/</guid>
-      <pubDate>Tue, 08 Sep 2026 00:00:00 -0000</pubDate>
-      <category>Terminology</category>
-      <description>Infrastructure Tech Glossary 분류: 데이터센터 하드웨어 &amp; 건축 엔지니어링 PMDC (Prefabricated Modular Data Center) 현장에서 철근 콘크리트 골조를 올리고 배관을 용접하던 전통적 건축 방식을 탈피하여, 전력·냉각·IT 랙 모듈을 통제된 공장에서 80% 이상 사전 제작(Pre-fabrication) 및 사</description>
     </item>
   </channel>
 </rss>
