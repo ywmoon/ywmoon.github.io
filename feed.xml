@@ -5,8 +5,48 @@
     <link>https://ywmoon.github.io</link>
     <description>글로벌 AI 데이터센터 전력망, 냉각, 클라우드 인프라 엔지니어링 데일리 트렌드</description>
     <language>ko</language>
-    <lastBuildDate>Wed, 21 Oct 2026 05:52:31 -0000</lastBuildDate>
+    <lastBuildDate>Thu, 22 Oct 2026 05:55:19 -0000</lastBuildDate>
     <atom:link href="https://ywmoon.github.io/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>[인프라 용어사전] GSLB (Global Server Load Balancing) - 대규모 리전 정전을 방어하는 글로벌 트래픽 분산 아키텍처</title>
+      <link>https://ywmoon.github.io/article/2026-10-22-glossary-global-server-load-balancing/</link>
+      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-10-22-glossary-global-server-load-balancing/</guid>
+      <pubDate>Thu, 22 Oct 2026 00:00:00 -0000</pubDate>
+      <category>Terminology</category>
+      <description>핵심 정의: GSLB(Global Server Load Balancing)는 지리적으로 격리된 복수의 데이터센터 및 클라우드 리전(Region) 간에 유입되는 클라이언트 트래픽을 지능적으로 분산하고 장애 시 정상 거점으로 즉시 우회(Failover)시키는 글로벌 계층 네트워킹 제어 기술입니다. 📌 1. 30초 핵심 요약 &amp; 개념 정의 단일 데이터센터 내부에</description>
+    </item>
+    <item>
+      <title>[2026.10.22] [10-Min English Podcast] Hyperscaler Grid Outages, 221-Trillion-Won Credit Backstops, and the Race for Behind-the-Meter Power</title>
+      <link>https://ywmoon.github.io/article/2026-10-22-10min-tech-podcast/</link>
+      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-10-22-10min-tech-podcast/</guid>
+      <pubDate>Thu, 22 Oct 2026 00:00:00 -0000</pubDate>
+      <category>Podcast</category>
+      <description>🎧 10-MIN TECH ENGLISH PODCAST [2026.10.22] [10-Min English Podcast] Hyperscaler Grid Outages, 221-Trillion-Won Credit Backstops, and the Race for Behind-the-Meter Power 오늘의 10분 심층 팟캐스트는 런던 구글 클라우드 리전 </description>
+    </item>
+    <item>
+      <title>[2026.10.22] 오늘의 글로벌 클라우드 &amp; 데이터센터 인프라 핵심 동향 브리핑</title>
+      <link>https://ywmoon.github.io/article/2026-10-22-daily-infraops-briefing/</link>
+      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-10-22-daily-infraops-briefing/</guid>
+      <pubDate>Thu, 22 Oct 2026 00:00:00 -0000</pubDate>
+      <category>Daily Briefing</category>
+      <description>📌 오늘의 핵심 관전 포인트 (Key Highlights) 구글 클라우드 런던 정전 사태의 일파만파: 6시간 이상 지속된 전력 공급 중단으로 영국 주요 은행과 핀테크 레볼루트의 340만 결제망이 마비되며, 유럽 금융 당국이 CSP의 단일 장애점(SPOF)에 대한 공식 규제 조사에 전격 착수했습니다. 엔비디아의 221조 원 신용 보증과 14일 초고속 모듈화:</description>
+    </item>
+    <item>
+      <title>[테크 딥다이브] 아마존의 4.27억 달러 애슈번 개발 철회가 던진 경고…데이터센터 앨리의 수용 한계와 입지 분산화</title>
+      <link>https://ywmoon.github.io/article/2026-10-22-deepdive-amazon-ashburn-withdrawal-datacenter-zoning/</link>
+      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-10-22-deepdive-amazon-ashburn-withdrawal-datacenter-zoning/</guid>
+      <pubDate>Thu, 22 Oct 2026 00:00:00 -0000</pubDate>
+      <category>Tech Deep Dive</category>
+      <description>핵심 요약: 글로벌 데이터센터의 심장부로 불리는 미국 북버지니아 라우던 카운티(Loudoun County)에서 아마존이 4억 2,700만 달러 규모의 데이터센터 신규 개발 계획을 전격 철회하고 법적 소송 권리까지 포기하는 합의를 체결했습니다. 테네시주 멤피스에서도 신규 데이터센터 신청 동결안이 의회를 통과하는 등, AI 데이터센터의 급격한 확장이 송전망 병</description>
+    </item>
+    <item>
+      <title>DC InfraOps Trends - 2026년 10월 22일</title>
+      <link>https://ywmoon.github.io/article/2026-10-22-dc-infraops-trends-report/</link>
+      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-10-22-dc-infraops-trends-report/</guid>
+      <pubDate>Thu, 22 Oct 2026 00:00:00 -0000</pubDate>
+      <category>Newsletter</category>
+      <description>Datacenter &amp; Cloud Industry InfraOps Daily (2-Column) 1. 런던 정전발 유럽 금융 전산 마비 파장과 하이퍼스케일러 SPOF 규제 리스크 구글 클라우드의 영국 런던 데이터센터 리전 전력 공급 장애로 유발된 대규모 전산 마비 사태가 유럽 전역의 금융·공공 규제 이슈로 비화하며 글로벌 CSP의 단일 장애점(S... ͏ </description>
+    </item>
     <item>
       <title>[2026.10.21] 오늘의 글로벌 클라우드 &amp; 데이터센터 인프라 핵심 동향 브리핑</title>
       <link>https://ywmoon.github.io/article/2026-10-21-daily-infraops-briefing/</link>
@@ -1166,46 +1206,6 @@
       <pubDate>Thu, 10 Sep 2026 00:00:00 -0000</pubDate>
       <category>Tech Deep Dive</category>
       <description>인프라 아키텍처 심층 분석 리포트 본 분석은 아마존웹서비스(AWS)와 퀄컴(Qualcomm)이 체결한 10개년 맞춤형 AI 추론 실리콘 공급 협약과 1.6Tbps 광 인터커넥트 개발 계획을 바탕으로, 데이터센터 컴퓨팅 패러다임이 '학습 중심 범용 가속기'에서 '전력 효율 및 서빙 TCO 중심 도메인 특화 실리콘'으로 이동하는 공학적 메커니즘을 규명합니다. </description>
-    </item>
-    <item>
-      <title>[2026.09.10] 오늘의 글로벌 클라우드 &amp; 데이터센터 인프라 핵심 동향 브리핑</title>
-      <link>https://ywmoon.github.io/article/2026-09-10-daily-infraops-briefing/</link>
-      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-09-10-daily-infraops-briefing/</guid>
-      <pubDate>Thu, 10 Sep 2026 00:00:00 -0000</pubDate>
-      <category>Daily Briefing</category>
-      <description>DAILY INFRASTRUCTURE DIGEST | 2026.09.10 글로벌 AI 인프라 자본 집약과 병목의 공존: 가속기 수급 다변화부터 전력·규제 장벽까지 인공지능 워크로드가 데이터센터의 전력 밀도와 공급망 한계를 시험하면서, 글로벌 하이퍼스케일러들의 인프라 전략이 다층화되고 있습니다. 한편에서는 특정 가속기 벤더에 대한 종속성을 완화하고 대규모 추</description>
-    </item>
-    <item>
-      <title>[인프라 용어사전] PPA (Power Purchase Agreement) - AI 하이퍼스케일러의 무탄소 전력 직도입과 기저부하 확보 메커니즘</title>
-      <link>https://ywmoon.github.io/article/2026-09-10-infra-glossary/</link>
-      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-09-10-infra-glossary/</guid>
-      <pubDate>Thu, 10 Sep 2026 00:00:00 -0000</pubDate>
-      <category>Terminology</category>
-      <description>📌 1. 30초 핵심 요약 &amp; 개념 정의 PPA(Power Purchase Agreement, 전력구매계약)는 데이터센터를 운영하는 대규모 전력 수용가(소비 기업)와 전력 발전 사업자(원자력, 신재생에너지 발전사 등)가 사전에 합의된 고정 단가와 계약 기간(통상 10년~25년)을 바탕으로 전력을 직접 거래하는 장기 전력 조달 계약 아키텍처입니다. 일반 상업</description>
-    </item>
-    <item>
-      <title>[2026.09.09] 오늘의 글로벌 클라우드 &amp; 데이터센터 인프라 핵심 동향 브리핑</title>
-      <link>https://ywmoon.github.io/article/2026-09-09-daily-infraops-briefing/</link>
-      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-09-09-daily-infraops-briefing/</guid>
-      <pubDate>Wed, 09 Sep 2026 00:00:00 -0000</pubDate>
-      <category>Daily Briefing</category>
-      <description>DAILY INFRA DIGEST 글로벌 클라우드 &amp; 데이터센터 인프라 핵심 동향 브리핑 발행일자: 2026년 9월 9일 | 인프라 아키텍처·에너지 그리드·실리콘 생태계 심층 분석 📌 오늘의 3대 핵심 관전 포인트 (Key Highlights) 빅테크-팹리스 간 조 단위 지분 연계(Equity Warrant)와 맞춤형 추론 실리콘 동맹: AWS가 퀄컴과 향</description>
-    </item>
-    <item>
-      <title>DC InfraOps Trends - 2026년 09월 09일</title>
-      <link>https://ywmoon.github.io/article/2026-09-09-dc-infraops-trends-report/</link>
-      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-09-09-dc-infraops-trends-report/</guid>
-      <pubDate>Wed, 09 Sep 2026 00:00:00 -0000</pubDate>
-      <category>Newsletter</category>
-      <description>Datacenter &amp; Cloud Industry InfraOps Daily (2-Column) 1. 퀄컴-아마존 600억 달러 맞춤형 칩 동맹과 CXL 기반 원칩 인프라 혁신 빅테크의 연산 인프라 확보전이 엔비디아 단일 의존 탈피와 맞춤형 실리콘 생태계 구축으로 재편되는 양상임. 퀄컴은 아마존웹서비스(AWS)와 최대 600억 달러(약 81조 원... ͏ </description>
-    </item>
-    <item>
-      <title>[테크 딥다이브] AI 추론 인프라의 전력·대역폭 장벽 돌파: AWS·퀄컴의 600억 달러 맞춤형 실리콘과 1.6Tbps 광인터커넥트 전략</title>
-      <link>https://ywmoon.github.io/article/2026-09-09-august-megafarm-deepdive/</link>
-      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-09-09-august-megafarm-deepdive/</guid>
-      <pubDate>Wed, 09 Sep 2026 00:00:00 -0000</pubDate>
-      <category>Tech Deep Dive</category>
-      <description>인공지능 데이터센터(AIDC)의 중심축이 파라미터 사전 학습(Pre-training)에서 상시 대규모 서비스 구동을 위한 추론(Inference)으로 급격히 재편되고 있습니다. 퀄컴과 아마존웹서비스(AWS)가 체결한 10년간 최대 600억 달러 규모의 다세대 맞춤형 AI 추론 실리콘 및 1.6Tbps 광인터커넥트 공동 개발 계약은 단순한 칩 수급 다변화를 </description>
     </item>
   </channel>
 </rss>
