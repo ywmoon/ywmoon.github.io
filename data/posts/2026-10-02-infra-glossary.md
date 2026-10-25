@@ -2,7 +2,7 @@
 id: 2026-10-02-infra-glossary
 title: "[인프라 용어사전] 궤도 데이터센터 (Orbital Data Center) - 무한 태양광과 심우주 복사 냉각으로 지상 전력난을 돌파하는 차세대 AI 인프라"
 date: 2026-10-02
-time: "05:56"
+time: "05:57"
 category: Terminology
 status: published
 summary: "Infrastructure Tech Glossary 궤도 데이터센터 (Orbital Data Center) 지상 전력망 병목과 냉각수 고갈을 넘어, 대기권 밖 24시간 태양광 발전과 심우주 절대온도 복사 방열을 활용해 대규모 연산을 수행하는 우주 기반 컴퓨팅 아키텍처 📌 1. 30초 핵심 요약 & 개념 정의 궤도 데이터센터(Orbital Data Cente"

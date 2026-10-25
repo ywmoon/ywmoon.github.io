@@ -2,10 +2,10 @@
 id: 2026-08-25-infra-glossary
 title: "[인프라 용어사전] 소버린 클라우드 (Sovereign Cloud) - 데이터 주권과 AI 인프라 자립을 위한 기술 아키텍처"
 date: 2026-08-25
-time: "05:45"
+time: "05:46"
 category: Terminology
 status: published
-summary: "📌 1. 30초 핵심 요약 & 개념 정의 소버린 클라우드(Sovereign Cloud)는 특정 국가나 관할 구역의 데이터 주권(Data Sovereignty) 법률과 규제 요건을 완벽하게 준수하도록 설계된 독립형 클라우드 인프라입니다. 단순히 서버가 해당 국가 영토 내에 물리적으로 위치하는 것을 넘어, 데이터의 저장·처리·접근 권한, 하드웨어 공급망, 암호"
+summary: "소버린 클라우드(Sovereign Cloud)는 특정 국가나 관할 구역의 데이터 주권(Data Sovereignty) 법률과 규제 요건을 완벽하게 준수하도록 설계된 독립형 클라우드 인프라입니다. 단순히 서버가 해당 국가 영토 내에 물리적으로 위치하는 것을 넘어, 데이터의 저장·처리·접근 권한, 하드웨어 공급망, 암호"
 labels:
   - 인프라용어사전
   - IT백과사전

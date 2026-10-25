@@ -2,10 +2,10 @@
 id: 2026-09-07-10min-tech-podcast
 title: "[2026.09.07] [10-Min English Podcast] Mega Compute Procurement, Modular Data Center Alliances, Next-Gen Liquid Cooling, and Grid Resilience Under Civic Friction"
 date: 2026-09-07
-time: "05:12"
+time: "05:14"
 category: Podcast
 status: published
-summary: "🎧 10-MIN TECH ENGLISH PODCAST [2026.09.07] [10-Min English Podcast] Mega Compute Procurement, Modular Data Center Alliances, Next-Gen Liquid Cooling, and Grid Resilience Under Civic Friction 오늘의 10분 심"
+summary: "오늘의 10분 심층 팟캐스트는 2026년 9월 7일 글로벌 데이터센터 및 전력 인프라 산업의 4대 핵심 축을 심도 있게 분석합니다. 첫째, 크루소(Crusoe)의 제인 스트리트 대상 130억 달러 AI 클라우드 공급 계약과 30억 달러 투자 유치, 플렉스(Flex)의 800V 고전압 전력 변환 전문사 EPC 파워 44억 달러 인수, 엔스케일의 피규어 10만"
 labels:
   - EnglishPodcast
   - TechEnglish
@@ -16,8 +16,7 @@ labels:
   - 액체냉각
 ---
 
-
-    <div style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; line-height: 1.8; color: #1E293B; max-width: 820px; margin: 0 auto;">
+<div style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; line-height: 1.8; color: #1E293B; max-width: 820px; margin: 0 auto;">
 
         <!-- Podcast Hero Audio Player Card -->
         <div style="background: linear-gradient(135deg, #0F172A 0%, #1E293B 100%); border-radius: 12px; padding: 24px 28px; margin-bottom: 28px; color: #FFFFFF; box-shadow: 0 4px 12px rgba(0,0,0,0.15); border-top: 4px solid #38BDF8;">

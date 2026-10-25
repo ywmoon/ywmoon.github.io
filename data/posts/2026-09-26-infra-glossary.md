@@ -2,10 +2,10 @@
 id: 2026-09-26-infra-glossary
 title: "[인프라 용어사전] L2A 냉각 (Liquid-to-Air Cooling) - 배관 공사 없이 AI GPU를 수랭화하는 고밀도 랙 열교환 아키텍처"
 date: 2026-09-26
-time: "00:10"
+time: "00:11"
 category: Terminology
 status: published
-summary: "Data Center Infrastructure Tech Glossary L2A 냉각 (Liquid-to-Air Cooling) 중앙 시설 배관 공사 없이 공랭식 데이터센터에 수랭식 초고집적 AI 가속기를 즉시 도입할 수 있도록 설계된 폐루프 열교환 아키텍처 📌 1. 30초 핵심 요약 & 개념 정의 L2A(Liquid-to-Air) 냉각은 서버 랙 내부의 "
+summary: "Data Center Infrastructure Tech Glossary L2A 냉각 (Liquid-to-Air Cooling) 중앙 시설 배관 공사 없이 공랭식 데이터센터에 수랭식 초고집적 AI 가속기를 즉시 도입할 수 있도록 설계된 폐루프 열교환 아키텍처 📌 1. 30초 핵심 요약 & 개념 정의 L2A(Liquid-to-Air) 냉각은 서버 랙 내부의"
 labels:
   - 인프라용어사전
   - IT백과사전

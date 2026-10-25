@@ -2,7 +2,7 @@
 id: 2026-09-15-infra-glossary
 title: "[인프라 용어사전] CPO (Co-Packaged Optics) - 구리선 한계 극복하는 칩렛-광학 통합 인터커넥트"
 date: 2026-09-15
-time: "05:53"
+time: "05:54"
 category: Terminology
 status: published
 summary: "하드웨어 아키텍처 차세대 네트워킹 반도체 패키징 CPO(Co-Packaged Optics)는 스위칭 ASIC 및 가속기 반도체와 광학 변환 엔진(Optical Engine)을 동일 기판 위에 단일 패키지로 통합 실장하여 전기 신호 배선 손실을 억제하고 데이터센터 인터커넥트 전력을 획기적으로 절감하는 물리 계층 패키징 아키텍처입니다. 📌 1. 30초 핵심 요"

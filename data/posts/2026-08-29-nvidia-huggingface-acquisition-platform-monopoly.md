@@ -2,10 +2,10 @@
 id: 2026-08-29-nvidia-huggingface-acquisition-platform-monopoly
 title: "[테크 딥다이브] 하드웨어를 넘어 소프트웨어 허브까지: 엔비디아의 '허깅페이스(Hugging Face)' 인수 추진과 AI 생태계 수직독점 전략"
 date: 2026-08-29
-time: "07:38"
+time: "07:41"
 category: Tech Deep Dive
 status: published
-summary: "엔비디아가 글로벌 오픈소스 AI의 중심축인 '허깅페이스(Hugging Face)' 인수를 전격 추진하며 하드웨어(GPU)에서 소프트웨어 플랫폼(Model Hub)으로 이어지는 완벽한 수직 계열화에 나섰습니다. CUDA 락인을 넘어선 NIM 마이크로서비스 통합, 오픈소스 모델 배포 파이프라인 독점, 그리고 빅테크 클라우드(CSP)에 미칠 지각변동을 심층 분석합니다."
+summary: "엔비디아가 글로벌 오픈소스 AI의 중심축인 '허깅페이스(Hugging Face)' 인수를 전격 추진하며 하드웨어(GPU)에서 소프트웨어 플랫폼(Model Hub)으로 이어지는 완벽한 수직 계열화에 나섰습니다. CUDA 락인을 넘어선 NIM 마이크로서비스 통합, 오픈소스 모델 배포 파이프라인 독점, 그리고 빅테크 클라우드(CSP)에 미칠 지각변동을 심층 분석"
 labels:
   - 테크딥다이브
   - 엔비디아

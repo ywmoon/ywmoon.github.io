@@ -2,7 +2,7 @@
 id: 2026-09-23-august-megafarm-deepdive
 title: "[테크 딥다이브] 랙당 100kW 시대의 필연: 엔비디아 NVL72 규격과 2.5MW 대용량 CDU 기반 D2C 액체냉각 아키텍처 분석"
 date: 2026-09-23
-time: "05:57"
+time: "06:00"
 category: Tech Deep Dive
 status: published
 summary: "생성형 AI 모델의 매개변수가 조 단위를 넘어서고 학습·추론 클러스터가 초고집적화되면서, 데이터센터 인프라는 전례 없는 열역학적 한계선에 직면했습니다. 엔비디아 블랙웰(Blackwell) 아키텍처 기반 GB200 NVL72 랙이 120kW~132kW에 달하는 극단적인 전력 밀도를 요구함에 따라, 지난 수십 년간 엔터프라이즈 전산실을 지탱해 온 공랭식(Air"

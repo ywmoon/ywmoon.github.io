@@ -2,7 +2,7 @@
 id: 2026-09-28-infra-glossary
 title: "[인프라 용어사전] 칠러 (Chiller) - AI 고밀도 데이터센터의 열을 외부로 방출하는 중앙 냉각 플랜트의 심장"
 date: 2026-09-28
-time: "05:59"
+time: "06:00"
 category: Terminology
 status: published
 summary: "냉각 인프라 아키텍처 칠러 (Chiller) : 중앙 냉동 설비 초고집적 AI 랙에서 발생한 대규모 열에너지를 냉매 사이클을 통해 외부로 방출하고, 정밀하게 제어된 저온 냉수를 공급하는 중앙 냉각 플랜트의 핵심 장비 📌 1. 30초 핵심 요약 & 개념 정의 데이터센터 칠러(Chiller, 냉동기)는 상변화(Phase Change) 냉매 사이클을 활용하여 열"

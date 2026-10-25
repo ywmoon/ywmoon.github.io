@@ -1,11 +1,11 @@
 ---
 id: 2026-08-25-daily-infraops-briefing
-title: "[2026.08.25] 오늘의 글로벌 클라우드 & 데이터센터 인프라 핵심 동향 브리핑"
+title: "[2026.08.25] 글로벌 인프라 브리핑: 차세대 아키텍처와 에이전틱 AI 워크로드 & 하이퍼스케일러의 전력·부지 확보전 가속"
 date: 2026-08-25
-time: "05:45"
+time: "05:49"
 category: Daily Briefing
 status: published
-summary: "📌 오늘의 3대 핵심 관전 포인트 (Key Highlights)차세대 아키텍처와 에이전틱 AI 워크로드: 엔비디아의 베라 루빈(Vera Rubin) 및 블랙웰(Blackwell) 아키텍처가 장기 컨텍스트 및 멀티스텝 추론 부하에 대응해 메가와트(MW)당 처리 효율을 대폭 끌어올린 반면, 고대역폭 메모리(HBM) 가격 상승으로 서버 공급 단가가 최대 17% "
+summary: "📌 오늘의 3대 핵심 관전 포인트 (Key Highlights)차세대 아키텍처와 에이전틱 AI 워크로드: 엔비디아의 베라 루빈(Vera Rubin) 및 블랙웰(Blackwell) 아키텍처가 장기 컨텍스트 및 멀티스텝 추론 부하에 대응해 메가와트(MW)당 처리 효율을 대폭 끌어올린 반면, 고대역폭 메모리(HBM) 가격 상승으로 서버 공급 단가가 최대 17%"
 labels:
   - AWS
   - 엔비디아

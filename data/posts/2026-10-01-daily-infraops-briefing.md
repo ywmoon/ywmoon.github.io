@@ -1,11 +1,11 @@
 ---
 id: 2026-10-01-daily-infraops-briefing
-title: "[2026.10.01] 오늘의 글로벌 클라우드 & 데이터센터 인프라 핵심 동향 브리핑"
+title: "[2026.10.01] 글로벌 인프라 브리핑: 빅테크 자체 반도체 생태계의 IP 내재화 & 초고밀도 액체 냉각 기반 차세대 GPU 클라우드 가속"
 date: 2026-10-01
-time: "05:54"
+time: "05:58"
 category: Daily Briefing
 status: published
-summary: "Daily InfraOps Digest 글로벌 클라우드 및 데이터센터 인프라 테크 리포트 발행일: 2026년 10월 1일 | 대상: 인프라 아키텍트, 시스템 엔지니어, 기술 의사결정권자 📌 오늘의 3대 핵심 관전 포인트 (Key Highlights) 빅테크 자체 반도체 생태계의 IP 내재화: AWS가 전자설계자동화(EDA) 및 반도체 설계자산(IP) 선도 "
+summary: "Daily InfraOps Digest 글로벌 클라우드 및 데이터센터 인프라 테크 리포트 발행일: 2026년 10월 1일 | 대상: 인프라 아키텍트, 시스템 엔지니어, 기술 의사결정권자 📌 오늘의 3대 핵심 관전 포인트 (Key Highlights) 빅테크 자체 반도체 생태계의 IP 내재화: AWS가 전자설계자동화(EDA) 및 반도체 설계자산(IP) 선도"
 labels:
   - AWS
   - 클라우드

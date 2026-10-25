@@ -2,7 +2,7 @@
 id: 2026-09-18-august-megafarm-deepdive
 title: "[테크 딥다이브] 데이터 사일로를 넘는 에이전틱 AI: 세일즈포스-AWS-구글 연합과 멀티클라우드 제로 ETL 아키텍처 분석"
 date: 2026-09-18
-time: "05:53"
+time: "05:56"
 category: Tech Deep Dive
 status: published
 summary: "📌 엔지니어링 브리프 요약 생성형 AI 패러다임이 단순 질의응답형 챗봇에서 다단계 작업을 자율 수행하는 '에이전틱 AI(Agentic AI)'로 급격히 전환되면서, 분산된 엔터프라이즈 데이터의 물리적 이동 없이 실시간 접근을 보장하는 '제로 ETL(Zero-ETL) 양방향 페더레이션'과 '멀티클라우드 크로스 추론 파이프라인'이 핵심 인프라 과제로 부상했습니"

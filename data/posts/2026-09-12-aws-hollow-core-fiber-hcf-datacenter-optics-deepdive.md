@@ -2,10 +2,10 @@
 id: 2026-09-12-aws-hollow-core-fiber-hcf-datacenter-optics-deepdive
 title: "[테크 딥다이브] GPU 백만 개를 묶는 빛의 혁명: AWS·MS·엔비디아가 올인하는 '중공심 광섬유(HCF)'와 초저지연 DCI 공학"
 date: 2026-09-12
-time: "11:00"
+time: "11:03"
 category: Tech Deep Dive
 status: published
-summary: "한국 언론 최초로 공개된 미국 마운틴뷰 AWS 네트워킹 랩의 중공심 광섬유(HCF) 기술을 완벽하게 심층 분석합니다. 유리 코어 대신 공기(진공)로 빛을 통과시켜 굴절률 한계를 극복하고 전송 속도를 초당 30만km(광속 99.7%)로 끌어올린 HCF의 마이크로스트럭처, km당 3.3µs 초저지연 메커니즘, 100만 GPU '프로젝트 레이니어(Project Rainier)'의 분산 All-Reduce 통신 병목 제거, 코닝·루메니시티·코히어런트·루멘텀과의 글로벌 광통신 밸류체인 및 1.6T 광모듈 연동까지 팩트와 수치 기반으로 완벽 해부합니다."
+summary: "한국 언론 최초로 공개된 미국 마운틴뷰 AWS 네트워킹 랩의 중공심 광섬유(HCF) 기술을 완벽하게 심층 분석합니다. 유리 코어 대신 공기(진공)로 빛을 통과시켜 굴절률 한계를 극복하고 전송 속도를 초당 30만km(광속 99.7%)로 끌어올린 HCF의 마이크로스트럭처, km당 3.3µs 초저지연 메커니즘, 100만 GPU '프로젝트 레이니어(Project "
 labels:
   - 테크딥다이브
   - HCF
@@ -125,7 +125,8 @@ updated: "2026-09-12 11:00"
           <td style='padding: 12px 14px; border: 1px solid #E2E8F0; font-weight: 600;'>중심 코어(Core) 매질</td>
           <td style='padding: 12px 14px; border: 1px solid #E2E8F0;'>고순도 실리카 유리 ($GeO_2-SiO_2$)</td>
           <td style='padding: 12px 14px; border: 1px solid #E2E8F0; color: #0284C7; font-weight: 700;'>공기 / 진공 중공심 (Air Core)</td>
-          <td style='padding: 12px 14px; border: 1px solid #E2E8F0;'>굴절률 $1.468 ightarrow 1.0003$ 혁신</td>
+          <td style='padding: 12px 14px; border: 1px solid #E2E8F0;'>굴절률 $1.468 
+ightarrow 1.0003$ 혁신</td>
         </tr>
         <tr style='background-color: #F8FAFC;'>
           <td style='padding: 12px 14px; border: 1px solid #E2E8F0; font-weight: 600;'>매질 내 유효 광속 (v)</td>

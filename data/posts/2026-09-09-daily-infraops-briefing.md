@@ -1,8 +1,8 @@
 ---
 id: 2026-09-09-daily-infraops-briefing
-title: "[2026.09.09] 오늘의 글로벌 클라우드 & 데이터센터 인프라 핵심 동향 브리핑"
+title: "[2026.09.09] 글로벌 인프라 브리핑: CXL 기반 데이터센터 단일 칩화 및 신흥 지역 거점 다변화"
 date: 2026-09-09
-time: "05:55"
+time: "05:59"
 category: Daily Briefing
 status: published
 summary: "DAILY INFRA DIGEST 글로벌 클라우드 & 데이터센터 인프라 핵심 동향 브리핑 발행일자: 2026년 9월 9일 | 인프라 아키텍처·에너지 그리드·실리콘 생태계 심층 분석 📌 오늘의 3대 핵심 관전 포인트 (Key Highlights) 빅테크-팹리스 간 조 단위 지분 연계(Equity Warrant)와 맞춤형 추론 실리콘 동맹: AWS가 퀄컴과 향"

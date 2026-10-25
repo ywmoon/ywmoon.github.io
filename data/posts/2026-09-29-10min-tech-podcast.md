@@ -2,10 +2,10 @@
 id: 2026-09-29-10min-tech-podcast
 title: "[2026.09.29] [10-Min English Podcast] High-Density Liquid Cooling DBO Standard, ASEAN Power Clash, and the Grid Saturation Shock"
 date: 2026-09-29
-time: "05:52"
+time: "05:54"
 category: Podcast
 status: published
-summary: "🎧 10-MIN TECH ENGLISH PODCAST [2026.09.29] [10-Min English Podcast] High-Density Liquid Cooling DBO Standard, ASEAN Power Clash, and the Grid Saturation Shock 오늘의 10분 심층 팟캐스트는 현대엔지니어링의 8,700억 원 규모 군산 "
+summary: "오늘의 10분 심층 팟캐스트는 현대엔지니어링의 8,700억 원 규모 군산 SGC AI 데이터센터 수주와 KT클라우드의 국내 최초 엔비디아 베라 루빈 대응 액체냉각 DBO 모델 안착, 싱가포르 DCWA 2026을 무대로 한 42조 원 규모 아세안 전력·냉각 솔루션 격돌, 슈나이더 일렉트릭의 무단절 소프트웨어 정의 배전반 혁신과 국내외 전력망 계통 연계 병목 "
 labels:
   - EnglishPodcast
   - TechEnglish
@@ -17,8 +17,7 @@ labels:
   - 전력망
 ---
 
-
-    <div style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; line-height: 1.8; color: #1E293B; max-width: 820px; margin: 0 auto;">
+<div style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; line-height: 1.8; color: #1E293B; max-width: 820px; margin: 0 auto;">
         
         <!-- Podcast Hero Audio Player Card -->
         <div style="background: linear-gradient(135deg, #0F172A 0%, #1E293B 100%); border-radius: 12px; padding: 24px 28px; margin-bottom: 28px; color: #FFFFFF; box-shadow: 0 4px 12px rgba(0,0,0,0.15); border-top: 4px solid #38BDF8;">

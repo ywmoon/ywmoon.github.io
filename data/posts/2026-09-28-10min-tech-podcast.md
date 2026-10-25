@@ -2,10 +2,10 @@
 id: 2026-09-28-10min-tech-podcast
 title: "[2026.09.28] [10-Min English Podcast] Physical Warfare Hardening, Amazon's $8B Generator Warrants, and Mega-Watt Liquid Cooling"
 date: 2026-09-28
-time: "05:59"
+time: "06:01"
 category: Podcast
 status: published
-summary: "🎧 10-MIN TECH ENGLISH PODCAST [2026.09.28] [10-Min English Podcast] Physical Warfare Hardening, Amazon's $8B Generator Warrants, and Mega-Watt Liquid Cooling 오늘의 10분 심층 팟캐스트는 현대 하이브리드전에서 군사 표적으로 부상한 우"
+summary: "오늘의 10분 심층 팟캐스트는 현대 하이브리드전에서 군사 표적으로 부상한 우크라이나 데이터센터 피격 사태와 대드론 다층 방어 체계 구축, 공공 전력망 병목에 대응한 아마존과 제너랙의 80억 달러 백업 발전기 공급 및 주식 워런트 계약, 미 에너지부의 대규모 송전망 확충 투자, 엔비디아 NPN 프리퍼드 파트너로 등재된 LG전자의 2.5MW급 '칩 투 칠러' "
 labels:
   - EnglishPodcast
   - TechEnglish
@@ -16,8 +16,7 @@ labels:
   - 액체냉각
 ---
 
-
-    <div style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; line-height: 1.8; color: #1E293B; max-width: 820px; margin: 0 auto;">
+<div style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; line-height: 1.8; color: #1E293B; max-width: 820px; margin: 0 auto;">
         
         <!-- Podcast Hero Audio Player Card -->
         <div style="background: linear-gradient(135deg, #0F172A 0%, #1E293B 100%); border-radius: 12px; padding: 24px 28px; margin-bottom: 28px; color: #FFFFFF; box-shadow: 0 4px 12px rgba(0,0,0,0.15); border-top: 4px solid #38BDF8;">

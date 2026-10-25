@@ -2,10 +2,10 @@
 id: 2026-09-15-10min-tech-podcast
 title: "[2026.09.15] [10-Min English Podcast] Mega CapEx Liquidity Divergence, Grid Prefinancing Clashes, 800VDC Distribution, and Regulatory Moratoria"
 date: 2026-09-15
-time: "05:53"
+time: "05:55"
 category: Podcast
 status: published
-summary: "🎧 10-MIN TECH ENGLISH PODCAST [2026.09.15] [10-Min English Podcast] Mega CapEx Liquidity Divergence, Grid Prefinancing Clashes, 800VDC Distribution, and Regulatory Moratoria 오늘의 10분 심층 팟캐스트는 2026년 9월 "
+summary: "오늘의 10분 심층 팟캐스트는 2026년 9월 15일 글로벌 데이터센터 및 AI 인프라 산업의 4대 핵심 축을 집중 분석합니다. 첫째, 메타의 캐나다 앨버타 130억 캐나다 달러 투자 및 유타 확장, 아마존의 2,200억 달러 투자와 퀄컴 제휴, 블랙스톤의 구글 TPU 50억 달러 출자 등 메가 CapEx 흐름과 더불어 98% GPU 가동률에도 1,250억"
 labels:
   - EnglishPodcast
   - TechEnglish
@@ -16,8 +16,7 @@ labels:
   - 액체냉각
 ---
 
-
-    <div style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; line-height: 1.8; color: #1E293B; max-width: 820px; margin: 0 auto;">
+<div style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; line-height: 1.8; color: #1E293B; max-width: 820px; margin: 0 auto;">
         
         <!-- Podcast Hero Audio Player Card -->
         <div style="background: linear-gradient(135deg, #0F172A 0%, #1E293B 100%); border-radius: 12px; padding: 24px 28px; margin-bottom: 28px; color: #FFFFFF; box-shadow: 0 4px 12px rgba(0,0,0,0.15); border-top: 4px solid #38BDF8;">

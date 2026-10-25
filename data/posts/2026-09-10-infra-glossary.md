@@ -2,10 +2,10 @@
 id: 2026-09-10-infra-glossary
 title: "[인프라 용어사전] PPA (Power Purchase Agreement) - AI 하이퍼스케일러의 무탄소 전력 직도입과 기저부하 확보 메커니즘"
 date: 2026-09-10
-time: "05:57"
+time: "05:58"
 category: Terminology
 status: published
-summary: "📌 1. 30초 핵심 요약 & 개념 정의 PPA(Power Purchase Agreement, 전력구매계약)는 데이터센터를 운영하는 대규모 전력 수용가(소비 기업)와 전력 발전 사업자(원자력, 신재생에너지 발전사 등)가 사전에 합의된 고정 단가와 계약 기간(통상 10년~25년)을 바탕으로 전력을 직접 거래하는 장기 전력 조달 계약 아키텍처입니다. 일반 상업"
+summary: "PPA(Power Purchase Agreement, 전력구매계약)는 데이터센터를 운영하는 대규모 전력 수용가(소비 기업)와 전력 발전 사업자(원자력, 신재생에너지 발전사 등)가 사전에 합의된 고정 단가와 계약 기간(통상 10년~25년)을 바탕으로 전력을 직접 거래하는 장기 전력 조달 계약 아키텍처입니다. 일반 상업"
 labels:
   - 인프라용어사전
   - IT백과사전

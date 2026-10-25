@@ -2,10 +2,10 @@
 id: 2026-09-22-10min-tech-podcast
 title: "[2026.09.22] [10-Min English Podcast] Grid Moratoriums, Prefabricated Fast-Tracking, and the High-Voltage Direct-Current Frontier"
 date: 2026-09-22
-time: "05:48"
+time: "05:50"
 category: Podcast
 status: published
-summary: "🎧 10-MIN TECH ENGLISH PODCAST [2026.09.22] [10-Min English Podcast] Grid Moratoriums, Prefabricated Fast-Tracking, and the High-Voltage Direct-Current Frontier 오늘의 10분 심층 팟캐스트는 텍사스의 신규 데이터센터 인허가 전면 중단"
+summary: "오늘의 10분 심층 팟캐스트는 텍사스의 신규 데이터센터 인허가 전면 중단 조치와 캘리포니아의 7대 규제 법안 서명, 미국 전역에서 680억 달러 규모의 프로젝트가 좌초된 배경과 S&P 글로벌의 한국 기업 1,200조 원 투자에 따른 신용등급 강등 경고를 집중 분석합니다. 이어 현대건설의 포항 40MW AI 데이터센터 16.5개월 초단기 착공과 PC(Prec"
 labels:
   - EnglishPodcast
   - TechEnglish
@@ -16,8 +16,7 @@ labels:
   - 액체냉각
 ---
 
-
-    <div style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; line-height: 1.8; color: #1E293B; max-width: 820px; margin: 0 auto;">
+<div style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; line-height: 1.8; color: #1E293B; max-width: 820px; margin: 0 auto;">
         
         <!-- Podcast Hero Audio Player Card -->
         <div style="background: linear-gradient(135deg, #0F172A 0%, #1E293B 100%); border-radius: 12px; padding: 24px 28px; margin-bottom: 28px; color: #FFFFFF; box-shadow: 0 4px 12px rgba(0,0,0,0.15); border-top: 4px solid #38BDF8;">

@@ -2,10 +2,10 @@
 id: 2026-08-27-aidc-grid-code-power-strategy
 title: "AI 전력망 쇼크를 막아라: 정부의 인공지능 데이터센터(AIDC) 그리드코드 수립과 전력계통 접속 전략"
 date: 2026-08-27
-time: "21:50"
+time: "21:53"
 category: Tech Deep Dive
 status: published
-summary: "초거대 LLM 학습·추론 과정에서 발생하는 0.001초(ms) 단위 MW급 전력 급변(Bursty Load)과 GW급 하이퍼스케일 전력 수요에 대응하기 위해, 기후에너지환경부가 2026년 연내 'AIDC 전용 그리드코드(Grid-Code)' 수립에 착수했습니다. 고립계통 특수성을 고려한 고장감내(FRT), 램프레이트 제어, UPS/BESS의 초고속 주파수 응답(FFR) 자원화, 국내 언론 보도 종합 분석 및 미국 FERC/NERC·IEEE의 최신 글로벌 규제 동향을 전면 심층 분석합니다."
+summary: "초거대 LLM 학습·추론 과정에서 발생하는 0.001초(ms) 단위 MW급 전력 급변(Bursty Load)과 GW급 하이퍼스케일 전력 수요에 대응하기 위해, 기후에너지환경부가 2026년 연내 'AIDC 전용 그리드코드(Grid-Code)' 수립에 착수했습니다. 고립계통 특수성을 고려한 고장감내(FRT), 램프레이트 제어, UPS/BESS의 초고속 주파수 "
 labels:
   - 테크딥다이브
   - AI데이터센터

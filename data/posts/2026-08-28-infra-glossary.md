@@ -2,10 +2,10 @@
 id: 2026-08-28-infra-glossary
 title: "[인프라 용어사전] RoCE (RDMA over Converged Ethernet) - 대규모 AI GPU 클러스터의 초저지연 백본 네트워크"
 date: 2026-08-28
-time: "06:03"
+time: "06:04"
 category: Terminology
 status: published
-summary: "📌 1. 30초 핵심 요약 & 개념 정의 RoCE(RDMA over Converged Ethernet, 로키)는 표준 이더넷(Ethernet) 네트워크 환경에서 운영체제(OS) 커널을 거치지 않고 서버 간 메모리를 직접 읽고 쓸 수 있게 해주는 초저지연·고대역폭 전송 기술입니다. 전통적인 TCP/IP 통신에서는 데이터 송수신 시 CPU가 인터럽트를 처리하고"
+summary: "RoCE(RDMA over Converged Ethernet, 로키)는 표준 이더넷(Ethernet) 네트워크 환경에서 운영체제(OS) 커널을 거치지 않고 서버 간 메모리를 직접 읽고 쓸 수 있게 해주는 초저지연·고대역폭 전송 기술입니다. 전통적인 TCP/IP 통신에서는 데이터 송수신 시 CPU가 인터럽트를 처리하고"
 labels:
   - 인프라용어사전
   - IT백과사전

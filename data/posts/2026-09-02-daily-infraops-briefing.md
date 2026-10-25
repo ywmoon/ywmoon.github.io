@@ -2,7 +2,7 @@
 id: 2026-09-02-daily-infraops-briefing
 title: "[2026.09.02] 글로벌 클라우드 & 데이터센터 인프라 핵심 동향 브리핑"
 date: 2026-09-02
-time: "05:56"
+time: "06:00"
 category: Daily Briefing
 status: published
 summary: "📌 오늘의 3대 핵심 관전 포인트 (Key Highlights) 엔비디아의 상면·컴퓨팅 중개 모델과 350억 달러 메가딜: 엔비디아가 텍사스 헛8 데이터센터 상면을 직접 리스하고 지분 투자사인 람다(Lambda)를 통해 앤트로픽에 GPU를 공급하는 다각적 오프밸런스 파이낸싱 구조를 본격화했습니다. 이달 초 엔스케일과의 450억 달러 계약에 이어 AI 스타트"

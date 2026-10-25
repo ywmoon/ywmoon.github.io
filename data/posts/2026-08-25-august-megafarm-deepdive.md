@@ -2,7 +2,7 @@
 id: 2026-08-25-august-megafarm-deepdive
 title: "[테크 딥다이브] GPU 품귀와 전력 한계의 대안, 이종 AI 가속기(GPU·NPU) 통합 오케스트레이션 아키텍처 분석"
 date: 2026-08-25
-time: "05:45"
+time: "05:48"
 category: Tech Deep Dive
 status: published
 summary: "🚀 서론: 단일 GPU 의존도의 한계와 이종 컴퓨팅 전환 엔터프라이즈 AI 모델의 매개변수 규모가 조(Trillion) 단위로 확장됨에 따라 데이터센터의 인프라 요구량은 지수함수적으로 증가하고 있습니다. 엔비디아의 데이터센터 부문 매출이 전년 대비 100% 이상 급증하는 시장 지표는 생성형 AI 워크로드를 감당하기 위한 고성능 가속기 수요의 폭발성을 명확히"

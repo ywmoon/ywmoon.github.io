@@ -2,10 +2,10 @@
 id: 2026-09-23-infra-glossary
 title: "[인프라 용어사전] L2L 냉각 (Liquid-to-Liquid Cooling) - 메가와트급 AI 데이터센터를 지탱하는 액체 대 액체 열교환 아키텍처"
 date: 2026-09-23
-time: "05:57"
+time: "05:58"
 category: Terminology
 status: published
-summary: "📌 1. 30초 핵심 요약 & 개념 정의 L2L(Liquid-to-Liquid) 냉각은 고집적 IT 랙 내부의 발열체(GPU, CPU, 메모리)에서 열을 흡수한 2차 냉각 유체(IT 장비 측 루프)의 열에너지를, 냉각수 분배 장치(CDU, Coolant Distribution Unit) 내 판형 열교환기(Plate Heat Exchanger)를 통해 건물 "
+summary: "L2L(Liquid-to-Liquid) 냉각은 고집적 IT 랙 내부의 발열체(GPU, CPU, 메모리)에서 열을 흡수한 2차 냉각 유체(IT 장비 측 루프)의 열에너지를, 냉각수 분배 장치(CDU, Coolant Distribution Unit) 내 판형 열교환기(Plate Heat Exchanger)를 통해 건물"
 labels:
   - 인프라용어사전
   - IT백과사전

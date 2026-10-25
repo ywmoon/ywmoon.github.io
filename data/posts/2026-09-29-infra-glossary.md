@@ -2,10 +2,10 @@
 id: 2026-09-29-infra-glossary
 title: "[인프라 용어사전] 랙 스케일 아키텍처 (Rack-Scale Architecture) - 개별 서버를 넘어 랙 전체를 단일 컴퓨터로 통합하는 초고밀도 AI 인프라의 표준"
 date: 2026-09-29
-time: "05:52"
+time: "05:53"
 category: Terminology
 status: published
-summary: "1일 1 IT 인프라 용어사전 랙 스케일 아키텍처 (Rack-Scale Architecture) 개별 1U/2U 서버 섀시 단위를 탈피하여 랙(Rack) 전체를 단일 컴퓨팅 노드로 묶어내는 차세대 초고밀도 인프라 엔지니어링 패러다임 📌 1. 30초 핵심 요약 & 개념 정의 직관적 비유: 과거의 데이터센터가 개별 PC 수십 대를 책상 위에 올려두고 랜선으로 "
+summary: "1일 1 IT 인프라 용어사전 랙 스케일 아키텍처 (Rack-Scale Architecture) 개별 1U/2U 서버 섀시 단위를 탈피하여 랙(Rack) 전체를 단일 컴퓨팅 노드로 묶어내는 차세대 초고밀도 인프라 엔지니어링 패러다임 📌 1. 30초 핵심 요약 & 개념 정의 직관적 비유: 과거의 데이터센터가 개별 PC 수십 대를 책상 위에 올려두고 랜선으로"
 labels:
   - 인프라용어사전
   - IT백과사전

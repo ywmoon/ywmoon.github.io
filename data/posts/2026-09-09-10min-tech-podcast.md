@@ -2,10 +2,10 @@
 id: 2026-09-09-10min-tech-podcast
 title: "[2026.09.09] [10-Min English Podcast] The Sixty-Billion-Dollar Silicon Alliance, Nuclear Baseload Capitalization, and Mounting Grid Security Fractures"
 date: 2026-09-09
-time: "05:55"
+time: "05:57"
 category: Podcast
 status: published
-summary: "🎧 10-MIN TECH ENGLISH PODCAST [2026.09.09] [10-Min English Podcast] The Sixty-Billion-Dollar Silicon Alliance, Nuclear Baseload Capitalization, and Mounting Grid Security Fractures 오늘의 10분 심층 팟캐스트는 퀄컴"
+summary: "오늘의 10분 심층 팟캐스트는 퀄컴과 아마존웹서비스(AWS)의 최대 600억 달러 규모 맞춤형 AI 칩 및 신주인수권 연계 파트너십과 메타-파네시아의 CXL 패브릭 메모리 풀링 혁신, 미국 에너지부(DOE)의 두웨인 아놀드 원전 재가동 19억 달러 대출 및 홀텍(Holtec)의 9억 달러 규모 IPO 추진, 오픈AI의 말레이시아 연산 용량 확보와 9GW 가"
 labels:
   - EnglishPodcast
   - TechEnglish
@@ -17,8 +17,7 @@ labels:
   - CXL
 ---
 
-
-    <div style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; line-height: 1.8; color: #1E293B; max-width: 820px; margin: 0 auto;">
+<div style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; line-height: 1.8; color: #1E293B; max-width: 820px; margin: 0 auto;">
         
         <!-- Podcast Hero Audio Player Card -->
         <div style="background: linear-gradient(135deg, #0F172A 0%, #1E293B 100%); border-radius: 12px; padding: 24px 28px; margin-bottom: 28px; color: #FFFFFF; box-shadow: 0 4px 12px rgba(0,0,0,0.15); border-top: 4px solid #38BDF8;">

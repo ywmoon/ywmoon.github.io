@@ -2,10 +2,10 @@
 id: 2026-09-21-10min-tech-podcast
 title: "[2026.09.21] [10-Min English Podcast] Navigating Data Center Moratoriums, Neo-Cloud Liquidity, Magnetic Chillers, and Sovereign Compute"
 date: 2026-09-21
-time: "05:54"
+time: "05:56"
 category: Podcast
 status: published
-summary: "🎧 10-MIN TECH ENGLISH PODCAST [2026.09.21] [10-Min English Podcast] Navigating Data Center Moratoriums, Neo-Cloud Liquidity, Magnetic Chillers, and Sovereign Compute 오늘의 10분 심층 팟캐스트는 글로벌 데이터센터 인프라를 강타"
+summary: "오늘의 10분 심층 팟캐스트는 글로벌 데이터센터 인프라를 강타한 4대 핵심 축을 집중 분석합니다. 첫째, 버지니아주의 자동 인허가(By-right) 폐지 추진, 트럼프 행정부의 6개 주 국유지 개방에 대한 강력한 정치적 역풍, 오하이오주 125개 이상의 모라토리엄 및 서울 용산 아파트 인근 규제 조례 등 전력 독점과 가계 전기료 상승에 따른 글로벌 규제 장"
 labels:
   - EnglishPodcast
   - TechEnglish
@@ -18,8 +18,7 @@ labels:
   - 모듈러데이터센터
 ---
 
-
-    <div style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; line-height: 1.8; color: #1E293B; max-width: 820px; margin: 0 auto;">
+<div style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; line-height: 1.8; color: #1E293B; max-width: 820px; margin: 0 auto;">
         
         <!-- Podcast Hero Audio Player Card -->
         <div style="background: linear-gradient(135deg, #0F172A 0%, #1E293B 100%); border-radius: 12px; padding: 24px 28px; margin-bottom: 28px; color: #FFFFFF; box-shadow: 0 4px 12px rgba(0,0,0,0.15); border-top: 4px solid #38BDF8;">

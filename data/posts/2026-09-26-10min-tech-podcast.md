@@ -2,10 +2,10 @@
 id: 2026-09-26-10min-tech-podcast
 title: "[2026.09.26] [10-Min English Podcast] Force Majeure Contagion in AI Power Queues, Orbital TPU Compute, Sovereign Megadeals, and the 800V DC Transition"
 date: 2026-09-26
-time: "00:10"
+time: "00:12"
 category: Podcast
 status: published
-summary: "🎧 10-MIN TECH ENGLISH PODCAST [2026.09.26] [10-Min English Podcast] Force Majeure Contagion in AI Power Queues, Orbital TPU Compute, Sovereign Megadeals, and the 800V DC Transition 오늘의 10분 심층 팟캐스트는 전력"
+summary: "오늘의 10분 심층 팟캐스트는 전력망 송전 지연으로 1,650억 달러 규모의 오라클 뉴멕시코 '프로젝트 주피터'에서 발동된 불가항력(Force Majeure) 선언과 월가 180억 달러 PF 대출로의 금융 리스크 전이, 지상 전력망 한계를 돌파하기 위한 구글 '선캐처' 우주 궤도 TPU 데이터센터 실증 및 아카마이-앤트로픽 116억 달러 계약과 1.6T 광"
 labels:
   - EnglishPodcast
   - TechEnglish
@@ -17,8 +17,7 @@ labels:
   - 액체냉각
 ---
 
-
-    <div style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; line-height: 1.8; color: #1E293B; max-width: 820px; margin: 0 auto;">
+<div style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; line-height: 1.8; color: #1E293B; max-width: 820px; margin: 0 auto;">
         
         <!-- Podcast Hero Audio Player Card -->
         <div style="background: linear-gradient(135deg, #0F172A 0%, #1E293B 100%); border-radius: 12px; padding: 24px 28px; margin-bottom: 28px; color: #FFFFFF; box-shadow: 0 4px 12px rgba(0,0,0,0.15); border-top: 4px solid #38BDF8;">

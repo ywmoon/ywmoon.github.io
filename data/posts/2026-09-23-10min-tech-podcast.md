@@ -2,10 +2,10 @@
 id: 2026-09-23-10min-tech-podcast
 title: "[2026.09.23] [10-Min English Podcast] The Megawatt Shift: Liquid Cooling Alliances, Nuclear Uprates, and the 20GW Infrastructure Frontier"
 date: 2026-09-23
-time: "05:57"
+time: "05:59"
 category: Podcast
 status: published
-summary: "🎧 10-MIN TECH ENGLISH PODCAST [2026.09.23] [10-Min English Podcast] The Megawatt Shift: Liquid Cooling Alliances, Nuclear Uprates, and the 20GW Infrastructure Frontier 오늘의 10분 심층 팟캐스트는 AI 팩토리 전력·발열 한계"
+summary: "오늘의 10분 심층 팟캐스트는 AI 팩토리 전력·발열 한계 극복을 위한 글로벌 인프라 하드웨어 및 에너지 생태계 재편을 집중 분석합니다. LG전자의 2.5MW 대용량 액체냉각 CDU 엔비디아 규격 승인 및 마이크로소프트와의 레드먼드 인프라 동맹, 구글의 조지아 파워 원전 96MW 터빈 출력 증강(Uprate) 직접 투자와 삼성물산·HD현대중공업의 글로벌 S"
 labels:
   - EnglishPodcast
   - TechEnglish
@@ -16,8 +16,7 @@ labels:
   - 액체냉각
 ---
 
-
-    <div style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; line-height: 1.8; color: #1E293B; max-width: 820px; margin: 0 auto;">
+<div style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; line-height: 1.8; color: #1E293B; max-width: 820px; margin: 0 auto;">
         
         <!-- Podcast Hero Audio Player Card -->
         <div style="background: linear-gradient(135deg, #0F172A 0%, #1E293B 100%); border-radius: 12px; padding: 24px 28px; margin-bottom: 28px; color: #FFFFFF; box-shadow: 0 4px 12px rgba(0,0,0,0.15); border-top: 4px solid #38BDF8;">

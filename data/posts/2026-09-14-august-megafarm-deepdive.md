@@ -2,7 +2,7 @@
 id: 2026-09-14-august-megafarm-deepdive
 title: "[테크 딥다이브] 비디오 파운데이션 모델의 클라우드 흡수: AWS 베드록-트웰브랩스 연동이 촉발한 엔터프라이즈 멀티모달 RAG 인프라 재편"
 date: 2026-09-14
-time: "06:01"
+time: "06:04"
 category: Tech Deep Dive
 status: published
 summary: "엔터프라이즈 데이터의 80% 이상을 차지하는 비정형 비디오 자산은 그동안 막대한 스토리지 비용 대비 검색 및 분석 효율이 극히 낮은 '다크 데이터(Dark Data)'로 분류되어 왔습니다. 최근 한국 AI 스타트업 트웰브랩스의 영상 특화 파운데이션 모델 '마렝고(Marengo)'가 아마존 베드록 지식 기반(Knowledge Bases for Amazon B"

@@ -1,8 +1,8 @@
 ---
 id: 2026-08-26-daily-infraops-briefing
-title: "[2026.08.26] 오늘의 글로벌 클라우드 & 데이터센터 인프라 핵심 동향 브리핑"
+title: "[2026.08.26] 글로벌 인프라 브리핑: 스페이스X-엔비디아 연합의 우주 궤도 AI 데이터센터 로드맵 & 국내 AI 고속도로 사업 가시화 및 B300 대규모 공급 계약"
 date: 2026-08-26
-time: "04:56"
+time: "05:00"
 category: Daily Briefing
 status: published
 summary: "Daily InfraOps Digest 차세대 가속기 도입 가속화와 인프라 입지 패러다임의 확장 발행일자: 2026년 8월 26일 | 작성: 글로벌 IT·데이터센터 인프라 수석 에디터 📌 오늘의 3대 핵심 관전 포인트 (Key Highlights) 스페이스X-엔비디아 연합의 우주 궤도 AI 데이터센터 로드맵: 스페이스X가 엔비디아 차세대 '베라 루빈(Ver"

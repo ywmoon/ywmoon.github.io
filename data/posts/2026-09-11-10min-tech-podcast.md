@@ -2,10 +2,10 @@
 id: 2026-09-11-10min-tech-podcast
 title: "[2026.09.11] [10-Min English Podcast] NVIDIA's 2GW Australian Alliance, SK's Industrial AI Full-Stack, and the Physics of Cooling and Power Bottlenecks"
 date: 2026-09-11
-time: "05:54"
+time: "05:56"
 category: Podcast
 status: published
-summary: "🎧 10-MIN TECH ENGLISH PODCAST [2026.09.11] [10-Min English Podcast] NVIDIA's 2GW Australian Alliance, SK's Industrial AI Full-Stack, and the Physics of Cooling and Power Bottlenecks 오늘의 10분 심층 팟캐스트는 엔"
+summary: "오늘의 10분 심층 팟캐스트는 엔비디아가 호주 8개 파트너사와 2027년까지 2GW 규모의 AI 팩토리를 조성하고 구글이 핀란드에서 130억 유로 규모의 22년 원전 PPA를 체결한 소버린·기저전원 확보 전략을 분석합니다. 이어 SK그룹 최태원 회장의 7조 원 규모 울산 AIDC 및 CLX 정유공장 점검을 통한 15GW AI 풀스택 추진과 SKT의 개발(하"
 labels:
   - EnglishPodcast
   - TechEnglish
@@ -18,8 +18,7 @@ labels:
   - 데이터센터인프라
 ---
 
-
-    <div style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; line-height: 1.8; color: #1E293B; max-width: 820px; margin: 0 auto;">
+<div style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; line-height: 1.8; color: #1E293B; max-width: 820px; margin: 0 auto;">
         
         <!-- Podcast Hero Audio Player Card -->
         <div style="background: linear-gradient(135deg, #0F172A 0%, #1E293B 100%); border-radius: 12px; padding: 24px 28px; margin-bottom: 28px; color: #FFFFFF; box-shadow: 0 4px 12px rgba(0,0,0,0.15); border-top: 4px solid #38BDF8;">

@@ -2,7 +2,7 @@
 id: 2026-09-29-august-megafarm-deepdive
 title: "[테크 딥다이브] 전력 계통 연계 5년 병목과 오프그리드 아키텍처: 빅테크가 현장 발전과 궤도 컴퓨팅으로 눈을 돌리는 공학적 이유"
 date: 2026-09-29
-time: "05:52"
+time: "05:55"
 category: Tech Deep Dive
 status: published
 summary: "Executive Summary: 인공지능 가속기 클러스터의 전력 수요가 기가와트(GW) 단위로 급증하면서, 공공 유틸리티 전력망의 계통 연계 사전 검토(Interconnection Queue)에만 4~7년이 소요되는 물리적 병목이 현실화되었습니다. 반도체 조달 주기(6~12개월)와 전력망 인입 주기 간의 극심한 시차는 빅테크 기업들로 하여금 송전망을 경유"

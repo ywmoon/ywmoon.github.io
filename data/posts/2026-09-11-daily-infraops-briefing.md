@@ -1,8 +1,8 @@
 ---
 id: 2026-09-11-daily-infraops-briefing
-title: "[2026.09.11] 오늘의 글로벌 클라우드 & 데이터센터 인프라 핵심 동향 브리핑"
+title: "[2026.09.11] 글로벌 인프라 브리핑: 원전 직결 PPA와 사모펀드 자본 집행의 명암 & 추론 특화 실리콘과 광학 네트워킹으로의 전환"
 date: 2026-09-11
-time: "05:54"
+time: "05:58"
 category: Daily Briefing
 status: published
 summary: "Daily InfraOps Digest 글로벌 하이퍼스케일러 전력·실리콘 다각화와 인프라 리드타임 병목 발행일: 2026년 9월 11일 | 분석 대상: 글로벌 클라우드 CSP, 팹리스 반도체 및 데이터센터 전력망 동향 📌 오늘의 3대 핵심 관전 포인트 (Key Highlights) 원전 직결 PPA와 사모펀드 자본 집행의 명암: 구글이 핀란드 하미나 캠퍼스"

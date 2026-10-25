@@ -2,7 +2,7 @@
 id: 2026-10-02-august-megafarm-deepdive
 title: "[테크 딥다이브] 네오클라우드(Neocloud)의 부상과 엔비디아 풀스택 레퍼런스 아키텍처: 하이퍼스케일러 과점을 흔드는 GPU 특화 인프라의 경제학과 기술 생태계"
 date: 2026-10-02
-time: "05:56"
+time: "05:59"
 category: Tech Deep Dive
 status: published
 summary: "인공지능 워크로드가 대규모 사전 학습(Pre-training) 중심에서 24시간 무중단 실시간 추론(Inference) 서비스로 급격히 전환되면서, 글로벌 컴퓨팅 인프라의 물리적·경제적 구조가 근본적인 재편을 겪고 있습니다. 기존 아마존웹서비스(AWS), 마이크로소프트 애저(Azure), 구글 클라우드(GCP)로 대변되는 전통적 하이퍼스케일러는 다중 임대("

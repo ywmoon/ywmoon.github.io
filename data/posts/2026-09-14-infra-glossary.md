@@ -2,7 +2,7 @@
 id: 2026-09-14-infra-glossary
 title: "[인프라 용어사전] BYOP (Bring Your Own Power) - 38GW 전력 대란 속 빅테크가 자체 발전소를 직결하는 아키텍처"
 date: 2026-09-14
-time: "06:01"
+time: "06:02"
 category: Terminology
 status: published
 summary: "Architecture Standard 인프라 분류: 전력 계통 및 분산 에너지 아키텍처 BYOP (Bring Your Own Power, 자가 발전 조달 모델) 초대형 AI 데이터센터 증설 과정에서 공용 전력망(Public Grid)의 송전 용량 배정과 수전 변전소 인입 공사의 극심한 병목을 우회하기 위해, 데이터센터 부지 내에 자체 발전 설비를 구축하거"

@@ -2,10 +2,10 @@
 id: 2026-08-29-hbf-high-bandwidth-flash-memory-tiering
 title: "[테크 딥다이브] HBM의 한계를 넘어서: 초거대 추론 시대를 위한 'HBF(High Bandwidth Flash)'와 CXL 3.1 계층형 메모리 아키텍처"
 date: 2026-08-29
-time: "07:32"
+time: "07:35"
 category: Tech Deep Dive
 status: published
-summary: "초장문(Long-context) 및 자율 에이전트 시대가 열리며 KV 캐시 급증으로 인한 '메모리 월(Memory Wall)'이 심화되고 있습니다. DRAM 기반 HBM의 극심한 가격/용량 한계를 극복하기 위해 부상한 고대역폭 낸드 플래시 'HBF(High Bandwidth Flash)'와 CXL 3.1 기반 계층형 메모리(Tiered Memory) 아키텍처를 엔지니어링 및 TCO 관점에서 심층 분석합니다."
+summary: "초장문(Long-context) 및 자율 에이전트 시대가 열리며 KV 캐시 급증으로 인한 '메모리 월(Memory Wall)'이 심화되고 있습니다. DRAM 기반 HBM의 극심한 가격/용량 한계를 극복하기 위해 부상한 고대역폭 낸드 플래시 'HBF(High Bandwidth Flash)'와 CXL 3.1 기반 계층형 메모리(Tiered Memory) 아키텍"
 labels:
   - 테크딥다이브
   - 반도체

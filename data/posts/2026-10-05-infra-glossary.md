@@ -2,7 +2,7 @@
 id: 2026-10-05-infra-glossary
 title: "[인프라 용어사전] CSPM (Cloud Security Posture Management) - 클라우드 인프라 설정 오류와 컴플라이언스를 자동 검증하는 아키텍처"
 date: 2026-10-05
-time: "05:56"
+time: "05:57"
 category: Terminology
 status: published
 summary: "Cloud Infrastructure & Security CSPM (Cloud Security Posture Management) 퍼블릭 클라우드 전반의 리소스 구성 상태를 실시간 스캔하여 잘못된 설정(Misconfiguration)과 컴플라이언스 위반을 자동 탐지·교정하는 핵심 클라우드 인프라 거버넌스 아키텍처 📌 1. 30초 핵심 요약 & 개념 정의 💡"

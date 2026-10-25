@@ -2,24 +2,23 @@
 id: 2026-08-31-10min-tech-podcast
 title: "[2026.08.31] [10-Min English Podcast] Navigating GPU Debt Syndication, Captive Power Mandates, and 200kW Liquid Cooling Resilience"
 date: 2026-08-31
-time: "06:08"
+time: "06:10"
 category: Podcast
 status: published
-summary: "🎧 10-MIN TECH ENGLISH PODCAST [2026.08.31] [10-Min English Podcast] Navigating GPU Debt Syndication, Captive Power Mandates, and 200kW Liquid Cooling Resilience 오늘의 10분 심층 팟캐스트는 엔비디아의 AI 클라우드 수익 공유 금융"
+summary: "오늘의 10분 심층 팟캐스트는 엔비디아의 AI 클라우드 수익 공유 금융 프로그램 보류와 아이렌(IREN)의 34억 달러 사모 부채 조달 및 SK호라이즌 3조 원 유치 등 자본 구조 재편을 심층 분석합니다. 아울러 델라웨어주의 자체 전력 조달(BYOP) 법제화와 스페이스X의 텍사스 가스터빈 블레이드 자체 파운드리 구축, LG CNS 삼송 200kW급 DTC "
 labels:
   - EnglishPodcast
   - TechEnglish
   - 비즈니스영어
   - AWS
-  - Nvidia
+  - NVIDIA
   - AI인프라
   - 데이터센터
   - 액체냉각
   - 전력망
 ---
 
-
-    <div style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; line-height: 1.8; color: #1E293B; max-width: 820px; margin: 0 auto;">
+<div style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; line-height: 1.8; color: #1E293B; max-width: 820px; margin: 0 auto;">
 
         <!-- Podcast Hero Audio Player Card -->
         <div style="background: linear-gradient(135deg, #0F172A 0%, #1E293B 100%); border-radius: 12px; padding: 24px 28px; margin-bottom: 28px; color: #FFFFFF; box-shadow: 0 4px 12px rgba(0,0,0,0.15); border-top: 4px solid #38BDF8;">

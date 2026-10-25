@@ -1,8 +1,8 @@
 ---
 id: 2026-10-02-daily-infraops-briefing
-title: "[2026.10.02] 오늘의 글로벌 클라우드 & 데이터센터 인프라 핵심 동향 브리핑"
+title: "[2026.10.02] 글로벌 인프라 브리핑: 아마존-콘스텔레이션 에너지의 20년 원전 PPA 체결 & 엔비디아 생태계 중심 고밀도 냉각 공급망 재편"
 date: 2026-10-02
-time: "05:56"
+time: "06:00"
 category: Daily Briefing
 status: published
 summary: "Daily InfraOps Digest | Global Cloud & Data Center Intelligence 글로벌 AI 데이터센터 인프라 동향: 기저부하 원전 20년 장기계약, 랙 냉각 아키텍처 생태계 재편 및 자체 가속기 동맹 2026년 10월 2일 기준 글로벌 클라우드 제공업체(CSP), 전력 유틸리티, 냉각 솔루션 제조사 및 AI 인프라 스타트"

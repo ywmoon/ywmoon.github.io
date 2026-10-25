@@ -2,7 +2,7 @@
 id: 2026-09-01-infra-glossary
 title: "[인프라 용어사전] DPU (Data Processing Unit) - 호스트 연산 자원과 인프라 오버헤드를 분리하는 차세대 프로세서"
 date: 2026-09-01
-time: "05:46"
+time: "05:47"
 category: Terminology
 status: published
 summary: "Infrastructure Architecture DPU (Data Processing Unit, 데이터 처리 장치) 서버 호스트 CPU/GPU가 연산 본연에만 집중할 수 있도록 네트워크 가상화, 보안 암호화, 스토리지 입출력 등 인프라 전반의 제어 플레인을 전담 처리하는 독립형 가속 SoC 아키텍처 📌 1. 30초 핵심 요약 & 개념 정의 DPU(Data"

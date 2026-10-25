@@ -2,10 +2,10 @@
 id: 2026-09-14-10min-tech-podcast
 title: "[2026.09.14] [10-Min English Podcast] Hyperscale Compute Acceleration, Marine Floating Topologies, SMR Baselines, and Ratepayer Regulatory Pushback"
 date: 2026-09-14
-time: "06:01"
+time: "06:03"
 category: Podcast
 status: published
-summary: "🎧 10-MIN TECH ENGLISH PODCAST [2026.09.14] [10-Min English Podcast] Hyperscale Compute Acceleration, Marine Floating Topologies, SMR Baselines, and Ratepayer Regulatory Pushback 오늘의 10분 심층 팟캐스트는 글로벌 데"
+summary: "오늘의 10분 심층 팟캐스트는 글로벌 데이터센터 인프라를 뒤흔드는 4대 핵심 축을 집중 분석합니다. 첫째, 서버 부족에 따른 고객 이탈을 방어하기 위해 2032년까지 38GW 확충 로드맵을 수립한 마이크로소프트, 분기 CapEx를 285억 달러로 대폭 상향하고 20%의 계약 갱신 프리미엄을 부과한 오라클, 300만 개 GPU 조달용 500억 달러 채권을 발"
 labels:
   - EnglishPodcast
   - TechEnglish
@@ -16,8 +16,7 @@ labels:
   - 액체냉각
 ---
 
-
-    <div style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; line-height: 1.8; color: #1E293B; max-width: 820px; margin: 0 auto;">
+<div style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; line-height: 1.8; color: #1E293B; max-width: 820px; margin: 0 auto;">
         
         <!-- Podcast Hero Audio Player Card -->
         <div style="background: linear-gradient(135deg, #0F172A 0%, #1E293B 100%); border-radius: 12px; padding: 24px 28px; margin-bottom: 28px; color: #FFFFFF; box-shadow: 0 4px 12px rgba(0,0,0,0.15); border-top: 4px solid #38BDF8;">

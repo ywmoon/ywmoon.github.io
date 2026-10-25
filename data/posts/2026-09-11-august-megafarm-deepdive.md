@@ -2,7 +2,7 @@
 id: 2026-09-11-august-megafarm-deepdive
 title: "[테크 딥다이브] 생성형 AI 대중화 이면의 인프라 전쟁: 빅테크의 맞춤형 추론 실리콘(ASIC) 내재화와 TCO 최적화 아키텍처"
 date: 2026-09-11
-time: "05:54"
+time: "05:57"
 category: Tech Deep Dive
 status: published
 summary: "최근 아마존웹서비스(AWS)가 차세대 AI 코딩 도구인 '키로(Kiro)'의 전 세계 학생 무료 배포를 공식화하며 대규모 사용자 기반 확대에 나섰습니다. 그러나 서비스 레이어의 공격적인 확장은 백엔드 데이터센터에 전례 없는 규모의 24/7 지속 추론(Inference) 트래픽을 유입시키는 촉매제입니다. 엔비디아 고성능 GPU 기반의 전통적 인프라가 맞닥뜨린"

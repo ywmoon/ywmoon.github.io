@@ -2,10 +2,10 @@
 id: 2026-09-02-10min-tech-podcast
 title: "[2026.09.02] [10-Min English Podcast] Nvidia's $35B Tripartite Credit Architecture, ERCOT's 700GW Grid Purge, and the High-Density Engineering Frontier"
 date: 2026-09-02
-time: "05:56"
+time: "05:58"
 category: Podcast
 status: published
-summary: "🎧 10-MIN TECH ENGLISH PODCAST [2026.09.02] [10-Min English Podcast] Nvidia's $35B Tripartite Credit Architecture, ERCOT's 700GW Grid Purge, and the High-Density Engineering Frontier 오늘의 10분 심층 팟캐스트는 엔"
+summary: "오늘의 10분 심층 팟캐스트는 엔비디아가 헛8의 350MW 텍사스 데이터센터를 직접 임차해 신용 보강을 제공하고 람다-앤트로픽으로 이어지는 350억 달러 규모 삼각 금융 구조를 분석합니다. 이어 브로드컴의 사설 AI 클라우드 전략, 딥엑스와 AWS의 피지컬 AI 엣지 협력, 롯데이노베이트의 인프라 전환을 다룹니다. 전력망 부문에서는 700GW 허수 수요를 "
 labels:
   - EnglishPodcast
   - TechEnglish
@@ -13,14 +13,13 @@ labels:
   - AI인프라
   - 데이터센터
   - 액체냉각
-  - Nvidia
+  - NVIDIA
   - Anthropic
   - 초전도
   - 전력망
 ---
 
-
-    <div style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; line-height: 1.8; color: #1E293B; max-width: 820px; margin: 0 auto;">
+<div style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; line-height: 1.8; color: #1E293B; max-width: 820px; margin: 0 auto;">
         
         <!-- Podcast Hero Audio Player Card -->
         <div style="background: linear-gradient(135deg, #0F172A 0%, #1E293B 100%); border-radius: 12px; padding: 24px 28px; margin-bottom: 28px; color: #FFFFFF; box-shadow: 0 4px 12px rgba(0,0,0,0.15); border-top: 4px solid #38BDF8;">

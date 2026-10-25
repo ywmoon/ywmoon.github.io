@@ -1,8 +1,8 @@
 ---
 id: 2026-09-08-daily-infraops-briefing
-title: "[2026.09.08] 오늘의 글로벌 클라우드 & 데이터센터 인프라 핵심 동향 브리핑"
+title: "[2026.09.08] 글로벌 인프라 브리핑: 앤트로픽의 1,000억 달러(약 135조 원) AWS 컴퓨팅 약정 & 빅테크와 에너지 대기업의 초장기 결합 (셰브론-MS 20년 PPA)"
 date: 2026-09-08
-time: "06:11"
+time: "06:15"
 category: Daily Briefing
 status: published
 summary: "Daily InfraOps Digest 2026년 9월 8일 브리핑 글로벌 AI 클라우드 100조 원대 약정 경쟁과 차세대 인프라 생태계 재편 초대형 컴퓨팅 파이프라인 장기 선점, 에너지 기업과의 20년 PPA, 고효율 폐루프 냉각 및 모듈러 공법을 둘러싼 엔지니어링 쟁점 분석 📌 오늘의 3대 핵심 관전 포인트 (Key Highlights) 앤트로픽의 1,"

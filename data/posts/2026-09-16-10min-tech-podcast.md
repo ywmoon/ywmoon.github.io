@@ -2,10 +2,10 @@
 id: 2026-09-16-10min-tech-podcast
 title: "[2026.09.16] [10-Min English Podcast] Kinetic Cloud Casualties, Gigawatt Physical AI Deployments, and the Race for Megawatt-to-Token Computational Efficiency"
 date: 2026-09-16
-time: "05:53"
+time: "05:55"
 category: Podcast
 status: published
-summary: "🎧 10-MIN TECH ENGLISH PODCAST [2026.09.16] [10-Min English Podcast] Kinetic Cloud Casualties, Gigawatt Physical AI Deployments, and the Race for Megawatt-to-Token Computational Efficiency 오늘의 10분 심층 팟"
+summary: "오늘의 10분 심층 팟캐스트는 글로벌 데이터센터 인프라를 뒤흔드는 4대 핵심 축을 심층 분석합니다. 첫째, KT클라우드의 1GW 청사진 및 6조 원 투자, 140kW급 고밀도 연산과 현대차 스팟 로봇을 활용한 피지컬 AI 자율 관제, 캐나다 벨의 1.2GW 확장과 삼성SDS 구미 60MW 착공 및 앤트로픽 파트너십을 다룹니다. 둘째, 이란 공습으로 인한 A"
 labels:
   - EnglishPodcast
   - TechEnglish
@@ -19,8 +19,7 @@ labels:
   - 효성중공업
 ---
 
-
-    <div style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; line-height: 1.8; color: #1E293B; max-width: 820px; margin: 0 auto;">
+<div style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; line-height: 1.8; color: #1E293B; max-width: 820px; margin: 0 auto;">
         
         <!-- Podcast Hero Audio Player Card -->
         <div style="background: linear-gradient(135deg, #0F172A 0%, #1E293B 100%); border-radius: 12px; padding: 24px 28px; margin-bottom: 28px; color: #FFFFFF; box-shadow: 0 4px 12px rgba(0,0,0,0.15); border-top: 4px solid #38BDF8;">

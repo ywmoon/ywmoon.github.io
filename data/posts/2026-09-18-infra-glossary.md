@@ -2,7 +2,7 @@
 id: 2026-09-18-infra-glossary
 title: "[인프라 용어사전] SMR (Small Modular Reactor) - 송전망 병목과 전력비 규제를 돌파하는 AI 데이터센터 온사이트 기저전원"
 date: 2026-09-18
-time: "05:53"
+time: "05:54"
 category: Terminology
 status: published
 summary: "전력 인프라 아키텍처 SMR (Small Modular Reactor, 소형 모듈 원자로) 공공 전력망 대기열과 계통 보강 규제를 우회하여 AI 데이터센터에 24/7 무탄소 기저전력을 직결하는 차세대 분산 원자력 발전 시스템 📌 1. 30초 핵심 요약 & 개념 정의 직관적 비유: 수백 킬로미터 떨어진 대형 댐에서 긴 송수관로를 통해 물을 끌어오는 중앙 집중"

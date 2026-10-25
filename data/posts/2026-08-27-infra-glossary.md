@@ -2,10 +2,10 @@
 id: 2026-08-27-infra-glossary
 title: "[인프라 용어사전] PUE (Power Usage Effectiveness) - 데이터센터 전력 효율의 절대 기준"
 date: 2026-08-27
-time: "06:02"
+time: "06:03"
 category: Terminology
 status: published
-summary: "📌 1. 30초 핵심 요약 & 개념 정의 PUE (Power Usage Effectiveness, 전력 사용 효율성)는 데이터센터 전체가 소비하는 총 전력량 중 서버, 스토리지, 네트워크 스위치 등 실제 IT 장비가 순수하게 소비하는 전력의 비율을 정량화한 글로벌 표준 에너지 효율 지표입니다. 2007년 글로벌 비영리 컨소시엄 그린 그리드(The Green"
+summary: "PUE (Power Usage Effectiveness, 전력 사용 효율성)는 데이터센터 전체가 소비하는 총 전력량 중 서버, 스토리지, 네트워크 스위치 등 실제 IT 장비가 순수하게 소비하는 전력의 비율을 정량화한 글로벌 표준 에너지 효율 지표입니다. 2007년 글로벌 비영리 컨소시엄 그린 그리드(The Green"
 labels:
   - 인프라용어사전
   - IT백과사전

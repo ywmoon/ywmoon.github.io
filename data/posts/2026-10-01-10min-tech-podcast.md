@@ -2,7 +2,7 @@
 id: 2026-10-01-10min-tech-podcast
 title: "[2026.10.01] [10-Min English Podcast] Sovereign Claude 5 Rollout, 4MW Modular PMDC, CoreWeave Rubin Deployments, and Grid Cost Politics"
 date: 2026-10-01
-time: "05:54"
+time: "05:56"
 category: Podcast
 status: published
 summary: "🎧 10-MIN TECH ENGLISH PODCAST [2026.10.01] [10-Min English Podcast] Sovereign Claude 5 Rollout, 4MW Modular PMDC, CoreWeave Rubin Deployments, and Grid Cost Politics 2026년 10월 1일 DC InfraOps Daily 브리핑"
@@ -18,8 +18,7 @@ labels:
   - 전력망인프라
 ---
 
-
-    <div style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; line-height: 1.8; color: #1E293B; max-width: 820px; margin: 0 auto;">
+<div style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; line-height: 1.8; color: #1E293B; max-width: 820px; margin: 0 auto;">
         
         <!-- Podcast Hero Audio Player Card -->
         <div style="background: linear-gradient(135deg, #0F172A 0%, #1E293B 100%); border-radius: 12px; padding: 24px 28px; margin-bottom: 28px; color: #FFFFFF; box-shadow: 0 4px 12px rgba(0,0,0,0.15); border-top: 4px solid #38BDF8;">

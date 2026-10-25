@@ -2,7 +2,7 @@
 id: 2026-09-21-infra-glossary
 title: "[인프라 용어사전] 멀티 리전 액티브-액티브 (Multi-Region Active-Active) - 물리적 재난에도 무중단을 보장하는 글로벌 분산 아키텍처"
 date: 2026-09-21
-time: "05:54"
+time: "05:55"
 category: Terminology
 status: published
 summary: "Cloud & Infrastructure Architecture 멀티 리전 액티브-액티브 (Multi-Region Active-Active) 단일 가용 영역(AZ)을 넘어 지리적으로 완전히 격리된 복수 리전 간 트래픽을 상시 분산 처리하고 무중단 복원력을 확보하는 최고 등급의 분산 클라우드 아키텍처 📌 1. 30초 핵심 요약 & 개념 정의 💡 직관적 비유로"

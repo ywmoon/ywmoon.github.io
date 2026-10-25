@@ -2,10 +2,10 @@
 id: 2026-09-30-10min-tech-podcast
 title: "[2026.09.30] [10-Min English Podcast] Full-Stack Turnkey Alliances, Sovereign Defense Cloud, Nuclear SMR Licensing, and 800V DC Infrastructure"
 date: 2026-09-30
-time: "05:54"
+time: "05:56"
 category: Podcast
 status: published
-summary: "🎧 10-MIN TECH ENGLISH PODCAST [2026.09.30] [10-Min English Podcast] Full-Stack Turnkey Alliances, Sovereign Defense Cloud, Nuclear SMR Licensing, and 800V DC Infrastructure 오늘의 10분 심층 팟캐스트는 글로벌 AI 인프라"
+summary: "오늘의 10분 심층 팟캐스트는 글로벌 AI 인프라 생태계를 재편하는 4대 핵심 축을 집중 분석합니다. 첫째, 삼성 6개 계열사가 KKR 및 엔비디아와 손잡고 전 AWS CEO가 이끄는 차세대 인프라 기업 헬릭스(Helix)에 10억 달러를 전격 투자하며 부지 개발부터 시공, 냉각, 전력망을 아우르는 '풀스택 턴키 연합체'를 구축한 전략적 의미를 살펴봅니다."
 labels:
   - EnglishPodcast
   - TechEnglish
@@ -22,8 +22,7 @@ labels:
   - 데이터센터
 ---
 
-
-    <div style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; line-height: 1.8; color: #1E293B; max-width: 820px; margin: 0 auto;">
+<div style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; line-height: 1.8; color: #1E293B; max-width: 820px; margin: 0 auto;">
         
         <!-- Podcast Hero Audio Player Card -->
         <div style="background: linear-gradient(135deg, #0F172A 0%, #1E293B 100%); border-radius: 12px; padding: 24px 28px; margin-bottom: 28px; color: #FFFFFF; box-shadow: 0 4px 12px rgba(0,0,0,0.15); border-top: 4px solid #38BDF8;">

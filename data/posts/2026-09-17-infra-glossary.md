@@ -2,10 +2,10 @@
 id: 2026-09-17-infra-glossary
 title: "[인프라 용어사전] 그리드 인터랙티브 데이터센터 (Grid-Interactive Data Center) - 전력망 유연성 자원으로 진화하는 차세대 AI 전력 아키텍처"
 date: 2026-09-17
-time: "05:54"
+time: "05:55"
 category: Terminology
 status: published
-summary: "📌 1. 30초 핵심 요약 & 개념 정의 그리드 인터랙티브 데이터센터(Grid-Interactive Data Center, GIDC)는 송전망(전기 계통)으로부터 전력을 일방적으로 공급받아 소모하던 기존의 수동적 부하(Passive Load) 모델에서 벗어나, 전력망의 주파수, 전압, 실시간 수급 상태를 감지하여 IT 연산 부하와 전력 인프라를 능동적으로 "
+summary: "그리드 인터랙티브 데이터센터(Grid-Interactive Data Center, GIDC)는 송전망(전기 계통)으로부터 전력을 일방적으로 공급받아 소모하던 기존의 수동적 부하(Passive Load) 모델에서 벗어나, 전력망의 주파수, 전압, 실시간 수급 상태를 감지하여 IT 연산 부하와 전력 인프라를 능동적으로"
 labels:
   - 인프라용어사전
   - IT백과사전

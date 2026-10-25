@@ -2,7 +2,7 @@
 id: 2026-09-07-infra-glossary
 title: "[인프라 용어사전] 800V DC 랙 아키텍처 (800V DC Rack Architecture) - 메가와트급 AI 랙의 전력 손실과 구리 병목을 돌파하는 차세대 전력 배전 규격"
 date: 2026-09-07
-time: "05:12"
+time: "05:13"
 category: Terminology
 status: published
 summary: "Tech Glossary · Power Distribution 800V DC 랙 아키텍처 (800V DC Rack Architecture) AI 가속기 랙의 소비 전력이 메가와트(MW) 단위로 폭증함에 따라, 전력 전송 시 발생하는 도체 발열과 구리 버스바 무게를 물리적으로 감축하기 위해 도입되는 차세대 고전압 직류 배전 아키텍처 📌 1. 30초 핵심 요약"

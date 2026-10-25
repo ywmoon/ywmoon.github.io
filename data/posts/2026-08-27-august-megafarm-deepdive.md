@@ -2,7 +2,7 @@
 id: 2026-08-27-august-megafarm-deepdive
 title: "[테크 딥다이브] 금융·법률 특화 엔터프라이즈 AI 인프라: 결정론적 데이터 그라운딩과 기밀 컴퓨팅(Confidential Computing) 아키텍처 분석"
 date: 2026-08-27
-time: "06:02"
+time: "06:05"
 category: Tech Deep Dive
 status: published
 summary: "Enterprise AI Infrastructure 금융·법률 도메인 생성형 AI의 인프라 전환: 비결정론적 모델 한계 극복을 위한 검증형 데이터 파이프라인과 하드웨어 격리 아키텍처 구글 클라우드의 도메인 특화 제미나이 엔터프라이즈 릴리즈와 금융 데이터 직결 파이프라인을 중심으로, 엔터프라이즈 AI 스택이 직면한 환각 제어, 데이터 주권 보호, 추론 레이턴"

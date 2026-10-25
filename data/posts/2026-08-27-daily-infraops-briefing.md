@@ -2,7 +2,7 @@
 id: 2026-08-27-daily-infraops-briefing
 title: "[2026.08.27] 글로벌 인프라 브리핑: 빅테크 전력망 수용성 규제, 엔비디아 풀스택 엣지 확장, AWS DuckLabs 인수"
 date: 2026-08-27
-time: "06:02"
+time: "06:06"
 category: Daily Briefing
 status: published
 summary: "Daily InfraOps Digest 글로벌 클라우드 & 데이터센터 인프라 핵심 동향 브리핑 2026년 8월 27일 | 작성: IT 인프라 수석 테크 에디터 📌 오늘의 3대 핵심 관전 포인트 (Key Highlights) 전력망 인입 병목과 지역사회 수용성(Grid Congestion & Public Consent): 마이크로소프트의 위스콘신 대규모 캠퍼"

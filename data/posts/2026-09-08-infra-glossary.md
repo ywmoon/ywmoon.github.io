@@ -2,7 +2,7 @@
 id: 2026-09-08-infra-glossary
 title: "[인프라 용어사전] PMDC (Prefabricated Modular Data Center) - 현장 타설을 넘어 공장 표준화 조립으로 공기를 50% 단축하는 AI 전산실 아키텍처"
 date: 2026-09-08
-time: "06:11"
+time: "06:12"
 category: Terminology
 status: published
 summary: "Infrastructure Tech Glossary 분류: 데이터센터 하드웨어 & 건축 엔지니어링 PMDC (Prefabricated Modular Data Center) 현장에서 철근 콘크리트 골조를 올리고 배관을 용접하던 전통적 건축 방식을 탈피하여, 전력·냉각·IT 랙 모듈을 통제된 공장에서 80% 이상 사전 제작(Pre-fabrication) 및 사"

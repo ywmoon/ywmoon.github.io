@@ -2,10 +2,10 @@
 id: 2026-09-12-fervo-energy-egs-google-geothermal-power-datacenter
 title: "[테크 딥다이브] 빅테크의 24/7 무탄소 기저부하 해법: 구글이 1GW를 점찍은 '차세대 강화지열발전(EGS)'과 AIDC 전력 공학"
 date: 2026-09-12
-time: "09:30"
+time: "09:33"
 category: Tech Deep Dive
 status: published
-summary: "AI 데이터센터의 폭발적인 전력 수요를 해결할 궁극의 무탄소 기저부하(Baseload)로 '차세대 강화지열발전(EGS)'이 급부상하고 있습니다. 구글과 1GW 규모 역사상 최대 PPA를 체결한 퍼보 에너지(Fervo Energy)의 수평 시추 및 와인랙(Wine-rack) 저류층 공학, 광섬유 DAS 음향 감지, SMR 대비 3~5배 빠른 공기 단축 및 MWh당 100달러대 발전단가(LCOE) 경제학을 심층 해부합니다."
+summary: "AI 데이터센터의 폭발적인 전력 수요를 해결할 궁극의 무탄소 기저부하(Baseload)로 '차세대 강화지열발전(EGS)'이 급부상하고 있습니다. 구글과 1GW 규모 역사상 최대 PPA를 체결한 퍼보 에너지(Fervo Energy)의 수평 시추 및 와인랙(Wine-rack) 저류층 공학, 광섬유 DAS 음향 감지, SMR 대비 3~5배 빠른 공기 단축 및 M"
 labels:
   - 테크딥다이브
   - 지열발전

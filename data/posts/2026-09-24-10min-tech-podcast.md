@@ -2,10 +2,10 @@
 id: 2026-09-24-10min-tech-podcast
 title: "[2026.09.24] [10-Min English Podcast] High-Density Cooling Breakthroughs, SMR Nuclear Fleets, 1GW Direct AI Leases, and Rising Permitting Moratoria"
 date: 2026-09-24
-time: "09:37"
+time: "09:39"
 category: Podcast
 status: published
-summary: "🎧 10-MIN TECH ENGLISH PODCAST [2026.09.24] [10-Min English Podcast] High-Density Cooling Breakthroughs, SMR Nuclear Fleets, 1GW Direct AI Leases, and Rising Permitting Moratoria 오늘의 10분 심층 팟캐스트는 AI 전력"
+summary: "오늘의 10분 심층 팟캐스트는 AI 전력 및 발열 한계 돌파를 위한 차세대 하드웨어/에너지 아키텍처 및 전 세계적 인허가 규제 이슈를 다룹니다. 1. 슈퍼마이크로의 1,152개 AI 가속기 탑재 엔비디아 베라 루빈 NVL72 액체냉각(DLC) 랙 출하 및 슈나이더 일렉트릭의 혼합형 CDU 출시, LG전자-SK엔무브의 액침냉각·저탄소 냉매 공동 개발 동맹. "
 labels:
   - EnglishPodcast
   - TechEnglish
@@ -16,8 +16,7 @@ labels:
   - 액체냉각
 ---
 
-
-    <div style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; line-height: 1.8; color: #1E293B; max-width: 820px; margin: 0 auto;">
+<div style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; line-height: 1.8; color: #1E293B; max-width: 820px; margin: 0 auto;">
         
         <!-- Podcast Hero Audio Player Card -->
         <div style="background: linear-gradient(135deg, #0F172A 0%, #1E293B 100%); border-radius: 12px; padding: 24px 28px; margin-bottom: 28px; color: #FFFFFF; box-shadow: 0 4px 12px rgba(0,0,0,0.15); border-top: 4px solid #38BDF8;">

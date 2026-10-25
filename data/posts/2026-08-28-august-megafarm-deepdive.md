@@ -2,7 +2,7 @@
 id: 2026-08-28-august-megafarm-deepdive
 title: "[테크 딥다이브] AWS 200만 GPU 배치와 초고밀도 인프라: 에이전틱 AI 시대의 전력·냉각·네트워크 엔지니어링 분석"
 date: 2026-08-28
-time: "06:03"
+time: "06:06"
 category: Tech Deep Dive
 status: published
 summary: "아마존웹서비스(AWS)가 엔비디아와 차세대 GPU 200만 개 공급 계약을 체결하며 글로벌 AI 인프라 확충에 나섰습니다. 이번 투자는 단순한 가속기 수량의 확장이 아니라, 자율형 에이전트(Agentic AI)와 물리 기반 AI(Physical AI) 처리를 위해 데이터센터의 전력 밀도, 액체 냉각 메커니즘, 엑사스케일 인터커넥트 아키텍처를 전면 재설계해야"

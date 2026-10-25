@@ -2,7 +2,7 @@
 id: 2026-10-05-august-megafarm-deepdive
 title: "[테크 딥다이브] 공유 책임 모델의 경계를 넘어: AWS SIP 프레임워크와 하이퍼스케일 클라우드 보안 아키텍처의 패러다임 전환"
 date: 2026-10-05
-time: "05:56"
+time: "05:59"
 category: Tech Deep Dive
 status: published
 summary: "핵심 요약: 국내 대표 OTT 플랫폼 티빙(TVING)의 침해 사고 후속 조치로 추진된 AWS SIP(Security Improvement Program) 도입은 단순한 개별 보안 솔루션의 추가가 아니라, 클라우드 컴퓨팅 태동기부터 유지되어 온 '공유 책임 모델(Shared Responsibility Model)'의 구조적 한계를 극복하려는 아키텍처적 전환"

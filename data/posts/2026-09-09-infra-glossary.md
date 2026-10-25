@@ -2,7 +2,7 @@
 id: 2026-09-09-infra-glossary
 title: "[인프라 용어사전] CXL (Compute Express Link) - 서버 간 메모리 장벽을 허무는 차세대 캐시 일관성 인터커넥트"
 date: 2026-09-09
-time: "05:55"
+time: "05:56"
 category: Terminology
 status: published
 summary: "인프라 핵심 아키텍처 해설 CXL (Compute Express Link): 고속 메모리 풀링과 캐시 일관성의 표준 📌 1. 30초 핵심 요약 & 개념 정의 공식 정의: CXL(Compute Express Link)은 고성능 연산 장치(CPU, GPU, 맞춤형 가속기)와 메모리 디바이스 간의 초저지연 통신 및 하드웨어 기반 캐시 일관성(Cache Coher"

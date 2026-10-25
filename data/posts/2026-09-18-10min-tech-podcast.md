@@ -2,7 +2,7 @@
 id: 2026-09-18-10min-tech-podcast
 title: "[2026.09.18] [10-Min English Podcast] The Grid Paywall, Amazon's $8B Power Play, and the Era of Captive Generation"
 date: 2026-09-18
-time: "05:54"
+time: "05:56"
 category: Podcast
 status: published
 summary: "🎧 10-MIN TECH ENGLISH PODCAST [2026.09.18] [10-Min English Podcast] The Grid Paywall, Amazon's $8B Power Play, and the Era of Captive Generation 2026년 9월 18일 DC InfraOps 데일리 브리핑은 글로벌 AI 인프라를 뒤흔드는 4대 핵"
@@ -17,8 +17,7 @@ labels:
   - SMR
 ---
 
-
-    <div style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; line-height: 1.8; color: #1E293B; max-width: 820px; margin: 0 auto;">
+<div style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; line-height: 1.8; color: #1E293B; max-width: 820px; margin: 0 auto;">
         
         <!-- Podcast Hero Audio Player Card -->
         <div style="background: linear-gradient(135deg, #0F172A 0%, #1E293B 100%); border-radius: 12px; padding: 24px 28px; margin-bottom: 28px; color: #FFFFFF; box-shadow: 0 4px 12px rgba(0,0,0,0.15); border-top: 4px solid #38BDF8;">

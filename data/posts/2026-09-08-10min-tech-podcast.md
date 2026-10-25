@@ -2,10 +2,10 @@
 id: 2026-09-08-10min-tech-podcast
 title: "[2026.09.08] [10-Min English Podcast] The AI Infrastructure Squeeze: Astronomical Compute Pledges, Behind-the-Meter Power, and Midterm Politics"
 date: 2026-09-08
-time: "06:11"
+time: "06:13"
 category: Podcast
 status: published
-summary: "🎧 10-MIN TECH ENGLISH PODCAST [2026.09.08] [10-Min English Podcast] The AI Infrastructure Squeeze: Astronomical Compute Pledges, Behind-the-Meter Power, and Midterm Politics 오늘의 10분 심층 팟캐스트는 2026년 9월 "
+summary: "오늘의 10분 심층 팟캐스트는 2026년 9월 8일 글로벌 및 국내 AI 데이터센터 인프라 지형을 뒤흔든 4대 핵심 축을 심층 분석합니다. 첫째, 앤트로픽의 AWS 1,000억 달러 장기 약정과 누적 5,170억 달러 컴퓨팅 선점, IREN의 대 마이크로소프트 첫 AI 센터 인도, MARA의 맞춤형 빌드투수트(Build-to-Suit) 전략 및 구글의 테라"
 labels:
   - EnglishPodcast
   - TechEnglish
@@ -16,8 +16,7 @@ labels:
   - 액체냉각
 ---
 
-
-    <div style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; line-height: 1.8; color: #1E293B; max-width: 820px; margin: 0 auto;">
+<div style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; line-height: 1.8; color: #1E293B; max-width: 820px; margin: 0 auto;">
 
         <!-- Podcast Hero Audio Player Card -->
         <div style="background: linear-gradient(135deg, #0F172A 0%, #1E293B 100%); border-radius: 12px; padding: 24px 28px; margin-bottom: 28px; color: #FFFFFF; box-shadow: 0 4px 12px rgba(0,0,0,0.15); border-top: 4px solid #38BDF8;">

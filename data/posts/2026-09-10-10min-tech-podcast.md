@@ -2,10 +2,10 @@
 id: 2026-09-10-10min-tech-podcast
 title: "[2026.09.10] [10-Min English Podcast] Nuclear PPAs, Sovereign Silicon, and the Global Data Center Regulatory Backlash"
 date: 2026-09-10
-time: "05:57"
+time: "05:59"
 category: Podcast
 status: published
-summary: "🎧 10-MIN TECH ENGLISH PODCAST [2026.09.10] [10-Min English Podcast] Nuclear PPAs, Sovereign Silicon, and the Global Data Center Regulatory Backlash 오늘의 10분 심층 팟캐스트는 구글의 핀란드 130억 유로 투자 및 포르툼과의 22년 장기 원"
+summary: "오늘의 10분 심층 팟캐스트는 구글의 핀란드 130억 유로 투자 및 포르툼과의 22년 장기 원전 PPA 체결, 아마존의 42억 5,000만 파운드 규모 파운드화 채권 발행 등 빅테크의 초거대 CapEx 파이낸싱 차별화 전략을 심층 분석합니다. 이어 오픈AI와 삼성전자의 맞춤형 AI 반도체 동맹 및 국내 데이터 주권을 위한 온소일 추론 전용 데이터센터 추진,"
 labels:
   - EnglishPodcast
   - TechEnglish
@@ -16,8 +16,7 @@ labels:
   - 액체냉각
 ---
 
-
-    <div style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; line-height: 1.8; color: #1E293B; max-width: 820px; margin: 0 auto;">
+<div style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; line-height: 1.8; color: #1E293B; max-width: 820px; margin: 0 auto;">
         
         <!-- Podcast Hero Audio Player Card -->
         <div style="background: linear-gradient(135deg, #0F172A 0%, #1E293B 100%); border-radius: 12px; padding: 24px 28px; margin-bottom: 28px; color: #FFFFFF; box-shadow: 0 4px 12px rgba(0,0,0,0.15); border-top: 4px solid #38BDF8;">

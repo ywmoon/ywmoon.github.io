@@ -1,8 +1,8 @@
 ---
 id: 2026-09-22-daily-infraops-briefing
-title: "[2026.09.22] 오늘의 글로벌 클라우드 & 데이터센터 인프라 핵심 동향 브리핑"
+title: "[2026.09.22] 글로벌 인프라 브리핑: 송전 선로 손실 최소화 & 국지적 계통 포화 회피"
 date: 2026-09-22
-time: "05:48"
+time: "05:52"
 category: Daily Briefing
 status: published
 summary: "Daily InfraOps Digest 글로벌 클라우드 & 데이터센터 인프라 핵심 기술 동향 발행일: 2026년 9월 22일 | 대상: 인프라 아키텍트, 시스템 엔지니어, 기술 총괄 리더 📌 오늘의 3대 핵심 관전 포인트 (Key Highlights) 엔비디아 차세대 AI 칩 증산과 '전력 인입 병목'에 따른 43조 원 수주 사이클: 가속기 공급 물량이 2"

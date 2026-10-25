@@ -2,10 +2,10 @@
 id: 2026-10-02-10min-tech-podcast
 title: "[2026.10.02] [10-Min English Podcast] Nuclear PPAs, Chip-to-Chiller Turnkey, and Grid Regulatory Halts"
 date: 2026-10-02
-time: "05:56"
+time: "05:58"
 category: Podcast
 status: published
-summary: "🎧 10-MIN TECH ENGLISH PODCAST [2026.10.02] [10-Min English Podcast] Nuclear PPAs, Chip-to-Chiller Turnkey, and Grid Regulatory Halts 오늘의 10분 심층 팟캐스트는 2026년 10월 2일 글로벌 데이터센터 및 전력 인프라 시장을 뒤흔든 4대 핵심 이슈를 "
+summary: "오늘의 10분 심층 팟캐스트는 2026년 10월 2일 글로벌 데이터센터 및 전력 인프라 시장을 뒤흔든 4대 핵심 이슈를 다룹니다. 첫째, 아마존(AWS)이 메릴랜드 캘버트 클리프스 원전에서 690MW 규모의 20년 장기 PPA를 체결하고 30억 달러 규모의 증설 지원 및 2026년 설비투자 가이던스를 2,200억 달러로 상향하며 촉발된 글로벌 기저전원 직접"
 labels:
   - EnglishPodcast
   - TechEnglish
@@ -19,8 +19,7 @@ labels:
   - LS일렉트릭
 ---
 
-
-    <div style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; line-height: 1.8; color: #1E293B; max-width: 820px; margin: 0 auto;">
+<div style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; line-height: 1.8; color: #1E293B; max-width: 820px; margin: 0 auto;">
         
         <!-- Podcast Hero Audio Player Card -->
         <div style="background: linear-gradient(135deg, #0F172A 0%, #1E293B 100%); border-radius: 12px; padding: 24px 28px; margin-bottom: 28px; color: #FFFFFF; box-shadow: 0 4px 12px rgba(0,0,0,0.15); border-top: 4px solid #38BDF8;">

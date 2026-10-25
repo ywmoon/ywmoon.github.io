@@ -2,7 +2,7 @@
 id: 2026-09-01-august-megafarm-deepdive
 title: "[테크 딥다이브] 단일 칩 경쟁에서 랙 스케일(Rack-Scale) 시스템으로: AI 데이터센터 전력 밀도 한계와 D2C 액체 냉각 표준화 분석"
 date: 2026-09-01
-time: "05:46"
+time: "05:49"
 category: Tech Deep Dive
 status: published
 summary: "🚀 서론: 기술 패러다임의 전환과 물리적 한계의 직면 인공지능(AI) 인프라의 발전 축이 개별 반도체 다이(Die)의 연산 성능 개선에서 데이터센터 단위의 '랙 스케일(Rack-Scale) 통합 컴퓨팅'으로 급격히 전환되고 있습니다. 대규모 언어 모델(LLM)과 멀티모달 파운데이션 모델의 매개변수가 수조 개 단위로 팽창함에 따라, 단일 가속기(GPU/NPU"

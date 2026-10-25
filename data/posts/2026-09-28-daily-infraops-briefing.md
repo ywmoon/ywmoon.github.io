@@ -2,7 +2,7 @@
 id: 2026-09-28-daily-infraops-briefing
 title: "[2026.09.28] 데일리 인프라 종합 리포트: 칩 투 칠러 액체냉각 승인부터 아마존-제너랙 80억 달러 전력망 계약까지"
 date: 2026-09-28
-time: "05:59"
+time: "06:03"
 category: Daily Briefing
 status: published
 summary: "Daily InfraOps Digest 글로벌 AI 데이터센터 인프라 동향: 메가와트급 열관리 표준화와 전력 기자재 공급망 선점 경쟁 발행일: 2026년 9월 28일 | 테크 에디터 인프라 분석팀 📌 오늘의 3대 핵심 관전 포인트 (Key Highlights) 액체냉각 생태계 표준화 진입: LG전자가 엔비디아 파트너 네트워크(NPN)의 Preferred 파"

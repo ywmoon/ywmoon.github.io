@@ -2,10 +2,10 @@
 id: 2026-09-12-kaist-panmnesia-meta-cxl-optical-datacenter-architecture
 title: "[테크 딥다이브] 데이터센터 전체를 단일 거대 칩으로: KAIST·파네시아·메타의 CXL 광 패브릭 기반 차세대 AI 데이터센터 아키텍처 분석"
 date: 2026-09-12
-time: "09:00"
+time: "09:03"
 category: Tech Deep Dive
 status: published
-summary: "KAIST 정명수 교수 연구팀과 파네시아(Panmnesia), 미국 메타(Meta)가 세계적 학술지 'Nature Reviews Electrical Engineering'에 게재한 CXL 기반 단일 칩형 차세대 AI 데이터센터 아키텍처를 심층 분석합니다. 960개 가속기를 단일 메모리 공간으로 묶는 CXL-Direct 캐시 일관성, 광통신(Optical I/O) 결합, 나노초(ns)급 지연시간 달성 메커니즘과 인프라 TCO 혁신을 공학적으로 완벽히 해부합니다."
+summary: "KAIST 정명수 교수 연구팀과 파네시아(Panmnesia), 미국 메타(Meta)가 세계적 학술지 'Nature Reviews Electrical Engineering'에 게재한 CXL 기반 단일 칩형 차세대 AI 데이터센터 아키텍처를 심층 분석합니다. 960개 가속기를 단일 메모리 공간으로 묶는 CXL-Direct 캐시 일관성, 광통신(Optical I"
 labels:
   - 테크딥다이브
   - CXL

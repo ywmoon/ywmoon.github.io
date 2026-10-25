@@ -2,7 +2,7 @@
 id: 2026-08-31-daily-infraops-briefing
 title: "[2026.08.31] 글로벌 AI 인프라 브리핑: 엔비디아의 클라우드 파트너십 재편, 하이퍼스케일러 200만 GPU 증설 및 전력·소버린 대응 전략"
 date: 2026-08-31
-time: "06:08"
+time: "06:12"
 category: Daily Briefing
 status: published
 summary: "Daily InfraOps Digest 엔비디아의 AI 클라우드 파이낸싱 재조정과 하이퍼스케일러 전력·인프라 확장 전략 발행일: 2026년 8월 31일 | 작성: 글로벌 IT·데이터센터 인프라 수석 테크 에디터 📌 오늘의 3대 핵심 관전 포인트 (Key Highlights) 엔비디아의 AI 네오클라우드 파이낸싱 재검토와 하이퍼스케일러 락인: 엔비디아가 신흥"

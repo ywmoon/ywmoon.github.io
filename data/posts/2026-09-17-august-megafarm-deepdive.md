@@ -2,10 +2,10 @@
 id: 2026-09-17-august-megafarm-deepdive
 title: "[테크 딥다이브] 하이퍼스케일 클라우드의 물리적 한계: 가용영역(AZ) 설계 결함과 크로스 리전 복원력의 재구성"
 date: 2026-09-17
-time: "05:54"
+time: "05:57"
 category: Tech Deep Dive
 status: published
-summary: "Infrastructure Architecture Analysis 하이퍼스케일 클라우드의 물리적 한계: 가용영역(AZ) 설계 결함과 크로스 리전 복원력의 재구성 중동 하이퍼스케일 시설의 물리적 피격과 영구 데이터 유실 사태가 던진 공학적 경고: 동기식 다중 가용영역(Multi-AZ) 복제의 지리적 반경 한계, 스토리지 어레이 손상 메커니즘, 그리고 데이터 "
+summary: "Infrastructure Architecture Analysis 하이퍼스케일 클라우드의 물리적 한계: 가용영역(AZ) 설계 결함과 크로스 리전 복원력의 재구성 중동 하이퍼스케일 시설의 물리적 피격과 영구 데이터 유실 사태가 던진 공학적 경고: 동기식 다중 가용영역(Multi-AZ) 복제의 지리적 반경 한계, 스토리지 어레이 손상 메커니즘, 그리고 데이터"
 labels:
   - 테크딥다이브
   - 클라우드인프라

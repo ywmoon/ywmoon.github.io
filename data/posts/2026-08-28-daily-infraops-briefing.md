@@ -1,11 +1,11 @@
 ---
 id: 2026-08-28-daily-infraops-briefing
-title: "[2026.08.28] 오늘의 글로벌 클라우드 & 데이터센터 인프라 핵심 동향 브리핑"
+title: "[2026.08.28] 글로벌 인프라 브리핑: 아마존의 엔비디아 GPU 200만 개 도입 및 초대형 CapEx 가속 & 전력망 송전 비용 분담 분쟁과 지자체 개발 모라토리엄 압박"
 date: 2026-08-28
-time: "06:03"
+time: "06:07"
 category: Daily Briefing
 status: published
-summary: "Daily InfraOps Digest 글로벌 클라우드 & 데이터센터 인프라 핵심 동향 브리핑 발행일: 2026년 8월 28일 | IT 인프라·클라우드 아키텍처·데이터센터 전력 및 거버넌스 분석 📌 오늘의 3대 핵심 관전 포인트 (Key Highlights) 아마존의 엔비디아 GPU 200만 개 도입 및 초대형 CapEx 가속: AWS가 차세대 AI 모델 "
+summary: "Daily InfraOps Digest 글로벌 클라우드 & 데이터센터 인프라 핵심 동향 브리핑 발행일: 2026년 8월 28일 | IT 인프라·클라우드 아키텍처·데이터센터 전력 및 거버넌스 분석 📌 오늘의 3대 핵심 관전 포인트 (Key Highlights) 아마존의 엔비디아 GPU 200만 개 도입 및 초대형 CapEx 가속: AWS가 차세대 AI 모델"
 labels:
   - AWS
   - NVIDIA

@@ -2,10 +2,10 @@
 id: 2026-09-12-q3-ai-datacenter-momentum-keyword-analytics
 title: "2026년 3분기 급상승 키워드 TOP 20 & 토픽 연결망 분석"
 date: 2026-09-12
-time: "12:00"
+time: "12:03"
 category: Tech Deep Dive
 status: published
-summary: "2026년 7월부터 9월까지 뉴스 크롤러 마스터 DB에 누적된 총 29만 9,880건의 기사를 전수 분석하여 AIDC 및 클라우드 인프라의 핵심 트렌드 이동을 계량화했습니다. 정규화 보도량 기준 1,007% 폭증한 CXL, 992% 급상승한 울산 AX, 77.5% 증가한 액침냉각(Immersion Cooling), 지열발전(EGS), SMR, 원전, HVDC, 변전소, HCF 광섬유 등 2026년 3분기 핵심 급상승 기술 TOP 20과 5대 토픽 클러스터 네트워크를 A4 45장 이상의 초대형 백서 스케일(약 86,000자 이상)로 완벽히 집대성했습니다."
+summary: "2026년 7월부터 9월까지 뉴스 크롤러 마스터 DB에 누적된 총 29만 9,880건의 기사를 전수 분석하여 AIDC 및 클라우드 인프라의 핵심 트렌드 이동을 계량화했습니다. 정규화 보도량 기준 1,007% 폭증한 CXL, 992% 급상승한 울산 AX, 77.5% 증가한 액침냉각(Immersion Cooling), 지열발전(EGS), SMR, 원전, HVD"
 labels:
   - 테크딥다이브
   - 데이터인사이트

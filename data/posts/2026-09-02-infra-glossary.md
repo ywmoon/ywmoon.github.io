@@ -2,10 +2,10 @@
 id: 2026-09-02-infra-glossary
 title: "[인프라 용어사전] 엣지 NPU (Edge NPU) - 초저전력 피지컬 AI를 구동하는 도메인 특화 반도체 아키텍처"
 date: 2026-09-02
-time: "05:56"
+time: "05:57"
 category: Terminology
 status: published
-summary: "📌 1. 30초 핵심 요약 & 개념 정의 엣지 NPU(Edge Neural Processing Unit)는 수 와트(W) 이하의 극단적인 전력 및 방열 제약이 존재하는 엣지 단말(스마트 팩토리, 자율이동로봇, 지능형 CCTV 등)에서 심층 신경망(DNN)의 추론(Inference) 연산만을 전담 처리하도록 하드웨어 레벨에서 특화 설계된 도메인 특화 프로세서"
+summary: "엣지 NPU(Edge Neural Processing Unit)는 수 와트(W) 이하의 극단적인 전력 및 방열 제약이 존재하는 엣지 단말(스마트 팩토리, 자율이동로봇, 지능형 CCTV 등)에서 심층 신경망(DNN)의 추론(Inference) 연산만을 전담 처리하도록 하드웨어 레벨에서 특화 설계된 도메인 특화 프로세서"
 labels:
   - 인프라용어사전
   - IT백과사전

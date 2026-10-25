@@ -2,7 +2,7 @@
 id: 2026-10-01-infra-glossary
 title: "[인프라 용어사전] 인컨트리 추론 (In-Country Inferencing) - 데이터 주권과 규제 장벽을 넘는 국경 완결형 AI 아키텍처"
 date: 2026-10-01
-time: "05:54"
+time: "05:55"
 category: Terminology
 status: published
 summary: "Cloud & AI Infrastructure 인컨트리 추론 (In-Country Inferencing) 데이터 국외 반출을 원천 차단하고 지정된 국가 리전 경계 내에서 AI 모델 가중치와 연산 파이프라인을 100% 완결하는 엔터프라이즈 인프라 기술 📌 1. 30초 핵심 요약 & 개념 정의 💡 비유로 이해하기 해외 본사나 지사로 기밀 서류 원본을 발송해 결"

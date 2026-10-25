@@ -2,10 +2,10 @@
 id: 2026-08-24-infra-glossary
 title: "[인프라 용어사전] VPP (Virtual Power Plant, 가상발전소) - AI 데이터센터 전력난을 해결하는 분산 에너지 소프트웨어 플랫폼"
 date: 2026-08-24
-time: "05:44"
+time: "05:45"
 category: Terminology
 status: published
-summary: "📌 1. 30초 핵심 요약 & 개념 정의 VPP(가상발전소, Virtual Power Plant)는 물리적으로 분산된 다양한 소규모 발전원(태양광, 풍력, 연료전지)과 유연성 자원(BESS, 전기차, 데이터센터 백업 발전기, 부하 감축 설비)을 사물인터넷(IoT) 및 클라우드 기반 중앙 제어 플랫폼으로 연계하여, 마치 단일 대형 발전소처럼 통합 제어·운영하"
+summary: "VPP(가상발전소, Virtual Power Plant)는 물리적으로 분산된 다양한 소규모 발전원(태양광, 풍력, 연료전지)과 유연성 자원(BESS, 전기차, 데이터센터 백업 발전기, 부하 감축 설비)을 사물인터넷(IoT) 및 클라우드 기반 중앙 제어 플랫폼으로 연계하여, 마치 단일 대형 발전소처럼 통합 제어·운영하"
 labels:
   - 인프라용어사전
   - IT백과사전

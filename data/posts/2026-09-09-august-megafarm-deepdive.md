@@ -2,10 +2,10 @@
 id: 2026-09-09-august-megafarm-deepdive
 title: "[테크 딥다이브] AI 추론 인프라의 전력·대역폭 장벽 돌파: AWS·퀄컴의 600억 달러 맞춤형 실리콘과 1.6Tbps 광인터커넥트 전략"
 date: 2026-09-09
-time: "05:55"
+time: "05:58"
 category: Tech Deep Dive
 status: published
-summary: "인공지능 데이터센터(AIDC)의 중심축이 파라미터 사전 학습(Pre-training)에서 상시 대규모 서비스 구동을 위한 추론(Inference)으로 급격히 재편되고 있습니다. 퀄컴과 아마존웹서비스(AWS)가 체결한 10년간 최대 600억 달러 규모의 다세대 맞춤형 AI 추론 실리콘 및 1.6Tbps 광인터커넥트 공동 개발 계약은 단순한 칩 수급 다변화를 "
+summary: "인공지능 데이터센터(AIDC)의 중심축이 파라미터 사전 학습(Pre-training)에서 상시 대규모 서비스 구동을 위한 추론(Inference)으로 급격히 재편되고 있습니다. 퀄컴과 아마존웹서비스(AWS)가 체결한 10년간 최대 600억 달러 규모의 다세대 맞춤형 AI 추론 실리콘 및 1.6Tbps 광인터커넥트 공동 개발 계약은 단순한 칩 수급 다변화를"
 labels:
   - 테크딥다이브
   - AI추론반도체

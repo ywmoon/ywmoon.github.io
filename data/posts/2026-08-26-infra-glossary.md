@@ -2,10 +2,10 @@
 id: 2026-08-26-infra-glossary
 title: "[인프라 용어사전] NVLink (NVIDIA GPU Interconnect) - 거대 AI 클러스터의 두뇌를 하나로 묶는 초고속 인터커넥트"
 date: 2026-08-26
-time: "04:56"
+time: "04:57"
 category: Terminology
 status: published
-summary: "📌 1. 30초 핵심 요약 & 개념 정의 NVLink(엔비디아 고속 인터커넥트)는 표준 PCIe 버스의 대역폭 한계를 극복하고 여러 GPU 간, 또는 GPU와 CPU 간에 메모리를 직접 공유하고 초고속으로 데이터를 교환하도록 설계된 양방향 점대점(Point-to-Point) 고속 시리얼 통신 인터페이스입니다. 💡 직관적 비유: 일반 서버가 좁은 시내 도로("
+summary: "NVLink(엔비디아 고속 인터커넥트)는 표준 PCIe 버스의 대역폭 한계를 극복하고 여러 GPU 간, 또는 GPU와 CPU 간에 메모리를 직접 공유하고 초고속으로 데이터를 교환하도록 설계된 양방향 점대점(Point-to-Point) 고속 시리얼 통신 인터페이스입니다. 💡 직관적 비유: 일반 서버가 좁은 시내 도로("
 labels:
   - 인프라용어사전
   - IT백과사전

@@ -2,7 +2,7 @@
 id: 2026-08-25-10min-tech-podcast
 title: "[2026.08.25] [10-Min English Podcast] The $3 Trillion AI Infrastructure Supercycle: Hyperscale CapEx, Liquid-Cooled Gigawatt Deployments, and Grid Autonomy"
 date: 2026-08-25
-time: "05:45"
+time: "05:47"
 category: Podcast
 status: published
 summary: "🎧 10-MIN TECH ENGLISH PODCAST [2026.08.25] [10-Min English Podcast] The $3 Trillion AI Infrastructure Supercycle: Hyperscale CapEx, Liquid-Cooled Gigawatt Deployments, and Grid Autonomy 2026년 8월 25일 D"
@@ -16,8 +16,7 @@ labels:
   - 액체냉각
 ---
 
-
-    <div style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; line-height: 1.8; color: #1E293B; max-width: 820px; margin: 0 auto;">
+<div style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; line-height: 1.8; color: #1E293B; max-width: 820px; margin: 0 auto;">
         
         <!-- Podcast Hero Audio Player Card -->
         <div style="background: linear-gradient(135deg, #0F172A 0%, #1E293B 100%); border-radius: 12px; padding: 24px 28px; margin-bottom: 28px; color: #FFFFFF; box-shadow: 0 4px 12px rgba(0,0,0,0.15); border-top: 4px solid #38BDF8;">

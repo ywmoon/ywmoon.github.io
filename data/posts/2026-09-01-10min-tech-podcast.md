@@ -2,10 +2,10 @@
 id: 2026-09-01-10min-tech-podcast
 title: "[2026.09.01] [10-Min English Podcast] Global AI Data Center Gridlocks, SLB's $4.1B Cooling Deal, and Multicloud Interconnect Architecture"
 date: 2026-09-01
-time: "05:46"
+time: "05:48"
 category: Podcast
 status: published
-summary: "🎧 10-MIN TECH ENGLISH PODCAST [2026.09.01] [10-Min English Podcast] Global AI Data Center Gridlocks, SLB's $4.1B Cooling Deal, and Multicloud Interconnect Architecture 오늘의 10분 심층 팟캐스트는 글로벌 AI 데이터센터 확충"
+summary: "오늘의 10분 심층 팟캐스트는 글로벌 AI 데이터센터 확충에 따른 지역사회 반발과 정치권 공방(트럼프 '데이터 중심주의' 지지와 미 업계 5,000만 달러 캠페인 vs 애리조나 모라토리엄 및 과천·창원 주민 갈등), SLB의 41억 달러 켈비온 인수 및 97MW급 폐열 회수 냉각 기술 등 열역학 공급망 수직계열화, AWS와 MS 애저의 멀티클라우드 사설망 "
 labels:
   - EnglishPodcast
   - TechEnglish
@@ -18,8 +18,7 @@ labels:
   - 전력망
 ---
 
-
-    <div style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; line-height: 1.8; color: #1E293B; max-width: 820px; margin: 0 auto;">
+<div style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; line-height: 1.8; color: #1E293B; max-width: 820px; margin: 0 auto;">
         
         <!-- Podcast Hero Audio Player Card -->
         <div style="background: linear-gradient(135deg, #0F172A 0%, #1E293B 100%); border-radius: 12px; padding: 24px 28px; margin-bottom: 28px; color: #FFFFFF; box-shadow: 0 4px 12px rgba(0,0,0,0.15); border-top: 4px solid #38BDF8;">
