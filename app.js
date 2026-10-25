@@ -774,10 +774,8 @@ async function openArticleView(articleId) {
   const content = await loadArticleContent(post);
   bodyEl.innerHTML = content;
 
-  // Determine if post is Newsletter or raw HTML template (1100px full width mode)
+  // Determine if post is Newsletter (1200px 2-column full width mode without TOC sidebar)
   const isNewsletter = (post.category === 'Newsletter') || 
-                       (post.category === 'Weekly Report') || 
-                       content.includes('dc-raw-html-wrapper') || 
                        content.includes('responsive-outer');
   const layoutContainer = document.querySelector('.dc-reader-layout-container');
   if (isNewsletter) {

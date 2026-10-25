@@ -1112,6 +1112,57 @@ body {
   border-radius: 4px;
 }
 
+.dc-card-read-time {
+  display: inline-flex;
+  align-items: center;
+  font-size: 11px;
+  font-weight: 600;
+  color: var(--text-muted);
+  font-family: var(--font-mono);
+  background-color: var(--bg-elevated);
+  padding: 1px 6px;
+  border-radius: 4px;
+}
+
+[data-theme="dark"] .dc-card-read-time {
+  background-color: rgba(255, 255, 255, 0.06);
+  color: var(--text-secondary);
+}
+
+/* ─── Infinite Scroll Loader & Indicator ─── */
+.dc-infinite-loader {
+  grid-column: 1 / -1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+  color: var(--text-muted);
+  font-size: 13.5px;
+  gap: 10px;
+}
+
+.dc-infinite-spinner {
+  width: 18px;
+  height: 18px;
+  border: 2px solid var(--border-subtle);
+  border-top-color: var(--accent-orange);
+  border-radius: 50%;
+  animation: dc-spin 0.8s linear infinite;
+}
+
+@keyframes dc-spin {
+  to { transform: rotate(360deg); }
+}
+
+.dc-posts-end-message {
+  grid-column: 1 / -1;
+  text-align: center;
+  padding: 28px 16px;
+  font-size: 12.5px;
+  color: var(--text-muted);
+  opacity: 0.85;
+}
+
 .dc-reader-title {
   font-size: 26px;
   font-weight: 800;
@@ -1137,35 +1188,87 @@ body {
   width: 100%;
 }
 
-/* Newsletter & Raw HTML 1100px Full-Width Layout (No Sidebar) */
-.is-newsletter-mode .dc-reader-nav,
-.dc-article-reader:has(.dc-raw-html-wrapper) .dc-reader-nav {
-  max-width: 1100px;
+/* Newsletter 1200px Full-Width Layout (No Sidebar — Regular HTML posts keep TOC Sidebar) */
+.is-newsletter-mode .dc-reader-nav {
+  max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
 }
 
-.dc-reader-layout-container.is-newsletter,
-.dc-reader-layout-container:has(.dc-raw-html-wrapper) {
+.dc-reader-layout-container.is-newsletter {
   justify-content: center;
 }
 
-.dc-reader-layout-container.is-newsletter .dc-reader-sidebar,
-.dc-reader-layout-container:has(.dc-raw-html-wrapper) .dc-reader-sidebar {
+.dc-reader-layout-container.is-newsletter .dc-reader-sidebar {
   display: none !important;
 }
 
-.dc-reader-layout-container.is-newsletter .dc-reader-main-col,
-.dc-reader-layout-container:has(.dc-raw-html-wrapper) .dc-reader-main-col {
-  max-width: 1100px !important;
+.dc-reader-layout-container.is-newsletter .dc-reader-main-col {
+  max-width: 1200px !important;
   width: 100% !important;
   margin: 0 auto;
 }
 
-.dc-reader-layout-container.is-newsletter .dc-reader-header,
-.dc-reader-layout-container:has(.dc-raw-html-wrapper) .dc-reader-header {
-  max-width: 1100px;
+.dc-reader-layout-container.is-newsletter .dc-reader-header {
+  max-width: 1200px;
   margin: 0 auto 24px auto;
+}
+
+/* Dark Mode Contrast Harmonization for Crawler-Generated Inline HTML Articles */
+[data-theme="dark"] .dc-raw-html-wrapper > div {
+  color: var(--text-primary) !important;
+}
+
+[data-theme="dark"] .dc-raw-html-wrapper h1,
+[data-theme="dark"] .dc-raw-html-wrapper h2,
+[data-theme="dark"] .dc-raw-html-wrapper h3,
+[data-theme="dark"] .dc-raw-html-wrapper h4,
+[data-theme="dark"] .dc-raw-html-wrapper strong {
+  color: var(--text-primary) !important;
+}
+
+[data-theme="dark"] .dc-raw-html-wrapper p,
+[data-theme="dark"] .dc-raw-html-wrapper li {
+  color: #CBD5E1 !important;
+}
+
+[data-theme="dark"] .dc-raw-html-wrapper [style*="background-color: #FFFFFF"],
+[data-theme="dark"] .dc-raw-html-wrapper [style*="background-color:#FFFFFF"],
+[data-theme="dark"] .dc-raw-html-wrapper [style*="background: #FFFFFF"],
+[data-theme="dark"] .dc-raw-html-wrapper [style*="background:#FFFFFF"] {
+  background-color: var(--bg-surface) !important;
+  color: var(--text-primary) !important;
+  border-color: var(--border-subtle) !important;
+}
+
+[data-theme="dark"] .dc-raw-html-wrapper [style*="background-color: #F8FAFC"],
+[data-theme="dark"] .dc-raw-html-wrapper [style*="background-color:#F8FAFC"],
+[data-theme="dark"] .dc-raw-html-wrapper [style*="background: #F8FAFC"],
+[data-theme="dark"] .dc-raw-html-wrapper [style*="background:#F8FAFC"],
+[data-theme="dark"] .dc-raw-html-wrapper [style*="background-color: #F1F5F9"],
+[data-theme="dark"] .dc-raw-html-wrapper [style*="background-color:#F1F5F9"] {
+  background-color: var(--bg-elevated) !important;
+  color: var(--text-primary) !important;
+  border-color: var(--border-strong) !important;
+}
+
+[data-theme="dark"] .dc-raw-html-wrapper [style*="background-color: #FEF9C3"] {
+  background-color: rgba(250, 204, 21, 0.22) !important;
+  color: #FEF08A !important;
+}
+
+[data-theme="dark"] .dc-raw-html-wrapper table,
+[data-theme="dark"] .dc-raw-html-wrapper th,
+[data-theme="dark"] .dc-raw-html-wrapper td {
+  border-color: var(--border-strong) !important;
+  color: var(--text-primary) !important;
+}
+
+[data-theme="dark"] .dc-raw-html-wrapper a[style*="color: #0F172A"],
+[data-theme="dark"] .dc-raw-html-wrapper a[style*="color:#0F172A"],
+[data-theme="dark"] .dc-raw-html-wrapper a[style*="color: #334155"],
+[data-theme="dark"] .dc-raw-html-wrapper a[style*="color: #475569"] {
+  color: #E2E8F0 !important;
 }
 
 /* Regular posts without sidebar */

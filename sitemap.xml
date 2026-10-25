@@ -2,18 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://ywmoon.github.io/</loc>
-    <lastmod>2026-10-23</lastmod>
+    <lastmod>2026-10-25</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://ywmoon.github.io/article/2026-10-23-deepdive-openai-multicloud-vera-rubin-agentic-runtime/</loc>
+    <loc>https://ywmoon.github.io/article/2026-10-23-daily-infraops-briefing/</loc>
     <lastmod>2026-10-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ywmoon.github.io/article/2026-10-23-dc-infraops-trends-report/</loc>
+    <loc>https://ywmoon.github.io/article/2026-10-23-deepdive-openai-multicloud-vera-rubin-agentic-runtime/</loc>
     <lastmod>2026-10-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -31,20 +31,8 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ywmoon.github.io/article/2026-10-23-daily-infraops-briefing/</loc>
+    <loc>https://ywmoon.github.io/article/2026-10-23-dc-infraops-trends-report/</loc>
     <lastmod>2026-10-23</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://ywmoon.github.io/article/2026-10-22-glossary-global-server-load-balancing/</loc>
-    <lastmod>2026-10-22</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://ywmoon.github.io/article/2026-10-22-10min-tech-podcast/</loc>
-    <lastmod>2026-10-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -56,6 +44,18 @@
   </url>
   <url>
     <loc>https://ywmoon.github.io/article/2026-10-22-deepdive-amazon-ashburn-withdrawal-datacenter-zoning/</loc>
+    <lastmod>2026-10-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ywmoon.github.io/article/2026-10-22-10min-tech-podcast/</loc>
+    <lastmod>2026-10-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ywmoon.github.io/article/2026-10-22-glossary-global-server-load-balancing/</loc>
     <lastmod>2026-10-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -73,7 +73,7 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ywmoon.github.io/article/2026-10-21-glossary-availability-zone/</loc>
+    <loc>https://ywmoon.github.io/article/2026-10-21-deepdive-gcp-london-outage-fault-domain-resilience/</loc>
     <lastmod>2026-10-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -85,7 +85,7 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ywmoon.github.io/article/2026-10-21-deepdive-gcp-london-outage-fault-domain-resilience/</loc>
+    <loc>https://ywmoon.github.io/article/2026-10-21-glossary-availability-zone/</loc>
     <lastmod>2026-10-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -97,13 +97,13 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ywmoon.github.io/article/2026-10-20-dc-infraops-trends-report/</loc>
+    <loc>https://ywmoon.github.io/article/2026-10-20-daily-infraops-briefing/</loc>
     <lastmod>2026-10-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ywmoon.github.io/article/2026-10-20-daily-infraops-briefing/</loc>
+    <loc>https://ywmoon.github.io/article/2026-10-20-deepdive-amazon-smr-coal-to-nuclear-power-architecture/</loc>
     <lastmod>2026-10-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -121,26 +121,8 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ywmoon.github.io/article/2026-10-20-deepdive-amazon-smr-coal-to-nuclear-power-architecture/</loc>
+    <loc>https://ywmoon.github.io/article/2026-10-20-dc-infraops-trends-report/</loc>
     <lastmod>2026-10-20</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://ywmoon.github.io/article/2026-10-19-10min-tech-podcast/</loc>
-    <lastmod>2026-10-19</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://ywmoon.github.io/article/2026-10-19-dc-infraops-trends-report/</loc>
-    <lastmod>2026-10-19</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://ywmoon.github.io/article/2026-10-19-glossary-interconnection-queue/</loc>
-    <lastmod>2026-10-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -157,7 +139,25 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ywmoon.github.io/article/2026-10-16-dc-infraops-trends-report/</loc>
+    <loc>https://ywmoon.github.io/article/2026-10-19-10min-tech-podcast/</loc>
+    <lastmod>2026-10-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ywmoon.github.io/article/2026-10-19-glossary-interconnection-queue/</loc>
+    <lastmod>2026-10-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ywmoon.github.io/article/2026-10-19-dc-infraops-trends-report/</loc>
+    <lastmod>2026-10-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ywmoon.github.io/article/2026-10-16-daily-infraops-briefing/</loc>
     <lastmod>2026-10-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -169,26 +169,20 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ywmoon.github.io/article/2026-10-16-infra-glossary/</loc>
-    <lastmod>2026-10-16</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://ywmoon.github.io/article/2026-10-16-daily-infraops-briefing/</loc>
-    <lastmod>2026-10-16</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
     <loc>https://ywmoon.github.io/article/2026-10-16-10min-tech-podcast/</loc>
     <lastmod>2026-10-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ywmoon.github.io/article/2026-10-15-10min-tech-podcast/</loc>
-    <lastmod>2026-10-15</lastmod>
+    <loc>https://ywmoon.github.io/article/2026-10-16-infra-glossary/</loc>
+    <lastmod>2026-10-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ywmoon.github.io/article/2026-10-16-dc-infraops-trends-report/</loc>
+    <lastmod>2026-10-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -205,7 +199,7 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ywmoon.github.io/article/2026-10-15-dc-infraops-trends-report/</loc>
+    <loc>https://ywmoon.github.io/article/2026-10-15-10min-tech-podcast/</loc>
     <lastmod>2026-10-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -217,13 +211,13 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ywmoon.github.io/article/2026-10-14-daily-infraops-briefing/</loc>
-    <lastmod>2026-10-14</lastmod>
+    <loc>https://ywmoon.github.io/article/2026-10-15-dc-infraops-trends-report/</loc>
+    <lastmod>2026-10-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ywmoon.github.io/article/2026-10-14-dc-infraops-trends-report/</loc>
+    <loc>https://ywmoon.github.io/article/2026-10-14-daily-infraops-briefing/</loc>
     <lastmod>2026-10-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -241,19 +235,25 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://ywmoon.github.io/article/2026-10-14-dc-infraops-trends-report/</loc>
+    <lastmod>2026-10-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://ywmoon.github.io/article/2026-10-13-daily-infraops-briefing/</loc>
     <lastmod>2026-10-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ywmoon.github.io/article/2026-10-13-10min-tech-podcast/</loc>
+    <loc>https://ywmoon.github.io/article/2026-10-13-august-megafarm-deepdive/</loc>
     <lastmod>2026-10-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ywmoon.github.io/article/2026-10-13-august-megafarm-deepdive/</loc>
+    <loc>https://ywmoon.github.io/article/2026-10-13-10min-tech-podcast/</loc>
     <lastmod>2026-10-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -271,7 +271,7 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ywmoon.github.io/article/2026-10-12-dc-infraops-trends-report/</loc>
+    <loc>https://ywmoon.github.io/article/2026-10-12-daily-infraops-briefing/</loc>
     <lastmod>2026-10-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -283,7 +283,7 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ywmoon.github.io/article/2026-10-12-daily-infraops-briefing/</loc>
+    <loc>https://ywmoon.github.io/article/2026-10-12-10min-tech-podcast/</loc>
     <lastmod>2026-10-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -295,7 +295,7 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ywmoon.github.io/article/2026-10-12-10min-tech-podcast/</loc>
+    <loc>https://ywmoon.github.io/article/2026-10-12-dc-infraops-trends-report/</loc>
     <lastmod>2026-10-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -313,12 +313,6 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ywmoon.github.io/article/2026-10-08-dc-infraops-trends-report/</loc>
-    <lastmod>2026-10-08</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
     <loc>https://ywmoon.github.io/article/2026-10-08-10min-tech-podcast/</loc>
     <lastmod>2026-10-08</lastmod>
     <changefreq>weekly</changefreq>
@@ -331,19 +325,13 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ywmoon.github.io/article/2026-10-07-10min-tech-podcast/</loc>
-    <lastmod>2026-10-07</lastmod>
+    <loc>https://ywmoon.github.io/article/2026-10-08-dc-infraops-trends-report/</loc>
+    <lastmod>2026-10-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ywmoon.github.io/article/2026-10-07-dc-infraops-trends-report/</loc>
-    <lastmod>2026-10-07</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://ywmoon.github.io/article/2026-10-07-infra-glossary/</loc>
+    <loc>https://ywmoon.github.io/article/2026-10-07-daily-infraops-briefing/</loc>
     <lastmod>2026-10-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -355,13 +343,25 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ywmoon.github.io/article/2026-10-07-daily-infraops-briefing/</loc>
+    <loc>https://ywmoon.github.io/article/2026-10-07-10min-tech-podcast/</loc>
     <lastmod>2026-10-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ywmoon.github.io/article/2026-10-06-infra-glossary/</loc>
+    <loc>https://ywmoon.github.io/article/2026-10-07-infra-glossary/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ywmoon.github.io/article/2026-10-07-dc-infraops-trends-report/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ywmoon.github.io/article/2026-10-06-daily-infraops-briefing/</loc>
     <lastmod>2026-10-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -373,13 +373,13 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ywmoon.github.io/article/2026-10-06-daily-infraops-briefing/</loc>
+    <loc>https://ywmoon.github.io/article/2026-10-06-10min-tech-podcast/</loc>
     <lastmod>2026-10-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ywmoon.github.io/article/2026-10-06-10min-tech-podcast/</loc>
+    <loc>https://ywmoon.github.io/article/2026-10-06-infra-glossary/</loc>
     <lastmod>2026-10-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -397,6 +397,12 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://ywmoon.github.io/article/2026-10-05-august-megafarm-deepdive/</loc>
+    <lastmod>2026-10-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://ywmoon.github.io/article/2026-10-05-10min-tech-podcast/</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>weekly</changefreq>
@@ -404,12 +410,6 @@
   </url>
   <url>
     <loc>https://ywmoon.github.io/article/2026-10-05-infra-glossary/</loc>
-    <lastmod>2026-10-05</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://ywmoon.github.io/article/2026-10-05-august-megafarm-deepdive/</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -427,13 +427,7 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ywmoon.github.io/article/2026-10-02-dc-infraops-trends-report/</loc>
-    <lastmod>2026-10-02</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://ywmoon.github.io/article/2026-10-02-infra-glossary/</loc>
+    <loc>https://ywmoon.github.io/article/2026-10-02-august-megafarm-deepdive/</loc>
     <lastmod>2026-10-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -445,13 +439,19 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ywmoon.github.io/article/2026-10-02-august-megafarm-deepdive/</loc>
+    <loc>https://ywmoon.github.io/article/2026-10-02-infra-glossary/</loc>
     <lastmod>2026-10-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ywmoon.github.io/article/2026-10-01-infra-glossary/</loc>
+    <loc>https://ywmoon.github.io/article/2026-10-02-dc-infraops-trends-report/</loc>
+    <lastmod>2026-10-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ywmoon.github.io/article/2026-10-01-daily-infraops-briefing/</loc>
     <lastmod>2026-10-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -463,31 +463,25 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ywmoon.github.io/article/2026-10-01-dc-infraops-trends-report/</loc>
-    <lastmod>2026-10-01</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
     <loc>https://ywmoon.github.io/article/2026-10-01-10min-tech-podcast/</loc>
     <lastmod>2026-10-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ywmoon.github.io/article/2026-10-01-daily-infraops-briefing/</loc>
+    <loc>https://ywmoon.github.io/article/2026-10-01-infra-glossary/</loc>
+    <lastmod>2026-10-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ywmoon.github.io/article/2026-10-01-dc-infraops-trends-report/</loc>
     <lastmod>2026-10-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://ywmoon.github.io/article/2026-09-30-daily-infraops-briefing/</loc>
-    <lastmod>2026-09-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://ywmoon.github.io/article/2026-09-30-dc-infraops-trends-report/</loc>
     <lastmod>2026-09-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -511,7 +505,13 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ywmoon.github.io/article/2026-09-29-infra-glossary/</loc>
+    <loc>https://ywmoon.github.io/article/2026-09-30-dc-infraops-trends-report/</loc>
+    <lastmod>2026-09-30</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ywmoon.github.io/article/2026-09-29-daily-infraops-briefing/</loc>
     <lastmod>2026-09-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -529,7 +529,7 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ywmoon.github.io/article/2026-09-29-daily-infraops-briefing/</loc>
+    <loc>https://ywmoon.github.io/article/2026-09-29-infra-glossary/</loc>
     <lastmod>2026-09-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -541,7 +541,7 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ywmoon.github.io/article/2026-09-28-dc-infraops-trends-report/</loc>
+    <loc>https://ywmoon.github.io/article/2026-09-28-daily-infraops-briefing/</loc>
     <lastmod>2026-09-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -565,19 +565,13 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ywmoon.github.io/article/2026-09-28-daily-infraops-briefing/</loc>
+    <loc>https://ywmoon.github.io/article/2026-09-28-dc-infraops-trends-report/</loc>
     <lastmod>2026-09-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://ywmoon.github.io/article/2026-09-26-daily-infraops-briefing/</loc>
-    <lastmod>2026-09-26</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://ywmoon.github.io/article/2026-09-26-dc-infraops-trends-report/</loc>
     <lastmod>2026-09-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -601,6 +595,12 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://ywmoon.github.io/article/2026-09-26-dc-infraops-trends-report/</loc>
+    <lastmod>2026-09-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://ywmoon.github.io/article/2026-09-24-10min-tech-podcast/</loc>
     <lastmod>2026-09-24</lastmod>
     <changefreq>weekly</changefreq>
@@ -613,13 +613,13 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ywmoon.github.io/article/2026-09-23-august-megafarm-deepdive/</loc>
+    <loc>https://ywmoon.github.io/article/2026-09-23-daily-infraops-briefing/</loc>
     <lastmod>2026-09-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ywmoon.github.io/article/2026-09-23-dc-infraops-trends-report/</loc>
+    <loc>https://ywmoon.github.io/article/2026-09-23-august-megafarm-deepdive/</loc>
     <lastmod>2026-09-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -637,8 +637,14 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ywmoon.github.io/article/2026-09-23-daily-infraops-briefing/</loc>
+    <loc>https://ywmoon.github.io/article/2026-09-23-dc-infraops-trends-report/</loc>
     <lastmod>2026-09-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ywmoon.github.io/article/2026-09-22-daily-infraops-briefing/</loc>
+    <lastmod>2026-09-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -655,7 +661,7 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ywmoon.github.io/article/2026-09-22-daily-infraops-briefing/</loc>
+    <loc>https://ywmoon.github.io/article/2026-09-22-infra-glossary/</loc>
     <lastmod>2026-09-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -667,31 +673,7 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ywmoon.github.io/article/2026-09-22-infra-glossary/</loc>
-    <lastmod>2026-09-22</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
     <loc>https://ywmoon.github.io/article/2026-09-21-daily-infraops-briefing/</loc>
-    <lastmod>2026-09-21</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://ywmoon.github.io/article/2026-09-21-dc-infraops-trends-report/</loc>
-    <lastmod>2026-09-21</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://ywmoon.github.io/article/2026-09-21-infra-glossary/</loc>
-    <lastmod>2026-09-21</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://ywmoon.github.io/article/2026-09-21-10min-tech-podcast/</loc>
     <lastmod>2026-09-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -703,19 +685,31 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://ywmoon.github.io/article/2026-09-21-10min-tech-podcast/</loc>
+    <lastmod>2026-09-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ywmoon.github.io/article/2026-09-21-infra-glossary/</loc>
+    <lastmod>2026-09-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ywmoon.github.io/article/2026-09-21-dc-infraops-trends-report/</loc>
+    <lastmod>2026-09-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://ywmoon.github.io/article/2026-09-20-2027-budget-aidc-gpu-strategy/</loc>
     <lastmod>2026-09-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ywmoon.github.io/article/2026-09-18-10min-tech-podcast/</loc>
-    <lastmod>2026-09-18</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://ywmoon.github.io/article/2026-09-18-dc-infraops-trends-report/</loc>
+    <loc>https://ywmoon.github.io/article/2026-09-18-daily-infraops-briefing/</loc>
     <lastmod>2026-09-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -727,7 +721,7 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ywmoon.github.io/article/2026-09-18-daily-infraops-briefing/</loc>
+    <loc>https://ywmoon.github.io/article/2026-09-18-10min-tech-podcast/</loc>
     <lastmod>2026-09-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -739,7 +733,13 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ywmoon.github.io/article/2026-09-17-dc-infraops-trends-report/</loc>
+    <loc>https://ywmoon.github.io/article/2026-09-18-dc-infraops-trends-report/</loc>
+    <lastmod>2026-09-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ywmoon.github.io/article/2026-09-17-daily-infraops-briefing/</loc>
     <lastmod>2026-09-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -751,7 +751,7 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ywmoon.github.io/article/2026-09-17-daily-infraops-briefing/</loc>
+    <loc>https://ywmoon.github.io/article/2026-09-17-10min-tech-podcast/</loc>
     <lastmod>2026-09-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -763,19 +763,25 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ywmoon.github.io/article/2026-09-17-10min-tech-podcast/</loc>
+    <loc>https://ywmoon.github.io/article/2026-09-17-dc-infraops-trends-report/</loc>
     <lastmod>2026-09-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ywmoon.github.io/article/2026-09-16-10min-tech-podcast/</loc>
+    <loc>https://ywmoon.github.io/article/2026-09-16-daily-infraops-briefing/</loc>
     <lastmod>2026-09-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://ywmoon.github.io/article/2026-09-16-august-megafarm-deepdive/</loc>
+    <lastmod>2026-09-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ywmoon.github.io/article/2026-09-16-10min-tech-podcast/</loc>
     <lastmod>2026-09-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -793,12 +799,6 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ywmoon.github.io/article/2026-09-16-daily-infraops-briefing/</loc>
-    <lastmod>2026-09-16</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
     <loc>https://ywmoon.github.io/article/2026-09-15-daily-infraops-briefing/</loc>
     <lastmod>2026-09-15</lastmod>
     <changefreq>weekly</changefreq>
@@ -811,13 +811,13 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ywmoon.github.io/article/2026-09-15-infra-glossary/</loc>
+    <loc>https://ywmoon.github.io/article/2026-09-15-10min-tech-podcast/</loc>
     <lastmod>2026-09-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ywmoon.github.io/article/2026-09-15-10min-tech-podcast/</loc>
+    <loc>https://ywmoon.github.io/article/2026-09-15-infra-glossary/</loc>
     <lastmod>2026-09-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -829,13 +829,13 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ywmoon.github.io/article/2026-09-14-dc-infraops-trends-report/</loc>
+    <loc>https://ywmoon.github.io/article/2026-09-14-daily-infraops-briefing/</loc>
     <lastmod>2026-09-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ywmoon.github.io/article/2026-09-14-daily-infraops-briefing/</loc>
+    <loc>https://ywmoon.github.io/article/2026-09-14-august-megafarm-deepdive/</loc>
     <lastmod>2026-09-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -853,7 +853,7 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ywmoon.github.io/article/2026-09-14-august-megafarm-deepdive/</loc>
+    <loc>https://ywmoon.github.io/article/2026-09-14-dc-infraops-trends-report/</loc>
     <lastmod>2026-09-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -889,7 +889,13 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ywmoon.github.io/article/2026-09-11-dc-infraops-trends-report/</loc>
+    <loc>https://ywmoon.github.io/article/2026-09-11-daily-infraops-briefing/</loc>
+    <lastmod>2026-09-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ywmoon.github.io/article/2026-09-11-august-megafarm-deepdive/</loc>
     <lastmod>2026-09-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -907,25 +913,13 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ywmoon.github.io/article/2026-09-11-august-megafarm-deepdive/</loc>
+    <loc>https://ywmoon.github.io/article/2026-09-11-dc-infraops-trends-report/</loc>
     <lastmod>2026-09-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ywmoon.github.io/article/2026-09-11-daily-infraops-briefing/</loc>
-    <lastmod>2026-09-11</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://ywmoon.github.io/article/2026-09-10-10min-tech-podcast/</loc>
-    <lastmod>2026-09-10</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://ywmoon.github.io/article/2026-09-10-dc-infraops-trends-report/</loc>
+    <loc>https://ywmoon.github.io/article/2026-09-10-daily-infraops-briefing/</loc>
     <lastmod>2026-09-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -937,7 +931,7 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ywmoon.github.io/article/2026-09-10-daily-infraops-briefing/</loc>
+    <loc>https://ywmoon.github.io/article/2026-09-10-10min-tech-podcast/</loc>
     <lastmod>2026-09-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -949,13 +943,13 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ywmoon.github.io/article/2026-09-09-daily-infraops-briefing/</loc>
-    <lastmod>2026-09-09</lastmod>
+    <loc>https://ywmoon.github.io/article/2026-09-10-dc-infraops-trends-report/</loc>
+    <lastmod>2026-09-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ywmoon.github.io/article/2026-09-09-dc-infraops-trends-report/</loc>
+    <loc>https://ywmoon.github.io/article/2026-09-09-daily-infraops-briefing/</loc>
     <lastmod>2026-09-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -967,19 +961,31 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ywmoon.github.io/article/2026-09-09-infra-glossary/</loc>
-    <lastmod>2026-09-09</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
     <loc>https://ywmoon.github.io/article/2026-09-09-10min-tech-podcast/</loc>
     <lastmod>2026-09-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://ywmoon.github.io/article/2026-09-09-infra-glossary/</loc>
+    <lastmod>2026-09-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ywmoon.github.io/article/2026-09-09-dc-infraops-trends-report/</loc>
+    <lastmod>2026-09-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://ywmoon.github.io/article/2026-09-08-daily-infraops-briefing/</loc>
+    <lastmod>2026-09-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ywmoon.github.io/article/2026-09-08-august-megafarm-deepdive/</loc>
     <lastmod>2026-09-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -1003,8 +1009,20 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ywmoon.github.io/article/2026-09-08-august-megafarm-deepdive/</loc>
-    <lastmod>2026-09-08</lastmod>
+    <loc>https://ywmoon.github.io/article/2026-09-07-daily-infraops-briefing/</loc>
+    <lastmod>2026-09-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ywmoon.github.io/article/2026-09-07-august-megafarm-deepdive/</loc>
+    <lastmod>2026-09-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ywmoon.github.io/article/2026-09-07-10min-tech-podcast/</loc>
+    <lastmod>2026-09-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -1021,43 +1039,7 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ywmoon.github.io/article/2026-09-07-10min-tech-podcast/</loc>
-    <lastmod>2026-09-07</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://ywmoon.github.io/article/2026-09-07-daily-infraops-briefing/</loc>
-    <lastmod>2026-09-07</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://ywmoon.github.io/article/2026-09-07-august-megafarm-deepdive/</loc>
-    <lastmod>2026-09-07</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://ywmoon.github.io/article/2026-09-02-dc-infraops-trends-report/</loc>
-    <lastmod>2026-09-02</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://ywmoon.github.io/article/2026-09-02-infra-glossary/</loc>
-    <lastmod>2026-09-02</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
     <loc>https://ywmoon.github.io/article/2026-09-02-daily-infraops-briefing/</loc>
-    <lastmod>2026-09-02</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://ywmoon.github.io/article/2026-09-02-10min-tech-podcast/</loc>
     <lastmod>2026-09-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -1069,25 +1051,25 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://ywmoon.github.io/article/2026-09-02-10min-tech-podcast/</loc>
+    <lastmod>2026-09-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ywmoon.github.io/article/2026-09-02-infra-glossary/</loc>
+    <lastmod>2026-09-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ywmoon.github.io/article/2026-09-02-dc-infraops-trends-report/</loc>
+    <lastmod>2026-09-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://ywmoon.github.io/article/2026-09-01-nvidia-vera-rubin-architecture-deepdive/</loc>
-    <lastmod>2026-09-01</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://ywmoon.github.io/article/2026-09-01-august-megafarm-deepdive/</loc>
-    <lastmod>2026-09-01</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://ywmoon.github.io/article/2026-09-01-dc-infraops-trends-report/</loc>
-    <lastmod>2026-09-01</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://ywmoon.github.io/article/2026-09-01-infra-glossary/</loc>
     <lastmod>2026-09-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -1099,20 +1081,26 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://ywmoon.github.io/article/2026-09-01-august-megafarm-deepdive/</loc>
+    <lastmod>2026-09-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://ywmoon.github.io/article/2026-09-01-10min-tech-podcast/</loc>
     <lastmod>2026-09-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ywmoon.github.io/article/2026-08-31-dc-infraops-trends-report/</loc>
-    <lastmod>2026-08-31</lastmod>
+    <loc>https://ywmoon.github.io/article/2026-09-01-infra-glossary/</loc>
+    <lastmod>2026-09-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ywmoon.github.io/article/2026-08-31-infra-glossary/</loc>
-    <lastmod>2026-08-31</lastmod>
+    <loc>https://ywmoon.github.io/article/2026-09-01-dc-infraops-trends-report/</loc>
+    <lastmod>2026-09-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -1130,6 +1118,18 @@
   </url>
   <url>
     <loc>https://ywmoon.github.io/article/2026-08-31-10min-tech-podcast/</loc>
+    <lastmod>2026-08-31</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ywmoon.github.io/article/2026-08-31-infra-glossary/</loc>
+    <lastmod>2026-08-31</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ywmoon.github.io/article/2026-08-31-dc-infraops-trends-report/</loc>
     <lastmod>2026-08-31</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -1159,13 +1159,7 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ywmoon.github.io/article/2026-08-28-infra-glossary/</loc>
-    <lastmod>2026-08-28</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://ywmoon.github.io/article/2026-08-28-10min-tech-podcast/</loc>
+    <loc>https://ywmoon.github.io/article/2026-08-28-daily-infraops-briefing/</loc>
     <lastmod>2026-08-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -1177,7 +1171,13 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ywmoon.github.io/article/2026-08-28-daily-infraops-briefing/</loc>
+    <loc>https://ywmoon.github.io/article/2026-08-28-10min-tech-podcast/</loc>
+    <lastmod>2026-08-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ywmoon.github.io/article/2026-08-28-infra-glossary/</loc>
     <lastmod>2026-08-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -1190,12 +1190,6 @@
   </url>
   <url>
     <loc>https://ywmoon.github.io/article/2026-08-27-aidc-grid-code-power-strategy/</loc>
-    <lastmod>2026-08-27</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://ywmoon.github.io/article/2026-08-27-dc-infraops-trends-report/</loc>
     <lastmod>2026-08-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -1219,13 +1213,19 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ywmoon.github.io/article/2026-08-26-august-megafarm-deepdive/</loc>
-    <lastmod>2026-08-26</lastmod>
+    <loc>https://ywmoon.github.io/article/2026-08-27-dc-infraops-trends-report/</loc>
+    <lastmod>2026-08-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://ywmoon.github.io/article/2026-08-26-daily-infraops-briefing/</loc>
+    <lastmod>2026-08-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ywmoon.github.io/article/2026-08-26-august-megafarm-deepdive/</loc>
     <lastmod>2026-08-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -1239,6 +1239,18 @@
   <url>
     <loc>https://ywmoon.github.io/article/2026-08-26-dc-infraops-trends-report/</loc>
     <lastmod>2026-08-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ywmoon.github.io/article/2026-08-25-daily-infraops-briefing/</loc>
+    <lastmod>2026-08-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ywmoon.github.io/article/2026-08-25-august-megafarm-deepdive/</loc>
+    <lastmod>2026-08-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -1261,30 +1273,6 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ywmoon.github.io/article/2026-08-25-daily-infraops-briefing/</loc>
-    <lastmod>2026-08-25</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://ywmoon.github.io/article/2026-08-25-august-megafarm-deepdive/</loc>
-    <lastmod>2026-08-25</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://ywmoon.github.io/article/2026-08-24-dc-infraops-trends-report/</loc>
-    <lastmod>2026-08-24</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://ywmoon.github.io/article/2026-08-24-10min-tech-podcast/</loc>
-    <lastmod>2026-08-24</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
     <loc>https://ywmoon.github.io/article/2026-08-24-daily-infraops-briefing/</loc>
     <lastmod>2026-08-24</lastmod>
     <changefreq>weekly</changefreq>
@@ -1297,7 +1285,19 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://ywmoon.github.io/article/2026-08-24-10min-tech-podcast/</loc>
+    <lastmod>2026-08-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://ywmoon.github.io/article/2026-08-24-infra-glossary/</loc>
+    <lastmod>2026-08-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ywmoon.github.io/article/2026-08-24-dc-infraops-trends-report/</loc>
     <lastmod>2026-08-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -1351,12 +1351,6 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ywmoon.github.io/article/2026-08-21-dc-infraops-trends-report/</loc>
-    <lastmod>2026-08-21</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
     <loc>https://ywmoon.github.io/article/2026-08-21-daily-infraops-briefing/</loc>
     <lastmod>2026-08-21</lastmod>
     <changefreq>weekly</changefreq>
@@ -1381,6 +1375,12 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://ywmoon.github.io/article/2026-08-21-dc-infraops-trends-report/</loc>
+    <lastmod>2026-08-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://ywmoon.github.io/article/2026-08-20-samilpwc-dc-cooling-industry/</loc>
     <lastmod>2026-08-20</lastmod>
     <changefreq>weekly</changefreq>
@@ -1393,13 +1393,13 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ywmoon.github.io/article/2026-08-20-10min-tech-podcast/</loc>
+    <loc>https://ywmoon.github.io/article/2026-08-20-august-megafarm-deepdive/</loc>
     <lastmod>2026-08-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ywmoon.github.io/article/2026-08-20-dc-infraops-trends-report/</loc>
+    <loc>https://ywmoon.github.io/article/2026-08-20-10min-tech-podcast/</loc>
     <lastmod>2026-08-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -1411,7 +1411,7 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ywmoon.github.io/article/2026-08-20-august-megafarm-deepdive/</loc>
+    <loc>https://ywmoon.github.io/article/2026-08-20-dc-infraops-trends-report/</loc>
     <lastmod>2026-08-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -1429,6 +1429,12 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://ywmoon.github.io/article/2026-08-19-10min-tech-podcast/</loc>
+    <lastmod>2026-08-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://ywmoon.github.io/article/2026-08-19-infra-glossary/</loc>
     <lastmod>2026-08-19</lastmod>
     <changefreq>weekly</changefreq>
@@ -1441,8 +1447,20 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ywmoon.github.io/article/2026-08-19-10min-tech-podcast/</loc>
-    <lastmod>2026-08-19</lastmod>
+    <loc>https://ywmoon.github.io/article/2026-08-18-daily-infraops-briefing/</loc>
+    <lastmod>2026-08-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ywmoon.github.io/article/2026-08-18-august-megafarm-deepdive/</loc>
+    <lastmod>2026-08-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ywmoon.github.io/article/2026-08-18-10min-tech-podcast/</loc>
+    <lastmod>2026-08-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -1459,25 +1477,7 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ywmoon.github.io/article/2026-08-18-august-megafarm-deepdive/</loc>
-    <lastmod>2026-08-18</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://ywmoon.github.io/article/2026-08-18-daily-infraops-briefing/</loc>
-    <lastmod>2026-08-18</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://ywmoon.github.io/article/2026-08-18-10min-tech-podcast/</loc>
-    <lastmod>2026-08-18</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://ywmoon.github.io/article/2026-08-17-bess-battery-storage/</loc>
+    <loc>https://ywmoon.github.io/article/2026-08-17-daily-infraops-briefing/</loc>
     <lastmod>2026-08-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -1495,7 +1495,7 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ywmoon.github.io/article/2026-08-17-daily-infraops-briefing/</loc>
+    <loc>https://ywmoon.github.io/article/2026-08-17-bess-battery-storage/</loc>
     <lastmod>2026-08-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>

@@ -4,20 +4,20 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>[테크 딥다이브] 랙당 100kW 고밀도 AI 시대를 향한 분기점: 공랭 한계 돌파를 위한 액침냉각(Immersion Cooling) 표준화와 설비·EPC 통합 아키텍처 분석</title>
-  <meta name="description" content="TECH DEEP DIVE AI 인프라 · 차세대 냉각 아키텍처 초거대 생성형 AI 모델의 연산 밀도가 급상승하면서 데이터센터 랙당 열부하가 100kW를 돌파하고 있습니다. 본 칼럼에서는 전통적 공랭 방식의 열역학적 임계점과 D2C(Direct-to-Chip)의 구조적 한계를 짚고, 최근 산업계에서 본격화된 액침냉각(Immersion Cooling) 기술 " />
+  <meta name="description" content="TECH DEEP DIVE AI 인프라 · 차세대 냉각 아키텍처 초거대 생성형 AI 모델의 연산 밀도가 급상승하면서 데이터센터 랙당 열부하가 100kW를 돌파하고 있습니다. 본 칼럼에서는 전통적 공랭 방식의 열역학적 임계점과 D2C(Direct-to-Chip)의 구조적 한계를 짚고, 최근 산업계에서 본격화된 액침냉각(Immersion Cooling) 기술" />
   <meta name="robots" content="index, follow" />
   <link rel="canonical" href="https://ywmoon.github.io/article/2026-10-15-august-megafarm-deepdive/" />
   <!-- OpenGraph -->
   <meta property="og:type" content="article" />
   <meta property="og:title" content="[테크 딥다이브] 랙당 100kW 고밀도 AI 시대를 향한 분기점: 공랭 한계 돌파를 위한 액침냉각(Immersion Cooling) 표준화와 설비·EPC 통합 아키텍처 분석" />
-  <meta property="og:description" content="TECH DEEP DIVE AI 인프라 · 차세대 냉각 아키텍처 초거대 생성형 AI 모델의 연산 밀도가 급상승하면서 데이터센터 랙당 열부하가 100kW를 돌파하고 있습니다. 본 칼럼에서는 전통적 공랭 방식의 열역학적 임계점과 D2C(Direct-to-Chip)의 구조적 한계를 짚고, 최근 산업계에서 본격화된 액침냉각(Immersion Cooling) 기술 " />
+  <meta property="og:description" content="TECH DEEP DIVE AI 인프라 · 차세대 냉각 아키텍처 초거대 생성형 AI 모델의 연산 밀도가 급상승하면서 데이터센터 랙당 열부하가 100kW를 돌파하고 있습니다. 본 칼럼에서는 전통적 공랭 방식의 열역학적 임계점과 D2C(Direct-to-Chip)의 구조적 한계를 짚고, 최근 산업계에서 본격화된 액침냉각(Immersion Cooling) 기술" />
   <meta property="og:url" content="https://ywmoon.github.io/article/2026-10-15-august-megafarm-deepdive/" />
   <meta property="og:image" content="https://ywmoon.github.io/assets/avatar.jpg" />
   <meta property="og:site_name" content="Datacenter InfraOps &amp; Cloud Industry Notes" />
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary" />
   <meta name="twitter:title" content="[테크 딥다이브] 랙당 100kW 고밀도 AI 시대를 향한 분기점: 공랭 한계 돌파를 위한 액침냉각(Immersion Cooling) 표준화와 설비·EPC 통합 아키텍처 분석" />
-  <meta name="twitter:description" content="TECH DEEP DIVE AI 인프라 · 차세대 냉각 아키텍처 초거대 생성형 AI 모델의 연산 밀도가 급상승하면서 데이터센터 랙당 열부하가 100kW를 돌파하고 있습니다. 본 칼럼에서는 전통적 공랭 방식의 열역학적 임계점과 D2C(Direct-to-Chip)의 구조적 한계를 짚고, 최근 산업계에서 본격화된 액침냉각(Immersion Cooling) 기술 " />
+  <meta name="twitter:description" content="TECH DEEP DIVE AI 인프라 · 차세대 냉각 아키텍처 초거대 생성형 AI 모델의 연산 밀도가 급상승하면서 데이터센터 랙당 열부하가 100kW를 돌파하고 있습니다. 본 칼럼에서는 전통적 공랭 방식의 열역학적 임계점과 D2C(Direct-to-Chip)의 구조적 한계를 짚고, 최근 산업계에서 본격화된 액침냉각(Immersion Cooling) 기술" />
   <meta name="twitter:image" content="https://ywmoon.github.io/assets/avatar.jpg" />
   <!-- Structured Data: Google Schema.org (Article) -->
   <script type="application/ld+json">
@@ -25,9 +25,9 @@
   "@context": "https://schema.org",
   "@type": "TechArticle",
   "headline": "[테크 딥다이브] 랙당 100kW 고밀도 AI 시대를 향한 분기점: 공랭 한계 돌파를 위한 액침냉각(Immersion Cooling) 표준화와 설비·EPC 통합 아키텍처 분석",
-  "description": "TECH DEEP DIVE AI 인프라 · 차세대 냉각 아키텍처 초거대 생성형 AI 모델의 연산 밀도가 급상승하면서 데이터센터 랙당 열부하가 100kW를 돌파하고 있습니다. 본 칼럼에서는 전통적 공랭 방식의 열역학적 임계점과 D2C(Direct-to-Chip)의 구조적 한계를 짚고, 최근 산업계에서 본격화된 액침냉각(Immersion Cooling) 기술 ",
-  "datePublished": "2026-10-15T07:44:00+09:00",
-  "dateModified": "2026-10-15 07:44:00+09:00",
+  "description": "TECH DEEP DIVE AI 인프라 · 차세대 냉각 아키텍처 초거대 생성형 AI 모델의 연산 밀도가 급상승하면서 데이터센터 랙당 열부하가 100kW를 돌파하고 있습니다. 본 칼럼에서는 전통적 공랭 방식의 열역학적 임계점과 D2C(Direct-to-Chip)의 구조적 한계를 짚고, 최근 산업계에서 본격화된 액침냉각(Immersion Cooling) 기술",
+  "datePublished": "2026-10-15T07:47:00+09:00",
+  "dateModified": "2026-10-25 16:52:00+09:00",
   "mainEntityOfPage": {
     "@type": "WebPage",
     "@id": "https://ywmoon.github.io/article/2026-10-15-august-megafarm-deepdive/"
