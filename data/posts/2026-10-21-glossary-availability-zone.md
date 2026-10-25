@@ -2,14 +2,14 @@
 id: 2026-10-21-glossary-availability-zone
 title: "[인프라 용어사전] 가용 영역 (Availability Zone) - 단일 존 전력 장애를 격리하고 무중단을 구현하는 클라우드 고가용성의 물리적 방화벽"
 date: 2026-10-21
-time: "05:52"
+time: "05:53"
 category: Terminology
 status: published
 summary: "Cloud Infrastructure & Resilience Architecture 가용 영역 (Availability Zone, AZ) 단일 데이터센터 설비의 전력·냉각 장애가 전체 리전으로 번지는 연쇄 결함을 원천 격리하는 클라우드 엔지니어링의 핵심 단위 📌 1. 30초 핵심 요약 & 개념 정의 공학적 정의: 가용 영역(Availability Zone,"
 labels:
   - 인프라용어사전
   - IT백과사전
-  - 가용 영역
+  - 가용영역
   - AWS
   - 데이터센터
 ---

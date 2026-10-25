@@ -2,7 +2,7 @@
 id: 2026-10-16-august-megafarm-deepdive
 title: "[테크 딥다이브] 랙당 100kW 시대의 열역학적 임계점과 직접 액체냉각(DLC) 아키텍처: AI 데이터센터 TCO 재편의 조건"
 date: 2026-10-16
-time: "06:15"
+time: "06:18"
 category: Tech Deep Dive
 status: published
 summary: "생성형 AI 모델의 연산 복잡도가 폭발적으로 증가함에 따라 고밀도 가속기 클러스터의 발열 제어가 글로벌 클라우드 및 데이터센터 인프라의 최대 병목이자 핵심 기술 쟁점으로 부상했습니다. 본 칼럼에서는 전통적 공랭 방식의 공학적 한계, 직접 칩 액체냉각(Direct-to-Chip, DLC)의 유체역학적 아키텍처 메커니즘, 빅테크의 전력 및 자본 지출(CapEx"

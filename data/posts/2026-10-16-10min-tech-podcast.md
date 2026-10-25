@@ -2,7 +2,7 @@
 id: 2026-10-16-10min-tech-podcast
 title: "[2026.10.16] [10-Min English Podcast] Navigating Gigawatt On-Site Power, Transmission Grid Saturation, Neo-Cloud Asset Impairments, and 100Tbps Switching Fabrics"
 date: 2026-10-16
-time: "06:15"
+time: "06:17"
 category: Podcast
 status: published
 summary: "🎧 10-MIN TECH ENGLISH PODCAST [2026.10.16] [10-Min English Podcast] Navigating Gigawatt On-Site Power, Transmission Grid Saturation, Neo-Cloud Asset Impairments, and 100Tbps Switching Fabrics 2026년 10"
@@ -18,8 +18,7 @@ labels:
   - 네오클라우드
 ---
 
-
-    <div style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; line-height: 1.8; color: #1E293B; max-width: 820px; margin: 0 auto;">
+<div style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; line-height: 1.8; color: #1E293B; max-width: 820px; margin: 0 auto;">
         
         <!-- Podcast Hero Audio Player Card -->
         <div style="background: linear-gradient(135deg, #0F172A 0%, #1E293B 100%); border-radius: 12px; padding: 24px 28px; margin-bottom: 28px; color: #FFFFFF; box-shadow: 0 4px 12px rgba(0,0,0,0.15); border-top: 4px solid #38BDF8;">

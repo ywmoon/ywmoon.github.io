@@ -2,7 +2,7 @@
 id: 2026-10-19-deepdive-hyperscale-grid-bottleneck-nscale-datacenter
 title: "[테크 딥다이브] 전력 계통 연계 병목과 AIDC 개발 리스크: MS-엔스케일 계약 파기가 드러낸 인프라 PF 및 공급망 구조의 균열"
 date: 2026-10-19
-time: "06:01"
+time: "06:04"
 category: Tech Deep Dive
 status: published
 summary: "글로벌 인공지능(AI) 인프라 확장이 전례 없는 구조적 장벽에 직면했습니다. 연산 가속기 칩의 공급 부족을 넘어, 송배전망의 '계통 연계 대기열(Interconnection Queue)' 적체가 기가와트(GW)급 메가 프로젝트의 물리적 존립을 위협하고 있습니다. 마이크로소프트의 영국 대규모 데이터센터 임대 계약 철회와 북미 47개 프로젝트의 제동은 '선(先"

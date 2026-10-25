@@ -2,10 +2,10 @@
 id: 2026-10-23-glossary-high-bandwidth-memory-4
 title: "[인프라 용어사전] HBM4 (High Bandwidth Memory 4) - AI 가속기 메모리 벽을 허무는 2048비트 인터페이스와 커스텀 로직 베이스 다이"
 date: 2026-10-23
-time: "05:57"
+time: "05:58"
 category: Terminology
 status: published
-summary: "📌 1. 30초 핵심 요약 & 개념 정의HBM4(High Bandwidth Memory 4)는 국제반도체표준협의기구(JEDEC)에서 규격화한 6세대 고대역폭 메모리 표준 규격입니다. GPU 및 NPU 등 대규모 AI 가속기의 연산 처리 속도에 비해 시스템 메모리의 데이터 전송 속도가 미치지 못해 전체 시스템 처리율이 급격히 저하되는 '메모리 벽(Memory"
+summary: "HBM4(High Bandwidth Memory 4)는 국제반도체표준협의기구(JEDEC)에서 규격화한 6세대 고대역폭 메모리 표준 규격입니다. GPU 및 NPU 등 대규모 AI 가속기의 연산 처리 속도에 비해 시스템 메모리의 데이터 전송 속도가 미치지 못해 전체 시스템 처리율이 급격히 저하되는 '메모리 벽(Memory"
 labels:
   - 인프라용어사전
   - IT백과사전

@@ -2,10 +2,10 @@
 id: 2026-10-07-10min-tech-podcast
 title: "[2026.10.07] [10-Min English Podcast] Google's 3.6GW Nuclear PPA, AWS Campus Grid Friction, 800V DC Rack Transitions, and Hyperscale Infrastructure Expansion"
 date: 2026-10-07
-time: "05:51"
+time: "05:53"
 category: Podcast
 status: published
-summary: "🎧 10-MIN TECH ENGLISH PODCAST [2026.10.07] [10-Min English Podcast] Google's 3.6GW Nuclear PPA, AWS Campus Grid Friction, 800V DC Rack Transitions, and Hyperscale Infrastructure Expansion 오늘의 10분 심층 팟"
+summary: "오늘의 10분 심층 팟캐스트는 2026년 10월 7일 글로벌 데이터센터 및 전력 인프라 산업의 4대 핵심 축을 집중 분석합니다. 첫째, 구글이 콘스텔레이션 에너지와 체결한 최대 43억 달러 규모 20년 PPA 계약(PJM 전력망 3.6GW 확보 및 신규 원전 용량 890MW 직결)과 유타주 원전 데이터센터, 펜실베이니아 연료전지, 한국 국감의 SMR 온사이"
 labels:
   - EnglishPodcast
   - TechEnglish
@@ -19,8 +19,7 @@ labels:
   - 액체냉각
 ---
 
-
-    <div style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; line-height: 1.8; color: #1E293B; max-width: 820px; margin: 0 auto;">
+<div style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; line-height: 1.8; color: #1E293B; max-width: 820px; margin: 0 auto;">
         
         <!-- Podcast Hero Audio Player Card -->
         <div style="background: linear-gradient(135deg, #0F172A 0%, #1E293B 100%); border-radius: 12px; padding: 24px 28px; margin-bottom: 28px; color: #FFFFFF; box-shadow: 0 4px 12px rgba(0,0,0,0.15); border-top: 4px solid #38BDF8;">

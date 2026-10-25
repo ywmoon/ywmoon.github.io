@@ -2,7 +2,7 @@
 id: 2026-10-07-infra-glossary
 title: "[인프라 용어사전] BTM (Behind-the-Meter) - 계통 병목을 우회하는 데이터센터 온사이트 직결 전력 아키텍처"
 date: 2026-10-07
-time: "05:51"
+time: "05:52"
 category: Terminology
 status: published
 summary: "전력 인프라 아키텍처 기저전원 직결 하이퍼스케일 전력망 BTM (Behind-the-Meter, 계통 후면 전력 연계) 공용 송전망의 병목과 접속 대기열을 우회하여 발전원과 대규모 부하를 구내에서 직접 물리적으로 연결하는 차세대 전력 수전 체계 📌 1. 30초 핵심 요약 & 개념 정의 BTM(Behind-the-Meter, 계통 후면 전력 연계)은 전력 소"

@@ -2,16 +2,16 @@
 id: 2026-10-22-10min-tech-podcast
 title: "[2026.10.22] [10-Min English Podcast] Hyperscaler Grid Outages, 221-Trillion-Won Credit Backstops, and the Race for Behind-the-Meter Power"
 date: 2026-10-22
-time: "05:55"
+time: "05:57"
 category: Podcast
 status: published
-summary: "🎧 10-MIN TECH ENGLISH PODCAST [2026.10.22] [10-Min English Podcast] Hyperscaler Grid Outages, 221-Trillion-Won Credit Backstops, and the Race for Behind-the-Meter Power 오늘의 10분 심층 팟캐스트는 런던 구글 클라우드 리전 "
+summary: "오늘의 10분 심층 팟캐스트는 런던 구글 클라우드 리전 정전으로 촉발된 유럽 금융 마비와 단일 장애점(SPOF) 규제 리스크, 엔비디아의 221조 원 규모 신용 보증 및 14일 초고속 모듈형 데이터센터(DSX POD) 공개, 아마존·MS·구글의 960MW급 SMR 직접 건설 및 20년 PPA 추진, 버지니아 애슈번 프로젝트 철회와 트럼프 전력 배당 의무화 "
 labels:
   - EnglishPodcast
   - TechEnglish
   - 비즈니스영어
   - GoogleCloud
-  - Nvidia
+  - NVIDIA
   - SMR
   - Ashburn
   - TorchNeuron
@@ -19,8 +19,7 @@ labels:
   - 데이터센터
 ---
 
-
-    <div style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; line-height: 1.8; color: #1E293B; max-width: 820px; margin: 0 auto;">
+<div style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; line-height: 1.8; color: #1E293B; max-width: 820px; margin: 0 auto;">
         
         <!-- Podcast Hero Audio Player Card -->
         <div style="background: linear-gradient(135deg, #0F172A 0%, #1E293B 100%); border-radius: 12px; padding: 24px 28px; margin-bottom: 28px; color: #FFFFFF; box-shadow: 0 4px 12px rgba(0,0,0,0.15); border-top: 4px solid #38BDF8;">

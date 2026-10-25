@@ -2,10 +2,10 @@
 id: 2026-10-12-10min-tech-podcast
 title: "[2026.10.12] [10-Min English Podcast] Physical Warfare on Cloud Hubs, Firmus IPO Pullback, and Virtual Gas Pipelines"
 date: 2026-10-12
-time: "06:02"
+time: "06:04"
 category: Podcast
 status: published
-summary: "🎧 10-MIN TECH ENGLISH PODCAST [2026.10.12] [10-Min English Podcast] Physical Warfare on Cloud Hubs, Firmus IPO Pullback, and Virtual Gas Pipelines 오늘의 10분 심층 팟캐스트는 러시아 얀덱스 데이터센터 연쇄 드론 피격에 따른 물리적 인프라 안"
+summary: "오늘의 10분 심층 팟캐스트는 러시아 얀덱스 데이터센터 연쇄 드론 피격에 따른 물리적 인프라 안보 위기, 엔비디아가 지원한 퍼머스의 50억 달러 호주 IPO 철회와 AI 설비 밸류에이션 재조정, 파이프라인 지연을 우회하기 위한 오라클의 천연가스 트럭 수송과 전력비 분담 구조 개편, 그리고 아마존의 지자체 비밀유지협약(NDA) 폐기 및 글로벌 님비 극복을 위"
 labels:
   - EnglishPodcast
   - TechEnglish
@@ -16,8 +16,7 @@ labels:
   - 액체냉각
 ---
 
-
-    <div style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; line-height: 1.8; color: #1E293B; max-width: 820px; margin: 0 auto;">
+<div style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; line-height: 1.8; color: #1E293B; max-width: 820px; margin: 0 auto;">
         
         <!-- Podcast Hero Audio Player Card -->
         <div style="background: linear-gradient(135deg, #0F172A 0%, #1E293B 100%); border-radius: 12px; padding: 24px 28px; margin-bottom: 28px; color: #FFFFFF; box-shadow: 0 4px 12px rgba(0,0,0,0.15); border-top: 4px solid #38BDF8;">

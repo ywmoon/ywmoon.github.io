@@ -2,7 +2,7 @@
 id: 2026-10-06-infra-glossary
 title: "[인프라 용어사전] 액침 냉각 (Immersion Cooling) - 100kW+ 초고발열 AI 랙을 절연 유체에 통째로 담그는 차세대 열관리 아키텍처"
 date: 2026-10-06
-time: "05:49"
+time: "05:50"
 category: Terminology
 status: published
 summary: "Next-Gen Thermal Architecture 액침 냉각 (Immersion Cooling) 비전도성 유전체 용액에 고집적 IT 서버를 완전 침전시켜 100kW+ 고발열을 제어하고 팬을 영구 제거하는 궁극의 열관리 기술 📌 1. 30초 핵심 요약 & 개념 정의 직관적 비유: 방수 스마트폰을 차가운 수조에 담그듯, 전기가 통하지 않는 특수 절연 오일("

@@ -2,10 +2,10 @@
 id: 2026-10-19-10min-tech-podcast
 title: "[2026.10.19] [10-Min English Podcast] Grid Saturation, Kinetic Vulnerabilities, and Hyperscale Infrastructure Realignment"
 date: 2026-10-19
-time: "06:01"
+time: "06:03"
 category: Podcast
 status: published
-summary: "🎧 10-MIN TECH ENGLISH PODCAST [2026.10.19] [10-Min English Podcast] Grid Saturation, Kinetic Vulnerabilities, and Hyperscale Infrastructure Realignment 오늘의 10분 심층 팟캐스트는 영국 내셔널그리드 연계 지체로 인한 마이크로소프트의 에식"
+summary: "오늘의 10분 심층 팟캐스트는 영국 내셔널그리드 연계 지체로 인한 마이크로소프트의 에식스주 Nscale 계약 철회 및 북미 47개 프로젝트 차질, 우크라이나의 대규모 드론 공습으로 인한 러시아 VKontakte 메가 데이터센터 직격과 물리적 안보 위협, 중앙 송전망 병목을 우회하는 니소스 1.1GW 장기 PPA 및 구글 텍사스 온사이트 태양광·BESS 구축"
 labels:
   - EnglishPodcast
   - TechEnglish
@@ -16,8 +16,7 @@ labels:
   - 액체냉각
 ---
 
-
-    <div style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; line-height: 1.8; color: #1E293B; max-width: 820px; margin: 0 auto;">
+<div style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; line-height: 1.8; color: #1E293B; max-width: 820px; margin: 0 auto;">
         
         <!-- Podcast Hero Audio Player Card -->
         <div style="background: linear-gradient(135deg, #0F172A 0%, #1E293B 100%); border-radius: 12px; padding: 24px 28px; margin-bottom: 28px; color: #FFFFFF; box-shadow: 0 4px 12px rgba(0,0,0,0.15); border-top: 4px solid #38BDF8;">

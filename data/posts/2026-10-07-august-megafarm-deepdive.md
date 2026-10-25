@@ -2,10 +2,10 @@
 id: 2026-10-07-august-megafarm-deepdive
 title: "[테크 딥다이브] 기가와트(GW)급 AI 데이터센터의 전력망 병목과 온사이트 에너지 아키텍처: 계통 연계 지연 극복을 위한 BTM 직결 및 분산 인프라 전략"
 date: 2026-10-07
-time: "05:51"
+time: "05:54"
 category: Tech Deep Dive
 status: published
-summary: "Technical Infrastructure Deep Dive 기가와트(GW)급 AI 데이터센터의 전력망 병목과 온사이트 에너지 아키텍처: 계통 연계 지연 극복을 위한 BTM 직결 및 분산 인프라 전략 생성형 AI 워크로드의 가속화는 단일 데이터센터 캠퍼스의 수전 용량을 수백 메가와트(MW)에서 기가와트(GW) 단위로 급증시켰습니다. 그러나 공용 송전망의 "
+summary: "Technical Infrastructure Deep Dive 기가와트(GW)급 AI 데이터센터의 전력망 병목과 온사이트 에너지 아키텍처: 계통 연계 지연 극복을 위한 BTM 직결 및 분산 인프라 전략 생성형 AI 워크로드의 가속화는 단일 데이터센터 캠퍼스의 수전 용량을 수백 메가와트(MW)에서 기가와트(GW) 단위로 급증시켰습니다. 그러나 공용 송전망의"
 labels:
   - 테크딥다이브
   - AI데이터센터

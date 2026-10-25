@@ -2,7 +2,7 @@
 id: 2026-10-21-deepdive-gcp-london-outage-fault-domain-resilience
 title: "[테크 딥다이브] 단일 가용영역 전력 장애가 촉발한 금융 인프라 마비: 하이퍼스케일 장애 격리 도메인의 한계와 크로스 리전 복원력 아키텍처"
 date: 2026-10-21
-time: "05:52"
+time: "05:55"
 category: Tech Deep Dive
 status: published
 summary: "2026년 10월 20일, 구글 클라우드(GCP)의 영국 런던 리전(europe-west2) 내 단일 가용영역(europe-west2-b)에서 발생한 전력 공급 이상(Power Event)은 글로벌 금융 및 공공 전산망에 막대한 충격을 안겼다. 약 6시간 이상 지속된 이번 장애로 인해 로이즈(Lloyds), HSBC, 스코틀랜드 은행 등 영국 주요 시중은행"

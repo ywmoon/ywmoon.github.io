@@ -2,7 +2,7 @@
 id: 2026-10-20-deepdive-amazon-smr-coal-to-nuclear-power-architecture
 title: "[테크 딥다이브] 폐쇄 화력발전소 부지와 12기 SMR의 결합: 아마존이 제시한 AI 데이터센터 ‘그리드 큐(Queue) 우회’와 온사이트 기저전력 아키텍처"
 date: 2026-10-20
-time: "05:57"
+time: "06:00"
 category: Tech Deep Dive
 status: published
 summary: "Deep Dive Tech Column폐쇄 화력발전소 부지와 12기 SMR의 결합: 아마존이 제시한 AI 데이터센터 ‘그리드 큐(Queue) 우회’와 온사이트 기저전력 아키텍처송전망 증설 지연에 따른 하이퍼스케일러의 프로젝트 이탈이 가시화되는 가운데, 탈석탄 브라운필드 인프라와 4세대 소형모듈원자로(SMR)를 직결하여 계통 연계 병목을 돌파하는 새로운 엔지"

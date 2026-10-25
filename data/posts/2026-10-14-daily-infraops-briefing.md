@@ -1,8 +1,8 @@
 ---
 id: 2026-10-14-daily-infraops-briefing
-title: "[2026.10.14] 오늘의 글로벌 클라우드 & 데이터센터 인프라 핵심 동향 브리핑"
+title: "[2026.10.14] 글로벌 인프라 브리핑: 하이퍼스케일러 자체 AI 반도체 생태계의 대규모 확장 & 배전 및 냉각 패러다임의 급격한 전환"
 date: 2026-10-14
-time: "06:16"
+time: "06:20"
 category: Daily Briefing
 status: published
 summary: "Daily InfraOps Digest | Global Cloud & Data Center Report 글로벌 AI 인프라 아키텍처 재편: 800V DC 배전, 네트워크 수랭화, 멀티 GW 커스텀 실리콘 발행일: 2026년 10월 14일 | 대상: 인프라 아키텍트, 시스템 엔지니어, 기술 의사결정권자 📌 오늘의 3대 핵심 관전 포인트 (Key Highlig"

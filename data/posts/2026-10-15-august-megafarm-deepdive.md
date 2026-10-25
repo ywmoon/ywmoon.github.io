@@ -2,10 +2,10 @@
 id: 2026-10-15-august-megafarm-deepdive
 title: "[테크 딥다이브] 랙당 100kW 고밀도 AI 시대를 향한 분기점: 공랭 한계 돌파를 위한 액침냉각(Immersion Cooling) 표준화와 설비·EPC 통합 아키텍처 분석"
 date: 2026-10-15
-time: "07:44"
+time: "07:47"
 category: Tech Deep Dive
 status: published
-summary: "TECH DEEP DIVE AI 인프라 · 차세대 냉각 아키텍처 초거대 생성형 AI 모델의 연산 밀도가 급상승하면서 데이터센터 랙당 열부하가 100kW를 돌파하고 있습니다. 본 칼럼에서는 전통적 공랭 방식의 열역학적 임계점과 D2C(Direct-to-Chip)의 구조적 한계를 짚고, 최근 산업계에서 본격화된 액침냉각(Immersion Cooling) 기술 "
+summary: "TECH DEEP DIVE AI 인프라 · 차세대 냉각 아키텍처 초거대 생성형 AI 모델의 연산 밀도가 급상승하면서 데이터센터 랙당 열부하가 100kW를 돌파하고 있습니다. 본 칼럼에서는 전통적 공랭 방식의 열역학적 임계점과 D2C(Direct-to-Chip)의 구조적 한계를 짚고, 최근 산업계에서 본격화된 액침냉각(Immersion Cooling) 기술"
 labels:
   - 테크딥다이브
   - 액침냉각

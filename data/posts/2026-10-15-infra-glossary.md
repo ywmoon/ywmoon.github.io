@@ -2,10 +2,10 @@
 id: 2026-10-15-infra-glossary
 title: "[인프라 용어사전] 유전체 냉각유 (Dielectric Coolant) - 메가와트급 AI 하드웨어를 위한 비전도성 열전달 매체의 공학적 규격과 설계 기준"
 date: 2026-10-15
-time: "07:44"
+time: "07:45"
 category: Terminology
 status: published
-summary: "📌 1. 30초 핵심 요약 & 개념 정의 \"전기가 통하지 않는 특수 절연 유체로 고발열 연산 장치를 직접 감싸, 공기보다 1,000배 높은 체적 열용량으로 열을 흡수하는 차세대 열전달 유체\" 공식 정의: 유전체 냉각유(Dielectric Coolant 또는 Dielectric Fluid)는 절연 파괴 전압(Dielectric Breakdown Voltage"
+summary: "\"전기가 통하지 않는 특수 절연 유체로 고발열 연산 장치를 직접 감싸, 공기보다 1,000배 높은 체적 열용량으로 열을 흡수하는 차세대 열전달 유체\" 공식 정의: 유전체 냉각유(Dielectric Coolant 또는 Dielectric Fluid)는 절연 파괴 전압(Dielectric Breakdown Voltage"
 labels:
   - 인프라용어사전
   - IT백과사전

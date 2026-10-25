@@ -2,10 +2,10 @@
 id: 2026-10-21-10min-tech-podcast
 title: "[2026.10.21] [10-Min English Podcast] London Hyperscale Power Cascades, 960MW On-Site SMRs, and the AI Infrastructure Debt Shakeout"
 date: 2026-10-21
-time: "05:52"
+time: "05:54"
 category: Podcast
 status: published
-summary: "🎧 10-MIN TECH ENGLISH PODCAST [2026.10.21] [10-Min English Podcast] London Hyperscale Power Cascades, 960MW On-Site SMRs, and the AI Infrastructure Debt Shakeout 오늘의 10분 심층 팟캐스트는 구글 클라우드 런던 리전의 전력 장애로"
+summary: "오늘의 10분 심층 팟캐스트는 구글 클라우드 런던 리전의 전력 장애로 인한 영국 금융·공공 마비 사태와 단일 장애점(SPOF) 리스크, 아마존의 960MW SMR 직접 건설 및 빅테크 기저전원 내재화, 영국 전력망 병목에 따른 MS 50MW 계약 철회와 앤트로픽-엔스케일 60조 원 딜 및 네오클라우드 부채 위기, 아마존의 2,200억 달러 CapEx 출혈과"
 labels:
   - EnglishPodcast
   - TechEnglish
@@ -16,8 +16,7 @@ labels:
   - 액체냉각
 ---
 
-
-    <div style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; line-height: 1.8; color: #1E293B; max-width: 820px; margin: 0 auto;">
+<div style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; line-height: 1.8; color: #1E293B; max-width: 820px; margin: 0 auto;">
         
         <!-- Podcast Hero Audio Player Card -->
         <div style="background: linear-gradient(135deg, #0F172A 0%, #1E293B 100%); border-radius: 12px; padding: 24px 28px; margin-bottom: 28px; color: #FFFFFF; box-shadow: 0 4px 12px rgba(0,0,0,0.15); border-top: 4px solid #38BDF8;">

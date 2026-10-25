@@ -2,7 +2,7 @@
 id: 2026-10-22-deepdive-amazon-ashburn-withdrawal-datacenter-zoning
 title: "[테크 딥다이브] 아마존의 4.27억 달러 애슈번 개발 철회가 던진 경고…데이터센터 앨리의 수용 한계와 입지 분산화"
 date: 2026-10-22
-time: "05:55"
+time: "05:58"
 category: Tech Deep Dive
 status: published
 summary: "핵심 요약: 글로벌 데이터센터의 심장부로 불리는 미국 북버지니아 라우던 카운티(Loudoun County)에서 아마존이 4억 2,700만 달러 규모의 데이터센터 신규 개발 계획을 전격 철회하고 법적 소송 권리까지 포기하는 합의를 체결했습니다. 테네시주 멤피스에서도 신규 데이터센터 신청 동결안이 의회를 통과하는 등, AI 데이터센터의 급격한 확장이 송전망 병"

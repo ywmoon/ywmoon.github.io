@@ -2,10 +2,10 @@
 id: 2026-10-08-infra-glossary
 title: "[인프라 용어사전] 오프그리드 데이터센터 (Off-Grid Data Center) - 전력망 병목을 돌파하는 독립형 자립 전력 아키텍처"
 date: 2026-10-08
-time: "05:52"
+time: "05:53"
 category: Terminology
 status: published
-summary: "📌 1. 30초 핵심 요약 & 개념 정의 [개념 정의] 오프그리드 데이터센터(Off-Grid Data Center)란 국가 및 지역 공용 송배전망(Utility Grid)과의 연결에 의존하지 않고, 부지 내부에 독자적인 발전 설비를 구축하여 상시 운전에 필요한 모든 전력을 자체 생산 및 소비하는 독립 자립형 전력 아키텍처를 의미합니다. 직관적 비유: 도시 "
+summary: "[개념 정의] 오프그리드 데이터센터(Off-Grid Data Center)란 국가 및 지역 공용 송배전망(Utility Grid)과의 연결에 의존하지 않고, 부지 내부에 독자적인 발전 설비를 구축하여 상시 운전에 필요한 모든 전력을 자체 생산 및 소비하는 독립 자립형 전력 아키텍처를 의미합니다. 직관적 비유: 도시"
 labels:
   - 인프라용어사전
   - IT백과사전

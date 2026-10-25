@@ -2,7 +2,7 @@
 id: 2026-10-13-august-megafarm-deepdive
 title: "[테크 딥다이브] 아마존의 70억 달러 데카르트 인수와 이종 실리콘 추상화: 엔비디아 독점 탈피와 하이퍼스케일러 자체 칩 경제학"
 date: 2026-10-13
-time: "05:52"
+time: "05:55"
 category: Tech Deep Dive
 status: published
 summary: "핵심 요약: 아마존이 70억 달러(약 9조 4,000억 원) 규모로 AI 스타트업 데카르트(Decart) 인수를 추진하고 있습니다. 본 분석은 엔비디아의 CUDA 생태계가 구축한 소프트웨어 장벽을 해체하고, AWS의 자체 가속기인 트레이니엄(Trainium)을 비롯한 이종(Heterogeneous) AI 반도체로 워크로드를 유연하게 전이시키는 소프트웨어 추"

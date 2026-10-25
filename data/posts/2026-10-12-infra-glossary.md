@@ -2,7 +2,7 @@
 id: 2026-10-12-infra-glossary
 title: "[인프라 용어사전] 블래스트 래디어스 (Blast Radius) - 국소 장애의 전체 확산을 차단하는 인프라 격리 반경"
 date: 2026-10-12
-time: "06:02"
+time: "06:03"
 category: Terminology
 status: published
 summary: "핵심 인프라 개념 분류: 클라우드 / 고가용성 아키텍처 (Fault Domain) 블래스트 래디어스(Blast Radius)는 군사학의 '폭발 반경'에서 유래한 인프라 공학 개념으로, 특정 서버 랙, 가용 영역(AZ), 데이터센터 건물 또는 소프트웨어 모듈에 치명적인 장애나 물리적 파괴가 발생했을 때 영향이 미칠 수 있는 '최대 장애 파급 범위(Failur"

@@ -2,7 +2,7 @@
 id: 2026-10-12-daily-infraops-briefing
 title: "[2026.10.12] 글로벌 AI 인프라 자본시장 검증과 물리적 안보 리스크 심층 브리핑"
 date: 2026-10-12
-time: "06:02"
+time: "06:06"
 category: Daily Briefing
 status: published
 summary: "글로벌 AI 인프라 자본시장 검증과 물리적 안보 리스크 심층 분석 2026년 10월 12일 | 데일리 인프라 종합 리포트 (Daily InfraOps Digest) 📌 오늘의 3대 핵심 관전 포인트 (Key Highlights) AI 전용 데이터센터 자본 조달의 제동과 가치 재평가: 엔비디아의 지원과 오픈AI·메타 계약을 확보했던 호주 퍼머스(Firmus)"

@@ -2,7 +2,7 @@
 id: 2026-10-13-10min-tech-podcast
 title: "[2026.10.13] [10-Min English Podcast] Hyperscale Custom Silicon Accelerators, Landmark PJM Grid Rulings, and Direct-to-Chip Thermal Realities"
 date: 2026-10-13
-time: "05:52"
+time: "05:54"
 category: Podcast
 status: published
 summary: "🎧 10-MIN TECH ENGLISH PODCAST [2026.10.13] [10-Min English Podcast] Hyperscale Custom Silicon Accelerators, Landmark PJM Grid Rulings, and Direct-to-Chip Thermal Realities 2026년 10월 13일 DC InfraOps Da"
@@ -18,8 +18,7 @@ labels:
   - OCP
 ---
 
-
-    <div style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; line-height: 1.8; color: #1E293B; max-width: 820px; margin: 0 auto;">
+<div style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; line-height: 1.8; color: #1E293B; max-width: 820px; margin: 0 auto;">
         
         <!-- Podcast Hero Audio Player Card -->
         <div style="background: linear-gradient(135deg, #0F172A 0%, #1E293B 100%); border-radius: 12px; padding: 24px 28px; margin-bottom: 28px; color: #FFFFFF; box-shadow: 0 4px 12px rgba(0,0,0,0.15); border-top: 4px solid #38BDF8;">

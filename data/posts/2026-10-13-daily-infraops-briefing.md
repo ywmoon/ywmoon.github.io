@@ -1,8 +1,8 @@
 ---
 id: 2026-10-13-daily-infraops-briefing
-title: "[2026.10.13] 오늘의 글로벌 클라우드 & 데이터센터 인프라 핵심 동향 브리핑"
+title: "[2026.10.13] 글로벌 인프라 브리핑: 아마존의 데카르트(Decart) 9조 원(약 65억 달러) 인수 논의 & AWS 피지컬 AI(Physical AI) 툴체인 공개"
 date: 2026-10-13
-time: "05:52"
+time: "05:56"
 category: Daily Briefing
 status: published
 summary: "DAILY INFRAOPS DIGEST 글로벌 클라우드 & 데이터센터 인프라 핵심 동향 리포트 발행일: 2026년 10월 13일 | IT 인프라 아키텍트 및 엔지니어링 의사결정권자를 위한 심층 분석 📌 오늘의 3대 핵심 관전 포인트 (Key Highlights) 1. 전력망 기저부하 확보와 데이터센터 거버넌스 투명성 전환 구글이 컨스텔레이션 에너지와 손잡고"

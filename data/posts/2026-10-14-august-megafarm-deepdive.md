@@ -2,7 +2,7 @@
 id: 2026-10-14-august-megafarm-deepdive
 title: "[테크 딥다이브] 아마존의 70억 달러 데카르트 인수와 AI 추론 가속기 탈(脫)엔비디아 전략: 컴파일러 가상화와 인프라 TCO 재편"
 date: 2026-10-14
-time: "06:16"
+time: "06:19"
 category: Tech Deep Dive
 status: published
 summary: "Executive Summary 글로벌 AI 데이터센터의 무게중심이 대규모 사전 학습에서 실시간 추론 및 인터랙티브 월드 모델 연산으로 이동하면서, 단일 하드웨어 벤더 중심의 고비용 구조가 한계에 직면했습니다. 아마존(AWS)이 추진 중인 AI 최적화 스타트업 데카르트(Decart)의 70억 달러 규모 인수는 자체 ASIC 가속기(Trainium2)의 소프"

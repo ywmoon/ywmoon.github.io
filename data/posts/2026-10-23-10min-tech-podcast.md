@@ -2,10 +2,10 @@
 id: 2026-10-23-10min-tech-podcast
 title: "[2026.10.23] [10-Min English Podcast] Multi-Cloud Model Garden Expansions, Neocloud Financing Pressures, and Substation Grid Innovations"
 date: 2026-10-23
-time: "05:57"
+time: "05:59"
 category: Podcast
 status: published
-summary: "🎧 10-MIN TECH ENGLISH PODCAST [2026.10.23] [10-Min English Podcast] Multi-Cloud Model Garden Expansions, Neocloud Financing Pressures, and Substation Grid Innovations 오늘의 10분 심층 팟캐스트는 오픈AI의 미국 3대 하이퍼스"
+summary: "오늘의 10분 심층 팟캐스트는 오픈AI의 미국 3대 하이퍼스케일러 입점 완료 및 에이전틱 컴퓨팅 인프라 동향, 호주 퍼머스 IPO 무산과 엔비디아의 2,270억 달러 규모 순환 금융 리스크, 구글의 PJM 1GW 가상발전소(VPP) 계약 및 아마존의 960MW 인디애나 SMR 타당성 조사, 버지니아 애슈번 25에이커 부지 기부와 커뮤니티 배당 압박, KT클"
 labels:
   - EnglishPodcast
   - TechEnglish
@@ -16,8 +16,7 @@ labels:
   - 액체냉각
 ---
 
-
-    <div style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; line-height: 1.8; color: #1E293B; max-width: 820px; margin: 0 auto;">
+<div style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; line-height: 1.8; color: #1E293B; max-width: 820px; margin: 0 auto;">
         
         <!-- Podcast Hero Audio Player Card -->
         <div style="background: linear-gradient(135deg, #0F172A 0%, #1E293B 100%); border-radius: 12px; padding: 24px 28px; margin-bottom: 28px; color: #FFFFFF; box-shadow: 0 4px 12px rgba(0,0,0,0.15); border-top: 4px solid #38BDF8;">

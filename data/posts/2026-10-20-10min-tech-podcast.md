@@ -2,10 +2,10 @@
 id: 2026-10-20-10min-tech-podcast
 title: "[2026.10.20] [10-Min English Podcast] The Grid Reality Check: Contract Terminations, Nuclear Baseload Pivots, and Physical Hardening in AI Infrastructure"
 date: 2026-10-20
-time: "05:57"
+time: "05:59"
 category: Podcast
 status: published
-summary: "🎧 10-MIN TECH ENGLISH PODCAST [2026.10.20] [10-Min English Podcast] The Grid Reality Check: Contract Terminations, Nuclear Baseload Pivots, and Physical Hardening in AI Infrastructure 오늘의 10분 심층 팟캐스트는"
+summary: "오늘의 10분 심층 팟캐스트는 마이크로소프트의 영국 엔스케일 20억 파운드 데이터센터 임대 계약 철회와 네오클라우드 IPO 위기, 아마존과 엑스에너지의 인디애나주 960MW SMR 프로젝트를 비롯한 온사이트 기저전원 내재화, 미국 전역 47개 프로젝트의 차질과 지자체 인허가 동결, 러-우 전쟁에서 현실화된 메가 데이터센터 물리적 타격과 글로벌 소버린 방호 "
 labels:
   - EnglishPodcast
   - TechEnglish
@@ -16,8 +16,7 @@ labels:
   - 액체냉각
 ---
 
-
-    <div style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; line-height: 1.8; color: #1E293B; max-width: 820px; margin: 0 auto;">
+<div style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; line-height: 1.8; color: #1E293B; max-width: 820px; margin: 0 auto;">
         
         <!-- Podcast Hero Audio Player Card -->
         <div style="background: linear-gradient(135deg, #0F172A 0%, #1E293B 100%); border-radius: 12px; padding: 24px 28px; margin-bottom: 28px; color: #FFFFFF; box-shadow: 0 4px 12px rgba(0,0,0,0.15); border-top: 4px solid #38BDF8;">

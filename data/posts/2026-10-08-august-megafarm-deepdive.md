@@ -2,10 +2,10 @@
 id: 2026-10-08-august-megafarm-deepdive
 title: "[테크 딥다이브] 아마존 AI 수장의 보스턴다이내믹스 합류: '피지컬 AI' 분산 컴퓨팅 아키텍처 전환과 2028년 양산 TCO 분석"
 date: 2026-10-08
-time: "05:52"
+time: "05:55"
 category: Tech Deep Dive
 status: published
-summary: "🚀 서론: 기술 패러다임의 전환과 문제 제기 현대자동차그룹의 로보틱스 계열사 보스턴다이내믹스(Boston Dynamics)가 7개월간 이어진 경영 공백을 깨고 로히트 프라사드(Rohit Prasad) 전 아마존 수석부사장 겸 수석과학자를 신임 최고경영자(CEO)로 선임했다. 2013년 아마존에 합류해 대화형 음성 인터페이스 '알렉사(Alexa)'의 상용화를"
+summary: "현대자동차그룹의 로보틱스 계열사 보스턴다이내믹스(Boston Dynamics)가 7개월간 이어진 경영 공백을 깨고 로히트 프라사드(Rohit Prasad) 전 아마존 수석부사장 겸 수석과학자를 신임 최고경영자(CEO)로 선임했다. 2013년 아마존에 합류해 대화형 음성 인터페이스 '알렉사(Alexa)'의 상용화를"
 labels:
   - 테크딥다이브
   - 피지컬AI

@@ -1,8 +1,8 @@
 ---
 id: 2026-10-07-daily-infraops-briefing
-title: "[2026.10.07] 오늘의 글로벌 클라우드 & 데이터센터 인프라 핵심 동향 브리핑"
+title: "[2026.10.07] 글로벌 인프라 브리핑: 원자력 기저부하(Firm Clean Power) 쟁탈전 가속 & 데이터센터 인허가 및 주민 수용성 패러다임 전환"
 date: 2026-10-07
-time: "05:51"
+time: "05:55"
 category: Daily Briefing
 status: published
 summary: "글로벌 클라우드 & 데이터센터 인프라 데일리 다이제스트 인공지능 가속기 수급, 기저부하 전력 계약, 대규모 자본 지출(CapEx) 유동화 구조 및 인허가 투명성에 이르는 글로벌 핵심 인프라 기술 분석 📌 오늘의 3대 핵심 관전 포인트 (Key Highlights) 자본 지출(CapEx)의 구조적 한계와 오프밸런스(Off-Balance) 유동화: 연간 약 2"

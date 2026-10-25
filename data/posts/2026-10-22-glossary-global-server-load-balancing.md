@@ -2,7 +2,7 @@
 id: 2026-10-22-glossary-global-server-load-balancing
 title: "[인프라 용어사전] GSLB (Global Server Load Balancing) - 대규모 리전 정전을 방어하는 글로벌 트래픽 분산 아키텍처"
 date: 2026-10-22
-time: "05:55"
+time: "05:56"
 category: Terminology
 status: published
 summary: "핵심 정의: GSLB(Global Server Load Balancing)는 지리적으로 격리된 복수의 데이터센터 및 클라우드 리전(Region) 간에 유입되는 클라이언트 트래픽을 지능적으로 분산하고 장애 시 정상 거점으로 즉시 우회(Failover)시키는 글로벌 계층 네트워킹 제어 기술입니다. 📌 1. 30초 핵심 요약 & 개념 정의 단일 데이터센터 내부에"

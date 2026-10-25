@@ -2,10 +2,10 @@
 id: 2026-10-08-10min-tech-podcast
 title: "[2026.10.08] [10-Min English Podcast] Grid Saturation, Moratorium Clashes, SMR Interconnections, and the Physical AI Compute Frontier"
 date: 2026-10-08
-time: "05:52"
+time: "05:54"
 category: Podcast
 status: published
-summary: "🎧 10-MIN TECH ENGLISH PODCAST [2026.10.08] [10-Min English Podcast] Grid Saturation, Moratorium Clashes, SMR Interconnections, and the Physical AI Compute Frontier 오늘의 10분 심층 팟캐스트는 2026년 10월 8일 글로벌 데이"
+summary: "오늘의 10분 심층 팟캐스트는 2026년 10월 8일 글로벌 데이터센터 인프라 및 전력 그리드를 뒤흔든 4대 핵심 동향을 집중 분석합니다. 첫째, 수도권 서부(인천 원창동·청라)의 100MW급 AI 데이터센터 신축·DBO 수주 현황과 계통 병목을 우회하기 위한 HD현대건설기계의 3,900억 원 규모 북미 발전엔진 롱블록 공급 및 온사이트 자가발전 확산세를 "
 labels:
   - EnglishPodcast
   - TechEnglish
@@ -16,8 +16,7 @@ labels:
   - 액체냉각
 ---
 
-
-    <div style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; line-height: 1.8; color: #1E293B; max-width: 820px; margin: 0 auto;">
+<div style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; line-height: 1.8; color: #1E293B; max-width: 820px; margin: 0 auto;">
         
         <!-- Podcast Hero Audio Player Card -->
         <div style="background: linear-gradient(135deg, #0F172A 0%, #1E293B 100%); border-radius: 12px; padding: 24px 28px; margin-bottom: 28px; color: #FFFFFF; box-shadow: 0 4px 12px rgba(0,0,0,0.15); border-top: 4px solid #38BDF8;">
