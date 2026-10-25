@@ -3,7 +3,7 @@ id: 2026-08-17-bess-battery-storage
 title: "[인프라 용어사전] BESS (Battery Energy Storage System) - 10GW급 AI 데이터센터의 전력 병목을 해소하는 거대 에너지 저장소"
 date: 2026-08-17
 updated: "2026-09-22 20:45"
-time: "06:06"
+time: "06:07"
 category: Terminology
 status: published
 summary: "간헐적 신재생 에너지를 AI 클러스터의 안정적 기저 전력으로 변환하는 유틸리티급 BESS 아키텍처. 엔비디아-SB에너지-오픈AI의 10GW 오하이오 캠퍼스, 테슬라 메가팩 46.7GWh 배치, CAISO 12.3GW 저녁 피크 방어 및 ERCOT 실증 데이터, NFPA 855·UL 9540A 표준까지 팩트 기반 기술 총정리."

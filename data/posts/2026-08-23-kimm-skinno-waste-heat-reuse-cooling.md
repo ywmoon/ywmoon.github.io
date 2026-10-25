@@ -2,10 +2,10 @@
 id: 2026-08-23-kimm-skinno-waste-heat-reuse-cooling
 title: "버려지는 열을 냉난방 에너지로: 기계연구원(KIMM)·SK이노베이션 액체냉각 폐열 회수(Waste Heat Recovery) 기술과 도심 구역난방 연계 공학"
 date: 2026-08-23
-time: "13:00"
+time: "13:03"
 category: Tech Deep Dive
 status: published
-summary: "AI 가속기의 고발열을 해결하는 액체냉각 기술이 단순한 방열을 넘어 '폐열 회수(Heat Reuse)'의 순환 경제로 진화하고 있습니다. 한국기계연구원이 개발한 40℃ 저온 폐열 구동 화학흡착식 히트펌프(비냉방출력 SCP 346.5 W/kg)와 SK이노베이션의 액체냉각-폐열회수 실증을 바탕으로, EU EED 규제 대응, PUE 한계를 돌파하는 ERE(에너지 재사용 효율) 메커니즘과 도심 구역난방 연계 공학을 심층 분석합니다."
+summary: "AI 가속기의 고발열을 해결하는 액체냉각 기술이 단순한 방열을 넘어 '폐열 회수(Heat Reuse)'의 순환 경제로 진화하고 있습니다. 한국기계연구원이 개발한 40℃ 저온 폐열 구동 화학흡착식 히트펌프(비냉방출력 SCP 346.5 W/kg)와 SK이노베이션의 액체냉각-폐열회수 실증을 바탕으로, EU EED 규제 대응, PUE 한계를 돌파하는 ERE(에너지"
 labels:
   - 테크딥다이브
   - 폐열회수

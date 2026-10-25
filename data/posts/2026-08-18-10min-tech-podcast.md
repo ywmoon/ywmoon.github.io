@@ -2,10 +2,10 @@
 id: 2026-08-18-10min-tech-podcast
 title: "[2026.08.18] [10-Min English Podcast] The Trillion-Dollar AI Grid Pivot: Mega-Guarantees, SMR Baseload Alliances, and High-Density Thermal Frontiers"
 date: 2026-08-18
-time: "05:44"
+time: "05:46"
 category: Podcast
 status: published
-summary: "🎧 10-MIN TECH ENGLISH PODCAST [2026.08.18] [10-Min English Podcast] The Trillion-Dollar AI Grid Pivot: Mega-Guarantees, SMR Baseload Alliances, and High-Density Thermal Frontiers 오늘의 10분 심층 팟캐스트는 글로벌 "
+summary: "오늘의 10분 심층 팟캐스트는 글로벌 빅테크의 1,050억 달러 규모 초대형 AI 인프라 금융 보증 모델 진화, 나트륨 SMR 기반 기저전력 확보전, PJM의 파격적인 BYOP 규제와 직류 배전 및 액체냉각 기술 전환, 그리고 글로벌 환경 규제와 전력망 접속 병목 현상을 심층 분석합니다."
 labels:
   - EnglishPodcast
   - TechEnglish
@@ -18,8 +18,7 @@ labels:
 updated: "2026-08-19 20:38"
 ---
 
-
-    <div style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; line-height: 1.8; color: #1E293B; max-width: 820px; margin: 0 auto;">
+<div style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; line-height: 1.8; color: #1E293B; max-width: 820px; margin: 0 auto;">
         
         <!-- Podcast Hero Audio Player Card -->
         <div style="background: linear-gradient(135deg, #0F172A 0%, #1E293B 100%); border-radius: 12px; padding: 24px 28px; margin-bottom: 28px; color: #FFFFFF; box-shadow: 0 4px 12px rgba(0,0,0,0.15); border-top: 4px solid #38BDF8;">

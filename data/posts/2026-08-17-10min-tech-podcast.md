@@ -2,10 +2,10 @@
 id: 2026-08-17-10min-tech-podcast
 title: "[2026.08.17] [10-Min English Podcast] Global AI Infra CapEx De-Risking, Nuclear SMR Baseload Power, and Liquid Cooling Architecture"
 date: 2026-08-17
-time: "06:06"
+time: "06:08"
 category: Podcast
 status: published
-summary: "🎧 10-MIN TECH ENGLISH PODCAST [2026.08.17] [10-Min English Podcast] Global AI Infra CapEx De-Risking, Nuclear SMR Baseload Power, and Liquid Cooling Architecture 오늘의 10분 심층 팟캐스트는 엔비디아의 오픈AI 금융 보증 축소 및"
+summary: "오늘의 10분 심층 팟캐스트는 엔비디아의 오픈AI 금융 보증 축소 및 SB 에너지 직접 지분 투자 등 빅테크 CapEx 재편, SK이노베이션-테라파워 연합 중심의 소듐냉각고속로(SMR) 기저전원 확보, 800VDC 직류 배전 및 액체냉각 매니폴드 혁신, 그리고 북미 전력망 감사와 지자체 인허가 모라토리엄 규제 리스크를 집중 진단합니다."
 labels:
   - EnglishPodcast
   - TechEnglish
@@ -18,8 +18,7 @@ labels:
 updated: "2026-08-19 20:39"
 ---
 
-
-    <div style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; line-height: 1.8; color: #1E293B; max-width: 820px; margin: 0 auto;">
+<div style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; line-height: 1.8; color: #1E293B; max-width: 820px; margin: 0 auto;">
         
         <!-- Podcast Hero Audio Player Card -->
         <div style="background: linear-gradient(135deg, #0F172A 0%, #1E293B 100%); border-radius: 12px; padding: 24px 28px; margin-bottom: 28px; color: #FFFFFF; box-shadow: 0 4px 12px rgba(0,0,0,0.15); border-top: 4px solid #38BDF8;">

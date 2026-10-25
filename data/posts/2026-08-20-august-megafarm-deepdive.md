@@ -2,10 +2,10 @@
 id: 2026-08-20-august-megafarm-deepdive
 title: "[테크 딥다이브] 랙당 100kW 시대의 필연적 선택: 블랙웰(Blackwell) B200 7,656장 집약과 D2C 액체 냉각 아키텍처의 열역학적 진화"
 date: 2026-08-20
-time: "05:46"
+time: "05:49"
 category: Tech Deep Dive
 status: published
-summary: "Architecture Deep Dive 공랭의 물리적 한계 돌파: B200 초대규모 클러스터와 액체 냉각(Liquid Cooling) 인프라 대전환 초거대 AI 모델의 파라미터 폭증과 엔비디아 블랙웰(Blackwell) 아키텍처 도입은 데이터센터 랙당 전력 밀도를 100kW 이상으로 끌어올렸습니다. 7,656장에 달하는 B200 GPU를 단일 클러스터로 "
+summary: "Architecture Deep Dive 공랭의 물리적 한계 돌파: B200 초대규모 클러스터와 액체 냉각(Liquid Cooling) 인프라 대전환 초거대 AI 모델의 파라미터 폭증과 엔비디아 블랙웰(Blackwell) 아키텍처 도입은 데이터센터 랙당 전력 밀도를 100kW 이상으로 끌어올렸습니다. 7,656장에 달하는 B200 GPU를 단일 클러스터로"
 labels:
   - 테크딥다이브
   - 액체냉각

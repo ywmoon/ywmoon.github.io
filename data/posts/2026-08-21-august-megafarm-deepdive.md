@@ -2,7 +2,7 @@
 id: 2026-08-21-august-megafarm-deepdive
 title: "[테크 딥다이브] 텍스트를 넘어 물리적 공간으로: AWS '피지컬 AI' 인프라 아키텍처와 클라우드-엣지 플릿 러닝의 미래"
 date: 2026-08-21
-time: "05:48"
+time: "05:51"
 category: Tech Deep Dive
 status: published
 summary: "Cloud Infrastructure & Robotics Deep Dive 디지털 픽셀에서 물리 세계로: 피지컬 AI(Physical AI)를 지탱하는 클라우드-엣지 하이브리드 인프라 분석 대규모 언어 모델(LLM)의 한계를 돌파하는 차세대 물리 인텔리전스, 분산 플릿 러닝(Fleet Learning)과 합성 데이터 시뮬레이션 파이프라인의 공학적 메커니즘을"

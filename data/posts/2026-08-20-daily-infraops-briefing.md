@@ -1,8 +1,8 @@
 ---
 id: 2026-08-20-daily-infraops-briefing
-title: "[2026.08.20] 오늘의 글로벌 클라우드 & 데이터센터 인프라 핵심 동향 브리핑"
+title: "[2026.08.20] 글로벌 인프라 브리핑: 하이브리드·멀티클라우드 표준화 가속 & 초고집적 GPU 클러스터 및 냉각 밸류체인 국산화"
 date: 2026-08-20
-time: "05:46"
+time: "05:50"
 category: Daily Briefing
 status: published
 summary: "Daily InfraOps Digest 2026년 8월 20일 글로벌 클라우드 & 데이터센터 인프라 브리핑 엔터프라이즈 멀티클라우드 통합, 초대형 GPU 팩토리 가동, 차세대 데이터센터 냉각 설비 및 노르딕 청정에너지 허브 분석 📌 오늘의 3대 핵심 관전 포인트 (Key Highlights) 하이브리드·멀티클라우드 표준화 가속: 오라클과 AWS의 심층 연동"

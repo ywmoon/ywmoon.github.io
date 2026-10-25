@@ -2,10 +2,10 @@
 id: 2026-08-20-10min-tech-podcast
 title: "[2026.08.20] [10-Min English Podcast] The Hyper-Dense Compute Frontier: SMR Alliances, Direct-to-Chip Thermal Scaling, and Gridlock Politics"
 date: 2026-08-20
-time: "05:46"
+time: "05:48"
 category: Podcast
 status: published
-summary: "🎧 10-MIN TECH ENGLISH PODCAST [2026.08.20] [10-Min English Podcast] The Hyper-Dense Compute Frontier: SMR Alliances, Direct-to-Chip Thermal Scaling, and Gridlock Politics 오늘의 10분 심층 팟캐스트는 구글의 오클라호마 50"
+summary: "오늘의 10분 심층 팟캐스트는 구글의 오클라호마 506에이커 캠퍼스 착공 및 엔비디아의 북유럽 전력 매칭 중개 모델, 넥스트에라의 10GW 가스 발전 및 테라파워-K원전 동맹의 2차 SMR 프로젝트, 삼성전자 광주 2,400억 원 CDU 공조 라인 및 NHN클라우드 7,656장 B200 직접액체냉각(D2C) 가동, 그리고 미국 전역의 데이터센터 인허가 모라"
 labels:
   - EnglishPodcast
   - TechEnglish
@@ -16,8 +16,7 @@ labels:
   - SMR
 ---
 
-
-    <div style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; line-height: 1.8; color: #1E293B; max-width: 820px; margin: 0 auto;">
+<div style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; line-height: 1.8; color: #1E293B; max-width: 820px; margin: 0 auto;">
         
         <!-- Podcast Hero Audio Player Card -->
         <div style="background: linear-gradient(135deg, #0F172A 0%, #1E293B 100%); border-radius: 12px; padding: 24px 28px; margin-bottom: 28px; color: #FFFFFF; box-shadow: 0 4px 12px rgba(0,0,0,0.15); border-top: 4px solid #38BDF8;">

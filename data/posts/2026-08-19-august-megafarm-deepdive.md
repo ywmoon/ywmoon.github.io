@@ -2,10 +2,10 @@
 id: 2026-08-19-august-megafarm-deepdive
 title: "[테크 딥다이브] '모델 경쟁'에서 '에이전트 거버넌스'로: 엔터프라이즈 멀티 에이전트 오케스트레이션과 인프라 아키텍처의 패러다임 전환"
 date: 2026-08-19
-time: "05:47"
+time: "05:50"
 category: Tech Deep Dive
 status: published
-summary: "Infrastructure Deep Dive 엔터프라이즈 AI의 2막: 수십만 자율 에이전트 생태계를 지탱하는 거버넌스 패브릭(Fabric)과 인프라 혁신 단일 거대언어모델(LLM) 파라미터 경쟁을 넘어, 수천·수만 개의 이기종 에이전트가 협업하는 분산 오케스트레이션 환경에서의 보안, 감사 추적, TCO 최적화 아키텍처를 심층 분석합니다. 🚀 서론: 기술 "
+summary: "Infrastructure Deep Dive 엔터프라이즈 AI의 2막: 수십만 자율 에이전트 생태계를 지탱하는 거버넌스 패브릭(Fabric)과 인프라 혁신 단일 거대언어모델(LLM) 파라미터 경쟁을 넘어, 수천·수만 개의 이기종 에이전트가 협업하는 분산 오케스트레이션 환경에서의 보안, 감사 추적, TCO 최적화 아키텍처를 심층 분석합니다. 🚀 서론: 기술"
 labels:
   - 테크딥다이브
   - AI에이전트

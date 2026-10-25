@@ -2,10 +2,10 @@
 id: 2026-08-19-10min-tech-podcast
 title: "[2026.08.19] [10-Min English Podcast] Global CapEx Realignment, Power & Thermal Breakthroughs, and the Regulatory Wall"
 date: 2026-08-19
-time: "05:47"
+time: "05:49"
 category: Podcast
 status: published
-summary: "🎧 10-MIN TECH ENGLISH PODCAST [2026.08.19] [10-Min English Podcast] Global CapEx Realignment, Power & Thermal Breakthroughs, and the Regulatory Wall 오늘의 10분 심층 팟캐스트는 글로벌 AI 인프라 CapEx 재편, 아마존의 180억 달러 "
+summary: "오늘의 10분 심층 팟캐스트는 글로벌 AI 인프라 CapEx 재편, 아마존의 180억 달러 루이지애나 캠퍼스, 오라클-AWS 엑사스케일 연동, 온사이트 전력 배전 및 액체냉각 검증 동향, 그리고 펜실베이니아와 앨버타 등 전 세계 지자체의 모라토리엄 및 규제 강화 이슈를 심층 분석합니다."
 labels:
   - EnglishPodcast
   - TechEnglish
@@ -18,8 +18,7 @@ labels:
 updated: "2026-08-19 20:28"
 ---
 
-
-    <div style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; line-height: 1.8; color: #1E293B; max-width: 820px; margin: 0 auto;">
+<div style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; line-height: 1.8; color: #1E293B; max-width: 820px; margin: 0 auto;">
         
         <!-- Podcast Hero Audio Player Card -->
         <div style="background: linear-gradient(135deg, #0F172A 0%, #1E293B 100%); border-radius: 12px; padding: 24px 28px; margin-bottom: 28px; color: #FFFFFF; box-shadow: 0 4px 12px rgba(0,0,0,0.15); border-top: 4px solid #38BDF8;">

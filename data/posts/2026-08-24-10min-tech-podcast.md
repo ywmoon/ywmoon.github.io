@@ -2,10 +2,10 @@
 id: 2026-08-24-10min-tech-podcast
 title: "[2026.08.24] [10-Min English Podcast] Global AI Infrastructure Capital Shift, 800VDC Power Standards, and Utility BYOP Mandates"
 date: 2026-08-24
-time: "05:44"
+time: "05:46"
 category: Podcast
 status: published
-summary: "🎧 10-MIN TECH ENGLISH PODCAST [2026.08.24] [10-Min English Podcast] Global AI Infrastructure Capital Shift, 800VDC Power Standards, and Utility BYOP Mandates 오늘의 10분 심층 팟캐스트는 글로벌 빅테크의 아시아·남미 신흥 인프라 거점"
+summary: "오늘의 10분 심층 팟캐스트는 글로벌 빅테크의 아시아·남미 신흥 인프라 거점 확장과 인프라 전문 개발사의 자본 조달 다변화, 전력 선점을 위한 엔비디아의 클로버리프 지분 투자 및 번들링 전략, 차세대 소형모듈원자로(SMR) 및 800VDC 고전압 직류 표준화 동향, 그리고 PJM의 자체 발전(BYOP) 의무화와 증발식 냉각 규제 등 전 세계적으로 격화되는 "
 labels:
   - EnglishPodcast
   - TechEnglish
@@ -16,8 +16,7 @@ labels:
   - 액체냉각
 ---
 
-
-    <div style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; line-height: 1.8; color: #1E293B; max-width: 820px; margin: 0 auto;">
+<div style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; line-height: 1.8; color: #1E293B; max-width: 820px; margin: 0 auto;">
         
         <!-- Podcast Hero Audio Player Card -->
         <div style="background: linear-gradient(135deg, #0F172A 0%, #1E293B 100%); border-radius: 12px; padding: 24px 28px; margin-bottom: 28px; color: #FFFFFF; box-shadow: 0 4px 12px rgba(0,0,0,0.15); border-top: 4px solid #38BDF8;">

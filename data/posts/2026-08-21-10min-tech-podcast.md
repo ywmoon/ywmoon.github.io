@@ -2,7 +2,7 @@
 id: 2026-08-21-10min-tech-podcast
 title: "[2026.08.21] [10-Min English Podcast] Big Tech CapEx Restructuring, Physical AI Shocks, and Sustainable Grid Integration"
 date: 2026-08-21
-time: "05:48"
+time: "05:50"
 category: Podcast
 status: published
 summary: "🎧 10-MIN TECH ENGLISH PODCAST [2026.08.21] [10-Min English Podcast] Big Tech CapEx Restructuring, Physical AI Shocks, and Sustainable Grid Integration 2026년 8월 21일 DC InfraOps 데일리 심층 브리핑에서는 빅테크의 AI 인프"
@@ -16,8 +16,7 @@ labels:
   - 액체냉각
 ---
 
-
-    <div style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; line-height: 1.8; color: #1E293B; max-width: 820px; margin: 0 auto;">
+<div style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; line-height: 1.8; color: #1E293B; max-width: 820px; margin: 0 auto;">
         
         <!-- Podcast Hero Audio Player Card -->
         <div style="background: linear-gradient(135deg, #0F172A 0%, #1E293B 100%); border-radius: 12px; padding: 24px 28px; margin-bottom: 28px; color: #FFFFFF; box-shadow: 0 4px 12px rgba(0,0,0,0.15); border-top: 4px solid #38BDF8;">

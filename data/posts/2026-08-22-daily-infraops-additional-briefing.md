@@ -2,7 +2,7 @@
 id: 2026-08-22-daily-infraops-additional-briefing
 title: "[2026.08.22] 데일리 인프라옵스 브리핑 특별판: 한 주간 놓치지 말아야 할 추가 핵심 이슈 4선"
 date: 2026-08-22
-time: "09:30"
+time: "09:34"
 category: Daily Briefing
 status: published
 summary: "주간 Daily Briefing에서 미처 다루지 못한 데이터센터 인프라 심층 추가 핵심 이슈 4선. 미국 최대 PJM 송전망의 50MW+ 자가발전(BYOP) 의무화, 현대제철-한미글로벌의 DC 전용 철골 강구조 전환, KIOST 울산 해저 수중 데이터센터 실증(PUE 1.05), 네바다 수자원 금지령과 WUE 규제를 심층 분석합니다."

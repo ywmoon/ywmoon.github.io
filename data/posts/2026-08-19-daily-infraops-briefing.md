@@ -1,8 +1,8 @@
 ---
 id: 2026-08-19-daily-infraops-briefing
-title: "[2026.08.19] 오늘의 글로벌 클라우드 & 데이터센터 인프라 핵심 동향 브리핑"
+title: "[2026.08.19] 글로벌 인프라 브리핑: 하이퍼스케일러의 공격적 거점 다각화 & 엔터프라이즈 AI 에이전트 인프라 실전 배치"
 date: 2026-08-19
-time: "05:47"
+time: "05:51"
 category: Daily Briefing
 status: published
 summary: "Daily InfraOps Digest 글로벌 클라우드 & 데이터센터 인프라 핵심 브리핑 발행일: 2026년 8월 19일 | 작성: 수석 테크 에디터 📌 오늘의 3대 핵심 관전 포인트 (Key Highlights) 엔비디아, 오픈AI DC에 1050억 달러(약 150조 원) 초대형 지원: 젠슨 황 CEO가 '순환금융(Circular Financing)' 논"

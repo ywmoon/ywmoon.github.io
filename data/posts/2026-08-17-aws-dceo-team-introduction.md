@@ -2,7 +2,7 @@
 id: 2026-08-17-aws-dceo-team-introduction
 title: "[Tech Deep Dive] 하이퍼스케일 클라우드를 움직이는 MEP 전문가: DCEO (Data Center Engineering Operations)"
 date: "2026-08-17"
-time: "22:15"
+time: "22:18"
 category: "Tech Deep Dive"
 status: "hidden"
 summary: "전기·기계·배관·소방(MEP) 인프라의 100% 가용성 보장, 24/365 긴급 상황 조치 및 이벤트 대응 체계, 차세대 액체 냉각(Liquid Cooling) 기술 개발, 그리고 MOP/SOP/EOP/COE/SLD 등 필수 운영 문서·도면 체계를 심층 분석합니다."

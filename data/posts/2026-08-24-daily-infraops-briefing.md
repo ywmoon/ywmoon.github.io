@@ -1,8 +1,8 @@
 ---
 id: 2026-08-24-daily-infraops-briefing
-title: "[2026.08.24] 오늘의 글로벌 클라우드 & 데이터센터 인프라 핵심 동향 브리핑"
+title: "[2026.08.24] 글로벌 인프라 브리핑: 엔비디아의 전력·부지 '번들링 플레이'와 리스크 통제 & 전력망 병목·수자원 분쟁 심화와 자가발전(BTM) 전환"
 date: 2026-08-24
-time: "05:44"
+time: "05:48"
 category: Daily Briefing
 status: published
 summary: "DAILY INFRAOPS DIGEST 2026년 8월 24일 글로벌 클라우드 & AI 데이터센터 인프라 핵심 동향 엔비디아의 전력·부지 번들링 투자부터 공공 유틸리티 규제, 재생에너지 자가발전(BTM) 및 빅테크 글로벌 CapEx 지형 분석 📌 오늘의 3대 핵심 관전 포인트 (Key Highlights) 엔비디아의 전력·부지 '번들링 플레이'와 리스크 통"

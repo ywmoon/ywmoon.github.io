@@ -2,7 +2,7 @@
 id: 2026-08-18-daily-infraops-briefing
 title: "[2026.08.18] 엔비디아의 전력·금융 영토 확장과 하이퍼스케일러의 AI 인프라 격변"
 date: 2026-08-18
-time: "05:44"
+time: "05:48"
 category: Daily Briefing
 status: published
 summary: "Daily InfraOps Digest 글로벌 클라우드 & 데이터센터 인프라 핵심 동향 브리핑 2026년 8월 18일 | 인프라 아키텍처·전력망·AI 하드웨어 심층 분석 📌 오늘의 3대 핵심 관전 포인트 (Key Highlights) 엔비디아의 인프라 금융화(Financier): 단순 칩 벤더를 넘어 OpenAI 데이터센터 대상 1,050억 달러 신용 보증"

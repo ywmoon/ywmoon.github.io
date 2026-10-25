@@ -1,8 +1,8 @@
 ---
 id: 2026-08-17-daily-infraops-briefing
-title: "[2026.08.17] 오늘의 글로벌 클라우드 & 데이터센터 인프라 핵심 동향 브리핑"
+title: "[2026.08.17] 글로벌 인프라 브리핑: 엔비디아의 'GPU 보증 리스크 통제'와 에너지 지분 투자 & 엔터프라이즈 AI 클라우드의 실전 상용화 가속"
 date: 2026-08-17
-time: "06:06"
+time: "06:10"
 category: Daily Briefing
 status: published
 summary: "Daily InfraOps Digest 초대형 AI 팩토리 금융 리스크 관리와 하이퍼스케일러의 실전 엔터프라이즈 확장 2026년 8월 17일 | 글로벌 IT 인프라·클라우드·데이터센터 분석 리포트 📌 오늘의 3대 핵심 관전 포인트 (Key Highlights) 엔비디아의 'GPU 보증 리스크 통제'와 에너지 지분 투자: 오픈AI의 10GW 오하이오 프로젝트"

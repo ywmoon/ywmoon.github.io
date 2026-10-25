@@ -2,7 +2,7 @@
 id: 2026-08-20-infra-glossary
 title: "[인프라 용어사전] CDU (Coolant Distribution Unit) - 초거대 AI 데이터센터 수랭 혁신의 심장"
 date: 2026-08-20
-time: "05:46"
+time: "05:47"
 category: Terminology
 status: published
 summary: "냉각 인프라 아키텍처 CDU (Coolant Distribution Unit, 냉각수 분배 장치) 랙당 100kW가 넘는 블랙웰(B200) 시대를 지탱하는 유체 순환과 열교환의 중앙 관제 센터 📌 1. 30초 핵심 요약 & 개념 정의 CDU(Coolant Distribution Unit, 냉각수 분배 장치)는 고밀도 AI 데이터센터의 액체 냉각(Liquid"

@@ -2,7 +2,7 @@
 id: 2026-08-21-infra-glossary
 title: "[인프라 용어사전] WUE (수자원 사용 효율) - AI 데이터센터의 갈증을 측정하는 지속가능성 핵심 지표"
 date: 2026-08-21
-time: "05:48"
+time: "05:49"
 category: Terminology
 status: published
 summary: "Infrastructure Glossary WUE (Water Usage Effectiveness, 수자원 사용 효율) PUE를 넘어 초고집적 AI 데이터센터의 환경 지속가능성을 평가하는 글로벌 냉각 용수 측정 표준 📌 1. 30초 핵심 요약 & 개념 정의 WUE(Water Usage Effectiveness, 수자원 사용 효율)는 데이터센터가 IT 장비("

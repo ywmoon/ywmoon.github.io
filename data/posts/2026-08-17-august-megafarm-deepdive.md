@@ -2,7 +2,7 @@
 id: 2026-08-17-august-megafarm-deepdive
 title: "[테크 딥다이브] '10GW AI 데이터센터'의 물리적 한계와 '컴퓨팅 금융 플랫폼': 빅테크 전력 전쟁의 패러다임 전환"
 date: 2026-08-17
-time: "06:06"
+time: "06:09"
 category: Tech Deep Dive
 status: published
 summary: "EXECUTIVE ARCHITECT BRIEFING 10GW 초거대 AI 팩토리와 GPU 금융화: 인프라 아키텍처의 한계 돌파 전략 엔비디아의 오픈AI 오하이오 10GW 프로젝트 채무 보증 축소는 단순한 재무적 조율이 아닙니다. 이는 AI 인프라 확장이 '실리콘 칩 수급' 단계에서 '국가 전력망 수용 한계'와 '수백조 원 규모의 자본 집약도(CapEx)'라"

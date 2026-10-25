@@ -2,7 +2,7 @@
 id: 2026-08-21-daily-infraops-briefing
 title: "[2026.08.21] 글로벌 인프라 브리핑: 네이버 'GW급' AI 팩토리 구상·CoreWeave 차세대 루빈 계약 & AWS 피지컬 AI 생태계 가동"
 date: 2026-08-21
-time: "05:48"
+time: "05:52"
 category: Daily Briefing
 status: published
 summary: "Daily InfraOps Digest 글로벌 클라우드 & 데이터센터 인프라 핵심 동향 브리핑 발행일: 2026년 8월 21일 | IT 인프라 아키텍트 & CTO를 위한 심층 기술 분석 리포트 📌 오늘의 3대 핵심 관전 포인트 (Key Highlights) 클라우드 경계의 확장 (Physical AI): AWS가 3D 물리 공간 로보틱스·자율주행 워크로드를"
