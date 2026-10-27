@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>[테크 딥다이브] 구글 TPU의 사상 첫 외부 개방과 OCI 이기종 실리콘 연합: 쿠다 독점 탈피와 '가속기 중립' 클라우드 아키텍처</title>
+  <meta name="description" content="글로벌 인공지능(AI) 인프라 시장이 '단일 벤더 가속기 독점'에서 '다변화된 이기종 실리콘 패브릭'으로 급격한 구조적 전환을 맞이하고 있습니다. 지난 수년간 대규모 언어 모델(LLM) 학습과 추론 인프라는 엔비디아(NVIDIA)의 GPU와 쿠다(CUDA) 소프트웨어 생태계가 사실상 표준으로 군림해 왔습니다. 하이퍼스케일러들은 막대한 설비투자(CapEx)를" />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://ywmoon.github.io/article/2026-10-28-deepdive-oci-google-tpu-heterogeneous-accelerators/" />
+  <!-- OpenGraph -->
+  <meta property="og:type" content="article" />
+  <meta property="og:title" content="[테크 딥다이브] 구글 TPU의 사상 첫 외부 개방과 OCI 이기종 실리콘 연합: 쿠다 독점 탈피와 '가속기 중립' 클라우드 아키텍처" />
+  <meta property="og:description" content="글로벌 인공지능(AI) 인프라 시장이 '단일 벤더 가속기 독점'에서 '다변화된 이기종 실리콘 패브릭'으로 급격한 구조적 전환을 맞이하고 있습니다. 지난 수년간 대규모 언어 모델(LLM) 학습과 추론 인프라는 엔비디아(NVIDIA)의 GPU와 쿠다(CUDA) 소프트웨어 생태계가 사실상 표준으로 군림해 왔습니다. 하이퍼스케일러들은 막대한 설비투자(CapEx)를" />
+  <meta property="og:url" content="https://ywmoon.github.io/article/2026-10-28-deepdive-oci-google-tpu-heterogeneous-accelerators/" />
+  <meta property="og:image" content="https://ywmoon.github.io/assets/avatar.jpg" />
+  <meta property="og:site_name" content="Datacenter InfraOps &amp; Cloud Industry Notes" />
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="[테크 딥다이브] 구글 TPU의 사상 첫 외부 개방과 OCI 이기종 실리콘 연합: 쿠다 독점 탈피와 '가속기 중립' 클라우드 아키텍처" />
+  <meta name="twitter:description" content="글로벌 인공지능(AI) 인프라 시장이 '단일 벤더 가속기 독점'에서 '다변화된 이기종 실리콘 패브릭'으로 급격한 구조적 전환을 맞이하고 있습니다. 지난 수년간 대규모 언어 모델(LLM) 학습과 추론 인프라는 엔비디아(NVIDIA)의 GPU와 쿠다(CUDA) 소프트웨어 생태계가 사실상 표준으로 군림해 왔습니다. 하이퍼스케일러들은 막대한 설비투자(CapEx)를" />
+  <meta name="twitter:image" content="https://ywmoon.github.io/assets/avatar.jpg" />
+  <!-- Structured Data: Google Schema.org (Article) -->
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "TechArticle",
+  "headline": "[테크 딥다이브] 구글 TPU의 사상 첫 외부 개방과 OCI 이기종 실리콘 연합: 쿠다 독점 탈피와 '가속기 중립' 클라우드 아키텍처",
+  "description": "글로벌 인공지능(AI) 인프라 시장이 '단일 벤더 가속기 독점'에서 '다변화된 이기종 실리콘 패브릭'으로 급격한 구조적 전환을 맞이하고 있습니다. 지난 수년간 대규모 언어 모델(LLM) 학습과 추론 인프라는 엔비디아(NVIDIA)의 GPU와 쿠다(CUDA) 소프트웨어 생태계가 사실상 표준으로 군림해 왔습니다. 하이퍼스케일러들은 막대한 설비투자(CapEx)를",
+  "datePublished": "2026-10-28T05:48:00+09:00",
+  "dateModified": "2026-10-28 05:45:00+09:00",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://ywmoon.github.io/article/2026-10-28-deepdive-oci-google-tpu-heterogeneous-accelerators/"
+  },
+  "author": {
+    "@type": "Person",
+    "name": "James Moon (문연욱)",
+    "jobTitle": "AWS Data Center Engineering Operations Cluster Manager",
+    "url": "https://www.linkedin.com/in/ywmoon"
+  },
+  "publisher": {
+    "@type": "Person",
+    "name": "James Moon",
+    "url": "https://ywmoon.github.io",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://ywmoon.github.io/assets/avatar.jpg"
+    }
+  },
+  "image": "https://ywmoon.github.io/assets/avatar.jpg",
+  "keywords": "테크딥다이브, 구글TPU, 오라클OCI, 엔비디아, 베라루빈, 토치뉴런, 소버린AI, AI가속기, 데이터센터"
+}
+  </script>
+  <!-- Instant redirect for real users -->
+  <meta http-equiv="refresh" content="0; url=https://ywmoon.github.io/#article/2026-10-28-deepdive-oci-google-tpu-heterogeneous-accelerators" />
+  <script>window.location.replace('https://ywmoon.github.io/#article/2026-10-28-deepdive-oci-google-tpu-heterogeneous-accelerators');</script>
+</head>
+<body></body>
+</html>
