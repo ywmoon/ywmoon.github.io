@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>[테크 딥다이브] 임차(Lease)와 구축(Build)의 갈림길: 마이크로소프트와 아마존의 AI 인프라 자본 배분과 CapEx 경제학</title>
+  <meta name="description" content="2026년 하반기 글로벌 클라우드 및 인공지능(AI) 인프라 시장은 분기 실적 발표를 기점으로 중대한 분기점에 진입했다. 주요 빅테크 기업들의 분기 설비투자(CapEx) 지출이 사상 최대치를 경신하며 분기당 수백억 달러 규모로 폭증하는 가운데, 금융 시장과 엔지니어링 업계는 단순한 매출 성장률을 넘어 '자본 회수율(ROI/ROIC)'과 '잉여현금흐름(FCF" />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://ywmoon.github.io/article/2026-10-29-deepdive-hyperscale-ai-datacenter-lease-versus-build/" />
+  <!-- OpenGraph -->
+  <meta property="og:type" content="article" />
+  <meta property="og:title" content="[테크 딥다이브] 임차(Lease)와 구축(Build)의 갈림길: 마이크로소프트와 아마존의 AI 인프라 자본 배분과 CapEx 경제학" />
+  <meta property="og:description" content="2026년 하반기 글로벌 클라우드 및 인공지능(AI) 인프라 시장은 분기 실적 발표를 기점으로 중대한 분기점에 진입했다. 주요 빅테크 기업들의 분기 설비투자(CapEx) 지출이 사상 최대치를 경신하며 분기당 수백억 달러 규모로 폭증하는 가운데, 금융 시장과 엔지니어링 업계는 단순한 매출 성장률을 넘어 '자본 회수율(ROI/ROIC)'과 '잉여현금흐름(FCF" />
+  <meta property="og:url" content="https://ywmoon.github.io/article/2026-10-29-deepdive-hyperscale-ai-datacenter-lease-versus-build/" />
+  <meta property="og:image" content="https://ywmoon.github.io/assets/avatar.jpg" />
+  <meta property="og:site_name" content="Datacenter InfraOps &amp; Cloud Industry Notes" />
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="[테크 딥다이브] 임차(Lease)와 구축(Build)의 갈림길: 마이크로소프트와 아마존의 AI 인프라 자본 배분과 CapEx 경제학" />
+  <meta name="twitter:description" content="2026년 하반기 글로벌 클라우드 및 인공지능(AI) 인프라 시장은 분기 실적 발표를 기점으로 중대한 분기점에 진입했다. 주요 빅테크 기업들의 분기 설비투자(CapEx) 지출이 사상 최대치를 경신하며 분기당 수백억 달러 규모로 폭증하는 가운데, 금융 시장과 엔지니어링 업계는 단순한 매출 성장률을 넘어 '자본 회수율(ROI/ROIC)'과 '잉여현금흐름(FCF" />
+  <meta name="twitter:image" content="https://ywmoon.github.io/assets/avatar.jpg" />
+  <!-- Structured Data: Google Schema.org (Article) -->
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "TechArticle",
+  "headline": "[테크 딥다이브] 임차(Lease)와 구축(Build)의 갈림길: 마이크로소프트와 아마존의 AI 인프라 자본 배분과 CapEx 경제학",
+  "description": "2026년 하반기 글로벌 클라우드 및 인공지능(AI) 인프라 시장은 분기 실적 발표를 기점으로 중대한 분기점에 진입했다. 주요 빅테크 기업들의 분기 설비투자(CapEx) 지출이 사상 최대치를 경신하며 분기당 수백억 달러 규모로 폭증하는 가운데, 금융 시장과 엔지니어링 업계는 단순한 매출 성장률을 넘어 '자본 회수율(ROI/ROIC)'과 '잉여현금흐름(FCF",
+  "datePublished": "2026-10-29T05:48:00+09:00",
+  "dateModified": "2026-10-29 05:45:00+09:00",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://ywmoon.github.io/article/2026-10-29-deepdive-hyperscale-ai-datacenter-lease-versus-build/"
+  },
+  "author": {
+    "@type": "Person",
+    "name": "James Moon (문연욱)",
+    "jobTitle": "AWS Data Center Engineering Operations Cluster Manager",
+    "url": "https://www.linkedin.com/in/ywmoon"
+  },
+  "publisher": {
+    "@type": "Person",
+    "name": "James Moon",
+    "url": "https://ywmoon.github.io",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://ywmoon.github.io/assets/avatar.jpg"
+    }
+  },
+  "image": "https://ywmoon.github.io/assets/avatar.jpg",
+  "keywords": "테크딥다이브, 차세대인프라, 데이터센터CapEx, 마이크로소프트, AWS, 코로케이션"
+}
+  </script>
+  <!-- Instant redirect for real users -->
+  <meta http-equiv="refresh" content="0; url=https://ywmoon.github.io/#article/2026-10-29-deepdive-hyperscale-ai-datacenter-lease-versus-build" />
+  <script>window.location.replace('https://ywmoon.github.io/#article/2026-10-29-deepdive-hyperscale-ai-datacenter-lease-versus-build');</script>
+</head>
+<body></body>
+</html>

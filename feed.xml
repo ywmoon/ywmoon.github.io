@@ -5,8 +5,48 @@
     <link>https://ywmoon.github.io</link>
     <description>글로벌 AI 데이터센터 전력망, 냉각, 클라우드 인프라 엔지니어링 데일리 트렌드</description>
     <language>ko</language>
-    <lastBuildDate>Wed, 28 Oct 2026 05:45:45 -0000</lastBuildDate>
+    <lastBuildDate>Thu, 29 Oct 2026 05:45:39 -0000</lastBuildDate>
     <atom:link href="https://ywmoon.github.io/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>[2026.10.29] 글로벌 인프라 브리핑: 빅테크 설비투자 분기 500억 달러 돌파와 임차·구축 셈법 분화 &amp; GE 버노바 12조 원 전력망 인수와 AIDC 냉각 표준화</title>
+      <link>https://ywmoon.github.io/article/2026-10-29-daily-infraops-briefing/</link>
+      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-10-29-daily-infraops-briefing/</guid>
+      <pubDate>Thu, 29 Oct 2026 05:49:00 +0900</pubDate>
+      <category>Daily Briefing</category>
+      <description>빅테크 설비투자 양극화와 수익성 시험대: 구글의 분기 설비투자 514억 달러 도달 및 메타의 133조 원 규모 주식 발행 추진 속에서, 코로케이션 임차(MS)와 직접 구축(아마존)으로 양분된 인프라 자본 배분 전략이 3분기 실적을 기점으로 본격적인 현금흐름 검증대에 올랐습니다. 계통 병목을 돌파하는 전력 인프라 재편: GE 버노바의 90억 달러(약 12.0</description>
+    </item>
+    <item>
+      <title>[테크 딥다이브] 임차(Lease)와 구축(Build)의 갈림길: 마이크로소프트와 아마존의 AI 인프라 자본 배분과 CapEx 경제학</title>
+      <link>https://ywmoon.github.io/article/2026-10-29-deepdive-hyperscale-ai-datacenter-lease-versus-build/</link>
+      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-10-29-deepdive-hyperscale-ai-datacenter-lease-versus-build/</guid>
+      <pubDate>Thu, 29 Oct 2026 05:48:00 +0900</pubDate>
+      <category>Tech Deep Dive</category>
+      <description>2026년 하반기 글로벌 클라우드 및 인공지능(AI) 인프라 시장은 분기 실적 발표를 기점으로 중대한 분기점에 진입했다. 주요 빅테크 기업들의 분기 설비투자(CapEx) 지출이 사상 최대치를 경신하며 분기당 수백억 달러 규모로 폭증하는 가운데, 금융 시장과 엔지니어링 업계는 단순한 매출 성장률을 넘어 '자본 회수율(ROI/ROIC)'과 '잉여현금흐름(FCF</description>
+    </item>
+    <item>
+      <title>[2026.10.29] [10-Min English Podcast] Hyperscale CapEx Tests, Grid Equipment Consolidation, and Liquid Cooling Standardization</title>
+      <link>https://ywmoon.github.io/article/2026-10-29-10min-tech-podcast/</link>
+      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-10-29-10min-tech-podcast/</guid>
+      <pubDate>Thu, 29 Oct 2026 05:47:00 +0900</pubDate>
+      <category>Podcast</category>
+      <description>2026년 10월 29일 오늘의 10분 심층 팟캐스트는 빅테크 3분기 실적 발표에 나타난 CapEx 현금흐름 시험대와 MS의 임차 대 아마존의 직접 구축 전략의 성패를 집중 조명합니다. 이어 GE 버노바의 90억 달러 전력망 장비사 인수와 HD현대·LS일렉트릭의 분산 전원 및 직류 배전 수주, 한전 수도권 공급 불가에 따른 전력 자립화 동향을 짚어봅니다.</description>
+    </item>
+    <item>
+      <title>[인프라 용어사전] D2D 위성통신 (Direct-to-Device) - 지상 기지국 한계를 넘어 우주로 확장되는 모바일 인터커넥트 아키텍처</title>
+      <link>https://ywmoon.github.io/article/2026-10-29-glossary-direct-to-device-satellite/</link>
+      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-10-29-glossary-direct-to-device-satellite/</guid>
+      <pubDate>Thu, 29 Oct 2026 05:46:00 +0900</pubDate>
+      <category>Terminology</category>
+      <description>직관적 비유: 사막이나 태평양 한가운데서 무거운 전용 위성 안테나(VSAT 접시 안테나)나 특수 위성 전화기 없이, 주머니 속 일반 상용 스마트폰으로 상공 500~600km의 저궤도(LEO) 인공위성에 직접 신호를 쏘아 올려 기지국 없는 격오지에서도 통신망을 복구하는 ‘우주 상공의 셀룰러 기지국’ 입니다. 공학적 정의: D2D(Direct-to-Device</description>
+    </item>
+    <item>
+      <title>DC InfraOps Trends - 2026년 10월 29일</title>
+      <link>https://ywmoon.github.io/article/2026-10-29-dc-infraops-trends-report/</link>
+      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-10-29-dc-infraops-trends-report/</guid>
+      <pubDate>Thu, 29 Oct 2026 05:45:00 +0900</pubDate>
+      <category>Newsletter</category>
+      <description>Datacenter &amp; Cloud Industry InfraOps Daily (2-Column) 1. 빅테크 3분기 실적 호조와 임차·구축 분화 및 초대형 CapEx 현금흐름 시험대 | 인공지능(AI) 인프라 설비투자(CapEx) 회수율에 대한 시장의 의구심이 최고조에 달한 가운데, 마이크로소프트(MS)의 코로케이션 임차(Lease) 전략과 아마... ͏</description>
+    </item>
     <item>
       <title>[2026.10.28] 글로벌 인프라 브리핑: 네이버-브룩필드 12조 원 AI 인프라 본계약 체결 &amp; AWS '토치뉴런' 오픈소스 공개와 이기종 실리콘 대연합</title>
       <link>https://ywmoon.github.io/article/2026-10-28-daily-infraops-briefing/</link>
@@ -1166,46 +1206,6 @@
       <pubDate>Wed, 16 Sep 2026 05:55:00 +0900</pubDate>
       <category>Podcast</category>
       <description>오늘의 10분 심층 팟캐스트는 글로벌 데이터센터 인프라를 뒤흔드는 4대 핵심 축을 심층 분석합니다. 첫째, KT클라우드의 1GW 청사진 및 6조 원 투자, 140kW급 고밀도 연산과 현대차 스팟 로봇을 활용한 피지컬 AI 자율 관제, 캐나다 벨의 1.2GW 확장과 삼성SDS 구미 60MW 착공 및 앤트로픽 파트너십을 다룹니다. 둘째, 이란 공습으로 인한 A</description>
-    </item>
-    <item>
-      <title>[인프라 용어사전] 피지컬 AI (Physical AI) - 초거대 AIDC 무인 자율 관제와 물리 인프라 지능화 아키텍처</title>
-      <link>https://ywmoon.github.io/article/2026-09-16-infra-glossary/</link>
-      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-09-16-infra-glossary/</guid>
-      <pubDate>Wed, 16 Sep 2026 05:54:00 +0900</pubDate>
-      <category>Terminology</category>
-      <description>직관적 비유: 전통적인 데이터센터 관제가 병실 침상에 부착된 정적 환자 모니터와 간호 인력의 주기적인 순찰에 의존했다면, 피지컬 AI(Physical AI)는 병동 전체를 자율 주행하며 환자의 호흡음, 체온 변화, 미세 혈류 이상을 실시간으로 감지하고 처방을 보조하는 '지능형 자율 회진 로봇 시스템'에 비유할 수 있</description>
-    </item>
-    <item>
-      <title>DC InfraOps Trends - 2026년 09월 16일</title>
-      <link>https://ywmoon.github.io/article/2026-09-16-dc-infraops-trends-report/</link>
-      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-09-16-dc-infraops-trends-report/</guid>
-      <pubDate>Wed, 16 Sep 2026 05:53:00 +0900</pubDate>
-      <category>Newsletter</category>
-      <description>Datacenter &amp; Cloud Industry InfraOps Daily (2-Column) 1. KT클라우드 1GW 로드맵과 글로벌 기가와트급 증설 및 피지컬 AI 결합 하이퍼스케일 거점 확보와 피지컬 AI 관제 도입이 결합되며 연산 인프라가 급격히 대형화되는 추세임. 국내에서는 KT클라우드가 2031년까지 전국 20여 곳에 1GW 규모 A... ͏</description>
-    </item>
-    <item>
-      <title>[2026.09.15] 글로벌 인프라 브리핑: 빅테크의 공격적 자본지출(CapEx)과 잉여현금흐름(FCF)의 상충 &amp; 사모펀드 연계 오프밸런스 파이낸싱 및 커스텀 실리콘 전용 거점 확대</title>
-      <link>https://ywmoon.github.io/article/2026-09-15-daily-infraops-briefing/</link>
-      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-09-15-daily-infraops-briefing/</guid>
-      <pubDate>Tue, 15 Sep 2026 05:57:00 +0900</pubDate>
-      <category>Daily Briefing</category>
-      <description>📌 오늘의 3대 핵심 관전 포인트 (Key Highlights) 빅테크의 공격적 자본지출(CapEx)과 잉여현금흐름(FCF)의 상충: 아마존 앤디 재시 CEO의 2,200억 달러(약 300조 원) 규모 AWS 인프라 투자 발표와 알리바바의 AI 매출 확대 이면에서 발생한 가파른 현금흐름 둔화 압박. 사모펀드 연계 오프밸런스 파이낸싱 및 커스텀 실리콘 전용</description>
-    </item>
-    <item>
-      <title>[테크 딥다이브] 기가와트(GW)급 AI 팩토리 전환과 데이터센터 전력 계통의 물리적 한계</title>
-      <link>https://ywmoon.github.io/article/2026-09-15-august-megafarm-deepdive/</link>
-      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-09-15-august-megafarm-deepdive/</guid>
-      <pubDate>Tue, 15 Sep 2026 05:56:00 +0900</pubDate>
-      <category>Tech Deep Dive</category>
-      <description>발행일: 2026년 9월 | 기술 분석 보고서 | 글로벌 클라우드 &amp; AI 인프라 아키텍처🚀 서론: 기술 패러다임의 전환과 문제 제기글라우드 및 인공지능(AI) 인프라 시장이 중대한 변곡점에 진입했다. 지난 10여 년간 데이터센터 확장의 기준이었던 수십 메가와트(MW) 단위의 하이퍼스케일 설비는 수백 메가와트를 넘어 단일 캠퍼스 기준 기가와트(GW) 단위의</description>
-    </item>
-    <item>
-      <title>[2026.09.15] [10-Min English Podcast] Mega CapEx Liquidity Divergence, Grid Prefinancing Clashes, 800VDC Distribution, and Regulatory Moratoria</title>
-      <link>https://ywmoon.github.io/article/2026-09-15-10min-tech-podcast/</link>
-      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-09-15-10min-tech-podcast/</guid>
-      <pubDate>Tue, 15 Sep 2026 05:55:00 +0900</pubDate>
-      <category>Podcast</category>
-      <description>오늘의 10분 심층 팟캐스트는 2026년 9월 15일 글로벌 데이터센터 및 AI 인프라 산업의 4대 핵심 축을 집중 분석합니다. 첫째, 메타의 캐나다 앨버타 130억 캐나다 달러 투자 및 유타 확장, 아마존의 2,200억 달러 투자와 퀄컴 제휴, 블랙스톤의 구글 TPU 50억 달러 출자 등 메가 CapEx 흐름과 더불어 98% GPU 가동률에도 1,250억</description>
     </item>
   </channel>
 </rss>
