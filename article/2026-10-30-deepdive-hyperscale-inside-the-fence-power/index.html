@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>[테크 딥다이브] 외부 송전망을 넘어 구내 배전(Inside-the-Fence)으로: 하이퍼스케일러의 직발주(OFCI) 전환과 중전압(MV) 직결 배전 아키텍처</title>
+  <meta name="description" content="전력·에너지 아키텍처 심층 분석 빅테크의 설비투자 집행 지연과 공기 지연의 근본 원인이 외부 전력망 연계를 넘어 데이터센터 부지 내부의 중·저압 배전 자재 병목으로 이동하고 있습니다. 200MW급 초고밀도 AI 팩토리가 직면한 물리적 배전 한계와 이를 극복하기 위한 중전압(MV) 토폴로지 및 직발주 공급망 재편을 공학적으로 분석합니다. 글로벌 빅테크의 20" />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://ywmoon.github.io/article/2026-10-30-deepdive-hyperscale-inside-the-fence-power/" />
+  <!-- OpenGraph -->
+  <meta property="og:type" content="article" />
+  <meta property="og:title" content="[테크 딥다이브] 외부 송전망을 넘어 구내 배전(Inside-the-Fence)으로: 하이퍼스케일러의 직발주(OFCI) 전환과 중전압(MV) 직결 배전 아키텍처" />
+  <meta property="og:description" content="전력·에너지 아키텍처 심층 분석 빅테크의 설비투자 집행 지연과 공기 지연의 근본 원인이 외부 전력망 연계를 넘어 데이터센터 부지 내부의 중·저압 배전 자재 병목으로 이동하고 있습니다. 200MW급 초고밀도 AI 팩토리가 직면한 물리적 배전 한계와 이를 극복하기 위한 중전압(MV) 토폴로지 및 직발주 공급망 재편을 공학적으로 분석합니다. 글로벌 빅테크의 20" />
+  <meta property="og:url" content="https://ywmoon.github.io/article/2026-10-30-deepdive-hyperscale-inside-the-fence-power/" />
+  <meta property="og:image" content="https://ywmoon.github.io/assets/avatar.jpg" />
+  <meta property="og:site_name" content="Datacenter InfraOps &amp; Cloud Industry Notes" />
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="[테크 딥다이브] 외부 송전망을 넘어 구내 배전(Inside-the-Fence)으로: 하이퍼스케일러의 직발주(OFCI) 전환과 중전압(MV) 직결 배전 아키텍처" />
+  <meta name="twitter:description" content="전력·에너지 아키텍처 심층 분석 빅테크의 설비투자 집행 지연과 공기 지연의 근본 원인이 외부 전력망 연계를 넘어 데이터센터 부지 내부의 중·저압 배전 자재 병목으로 이동하고 있습니다. 200MW급 초고밀도 AI 팩토리가 직면한 물리적 배전 한계와 이를 극복하기 위한 중전압(MV) 토폴로지 및 직발주 공급망 재편을 공학적으로 분석합니다. 글로벌 빅테크의 20" />
+  <meta name="twitter:image" content="https://ywmoon.github.io/assets/avatar.jpg" />
+  <!-- Structured Data: Google Schema.org (Article) -->
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "TechArticle",
+  "headline": "[테크 딥다이브] 외부 송전망을 넘어 구내 배전(Inside-the-Fence)으로: 하이퍼스케일러의 직발주(OFCI) 전환과 중전압(MV) 직결 배전 아키텍처",
+  "description": "전력·에너지 아키텍처 심층 분석 빅테크의 설비투자 집행 지연과 공기 지연의 근본 원인이 외부 전력망 연계를 넘어 데이터센터 부지 내부의 중·저압 배전 자재 병목으로 이동하고 있습니다. 200MW급 초고밀도 AI 팩토리가 직면한 물리적 배전 한계와 이를 극복하기 위한 중전압(MV) 토폴로지 및 직발주 공급망 재편을 공학적으로 분석합니다. 글로벌 빅테크의 20",
+  "datePublished": "2026-10-30T05:49:00+09:00",
+  "dateModified": "2026-10-30 05:46:00+09:00",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://ywmoon.github.io/article/2026-10-30-deepdive-hyperscale-inside-the-fence-power/"
+  },
+  "author": {
+    "@type": "Person",
+    "name": "James Moon (문연욱)",
+    "jobTitle": "AWS Data Center Engineering Operations Cluster Manager",
+    "url": "https://www.linkedin.com/in/ywmoon"
+  },
+  "publisher": {
+    "@type": "Person",
+    "name": "James Moon",
+    "url": "https://ywmoon.github.io",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://ywmoon.github.io/assets/avatar.jpg"
+    }
+  },
+  "image": "https://ywmoon.github.io/assets/avatar.jpg",
+  "keywords": "테크딥다이브, 구내배전, 중전압배전, OFCI, 전력인프라, 데이터센터"
+}
+  </script>
+  <!-- Instant redirect for real users -->
+  <meta http-equiv="refresh" content="0; url=https://ywmoon.github.io/#article/2026-10-30-deepdive-hyperscale-inside-the-fence-power" />
+  <script>window.location.replace('https://ywmoon.github.io/#article/2026-10-30-deepdive-hyperscale-inside-the-fence-power');</script>
+</head>
+<body></body>
+</html>
