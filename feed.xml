@@ -5,8 +5,48 @@
     <link>https://ywmoon.github.io</link>
     <description>글로벌 AI 데이터센터 전력망, 냉각, 클라우드 인프라 엔지니어링 데일리 트렌드</description>
     <language>ko</language>
-    <lastBuildDate>Fri, 30 Oct 2026 05:46:42 -0000</lastBuildDate>
+    <lastBuildDate>Mon, 02 Nov 2026 05:46:12 -0000</lastBuildDate>
     <atom:link href="https://ywmoon.github.io/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>[2026.11.02] 글로벌 인프라 브리핑: 아마존 트레이니엄 외판 및 800억 달러 설비 차입과 현대차 9조 원 새만금 AI 밸리 가동</title>
+      <link>https://ywmoon.github.io/article/2026-11-02-daily-infraops-briefing/</link>
+      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-11-02-daily-infraops-briefing/</guid>
+      <pubDate>Mon, 02 Nov 2026 05:50:00 +0900</pubDate>
+      <category>Daily Briefing</category>
+      <description>아마존의 하드웨어 외부 판매 및 800억 달러 담보 금융: 자체 AI 가속기 '트레이니엄(Trainium)'의 외부 직접 판매를 선언하며 엔비디아 독점 구도에 직면 대응했습니다. 분기 설비투자 770억 달러 집행과 잉여현금흐름 마이너스 424억 달러 기록 속에서도 800억 달러 규모 설비 담보 차입을 통해 2026년 2,200억 달러 투자 계획을 강행합니다</description>
+    </item>
+    <item>
+      <title>[테크 딥다이브] 아마존 트레이니엄의 외부 직판 전환과 800억 달러 장비 금융: 엔비디아 독점 허무는 실리콘 유통 패러다임과 인프라 경제학</title>
+      <link>https://ywmoon.github.io/article/2026-11-02-deepdive-aws-trainium-external-sales-silicon-economics/</link>
+      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-11-02-deepdive-aws-trainium-external-sales-silicon-economics/</guid>
+      <pubDate>Mon, 02 Nov 2026 05:49:00 +0900</pubDate>
+      <category>Tech Deep Dive</category>
+      <description>Executive Summary : 아마존웹서비스(AWS)가 자체 설계한 인공지능(AI) 전용 가속기 '트레이니엄(Trainium)'을 자사 클라우드 인스턴스 전유물로 묶어두던 기존 전략을 철회하고, 엔터프라이즈 온프레미스 및 프라이빗 데이터센터를 겨냥한 외부 직접 판매 체제로 공식 전환했습니다. 동시에 14초마다 가속기 1대를 신규 배치하는 초고속 확장세</description>
+    </item>
+    <item>
+      <title>[2026.11.02] [10-Min English Podcast] Hardware-Backed Debt, Silicon Sovereignty, and Extreme Density Realities</title>
+      <link>https://ywmoon.github.io/article/2026-11-02-10min-tech-podcast/</link>
+      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-11-02-10min-tech-podcast/</guid>
+      <pubDate>Mon, 02 Nov 2026 05:48:00 +0900</pubDate>
+      <category>Podcast</category>
+      <description>오늘의 10분 심층 팟캐스트는 아마존의 트레이니엄 외부 판매 선언과 데이터센터 장비 담보 800억 달러 차입 및 분기 770억 달러 CapEx 충격, 현대차그룹의 새만금 9조 원 AI 밸리 조성 및 한일 10조 원 공동 인프라 펀드 결성, 엔비디아의 엔스케일-앤트로픽 신용 보증 논의와 샘 올트먼-삼성·SK 메모리 동맹, 효성중공업-지멘스 디지털 그리드 연합</description>
+    </item>
+    <item>
+      <title>[인프라 용어사전] 뉴런코어 (NeuronCore) - AWS 트레이니엄의 연산 엔진과 AI 전용 아키텍처</title>
+      <link>https://ywmoon.github.io/article/2026-11-02-glossary-aws-neuroncore-engine/</link>
+      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-11-02-glossary-aws-neuroncore-engine/</guid>
+      <pubDate>Mon, 02 Nov 2026 05:47:00 +0900</pubDate>
+      <category>Terminology</category>
+      <description>범용 GPU가 수천 개의 범용 코어로 다양한 그래픽 및 수치 연산을 처리하는 다목적 고성능 엔진이라면, 뉴런코어(NeuronCore) 는 거대 언어 모델(LLM)과 딥러닝 연산 그래프 실행에 불필요한 제어 오버헤드를 모두 제거하고 대규모 행렬 곱셈만을 최고 속도로 처리하도록 설계된 전용 레이싱 머신 엔진입니다. 공학적으로 뉴런코어는 AWS의 팹리스 반도체</description>
+    </item>
+    <item>
+      <title>DC InfraOps Trends - 2026년 11월 02일</title>
+      <link>https://ywmoon.github.io/article/2026-11-02-dc-infraops-trends-report/</link>
+      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-11-02-dc-infraops-trends-report/</guid>
+      <pubDate>Mon, 02 Nov 2026 05:46:00 +0900</pubDate>
+      <category>Newsletter</category>
+      <description>Datacenter &amp; Cloud Industry InfraOps Daily (2-Column) 1. 아마존 트레이니엄 외부 판매 선언과 800억 달러 장비 담보 대출 및 초대형 CapEx 현금흐름 충격 | 아마존이 자체 개발한 인공지능(AI) 가속기 '트레이니엄(Trainium)'을 클라우드 내부 탑재를 넘어 외부에 직접 판매하기로 결정하며 엔... ͏</description>
+    </item>
     <item>
       <title>[2026.10.30] 글로벌 인프라 브리핑: 빅테크 CapEx 충격과 현금흐름 분화 &amp; 데이터센터 공급 지연 리스크</title>
       <link>https://ywmoon.github.io/article/2026-10-30-daily-infraops-briefing/</link>
@@ -1166,46 +1206,6 @@
       <pubDate>Fri, 18 Sep 2026 05:56:00 +0900</pubDate>
       <category>Podcast</category>
       <description>🎧 10-MIN TECH ENGLISH PODCAST [2026.09.18] [10-Min English Podcast] The Grid Paywall, Amazon's $8B Power Play, and the Era of Captive Generation 2026년 9월 18일 DC InfraOps 데일리 브리핑은 글로벌 AI 인프라를 뒤흔드는 4대 핵</description>
-    </item>
-    <item>
-      <title>[인프라 용어사전] SMR (Small Modular Reactor) - 송전망 병목과 전력비 규제를 돌파하는 AI 데이터센터 온사이트 기저전원</title>
-      <link>https://ywmoon.github.io/article/2026-09-18-infra-glossary/</link>
-      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-09-18-infra-glossary/</guid>
-      <pubDate>Fri, 18 Sep 2026 05:54:00 +0900</pubDate>
-      <category>Terminology</category>
-      <description>전력 인프라 아키텍처 SMR (Small Modular Reactor, 소형 모듈 원자로) 공공 전력망 대기열과 계통 보강 규제를 우회하여 AI 데이터센터에 24/7 무탄소 기저전력을 직결하는 차세대 분산 원자력 발전 시스템 📌 1. 30초 핵심 요약 &amp; 개념 정의 직관적 비유: 수백 킬로미터 떨어진 대형 댐에서 긴 송수관로를 통해 물을 끌어오는 중앙 집중</description>
-    </item>
-    <item>
-      <title>DC InfraOps Trends - 2026년 09월 18일</title>
-      <link>https://ywmoon.github.io/article/2026-09-18-dc-infraops-trends-report/</link>
-      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-09-18-dc-infraops-trends-report/</guid>
-      <pubDate>Fri, 18 Sep 2026 05:54:00 +0900</pubDate>
-      <category>Newsletter</category>
-      <description>Datacenter &amp; Cloud Industry InfraOps Daily (2-Column) 1. 미 하원 전력비 전가 차단법 통과와 온사이트 원전 수혜 및 계통 갈등 미국 연방 하원이 데이터센터로 인한 전력망 증설 비용을 일반 가계에 전가하지 못하도록 강제하는 법안을 417대 3의 압도적 찬성으로 통과시키고 , 초당적 지지로 '소비자 보호법... ͏</description>
-    </item>
-    <item>
-      <title>[2026.09.17] 글로벌 인프라 브리핑: 지정학적 물리 타격과 클라우드 영구 결손 &amp; 베라 루빈 NVL72와 랙당 130kW 냉각 병목</title>
-      <link>https://ywmoon.github.io/article/2026-09-17-daily-infraops-briefing/</link>
-      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-09-17-daily-infraops-briefing/</guid>
-      <pubDate>Thu, 17 Sep 2026 05:58:00 +0900</pubDate>
-      <category>Daily Briefing</category>
-      <description>2026년 9월 17일, 글로벌 클라우드 및 데이터센터 인프라 지형은 지정학적 물리적 충격과 차세대 초고집적 AI 하드웨어의 전력·냉각 한계 극복이라는 중대한 전환점에 직면했습니다. 중동 지역의 군사적 분쟁으로 인한 하이퍼스케일러 데이터센터 시설 피격 및 데이터 영구 손실 사태는 클라우드 복원력의 근본적 설계를 재검토하게 만들고 있으며, 엔비디아와 코어위브</description>
-    </item>
-    <item>
-      <title>[테크 딥다이브] 하이퍼스케일 클라우드의 물리적 한계: 가용영역(AZ) 설계 결함과 크로스 리전 복원력의 재구성</title>
-      <link>https://ywmoon.github.io/article/2026-09-17-august-megafarm-deepdive/</link>
-      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-09-17-august-megafarm-deepdive/</guid>
-      <pubDate>Thu, 17 Sep 2026 05:57:00 +0900</pubDate>
-      <category>Tech Deep Dive</category>
-      <description>Infrastructure Architecture Analysis 하이퍼스케일 클라우드의 물리적 한계: 가용영역(AZ) 설계 결함과 크로스 리전 복원력의 재구성 중동 하이퍼스케일 시설의 물리적 피격과 영구 데이터 유실 사태가 던진 공학적 경고: 동기식 다중 가용영역(Multi-AZ) 복제의 지리적 반경 한계, 스토리지 어레이 손상 메커니즘, 그리고 데이터</description>
-    </item>
-    <item>
-      <title>[2026.09.17] [10-Min English Podcast] Google-Nvidia AI Energy Alliance, 800V DC Architecture, Onsite SMR Permits, and Sovereign Cloud Fortification</title>
-      <link>https://ywmoon.github.io/article/2026-09-17-10min-tech-podcast/</link>
-      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-09-17-10min-tech-podcast/</guid>
-      <pubDate>Thu, 17 Sep 2026 05:56:00 +0900</pubDate>
-      <category>Podcast</category>
-      <description>🎧 10-MIN TECH ENGLISH PODCAST [2026.09.17] [10-Min English Podcast] Google-Nvidia AI Energy Alliance, 800V DC Architecture, Onsite SMR Permits, and Sovereign Cloud Fortification 2026년 9월 17일 DC InfraO</description>
     </item>
   </channel>
 </rss>
