@@ -5,8 +5,48 @@
     <link>https://ywmoon.github.io</link>
     <description>글로벌 AI 데이터센터 전력망, 냉각, 클라우드 인프라 엔지니어링 데일리 트렌드</description>
     <language>ko</language>
-    <lastBuildDate>Mon, 02 Nov 2026 05:46:12 -0000</lastBuildDate>
+    <lastBuildDate>Tue, 03 Nov 2026 06:56:06 -0000</lastBuildDate>
     <atom:link href="https://ywmoon.github.io/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>[2026.11.03] 글로벌 인프라 브리핑: 빅테크 3조 달러 CapEx와 현금흐름 경고음 속 K-인프라 영토 확장 및 기가와트급 전력망 재편</title>
+      <link>https://ywmoon.github.io/article/2026-11-03-daily-infraops-briefing/</link>
+      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-11-03-daily-infraops-briefing/</guid>
+      <pubDate>Tue, 03 Nov 2026 07:00:00 +0900</pubDate>
+      <category>Daily Briefing</category>
+      <description>빅테크 3조 달러 투자 약정과 잉여현금흐름(FCF) 적자 전환: 알파벳·아마존·메타·MS의 분기 합산 FCF가 -260억 달러로 급락함에 따라, 106조 원 규모의 공급업체 대출 및 94억 달러 규모 GPU 담보 신디케이트 론 등 부채 기반 차입 금융이 확산되고 있습니다. K-인프라 기업들의 전략적 거점 구축 및 글로벌 영토 확장: 삼성SDS가 영남권 피지</description>
+    </item>
+    <item>
+      <title>[테크 딥다이브] 수도권 전력 규제 돌파와 '피지컬 AI' 거점의 태동: 삼성SDS 구미 120MW AIDC의 인프라 공학과 경제학</title>
+      <link>https://ywmoon.github.io/article/2026-11-03-deepdive-samsung-sds-gumi-120mw-aidc-physical-ai/</link>
+      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-11-03-deepdive-samsung-sds-gumi-120mw-aidc-physical-ai/</guid>
+      <pubDate>Tue, 03 Nov 2026 06:59:00 +0900</pubDate>
+      <category>Tech Deep Dive</category>
+      <description>글로벌 빅테크의 자본지출(CapEx)이 3조 달러를 돌파하며 잉여현금흐름 적자 충격이 가시화되는 가운데, 국내 데이터센터 시장 역시 수도권 전력망 포화와 계통 규제라는 물리적 장벽에 직면해 있습니다. 본 칼럼은 삼성SDS가 경북 구미에 착공한 120MW급 AIDC를 중심으로, 수도권 규제 회피 전략, 제조·로봇 기반 '피지컬 AI(Physical AI)'</description>
+    </item>
+    <item>
+      <title>[2026.11.03] [10-Min English Podcast] Navigating Mega-CapEx Deficits, 800V DC Deployments, and Municipal Grid Moratoriums</title>
+      <link>https://ywmoon.github.io/article/2026-11-03-10min-tech-podcast/</link>
+      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-11-03-10min-tech-podcast/</guid>
+      <pubDate>Tue, 03 Nov 2026 06:58:00 +0900</pubDate>
+      <category>Podcast</category>
+      <description>오늘의 10분 심층 브리핑은 2026년 11월 3일 글로벌 AI 인프라 생태계 전반을 강타한 핵심 쟁점을 분석합니다. 빅테크 기업들의 누적 AI 설비투자 약정액이 3조 달러를 돌파하며 분기 잉여현금흐름(FCF)이 260억 달러 적자로 전환된 금융 충격과, 브룩필드 및 KB국민은행이 주도하는 GPU 담보 신디케이트 론 구조를 집중 조명합니다. 이어 삼성SDS</description>
+    </item>
+    <item>
+      <title>[인프라 용어사전] DCI (Data Center Interconnect) - 분산된 AI 데이터센터를 단일 가상 클러스터로 묶는 초광대역 백본 기술</title>
+      <link>https://ywmoon.github.io/article/2026-11-03-glossary-data-center-interconnect/</link>
+      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-11-03-glossary-data-center-interconnect/</guid>
+      <pubDate>Tue, 03 Nov 2026 06:57:00 +0900</pubDate>
+      <category>Terminology</category>
+      <description>개념 정의 DCI(Data Center Interconnect, 데이터센터 상호연결) 는 물리적으로 분리된 둘 이상의 데이터센터를 초고속 광전송망(Optical Transport Network)과 고성능 라우팅 프로토콜을 결합하여 단일 논리적 자원 풀로 연동하는 전용 고대역폭 백본 기술입니다. 단순히 지점 간 통신 회선을 연결하는 수준을 넘어, 수십 테라비</description>
+    </item>
+    <item>
+      <title>DC InfraOps Trends - 2026년 11월 03일</title>
+      <link>https://ywmoon.github.io/article/2026-11-03-dc-infraops-trends-report/</link>
+      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-11-03-dc-infraops-trends-report/</guid>
+      <pubDate>Tue, 03 Nov 2026 06:56:00 +0900</pubDate>
+      <category>Newsletter</category>
+      <description>Datacenter &amp; Cloud Industry InfraOps Daily (2-Column) 1. 빅테크 설비투자 3조 달러 돌파와 현금흐름 적자 충격 및 GPU 차입 금융 확산 | 글로벌 빅테크의 인공지능 인프라 누적 투자 약정액이 3조 달러(약 4,036.5조 원)를 돌파하며 사상 최대 규모의 자본지출(CapEx) 속도전이 전개되는 가운데... ͏</description>
+    </item>
     <item>
       <title>[2026.11.02] 글로벌 인프라 브리핑: 아마존 트레이니엄 외판 및 800억 달러 설비 차입과 현대차 9조 원 새만금 AI 밸리 가동</title>
       <link>https://ywmoon.github.io/article/2026-11-02-daily-infraops-briefing/</link>
@@ -1166,46 +1206,6 @@
       <pubDate>Mon, 21 Sep 2026 05:55:00 +0900</pubDate>
       <category>Terminology</category>
       <description>Cloud &amp; Infrastructure Architecture 멀티 리전 액티브-액티브 (Multi-Region Active-Active) 단일 가용 영역(AZ)을 넘어 지리적으로 완전히 격리된 복수 리전 간 트래픽을 상시 분산 처리하고 무중단 복원력을 확보하는 최고 등급의 분산 클라우드 아키텍처 📌 1. 30초 핵심 요약 &amp; 개념 정의 💡 직관적 비유로</description>
-    </item>
-    <item>
-      <title>DC InfraOps Trends - 2026년 09월 21일</title>
-      <link>https://ywmoon.github.io/article/2026-09-21-dc-infraops-trends-report/</link>
-      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-09-21-dc-infraops-trends-report/</guid>
-      <pubDate>Mon, 21 Sep 2026 05:54:00 +0900</pubDate>
-      <category>Newsletter</category>
-      <description>Datacenter &amp; Cloud Industry InfraOps Daily (2-Column) 1. 버지니아 인허가 규제와 트럼프 국유지 개방 역풍 및 글로벌 모라토리엄 확산 데이터센터의 전력 독점에 따른 가계 전기료 상승 반발로 인허가 규제와 정치적 역풍이 전방위로 분출되는 양상임. 미국 최대 집적지인 버지니아주의 애비게일 스팬버거 주지사는 ... ͏</description>
-    </item>
-    <item>
-      <title>[테크 딥다이브] 2027년 대한민국 예산안 심층 분석: 엔비디아 '베라 루빈' GPU 1만장과 국가 전략 AIDC 대전환</title>
-      <link>https://ywmoon.github.io/article/2026-09-20-2027-budget-aidc-gpu-strategy/</link>
-      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-09-20-2027-budget-aidc-gpu-strategy/</guid>
-      <pubDate>Sun, 20 Sep 2026 08:03:00 +0900</pubDate>
-      <category>Tech Deep Dive</category>
-      <description>대한민국 기획예산처가 발표한 2027년도 예산안(총 820.9조원)을 AI 데이터센터(AIDC) 인프라 관점에서 정밀 해부합니다. 엔비디아 차세대 '베라 루빈(Vera Rubin)' GPU 1만장 구매(3.9조원), 10MW 실증 테스트랩, 액체냉각 소부장 R&amp;D, 345kV 변전소 44개 구축, 10GW 송전단 ESS 등 국가 주도 AIDC 완결형 생태계</description>
-    </item>
-    <item>
-      <title>[2026.09.18] 글로벌 인프라 브리핑: 물리적 타격에 의한 클라우드 복원력 한계 노출 &amp; 전력망 병목 완화를 위한 수요반응 연합과 80억 달러 백업 전력 계약</title>
-      <link>https://ywmoon.github.io/article/2026-09-18-daily-infraops-briefing/</link>
-      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-09-18-daily-infraops-briefing/</guid>
-      <pubDate>Fri, 18 Sep 2026 05:57:00 +0900</pubDate>
-      <category>Daily Briefing</category>
-      <description>글로벌 하이퍼스케일 클라우드와 AI 데이터센터 인프라는 연산 밀도의 급격한 상승과 전력 수급 불균형, 지정학적 물리적 안보 위협이라는 복합적인 도전에 직면해 있습니다. 본 리포트는 오늘 수집된 주요 인프라 현안을 바탕으로 기술적, 아키텍처적 관점에서 심층 분석을 제공합니다.📌 오늘의 3대 핵심 관전 포인트 (Key Highlights)물리적 타격에 의한 클</description>
-    </item>
-    <item>
-      <title>[테크 딥다이브] 데이터 사일로를 넘는 에이전틱 AI: 세일즈포스-AWS-구글 연합과 멀티클라우드 제로 ETL 아키텍처 분석</title>
-      <link>https://ywmoon.github.io/article/2026-09-18-august-megafarm-deepdive/</link>
-      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-09-18-august-megafarm-deepdive/</guid>
-      <pubDate>Fri, 18 Sep 2026 05:56:00 +0900</pubDate>
-      <category>Tech Deep Dive</category>
-      <description>📌 엔지니어링 브리프 요약 생성형 AI 패러다임이 단순 질의응답형 챗봇에서 다단계 작업을 자율 수행하는 '에이전틱 AI(Agentic AI)'로 급격히 전환되면서, 분산된 엔터프라이즈 데이터의 물리적 이동 없이 실시간 접근을 보장하는 '제로 ETL(Zero-ETL) 양방향 페더레이션'과 '멀티클라우드 크로스 추론 파이프라인'이 핵심 인프라 과제로 부상했습니</description>
-    </item>
-    <item>
-      <title>[2026.09.18] [10-Min English Podcast] The Grid Paywall, Amazon's $8B Power Play, and the Era of Captive Generation</title>
-      <link>https://ywmoon.github.io/article/2026-09-18-10min-tech-podcast/</link>
-      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-09-18-10min-tech-podcast/</guid>
-      <pubDate>Fri, 18 Sep 2026 05:56:00 +0900</pubDate>
-      <category>Podcast</category>
-      <description>🎧 10-MIN TECH ENGLISH PODCAST [2026.09.18] [10-Min English Podcast] The Grid Paywall, Amazon's $8B Power Play, and the Era of Captive Generation 2026년 9월 18일 DC InfraOps 데일리 브리핑은 글로벌 AI 인프라를 뒤흔드는 4대 핵</description>
     </item>
   </channel>
 </rss>
