@@ -5,8 +5,48 @@
     <link>https://ywmoon.github.io</link>
     <description>글로벌 AI 데이터센터 전력망, 냉각, 클라우드 인프라 엔지니어링 데일리 트렌드</description>
     <language>ko</language>
-    <lastBuildDate>Tue, 03 Nov 2026 06:56:06 -0000</lastBuildDate>
+    <lastBuildDate>Wed, 04 Nov 2026 05:44:53 -0000</lastBuildDate>
     <atom:link href="https://ywmoon.github.io/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>[2026.11.04] 글로벌 인프라 브리핑: 엔비디아 글로벌 DC 탈중국 51% 룰 강제 &amp; 영국 270억 달러 1GW 바이오매스 AIDC 추진</title>
+      <link>https://ywmoon.github.io/article/2026-11-04-daily-infraops-briefing/</link>
+      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-11-04-daily-infraops-briefing/</guid>
+      <pubDate>Wed, 04 Nov 2026 05:48:00 +0900</pubDate>
+      <category>Daily Briefing</category>
+      <description>엔비디아의 글로벌 클라우드 지침 전면화 : 전 세계 데이터센터 파트너사에 서비스 매출의 최소 51%를 비중국 기업에 배정하도록 구두 지침을 하달하며 제3국을 통한 중국 기업의 AI 가속기 우회 임대 경로를 전면 통제하기 시작했습니다. 빅테크 인프라 확장과 천문학적 금융 조달 : 아마존의 180억 달러 루이지애나 캠퍼스 및 800억 달러 공급업체 금융, 앤트</description>
+    </item>
+    <item>
+      <title>[테크 딥다이브] 송전망 대기열 10년의 돌파구: 영국 드랙스(Drax) 1GW 바이오매스 직결과 BTM 기저부하 전력 아키텍처</title>
+      <link>https://ywmoon.github.io/article/2026-11-04-tech-deepdive/</link>
+      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-11-04-tech-deepdive/</guid>
+      <pubDate>Wed, 04 Nov 2026 05:47:00 +0900</pubDate>
+      <category>Tech Deep Dive</category>
+      <description>글로벌 AI 데이터센터 인프라의 확장을 가로막는 병목 지점이 반도체 공급에서 전력 계통 연계(Grid Interconnection)로 급격히 전이되고 있습니다. 특히 영국을 비롯한 서유럽과 북미 주요 국가의 공용 송전망(National Grid) 접속 대기 기간은 짧게는 7년에서 길게는 15년까지 지연되고 있습니다. 수백 메가와트(MW)에서 기가와트(GW)</description>
+    </item>
+    <item>
+      <title>[2026.11.04] [10-Min English Podcast] Geopolitical Capacity Caps, Megawatt Off-Grid Power, and Single-Phase Immersion Frontiers</title>
+      <link>https://ywmoon.github.io/article/2026-11-04-10min-tech-podcast/</link>
+      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-11-04-10min-tech-podcast/</guid>
+      <pubDate>Wed, 04 Nov 2026 05:46:00 +0900</pubDate>
+      <category>Podcast</category>
+      <description>오늘의 10분 심층 팟캐스트는 2026년 11월 4일 글로벌 데이터센터 및 클라우드 인프라 전반을 뒤흔든 6대 핵심 동향을 종합적으로 다룹니다. 첫째, 엔비디아가 전 세계 클라우드 고객사에 중국 기업 매출 비중을 49% 이하로 제한하고 51% 이상을 비중국 기업에 할당하도록 구두 지침을 통보하여 우회 수출 통로를 차단한 조치와 100만 달러 규모의 LLM재</description>
+    </item>
+    <item>
+      <title>[인프라 용어사전] LLM 재킹 (LLMJacking) - 탈취된 클라우드 자격 증명으로 생성형 AI API와 고성능 컴퓨팅 자원을 무단 편취하는 신종 보안 위협</title>
+      <link>https://ywmoon.github.io/article/2026-11-04-glossary-llm-jacking/</link>
+      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-11-04-glossary-llm-jacking/</guid>
+      <pubDate>Wed, 04 Nov 2026 05:45:00 +0900</pubDate>
+      <category>Terminology</category>
+      <description>탈취된 클라우드 자격 증명을 악용해 완전관리형 파운데이션 모델 API를 무단 호출하고 고비용 AI 인프라 자원을 편취하는 신종 클라우드 침해 공격 공식 정의: LLM 재킹(LLMJacking) 은 유출된 클라우드 자격 증명(AWS IAM Access Key, 서비스 계정 토큰 등)을 악용하여 기업의 클라우드 환경 내에 배포된 대형언어모델(LLM) API 엔</description>
+    </item>
+    <item>
+      <title>DC InfraOps Trends - 2026년 11월 04일</title>
+      <link>https://ywmoon.github.io/article/2026-11-04-dc-infraops-trends-report/</link>
+      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-11-04-dc-infraops-trends-report/</guid>
+      <pubDate>Wed, 04 Nov 2026 05:44:00 +0900</pubDate>
+      <category>Newsletter</category>
+      <description>Datacenter &amp; Cloud Industry InfraOps Daily (2-Column) 1. 엔비디아의 글로벌 데이터센터 51% 비중국 할당 강제와 대중국 우회 차단 | 엔비디아가 전 세계 클라우드 및 데이터센터 협력사에 서비스 매출의 최소 51%를 중국 이외 기업에 판매하도록 구두 지침을 전격 통보함 . 이는 데이터센터 파트너들의 중국... ͏</description>
+    </item>
     <item>
       <title>[2026.11.03] 글로벌 인프라 브리핑: 빅테크 3조 달러 CapEx와 현금흐름 경고음 속 K-인프라 영토 확장 및 기가와트급 전력망 재편</title>
       <link>https://ywmoon.github.io/article/2026-11-03-daily-infraops-briefing/</link>
@@ -1166,46 +1206,6 @@
       <pubDate>Tue, 22 Sep 2026 05:49:00 +0900</pubDate>
       <category>Terminology</category>
       <description>전력 인프라 &amp; 계통 엔지니어링 그리드 코드 (Grid Code) 초대형 AI 데이터센터가 공공 전력망에 안전하게 접속하기 위해 충족해야 하는 전력 품질, 주파수 추종 및 전압 안정성 기술 기준 📌 1. 30초 핵심 요약 &amp; 개념 정의 💡 직관적 비유로 이해하기 수백 량의 고속 화물 열차가 단일 국가 철도망에 진입할 때, 제동 장치와 속도 유지 규정을 지키</description>
-    </item>
-    <item>
-      <title>DC InfraOps Trends - 2026년 09월 22일</title>
-      <link>https://ywmoon.github.io/article/2026-09-22-dc-infraops-trends-report/</link>
-      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-09-22-dc-infraops-trends-report/</guid>
-      <pubDate>Tue, 22 Sep 2026 05:48:00 +0900</pubDate>
-      <category>Newsletter</category>
-      <description>Datacenter &amp; Cloud Industry InfraOps Daily (2-Column) 1. 텍사스 인허가 전면 중단과 캘리포니아 7개 규제법 서명 및 680억 달러 인프라 좌초 전력망 포화와 자원 고갈에 직면한 각국 정부가 강도 높은 규제 입법과 행정 처분을 연이어 쏟아내며 인프라 병목이 심화되는 양상임. 미국 내 핵심 데이터센터 증설... ͏</description>
-    </item>
-    <item>
-      <title>[2026.09.21] 글로벌 인프라 브리핑: 지정학적 물리 타격과 클라우드 레질리언스의 시험대 &amp; 전력망 병목 대응을 위한 분산 백업과 공급망 내재화</title>
-      <link>https://ywmoon.github.io/article/2026-09-21-daily-infraops-briefing/</link>
-      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-09-21-daily-infraops-briefing/</guid>
-      <pubDate>Mon, 21 Sep 2026 05:58:00 +0900</pubDate>
-      <category>Daily Briefing</category>
-      <description>DAILY INFRASTRUCTURE DIGEST | 2026년 9월 21일 글로벌 클라우드 &amp; 데이터센터 인프라 핵심 동향 브리핑 중동 리전 물리적 충돌에 따른 데이터 손실 쟁점부터 24억 달러 규모의 비상 발전 설비 조달, 전력 배전 공급망 다변화 및 차세대 AI 서버리스 런타임 개편까지 오늘 수집된 핵심 인프라 기술 분석을 전달합니다. 📌 오늘의 3대</description>
-    </item>
-    <item>
-      <title>[테크 딥다이브] 기가와트(GW)급 AI 데이터센터의 전력 계통 전환과 초고압 전력 인프라 아키텍처</title>
-      <link>https://ywmoon.github.io/article/2026-09-21-august-megafarm-deepdive/</link>
-      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-09-21-august-megafarm-deepdive/</guid>
-      <pubDate>Mon, 21 Sep 2026 05:57:00 +0900</pubDate>
-      <category>Tech Deep Dive</category>
-      <description>🚀 서론: 기술 패러다임의 전환과 전력 인프라의 물리적 한계 인공지능 가속기 클러스터의 연산 밀도가 기하급수적으로 팽창하면서, 글로벌 하이퍼스케일러들의 핵심 병목이 반도체 팹(Fab) 수급에서 '물리적 전력 수전 및 계통 연계'로 급격히 이전되었습니다. 수만 개의 고전력 GPU가 집적된 단일 트레이닝 및 대규모 추론 클러스터는 100MW(메가와트)를 넘어</description>
-    </item>
-    <item>
-      <title>[2026.09.21] [10-Min English Podcast] Navigating Data Center Moratoriums, Neo-Cloud Liquidity, Magnetic Chillers, and Sovereign Compute</title>
-      <link>https://ywmoon.github.io/article/2026-09-21-10min-tech-podcast/</link>
-      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-09-21-10min-tech-podcast/</guid>
-      <pubDate>Mon, 21 Sep 2026 05:56:00 +0900</pubDate>
-      <category>Podcast</category>
-      <description>오늘의 10분 심층 팟캐스트는 글로벌 데이터센터 인프라를 강타한 4대 핵심 축을 집중 분석합니다. 첫째, 버지니아주의 자동 인허가(By-right) 폐지 추진, 트럼프 행정부의 6개 주 국유지 개방에 대한 강력한 정치적 역풍, 오하이오주 125개 이상의 모라토리엄 및 서울 용산 아파트 인근 규제 조례 등 전력 독점과 가계 전기료 상승에 따른 글로벌 규제 장</description>
-    </item>
-    <item>
-      <title>[인프라 용어사전] 멀티 리전 액티브-액티브 (Multi-Region Active-Active) - 물리적 재난에도 무중단을 보장하는 글로벌 분산 아키텍처</title>
-      <link>https://ywmoon.github.io/article/2026-09-21-infra-glossary/</link>
-      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-09-21-infra-glossary/</guid>
-      <pubDate>Mon, 21 Sep 2026 05:55:00 +0900</pubDate>
-      <category>Terminology</category>
-      <description>Cloud &amp; Infrastructure Architecture 멀티 리전 액티브-액티브 (Multi-Region Active-Active) 단일 가용 영역(AZ)을 넘어 지리적으로 완전히 격리된 복수 리전 간 트래픽을 상시 분산 처리하고 무중단 복원력을 확보하는 최고 등급의 분산 클라우드 아키텍처 📌 1. 30초 핵심 요약 &amp; 개념 정의 💡 직관적 비유로</description>
     </item>
   </channel>
 </rss>
