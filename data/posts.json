@@ -1,5 +1,118 @@
 [
   {
+    "id": "2026-11-05-daily-infraops-briefing",
+    "title": "[2026.11.05] 글로벌 인프라 브리핑: 美 중간선거發 데이터센터 모라토리엄 쇼크 & 구글 동남아 20조원 투자 가속",
+    "date": "2026-11-05",
+    "time": "05:59",
+    "updated": "2026-11-05 05:55",
+    "category": "Daily Briefing",
+    "labels": [
+      "데이터센터",
+      "클라우드",
+      "AI인프라",
+      "전력인프라",
+      "인프라동향"
+    ],
+    "summary": "2026년 11월 5일, 글로벌 IT 인프라 시장은 미국 중간선거 결과로 인한 전례 없는 정책적·지역적 인허가 규제 국면과 동남아시아 및 국내를 아우르는 대규모 설비투자 확장이 교차하는 중대한 분기점을 맞이하고 있습니다. 전력 수급과 냉각 기술, 인프라 금융 조달의 현실적인 과제들을 심층 점검합니다. 美 중간선거發 인허가 연쇄 모라토리엄: 민주당의 양원 장",
+    "char_count": 5415,
+    "read_time": 7,
+    "status": "published",
+    "content_file": "data/posts/2026-11-05-daily-infraops-briefing.md"
+  },
+  {
+    "id": "2026-11-05-deepdive-us-midterms-grid-defection-islanded-microgrid",
+    "title": "[테크 딥다이브] 美 중간선거 주민투표 연쇄 셧다운 쇼크: 공공 전력망 종속 탈피와 '완전 고립형 아일랜드 마이크로그리드' 전력 아키텍처",
+    "date": "2026-11-05",
+    "time": "05:58",
+    "updated": "2026-11-05 05:55",
+    "category": "Tech Deep Dive",
+    "labels": [
+      "테크딥다이브",
+      "전력인프라",
+      "아일랜드마이크로그리드",
+      "계통망병목",
+      "AWS",
+      "데이터센터"
+    ],
+    "summary": "Grid Infrastructure Disruption 2026년 미국 중간선거에서 전국 45개 주민투표 중 44개 지역이 데이터센터 신규 건설 금지안을 가결했습니다. 일반 가구로 전가되는 전력 요금 폭등과 계통망 포화에 직면한 하이퍼스케일러들은 이제 전통적인 공공 송전망 연계 모델을 영구히 폐기하고, 계통망을 물리적으로 단절한 독자적 온사이트 발전·저장",
+    "char_count": 7473,
+    "read_time": 10,
+    "status": "published",
+    "content_file": "data/posts/2026-11-05-deepdive-us-midterms-grid-defection-islanded-microgrid.md"
+  },
+  {
+    "id": "2026-11-05-10min-tech-podcast",
+    "title": "[2026.11.05] [10-Min English Podcast] Post-Election Permitting Moratoriums, On-Site Power Strategies, and Global Sovereign Cloud Pivots",
+    "date": "2026-11-05",
+    "time": "05:57",
+    "updated": "2026-11-05 05:55",
+    "category": "Podcast",
+    "labels": [
+      "EnglishPodcast",
+      "TechEnglish",
+      "비즈니스영어",
+      "AWS",
+      "AI인프라",
+      "데이터센터",
+      "액체냉각"
+    ],
+    "summary": "2026년 11월 5일 DC InfraOps 데일리 인뎁스 브리핑은 미국 중간선거 블루 웨이브와 주민투표 가결로 촉발된 데이터센터 인허가 모라토리엄 위기, 빅테크의 설비투자 부채 리스크와 람다·테라울프의 메가 펀딩, 10년 송전망 적체를 뚫기 위한 연료전지 및 퇴역 항공기 제트엔진 자가발전 도입, 800V 직류 배전과 메가와트급 액체냉각 상용화, 오라클-텐",
+    "char_count": 15210,
+    "read_time": 14,
+    "status": "published",
+    "content_file": "data/posts/2026-11-05-10min-tech-podcast.md"
+  },
+  {
+    "id": "2026-11-05-glossary-data-center-moratorium",
+    "title": "[인프라 용어사전] 데이터센터 모라토리엄 (Data Center Moratorium) - AI 전력·용수 쇼크와 주민 반발이 촉발한 인프라 신규 인허가 전면 동결",
+    "date": "2026-11-05",
+    "time": "05:56",
+    "updated": "2026-11-05 05:55",
+    "category": "Terminology",
+    "labels": [
+      "인프라용어사전",
+      "IT백과사전",
+      "데이터센터모라토리엄",
+      "AWS",
+      "데이터센터"
+    ],
+    "summary": "Infrastructure Operations & Policy Glossary 지방정부 및 규제 당국이 전력망 포화, 수자원 고갈, 주민 생활환경 침해를 사유로 신규 데이터센터의 건축 허가, 토지 용도 변경, 유틸리티 계통 인입 승인을 한시적 또는 무기한 동결하는 공적 규제 조치 직관적 비유: 도로가 꽉 막혀 교통 체증이 한계에 도달하자, 시청에서 신규 대",
+    "char_count": 3572,
+    "read_time": 5,
+    "status": "published",
+    "content_file": "data/posts/2026-11-05-glossary-data-center-moratorium.md"
+  },
+  {
+    "id": "2026-11-05-dc-infraops-trends-report",
+    "title": "DC InfraOps Trends - 2026년 11월 05일",
+    "date": "2026-11-05",
+    "time": "05:55",
+    "updated": "2026-11-05 05:55",
+    "category": "Newsletter",
+    "labels": [
+      "AWS",
+      "데이터센터",
+      "클라우드",
+      "AI인프라",
+      "DC-Trends",
+      "Daily-Newsletter",
+      "SMR",
+      "원전",
+      "엔비디아",
+      "액체냉각",
+      "전력망",
+      "마이크로소프트",
+      "구글",
+      "오라클",
+      "신재생에너지"
+    ],
+    "summary": "Datacenter & Cloud Industry InfraOps Daily (2-Column) 1. 美 중간선거 민주당 양원 장악과 텍사스·오하이오 등 거점 주민투표 가결發 인허가 연쇄 모라토리엄 쇼크 | 2026년 미국 중간선거에서 민주당이 상원과 하원 다수당 지위를 모두 탈환하는 블루 쓰나미가 현실화되면서 글로벌 빅테크의 AI 데이터센터 확... ͏",
+    "char_count": 35088,
+    "read_time": 32,
+    "status": "published",
+    "content_file": "data/posts/2026-11-05-dc-infraops-trends-report.md"
+  },
+  {
     "id": "2026-11-04-daily-infraops-briefing",
     "title": "[2026.11.04] 글로벌 인프라 브리핑: 엔비디아 글로벌 DC 탈중국 51% 룰 강제 & 영국 270억 달러 1GW 바이오매스 AIDC 추진",
     "date": "2026-11-04",

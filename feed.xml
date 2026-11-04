@@ -5,8 +5,48 @@
     <link>https://ywmoon.github.io</link>
     <description>글로벌 AI 데이터센터 전력망, 냉각, 클라우드 인프라 엔지니어링 데일리 트렌드</description>
     <language>ko</language>
-    <lastBuildDate>Wed, 04 Nov 2026 05:44:53 -0000</lastBuildDate>
+    <lastBuildDate>Thu, 05 Nov 2026 05:55:49 -0000</lastBuildDate>
     <atom:link href="https://ywmoon.github.io/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>[2026.11.05] 글로벌 인프라 브리핑: 美 중간선거發 데이터센터 모라토리엄 쇼크 &amp; 구글 동남아 20조원 투자 가속</title>
+      <link>https://ywmoon.github.io/article/2026-11-05-daily-infraops-briefing/</link>
+      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-11-05-daily-infraops-briefing/</guid>
+      <pubDate>Thu, 05 Nov 2026 05:59:00 +0900</pubDate>
+      <category>Daily Briefing</category>
+      <description>2026년 11월 5일, 글로벌 IT 인프라 시장은 미국 중간선거 결과로 인한 전례 없는 정책적·지역적 인허가 규제 국면과 동남아시아 및 국내를 아우르는 대규모 설비투자 확장이 교차하는 중대한 분기점을 맞이하고 있습니다. 전력 수급과 냉각 기술, 인프라 금융 조달의 현실적인 과제들을 심층 점검합니다. 美 중간선거發 인허가 연쇄 모라토리엄: 민주당의 양원 장</description>
+    </item>
+    <item>
+      <title>[테크 딥다이브] 美 중간선거 주민투표 연쇄 셧다운 쇼크: 공공 전력망 종속 탈피와 '완전 고립형 아일랜드 마이크로그리드' 전력 아키텍처</title>
+      <link>https://ywmoon.github.io/article/2026-11-05-deepdive-us-midterms-grid-defection-islanded-microgrid/</link>
+      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-11-05-deepdive-us-midterms-grid-defection-islanded-microgrid/</guid>
+      <pubDate>Thu, 05 Nov 2026 05:58:00 +0900</pubDate>
+      <category>Tech Deep Dive</category>
+      <description>Grid Infrastructure Disruption 2026년 미국 중간선거에서 전국 45개 주민투표 중 44개 지역이 데이터센터 신규 건설 금지안을 가결했습니다. 일반 가구로 전가되는 전력 요금 폭등과 계통망 포화에 직면한 하이퍼스케일러들은 이제 전통적인 공공 송전망 연계 모델을 영구히 폐기하고, 계통망을 물리적으로 단절한 독자적 온사이트 발전·저장</description>
+    </item>
+    <item>
+      <title>[2026.11.05] [10-Min English Podcast] Post-Election Permitting Moratoriums, On-Site Power Strategies, and Global Sovereign Cloud Pivots</title>
+      <link>https://ywmoon.github.io/article/2026-11-05-10min-tech-podcast/</link>
+      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-11-05-10min-tech-podcast/</guid>
+      <pubDate>Thu, 05 Nov 2026 05:57:00 +0900</pubDate>
+      <category>Podcast</category>
+      <description>2026년 11월 5일 DC InfraOps 데일리 인뎁스 브리핑은 미국 중간선거 블루 웨이브와 주민투표 가결로 촉발된 데이터센터 인허가 모라토리엄 위기, 빅테크의 설비투자 부채 리스크와 람다·테라울프의 메가 펀딩, 10년 송전망 적체를 뚫기 위한 연료전지 및 퇴역 항공기 제트엔진 자가발전 도입, 800V 직류 배전과 메가와트급 액체냉각 상용화, 오라클-텐</description>
+    </item>
+    <item>
+      <title>[인프라 용어사전] 데이터센터 모라토리엄 (Data Center Moratorium) - AI 전력·용수 쇼크와 주민 반발이 촉발한 인프라 신규 인허가 전면 동결</title>
+      <link>https://ywmoon.github.io/article/2026-11-05-glossary-data-center-moratorium/</link>
+      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-11-05-glossary-data-center-moratorium/</guid>
+      <pubDate>Thu, 05 Nov 2026 05:56:00 +0900</pubDate>
+      <category>Terminology</category>
+      <description>Infrastructure Operations &amp; Policy Glossary 지방정부 및 규제 당국이 전력망 포화, 수자원 고갈, 주민 생활환경 침해를 사유로 신규 데이터센터의 건축 허가, 토지 용도 변경, 유틸리티 계통 인입 승인을 한시적 또는 무기한 동결하는 공적 규제 조치 직관적 비유: 도로가 꽉 막혀 교통 체증이 한계에 도달하자, 시청에서 신규 대</description>
+    </item>
+    <item>
+      <title>DC InfraOps Trends - 2026년 11월 05일</title>
+      <link>https://ywmoon.github.io/article/2026-11-05-dc-infraops-trends-report/</link>
+      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-11-05-dc-infraops-trends-report/</guid>
+      <pubDate>Thu, 05 Nov 2026 05:55:00 +0900</pubDate>
+      <category>Newsletter</category>
+      <description>Datacenter &amp; Cloud Industry InfraOps Daily (2-Column) 1. 美 중간선거 민주당 양원 장악과 텍사스·오하이오 등 거점 주민투표 가결發 인허가 연쇄 모라토리엄 쇼크 | 2026년 미국 중간선거에서 민주당이 상원과 하원 다수당 지위를 모두 탈환하는 블루 쓰나미가 현실화되면서 글로벌 빅테크의 AI 데이터센터 확... ͏</description>
+    </item>
     <item>
       <title>[2026.11.04] 글로벌 인프라 브리핑: 엔비디아 글로벌 DC 탈중국 51% 룰 강제 &amp; 영국 270억 달러 1GW 바이오매스 AIDC 추진</title>
       <link>https://ywmoon.github.io/article/2026-11-04-daily-infraops-briefing/</link>
@@ -1166,46 +1206,6 @@
       <pubDate>Wed, 23 Sep 2026 05:58:00 +0900</pubDate>
       <category>Terminology</category>
       <description>L2L(Liquid-to-Liquid) 냉각은 고집적 IT 랙 내부의 발열체(GPU, CPU, 메모리)에서 열을 흡수한 2차 냉각 유체(IT 장비 측 루프)의 열에너지를, 냉각수 분배 장치(CDU, Coolant Distribution Unit) 내 판형 열교환기(Plate Heat Exchanger)를 통해 건물</description>
-    </item>
-    <item>
-      <title>DC InfraOps Trends - 2026년 09월 23일</title>
-      <link>https://ywmoon.github.io/article/2026-09-23-dc-infraops-trends-report/</link>
-      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-09-23-dc-infraops-trends-report/</guid>
-      <pubDate>Wed, 23 Sep 2026 05:57:00 +0900</pubDate>
-      <category>Newsletter</category>
-      <description>Datacenter &amp; Cloud Industry InfraOps Daily (2-Column) 1. LG-엔비디아·MS 전력·냉각 인프라 동맹 구축과 2.5MW 액체냉각 승인 인공지능 연산 가속에 따른 극한의 발열과 전력 스파이크가 데이터센터 확장의 핵심 병목으로 부상하자 글로벌 빅테크의 인프라 하드웨어 협력망 재편이 본격화됨. 엔비디아가 고전... ͏</description>
-    </item>
-    <item>
-      <title>[2026.09.22] 글로벌 인프라 브리핑: 송전 선로 손실 최소화 &amp; 국지적 계통 포화 회피</title>
-      <link>https://ywmoon.github.io/article/2026-09-22-daily-infraops-briefing/</link>
-      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-09-22-daily-infraops-briefing/</guid>
-      <pubDate>Tue, 22 Sep 2026 05:52:00 +0900</pubDate>
-      <category>Daily Briefing</category>
-      <description>Daily InfraOps Digest 글로벌 클라우드 &amp; 데이터센터 인프라 핵심 기술 동향 발행일: 2026년 9월 22일 | 대상: 인프라 아키텍트, 시스템 엔지니어, 기술 총괄 리더 📌 오늘의 3대 핵심 관전 포인트 (Key Highlights) 엔비디아 차세대 AI 칩 증산과 '전력 인입 병목'에 따른 43조 원 수주 사이클: 가속기 공급 물량이 2</description>
-    </item>
-    <item>
-      <title>[테크 딥다이브] 메가와트 랙 시대의 전력망 병목: 초고밀도 AI 데이터센터의 전력 배전 및 냉각 아키텍처 재설계</title>
-      <link>https://ywmoon.github.io/article/2026-09-22-august-megafarm-deepdive/</link>
-      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-09-22-august-megafarm-deepdive/</guid>
-      <pubDate>Tue, 22 Sep 2026 05:51:00 +0900</pubDate>
-      <category>Tech Deep Dive</category>
-      <description>컴퓨팅 연산 밀도 폭증과 전력망 수전 한계가 촉발한 인프라 병목 현상 엔비디아의 차세대 AI 가속기 출하량이 전년 대비 2배 이상 증가할 것이라는 공급망 관측과 함께 인공지능 인프라는 완전히 새로운 물리적 국면에 진입했습니다. 연산 성능을 나타내는 TFLOPS의 확장은 필연적으로 칩셋의 열설계전력(TDP)과 랙(</description>
-    </item>
-    <item>
-      <title>[2026.09.22] [10-Min English Podcast] Grid Moratoriums, Prefabricated Fast-Tracking, and the High-Voltage Direct-Current Frontier</title>
-      <link>https://ywmoon.github.io/article/2026-09-22-10min-tech-podcast/</link>
-      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-09-22-10min-tech-podcast/</guid>
-      <pubDate>Tue, 22 Sep 2026 05:50:00 +0900</pubDate>
-      <category>Podcast</category>
-      <description>오늘의 10분 심층 팟캐스트는 텍사스의 신규 데이터센터 인허가 전면 중단 조치와 캘리포니아의 7대 규제 법안 서명, 미국 전역에서 680억 달러 규모의 프로젝트가 좌초된 배경과 S&amp;P 글로벌의 한국 기업 1,200조 원 투자에 따른 신용등급 강등 경고를 집중 분석합니다. 이어 현대건설의 포항 40MW AI 데이터센터 16.5개월 초단기 착공과 PC(Prec</description>
-    </item>
-    <item>
-      <title>[인프라 용어사전] 그리드 코드 (Grid Code) - AI 데이터센터의 전력망 접속을 결정짓는 계통 연계 기술 기준</title>
-      <link>https://ywmoon.github.io/article/2026-09-22-infra-glossary/</link>
-      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-09-22-infra-glossary/</guid>
-      <pubDate>Tue, 22 Sep 2026 05:49:00 +0900</pubDate>
-      <category>Terminology</category>
-      <description>전력 인프라 &amp; 계통 엔지니어링 그리드 코드 (Grid Code) 초대형 AI 데이터센터가 공공 전력망에 안전하게 접속하기 위해 충족해야 하는 전력 품질, 주파수 추종 및 전압 안정성 기술 기준 📌 1. 30초 핵심 요약 &amp; 개념 정의 💡 직관적 비유로 이해하기 수백 량의 고속 화물 열차가 단일 국가 철도망에 진입할 때, 제동 장치와 속도 유지 규정을 지키</description>
     </item>
   </channel>
 </rss>
