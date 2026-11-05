@@ -5,8 +5,48 @@
     <link>https://ywmoon.github.io</link>
     <description>글로벌 AI 데이터센터 전력망, 냉각, 클라우드 인프라 엔지니어링 데일리 트렌드</description>
     <language>ko</language>
-    <lastBuildDate>Thu, 05 Nov 2026 05:55:49 -0000</lastBuildDate>
+    <lastBuildDate>Fri, 06 Nov 2026 06:33:54 -0000</lastBuildDate>
     <atom:link href="https://ywmoon.github.io/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>[2026.11.06] 글로벌 인프라 브리핑: 美 중간선거發 지자체 규제 쓰나미 &amp; 마이크로소프트의 네오클라우드 통제권 회수</title>
+      <link>https://ywmoon.github.io/article/2026-11-06-daily-infraops-briefing/</link>
+      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-11-06-daily-infraops-briefing/</guid>
+      <pubDate>Fri, 06 Nov 2026 06:37:00 +0900</pubDate>
+      <category>Daily Briefing</category>
+      <description>美 중간선거발 인허가 규제 확산 : 36개 주 주지사 당선·우세 후보 중 34명(94%)이 데이터센터 규제를 공식 지지하고, 텍사스·오하이오 등 12개 주에서 신규 건설 잠정 중단(모라토리엄)을 요구하면서 대규모 하이퍼스케일 파이프라인의 50% 이상이 인허가 마찰에 직면했습니다. 빅테크의 생존 전략과 지역 상생 선언 : 오픈AI는 명칭을 'AI 컴퓨트 캠퍼</description>
+    </item>
+    <item>
+      <title>[테크 딥다이브] 정적 경고에서 토폴로지 인지형 자율 교정으로: AWS 컨티뉴엄과 클라우드 보안 복원력 아키텍처의 전환</title>
+      <link>https://ywmoon.github.io/article/2026-11-06-deepdive-aws-continuum-context-graph-remediation/</link>
+      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-11-06-deepdive-aws-continuum-context-graph-remediation/</guid>
+      <pubDate>Fri, 06 Nov 2026 06:36:00 +0900</pubDate>
+      <category>Tech Deep Dive</category>
+      <description>Cloud Security &amp; Resilience Architecture AI 생성 코드의 폭증과 공격 코드의 즉시 무기화 환경에서 정적 취약점 스캐닝의 구조적 한계를 짚고, 클라우드 런타임 토폴로지와 컨텍스트 그래프를 결합한 능동적 자율 교정(Autonomous Remediation) 엔지니어링 패러다임을 심층 분석합니다. 생성형 AI 모델의 보편화로 소</description>
+    </item>
+    <item>
+      <title>[2026.11.06] [10-Min English Podcast] US Midterm Moratorium Shock, Neocloud Lease Retrenchment, and Next-Gen DC Power Paradigms</title>
+      <link>https://ywmoon.github.io/article/2026-11-06-10min-tech-podcast/</link>
+      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-11-06-10min-tech-podcast/</guid>
+      <pubDate>Fri, 06 Nov 2026 06:35:00 +0900</pubDate>
+      <category>Podcast</category>
+      <description>오늘의 10분 심층 팟캐스트는 미국 중간선거 이후 34개 주 당선자들의 데이터센터 규제 지지와 지자체 모라토리엄 확산에 따른 빅테크의 입지 다변화, 마이크로소프트의 엔스케일 1.2GW 증설 옵션 포기 및 아이렌 납기 지연으로 촉발된 네오클라우드 외주 통제 강화, 구글의 와이오밍 170억 달러 탄소포집 인프라 단행 및 런던 백업 발전기 PLC 설정 오류 사태</description>
+    </item>
+    <item>
+      <title>[인프라 용어사전] 부유식 데이터센터 (Floating Data Center, FDC) - 육상 규제와 전력난을 돌파하는 해양 플랜트 컴퓨팅 인프라</title>
+      <link>https://ywmoon.github.io/article/2026-11-06-glossary-floating-data-center/</link>
+      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-11-06-glossary-floating-data-center/</guid>
+      <pubDate>Fri, 06 Nov 2026 06:34:00 +0900</pubDate>
+      <category>Terminology</category>
+      <description>직관적 비유: 육상에 거대한 빌딩을 짓고 막대한 전력과 물을 끌어오는 대신, 바다 위에 떠 있는 초대형 바지선이나 해상 플랜트 구조물에 서버실을 구축하고 차가운 바닷물로 발열을 식히는 ‘해상 모듈형 하드웨어 컴퓨팅 기지’ 입니다. 공학적 정의: 부유식 데이터센터(Floating Data Center, FDC) 는 선박형 바지선(Barge) 또는 반잠수식(S</description>
+    </item>
+    <item>
+      <title>DC InfraOps Trends - 2026년 11월 06일</title>
+      <link>https://ywmoon.github.io/article/2026-11-06-dc-infraops-trends-report/</link>
+      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-11-06-dc-infraops-trends-report/</guid>
+      <pubDate>Fri, 06 Nov 2026 06:33:00 +0900</pubDate>
+      <category>Newsletter</category>
+      <description>Datacenter &amp; Cloud Industry InfraOps Daily (2-Column) 1. 美 중간선거發 지자체 모라토리엄 확산과 오픈AI의 전력비 전액 부담·무NDA 선언 및 빅테크 해외 우회 검토 | 미국 중간선거 직후 주지사 당선 및 우세를 확정한 후보 36명 중 무려 34명이 데이터센터 규제를 공식 지지하는 것으로 집계되었으며 ... ͏</description>
+    </item>
     <item>
       <title>[2026.11.05] 글로벌 인프라 브리핑: 美 중간선거發 데이터센터 모라토리엄 쇼크 &amp; 구글 동남아 20조원 투자 가속</title>
       <link>https://ywmoon.github.io/article/2026-11-05-daily-infraops-briefing/</link>
@@ -1166,46 +1206,6 @@
       <pubDate>Thu, 24 Sep 2026 09:39:00 +0900</pubDate>
       <category>Podcast</category>
       <description>오늘의 10분 심층 팟캐스트는 AI 전력 및 발열 한계 돌파를 위한 차세대 하드웨어/에너지 아키텍처 및 전 세계적 인허가 규제 이슈를 다룹니다. 1. 슈퍼마이크로의 1,152개 AI 가속기 탑재 엔비디아 베라 루빈 NVL72 액체냉각(DLC) 랙 출하 및 슈나이더 일렉트릭의 혼합형 CDU 출시, LG전자-SK엔무브의 액침냉각·저탄소 냉매 공동 개발 동맹.</description>
-    </item>
-    <item>
-      <title>DC InfraOps Trends - 2026년 09월 24일</title>
-      <link>https://ywmoon.github.io/article/2026-09-24-dc-infraops-trends-report/</link>
-      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-09-24-dc-infraops-trends-report/</guid>
-      <pubDate>Thu, 24 Sep 2026 09:37:00 +0900</pubDate>
-      <category>Newsletter</category>
-      <description>Datacenter &amp; Cloud Industry InfraOps Daily (2-Column) 1. 슈퍼마이크로 베라 루빈 랙 출하와 LG전자-SK엔무브 액침냉각 동맹 인공지능 연산 집적도가 한계치에 다다르며 랙당 전력 소모와 극한의 발열을 제어하기 위한 하드웨어 아키텍처 혁신이 가속화됨. 글로벌 서버 제조사 슈퍼마이크로는 1,152개의 최신 ... ͏</description>
-    </item>
-    <item>
-      <title>[2026.09.23] 글로벌 인프라 브리핑: 전력·냉각 물리적 한계 돌파를 위한 하이퍼스케일 파트너십 &amp; 환경 규제 강화와 무탄소 기저부하 확보의 양면 전략</title>
-      <link>https://ywmoon.github.io/article/2026-09-23-daily-infraops-briefing/</link>
-      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-09-23-daily-infraops-briefing/</guid>
-      <pubDate>Wed, 23 Sep 2026 06:01:00 +0900</pubDate>
-      <category>Daily Briefing</category>
-      <description>글로벌 클라우드 &amp; 데이터센터 인프라 일일 브리핑 인프라 엔지니어링, 클라우드 아키텍처, 에너지 계통 및 데이터 주권 관련 주요 기술 이슈와 정책 변화를 심층 분석합니다. 📌 오늘의 3대 핵심 관전 포인트 (Key Highlights) 전력·냉각 물리적 한계 돌파를 위한 하이퍼스케일 파트너십: LG그룹이 마이크로소프트와 차세대 데이터센터 인프라 공급 협약을</description>
-    </item>
-    <item>
-      <title>[테크 딥다이브] 랙당 100kW 시대의 필연: 엔비디아 NVL72 규격과 2.5MW 대용량 CDU 기반 D2C 액체냉각 아키텍처 분석</title>
-      <link>https://ywmoon.github.io/article/2026-09-23-august-megafarm-deepdive/</link>
-      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-09-23-august-megafarm-deepdive/</guid>
-      <pubDate>Wed, 23 Sep 2026 06:00:00 +0900</pubDate>
-      <category>Tech Deep Dive</category>
-      <description>생성형 AI 모델의 매개변수가 조 단위를 넘어서고 학습·추론 클러스터가 초고집적화되면서, 데이터센터 인프라는 전례 없는 열역학적 한계선에 직면했습니다. 엔비디아 블랙웰(Blackwell) 아키텍처 기반 GB200 NVL72 랙이 120kW~132kW에 달하는 극단적인 전력 밀도를 요구함에 따라, 지난 수십 년간 엔터프라이즈 전산실을 지탱해 온 공랭식(Air</description>
-    </item>
-    <item>
-      <title>[2026.09.23] [10-Min English Podcast] The Megawatt Shift: Liquid Cooling Alliances, Nuclear Uprates, and the 20GW Infrastructure Frontier</title>
-      <link>https://ywmoon.github.io/article/2026-09-23-10min-tech-podcast/</link>
-      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-09-23-10min-tech-podcast/</guid>
-      <pubDate>Wed, 23 Sep 2026 05:59:00 +0900</pubDate>
-      <category>Podcast</category>
-      <description>오늘의 10분 심층 팟캐스트는 AI 팩토리 전력·발열 한계 극복을 위한 글로벌 인프라 하드웨어 및 에너지 생태계 재편을 집중 분석합니다. LG전자의 2.5MW 대용량 액체냉각 CDU 엔비디아 규격 승인 및 마이크로소프트와의 레드먼드 인프라 동맹, 구글의 조지아 파워 원전 96MW 터빈 출력 증강(Uprate) 직접 투자와 삼성물산·HD현대중공업의 글로벌 S</description>
-    </item>
-    <item>
-      <title>[인프라 용어사전] L2L 냉각 (Liquid-to-Liquid Cooling) - 메가와트급 AI 데이터센터를 지탱하는 액체 대 액체 열교환 아키텍처</title>
-      <link>https://ywmoon.github.io/article/2026-09-23-infra-glossary/</link>
-      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-09-23-infra-glossary/</guid>
-      <pubDate>Wed, 23 Sep 2026 05:58:00 +0900</pubDate>
-      <category>Terminology</category>
-      <description>L2L(Liquid-to-Liquid) 냉각은 고집적 IT 랙 내부의 발열체(GPU, CPU, 메모리)에서 열을 흡수한 2차 냉각 유체(IT 장비 측 루프)의 열에너지를, 냉각수 분배 장치(CDU, Coolant Distribution Unit) 내 판형 열교환기(Plate Heat Exchanger)를 통해 건물</description>
     </item>
   </channel>
 </rss>
