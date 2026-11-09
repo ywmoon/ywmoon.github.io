@@ -5,8 +5,48 @@
     <link>https://ywmoon.github.io</link>
     <description>글로벌 AI 데이터센터 전력망, 냉각, 클라우드 인프라 엔지니어링 데일리 트렌드</description>
     <language>ko</language>
-    <lastBuildDate>Mon, 09 Nov 2026 05:44:04 -0000</lastBuildDate>
+    <lastBuildDate>Tue, 10 Nov 2026 05:42:51 -0000</lastBuildDate>
     <atom:link href="https://ywmoon.github.io/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>[2026.11.10] 글로벌 인프라 브리핑: 앤트로픽·스페이스X의 자가발전 설비 내재화 &amp; SKT 엔비디아·리벨리온 이기종 AIDC 통합</title>
+      <link>https://ywmoon.github.io/article/2026-11-10-daily-infraops-briefing/</link>
+      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-11-10-daily-infraops-briefing/</guid>
+      <pubDate>Tue, 10 Nov 2026 05:46:00 +0900</pubDate>
+      <category>Daily Briefing</category>
+      <description>발전 설비 공급망의 직접 통제와 자가발전 내재화: 송배전망 연결 대기열이 수년 단위로 장기화되면서, 앤트로픽이 캐터필러 1.7GW 천연가스 발전기 선주문 물량(34억 달러)을 직접 인수하고 스페이스X가 텍사스에 240억 달러 규모의 가스 발전·데이터센터 복합 단지를 추진하는 등 AI 기업들이 발전 설비 확보전에 직접 뛰어들고 있습니다. 하이퍼스케일러 Cap</description>
+    </item>
+    <item>
+      <title>[테크 딥다이브] 엔비디아 NV링크 퓨전과 GPU·NPU 이기종 통합: 프리필·디코드 분리형 추론 아키텍처의 공학적 해부</title>
+      <link>https://ywmoon.github.io/article/2026-11-10-deepdive-nvlink-fusion-heterogeneous-npu/</link>
+      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-11-10-deepdive-nvlink-fusion-heterogeneous-npu/</guid>
+      <pubDate>Tue, 10 Nov 2026 05:45:00 +0900</pubDate>
+      <category>Tech Deep Dive</category>
+      <description>AI SEMICONDUCTOR &amp; COMPUTING ARCHITECTURE 단일 GPU 일변도의 거대언어모델 추론 구조가 직면한 메모리 대역폭 병목과 전력 비용 한계를 돌파하기 위해, 다이 및 랙 수준 인터커넥트인 NV링크 퓨전(NVLink Fusion)을 매개로 범용 GPU와 고효율 NPU를 물리적으로 결합하는 이기종 분리형 추론(Disaggregated</description>
+    </item>
+    <item>
+      <title>[2026.11.10] [10-Min English Podcast] SpaceX $24B Gas Complex, Anthropic's 1.7GW Generator Takeover, Riot's $54B Lease, and 800V DC Grid Evolution</title>
+      <link>https://ywmoon.github.io/article/2026-11-10-10min-tech-podcast/</link>
+      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-11-10-10min-tech-podcast/</guid>
+      <pubDate>Tue, 10 Nov 2026 05:44:00 +0900</pubDate>
+      <category>Podcast</category>
+      <description>오늘의 10분 심층 팟캐스트는 스페이스X의 240억 달러 텍사스 가스발전·데이터센터 복합단지 추진과 앤트로픽의 34억 달러(1.7GW) 캐터필러 발전기 선주문 인수 내막, 라이엇 플랫폼즈의 910MW·최대 540억 달러 트리플넷 임대 계약 및 마이크로소프트의 250억 달러 회사채 발행, 노르웨이의 2027년 8월까지 신규 전력망 연결 전면 중단과 태국 49</description>
+    </item>
+    <item>
+      <title>[인프라 용어사전] 이종 가속기 오케스트레이션 (Heterogeneous Accelerator Orchestration) - GPU와 NPU를 단일 클러스터로 통합 제어하는 클라우드 스케줄링 기술</title>
+      <link>https://ywmoon.github.io/article/2026-11-10-glossary-heterogeneous-accelerator-orchestration/</link>
+      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-11-10-glossary-heterogeneous-accelerator-orchestration/</guid>
+      <pubDate>Tue, 10 Nov 2026 05:43:00 +0900</pubDate>
+      <category>Terminology</category>
+      <description>이종 가속기 오케스트레이션(Heterogeneous Accelerator Orchestration) 은 단일 인공지능 데이터센터(AIDC)나 클라우드 클러스터 내부에 혼재된 서로 다른 아키텍처의 연산 가속기(범용 GPU, 추론 특화 NPU, 맞춤형 ASIC 등)를 하나의 통합된 자원 풀(Resource Pool)로 추상화하고, 워크로드의 연산 특성에 맞춰</description>
+    </item>
+    <item>
+      <title>DC InfraOps Trends - 2026년 11월 10일</title>
+      <link>https://ywmoon.github.io/article/2026-11-10-dc-infraops-trends-report/</link>
+      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-11-10-dc-infraops-trends-report/</guid>
+      <pubDate>Tue, 10 Nov 2026 05:42:00 +0900</pubDate>
+      <category>Newsletter</category>
+      <description>Datacenter &amp; Cloud Industry InfraOps Daily (2-Column) 1. 스페이스X의 텍사스 240억 달러 발전·AIDC 건립 추진과 앤트로픽의 캐터필러 선주문 인수 내막 및 중고 터빈 확보전 | 송배전망 인입 대기열이 수년 단위로 고착화되면서 글로벌 AI 선도 기업들이 발전 설비와 연료 공급망을 통째로 내재화하는 극... ͏</description>
+    </item>
     <item>
       <title>[2026.11.09] 글로벌 인프라 브리핑: 유럽 16개국 연대 반대 시위와 美 텍사스 규제 쇼크 &amp; 앤트로픽 34억 달러 발전원 확보</title>
       <link>https://ywmoon.github.io/article/2026-11-09-daily-infraops-briefing/</link>
@@ -1166,46 +1206,6 @@
       <pubDate>Mon, 28 Sep 2026 06:03:00 +0900</pubDate>
       <category>Daily Briefing</category>
       <description>Daily InfraOps Digest 글로벌 AI 데이터센터 인프라 동향: 메가와트급 열관리 표준화와 전력 기자재 공급망 선점 경쟁 발행일: 2026년 9월 28일 | 테크 에디터 인프라 분석팀 📌 오늘의 3대 핵심 관전 포인트 (Key Highlights) 액체냉각 생태계 표준화 진입: LG전자가 엔비디아 파트너 네트워크(NPN)의 Preferred 파</description>
-    </item>
-    <item>
-      <title>[테크 딥다이브] 100kW 랙 밀도의 열역학적 한계와 액체냉각 표준화: 엔비디아 '칩 투 칠러' 생태계와 차세대 데이터센터 아키텍처</title>
-      <link>https://ywmoon.github.io/article/2026-09-28-august-megafarm-deepdive/</link>
-      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-09-28-august-megafarm-deepdive/</guid>
-      <pubDate>Mon, 28 Sep 2026 06:02:00 +0900</pubDate>
-      <category>Tech Deep Dive</category>
-      <description>핵심 요약: 인공지능(AI) 가속기 클러스터의 전력 밀도가 랙당 100kW를 초과하면서 수십 년간 데이터센터를 지탱해 온 공랭식 냉각 체계가 물리적 한계에 봉착했습니다. 엔비디아가 하드웨어 파트너십을 통해 냉각수 분배 장치(CDU)와 칠러를 아우르는 규격을 정립하고, LG전자가 'DSX 레디' 인증을 획득하며 엔터프라이즈 냉각 공급망에 진입한 것은 단순한</description>
-    </item>
-    <item>
-      <title>[2026.09.28] [10-Min English Podcast] Physical Warfare Hardening, Amazon's $8B Generator Warrants, and Mega-Watt Liquid Cooling</title>
-      <link>https://ywmoon.github.io/article/2026-09-28-10min-tech-podcast/</link>
-      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-09-28-10min-tech-podcast/</guid>
-      <pubDate>Mon, 28 Sep 2026 06:01:00 +0900</pubDate>
-      <category>Podcast</category>
-      <description>오늘의 10분 심층 팟캐스트는 현대 하이브리드전에서 군사 표적으로 부상한 우크라이나 데이터센터 피격 사태와 대드론 다층 방어 체계 구축, 공공 전력망 병목에 대응한 아마존과 제너랙의 80억 달러 백업 발전기 공급 및 주식 워런트 계약, 미 에너지부의 대규모 송전망 확충 투자, 엔비디아 NPN 프리퍼드 파트너로 등재된 LG전자의 2.5MW급 '칩 투 칠러'</description>
-    </item>
-    <item>
-      <title>[인프라 용어사전] 칠러 (Chiller) - AI 고밀도 데이터센터의 열을 외부로 방출하는 중앙 냉각 플랜트의 심장</title>
-      <link>https://ywmoon.github.io/article/2026-09-28-infra-glossary/</link>
-      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-09-28-infra-glossary/</guid>
-      <pubDate>Mon, 28 Sep 2026 06:00:00 +0900</pubDate>
-      <category>Terminology</category>
-      <description>냉각 인프라 아키텍처 칠러 (Chiller) : 중앙 냉동 설비 초고집적 AI 랙에서 발생한 대규모 열에너지를 냉매 사이클을 통해 외부로 방출하고, 정밀하게 제어된 저온 냉수를 공급하는 중앙 냉각 플랜트의 핵심 장비 📌 1. 30초 핵심 요약 &amp; 개념 정의 데이터센터 칠러(Chiller, 냉동기)는 상변화(Phase Change) 냉매 사이클을 활용하여 열</description>
-    </item>
-    <item>
-      <title>DC InfraOps Trends - 2026년 09월 28일</title>
-      <link>https://ywmoon.github.io/article/2026-09-28-dc-infraops-trends-report/</link>
-      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-09-28-dc-infraops-trends-report/</guid>
-      <pubDate>Mon, 28 Sep 2026 05:59:00 +0900</pubDate>
-      <category>Newsletter</category>
-      <description>Datacenter &amp; Cloud Industry InfraOps Daily (2-Column) 1. 러시아의 우크라이나 데이터센터 군사 타격과 물리적 인프라 안보화 현대 하이브리드전에서 데이터센터가 군사적 표적으로 급부상하며 물리적 인프라 방호가 국가 안보의 선결 과제로 직결됨. 러시아군이 우크라이나 기간 통신망을 겨냥해 미사일·드론 공습을 단... ͏</description>
-    </item>
-    <item>
-      <title>[2026.09.26] 글로벌 인프라 브리핑: 초대규모 AI 클러스터 확장 가속 &amp; 메가와트(MW)급 열관리 공급망 재편</title>
-      <link>https://ywmoon.github.io/article/2026-09-26-daily-infraops-briefing/</link>
-      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-09-26-daily-infraops-briefing/</guid>
-      <pubDate>Sat, 26 Sep 2026 00:14:00 +0900</pubDate>
-      <category>Daily Briefing</category>
-      <description>📌 오늘의 3대 핵심 관전 포인트 (Key Highlights) 초대규모 AI 클러스터 확장 가속: AWS가 엔비디아와 협력하여 200만 개 규모의 추가 GPU 인프라 증설에 돌입했으며, 마이크로소프트는 지정학적 긴장 속에서도 중동 지역에 약 13조 원을 투입하고 인도 텔랑가나의 5GW 데이터센터 전력망 로드맵과 연계해 하이데라바드 클라우드 리전을 공식 가</description>
     </item>
   </channel>
 </rss>
