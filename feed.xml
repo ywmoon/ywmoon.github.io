@@ -5,8 +5,48 @@
     <link>https://ywmoon.github.io</link>
     <description>글로벌 AI 데이터센터 전력망, 냉각, 클라우드 인프라 엔지니어링 데일리 트렌드</description>
     <language>ko</language>
-    <lastBuildDate>Wed, 11 Nov 2026 05:43:29 -0000</lastBuildDate>
+    <lastBuildDate>Thu, 12 Nov 2026 05:42:05 -0000</lastBuildDate>
     <atom:link href="https://ywmoon.github.io/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>[2026.11.12] 글로벌 인프라 브리핑: 메타 194조 설비투자 수장 교체·AWS 연산 확장과 GS·포스코 2.4GW 데이터센터 동맹</title>
+      <link>https://ywmoon.github.io/article/2026-11-12-daily-infraops-briefing/</link>
+      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-11-12-daily-infraops-briefing/</guid>
+      <pubDate>Thu, 12 Nov 2026 05:46:00 +0900</pubDate>
+      <category>Daily Briefing</category>
+      <description>빅테크 인프라 리더십 교체와 자본 효율성 압박: 메타가 연간 최대 1,450억 달러(약 194조 원) 규모의 자본지출(CapEx)과 21억 2,000만 달러의 잉여현금흐름 적자 속에서 17년 재직한 산토시 자나르단 인프라 총괄의 사임을 발표하고, AWS에서 20년간 연산·기계학습을 이끈 데이브 브라운 부사장을 후임으로 선임했습니다. 클라우드 연산 공급 부족</description>
+    </item>
+    <item>
+      <title>[테크 딥다이브] 에이전틱 코딩 시대의 클라우드 컨트롤 플레인 병목과 Rust 기반 로컬 에뮬레이션·FinOps 아키텍처</title>
+      <link>https://ywmoon.github.io/article/2026-11-12-deepdive-aws-rust-local-emulator-cloud-finops/</link>
+      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-11-12-deepdive-aws-rust-local-emulator-cloud-finops/</guid>
+      <pubDate>Thu, 12 Nov 2026 05:45:00 +0900</pubDate>
+      <category>Tech Deep Dive</category>
+      <description>핵심 요약 (Executive Summary) 글로벌 하이퍼스케일러의 연간 설비투자(CapEx)가 단일 기업 기준 1,450억 달러에 도달하고 잉여현금흐름(FCF) 적자 우려가 가시화되면서, 클라우드 엔지니어링의 핵심 화두가 단순 용량 증설에서 연산·검증 파이프라인의 단위 경제성(Unit Economics) 극대화로 이동하고 있다. 아마존웹서비스(AWS)가</description>
+    </item>
+    <item>
+      <title>[2026.11.12] [10-Min English Podcast] Meta's $145B Build-Out Shift, Hitachi's 1.4T Yen Grid Push, US Municipal Freezes, and 60MW Thermal Engineering</title>
+      <link>https://ywmoon.github.io/article/2026-11-12-10min-tech-podcast/</link>
+      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-11-12-10min-tech-podcast/</guid>
+      <pubDate>Thu, 12 Nov 2026 05:44:00 +0900</pubDate>
+      <category>Podcast</category>
+      <description>오늘의 10분 심층 팟캐스트는 메타의 1,450억 달러 인프라 수장 교체와 AWS의 칠레 40억 달러 리전 개소 및 앤트로픽의 43억 달러 MS 연산 계약, 히타치에너지의 1.4조 엔 전력설비 증설과 온타리오 SMR 지연 및 두산에너빌리티의 엑스에너지 기자재 수주 가시화, 미국 포트워스·보이시 데이터센터 모라토리엄 확산에 따른 델 주가 급락, 포스코와 GS</description>
+    </item>
+    <item>
+      <title>[인프라 용어사전] 로컬 클라우드 에뮬레이터 (Local Cloud Emulator) - 클라우드 비용과 보안 사고를 동시에 줄이는 오프라인 인프라 검증 기술</title>
+      <link>https://ywmoon.github.io/article/2026-11-12-glossary-local-cloud-emulator/</link>
+      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-11-12-glossary-local-cloud-emulator/</guid>
+      <pubDate>Thu, 12 Nov 2026 05:43:00 +0900</pubDate>
+      <category>Terminology</category>
+      <description>Daily Tech Glossary · 인프라운영 실제 퍼블릭 클라우드에 리소스를 배포하거나 과금을 발생시키지 않고, 개발자의 로컬 워크스테이션 및 CI/CD 파이프라인 내부에서 클라우드 API 엔드포인트와 컨트롤 플레인 동작을 동일하게 모사하는 인프라 검증 환경 항공기 조종사가 실제 여객기를 띄우기 전, 지상의 비행 시뮬레이터에서 기체 조작과 비상 상황을</description>
+    </item>
+    <item>
+      <title>DC InfraOps Trends - 2026년 11월 12일</title>
+      <link>https://ywmoon.github.io/article/2026-11-12-dc-infraops-trends-report/</link>
+      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-11-12-dc-infraops-trends-report/</guid>
+      <pubDate>Thu, 12 Nov 2026 05:42:00 +0900</pubDate>
+      <category>Newsletter</category>
+      <description>Datacenter &amp; Cloud Industry InfraOps Daily (2-Column) 1. 메타 인프라 총괄 교체·앤트로픽 MS 43억 달러 계약과 AWS 칠레 40억 달러 투자 및 빅테크 CapEx·실적 명암 | 천문학적인 AI 설비투자(CapEx)에 대한 자본시장의 수익성 압박이 거세지는 가운데 글로벌 빅테크의 인프라 수장 교체와 ... ͏</description>
+    </item>
     <item>
       <title>[2026.11.11] 글로벌 인프라 브리핑: 소프트뱅크 美 데이터센터 70억 달러 손실·해외 선회 &amp; 전력망 비용 전가 입법 공방</title>
       <link>https://ywmoon.github.io/article/2026-11-11-daily-infraops-briefing/</link>
@@ -1166,46 +1206,6 @@
       <pubDate>Wed, 30 Sep 2026 05:58:00 +0900</pubDate>
       <category>Daily Briefing</category>
       <description>📌 오늘의 3대 핵심 관전 포인트 (Key Highlights) 국방·안보 클라우드의 공통 표준화 (AWS, NATO 전 회원국 ‘제한 등급’ 최초 승인): 퍼블릭 클라우드 기업 최초로 북대서양조약기구(NATO) 전 회원국에서 'NATO 제한(NR)' 등급 기밀 데이터를 처리할 수 있는 D32 규격 승인을 획득했습니다. 나토 32개국 전역의 15개 리전(유</description>
-    </item>
-    <item>
-      <title>[테크 딥다이브] 에어갭 폐쇄망의 종언: AWS의 NATO 기밀 승인과 소버린 기밀 컴퓨팅(TSE) 아키텍처 분석</title>
-      <link>https://ywmoon.github.io/article/2026-09-30-august-megafarm-deepdive/</link>
-      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-09-30-august-megafarm-deepdive/</guid>
-      <pubDate>Wed, 30 Sep 2026 05:57:00 +0900</pubDate>
-      <category>Tech Deep Dive</category>
-      <description>글로벌 국방 및 국가 안보 환경에서 퍼블릭 클라우드는 오랫동안 도입 배제의 대상이었습니다. 멀티테넌트(Multi-tenant) 가상화 구조에서 발생할 수 있는 잠재적 사이드채널 공격, 물리적 데이터 저장 위치의 모호성, 그리고 외교적 관할권 충돌 문제는 민감 데이터를 다루는 군사 조직이 상용 인프라를 기피하게 만든 핵심 요인이었습니다. 그러나 최근 북대서양</description>
-    </item>
-    <item>
-      <title>[2026.09.30] [10-Min English Podcast] Full-Stack Turnkey Alliances, Sovereign Defense Cloud, Nuclear SMR Licensing, and 800V DC Infrastructure</title>
-      <link>https://ywmoon.github.io/article/2026-09-30-10min-tech-podcast/</link>
-      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-09-30-10min-tech-podcast/</guid>
-      <pubDate>Wed, 30 Sep 2026 05:56:00 +0900</pubDate>
-      <category>Podcast</category>
-      <description>오늘의 10분 심층 팟캐스트는 글로벌 AI 인프라 생태계를 재편하는 4대 핵심 축을 집중 분석합니다. 첫째, 삼성 6개 계열사가 KKR 및 엔비디아와 손잡고 전 AWS CEO가 이끄는 차세대 인프라 기업 헬릭스(Helix)에 10억 달러를 전격 투자하며 부지 개발부터 시공, 냉각, 전력망을 아우르는 '풀스택 턴키 연합체'를 구축한 전략적 의미를 살펴봅니다.</description>
-    </item>
-    <item>
-      <title>[인프라 용어사전] 기밀 컴퓨팅 (Confidential Computing) - 데이터 사용 중(In-Use) 메모리 암호화와 하드웨어 기반 제로 트러스트</title>
-      <link>https://ywmoon.github.io/article/2026-09-30-infra-glossary/</link>
-      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-09-30-infra-glossary/</guid>
-      <pubDate>Wed, 30 Sep 2026 05:55:00 +0900</pubDate>
-      <category>Terminology</category>
-      <description>직관적 비유: 호텔 객실에 개인 금고를 설치해 문서를 보관(저장 데이터 암호화)하고, 복도에 경호원을 배치해 운반(전송 데이터 암호화)하더라도, 투숙객이 책상 위에 문서를 펼쳐놓고 읽는 순간(처리 중 데이터)에는 몰래카메라나 마스터키를 쥔 호텔 관리자의 시선에 무방비로 노출될 수 있습니다. 기밀 컴퓨팅(Confide</description>
-    </item>
-    <item>
-      <title>DC InfraOps Trends - 2026년 09월 30일</title>
-      <link>https://ywmoon.github.io/article/2026-09-30-dc-infraops-trends-report/</link>
-      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-09-30-dc-infraops-trends-report/</guid>
-      <pubDate>Wed, 30 Sep 2026 05:54:00 +0900</pubDate>
-      <category>Newsletter</category>
-      <description>Datacenter &amp; Cloud Industry InfraOps Daily (2-Column) 1. 삼성 6개사의 美 헬릭스 10억 달러 투자와 풀스택 인프라 동맹 구축 글로벌 AI 데이터센터 건설 수요가 급증하는 가운데 삼성전자와 삼성물산 등 삼성 6개 계열사가 미국 차세대 AI 인프라 기업 헬릭스(Helix)에 총 10억 달러(약 1조 3,... ͏</description>
-    </item>
-    <item>
-      <title>[2026.09.29] 글로벌 인프라 브리핑: 전력 계통 연계 지연과 인프라 개발 파트너십 다각화</title>
-      <link>https://ywmoon.github.io/article/2026-09-29-daily-infraops-briefing/</link>
-      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-09-29-daily-infraops-briefing/</guid>
-      <pubDate>Tue, 29 Sep 2026 05:56:00 +0900</pubDate>
-      <category>Daily Briefing</category>
-      <description>2026년 9월 29일, 글로벌 클라우드 및 데이터센터 인프라 분야에서는 전력 계통 연계 병목을 해소하기 위한 대체 부지·발전 모델 도입, 차세대 가속기 클러스터 확장에 수반되는 고밀도 전력·열관리 밸류체인 재편, 그리고 인프라 확장에 따른 지자체 조세 혜택 검증 및 지역 사회 수용성 리스크가 주요 의제로 부각되었습니다. 오늘 수집된 주요 소식을 바탕으로</description>
     </item>
   </channel>
 </rss>
