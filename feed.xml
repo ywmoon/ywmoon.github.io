@@ -5,8 +5,48 @@
     <link>https://ywmoon.github.io</link>
     <description>글로벌 AI 데이터센터 전력망, 냉각, 클라우드 인프라 엔지니어링 데일리 트렌드</description>
     <language>ko</language>
-    <lastBuildDate>Thu, 12 Nov 2026 05:42:05 -0000</lastBuildDate>
+    <lastBuildDate>Fri, 13 Nov 2026 06:49:19 -0000</lastBuildDate>
     <atom:link href="https://ywmoon.github.io/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>[2026.11.13] 글로벌 인프라 브리핑: 스페이스X 740억 달러 자가발전 확장 &amp; 네이버 2조 원 GPU 클러스터 수주 및 고밀도 열관리 전환</title>
+      <link>https://ywmoon.github.io/article/2026-11-13-daily-infraops-briefing/</link>
+      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-11-13-daily-infraops-briefing/</guid>
+      <pubDate>Fri, 13 Nov 2026 06:53:00 +0900</pubDate>
+      <category>Daily Briefing</category>
+      <description>초대형 AI 캠퍼스 자금·전력 실행력 분화: 스페이스X가 텍사스(240억 달러·748MW 자가발전)와 애리조나(500억 달러)에 총 740억 달러(약 98.86조 원) 이상을 투입하는 반면, 소프트뱅크는 13GW 규모 가스터빈 주문을 취소하며 37억 달러의 위약금 손실을 기록했습니다. 전력망 10배 병목과 설비 슈퍼사이클: 미국 데이터센터 전력 수요(연 1</description>
+    </item>
+    <item>
+      <title>[테크 딥다이브] 스페이스X 740억 달러 확장과 소프트뱅크 13GW 터빈 취소로 본 AI 데이터센터 가스터빈 발전 아키텍처와 공급망 리스크</title>
+      <link>https://ywmoon.github.io/article/2026-11-13-deepdive-ai-datacenter-gasturbine-power-supplychain/</link>
+      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-11-13-deepdive-ai-datacenter-gasturbine-power-supplychain/</guid>
+      <pubDate>Fri, 13 Nov 2026 06:52:00 +0900</pubDate>
+      <category>Tech Deep Dive</category>
+      <description>DEEP DIVE COLUMN · POWER &amp; INFRASTRUCTURE ECONOMICS 미국 내 데이터센터 개발 계획 430GW 중 실착공 물량이 80GW에 머무는 가운데, 35기 소형 가스터빈 클러스터로 748MW 자가발전소를 짓는 스페이스X와 13GW 가스터빈 선주문을 취소하며 37억 달러 매몰 손실을 기록한 소프트뱅크의 대비를 통해 온사이트 발전</description>
+    </item>
+    <item>
+      <title>[2026.11.13] [10-Min English Podcast] SpaceX's $74B Compute Buildout, SoftBank's 13GW Turbine Cancellation, and Nvidia's Leadership Shock</title>
+      <link>https://ywmoon.github.io/article/2026-11-13-10min-tech-podcast/</link>
+      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-11-13-10min-tech-podcast/</guid>
+      <pubDate>Fri, 13 Nov 2026 06:51:00 +0900</pubDate>
+      <category>Podcast</category>
+      <description>오늘의 10분 심층 팟캐스트는 스페이스X의 740억 달러 메가 데이터센터 확장과 소프트뱅크의 13GW 가스터빈 주문 취소에 따른 37억 달러 매몰 비용, 지멘스 에너지의 150억 유로 수주와 미국 전력망 병목 현상, 엔비디아 젠슨 황 CEO 사임 파장 및 슈나이더 일렉트릭의 3.5MW 하이브리드 냉각 혁신, 네이버의 2조 원 규모 북미 AI 연산 수출과 메</description>
+    </item>
+    <item>
+      <title>[인프라 용어사전] CSB (클라우드 서비스 브로커리지) - 복잡한 멀티 클라우드와 공공 조달을 연결하는 통합 중개 아키텍처</title>
+      <link>https://ywmoon.github.io/article/2026-11-13-glossary-cloud-service-brokerage/</link>
+      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-11-13-glossary-cloud-service-brokerage/</guid>
+      <pubDate>Fri, 13 Nov 2026 06:50:00 +0900</pubDate>
+      <category>Terminology</category>
+      <description>1일 1 IT 인프라 용어사전 · CLOUD ARCHITECTURE 이기종 클라우드 서비스 제공자(CSP)와 수요 기관 사이에서 API 통합, 보안 규정 준수, 빌링 최적화 및 카탈로그 프로비저닝을 중개하는 클라우드 아키텍처 및 기술 플랫폼 계층 해외 직구로 수백 개의 부품을 각기 다른 국가의 제조사에서 직접 구매하려면 통관 절차, 현지 통화 결제, 규격</description>
+    </item>
+    <item>
+      <title>DC InfraOps Trends - 2026년 11월 13일</title>
+      <link>https://ywmoon.github.io/article/2026-11-13-dc-infraops-trends-report/</link>
+      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-11-13-dc-infraops-trends-report/</guid>
+      <pubDate>Fri, 13 Nov 2026 06:49:00 +0900</pubDate>
+      <category>Newsletter</category>
+      <description>Datacenter &amp; Cloud Industry InfraOps Daily (2-Column) 1. 스페이스X 740억 달러 메가 캠퍼스 확장과 소프트뱅크 13GW 터빈 취소 손실 및 하이퍼스케일러 수주 잔고 2.5조 달러 돌파 | 글로벌 AI 인프라 투자가 수조 달러 규모의 실수요를 입증하며 팽창하는 가운데, 자금력과 전력 조달 역량에 따른 ... ͏</description>
+    </item>
     <item>
       <title>[2026.11.12] 글로벌 인프라 브리핑: 메타 194조 설비투자 수장 교체·AWS 연산 확장과 GS·포스코 2.4GW 데이터센터 동맹</title>
       <link>https://ywmoon.github.io/article/2026-11-12-daily-infraops-briefing/</link>
@@ -1166,46 +1206,6 @@
       <pubDate>Thu, 01 Oct 2026 05:58:00 +0900</pubDate>
       <category>Daily Briefing</category>
       <description>Daily InfraOps Digest 글로벌 클라우드 및 데이터센터 인프라 테크 리포트 발행일: 2026년 10월 1일 | 대상: 인프라 아키텍트, 시스템 엔지니어, 기술 의사결정권자 📌 오늘의 3대 핵심 관전 포인트 (Key Highlights) 빅테크 자체 반도체 생태계의 IP 내재화: AWS가 전자설계자동화(EDA) 및 반도체 설계자산(IP) 선도</description>
-    </item>
-    <item>
-      <title>[테크 딥다이브] 소버린 AI와 로컬 인-플레이스 추론 아키텍처: 데이터 주권·네트워크 지연 한계 극복을 위한 하이퍼스케일러의 인프라 전환</title>
-      <link>https://ywmoon.github.io/article/2026-10-01-august-megafarm-deepdive/</link>
-      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-10-01-august-megafarm-deepdive/</guid>
-      <pubDate>Thu, 01 Oct 2026 05:57:00 +0900</pubDate>
-      <category>Tech Deep Dive</category>
-      <description>생성형 인공지능(AI) 기술이 개념 증명(PoC) 단계를 넘어 금융, 제조, 공공, 의료 등 핵심 미션 크리티컬 워크로드로 전면 확산되면서, 전 세계 엔터프라이즈 인프라 아키텍처는 전례 없는 기술적 병목과 직면하고 있습니다. 지난 2년간 대규모 언어 모델(LLM)의 공급 방식은 소수의 글로벌 거대 데이터센터 클러</description>
-    </item>
-    <item>
-      <title>[2026.10.01] [10-Min English Podcast] Sovereign Claude 5 Rollout, 4MW Modular PMDC, CoreWeave Rubin Deployments, and Grid Cost Politics</title>
-      <link>https://ywmoon.github.io/article/2026-10-01-10min-tech-podcast/</link>
-      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-10-01-10min-tech-podcast/</guid>
-      <pubDate>Thu, 01 Oct 2026 05:56:00 +0900</pubDate>
-      <category>Podcast</category>
-      <description>🎧 10-MIN TECH ENGLISH PODCAST [2026.10.01] [10-Min English Podcast] Sovereign Claude 5 Rollout, 4MW Modular PMDC, CoreWeave Rubin Deployments, and Grid Cost Politics 2026년 10월 1일 DC InfraOps Daily 브리핑</description>
-    </item>
-    <item>
-      <title>[인프라 용어사전] 인컨트리 추론 (In-Country Inferencing) - 데이터 주권과 규제 장벽을 넘는 국경 완결형 AI 아키텍처</title>
-      <link>https://ywmoon.github.io/article/2026-10-01-infra-glossary/</link>
-      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-10-01-infra-glossary/</guid>
-      <pubDate>Thu, 01 Oct 2026 05:55:00 +0900</pubDate>
-      <category>Terminology</category>
-      <description>Cloud &amp; AI Infrastructure 인컨트리 추론 (In-Country Inferencing) 데이터 국외 반출을 원천 차단하고 지정된 국가 리전 경계 내에서 AI 모델 가중치와 연산 파이프라인을 100% 완결하는 엔터프라이즈 인프라 기술 📌 1. 30초 핵심 요약 &amp; 개념 정의 💡 비유로 이해하기 해외 본사나 지사로 기밀 서류 원본을 발송해 결</description>
-    </item>
-    <item>
-      <title>DC InfraOps Trends - 2026년 10월 01일</title>
-      <link>https://ywmoon.github.io/article/2026-10-01-dc-infraops-trends-report/</link>
-      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-10-01-dc-infraops-trends-report/</guid>
-      <pubDate>Thu, 01 Oct 2026 05:54:00 +0900</pubDate>
-      <category>Newsletter</category>
-      <description>Datacenter &amp; Cloud Industry InfraOps Daily (2-Column) 1. AWS 서울 리전 클로드 5 출시와 소버린 데이터 주권 및 종속성 딜레마 아마존웹서비스(AWS)가 서울 리전에 앤트로픽의 최신 인공지능 모델 '클로드 오퍼스 5'와 '소넷 5'를 전격 출시함 . 이번 조치로 데이터 국외 반출 규제에 묶였던 국내 ... ͏</description>
-    </item>
-    <item>
-      <title>[2026.09.30] 글로벌 인프라 브리핑: 열적 안정성 및 화재 전이 방지 &amp; 고율 방전 및 설치 상면 최적화</title>
-      <link>https://ywmoon.github.io/article/2026-09-30-daily-infraops-briefing/</link>
-      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-09-30-daily-infraops-briefing/</guid>
-      <pubDate>Wed, 30 Sep 2026 05:58:00 +0900</pubDate>
-      <category>Daily Briefing</category>
-      <description>📌 오늘의 3대 핵심 관전 포인트 (Key Highlights) 국방·안보 클라우드의 공통 표준화 (AWS, NATO 전 회원국 ‘제한 등급’ 최초 승인): 퍼블릭 클라우드 기업 최초로 북대서양조약기구(NATO) 전 회원국에서 'NATO 제한(NR)' 등급 기밀 데이터를 처리할 수 있는 D32 규격 승인을 획득했습니다. 나토 32개국 전역의 15개 리전(유</description>
     </item>
   </channel>
 </rss>
