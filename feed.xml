@@ -5,8 +5,48 @@
     <link>https://ywmoon.github.io</link>
     <description>글로벌 AI 데이터센터 전력망, 냉각, 클라우드 인프라 엔지니어링 데일리 트렌드</description>
     <language>ko</language>
-    <lastBuildDate>Fri, 13 Nov 2026 06:49:19 -0000</lastBuildDate>
+    <lastBuildDate>Mon, 16 Nov 2026 05:42:12 -0000</lastBuildDate>
     <atom:link href="https://ywmoon.github.io/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>[2026.11.16] 글로벌 인프라 브리핑: 연준 순환금융 경고·삼성전자 모딘 인수 협상 &amp; 수도권 전력계통평가 강화</title>
+      <link>https://ywmoon.github.io/article/2026-11-16-daily-infraops-briefing/</link>
+      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-11-16-daily-infraops-briefing/</guid>
+      <pubDate>Mon, 16 Nov 2026 05:46:00 +0900</pubDate>
+      <category>Daily Briefing</category>
+      <description>AI 자본 조달 경고와 물리적 확장의 공존: 미 연준이 6,800억 달러 부채와 3조 달러 우발채무 기반의 순환금융 리스크를 경고한 가운데, 네오클라우드의 계약 지연 여파와 별개로 구글·아마존·에어트렁크의 초대형 캠퍼스 착공은 지속되고 있습니다. 삼성전자의 열관리 수직계열화 행보: 플랙트그룹 인수에 이어 미국 냉각 전문 기업 모딘 매뉴팩처링 인수 협상이 알</description>
+    </item>
+    <item>
+      <title>[테크 딥다이브] 삼성전자의 모딘 인수 추진으로 본 AI 데이터센터 열관리 공급망 수직계열화와 저온 폐열 회수 아키텍처</title>
+      <link>https://ywmoon.github.io/article/2026-11-16-deepdive-thermal-supply-chain-integration-waste-heat/</link>
+      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-11-16-deepdive-thermal-supply-chain-integration-waste-heat/</guid>
+      <pubDate>Mon, 16 Nov 2026 05:45:00 +0900</pubDate>
+      <category>Tech Deep Dive</category>
+      <description>TECH DEEP DIVE · THERMAL SUPPLY CHAIN &amp; HEAT RECOVERY ENGINEERING 플랙트그룹에 이은 모딘 매뉴팩처링 인수 협상의 공학적 배경과 CDU·FWU·칠러 통합 제조 생태계, 그리고 데이터센터 저온 배기열의 외부 열교환 재활용 메커니즘을 심층 분석합니다. 인공지능(AI) 인프라 확장의 주요 병목이 AI 가속기 확보</description>
+    </item>
+    <item>
+      <title>[2026.11.16] [10-Min English Podcast] Fed AI Debt Warnings, Samsung's Cooling M&amp;A Push, and Global Grid &amp; Cloud Bottlenecks</title>
+      <link>https://ywmoon.github.io/article/2026-11-16-10min-tech-podcast/</link>
+      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-11-16-10min-tech-podcast/</guid>
+      <pubDate>Mon, 16 Nov 2026 05:44:00 +0900</pubDate>
+      <category>Podcast</category>
+      <description>오늘의 10분 심층 팟캐스트는 연준의 6,800억 달러 AI 데이터센터 부채 및 3조 달러 우발채무 경고와 구글·아마존의 메가 캠퍼스 착공, 삼성전자의 미국 냉각 기업 모딘(Modine) 인수 협상과 B300 온수 냉각·512코어 서버 혁신, LG엔솔·삼성SDI의 RE+ 전력 솔루션 및 오클로의 메타향 SMR 핵연료 계약, 한국 수도권 전력계통영향평가 75</description>
+    </item>
+    <item>
+      <title>[인프라 용어사전] 데이터센터 폐열 재활용 (Data Center Waste Heat Reuse) - 버려지던 서버 열에너지를 지역·산업 열원으로 전환하는 열 회수 아키텍처</title>
+      <link>https://ywmoon.github.io/article/2026-11-16-glossary-data-center-waste-heat-reuse/</link>
+      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-11-16-glossary-data-center-waste-heat-reuse/</guid>
+      <pubDate>Mon, 16 Nov 2026 05:43:00 +0900</pubDate>
+      <category>Terminology</category>
+      <description>데이터센터 폐열 재활용(Data Center Waste Heat Reuse) 은 서버, 스토리지, 네트워크 장비 및 전력 변환 설비가 가동되면서 방출하는 열에너지를 대기 중으로 단순 방출하지 않고, 열교환기와 히트 펌프 등을 통해 회수하여 외부 시설의 난방, 온수 공급, 산업 공정에 재공급하는 열 관리 아키텍처다. 비유하자면 대형 제철소나 발전소에서 발생하</description>
+    </item>
+    <item>
+      <title>DC InfraOps Trends - 2026년 11월 16일</title>
+      <link>https://ywmoon.github.io/article/2026-11-16-dc-infraops-trends-report/</link>
+      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-11-16-dc-infraops-trends-report/</guid>
+      <pubDate>Mon, 16 Nov 2026 05:42:00 +0900</pubDate>
+      <category>Newsletter</category>
+      <description>Datacenter &amp; Cloud Industry InfraOps Daily (2-Column) 1. 연준의 6,800억 달러 순환금융 경고와 네비우스 400억 달러 투자 리스크 및 구글·아마존 메가 캠퍼스 착공 | 인공지능(AI) 데이터센터 확장을 뒷받침하는 천문학적 자본 조달 구조에 대해 금융당국의 거시 건전성 경고가 제기된 가운데, 네오클라... ͏</description>
+    </item>
     <item>
       <title>[2026.11.13] 글로벌 인프라 브리핑: 스페이스X 740억 달러 자가발전 확장 &amp; 네이버 2조 원 GPU 클러스터 수주 및 고밀도 열관리 전환</title>
       <link>https://ywmoon.github.io/article/2026-11-13-daily-infraops-briefing/</link>
@@ -1166,46 +1206,6 @@
       <pubDate>Fri, 02 Oct 2026 06:00:00 +0900</pubDate>
       <category>Daily Briefing</category>
       <description>Daily InfraOps Digest | Global Cloud &amp; Data Center Intelligence 글로벌 AI 데이터센터 인프라 동향: 기저부하 원전 20년 장기계약, 랙 냉각 아키텍처 생태계 재편 및 자체 가속기 동맹 2026년 10월 2일 기준 글로벌 클라우드 제공업체(CSP), 전력 유틸리티, 냉각 솔루션 제조사 및 AI 인프라 스타트</description>
-    </item>
-    <item>
-      <title>[테크 딥다이브] 네오클라우드(Neocloud)의 부상과 엔비디아 풀스택 레퍼런스 아키텍처: 하이퍼스케일러 과점을 흔드는 GPU 특화 인프라의 경제학과 기술 생태계</title>
-      <link>https://ywmoon.github.io/article/2026-10-02-august-megafarm-deepdive/</link>
-      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-10-02-august-megafarm-deepdive/</guid>
-      <pubDate>Fri, 02 Oct 2026 05:59:00 +0900</pubDate>
-      <category>Tech Deep Dive</category>
-      <description>인공지능 워크로드가 대규모 사전 학습(Pre-training) 중심에서 24시간 무중단 실시간 추론(Inference) 서비스로 급격히 전환되면서, 글로벌 컴퓨팅 인프라의 물리적·경제적 구조가 근본적인 재편을 겪고 있습니다. 기존 아마존웹서비스(AWS), 마이크로소프트 애저(Azure), 구글 클라우드(GCP)로 대변되는 전통적 하이퍼스케일러는 다중 임대(</description>
-    </item>
-    <item>
-      <title>[2026.10.02] [10-Min English Podcast] Nuclear PPAs, Chip-to-Chiller Turnkey, and Grid Regulatory Halts</title>
-      <link>https://ywmoon.github.io/article/2026-10-02-10min-tech-podcast/</link>
-      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-10-02-10min-tech-podcast/</guid>
-      <pubDate>Fri, 02 Oct 2026 05:58:00 +0900</pubDate>
-      <category>Podcast</category>
-      <description>오늘의 10분 심층 팟캐스트는 2026년 10월 2일 글로벌 데이터센터 및 전력 인프라 시장을 뒤흔든 4대 핵심 이슈를 다룹니다. 첫째, 아마존(AWS)이 메릴랜드 캘버트 클리프스 원전에서 690MW 규모의 20년 장기 PPA를 체결하고 30억 달러 규모의 증설 지원 및 2026년 설비투자 가이던스를 2,200억 달러로 상향하며 촉발된 글로벌 기저전원 직접</description>
-    </item>
-    <item>
-      <title>[인프라 용어사전] 궤도 데이터센터 (Orbital Data Center) - 무한 태양광과 심우주 복사 냉각으로 지상 전력난을 돌파하는 차세대 AI 인프라</title>
-      <link>https://ywmoon.github.io/article/2026-10-02-infra-glossary/</link>
-      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-10-02-infra-glossary/</guid>
-      <pubDate>Fri, 02 Oct 2026 05:57:00 +0900</pubDate>
-      <category>Terminology</category>
-      <description>Infrastructure Tech Glossary 궤도 데이터센터 (Orbital Data Center) 지상 전력망 병목과 냉각수 고갈을 넘어, 대기권 밖 24시간 태양광 발전과 심우주 절대온도 복사 방열을 활용해 대규모 연산을 수행하는 우주 기반 컴퓨팅 아키텍처 📌 1. 30초 핵심 요약 &amp; 개념 정의 궤도 데이터센터(Orbital Data Cente</description>
-    </item>
-    <item>
-      <title>DC InfraOps Trends - 2026년 10월 02일</title>
-      <link>https://ywmoon.github.io/article/2026-10-02-dc-infraops-trends-report/</link>
-      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-10-02-dc-infraops-trends-report/</guid>
-      <pubDate>Fri, 02 Oct 2026 05:56:00 +0900</pubDate>
-      <category>Newsletter</category>
-      <description>Datacenter &amp; Cloud Industry InfraOps Daily (2-Column) 1. 아마존 메릴랜드 690MW 원전 장기 PPA와 글로벌 전력 확보전 아마존(AWS)이 미국 최대 원전 기업 콘스텔레이션 에너지와 20년 장기 전력구매계약(PPA)을 체결하고 메릴랜드주 캘버트 클리프스 원전에서 690MW의 무탄소 전력을 확보함 . ... ͏</description>
-    </item>
-    <item>
-      <title>[2026.10.01] 글로벌 인프라 브리핑: 빅테크 자체 반도체 생태계의 IP 내재화 &amp; 초고밀도 액체 냉각 기반 차세대 GPU 클라우드 가속</title>
-      <link>https://ywmoon.github.io/article/2026-10-01-daily-infraops-briefing/</link>
-      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-10-01-daily-infraops-briefing/</guid>
-      <pubDate>Thu, 01 Oct 2026 05:58:00 +0900</pubDate>
-      <category>Daily Briefing</category>
-      <description>Daily InfraOps Digest 글로벌 클라우드 및 데이터센터 인프라 테크 리포트 발행일: 2026년 10월 1일 | 대상: 인프라 아키텍트, 시스템 엔지니어, 기술 의사결정권자 📌 오늘의 3대 핵심 관전 포인트 (Key Highlights) 빅테크 자체 반도체 생태계의 IP 내재화: AWS가 전자설계자동화(EDA) 및 반도체 설계자산(IP) 선도</description>
     </item>
   </channel>
 </rss>
