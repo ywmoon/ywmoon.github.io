@@ -5,8 +5,48 @@
     <link>https://ywmoon.github.io</link>
     <description>글로벌 AI 데이터센터 전력망, 냉각, 클라우드 인프라 엔지니어링 데일리 트렌드</description>
     <language>ko</language>
-    <lastBuildDate>Mon, 16 Nov 2026 05:42:12 -0000</lastBuildDate>
+    <lastBuildDate>Tue, 17 Nov 2026 07:40:51 -0000</lastBuildDate>
     <atom:link href="https://ywmoon.github.io/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>[2026.11.17] 글로벌 인프라 브리핑: 블랙스톤-AWS 6.7조 원 세일앤리스백 &amp; SKT-효성중공업 GW급 전력 동맹</title>
+      <link>https://ywmoon.github.io/article/2026-11-17-daily-infraops-briefing/</link>
+      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-11-17-daily-infraops-briefing/</guid>
+      <pubDate>Tue, 17 Nov 2026 07:44:00 +0900</pubDate>
+      <category>Daily Briefing</category>
+      <description>2026년 11월 17일 글로벌 IT 및 데이터센터 인프라 시장은 대규모 설비투자(CapEx) 부담을 분산하기 위한 자본 구조 재편과 기가와트(GW)급 전력 설비 선점 경쟁이 동시에 전개되고 있습니다. 하이퍼스케일러들이 사모자본과 연계해 유동성을 확보하는 한편, 국내외 현장에서는 초고압 변전 설비와 직류 배전 기술 도입, 지역 사회 인허가 마찰, 클라우드</description>
+    </item>
+    <item>
+      <title>[테크 딥다이브] AWS·블랙스톤 50억 달러 합작법인으로 본 파워드 쉘(Powered Shell) 세일앤리스백 구조와 인프라 자산 분리 전략</title>
+      <link>https://ywmoon.github.io/article/2026-11-17-deepdive-aws-blackstone-powered-shell-sale-leaseback/</link>
+      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-11-17-deepdive-aws-blackstone-powered-shell-sale-leaseback/</guid>
+      <pubDate>Tue, 17 Nov 2026 07:43:00 +0900</pubDate>
+      <category>Tech Deep Dive</category>
+      <description>Next-Gen Infrastructure &amp; Capital Architecture 연간 수천억 달러에 달하는 하이퍼스케일 설비투자(CapEx) 병목 속에서 물리적 건축·수전 외피(Powered Shell)와 고밀도 IT·냉각 설비의 감가상각 주기를 분리하는 합작법인(JV) 기반 자본 유동화 메커니즘과 운영 통제권 설계 방식을 심층 분석한다. 글로벌 하이퍼</description>
+    </item>
+    <item>
+      <title>[2026.11.17] [10-Min English Podcast] Blackstone $5B AWS Sale-Leaseback, SKT-Hyosung 800V DC Alliance &amp; U.S. Remote Compute Rules</title>
+      <link>https://ywmoon.github.io/article/2026-11-17-10min-tech-podcast/</link>
+      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-11-17-10min-tech-podcast/</guid>
+      <pubDate>Tue, 17 Nov 2026 07:42:00 +0900</pubDate>
+      <category>Podcast</category>
+      <description>오늘의 10분 심층 팟캐스트는 블랙스톤(BXDC)의 50억 달러 규모 AWS 데이터센터 합작법인 세일앤리스백 인수와 오픈AI의 457MW AMD 클라우드 계약을 필두로 한 글로벌 CapEx 재편, SK텔레콤과 효성중공업의 기가와트급 345kV 변전·800V 직류배전 동맹 및 북미 전력·원전 수주 랠리, 미 상무부의 중국 클라우드 원격접속 허가제와 람다-엔비</description>
+    </item>
+    <item>
+      <title>[인프라 용어사전] 파워드 쉘 (Powered Shell) - 하이퍼스케일러의 AI 인프라 확장과 자본 효율화를 이끄는 데이터센터 구축 모델</title>
+      <link>https://ywmoon.github.io/article/2026-11-17-glossary-powered-shell-data-center/</link>
+      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-11-17-glossary-powered-shell-data-center/</guid>
+      <pubDate>Tue, 17 Nov 2026 07:41:00 +0900</pubDate>
+      <category>Terminology</category>
+      <description>파워드 쉘(Powered Shell) 은 데이터센터 건물 외벽(코어 앤 쉘)과 부지 내 대용량 전력 인입선·변전소·기초 상하수도 및 광통신 인입 배관 등 외부 기반 인프라까지만 완비해 공급하고, 내부의 무정전 전원장치(UPS), 냉각 설비, 서버 랙 등 핵심 IT·MEP(기계·전기·배관) 설비는 임차인(하이퍼스케일러 등)이 직접 구축하는 데이터센터 개발 및</description>
+    </item>
+    <item>
+      <title>DC InfraOps Trends - 2026년 11월 17일</title>
+      <link>https://ywmoon.github.io/article/2026-11-17-dc-infraops-trends-report/</link>
+      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-11-17-dc-infraops-trends-report/</guid>
+      <pubDate>Tue, 17 Nov 2026 07:40:00 +0900</pubDate>
+      <category>Newsletter</category>
+      <description>Datacenter &amp; Cloud Industry InfraOps Daily (2-Column) 1. 블랙스톤의 AWS 데이터센터 6.7조 원 인수·한국 진출 타진과 오픈AI 457MW AMD 클라우드 계약 및 글로벌 CapEx 재편 | 인공지능(AI) 인프라 설비투자(CapEx) 확장에 따른 자본 조달 부담을 완화하기 위해 하이퍼스케일러들이 세... ͏</description>
+    </item>
     <item>
       <title>[2026.11.16] 글로벌 인프라 브리핑: 연준 순환금융 경고·삼성전자 모딘 인수 협상 &amp; 수도권 전력계통평가 강화</title>
       <link>https://ywmoon.github.io/article/2026-11-16-daily-infraops-briefing/</link>
@@ -1166,46 +1206,6 @@
       <pubDate>Mon, 05 Oct 2026 06:00:00 +0900</pubDate>
       <category>Daily Briefing</category>
       <description>📌 오늘의 3대 핵심 관전 포인트 (Key Highlights)하이퍼스케일러의 80억 달러 규모 하드웨어 유동화: 아마존이 엔비디아 AI 가속기 칩셋을 외부 투자자에게 오프밸런스(Off-balance) 형태로 분할 이전하는 금융 구조를 검토하며, 대규모 인프라 투자(CapEx)의 재무 건전성 관리 모델이 부상하고 있습니다.육상 전력·부지 병목과 대체 인프라</description>
-    </item>
-    <item>
-      <title>[테크 딥다이브] 공유 책임 모델의 경계를 넘어: AWS SIP 프레임워크와 하이퍼스케일 클라우드 보안 아키텍처의 패러다임 전환</title>
-      <link>https://ywmoon.github.io/article/2026-10-05-august-megafarm-deepdive/</link>
-      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-10-05-august-megafarm-deepdive/</guid>
-      <pubDate>Mon, 05 Oct 2026 05:59:00 +0900</pubDate>
-      <category>Tech Deep Dive</category>
-      <description>핵심 요약: 국내 대표 OTT 플랫폼 티빙(TVING)의 침해 사고 후속 조치로 추진된 AWS SIP(Security Improvement Program) 도입은 단순한 개별 보안 솔루션의 추가가 아니라, 클라우드 컴퓨팅 태동기부터 유지되어 온 '공유 책임 모델(Shared Responsibility Model)'의 구조적 한계를 극복하려는 아키텍처적 전환</description>
-    </item>
-    <item>
-      <title>[2026.10.05] [10-Min English Podcast] Amazon's $8B GPU Securitization, Municipal NDA Repeal, and Grid-Resilient Baseload Architectures</title>
-      <link>https://ywmoon.github.io/article/2026-10-05-10min-tech-podcast/</link>
-      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-10-05-10min-tech-podcast/</guid>
-      <pubDate>Mon, 05 Oct 2026 05:58:00 +0900</pubDate>
-      <category>Podcast</category>
-      <description>오늘의 10분 심층 팟캐스트는 글로벌 하이퍼스케일러들의 자본 지출(CapEx) 구조 재편, 지역사회 주민 수용성 충돌 및 규제 대응, 기저전원 직결 전력망 확보, 그리고 클라우드 장애 복구 탄력성 체계를 입체적으로 분석합니다. 첫째, 아마존이 미국 전역 100여 개 지자체의 모라토리엄에 직면해 5년간 10억 달러 규모의 '투게더 프로그램'을 발표하고 밀실</description>
-    </item>
-    <item>
-      <title>[인프라 용어사전] CSPM (Cloud Security Posture Management) - 클라우드 인프라 설정 오류와 컴플라이언스를 자동 검증하는 아키텍처</title>
-      <link>https://ywmoon.github.io/article/2026-10-05-infra-glossary/</link>
-      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-10-05-infra-glossary/</guid>
-      <pubDate>Mon, 05 Oct 2026 05:57:00 +0900</pubDate>
-      <category>Terminology</category>
-      <description>Cloud Infrastructure &amp; Security CSPM (Cloud Security Posture Management) 퍼블릭 클라우드 전반의 리소스 구성 상태를 실시간 스캔하여 잘못된 설정(Misconfiguration)과 컴플라이언스 위반을 자동 탐지·교정하는 핵심 클라우드 인프라 거버넌스 아키텍처 📌 1. 30초 핵심 요약 &amp; 개념 정의 💡</description>
-    </item>
-    <item>
-      <title>DC InfraOps Trends - 2026년 10월 05일</title>
-      <link>https://ywmoon.github.io/article/2026-10-05-dc-infraops-trends-report/</link>
-      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-10-05-dc-infraops-trends-report/</guid>
-      <pubDate>Mon, 05 Oct 2026 05:56:00 +0900</pubDate>
-      <category>Newsletter</category>
-      <description>Datacenter &amp; Cloud Industry InfraOps Daily (2-Column) 1. 아마존 10억 달러 상생 투자와 비밀유지협약 철폐 및 전 세계적 주민 수용성 충돌 AI 데이터센터 확산에 따른 전력망 과부하와 소음·용수 고갈 우려로 미국 전역에서 100개 이상의 인허가 유예(모라토리엄)가 발생하는 등 주민 반발이 거세짐 . 이... ͏</description>
-    </item>
-    <item>
-      <title>[2026.10.02] 글로벌 인프라 브리핑: 아마존-콘스텔레이션 에너지의 20년 원전 PPA 체결 &amp; 엔비디아 생태계 중심 고밀도 냉각 공급망 재편</title>
-      <link>https://ywmoon.github.io/article/2026-10-02-daily-infraops-briefing/</link>
-      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-10-02-daily-infraops-briefing/</guid>
-      <pubDate>Fri, 02 Oct 2026 06:00:00 +0900</pubDate>
-      <category>Daily Briefing</category>
-      <description>Daily InfraOps Digest | Global Cloud &amp; Data Center Intelligence 글로벌 AI 데이터센터 인프라 동향: 기저부하 원전 20년 장기계약, 랙 냉각 아키텍처 생태계 재편 및 자체 가속기 동맹 2026년 10월 2일 기준 글로벌 클라우드 제공업체(CSP), 전력 유틸리티, 냉각 솔루션 제조사 및 AI 인프라 스타트</description>
     </item>
   </channel>
 </rss>
