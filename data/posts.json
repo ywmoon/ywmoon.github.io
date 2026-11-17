@@ -1,5 +1,117 @@
 [
   {
+    "id": "2026-11-18-daily-infraops-briefing",
+    "title": "[2026.11.18] 글로벌 인프라 브리핑: 미·중 광통신·클라우드 규제 전면전 & 기가와트급 데이터센터 인허가 역풍",
+    "date": "2026-11-18",
+    "time": "05:45",
+    "updated": "2026-11-18 05:41",
+    "category": "Daily Briefing",
+    "labels": [
+      "AWS",
+      "클라우드",
+      "데이터센터",
+      "AI인프라",
+      "인프라동향"
+    ],
+    "summary": "오늘 글로벌 IT 인프라 시장은 미·중 간 인공지능(AI) 공급망 통제가 광통신 부품과 제3국 클라우드 원격 접속, 프로젝트 금융 조달까지 전방위로 확산하는 가운데, 미국과 유럽 각지에서 불거진 데이터센터 건설 반대 움직임이 기가와트(GW)급 설비투자 일정에 직접적인 변수를 던지고 있습니다. 동시에 대규모 전력 확보를 위한 원자력·분산에너지 협력과 개발 프",
+    "char_count": 6297,
+    "read_time": 8,
+    "status": "published",
+    "content_file": "data/posts/2026-11-18-daily-infraops-briefing.md"
+  },
+  {
+    "id": "2026-11-18-deepdive-cloud-compute-threshold-governance",
+    "title": "[테크 딥다이브] IaaS 연산 임계치 통제와 하이퍼스케일 클라우드 테넌트 거버넌스 아키텍처의 재편",
+    "date": "2026-11-18",
+    "time": "05:44",
+    "updated": "2026-11-18 05:41",
+    "category": "Tech Deep Dive",
+    "labels": [
+      "테크딥다이브",
+      "클라우드거버넌스",
+      "AI반도체수출통제",
+      "H100임계치",
+      "데이터센터"
+    ],
+    "summary": "EXECUTIVE SUMMARY 인공지능(AI) 반도체 수출 통제의 초점이 물리적 하드웨어의 국경 이동에서 '클라우드 원격 접속을 통한 연산력(Compute Power) 임대'로 이동했다. 미국 상무부 산업안보국(BIS)이 제3국 데이터센터를 경유한 우회 접속을 차단하기 위해 특정 테넌트당 엔비디아 H100 약 750장 규모의 연산 제공 임계치를 설정하고",
+    "char_count": 2992,
+    "read_time": 4,
+    "status": "published",
+    "content_file": "data/posts/2026-11-18-deepdive-cloud-compute-threshold-governance.md"
+  },
+  {
+    "id": "2026-11-18-10min-tech-podcast",
+    "title": "[2026.11.18] [10-Min English Podcast] US-China AI Hardware Curbs, Gigawatt Permitting Delays, and 800V DC Cooling Shifts",
+    "date": "2026-11-18",
+    "time": "05:43",
+    "updated": "2026-11-18 05:41",
+    "category": "Podcast",
+    "labels": [
+      "EnglishPodcast",
+      "TechEnglish",
+      "비즈니스영어",
+      "AWS",
+      "AI인프라",
+      "데이터센터",
+      "액체냉각"
+    ],
+    "summary": "오늘의 10분 심층 팟캐스트는 미국의 중국산 광송수신기 수입 금지 및 동남아·브라질 AI 칩 원격 접속 규제와 말레이시아 틱톡 데이터센터 대출 중단 사태, 미국 중간선거 이후 오픈AI(14GW)·아마존(170억 달러)을 강타한 인허가 지연 및 모건스탠리의 2028년 파이프라인 20% 순연 경고, 블랙스톤의 50억 달러 세일앤리스백(Cap Rate 7%)이",
+    "char_count": 13979,
+    "read_time": 13,
+    "status": "published",
+    "content_file": "data/posts/2026-11-18-10min-tech-podcast.md"
+  },
+  {
+    "id": "2026-11-18-glossary-optical-transceiver",
+    "title": "[인프라 용어사전] 광트랜시버 (Optical Transceiver) - AI 데이터센터 초고속 인터커넥트의 혈관",
+    "date": "2026-11-18",
+    "time": "05:42",
+    "updated": "2026-11-18 05:41",
+    "category": "Terminology",
+    "labels": [
+      "인프라용어사전",
+      "IT백과사전",
+      "광트랜시버",
+      "AWS",
+      "데이터센터"
+    ],
+    "summary": "오늘의 인프라 키워드: 광트랜시버 (Optical Transceiver / 광송수신기) · 카테고리: 네트워킹 광트랜시버(Optical Transceiver, 광송수신기) 는 데이터센터 내부의 스위치, 서버 네트워크 인터페이스 카드(NIC), AI 가속기 노드 사이에서 전기 신호(Electrical Signal)를 빛 신호(Optical Signal)로,",
+    "char_count": 3605,
+    "read_time": 5,
+    "status": "published",
+    "content_file": "data/posts/2026-11-18-glossary-optical-transceiver.md"
+  },
+  {
+    "id": "2026-11-18-dc-infraops-trends-report",
+    "title": "DC InfraOps Trends - 2026년 11월 18일",
+    "date": "2026-11-18",
+    "time": "05:41",
+    "updated": "2026-11-18 05:41",
+    "category": "Newsletter",
+    "labels": [
+      "AWS",
+      "데이터센터",
+      "클라우드",
+      "AI인프라",
+      "DC-Trends",
+      "Daily-Newsletter",
+      "SMR",
+      "엔비디아",
+      "액체냉각",
+      "전력망",
+      "마이크로소프트",
+      "구글",
+      "오라클",
+      "신재생에너지",
+      "가스터빈"
+    ],
+    "summary": "Datacenter & Cloud Industry InfraOps Daily (2-Column) 1. 미 정부의 중국산 광송수신기 수입 금지 및 5개국 원격 접속 규제 확전과 앨리스 황 12조 원 공작 폭로·동남아 대출 중단 | 젠슨 황 전 엔비디아 최고경영자(CEO)의 사임 스캔들이 미·중 인공지능(AI) 인프라 공급망 전면전으로 비화하면서, ... ͏",
+    "char_count": 56606,
+    "read_time": 52,
+    "status": "published",
+    "content_file": "data/posts/2026-11-18-dc-infraops-trends-report.md"
+  },
+  {
     "id": "2026-11-17-daily-infraops-briefing",
     "title": "[2026.11.17] 글로벌 인프라 브리핑: 블랙스톤-AWS 6.7조 원 세일앤리스백 & SKT-효성중공업 GW급 전력 동맹",
     "date": "2026-11-17",

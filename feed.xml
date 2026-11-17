@@ -5,8 +5,48 @@
     <link>https://ywmoon.github.io</link>
     <description>글로벌 AI 데이터센터 전력망, 냉각, 클라우드 인프라 엔지니어링 데일리 트렌드</description>
     <language>ko</language>
-    <lastBuildDate>Tue, 17 Nov 2026 07:40:51 -0000</lastBuildDate>
+    <lastBuildDate>Wed, 18 Nov 2026 05:41:59 -0000</lastBuildDate>
     <atom:link href="https://ywmoon.github.io/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>[2026.11.18] 글로벌 인프라 브리핑: 미·중 광통신·클라우드 규제 전면전 &amp; 기가와트급 데이터센터 인허가 역풍</title>
+      <link>https://ywmoon.github.io/article/2026-11-18-daily-infraops-briefing/</link>
+      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-11-18-daily-infraops-briefing/</guid>
+      <pubDate>Wed, 18 Nov 2026 05:45:00 +0900</pubDate>
+      <category>Daily Briefing</category>
+      <description>오늘 글로벌 IT 인프라 시장은 미·중 간 인공지능(AI) 공급망 통제가 광통신 부품과 제3국 클라우드 원격 접속, 프로젝트 금융 조달까지 전방위로 확산하는 가운데, 미국과 유럽 각지에서 불거진 데이터센터 건설 반대 움직임이 기가와트(GW)급 설비투자 일정에 직접적인 변수를 던지고 있습니다. 동시에 대규모 전력 확보를 위한 원자력·분산에너지 협력과 개발 프</description>
+    </item>
+    <item>
+      <title>[테크 딥다이브] IaaS 연산 임계치 통제와 하이퍼스케일 클라우드 테넌트 거버넌스 아키텍처의 재편</title>
+      <link>https://ywmoon.github.io/article/2026-11-18-deepdive-cloud-compute-threshold-governance/</link>
+      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-11-18-deepdive-cloud-compute-threshold-governance/</guid>
+      <pubDate>Wed, 18 Nov 2026 05:44:00 +0900</pubDate>
+      <category>Tech Deep Dive</category>
+      <description>EXECUTIVE SUMMARY 인공지능(AI) 반도체 수출 통제의 초점이 물리적 하드웨어의 국경 이동에서 '클라우드 원격 접속을 통한 연산력(Compute Power) 임대'로 이동했다. 미국 상무부 산업안보국(BIS)이 제3국 데이터센터를 경유한 우회 접속을 차단하기 위해 특정 테넌트당 엔비디아 H100 약 750장 규모의 연산 제공 임계치를 설정하고</description>
+    </item>
+    <item>
+      <title>[2026.11.18] [10-Min English Podcast] US-China AI Hardware Curbs, Gigawatt Permitting Delays, and 800V DC Cooling Shifts</title>
+      <link>https://ywmoon.github.io/article/2026-11-18-10min-tech-podcast/</link>
+      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-11-18-10min-tech-podcast/</guid>
+      <pubDate>Wed, 18 Nov 2026 05:43:00 +0900</pubDate>
+      <category>Podcast</category>
+      <description>오늘의 10분 심층 팟캐스트는 미국의 중국산 광송수신기 수입 금지 및 동남아·브라질 AI 칩 원격 접속 규제와 말레이시아 틱톡 데이터센터 대출 중단 사태, 미국 중간선거 이후 오픈AI(14GW)·아마존(170억 달러)을 강타한 인허가 지연 및 모건스탠리의 2028년 파이프라인 20% 순연 경고, 블랙스톤의 50억 달러 세일앤리스백(Cap Rate 7%)이</description>
+    </item>
+    <item>
+      <title>[인프라 용어사전] 광트랜시버 (Optical Transceiver) - AI 데이터센터 초고속 인터커넥트의 혈관</title>
+      <link>https://ywmoon.github.io/article/2026-11-18-glossary-optical-transceiver/</link>
+      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-11-18-glossary-optical-transceiver/</guid>
+      <pubDate>Wed, 18 Nov 2026 05:42:00 +0900</pubDate>
+      <category>Terminology</category>
+      <description>오늘의 인프라 키워드: 광트랜시버 (Optical Transceiver / 광송수신기) · 카테고리: 네트워킹 광트랜시버(Optical Transceiver, 광송수신기) 는 데이터센터 내부의 스위치, 서버 네트워크 인터페이스 카드(NIC), AI 가속기 노드 사이에서 전기 신호(Electrical Signal)를 빛 신호(Optical Signal)로,</description>
+    </item>
+    <item>
+      <title>DC InfraOps Trends - 2026년 11월 18일</title>
+      <link>https://ywmoon.github.io/article/2026-11-18-dc-infraops-trends-report/</link>
+      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-11-18-dc-infraops-trends-report/</guid>
+      <pubDate>Wed, 18 Nov 2026 05:41:00 +0900</pubDate>
+      <category>Newsletter</category>
+      <description>Datacenter &amp; Cloud Industry InfraOps Daily (2-Column) 1. 미 정부의 중국산 광송수신기 수입 금지 및 5개국 원격 접속 규제 확전과 앨리스 황 12조 원 공작 폭로·동남아 대출 중단 | 젠슨 황 전 엔비디아 최고경영자(CEO)의 사임 스캔들이 미·중 인공지능(AI) 인프라 공급망 전면전으로 비화하면서, ... ͏</description>
+    </item>
     <item>
       <title>[2026.11.17] 글로벌 인프라 브리핑: 블랙스톤-AWS 6.7조 원 세일앤리스백 &amp; SKT-효성중공업 GW급 전력 동맹</title>
       <link>https://ywmoon.github.io/article/2026-11-17-daily-infraops-briefing/</link>
@@ -1166,46 +1206,6 @@
       <pubDate>Tue, 06 Oct 2026 05:53:00 +0900</pubDate>
       <category>Daily Briefing</category>
       <description>글로벌 하이퍼스케일러들의 인공지능(AI) 인프라 구축 경쟁이 천문학적인 자본 지출(CapEx)의 한계와 지역 전력망 수용성의 장벽에 직면하면서, 인프라의 재무 구조와 기술 아키텍처 전반에 걸쳐 중대한 패러다임 전환이 나타나고 있습니다. 아마존(AWS)은 11조 원 규모의 최신 AI 가속기를 특수목적법인(SPV)으로 이전해 대차대조표 부담을 덜어내는 오프밸런</description>
-    </item>
-    <item>
-      <title>[테크 딥다이브] AI 팩토리의 과도 부하와 전력망 한계: 엔비디아 BESS 표준 편입이 촉발한 데이터센터 전력 아키텍처 전환</title>
-      <link>https://ywmoon.github.io/article/2026-10-06-august-megafarm-deepdive/</link>
-      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-10-06-august-megafarm-deepdive/</guid>
-      <pubDate>Tue, 06 Oct 2026 05:52:00 +0900</pubDate>
-      <category>Tech Deep Dive</category>
-      <description>생성형 AI 모델의 규모가 수천억 개 파라미터에서 조 단위 매개변수로 확장됨에 따라, 초거대 AI 컴퓨팅 인프라를 지탱하는 전력 시스템은 전례 없는 물리적 한계에 직면했습니다. 과거 범용 클라우드 데이터센터의 워크로드가 예측 가능한 주간·야간 트래픽 곡선을 보였다면, 수만 개의 GPU가 고속 패브릭으로 묶인 현대</description>
-    </item>
-    <item>
-      <title>[2026.10.06] [10-Min English Podcast] 5GW Cooling Mega-Deals, First U.S. SMR Permits, and the Rising Cost of Grid Resistance</title>
-      <link>https://ywmoon.github.io/article/2026-10-06-10min-tech-podcast/</link>
-      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-10-06-10min-tech-podcast/</guid>
-      <pubDate>Tue, 06 Oct 2026 05:51:00 +0900</pubDate>
-      <category>Podcast</category>
-      <description>🎧 10-MIN TECH ENGLISH PODCAST [2026.10.06] [10-Min English Podcast] 5GW Cooling Mega-Deals, First U.S. SMR Permits, and the Rising Cost of Grid Resistance 2026년 10월 6일 DC InfraOps 데일리 심층 브리핑에서는 AI 인프라</description>
-    </item>
-    <item>
-      <title>[인프라 용어사전] 액침 냉각 (Immersion Cooling) - 100kW+ 초고발열 AI 랙을 절연 유체에 통째로 담그는 차세대 열관리 아키텍처</title>
-      <link>https://ywmoon.github.io/article/2026-10-06-infra-glossary/</link>
-      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-10-06-infra-glossary/</guid>
-      <pubDate>Tue, 06 Oct 2026 05:50:00 +0900</pubDate>
-      <category>Terminology</category>
-      <description>Next-Gen Thermal Architecture 액침 냉각 (Immersion Cooling) 비전도성 유전체 용액에 고집적 IT 서버를 완전 침전시켜 100kW+ 고발열을 제어하고 팬을 영구 제거하는 궁극의 열관리 기술 📌 1. 30초 핵심 요약 &amp; 개념 정의 직관적 비유: 방수 스마트폰을 차가운 수조에 담그듯, 전기가 통하지 않는 특수 절연 오일(</description>
-    </item>
-    <item>
-      <title>DC InfraOps Trends - 2026년 10월 06일</title>
-      <link>https://ywmoon.github.io/article/2026-10-06-dc-infraops-trends-report/</link>
-      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-10-06-dc-infraops-trends-report/</guid>
-      <pubDate>Tue, 06 Oct 2026 05:49:00 +0900</pubDate>
-      <category>Newsletter</category>
-      <description>Datacenter &amp; Cloud Industry InfraOps Daily (2-Column) 1. LG전자 북미 5GW 냉각 대형 수주와 차세대 가속기 랙·공조 생태계 확장 초고발열 AI 가속기 확산에 발맞춰 LG전자가 북미 인프라 전문 기업과 총 5GW 규모의 AI 데이터센터 냉각 솔루션 장기 공급 계약을 체결함 . 이번 수주는 최대 5조 ... ͏</description>
-    </item>
-    <item>
-      <title>[2026.10.05] 글로벌 인프라 브리핑: 하이퍼스케일러의 80억 달러 규모 하드웨어 유동화 &amp; 육상 전력·부지 병목과 대체 인프라 탐색</title>
-      <link>https://ywmoon.github.io/article/2026-10-05-daily-infraops-briefing/</link>
-      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-10-05-daily-infraops-briefing/</guid>
-      <pubDate>Mon, 05 Oct 2026 06:00:00 +0900</pubDate>
-      <category>Daily Briefing</category>
-      <description>📌 오늘의 3대 핵심 관전 포인트 (Key Highlights)하이퍼스케일러의 80억 달러 규모 하드웨어 유동화: 아마존이 엔비디아 AI 가속기 칩셋을 외부 투자자에게 오프밸런스(Off-balance) 형태로 분할 이전하는 금융 구조를 검토하며, 대규모 인프라 투자(CapEx)의 재무 건전성 관리 모델이 부상하고 있습니다.육상 전력·부지 병목과 대체 인프라</description>
     </item>
   </channel>
 </rss>
