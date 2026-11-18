@@ -5,8 +5,48 @@
     <link>https://ywmoon.github.io</link>
     <description>글로벌 AI 데이터센터 전력망, 냉각, 클라우드 인프라 엔지니어링 데일리 트렌드</description>
     <language>ko</language>
-    <lastBuildDate>Wed, 18 Nov 2026 05:41:59 -0000</lastBuildDate>
+    <lastBuildDate>Thu, 19 Nov 2026 05:42:24 -0000</lastBuildDate>
     <atom:link href="https://ywmoon.github.io/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>[2026.11.19] 글로벌 인프라 브리핑: 엔비디아 1,180억 달러 조건부 보증과 북미 전력 입지 규제 분화</title>
+      <link>https://ywmoon.github.io/article/2026-11-19-daily-infraops-briefing/</link>
+      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-11-19-daily-infraops-briefing/</guid>
+      <pubDate>Thu, 19 Nov 2026 05:46:00 +0900</pubDate>
+      <category>Daily Briefing</category>
+      <description>2026년 11월 19일 글로벌 IT 및 데이터센터 인프라는 자본 조달의 엄격한 구조화와 지정학적 공급망 통제, 그리고 물리적 입지 규제의 상반된 흐름이 동시에 교차하는 변곡점을 지나고 있습니다. 엔비디아의 사상 첫 분기 매출 1,000억 달러 돌파 이면에는 프로젝트 완공 여부를 따지는 조건부 금융 보증 원칙이 자리 잡았고, 미국 주요 데이터센터 거점인 버</description>
+    </item>
+    <item>
+      <title>[테크 딥다이브] 엔비디아 1,180억 달러 완공 조건부 지급보증과 AI 클러스터 커미셔닝·벤더 파이낸싱 아키텍처 분석</title>
+      <link>https://ywmoon.github.io/article/2026-11-19-deepdive-nvidia-118b-completion-guaranteed-ai-cluster/</link>
+      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-11-19-deepdive-nvidia-118b-completion-guaranteed-ai-cluster/</guid>
+      <pubDate>Thu, 19 Nov 2026 05:45:00 +0900</pubDate>
+      <category>Tech Deep Dive</category>
+      <description>AI Semiconductor &amp; Compute Infrastructure Deep Dive 단일 분기 데이터센터 매출 1,076억 달러 시대에 진입한 AI 가속기 생태계는 단순 실리콘 공급을 넘어 전력·부지·설비 완공 여부가 칩 출하와 재무 보증을 결정하는 단계별 물리 검수(Commissioning-Gated) 체계로 전환되고 있다. 3,900억 달러 공</description>
+    </item>
+    <item>
+      <title>[2026.11.19] [10-Min English Podcast] Nvidia's $118B Conditional Guarantees, Loudoun's Freeze, and RE+ Power Breakthroughs</title>
+      <link>https://ywmoon.github.io/article/2026-11-19-10min-tech-podcast/</link>
+      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-11-19-10min-tech-podcast/</guid>
+      <pubDate>Thu, 19 Nov 2026 05:44:00 +0900</pubDate>
+      <category>Podcast</category>
+      <description>오늘의 10분 심층 팟캐스트는 젠슨 황 전 CEO 사임 이후 처음 발표된 엔비디아의 3분기 매출 1,158억 달러 돌파 및 1,180억 달러 규모의 완공 조건부 지급보증 명문화와 빅테크들의 CapEx 급증을 다룹니다. 또한 엔비디아의 중국 매출 전망 배제 및 말레이시아 117개 프로젝트 수출통제 준수 의무화, 미국 버지니아 라우든 카운티의 12개월 인허가</description>
+    </item>
+    <item>
+      <title>[인프라 용어사전] BBU (배터리 백업 유닛) (Battery Backup Unit) - AI 서버 랙 내부에서 밀리초 단위 전력을 방어하는 랙 레벨 비상 전원 모듈</title>
+      <link>https://ywmoon.github.io/article/2026-11-19-glossary-battery-backup-unit/</link>
+      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-11-19-glossary-battery-backup-unit/</guid>
+      <pubDate>Thu, 19 Nov 2026 05:43:00 +0900</pubDate>
+      <category>Terminology</category>
+      <description>BBU(Battery Backup Unit, 배터리 백업 유닛) 는 데이터센터의 별도 전기실이 아닌 IT 서버 랙(Rack) 내부에 직접 장착 되어, 정전이나 순간 전압 강하(Sag) 발생 시 수 밀리초(ms) 이내에 직류(DC) 전력을 서버와 AI 가속기에 공급하는 모듈형 비상 전원 하드웨어입니다. 건물 전체를 지키는 중앙 발전기나 대형 UPS가 도시의</description>
+    </item>
+    <item>
+      <title>DC InfraOps Trends - 2026년 11월 19일</title>
+      <link>https://ywmoon.github.io/article/2026-11-19-dc-infraops-trends-report/</link>
+      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-11-19-dc-infraops-trends-report/</guid>
+      <pubDate>Thu, 19 Nov 2026 05:42:00 +0900</pubDate>
+      <category>Newsletter</category>
+      <description>Datacenter &amp; Cloud Industry InfraOps Daily (2-Column) 1. 엔비디아 분기 매출 1,158억 달러 돌파·1,180억 달러 완공 조건부 보증 명문화와 빅테크 CapEx 총력전 | 젠슨 황 전 최고경영자(CEO) 사임 이후 처음 발표된 엔비디아의 3분기 실적에서 데이터센터 수요 폭발로 분기 매출이 사상 처음 ... ͏</description>
+    </item>
     <item>
       <title>[2026.11.18] 글로벌 인프라 브리핑: 미·중 광통신·클라우드 규제 전면전 &amp; 기가와트급 데이터센터 인허가 역풍</title>
       <link>https://ywmoon.github.io/article/2026-11-18-daily-infraops-briefing/</link>
@@ -1166,46 +1206,6 @@
       <pubDate>Wed, 07 Oct 2026 05:55:00 +0900</pubDate>
       <category>Daily Briefing</category>
       <description>글로벌 클라우드 &amp; 데이터센터 인프라 데일리 다이제스트 인공지능 가속기 수급, 기저부하 전력 계약, 대규모 자본 지출(CapEx) 유동화 구조 및 인허가 투명성에 이르는 글로벌 핵심 인프라 기술 분석 📌 오늘의 3대 핵심 관전 포인트 (Key Highlights) 자본 지출(CapEx)의 구조적 한계와 오프밸런스(Off-Balance) 유동화: 연간 약 2</description>
-    </item>
-    <item>
-      <title>[테크 딥다이브] 기가와트(GW)급 AI 데이터센터의 전력망 병목과 온사이트 에너지 아키텍처: 계통 연계 지연 극복을 위한 BTM 직결 및 분산 인프라 전략</title>
-      <link>https://ywmoon.github.io/article/2026-10-07-august-megafarm-deepdive/</link>
-      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-10-07-august-megafarm-deepdive/</guid>
-      <pubDate>Wed, 07 Oct 2026 05:54:00 +0900</pubDate>
-      <category>Tech Deep Dive</category>
-      <description>Technical Infrastructure Deep Dive 기가와트(GW)급 AI 데이터센터의 전력망 병목과 온사이트 에너지 아키텍처: 계통 연계 지연 극복을 위한 BTM 직결 및 분산 인프라 전략 생성형 AI 워크로드의 가속화는 단일 데이터센터 캠퍼스의 수전 용량을 수백 메가와트(MW)에서 기가와트(GW) 단위로 급증시켰습니다. 그러나 공용 송전망의</description>
-    </item>
-    <item>
-      <title>[2026.10.07] [10-Min English Podcast] Google's 3.6GW Nuclear PPA, AWS Campus Grid Friction, 800V DC Rack Transitions, and Hyperscale Infrastructure Expansion</title>
-      <link>https://ywmoon.github.io/article/2026-10-07-10min-tech-podcast/</link>
-      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-10-07-10min-tech-podcast/</guid>
-      <pubDate>Wed, 07 Oct 2026 05:53:00 +0900</pubDate>
-      <category>Podcast</category>
-      <description>오늘의 10분 심층 팟캐스트는 2026년 10월 7일 글로벌 데이터센터 및 전력 인프라 산업의 4대 핵심 축을 집중 분석합니다. 첫째, 구글이 콘스텔레이션 에너지와 체결한 최대 43억 달러 규모 20년 PPA 계약(PJM 전력망 3.6GW 확보 및 신규 원전 용량 890MW 직결)과 유타주 원전 데이터센터, 펜실베이니아 연료전지, 한국 국감의 SMR 온사이</description>
-    </item>
-    <item>
-      <title>[인프라 용어사전] BTM (Behind-the-Meter) - 계통 병목을 우회하는 데이터센터 온사이트 직결 전력 아키텍처</title>
-      <link>https://ywmoon.github.io/article/2026-10-07-infra-glossary/</link>
-      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-10-07-infra-glossary/</guid>
-      <pubDate>Wed, 07 Oct 2026 05:52:00 +0900</pubDate>
-      <category>Terminology</category>
-      <description>전력 인프라 아키텍처 기저전원 직결 하이퍼스케일 전력망 BTM (Behind-the-Meter, 계통 후면 전력 연계) 공용 송전망의 병목과 접속 대기열을 우회하여 발전원과 대규모 부하를 구내에서 직접 물리적으로 연결하는 차세대 전력 수전 체계 📌 1. 30초 핵심 요약 &amp; 개념 정의 BTM(Behind-the-Meter, 계통 후면 전력 연계)은 전력 소</description>
-    </item>
-    <item>
-      <title>DC InfraOps Trends - 2026년 10월 07일</title>
-      <link>https://ywmoon.github.io/article/2026-10-07-dc-infraops-trends-report/</link>
-      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-10-07-dc-infraops-trends-report/</guid>
-      <pubDate>Wed, 07 Oct 2026 05:51:00 +0900</pubDate>
-      <category>Newsletter</category>
-      <description>Datacenter &amp; Cloud Industry InfraOps Daily (2-Column) 1. 구글과 콘스텔레이션 3.6GW 초대형 원전 계약과 기저전원 직접 연계 확산 구글이 콘스텔레이션 에너지와 20년 장기 전력 공급 계약을 체결해 PJM 전력망 내 3.6GW 규모의 전력을 선제 확보함 . 이번 계약을 통해 콘스텔레이션이 보유한 원전 ... ͏</description>
-    </item>
-    <item>
-      <title>[2026.10.06] 글로벌 인프라 브리핑: AI 팩토리 전력 스파이크 완충을 위한 BESS 공식 표준화 &amp; 데이터센터 인허가 모라토리엄 돌파를 위한 10억 달러 지역 상생안</title>
-      <link>https://ywmoon.github.io/article/2026-10-06-daily-infraops-briefing/</link>
-      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-10-06-daily-infraops-briefing/</guid>
-      <pubDate>Tue, 06 Oct 2026 05:53:00 +0900</pubDate>
-      <category>Daily Briefing</category>
-      <description>글로벌 하이퍼스케일러들의 인공지능(AI) 인프라 구축 경쟁이 천문학적인 자본 지출(CapEx)의 한계와 지역 전력망 수용성의 장벽에 직면하면서, 인프라의 재무 구조와 기술 아키텍처 전반에 걸쳐 중대한 패러다임 전환이 나타나고 있습니다. 아마존(AWS)은 11조 원 규모의 최신 AI 가속기를 특수목적법인(SPV)으로 이전해 대차대조표 부담을 덜어내는 오프밸런</description>
     </item>
   </channel>
 </rss>

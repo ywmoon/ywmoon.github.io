@@ -1,5 +1,118 @@
 [
   {
+    "id": "2026-11-19-daily-infraops-briefing",
+    "title": "[2026.11.19] 글로벌 인프라 브리핑: 엔비디아 1,180억 달러 조건부 보증과 북미 전력 입지 규제 분화",
+    "date": "2026-11-19",
+    "time": "05:46",
+    "updated": "2026-11-19 05:42",
+    "category": "Daily Briefing",
+    "labels": [
+      "AI인프라",
+      "데이터센터",
+      "엔비디아",
+      "클라우드",
+      "전력인프라",
+      "인프라동향"
+    ],
+    "summary": "2026년 11월 19일 글로벌 IT 및 데이터센터 인프라는 자본 조달의 엄격한 구조화와 지정학적 공급망 통제, 그리고 물리적 입지 규제의 상반된 흐름이 동시에 교차하는 변곡점을 지나고 있습니다. 엔비디아의 사상 첫 분기 매출 1,000억 달러 돌파 이면에는 프로젝트 완공 여부를 따지는 조건부 금융 보증 원칙이 자리 잡았고, 미국 주요 데이터센터 거점인 버",
+    "char_count": 6515,
+    "read_time": 9,
+    "status": "published",
+    "content_file": "data/posts/2026-11-19-daily-infraops-briefing.md"
+  },
+  {
+    "id": "2026-11-19-deepdive-nvidia-118b-completion-guaranteed-ai-cluster",
+    "title": "[테크 딥다이브] 엔비디아 1,180억 달러 완공 조건부 지급보증과 AI 클러스터 커미셔닝·벤더 파이낸싱 아키텍처 분석",
+    "date": "2026-11-19",
+    "time": "05:45",
+    "updated": "2026-11-19 05:42",
+    "category": "Tech Deep Dive",
+    "labels": [
+      "테크딥다이브",
+      "엔비디아",
+      "베라루빈",
+      "AI데이터센터",
+      "인프라파이낸싱"
+    ],
+    "summary": "AI Semiconductor & Compute Infrastructure Deep Dive 단일 분기 데이터센터 매출 1,076억 달러 시대에 진입한 AI 가속기 생태계는 단순 실리콘 공급을 넘어 전력·부지·설비 완공 여부가 칩 출하와 재무 보증을 결정하는 단계별 물리 검수(Commissioning-Gated) 체계로 전환되고 있다. 3,900억 달러 공",
+    "char_count": 9110,
+    "read_time": 12,
+    "status": "published",
+    "content_file": "data/posts/2026-11-19-deepdive-nvidia-118b-completion-guaranteed-ai-cluster.md"
+  },
+  {
+    "id": "2026-11-19-10min-tech-podcast",
+    "title": "[2026.11.19] [10-Min English Podcast] Nvidia's $118B Conditional Guarantees, Loudoun's Freeze, and RE+ Power Breakthroughs",
+    "date": "2026-11-19",
+    "time": "05:44",
+    "updated": "2026-11-19 05:42",
+    "category": "Podcast",
+    "labels": [
+      "EnglishPodcast",
+      "TechEnglish",
+      "비즈니스영어",
+      "AWS",
+      "AI인프라",
+      "데이터센터",
+      "액체냉각"
+    ],
+    "summary": "오늘의 10분 심층 팟캐스트는 젠슨 황 전 CEO 사임 이후 처음 발표된 엔비디아의 3분기 매출 1,158억 달러 돌파 및 1,180억 달러 규모의 완공 조건부 지급보증 명문화와 빅테크들의 CapEx 급증을 다룹니다. 또한 엔비디아의 중국 매출 전망 배제 및 말레이시아 117개 프로젝트 수출통제 준수 의무화, 미국 버지니아 라우든 카운티의 12개월 인허가",
+    "char_count": 13868,
+    "read_time": 13,
+    "status": "published",
+    "content_file": "data/posts/2026-11-19-10min-tech-podcast.md"
+  },
+  {
+    "id": "2026-11-19-glossary-battery-backup-unit",
+    "title": "[인프라 용어사전] BBU (배터리 백업 유닛) (Battery Backup Unit) - AI 서버 랙 내부에서 밀리초 단위 전력을 방어하는 랙 레벨 비상 전원 모듈",
+    "date": "2026-11-19",
+    "time": "05:43",
+    "updated": "2026-11-19 05:42",
+    "category": "Terminology",
+    "labels": [
+      "인프라용어사전",
+      "IT백과사전",
+      "BBU",
+      "AI데이터센터",
+      "삼성SDI"
+    ],
+    "summary": "BBU(Battery Backup Unit, 배터리 백업 유닛) 는 데이터센터의 별도 전기실이 아닌 IT 서버 랙(Rack) 내부에 직접 장착 되어, 정전이나 순간 전압 강하(Sag) 발생 시 수 밀리초(ms) 이내에 직류(DC) 전력을 서버와 AI 가속기에 공급하는 모듈형 비상 전원 하드웨어입니다. 건물 전체를 지키는 중앙 발전기나 대형 UPS가 도시의",
+    "char_count": 3277,
+    "read_time": 5,
+    "status": "published",
+    "content_file": "data/posts/2026-11-19-glossary-battery-backup-unit.md"
+  },
+  {
+    "id": "2026-11-19-dc-infraops-trends-report",
+    "title": "DC InfraOps Trends - 2026년 11월 19일",
+    "date": "2026-11-19",
+    "time": "05:42",
+    "updated": "2026-11-19 05:42",
+    "category": "Newsletter",
+    "labels": [
+      "AWS",
+      "데이터센터",
+      "클라우드",
+      "AI인프라",
+      "DC-Trends",
+      "Daily-Newsletter",
+      "SMR",
+      "원전",
+      "엔비디아",
+      "액체냉각",
+      "전력망",
+      "마이크로소프트",
+      "구글",
+      "오라클",
+      "가스터빈"
+    ],
+    "summary": "Datacenter & Cloud Industry InfraOps Daily (2-Column) 1. 엔비디아 분기 매출 1,158억 달러 돌파·1,180억 달러 완공 조건부 보증 명문화와 빅테크 CapEx 총력전 | 젠슨 황 전 최고경영자(CEO) 사임 이후 처음 발표된 엔비디아의 3분기 실적에서 데이터센터 수요 폭발로 분기 매출이 사상 처음 ... ͏",
+    "char_count": 50409,
+    "read_time": 46,
+    "status": "published",
+    "content_file": "data/posts/2026-11-19-dc-infraops-trends-report.md"
+  },
+  {
     "id": "2026-11-18-daily-infraops-briefing",
     "title": "[2026.11.18] 글로벌 인프라 브리핑: 미·중 광통신·클라우드 규제 전면전 & 기가와트급 데이터센터 인허가 역풍",
     "date": "2026-11-18",
