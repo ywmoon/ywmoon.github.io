@@ -5,8 +5,56 @@
     <link>https://ywmoon.github.io</link>
     <description>글로벌 AI 데이터센터 전력망, 냉각, 클라우드 인프라 엔지니어링 데일리 트렌드</description>
     <language>ko</language>
-    <lastBuildDate>Thu, 19 Nov 2026 05:42:24 -0000</lastBuildDate>
+    <lastBuildDate>Fri, 20 Nov 2026 06:36:45 -0000</lastBuildDate>
     <atom:link href="https://ywmoon.github.io/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>[주간 인프라 결산] 연준 6,800억 달러 순환금융 경고와 엔비디아 조건부 보증 전환 및 미·중 공급망·전력 규제 전면전</title>
+      <link>https://ywmoon.github.io/article/2026-11-20-weekly-recap-circular-financing-export-control-grid/</link>
+      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-11-20-weekly-recap-circular-financing-export-control-grid/</guid>
+      <pubDate>Fri, 20 Nov 2026 06:41:00 +0900</pubDate>
+      <category>Weekly Recap</category>
+      <description>Weekly Infrastructure Strategy Briefing | 2026.11.16 - 11.20 순환금융 구조조정과 지정학적 공급망 봉쇄, 물리적 전력·입지 병목이 교차한 슈퍼사이클 변곡점 이번 주 글로벌 하이퍼스케일 인프라는 ① 자본 조달의 질적 긴축(순환금융 경고 및 완공 조건부 보증 전환) , ② 미·중 기술 패권의 클라우드 원격접속 및</description>
+    </item>
+    <item>
+      <title>[2026.11.20] 글로벌 인프라 브리핑: 삼성전자 ‘네오클라우드 버블론’ 반박과 LGU+ 7,890억 파주 증설 &amp; IEA 2030 전력 2배 경고</title>
+      <link>https://ywmoon.github.io/article/2026-11-20-daily-infraops-briefing/</link>
+      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-11-20-daily-infraops-briefing/</guid>
+      <pubDate>Fri, 20 Nov 2026 06:40:00 +0900</pubDate>
+      <category>Daily Briefing</category>
+      <description>2026년 11월 20일 글로벌 IT 인프라 시장은 AI 데이터센터의 자본 건전성 논쟁과 대규모 실물 증설, 그리고 전력망 병목 해소를 위한 기저전원 확보전이 동시에 교차하는 양상을 보이고 있습니다. 삼성전자가 네오클라우드발 AI 거품론에 정면으로 선을 그은 가운데, 국내에서는 LG유플러스와 LG전자가 각각 초대형 캠퍼스 증설과 냉각 솔루션 조직 개편에 나</description>
+    </item>
+    <item>
+      <title>[테크 딥다이브] 구글의 5억 달러 지열 발전 PPA와 심부 인공 지열(EGS) 기반 AI 데이터센터 기저부하 전력 아키텍처 분석</title>
+      <link>https://ywmoon.github.io/article/2026-11-20-deepdive-google-500m-enhanced-geothermal-datacenter/</link>
+      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-11-20-deepdive-google-500m-enhanced-geothermal-datacenter/</guid>
+      <pubDate>Fri, 20 Nov 2026 06:39:00 +0900</pubDate>
+      <category>Tech Deep Dive</category>
+      <description>TECH DEEP DIVE · POWER &amp; ENERGY ARCHITECTURE 국제에너지기구(IEA)가 2030년까지 데이터센터 전력 소비량이 두 배로 급증할 것으로 경고한 가운데, 하이퍼스케일러의 무탄소 기저부하(Baseload) 확보 전략이 태양광·풍력에서 차세대 심부 인공 지열 발전(EGS)으로 이동하고 있다. 구글의 5억 달러 규모 지열 전력 공급</description>
+    </item>
+    <item>
+      <title>[2026.11.20] [10-Min English Podcast] Neocloud Capital, 2030 Power Doubling, Cooling Orders &amp; AWS Failover Routing</title>
+      <link>https://ywmoon.github.io/article/2026-11-20-10min-tech-podcast/</link>
+      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-11-20-10min-tech-podcast/</guid>
+      <pubDate>Fri, 20 Nov 2026 06:38:00 +0900</pubDate>
+      <category>Podcast</category>
+      <description>오늘의 10분 심층 팟캐스트는 삼성전자의 네오클라우드 8% 비중 강조 및 블루아울 5.13억 달러 CMBS 유동화와 LGU+ 파주 증설, 알리바바의 20GW 목표 축소 시사 등 글로벌 AI 인프라 자본 흐름을 짚어봅니다. 이어 IEA의 2030년 데이터센터 전력 2배·탄소 70% 증가 경고와 듀크에너지 전용 요금제, 한·미·중 SMR 및 가스터빈 동향, L</description>
+    </item>
+    <item>
+      <title>[인프라 용어사전] CMBS (상업용 부동산저당증권) - AI 데이터센터 대규모 자본 조달과 리스 유동화의 핵심 구조</title>
+      <link>https://ywmoon.github.io/article/2026-11-20-glossary-data-center-cmbs-securitization/</link>
+      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-11-20-glossary-data-center-cmbs-securitization/</guid>
+      <pubDate>Fri, 20 Nov 2026 06:37:00 +0900</pubDate>
+      <category>Terminology</category>
+      <description>CMBS(Commercial Mortgage-Backed Securities, 상업용 부동산저당증권) 는 데이터센터, 오피스, 물류센터 등 수익을 창출하는 상업용 부동산의 담보대출(모기지)을 기초자산으로 묶어(Pooling) 발행하는 자산유동화증권입니다. 비유하자면, 건물주가 데이터센터를 지을 때 빌린 거액의 대출과 향후 10~15년간 하이퍼스케일러 임차인</description>
+    </item>
+    <item>
+      <title>DC InfraOps Trends - 2026년 11월 20일</title>
+      <link>https://ywmoon.github.io/article/2026-11-20-dc-infraops-trends-report/</link>
+      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-11-20-dc-infraops-trends-report/</guid>
+      <pubDate>Fri, 20 Nov 2026 06:36:00 +0900</pubDate>
+      <category>Newsletter</category>
+      <description>Datacenter &amp; Cloud Industry InfraOps Daily (2-Column) 1. 삼성전자 ‘네오클라우드 8%’ 버블론 일축·블루아울 6,844억 유동화 및 LGU+ 파주 7,890억 증설과 알리바바 20GW 축소 | 젠슨 황 전 엔비디아 최고경영자(CEO) 사임 이후 순환금융 축소로 불거진 네오클라우드발 위기설에 대해 삼성전... ͏</description>
+    </item>
     <item>
       <title>[2026.11.19] 글로벌 인프라 브리핑: 엔비디아 1,180억 달러 조건부 보증과 북미 전력 입지 규제 분화</title>
       <link>https://ywmoon.github.io/article/2026-11-19-daily-infraops-briefing/</link>
@@ -1158,54 +1206,6 @@
       <pubDate>Mon, 12 Oct 2026 06:02:00 +0900</pubDate>
       <category>Newsletter</category>
       <description>Datacenter &amp; Cloud Industry InfraOps Daily (2-Column) 1. 얀덱스 데이터센터 연쇄 드론 피격과 인프라의 전시 군사 표적화 우크라이나가 러시아 최대 IT·AI 기업 얀덱스의 사소보 데이터센터를 드론으로 타격해 화재와 클라우드 중단을 초래한 데 이어 , 블라디미르 시설을 멈춰 세우고 칼루가 캠퍼스까지 나흘 ... ͏</description>
-    </item>
-    <item>
-      <title>[2026.10.08] 글로벌 인프라 브리핑: 3.6GW 원전 기저부하 확보와 북미 지자체 모라토리엄 대립 &amp; 구글 핀란드 130억 유로(19.5조 원) 투자 부지 공사 중단</title>
-      <link>https://ywmoon.github.io/article/2026-10-08-daily-infraops-briefing/</link>
-      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-10-08-daily-infraops-briefing/</guid>
-      <pubDate>Thu, 08 Oct 2026 05:56:00 +0900</pubDate>
-      <category>Daily Briefing</category>
-      <description>2026년 10월 8일 데일리 인프라 종합 리포트(Daily InfraOps Digest)입니다. AI 워크로드 급증에 대응하기 위한 기저부하 전력 확보 경쟁과 각국 지자체의 인허가·환경 규제가 정면 충돌하고 있으며, 퍼블릭 클라우드 마켓플레이스에서는 멀티 파운데이션 모델 유통망의 구조적 재편이 가속화되고 있습니다. 오늘 수집된 주요 인프라 쟁점을 심층 분</description>
-    </item>
-    <item>
-      <title>[테크 딥다이브] 아마존 AI 수장의 보스턴다이내믹스 합류: '피지컬 AI' 분산 컴퓨팅 아키텍처 전환과 2028년 양산 TCO 분석</title>
-      <link>https://ywmoon.github.io/article/2026-10-08-august-megafarm-deepdive/</link>
-      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-10-08-august-megafarm-deepdive/</guid>
-      <pubDate>Thu, 08 Oct 2026 05:55:00 +0900</pubDate>
-      <category>Tech Deep Dive</category>
-      <description>현대자동차그룹의 로보틱스 계열사 보스턴다이내믹스(Boston Dynamics)가 7개월간 이어진 경영 공백을 깨고 로히트 프라사드(Rohit Prasad) 전 아마존 수석부사장 겸 수석과학자를 신임 최고경영자(CEO)로 선임했다. 2013년 아마존에 합류해 대화형 음성 인터페이스 '알렉사(Alexa)'의 상용화를</description>
-    </item>
-    <item>
-      <title>[2026.10.08] [10-Min English Podcast] Grid Saturation, Moratorium Clashes, SMR Interconnections, and the Physical AI Compute Frontier</title>
-      <link>https://ywmoon.github.io/article/2026-10-08-10min-tech-podcast/</link>
-      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-10-08-10min-tech-podcast/</guid>
-      <pubDate>Thu, 08 Oct 2026 05:54:00 +0900</pubDate>
-      <category>Podcast</category>
-      <description>오늘의 10분 심층 팟캐스트는 2026년 10월 8일 글로벌 데이터센터 인프라 및 전력 그리드를 뒤흔든 4대 핵심 동향을 집중 분석합니다. 첫째, 수도권 서부(인천 원창동·청라)의 100MW급 AI 데이터센터 신축·DBO 수주 현황과 계통 병목을 우회하기 위한 HD현대건설기계의 3,900억 원 규모 북미 발전엔진 롱블록 공급 및 온사이트 자가발전 확산세를</description>
-    </item>
-    <item>
-      <title>[인프라 용어사전] 오프그리드 데이터센터 (Off-Grid Data Center) - 전력망 병목을 돌파하는 독립형 자립 전력 아키텍처</title>
-      <link>https://ywmoon.github.io/article/2026-10-08-infra-glossary/</link>
-      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-10-08-infra-glossary/</guid>
-      <pubDate>Thu, 08 Oct 2026 05:53:00 +0900</pubDate>
-      <category>Terminology</category>
-      <description>[개념 정의] 오프그리드 데이터센터(Off-Grid Data Center)란 국가 및 지역 공용 송배전망(Utility Grid)과의 연결에 의존하지 않고, 부지 내부에 독자적인 발전 설비를 구축하여 상시 운전에 필요한 모든 전력을 자체 생산 및 소비하는 독립 자립형 전력 아키텍처를 의미합니다. 직관적 비유: 도시</description>
-    </item>
-    <item>
-      <title>DC InfraOps Trends - 2026년 10월 08일</title>
-      <link>https://ywmoon.github.io/article/2026-10-08-dc-infraops-trends-report/</link>
-      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-10-08-dc-infraops-trends-report/</guid>
-      <pubDate>Thu, 08 Oct 2026 05:52:00 +0900</pubDate>
-      <category>Newsletter</category>
-      <description>Datacenter &amp; Cloud Industry InfraOps Daily (2-Column) 1. 수도권 서부 AI 인프라 대규모 수주와 북미 분산 발전엔진 공급망 진입 수도권 송전망 포화 속에서도 서부권을 중심으로 초대형 AI 데이터센터 신축 및 운영 수주가 집중됨. 현대엔지니어링이 인천 원창동에 8,700억 원 규모의 50MW급 데이터센터... ͏</description>
-    </item>
-    <item>
-      <title>[2026.10.07] 글로벌 인프라 브리핑: 원자력 기저부하(Firm Clean Power) 쟁탈전 가속 &amp; 데이터센터 인허가 및 주민 수용성 패러다임 전환</title>
-      <link>https://ywmoon.github.io/article/2026-10-07-daily-infraops-briefing/</link>
-      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-10-07-daily-infraops-briefing/</guid>
-      <pubDate>Wed, 07 Oct 2026 05:55:00 +0900</pubDate>
-      <category>Daily Briefing</category>
-      <description>글로벌 클라우드 &amp; 데이터센터 인프라 데일리 다이제스트 인공지능 가속기 수급, 기저부하 전력 계약, 대규모 자본 지출(CapEx) 유동화 구조 및 인허가 투명성에 이르는 글로벌 핵심 인프라 기술 분석 📌 오늘의 3대 핵심 관전 포인트 (Key Highlights) 자본 지출(CapEx)의 구조적 한계와 오프밸런스(Off-Balance) 유동화: 연간 약 2</description>
     </item>
   </channel>
 </rss>

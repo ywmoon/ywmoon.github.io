@@ -1,0 +1,144 @@
+---
+id: 2026-11-20-10min-tech-podcast
+title: "[2026.11.20] [10-Min English Podcast] Neocloud Capital, 2030 Power Doubling, Cooling Orders & AWS Failover Routing"
+date: 2026-11-20
+time: "06:38"
+category: Podcast
+status: published
+summary: "오늘의 10분 심층 팟캐스트는 삼성전자의 네오클라우드 8% 비중 강조 및 블루아울 5.13억 달러 CMBS 유동화와 LGU+ 파주 증설, 알리바바의 20GW 목표 축소 시사 등 글로벌 AI 인프라 자본 흐름을 짚어봅니다. 이어 IEA의 2030년 데이터센터 전력 2배·탄소 70% 증가 경고와 듀크에너지 전용 요금제, 한·미·중 SMR 및 가스터빈 동향, L"
+labels:
+  - EnglishPodcast
+  - TechEnglish
+  - 비즈니스영어
+  - AI인프라
+  - 데이터센터
+  - 전력망
+  - AWS
+  - 소버린클라우드
+---
+
+
+    <div style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; line-height: 1.8; color: #1E293B; max-width: 820px; margin: 0 auto;">
+
+        <!-- Podcast Hero Audio Player Card -->
+        <div style="background: linear-gradient(135deg, #0F172A 0%, #1E293B 100%); border-radius: 12px; padding: 24px 28px; margin-bottom: 28px; color: #FFFFFF; box-shadow: 0 4px 12px rgba(0,0,0,0.15); border-top: 4px solid #38BDF8;">
+            <div style="display: flex; align-items: center; margin-bottom: 8px;">
+                <span style="background: #38BDF8; color: #0F172A; font-size: 11.5px; font-weight: 800; padding: 3px 10px; border-radius: 4px; text-transform: uppercase; letter-spacing: 1px;">🎧 10-MIN TECH ENGLISH PODCAST</span>
+            </div>
+            <h2 style="font-size: 20px; font-weight: 800; color: #FFFFFF; margin: 8px 0 10px 0; line-height: 1.4;">[2026.11.20] [10-Min English Podcast] Neocloud Capital, 2030 Power Doubling, Cooling Orders & AWS Failover Routing</h2>
+            <p style="font-size: 13.5px; color: #CBD5E1; line-height: 1.6; margin-bottom: 16px;">
+                오늘의 10분 심층 팟캐스트는 삼성전자의 네오클라우드 8% 비중 강조 및 블루아울 5.13억 달러 CMBS 유동화와 LGU+ 파주 증설, 알리바바의 20GW 목표 축소 시사 등 글로벌 AI 인프라 자본 흐름을 짚어봅니다. 이어 IEA의 2030년 데이터센터 전력 2배·탄소 70% 증가 경고와 듀크에너지 전용 요금제, 한·미·중 SMR 및 가스터빈 동향, LG전자 3조 원대 냉각 수주 및 ETRI 메모리 공유 실증, 미 조지아 QTS 위협 대피와 국내외 입지 갈등, 나델라 MS CEO의 아웃룩 장애 차단벽 실패 시인과 미·말레이시아 170억 달러 소버린 클라우드 딜, 그리고 AWS 리전 장애 조치 라우터 및 스트랜즈 박스 출시까지 6대 핵심 이슈를 심층 분석합니다.
+            </p>
+            
+            <div style="background: rgba(255,255,255,0.08); padding: 12px 16px; border-radius: 8px; margin-bottom: 12px;">
+                <div style="font-size: 12.5px; color: #38BDF8; font-weight: 700; margin-bottom: 6px;">🎙️ AI Tech Anchor: Christopher (American English Neural HD) • ⏱️ 약 10분</div>
+                <audio controls preload="metadata" style="width: 100%; height: 42px; outline: none;">
+                    <source src="https://raw.githubusercontent.com/ywmoon/dc-infraops-podcast/main/podcasts/podcast_20261120.mp3" type="audio/mp3">
+                    Your browser does not support the audio player.
+                </audio>
+            </div>
+        
+            <div style="font-size: 12px; color: #94A3B8; text-align: right;">
+                Hosting: GitHub CDN • Duration: ~10 mins • Datacenter & Cloud InfraOps
+            </div>
+        </div>
+
+        <!-- Section 1: Full English Transcript -->
+        <h3 style="font-size: 18px; font-weight: 700; color: #0F172A; border-left: 4px solid #0284C7; padding-left: 12px; margin: 36px 0 16px 0;">
+            📜 Full English Transcript (영문 전체 대본)
+        </h3>
+        <div style="background: #F8FAFC; border: 1px solid #E2E8F0; border-radius: 8px; padding: 22px 26px; margin-bottom: 30px;">
+            <div style='font-size: 12px; font-weight: 800; color: #0284C7; letter-spacing: 0.5px; text-transform: uppercase; margin: 2px 0 8px 0;'>🎙️ Part 1 · Executive Overview &amp; Headline Briefing</div><p style='margin-bottom: 14px; font-size: 14.5px; line-height: 1.8; color: #334155;'>Good Morning Cloud Architects, Infrastructure Engineers, and Technology Leaders! Welcome to today&#x27;s DC InfraOps Daily In-Depth Briefing for 2026.11.20. Today, we examine six critical developments shaping global digital infrastructure. First, Samsung Electronics pushes back against neocloud bubble fears as Blue Owl structures new securitized debt, LG Uplus expands in Paju, and Alibaba revises its gigawatt ambitions. Second, the International Energy Agency projects a doubling of data center power demand by 2030, prompting dedicated utility rate classes and accelerated nuclear and gas deployments. Third, LG Electronics nears three trillion won in cooling orders while Korean researchers demonstrate InfiniBand memory sharing. Fourth, a shooting threat forces an evacuation in Georgia as US moratoria spread and Korean regional politics diverge. Fifth, Microsoft CEO Satya Nadella addresses the Outlook outage post-mortem as Washington and Kuala Lumpur ink a seventeen-billion-dollar sovereign cloud pact. Finally, Amazon Web Services rolls out <span style="background-color: #FEF9C3; color: #0F172A; font-weight: 700; padding: 1px 5px; border-radius: 4px; border-bottom: 2px solid #FACC15;">cross-region failover routing</span> and isolated agent sandboxes. Let us begin with capital, power, and hardware. Capital discipline and debt structure are dominating executive boardrooms this week. Following former Nvidia CEO Jensen Huang&#x27;s departure and Nvidia&#x27;s decision to apply selective credit guarantees for financially stretched operators, market anxiety surfaced around neocloud borrowing, particularly for CoreWeave. Samsung Electronics President Kim Yong-kwan countered that narrative, noting neoclouds account for just eight percent of total AI infrastructure demand and operate on long-term contracts. Project execution continues regardless. Core Scientific is advancing its one-hundred-megawatt AI facility in Muskogee, Oklahoma, anchored by an eight-point-seven-billion-dollar CoreWeave agreement. Meanwhile, Blue Owl Capital is preparing five hundred thirteen million dollars in <span style="background-color: #FEF9C3; color: #0F172A; font-weight: 700; padding: 1px 5px; border-radius: 4px; border-bottom: 2px solid #FACC15;">commercial mortgage-backed securities</span> collateralized by an Amazon-leased data center. Hyperscalers are also diversifying footprints. Amazon broke ground on a seven-billion-dollar campus in Jasper County, Indiana, Microsoft started construction at Westgate in New Zealand, and Anthropic is directly leasing its own data centers despite valuation debates at one-point-four trillion dollars. In contrast, Alibaba warned that US chip export controls may force it to lower its twenty-gigawatt target and capital expenditure plan, projecting 2027 cloud growth slowing to thirty to forty-five percent despite a fifty-three percent AI cloud revenue surge. Domestically in Korea, LG Uplus committed seven hundred eighty-nine billion won to Paju Phase Three, pushing total investment above two-point-seven-five trillion won toward two hundred megawatts by 2028, while Samsung Fire and Marine and Samsung Re launched a two-hundred-million-dollar co-underwriting initiative. Power availability remains the binding constraint. The International Energy Agency projects four trillion dollars in AI spending will add ninety-three large AI factories totaling fifty gigawatts, doubling global data center power demand by 2030—equivalent to Great Britain&#x27;s grid—while lifting carbon emissions seventy percent. New York State already forecasts power shortfalls by 2033, and non-profit mapping suggests sixty percent of Anthropic&#x27;s US power demand relies on natural gas. To prevent cost-shifting onto residential consumers, North Carolina utility Duke Energy won regulatory approval for a <span style="background-color: #FEF9C3; color: #0F172A; font-weight: 700; padding: 1px 5px; border-radius: 4px; border-bottom: 2px solid #FACC15;">dedicated rate class</span> tailored to data centers. On baseload supply, ENTRA1 partnered with Sargent and Lundy to commercialize NuScale small modular reactors, Bulgaria&#x27;s NEK signed a BWRX-300 memorandum, and China paired gas and batteries in a one-gigawatt hybrid plant alongside upcoming commercial nuclear units. In Korea, Doosan Enerbility secured a fuel-preheating patent following twelve US gas turbine orders and partnered with South Gyeongsang Province to establish a global SMR manufacturing hub, while North America&#x27;s forty-seven-point-two-gigawatt virtual power plant market targets one gigawatt for data centers. In thermal and silicon engineering, LG Electronics reached nearly three trillion won in cumulative AI data center cooling orders, increasing executive promotions by thirty-three percent to forty-four leaders and elevating HVAC chief Baek Seung-tae to president. Chinese rival Midea showcased integrated air-liquid cooling at DCWME 2026, while Vertiv partnered with Solenis on liquid coolant chemistry management. On compute bottlenecks, Korea&#x27;s Electronics and Telecommunications Research Institute demonstrated <span style="background-color: #FEF9C3; color: #0F172A; font-weight: 700; padding: 1px 5px; border-radius: 4px; border-bottom: 2px solid #FACC15;">idle memory aggregation</span> over InfiniBand on a five-hundred-node University of Southern California cluster, running a one-point-eight-terabyte genomics workload across servers holding four hundred forty-eight gigabytes of local RAM. Elsewhere, Nvidia Hopper rental rates doubled and B300 pricing climbed over sixty percent, Nscale activated its first Vera Rubin NVL72 rack, Qualcomm opened test drives for its rack-scale accelerator, and Google booked Blue Origin&#x27;s New Glenn to launch Project Suncatcher space data center satellites. Turning to site selection and physical security, community and operational friction intensified across both hemispheres. In Fayetteville, Georgia, a QTS data center construction site partially evacuated after a shooting threat letter was discovered. Nationwide, one hundred fifteen civic and environmental groups demanded an immediate moratorium on public lands. Local governments followed suit: Appleton, Wisconsin enacted a twelve-month moratorium, Jacksonville proposed a one-year freeze, and Pierce Township in Ohio moved to ban both data centers and nuclear power. Texas lawmakers scheduled permitting and utility cost scrutiny for SpaceX&#x27;s twenty-four-billion-dollar project, while landowner challenges stalled a ban in Lansing, New York. In South Korea, regional politics split sharply. The Gangwon Provincial Council launched its first administrative probe in twenty years into the seventy-trillion-won Gangneung AI data center, sparking budget-speech clashes, while residents protested two-hundred-megawatt proposals in Muan and projects in Incheon&#x27;s Seo-gu. Conversely, Ulsan&#x27;s council proposed an AI data center support ordinance tied to the Mipo industrial complex, and Donghae unveiled forty community-benefit projects with GS for its two-point-four-gigawatt site alongside fire-response drills. In cloud governance, Microsoft CEO Satya Nadella described the recent global Outlook and cloud outage as a perfect storm, acknowledging that Microsoft failed to pre-test latent traffic-pattern bugs and lacked a <span style="background-color: #FEF9C3; color: #0F172A; font-weight: 700; padding: 1px 5px; border-radius: 4px; border-bottom: 2px solid #FACC15;">fault isolation bulkhead</span> to contain cascading failures across regions. While a Microsoft vice president urged AI-driven legacy modernization, Nadella warned of compounding risks inside AI software itself. Geopolitically, Washington imposed export licensing on advanced AI chips bound for Southeast Asian data centers to block transshipment. Simultaneously, US President Donald Trump announced a seventeen-billion-dollar Southeast Asian agreement enabling Malaysia to build a sovereign AI cloud, supported by fifty million dollars in conditional funding. In Japan, Mitsubishi Heavy Industries and SAKURA internet incorporated modular data centers into their sovereign infrastructure pact. Across Europe, OVHcloud launched fifty-five European-hosted AI products, Sopra Steria partnered with Scaleway, evroc and Telia Cygate introduced Sweden&#x27;s first public-sector sovereign cloud, and Korea&#x27;s Upstage integrated its Solar model into Cohere&#x27;s North enterprise platform. Finally, cloud architects are turning outage lessons into resilient software. Amazon Web Services launched Amazon SageMaker AI <span style="background-color: #FEF9C3; color: #0F172A; font-weight: 700; padding: 1px 5px; border-radius: 4px; border-bottom: 2px solid #FACC15;">cross-region failover routing</span>, automatically redirecting inference traffic during regional capacity shortfalls or disruptions, with Salesforce highlighted in production. AWS also added pre-training checks, hung-job detection, and workload recovery to SageMaker HyperPod, introduced full-weight tuning for serverless SageMaker customization, and added quality, speed, and cost rankings to JumpStart. For agentic security, AWS released Strands Box to confine untrusted AI agents in isolated sandboxes and enabled AWS Marketplace for autonomous software discovery and per-API-call purchasing. Meanwhile, Amazon Bedrock linked spend controls to user identities, ElastiCache introduced distributed KV caching for self-hosted models, and Exa lifted embedding throughput fifty percent on AWS AI chips. Elsewhere, Nvidia detailed Dynamo for reinforcement learning bottlenecks, Google Cloud previewed AI metadata extraction, and MongoDB Atlas secured FedRAMP High authorization for Azure Government. Now let us review five essential business English and engineering terms from today&#x27;s briefing. First, <span style="background-color: #FEF9C3; color: #0F172A; font-weight: 700; padding: 1px 5px; border-radius: 4px; border-bottom: 2px solid #FACC15;">commercial mortgage-backed securities</span>. We noted Blue Owl Capital is preparing five hundred thirteen million dollars in <span style="background-color: #FEF9C3; color: #0F172A; font-weight: 700; padding: 1px 5px; border-radius: 4px; border-bottom: 2px solid #FACC15;">commercial mortgage-backed securities</span> collateralized by an Amazon-leased data center. In infrastructure finance, this structure pools leased facility debt into tradable bonds, freeing developer capital. Second, <span style="background-color: #FEF9C3; color: #0F172A; font-weight: 700; padding: 1px 5px; border-radius: 4px; border-bottom: 2px solid #FACC15;">dedicated rate class</span>. Duke Energy won approval for a <span style="background-color: #FEF9C3; color: #0F172A; font-weight: 700; padding: 1px 5px; border-radius: 4px; border-bottom: 2px solid #FACC15;">dedicated rate class</span> tailored to data centers, isolating hyperscale grid upgrade costs from residential ratepayers. Third, <span style="background-color: #FEF9C3; color: #0F172A; font-weight: 700; padding: 1px 5px; border-radius: 4px; border-bottom: 2px solid #FACC15;">idle memory aggregation</span>. ETRI demonstrated <span style="background-color: #FEF9C3; color: #0F172A; font-weight: 700; padding: 1px 5px; border-radius: 4px; border-bottom: 2px solid #FACC15;">idle memory aggregation</span> over InfiniBand, pooling unused server RAM across nodes so memory-intensive workloads avoid costly hardware upgrades. Fourth, <span style="background-color: #FEF9C3; color: #0F172A; font-weight: 700; padding: 1px 5px; border-radius: 4px; border-bottom: 2px solid #FACC15;">fault isolation bulkhead</span>. Satya Nadella admitted Microsoft lacked a <span style="background-color: #FEF9C3; color: #0F172A; font-weight: 700; padding: 1px 5px; border-radius: 4px; border-bottom: 2px solid #FACC15;">fault isolation bulkhead</span>, an architectural partition that stops localized software defects from cascading globally. Fifth, <span style="background-color: #FEF9C3; color: #0F172A; font-weight: 700; padding: 1px 5px; border-radius: 4px; border-bottom: 2px solid #FACC15;">cross-region failover routing</span>. AWS launched <span style="background-color: #FEF9C3; color: #0F172A; font-weight: 700; padding: 1px 5px; border-radius: 4px; border-bottom: 2px solid #FACC15;">cross-region failover routing</span>, automatically shifting live inference requests to healthy regions when local capacity drops. Looking ahead, infrastructure leaders face a dual mandate: financial discipline and architectural containment. Whether structuring <span style="background-color: #FEF9C3; color: #0F172A; font-weight: 700; padding: 1px 5px; border-radius: 4px; border-bottom: 2px solid #FACC15;">commercial mortgage-backed securities</span>, negotiating dedicated utility tariffs, or deploying fault isolation bulkheads and <span style="background-color: #FEF9C3; color: #0F172A; font-weight: 700; padding: 1px 5px; border-radius: 4px; border-bottom: 2px solid #FACC15;">cross-region failover routing</span>, resilience must be engineered into both capital stacks and distributed software layers. Thank you for listening to DC InfraOps Daily In-Depth Briefing. Keep building resilient systems, and join us tomorrow.</p>
+        </div>
+
+        <!-- Section 2: Key Expressions -->
+        <h3 style="font-size: 18px; font-weight: 700; color: #0F172A; border-left: 4px solid #3B82F6; padding-left: 12px; margin: 30px 0 16px 0;">
+            💡 Today's Essential Business English (오늘의 핵심 비즈니스 영어 표현 5선)
+        </h3>
+        <p style="font-size: 13.5px; color: #64748B; margin-bottom: 16px;">
+            오늘 팟캐스트에서 글로벌 빅테크와 데이터센터 엔지니어링을 다루며 등장한 핵심 실무 표현입니다.
+        </p>
+        
+        <div style="background: #FFFFFF; border: 1px solid #E2E8F0; border-left: 4px solid #3B82F6; border-radius: 8px; padding: 16px 20px; margin-bottom: 14px; box-shadow: 0 1px 3px rgba(0,0,0,0.05);">
+            <div style="font-size: 16px; font-weight: 700; color: #1E293B; margin-bottom: 4px;">
+                <span style="background: #EFF6FF; color: #2563EB; font-size: 12px; padding: 2px 8px; border-radius: 12px; margin-right: 6px; font-weight: bold;">Key 1</span>
+                commercial mortgage-backed securities
+            </div>
+            <div style="font-size: 14px; color: #059669; font-weight: 600; margin-bottom: 8px;">
+                💡 뜻: 상업용 부동산 저당증권 (CMBS)
+            </div>
+            <div style="font-size: 13.5px; color: #334155; background: #F8FAFC; padding: 8px 12px; border-radius: 6px; margin-bottom: 6px; font-style: italic;">
+                "Meanwhile, Blue Owl Capital is preparing five hundred thirteen million dollars in commercial mortgage-backed securities collateralized by an Amazon-leased data center."
+            </div>
+            <div style="font-size: 12.5px; color: #64748B; line-height: 1.6;">
+                하이퍼스케일러와의 장기 임차 계약을 담보로 데이터센터 자산을 유동화해 개발사의 자금 회수와 신규 캠퍼스 재투자를 가속화하는 핵심 금융 구조입니다.
+            </div>
+        </div>
+        
+        <div style="background: #FFFFFF; border: 1px solid #E2E8F0; border-left: 4px solid #3B82F6; border-radius: 8px; padding: 16px 20px; margin-bottom: 14px; box-shadow: 0 1px 3px rgba(0,0,0,0.05);">
+            <div style="font-size: 16px; font-weight: 700; color: #1E293B; margin-bottom: 4px;">
+                <span style="background: #EFF6FF; color: #2563EB; font-size: 12px; padding: 2px 8px; border-radius: 12px; margin-right: 6px; font-weight: bold;">Key 2</span>
+                dedicated rate class
+            </div>
+            <div style="font-size: 14px; color: #059669; font-weight: 600; margin-bottom: 8px;">
+                💡 뜻: 전용 전력 요금 체계 (특수 수용가 요금 등급)
+            </div>
+            <div style="font-size: 13.5px; color: #334155; background: #F8FAFC; padding: 8px 12px; border-radius: 6px; margin-bottom: 6px; font-style: italic;">
+                "To prevent cost-shifting onto residential consumers, North Carolina utility Duke Energy won regulatory approval for a dedicated rate class tailored to data centers."
+            </div>
+            <div style="font-size: 12.5px; color: #64748B; line-height: 1.6;">
+                대규모 AI 데이터센터의 송배전망 증설 비용이 일반 가정이나 기존 산업용 수용가에게 전가되지 않도록 분리 과금하는 전력 규제 대응 수단입니다.
+            </div>
+        </div>
+        
+        <div style="background: #FFFFFF; border: 1px solid #E2E8F0; border-left: 4px solid #3B82F6; border-radius: 8px; padding: 16px 20px; margin-bottom: 14px; box-shadow: 0 1px 3px rgba(0,0,0,0.05);">
+            <div style="font-size: 16px; font-weight: 700; color: #1E293B; margin-bottom: 4px;">
+                <span style="background: #EFF6FF; color: #2563EB; font-size: 12px; padding: 2px 8px; border-radius: 12px; margin-right: 6px; font-weight: bold;">Key 3</span>
+                idle memory aggregation
+            </div>
+            <div style="font-size: 14px; color: #059669; font-weight: 600; margin-bottom: 8px;">
+                💡 뜻: 유휴 메모리 통합 (집적)
+            </div>
+            <div style="font-size: 13.5px; color: #334155; background: #F8FAFC; padding: 8px 12px; border-radius: 6px; margin-bottom: 6px; font-style: italic;">
+                "On compute bottlenecks, Korea's Electronics and Telecommunications Research Institute demonstrated idle memory aggregation over InfiniBand on a five-hundred-node University of Southern California cluster, running a one-point-eight-terabyte genomics workload across servers holding four hundred forty-eight gigabytes of local RAM."
+            </div>
+            <div style="font-size: 12.5px; color: #64748B; line-height: 1.6;">
+                초고속 네트워크를 통해 여러 서버에 남아도는 RAM을 하나의 확장 메모리처럼 묶어 대용량 AI·HPC 워크로드의 메모리 병목을 하드웨어 증설 없이 해소하는 소프트웨어 기법입니다.
+            </div>
+        </div>
+        
+        <div style="background: #FFFFFF; border: 1px solid #E2E8F0; border-left: 4px solid #3B82F6; border-radius: 8px; padding: 16px 20px; margin-bottom: 14px; box-shadow: 0 1px 3px rgba(0,0,0,0.05);">
+            <div style="font-size: 16px; font-weight: 700; color: #1E293B; margin-bottom: 4px;">
+                <span style="background: #EFF6FF; color: #2563EB; font-size: 12px; padding: 2px 8px; border-radius: 12px; margin-right: 6px; font-weight: bold;">Key 4</span>
+                fault isolation bulkhead
+            </div>
+            <div style="font-size: 14px; color: #059669; font-weight: 600; margin-bottom: 8px;">
+                💡 뜻: 장애 격리 차단벽 (벌크헤드 아키텍처)
+            </div>
+            <div style="font-size: 13.5px; color: #334155; background: #F8FAFC; padding: 8px 12px; border-radius: 6px; margin-bottom: 6px; font-style: italic;">
+                "In cloud governance, Microsoft CEO Satya Nadella described the recent global Outlook and cloud outage as a perfect storm, acknowledging that Microsoft failed to pre-test latent traffic-pattern bugs and lacked a fault isolation bulkhead to contain cascading failures across regions."
+            </div>
+            <div style="font-size: 12.5px; color: #64748B; line-height: 1.6;">
+                선박의 방수 격벽처럼 클라우드 서비스 내 특정 모듈이나 리전의 장애가 전체 글로벌 인프라로 연쇄 확산되는 것을 물리적·논리적으로 차단하는 설계 원칙입니다.
+            </div>
+        </div>
+        
+        <div style="background: #FFFFFF; border: 1px solid #E2E8F0; border-left: 4px solid #3B82F6; border-radius: 8px; padding: 16px 20px; margin-bottom: 14px; box-shadow: 0 1px 3px rgba(0,0,0,0.05);">
+            <div style="font-size: 16px; font-weight: 700; color: #1E293B; margin-bottom: 4px;">
+                <span style="background: #EFF6FF; color: #2563EB; font-size: 12px; padding: 2px 8px; border-radius: 12px; margin-right: 6px; font-weight: bold;">Key 5</span>
+                cross-region failover routing
+            </div>
+            <div style="font-size: 14px; color: #059669; font-weight: 600; margin-bottom: 8px;">
+                💡 뜻: 리전 간 장애 조치 라우팅
+            </div>
+            <div style="font-size: 13.5px; color: #334155; background: #F8FAFC; padding: 8px 12px; border-radius: 6px; margin-bottom: 6px; font-style: italic;">
+                "Amazon Web Services launched Amazon SageMaker AI cross-region failover routing, automatically redirecting inference traffic during regional capacity shortfalls or disruptions, with Salesforce highlighted in production."
+            </div>
+            <div style="font-size: 12.5px; color: #64748B; line-height: 1.6;">
+                특정 클라우드 리전의 연산 용량 부족이나 장애 발생 시 AI 추론 트래픽을 타 리전으로 자동 우회시켜 서비스 무중단 가용성을 보장하는 핵심 운영 기능입니다.
+            </div>
+        </div>
+        
+    
+<div class='infraops-series-crosslinks' style='margin-top: 44px; padding: 20px 24px; background-color: #F8FAFC; border: 1px solid #CBD5E1; border-top: 3px solid #0284C7; border-radius: 8px; font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif;'><div style='font-size: 13.5px; font-weight: 800; color: #0F172A; letter-spacing: 0.2px; margin-bottom: 12px;'>📚 오늘 함께 발행된 InfraOps 인텔리전스 시리즈 (2026.11.20)</div><table border='0' cellpadding='0' cellspacing='0' width='100%' style='background-color: #FFFFFF; border: 1px solid #E2E8F0; border-collapse: collapse;'><tr style='background-color: #FFFFFF;'><td width='120' valign='middle' style='padding: 9px 8px 9px 12px; border-bottom: 1px solid #F1F5F9; white-space: nowrap;'><span style='background-color: #FCE7F3; color: #BE185D; font-size: 11px; font-weight: 800; padding: 2px 7px; border-radius: 4px; display: inline-block;'>📊 WEEKLY RECAP</span></td><td valign='middle' style='padding: 9px 12px 9px 4px; border-bottom: 1px solid #F1F5F9; font-size: 13.5px; line-height: 1.45;'><a href='https://ywmoon.github.io/#article/2026-11-20-weekly-recap-circular-financing-export-control-grid' target='_blank' style='color: #0F172A; font-weight: 700; text-decoration: none;'>연준 6,800억 달러 순환금융 경고와 엔비디아 조건부 보증 전환 및 미·중 공급망·전력 규제 전면전 <span style='color: #BE185D; font-size: 11.5px; font-weight: 700;'>➔</span></a></td></tr><tr style='background-color: #F8FAFC;'><td width='120' valign='middle' style='padding: 9px 8px 9px 12px; border-bottom: 1px solid #F1F5F9; white-space: nowrap;'><span style='background-color: #E0F2FE; color: #0369A1; font-size: 11px; font-weight: 800; padding: 2px 7px; border-radius: 4px; display: inline-block;'>📰 BRIEFING</span></td><td valign='middle' style='padding: 9px 12px 9px 4px; border-bottom: 1px solid #F1F5F9; font-size: 13.5px; line-height: 1.45;'><a href='https://ywmoon.github.io/#article/2026-11-20-daily-infraops-briefing' target='_blank' style='color: #0F172A; font-weight: 700; text-decoration: none;'>글로벌 인프라 브리핑: 삼성전자 ‘네오클라우드 버블론’ 반박과 LGU+ 7,890억 파주 증설 &amp; IEA 2030 전력 2배 경고 <span style='color: #0369A1; font-size: 11.5px; font-weight: 700;'>➔</span></a></td></tr><tr style='background-color: #FFFFFF;'><td width='120' valign='middle' style='padding: 9px 8px 9px 12px; border-bottom: 1px solid #F1F5F9; white-space: nowrap;'><span style='background-color: #CCFBF1; color: #0F766E; font-size: 11px; font-weight: 800; padding: 2px 7px; border-radius: 4px; display: inline-block;'>🔬 DEEP DIVE</span></td><td valign='middle' style='padding: 9px 12px 9px 4px; border-bottom: 1px solid #F1F5F9; font-size: 13.5px; line-height: 1.45;'><a href='https://ywmoon.github.io/#article/2026-11-20-deepdive-google-500m-enhanced-geothermal-datacenter' target='_blank' style='color: #0F172A; font-weight: 700; text-decoration: none;'>구글의 5억 달러 지열 발전 PPA와 심부 인공 지열(EGS) 기반 AI 데이터센터 기저부하 전력 아키텍처 분석 <span style='color: #0F766E; font-size: 11.5px; font-weight: 700;'>➔</span></a></td></tr><tr style='background-color: #F8FAFC;'><td width='120' valign='middle' style='padding: 9px 8px 9px 12px; border-bottom: 1px solid #F1F5F9; white-space: nowrap;'><span style='background-color: #FEF3C7; color: #B45309; font-size: 11px; font-weight: 800; padding: 2px 7px; border-radius: 4px; display: inline-block;'>💡 GLOSSARY</span></td><td valign='middle' style='padding: 9px 12px 9px 4px; border-bottom: 1px solid #F1F5F9; font-size: 13.5px; line-height: 1.45;'><a href='https://ywmoon.github.io/#article/2026-11-20-glossary-data-center-cmbs-securitization' target='_blank' style='color: #0F172A; font-weight: 700; text-decoration: none;'>CMBS (상업용 부동산저당증권) - AI 데이터센터 대규모 자본 조달과 리스 유동화의 핵심 구조 <span style='color: #B45309; font-size: 11.5px; font-weight: 700;'>➔</span></a></td></tr><tr style='background-color: #FFFFFF;'><td width='120' valign='middle' style='padding: 9px 8px 9px 12px;  white-space: nowrap;'><span style='background-color: #F1F5F9; color: #334155; font-size: 11px; font-weight: 800; padding: 2px 7px; border-radius: 4px; display: inline-block;'>📧 FULL ARCHIVE</span></td><td valign='middle' style='padding: 9px 12px 9px 4px;  font-size: 13.5px; line-height: 1.45;'><a href='https://ywmoon.github.io/#article/2026-11-20-dc-infraops-trends-report' target='_blank' style='color: #0F172A; font-weight: 700; text-decoration: none;'>DC InfraOps Trends (2026년 11월 20일) — 국내외 전체 기사 아카이브 <span style='color: #334155; font-size: 11.5px; font-weight: 700;'>➔</span></a></td></tr></table></div>
+</div>
