@@ -5,8 +5,48 @@
     <link>https://ywmoon.github.io</link>
     <description>글로벌 AI 데이터센터 전력망, 냉각, 클라우드 인프라 엔지니어링 데일리 트렌드</description>
     <language>ko</language>
-    <lastBuildDate>Fri, 20 Nov 2026 06:36:45 -0000</lastBuildDate>
+    <lastBuildDate>Mon, 23 Nov 2026 05:42:18 -0000</lastBuildDate>
     <atom:link href="https://ywmoon.github.io/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>[2026.11.23] 글로벌 인프라 브리핑: 트럼프 '해외 데이터센터 과세' 선언 &amp; 韓 비수도권 50MW 전력평가 면제</title>
+      <link>https://ywmoon.github.io/article/2026-11-23-daily-infraops-briefing/</link>
+      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-11-23-daily-infraops-briefing/</guid>
+      <pubDate>Mon, 23 Nov 2026 05:46:00 +0900</pubDate>
+      <category>Daily Briefing</category>
+      <description>2026년 11월 23일 글로벌 IT 인프라 시장은 미국의 자국 중심 리쇼어링 압박과 국내 정부의 규제 완화 기조가 교차하는 중대한 변곡점을 맞이하고 있습니다. 미국 백악관의 해외 데이터센터 과세 발언과 상원의 전력망 비용 분담 법안 통과가 하이퍼스케일러의 글로벌 투자 셈법을 복잡하게 만드는 가운데, 한국 정부는 비수도권 50MW 이하 시설의 전력계통영향평</description>
+    </item>
+    <item>
+      <title>[테크 딥다이브] 미국의 해외 데이터센터 과세 압박과 한·미 전력망 규제 재편이 촉발한 글로벌 AI 인프라 입지 아키텍처 전환</title>
+      <link>https://ywmoon.github.io/article/2026-11-23-deepdive-geopolitical-datacenter-reshoring-and-grid/</link>
+      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-11-23-deepdive-geopolitical-datacenter-reshoring-and-grid/</guid>
+      <pubDate>Mon, 23 Nov 2026 05:45:00 +0900</pubDate>
+      <category>Tech Deep Dive</category>
+      <description>NEXT-GEN INFRASTRUCTURE · GEOPOLITICS &amp; POLICY DEEP DIVE 미국 행정부의 자국 빅테크 해외 데이터센터 건설 제한·과세 방침과 미 상원의 20MW 초과 시설 계통 비용 분담 입법, 그리고 한국 정부의 비수도권 50MW 이하 전력계통영향평가 면제 조치를 교차 분석하여 글로벌 클라우드 리전 토폴로지와 워크로드 배치 아키</description>
+    </item>
+    <item>
+      <title>[2026.11.23] [10-Min English Podcast] Overseas Data Center Tax Threats, Korea's GW Fast-Track, and Scale-Across Optical Fabrics</title>
+      <link>https://ywmoon.github.io/article/2026-11-23-10min-tech-podcast/</link>
+      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-11-23-10min-tech-podcast/</guid>
+      <pubDate>Mon, 23 Nov 2026 05:44:00 +0900</pubDate>
+      <category>Podcast</category>
+      <description>오늘의 10분 심층 팟캐스트는 도널드 트럼프 대통령의 미국 기업 해외 데이터센터 건설 금지 및 징벌적 과세 위협과 미 공화당의 중국계 데이터센터 퇴출 법안, 한국 정부의 비수도권 50MW 이하 전력계통영향평가 면제 및 이재명 대통령의 울산 SK AI 데이터센터 현장 점검, 미 상원의 데이터센터 전력망 비용 분담법(BAAJA) 가결 및 한·미 차세대 전력기자</description>
+    </item>
+    <item>
+      <title>[인프라 용어사전] GPUaaS (GPU as a Service) - AI 연산 자원의 클라우드 임대 아키텍처</title>
+      <link>https://ywmoon.github.io/article/2026-11-23-glossary-gpu-as-a-service/</link>
+      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-11-23-glossary-gpu-as-a-service/</guid>
+      <pubDate>Mon, 23 Nov 2026 05:43:00 +0900</pubDate>
+      <category>Terminology</category>
+      <description>카테고리: 클라우드 | 영문명: GPU as a Service (GPUaaS) 핵심 비유: 수십억 원짜리 고성능 슈퍼카를 직접 구매해 차고와 정비소를 짓는 대신, 필요한 기간만큼 전용 서킷과 드라이버가 포함된 상태로 원격 대여해 주행하는 모델과 같습니다. GPUaaS(GPU as a Service, 서비스형 GPU) 는 대규모 인공지능(AI) 모델 학습과</description>
+    </item>
+    <item>
+      <title>DC InfraOps Trends - 2026년 11월 23일</title>
+      <link>https://ywmoon.github.io/article/2026-11-23-dc-infraops-trends-report/</link>
+      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-11-23-dc-infraops-trends-report/</guid>
+      <pubDate>Mon, 23 Nov 2026 05:42:00 +0900</pubDate>
+      <category>Newsletter</category>
+      <description>Datacenter &amp; Cloud Industry InfraOps Daily (2-Column) 1. 트럼프 ‘해외 데이터센터 건설 금지 및 고율 과세’ 폭탄 선언과 미 공화당 중국계 운영 금지·문샷AI 임대 취소 파장 | 도널드 트럼프 미국 대통령이 자국 빅테크의 해외 인공지능(AI) 데이터센터 건설을 원천 차단하고 강행 시 징벌적 세금을 물리... ͏</description>
+    </item>
     <item>
       <title>[주간 인프라 결산] 연준 6,800억 달러 순환금융 경고와 엔비디아 조건부 보증 전환 및 미·중 공급망·전력 규제 전면전</title>
       <link>https://ywmoon.github.io/article/2026-11-20-weekly-recap-circular-financing-export-control-grid/</link>
@@ -1166,46 +1206,6 @@
       <pubDate>Tue, 13 Oct 2026 05:52:00 +0900</pubDate>
       <category>Newsletter</category>
       <description>Datacenter &amp; Cloud Industry InfraOps Daily (2-Column) 1. 빅테크 자체 AI 가속기 생태계 구축과 대규모 M&amp;A 및 컴퓨팅 조달 다변화 아마존이 가상환경 및 월드모델 AI 개발사 데카르트(Decart)를 70억 달러(약 9조 4,000억 원)에 인수하기 위한 최종 협상에 착수함 . 앞서 앤트로픽이 60억... ͏</description>
-    </item>
-    <item>
-      <title>[2026.10.12] 글로벌 AI 인프라 자본시장 검증과 물리적 안보 리스크 심층 브리핑</title>
-      <link>https://ywmoon.github.io/article/2026-10-12-daily-infraops-briefing/</link>
-      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-10-12-daily-infraops-briefing/</guid>
-      <pubDate>Mon, 12 Oct 2026 06:06:00 +0900</pubDate>
-      <category>Daily Briefing</category>
-      <description>글로벌 AI 인프라 자본시장 검증과 물리적 안보 리스크 심층 분석 2026년 10월 12일 | 데일리 인프라 종합 리포트 (Daily InfraOps Digest) 📌 오늘의 3대 핵심 관전 포인트 (Key Highlights) AI 전용 데이터센터 자본 조달의 제동과 가치 재평가: 엔비디아의 지원과 오픈AI·메타 계약을 확보했던 호주 퍼머스(Firmus)</description>
-    </item>
-    <item>
-      <title>[테크 딥다이브] 랙당 130kW 초고밀도 시대를 향한 전환: Direct-to-Chip 액체냉각 아키텍처와 하이퍼스케일 인프라의 열역학적 재설계</title>
-      <link>https://ywmoon.github.io/article/2026-10-12-august-megafarm-deepdive/</link>
-      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-10-12-august-megafarm-deepdive/</guid>
-      <pubDate>Mon, 12 Oct 2026 06:05:00 +0900</pubDate>
-      <category>Tech Deep Dive</category>
-      <description>생성형 AI 모델의 매개변수가 수조 개 단위로 확장되고 조 단위 토큰을 처리하는 거대언어모델(LLM) 학습 및 추론 클러스터가 보편화되면서, 글로벌 데이터센터 인프라는 전례 없는 물리적 한계선에 도달하고 있습니다. 지난 수십 년간 엔터프라이즈 컴퓨팅 환경을 지탱해 온 공랭식(Air Cooling) 기반의 데이터센</description>
-    </item>
-    <item>
-      <title>[2026.10.12] [10-Min English Podcast] Physical Warfare on Cloud Hubs, Firmus IPO Pullback, and Virtual Gas Pipelines</title>
-      <link>https://ywmoon.github.io/article/2026-10-12-10min-tech-podcast/</link>
-      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-10-12-10min-tech-podcast/</guid>
-      <pubDate>Mon, 12 Oct 2026 06:04:00 +0900</pubDate>
-      <category>Podcast</category>
-      <description>오늘의 10분 심층 팟캐스트는 러시아 얀덱스 데이터센터 연쇄 드론 피격에 따른 물리적 인프라 안보 위기, 엔비디아가 지원한 퍼머스의 50억 달러 호주 IPO 철회와 AI 설비 밸류에이션 재조정, 파이프라인 지연을 우회하기 위한 오라클의 천연가스 트럭 수송과 전력비 분담 구조 개편, 그리고 아마존의 지자체 비밀유지협약(NDA) 폐기 및 글로벌 님비 극복을 위</description>
-    </item>
-    <item>
-      <title>[인프라 용어사전] 블래스트 래디어스 (Blast Radius) - 국소 장애의 전체 확산을 차단하는 인프라 격리 반경</title>
-      <link>https://ywmoon.github.io/article/2026-10-12-infra-glossary/</link>
-      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-10-12-infra-glossary/</guid>
-      <pubDate>Mon, 12 Oct 2026 06:03:00 +0900</pubDate>
-      <category>Terminology</category>
-      <description>핵심 인프라 개념 분류: 클라우드 / 고가용성 아키텍처 (Fault Domain) 블래스트 래디어스(Blast Radius)는 군사학의 '폭발 반경'에서 유래한 인프라 공학 개념으로, 특정 서버 랙, 가용 영역(AZ), 데이터센터 건물 또는 소프트웨어 모듈에 치명적인 장애나 물리적 파괴가 발생했을 때 영향이 미칠 수 있는 '최대 장애 파급 범위(Failur</description>
-    </item>
-    <item>
-      <title>DC InfraOps Trends - 2026년 10월 12일</title>
-      <link>https://ywmoon.github.io/article/2026-10-12-dc-infraops-trends-report/</link>
-      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-10-12-dc-infraops-trends-report/</guid>
-      <pubDate>Mon, 12 Oct 2026 06:02:00 +0900</pubDate>
-      <category>Newsletter</category>
-      <description>Datacenter &amp; Cloud Industry InfraOps Daily (2-Column) 1. 얀덱스 데이터센터 연쇄 드론 피격과 인프라의 전시 군사 표적화 우크라이나가 러시아 최대 IT·AI 기업 얀덱스의 사소보 데이터센터를 드론으로 타격해 화재와 클라우드 중단을 초래한 데 이어 , 블라디미르 시설을 멈춰 세우고 칼루가 캠퍼스까지 나흘 ... ͏</description>
     </item>
   </channel>
 </rss>

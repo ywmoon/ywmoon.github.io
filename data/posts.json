@@ -1,5 +1,117 @@
 [
   {
+    "id": "2026-11-23-daily-infraops-briefing",
+    "title": "[2026.11.23] 글로벌 인프라 브리핑: 트럼프 '해외 데이터센터 과세' 선언 & 韓 비수도권 50MW 전력평가 면제",
+    "date": "2026-11-23",
+    "time": "05:46",
+    "updated": "2026-11-23 05:42",
+    "category": "Daily Briefing",
+    "labels": [
+      "AWS",
+      "클라우드",
+      "데이터센터",
+      "AI인프라",
+      "인프라동향"
+    ],
+    "summary": "2026년 11월 23일 글로벌 IT 인프라 시장은 미국의 자국 중심 리쇼어링 압박과 국내 정부의 규제 완화 기조가 교차하는 중대한 변곡점을 맞이하고 있습니다. 미국 백악관의 해외 데이터센터 과세 발언과 상원의 전력망 비용 분담 법안 통과가 하이퍼스케일러의 글로벌 투자 셈법을 복잡하게 만드는 가운데, 한국 정부는 비수도권 50MW 이하 시설의 전력계통영향평",
+    "char_count": 6448,
+    "read_time": 9,
+    "status": "published",
+    "content_file": "data/posts/2026-11-23-daily-infraops-briefing.md"
+  },
+  {
+    "id": "2026-11-23-deepdive-geopolitical-datacenter-reshoring-and-grid",
+    "title": "[테크 딥다이브] 미국의 해외 데이터센터 과세 압박과 한·미 전력망 규제 재편이 촉발한 글로벌 AI 인프라 입지 아키텍처 전환",
+    "date": "2026-11-23",
+    "time": "05:45",
+    "updated": "2026-11-23 05:42",
+    "category": "Tech Deep Dive",
+    "labels": [
+      "테크딥다이브",
+      "AI데이터센터규제",
+      "전력계통영향평가",
+      "AWS",
+      "데이터센터"
+    ],
+    "summary": "NEXT-GEN INFRASTRUCTURE · GEOPOLITICS & POLICY DEEP DIVE 미국 행정부의 자국 빅테크 해외 데이터센터 건설 제한·과세 방침과 미 상원의 20MW 초과 시설 계통 비용 분담 입법, 그리고 한국 정부의 비수도권 50MW 이하 전력계통영향평가 면제 조치를 교차 분석하여 글로벌 클라우드 리전 토폴로지와 워크로드 배치 아키",
+    "char_count": 10224,
+    "read_time": 13,
+    "status": "published",
+    "content_file": "data/posts/2026-11-23-deepdive-geopolitical-datacenter-reshoring-and-grid.md"
+  },
+  {
+    "id": "2026-11-23-10min-tech-podcast",
+    "title": "[2026.11.23] [10-Min English Podcast] Overseas Data Center Tax Threats, Korea's GW Fast-Track, and Scale-Across Optical Fabrics",
+    "date": "2026-11-23",
+    "time": "05:44",
+    "updated": "2026-11-23 05:42",
+    "category": "Podcast",
+    "labels": [
+      "EnglishPodcast",
+      "TechEnglish",
+      "비즈니스영어",
+      "AI인프라",
+      "데이터센터",
+      "전력망",
+      "광네트워크"
+    ],
+    "summary": "오늘의 10분 심층 팟캐스트는 도널드 트럼프 대통령의 미국 기업 해외 데이터센터 건설 금지 및 징벌적 과세 위협과 미 공화당의 중국계 데이터센터 퇴출 법안, 한국 정부의 비수도권 50MW 이하 전력계통영향평가 면제 및 이재명 대통령의 울산 SK AI 데이터센터 현장 점검, 미 상원의 데이터센터 전력망 비용 분담법(BAAJA) 가결 및 한·미 차세대 전력기자",
+    "char_count": 13829,
+    "read_time": 13,
+    "status": "published",
+    "content_file": "data/posts/2026-11-23-10min-tech-podcast.md"
+  },
+  {
+    "id": "2026-11-23-glossary-gpu-as-a-service",
+    "title": "[인프라 용어사전] GPUaaS (GPU as a Service) - AI 연산 자원의 클라우드 임대 아키텍처",
+    "date": "2026-11-23",
+    "time": "05:43",
+    "updated": "2026-11-23 05:42",
+    "category": "Terminology",
+    "labels": [
+      "인프라용어사전",
+      "IT백과사전",
+      "GPUaaS",
+      "AWS",
+      "데이터센터"
+    ],
+    "summary": "카테고리: 클라우드 | 영문명: GPU as a Service (GPUaaS) 핵심 비유: 수십억 원짜리 고성능 슈퍼카를 직접 구매해 차고와 정비소를 짓는 대신, 필요한 기간만큼 전용 서킷과 드라이버가 포함된 상태로 원격 대여해 주행하는 모델과 같습니다. GPUaaS(GPU as a Service, 서비스형 GPU) 는 대규모 인공지능(AI) 모델 학습과",
+    "char_count": 3163,
+    "read_time": 4,
+    "status": "published",
+    "content_file": "data/posts/2026-11-23-glossary-gpu-as-a-service.md"
+  },
+  {
+    "id": "2026-11-23-dc-infraops-trends-report",
+    "title": "DC InfraOps Trends - 2026년 11월 23일",
+    "date": "2026-11-23",
+    "time": "05:42",
+    "updated": "2026-11-23 05:42",
+    "category": "Newsletter",
+    "labels": [
+      "AWS",
+      "데이터센터",
+      "클라우드",
+      "AI인프라",
+      "DC-Trends",
+      "Daily-Newsletter",
+      "SMR",
+      "원전",
+      "엔비디아",
+      "액체냉각",
+      "전력망",
+      "마이크로소프트",
+      "구글",
+      "오라클",
+      "신재생에너지"
+    ],
+    "summary": "Datacenter & Cloud Industry InfraOps Daily (2-Column) 1. 트럼프 ‘해외 데이터센터 건설 금지 및 고율 과세’ 폭탄 선언과 미 공화당 중국계 운영 금지·문샷AI 임대 취소 파장 | 도널드 트럼프 미국 대통령이 자국 빅테크의 해외 인공지능(AI) 데이터센터 건설을 원천 차단하고 강행 시 징벌적 세금을 물리... ͏",
+    "char_count": 61205,
+    "read_time": 56,
+    "status": "published",
+    "content_file": "data/posts/2026-11-23-dc-infraops-trends-report.md"
+  },
+  {
     "id": "2026-11-20-weekly-recap-circular-financing-export-control-grid",
     "title": "[주간 인프라 결산] 연준 6,800억 달러 순환금융 경고와 엔비디아 조건부 보증 전환 및 미·중 공급망·전력 규제 전면전",
     "date": "2026-11-20",
