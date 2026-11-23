@@ -1,5 +1,116 @@
 [
   {
+    "id": "2026-11-24-daily-infraops-briefing",
+    "title": "[2026.11.24] 글로벌 인프라 브리핑: 아마존 10조 원 데카르트 인수·엔비디아 CEO 복귀 & 국내 4사 데이터센터 통합엔지니어링 출범",
+    "date": "2026-11-24",
+    "time": "05:45",
+    "updated": "2026-11-24 05:41",
+    "category": "Daily Briefing",
+    "labels": [
+      "AWS",
+      "클라우드",
+      "데이터센터",
+      "AI인프라",
+      "인프라동향"
+    ],
+    "summary": "2026년 11월 24일 글로벌 IT 및 데이터센터 인프라 시장은 인공지능(AI) 가속기 생태계의 수직계열화 경쟁, 미국의 해외 인프라 과세 위협에 따른 지정학적 불확실성, 그리고 데이터센터 구축 병목과 자금 조달 리스크에 대응하려는 산업계의 구조적 재편이 동시에 전개되고 있습니다. 오늘의 핵심 이슈를 데이터와 팩트 중심으로 정리합니다. AI 칩·소프트웨어",
+    "char_count": 6320,
+    "read_time": 8,
+    "status": "published",
+    "content_file": "data/posts/2026-11-24-daily-infraops-briefing.md"
+  },
+  {
+    "id": "2026-11-24-deepdive-aidc-integrated-systems-testing-control",
+    "title": "[테크 딥다이브] AI 데이터센터 RFS 병목 해소를 위한 통합 시운전(IST) 아키텍처와 설비 제어 플레인 고도화",
+    "date": "2026-11-24",
+    "time": "05:44",
+    "updated": "2026-11-24 05:41",
+    "category": "Tech Deep Dive",
+    "labels": [
+      "테크딥다이브",
+      "통합시운전",
+      "데이터센터복원력",
+      "빌딩자동화시스템",
+      "데이터센터"
+    ],
+    "summary": "TECH DEEP DIVE · CLOUD & INFRASTRUCTURE RESILIENCE 시공·전력·제어·운영의 순차적 단절을 극복하는 4단계 통합 엔지니어링 메커니즘과 산업용 AI 기반 설비 제어(BMS·EPMS) 결합을 통한 가용성 검증 체계 분석 글로벌 클라우드 및 AI 인프라 시장에서 데이터센터의 경쟁력을 결정짓는 핵심 지표가 단순 확보 전력 용량",
+    "char_count": 8567,
+    "read_time": 11,
+    "status": "published",
+    "content_file": "data/posts/2026-11-24-deepdive-aidc-integrated-systems-testing-control.md"
+  },
+  {
+    "id": "2026-11-24-10min-tech-podcast",
+    "title": "[2026.11.24] [10-Min English Podcast] Nvidia's Leadership Reversal, Amazon's $7.5B Decart Deal, and the 1 MW Rack Inflection",
+    "date": "2026-11-24",
+    "time": "05:43",
+    "updated": "2026-11-24 05:41",
+    "category": "Podcast",
+    "labels": [
+      "EnglishPodcast",
+      "TechEnglish",
+      "비즈니스영어",
+      "AI인프라",
+      "데이터센터",
+      "AWS",
+      "액체냉각"
+    ],
+    "summary": "오늘의 10분 심층 팟캐스트는 2026년 11월 24일 글로벌 및 국내 데이터센터·클라우드·전력 인프라 핵심 이슈를 종합 분석합니다. 1부에서는 엔비디아 이사회가 사임 열흘 만에 젠슨 황 CEO를 만장일치로 복귀시킨 배경과 아마존의 75억 달러(약 10조 원) 규모 데카르트 인수, MS의 AMD 헬리오스 랙 스케일 검증, 서버 OEM 45% 가격 인상, 트",
+    "char_count": 15542,
+    "read_time": 15,
+    "status": "published",
+    "content_file": "data/posts/2026-11-24-10min-tech-podcast.md"
+  },
+  {
+    "id": "2026-11-24-glossary-chiplet-architecture",
+    "title": "[인프라 용어사전] 칩렛 아키텍처 (Chiplet Architecture) - 차세대 AI 가속기의 수율과 성능 한계를 돌파하는 모듈형 반도체 설계",
+    "date": "2026-11-24",
+    "time": "05:42",
+    "updated": "2026-11-24 05:41",
+    "category": "Terminology",
+    "labels": [
+      "인프라용어사전",
+      "IT백과사전",
+      "칩렛아키텍처",
+      "AWS",
+      "데이터센터"
+    ],
+    "summary": "칩렛 아키텍처(Chiplet Architecture) 는 연산, 메모리 컨트롤러, I/O 인터페이스 등 반도체의 모든 기능을 하나의 거대한 실리콘 웨이퍼 조각(모놀리식 다이)에 통합하는 대신, 기능별로 작게 분할된 개별 다이(Die)를 각각 제조한 뒤 하나의 패키지 기판 위에서 고밀도 인터커넥트로 연결하는 반도체 설계 및 패키징 방식입니다. 직관적 비유:",
+    "char_count": 3217,
+    "read_time": 5,
+    "status": "published",
+    "content_file": "data/posts/2026-11-24-glossary-chiplet-architecture.md"
+  },
+  {
+    "id": "2026-11-24-dc-infraops-trends-report",
+    "title": "DC InfraOps Trends - 2026년 11월 24일",
+    "date": "2026-11-24",
+    "time": "05:41",
+    "updated": "2026-11-24 05:41",
+    "category": "Newsletter",
+    "labels": [
+      "AWS",
+      "데이터센터",
+      "클라우드",
+      "AI인프라",
+      "DC-Trends",
+      "Daily-Newsletter",
+      "SMR",
+      "엔비디아",
+      "액체냉각",
+      "전력망",
+      "마이크로소프트",
+      "구글",
+      "오라클",
+      "반도체"
+    ],
+    "summary": "Datacenter & Cloud Industry InfraOps Daily (2-Column) 1. 젠슨 황 엔비디아 CEO 전격 복귀와 아마존의 10조 원 데카르트 인수 확정을 둘러싼 AI 칩·하드웨어 패권 재편 | 엔비디아 이사회가 사임 열흘 만에 젠슨 황을 최고경영자(CEO)로 만장일치 복귀시키는 초유의 결정을 내린 가운데, 아마존이 이스... ͏",
+    "char_count": 55346,
+    "read_time": 51,
+    "status": "published",
+    "content_file": "data/posts/2026-11-24-dc-infraops-trends-report.md"
+  },
+  {
     "id": "2026-11-23-daily-infraops-briefing",
     "title": "[2026.11.23] 글로벌 인프라 브리핑: 트럼프 '해외 데이터센터 과세' 선언 & 韓 비수도권 50MW 전력평가 면제",
     "date": "2026-11-23",
