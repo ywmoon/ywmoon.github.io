@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>[테크 딥다이브] 에이전틱 AI 시대의 연산 병목 이동과 CPU·니트로(Nitro) 하드웨어 격리 기반 하이퍼스케일 아키텍처 재편</title>
+  <meta name="description" content="거대언어모델(LLM)의 학습과 단순 질의응답형 추론이 주도하던 초기 생성형 AI 인프라 투자가 새로운 국면에 진입하고 있다. 인간 사용자의 프롬프트 입력에 수동적으로 반응하던 모델이 스스로 계획을 수립하고, 외부 도구를 호출하며, 코드를 작성·실행하고 타 시스템과 상호작용하는 자율형 에이전트(Autonomous Agent)로 진화하면서 데이터센터 내부의 컴" />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://ywmoon.github.io/article/2026-11-25-deepdive-aws-agentic-ai-cpu-nitro-architecture/" />
+  <!-- OpenGraph -->
+  <meta property="og:type" content="article" />
+  <meta property="og:title" content="[테크 딥다이브] 에이전틱 AI 시대의 연산 병목 이동과 CPU·니트로(Nitro) 하드웨어 격리 기반 하이퍼스케일 아키텍처 재편" />
+  <meta property="og:description" content="거대언어모델(LLM)의 학습과 단순 질의응답형 추론이 주도하던 초기 생성형 AI 인프라 투자가 새로운 국면에 진입하고 있다. 인간 사용자의 프롬프트 입력에 수동적으로 반응하던 모델이 스스로 계획을 수립하고, 외부 도구를 호출하며, 코드를 작성·실행하고 타 시스템과 상호작용하는 자율형 에이전트(Autonomous Agent)로 진화하면서 데이터센터 내부의 컴" />
+  <meta property="og:url" content="https://ywmoon.github.io/article/2026-11-25-deepdive-aws-agentic-ai-cpu-nitro-architecture/" />
+  <meta property="og:image" content="https://ywmoon.github.io/assets/avatar.jpg" />
+  <meta property="og:site_name" content="Datacenter InfraOps &amp; Cloud Industry Notes" />
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="[테크 딥다이브] 에이전틱 AI 시대의 연산 병목 이동과 CPU·니트로(Nitro) 하드웨어 격리 기반 하이퍼스케일 아키텍처 재편" />
+  <meta name="twitter:description" content="거대언어모델(LLM)의 학습과 단순 질의응답형 추론이 주도하던 초기 생성형 AI 인프라 투자가 새로운 국면에 진입하고 있다. 인간 사용자의 프롬프트 입력에 수동적으로 반응하던 모델이 스스로 계획을 수립하고, 외부 도구를 호출하며, 코드를 작성·실행하고 타 시스템과 상호작용하는 자율형 에이전트(Autonomous Agent)로 진화하면서 데이터센터 내부의 컴" />
+  <meta name="twitter:image" content="https://ywmoon.github.io/assets/avatar.jpg" />
+  <!-- Structured Data: Google Schema.org (Article) -->
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "TechArticle",
+  "headline": "[테크 딥다이브] 에이전틱 AI 시대의 연산 병목 이동과 CPU·니트로(Nitro) 하드웨어 격리 기반 하이퍼스케일 아키텍처 재편",
+  "description": "거대언어모델(LLM)의 학습과 단순 질의응답형 추론이 주도하던 초기 생성형 AI 인프라 투자가 새로운 국면에 진입하고 있다. 인간 사용자의 프롬프트 입력에 수동적으로 반응하던 모델이 스스로 계획을 수립하고, 외부 도구를 호출하며, 코드를 작성·실행하고 타 시스템과 상호작용하는 자율형 에이전트(Autonomous Agent)로 진화하면서 데이터센터 내부의 컴",
+  "datePublished": "2026-11-25T05:44:00+09:00",
+  "dateModified": "2026-11-25 05:41:00+09:00",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://ywmoon.github.io/article/2026-11-25-deepdive-aws-agentic-ai-cpu-nitro-architecture/"
+  },
+  "author": {
+    "@type": "Person",
+    "name": "James Moon (문연욱)",
+    "jobTitle": "AWS Data Center Engineering Operations Cluster Manager",
+    "url": "https://www.linkedin.com/in/ywmoon"
+  },
+  "publisher": {
+    "@type": "Person",
+    "name": "James Moon",
+    "url": "https://ywmoon.github.io",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://ywmoon.github.io/assets/avatar.jpg"
+    }
+  },
+  "image": "https://ywmoon.github.io/assets/avatar.jpg",
+  "keywords": "테크딥다이브, 에이전틱AI, 이기종컴퓨팅, 하드웨어격리보안, AWS, 데이터센터"
+}
+  </script>
+  <!-- Instant redirect for real users -->
+  <meta http-equiv="refresh" content="0; url=https://ywmoon.github.io/#article/2026-11-25-deepdive-aws-agentic-ai-cpu-nitro-architecture" />
+  <script>window.location.replace('https://ywmoon.github.io/#article/2026-11-25-deepdive-aws-agentic-ai-cpu-nitro-architecture');</script>
+</head>
+<body></body>
+</html>
