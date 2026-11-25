@@ -5,8 +5,48 @@
     <link>https://ywmoon.github.io</link>
     <description>글로벌 AI 데이터센터 전력망, 냉각, 클라우드 인프라 엔지니어링 데일리 트렌드</description>
     <language>ko</language>
-    <lastBuildDate>Wed, 25 Nov 2026 05:41:40 -0000</lastBuildDate>
+    <lastBuildDate>Thu, 26 Nov 2026 05:41:30 -0000</lastBuildDate>
     <atom:link href="https://ywmoon.github.io/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>[2026.11.26] 글로벌 인프라 브리핑: 스페이스X 궤도 데이터센터 100만 기 승인 &amp; 52GW 전력난 속 빅테크 자체 발전·소프트웨어 해자 전략</title>
+      <link>https://ywmoon.github.io/article/2026-11-26-daily-infraops-briefing/</link>
+      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-11-26-daily-infraops-briefing/</guid>
+      <pubDate>Thu, 26 Nov 2026 05:45:00 +0900</pubDate>
+      <category>Daily Briefing</category>
+      <description>2026년 11월 26일 글로벌 IT 및 데이터센터 인프라 시장은 지상의 전력·부지·수자원 한계를 벗어나 우주 궤도와 군사 기지로 연산 영토를 확장하는 구조적 전환점을 맞이하고 있습니다. 미국 연방통신위원회(FCC)의 스페이스X 궤도 데이터센터 위성 100만 기 배치가 전격 승인된 가운데, 골드만삭스가 전망한 2028년 미국 52GW 전력 증설 수요에 대응</description>
+    </item>
+    <item>
+      <title>[테크 딥다이브] 미 FCC의 스페이스X 궤도 데이터센터 위성 100만 기 승인과 우주 기반 AI 컴퓨팅 아키텍처</title>
+      <link>https://ywmoon.github.io/article/2026-11-26-deepdive-spacex-orbital-ai-datacenter-architecture/</link>
+      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-11-26-deepdive-spacex-orbital-ai-datacenter-architecture/</guid>
+      <pubDate>Thu, 26 Nov 2026 05:44:00 +0900</pubDate>
+      <category>Tech Deep Dive</category>
+      <description>NEXT-GEN INFRASTRUCTURE &amp; GEOPOLITICS DEEP DIVE 지상 전력망의 계통 병목과 지역사회의 인허가 규제를 우회하기 위한 극단적 대안으로 저궤도(LEO) 우주 데이터센터가 부상하고 있다. 미국 연방통신위원회(FCC)의 스페이스X '스타마인드(Starmind)' 위성 100만 기 배치 최종 승인을 기점으로, 진공 환경에서의 복사</description>
+    </item>
+    <item>
+      <title>[2026.11.26] [10-Min English Podcast] Orbital Compute Approval, 52GW Power Demand, and Staged Hyperscale Capital</title>
+      <link>https://ywmoon.github.io/article/2026-11-26-10min-tech-podcast/</link>
+      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-11-26-10min-tech-podcast/</guid>
+      <pubDate>Thu, 26 Nov 2026 05:43:00 +0900</pubDate>
+      <category>Podcast</category>
+      <description>오늘의 10분 심층 팟캐스트는 미 FCC의 스페이스X 궤도 데이터센터 위성 100만 기 승인 및 미 육군 9개 기지 발전 조건부 개방, 골드만삭스의 2028년 미국 52GW 전력 증설 전망과 텍사스·오하이오·아마존의 자체 발전 및 원전 총력전, 애리조나 변전소 폭탄 테러 기소와 조지아 170억 달러 캠퍼스 주민투표 및 국내 9.9MW 쪼개기 갈등을 다룹니다</description>
+    </item>
+    <item>
+      <title>[인프라 용어사전] 위성 간 광통신 (OISL) - 우주 데이터센터를 잇는 진공 속 레이저 인터커넥트</title>
+      <link>https://ywmoon.github.io/article/2026-11-26-glossary-optical-inter-satellite-link/</link>
+      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-11-26-glossary-optical-inter-satellite-link/</guid>
+      <pubDate>Thu, 26 Nov 2026 05:42:00 +0900</pubDate>
+      <category>Terminology</category>
+      <description>핵심 키워드: 자유공간 광통신(FSO) · 1,550nm 레이저 · 정밀 지향/포착/추적(PAT) · 저궤도 메시 토폴로지 위성 간 광통신(Optical Inter-Satellite Link, OISL) 은 우주 궤도상에 배치된 위성들이 지상 기지국을 거치지 않고, 진공 상태에서 레이저 빔을 직접 주고받으며 대용량 데이터를 전송하는 무선 광 인터커넥트 기술</description>
+    </item>
+    <item>
+      <title>DC InfraOps Trends - 2026년 11월 26일</title>
+      <link>https://ywmoon.github.io/article/2026-11-26-dc-infraops-trends-report/</link>
+      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-11-26-dc-infraops-trends-report/</guid>
+      <pubDate>Thu, 26 Nov 2026 05:41:00 +0900</pubDate>
+      <category>Newsletter</category>
+      <description>Datacenter &amp; Cloud Industry InfraOps Daily (2-Column) 1. 미 FCC 스페이스X 우주 데이터센터 위성 100만 기 승인 및 미 육군 9개 기지 14일 전력 조건부 개방과 스타베이스 허가 | 미국 연방통신위원회(FCC)가 지상 데이터센터의 전력·토지·수자원 병목을 타개하기 위해 스페이스X의 궤도 데이터센터... ͏</description>
+    </item>
     <item>
       <title>[2026.11.25] 글로벌 인프라 브리핑: AWS 2,000억 달러 에이전트 클라우드 전환 &amp; 한화에어로 180MW 국방 AI 센터</title>
       <link>https://ywmoon.github.io/article/2026-11-25-daily-infraops-briefing/</link>
@@ -1166,46 +1206,6 @@
       <pubDate>Fri, 16 Oct 2026 06:16:00 +0900</pubDate>
       <category>Terminology</category>
       <description>핵심 비유: 완제품 제조사의 전용 부품과 독점 OS로 봉인된 브랜드 PC 대신, 표준 규격의 고성능 메인보드와 CPU를 선택한 뒤 원하는 리눅스 OS와 제어 소프트웨어를 직접 설치해 운영하는 '조립형 고성능 서버'와 같습니다.공식 정의: 화이트박스 스위치(White-Box Switch)는 하드웨어(섀시, 전원공급장치,</description>
-    </item>
-    <item>
-      <title>DC InfraOps Trends - 2026년 10월 16일</title>
-      <link>https://ywmoon.github.io/article/2026-10-16-dc-infraops-trends-report/</link>
-      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-10-16-dc-infraops-trends-report/</guid>
-      <pubDate>Fri, 16 Oct 2026 06:16:00 +0900</pubDate>
-      <category>Newsletter</category>
-      <description>Datacenter &amp; Cloud Industry InfraOps Daily (2-Column) 1. 글로벌 빅테크의 기가와트급 하이퍼스케일 부지 확장과 독자 온사이트 전력 인프라 내재화 초거대 생성형 AI 모델 훈련과 클라우드 수요 폭증에 직면한 하이퍼스케일러들이 기가와트(GW)급 부지 확보와 현장 자가발전(On-site Power) 체계 구축... ͏</description>
-    </item>
-    <item>
-      <title>[2026.10.15] 글로벌 인프라 브리핑: 1,300억 달러 리스 부채와 조세·입지 규제의 본격화 &amp; 390MW 부하 지원을 위한 1.84GWh급 태양광·ESS 결합 모델</title>
-      <link>https://ywmoon.github.io/article/2026-10-15-daily-infraops-briefing/</link>
-      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-10-15-daily-infraops-briefing/</guid>
-      <pubDate>Thu, 15 Oct 2026 07:48:00 +0900</pubDate>
-      <category>Daily Briefing</category>
-      <description>DAILY INFRAOPS DIGEST 글로벌 AI 인프라 자본 지출의 다변화와 그리드·물리 계층의 구조적 혁신 발행일: 2026년 10월 15일 | 대상: 인프라 아키텍트, 시스템 엔지니어, 기술 의사결정권자 📌 오늘의 3대 핵심 관전 포인트 (Key Highlights) 1,300억 달러 리스 부채와 조세·입지 규제의 본격화: 마이크로소프트의 대규모 장</description>
-    </item>
-    <item>
-      <title>[테크 딥다이브] 랙당 100kW 고밀도 AI 시대를 향한 분기점: 공랭 한계 돌파를 위한 액침냉각(Immersion Cooling) 표준화와 설비·EPC 통합 아키텍처 분석</title>
-      <link>https://ywmoon.github.io/article/2026-10-15-august-megafarm-deepdive/</link>
-      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-10-15-august-megafarm-deepdive/</guid>
-      <pubDate>Thu, 15 Oct 2026 07:47:00 +0900</pubDate>
-      <category>Tech Deep Dive</category>
-      <description>TECH DEEP DIVE AI 인프라 · 차세대 냉각 아키텍처 초거대 생성형 AI 모델의 연산 밀도가 급상승하면서 데이터센터 랙당 열부하가 100kW를 돌파하고 있습니다. 본 칼럼에서는 전통적 공랭 방식의 열역학적 임계점과 D2C(Direct-to-Chip)의 구조적 한계를 짚고, 최근 산업계에서 본격화된 액침냉각(Immersion Cooling) 기술</description>
-    </item>
-    <item>
-      <title>[2026.10.15] [10-Min English Podcast] Kinetic Threats to Mega Infrastructure, Immersion Cooling Alliances, Grid Cost-Sharing Friction, and Hyper-Scale CapEx Discipline</title>
-      <link>https://ywmoon.github.io/article/2026-10-15-10min-tech-podcast/</link>
-      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-10-15-10min-tech-podcast/</guid>
-      <pubDate>Thu, 15 Oct 2026 07:46:00 +0900</pubDate>
-      <category>Podcast</category>
-      <description>🎧 10-MIN TECH ENGLISH PODCAST [2026.10.15] [10-Min English Podcast] Kinetic Threats to Mega Infrastructure, Immersion Cooling Alliances, Grid Cost-Sharing Friction, and Hyper-Scale CapEx Discipline 오늘</description>
-    </item>
-    <item>
-      <title>[인프라 용어사전] 유전체 냉각유 (Dielectric Coolant) - 메가와트급 AI 하드웨어를 위한 비전도성 열전달 매체의 공학적 규격과 설계 기준</title>
-      <link>https://ywmoon.github.io/article/2026-10-15-infra-glossary/</link>
-      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-10-15-infra-glossary/</guid>
-      <pubDate>Thu, 15 Oct 2026 07:45:00 +0900</pubDate>
-      <category>Terminology</category>
-      <description>\&quot;전기가 통하지 않는 특수 절연 유체로 고발열 연산 장치를 직접 감싸, 공기보다 1,000배 높은 체적 열용량으로 열을 흡수하는 차세대 열전달 유체\&quot; 공식 정의: 유전체 냉각유(Dielectric Coolant 또는 Dielectric Fluid)는 절연 파괴 전압(Dielectric Breakdown Voltage</description>
     </item>
   </channel>
 </rss>
