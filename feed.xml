@@ -5,8 +5,56 @@
     <link>https://ywmoon.github.io</link>
     <description>글로벌 AI 데이터센터 전력망, 냉각, 클라우드 인프라 엔지니어링 데일리 트렌드</description>
     <language>ko</language>
-    <lastBuildDate>Thu, 26 Nov 2026 05:41:30 -0000</lastBuildDate>
+    <lastBuildDate>Fri, 27 Nov 2026 05:41:50 -0000</lastBuildDate>
     <atom:link href="https://ywmoon.github.io/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>[주간 인프라 결산] 미 해외 DC 과세·동남아 GPU 차단발 65.8조 여신 쇼크와 AWS 2,000억 달러 에이전틱 인프라·스페이스X 우주 궤도 전환</title>
+      <link>https://ywmoon.github.io/article/2026-11-27-weekly-recap-hyperscale-capex-grid-bottleneck-recap/</link>
+      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-11-27-weekly-recap-hyperscale-capex-grid-bottleneck-recap/</guid>
+      <pubDate>Fri, 27 Nov 2026 05:46:00 +0900</pubDate>
+      <category>Weekly Recap</category>
+      <description>Weekly Hyperscale &amp; AI Infrastructure Strategy Report | 2026.11.23 - 11.27 지정학적 공급망 차단과 그리드 한계가 촉발한 자본 구조조정, 우주·국방 오프그리드 및 에이전틱 MEP 아키텍처로의 대전환 AMZN: $244.0 (-3.12%) | NASDAQ: 23,585.8 (-0.62%) | KOSPI</description>
+    </item>
+    <item>
+      <title>[2026.11.27] 글로벌 인프라 브리핑: 엔비디아 동남아 출하 중단과 10조 원대 여신 경색 &amp; KT클라우드 110MW 액체냉각 캠퍼스</title>
+      <link>https://ywmoon.github.io/article/2026-11-27-daily-infraops-briefing/</link>
+      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-11-27-daily-infraops-briefing/</guid>
+      <pubDate>Fri, 27 Nov 2026 05:45:00 +0900</pubDate>
+      <category>Daily Briefing</category>
+      <description>글로벌 AI 인프라 시장이 단순한 설비 확충 경쟁을 넘어 수출 통제, 자본 조달 건전성, 전력망 수용 한계, 그리고 지역사회 수용성이라는 복합적인 구조적 과제에 직면하고 있습니다. 2026년 11월 27일 기준 주요 인프라 동향을 종합하면, 미국의 대중국 AI 칩 원격 접속 차단 규제가 동남아시아 공급망과 아시아 데이터센터 프로젝트 파이낸싱(PF)을 직접적</description>
+    </item>
+    <item>
+      <title>[테크 딥다이브] 원격 AI 컴퓨팅 수출 통제와 멀티테넌시 1% 차단 룰: 소버린 격리 아키텍처와 아시아 하이퍼스케일 금융 리스크 분석</title>
+      <link>https://ywmoon.github.io/article/2026-11-27-deepdive-ai-compute-export-control-tenant-isolation/</link>
+      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-11-27-deepdive-ai-compute-export-control-tenant-isolation/</guid>
+      <pubDate>Fri, 27 Nov 2026 05:44:00 +0900</pubDate>
+      <category>Tech Deep Dive</category>
+      <description>Cloud · Security · Resilience Deep-Dive 물리적 서버 출하 중단을 넘어 원격 클라우드 임대까지 확장된 AI 가속기 통제 메커니즘과, 65조 원 규모의 아시아 데이터센터 여신 경색이 초래한 하이퍼스케일 인프라 공급망 및 테넌트 격리 아키텍처의 구조적 전환을 분석한다. 글로벌 클라우드 및 AI 데이터센터 생태계가 하드웨어의 물리적</description>
+    </item>
+    <item>
+      <title>[2026.11.27] [10-Min English Podcast] Export Curbs Freeze Asian Credit, 45C Liquid Cooling Standards, and Orbital AI Approvals</title>
+      <link>https://ywmoon.github.io/article/2026-11-27-10min-tech-podcast/</link>
+      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-11-27-10min-tech-podcast/</guid>
+      <pubDate>Fri, 27 Nov 2026 05:43:00 +0900</pubDate>
+      <category>Podcast</category>
+      <description>오늘의 10분 심층 팟캐스트는 미 상무부의 사전 수출 허가 조치에 따른 엔비디아의 동남아 4개국 서버 출하 중단 및 77억 달러 규모 아시아 데이터센터 대출 보류, 노르웨이 전력망 예약 중단과 스페인 시간별 재생전력 80% 의무화, 엔비디아 45°C 고온 수랭 표준 및 버티브 800VDC 전력 랙 확장, KT클라우드·케펠 안산 110MW 액체냉각 캠퍼스 및</description>
+    </item>
+    <item>
+      <title>[인프라 용어사전] AI 에이전트 클라우드 (AI Agent Cloud) - 워크로드 80%를 CPU가 처리하는 자율형 에이전트 실행 인프라</title>
+      <link>https://ywmoon.github.io/article/2026-11-27-glossary-ai-agent-cloud/</link>
+      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-11-27-glossary-ai-agent-cloud/</guid>
+      <pubDate>Fri, 27 Nov 2026 05:42:00 +0900</pubDate>
+      <category>Terminology</category>
+      <description>핵심 키워드: 에이전트 런타임, CPU-GPU 분리 스케일링, 마이크로VM 샌드박싱, 장기 상태 관리 AI 에이전트 클라우드(AI Agent Cloud) 는 단발성 질의응답을 처리하는 기존 생성형 AI 추론 환경과 달리, 스스로 목표를 세우고 도구를 호출하며 코드를 실행하는 자율형 AI 에이전트 워크로드에 최적화된 클라우드 실행 아키텍처를 의미합니다. 비유</description>
+    </item>
+    <item>
+      <title>DC InfraOps Trends - 2026년 11월 27일</title>
+      <link>https://ywmoon.github.io/article/2026-11-27-dc-infraops-trends-report/</link>
+      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-11-27-dc-infraops-trends-report/</guid>
+      <pubDate>Fri, 27 Nov 2026 05:41:00 +0900</pubDate>
+      <category>Newsletter</category>
+      <description>Datacenter &amp; Cloud Industry InfraOps Daily (2-Column) 1. 엔비디아 동남아 4개국 서버 출하 전면 중단과 브리지 데이터 8.87조 대출 급제동 및 글로벌 하이퍼스케일 금융 구조조정 | 미국의 대중국 AI 칩 원격 접속 차단 규제가 현실화되면서 엔비디아가 동남아 4개국에 대한 서버 출하를 전격 중단하고 ,... ͏</description>
+    </item>
     <item>
       <title>[2026.11.26] 글로벌 인프라 브리핑: 스페이스X 궤도 데이터센터 100만 기 승인 &amp; 52GW 전력난 속 빅테크 자체 발전·소프트웨어 해자 전략</title>
       <link>https://ywmoon.github.io/article/2026-11-26-daily-infraops-briefing/</link>
@@ -1158,54 +1206,6 @@
       <pubDate>Mon, 19 Oct 2026 06:03:00 +0900</pubDate>
       <category>Podcast</category>
       <description>오늘의 10분 심층 팟캐스트는 영국 내셔널그리드 연계 지체로 인한 마이크로소프트의 에식스주 Nscale 계약 철회 및 북미 47개 프로젝트 차질, 우크라이나의 대규모 드론 공습으로 인한 러시아 VKontakte 메가 데이터센터 직격과 물리적 안보 위협, 중앙 송전망 병목을 우회하는 니소스 1.1GW 장기 PPA 및 구글 텍사스 온사이트 태양광·BESS 구축</description>
-    </item>
-    <item>
-      <title>[인프라 용어사전] 계통 연계 대기열 (Interconnection Queue) - 기가와트급 AI 데이터센터의 착공을 가로막는 전력망 진입 장벽</title>
-      <link>https://ywmoon.github.io/article/2026-10-19-glossary-interconnection-queue/</link>
-      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-10-19-glossary-interconnection-queue/</guid>
-      <pubDate>Mon, 19 Oct 2026 06:02:00 +0900</pubDate>
-      <category>Terminology</category>
-      <description>직관적 비유: 수백 대의 초대형 덤프트럭(수백 MW 규모의 하이퍼스케일 AI 데이터센터)이 고속도로에 진입하려고 1차선 톨게이트 앞에 끝없이 줄을 서 있는 형국입니다. 톨게이트 관리국(송전망 운영사)은 트럭 1대가 지나갈 때마다 아스팔트가 파손되지 않는지, 교량 하중(송전망 열용량 및 전압 안정도)을 견딜 수 있는지</description>
-    </item>
-    <item>
-      <title>DC InfraOps Trends - 2026년 10월 19일</title>
-      <link>https://ywmoon.github.io/article/2026-10-19-dc-infraops-trends-report/</link>
-      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-10-19-dc-infraops-trends-report/</guid>
-      <pubDate>Mon, 19 Oct 2026 06:01:00 +0900</pubDate>
-      <category>Newsletter</category>
-      <description>Datacenter &amp; Cloud Industry InfraOps Daily (2-Column) 1. 전력망 연계 지연에 따른 빅테크 계약 철회와 북미·유럽 AIDC 개발 차질의 현실화 영국 전력망(National Grid)의 송전 용량 포화와 계통 연계가 2030년대까지 지체될 것이라는 우려가 커지자 , 마이크로소프트(MS)가 영국 에식스주 라... ͏</description>
-    </item>
-    <item>
-      <title>[2026.10.16] 글로벌 인프라 브리핑: 하이퍼스케일러의 자본 지출(CapEx) 속도 조절과 운영 마진 방어 &amp; 물리적 부지·전력 인허가 지연과 자동화 인프라 인텔리전스 대두</title>
-      <link>https://ywmoon.github.io/article/2026-10-16-daily-infraops-briefing/</link>
-      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-10-16-daily-infraops-briefing/</guid>
-      <pubDate>Fri, 16 Oct 2026 06:19:00 +0900</pubDate>
-      <category>Daily Briefing</category>
-      <description>📌 오늘의 3대 핵심 관전 포인트 (Key Highlights) 하이퍼스케일러의 자본 지출(CapEx) 속도 조절과 운영 마진 방어: 마이크로소프트가 애저 사업부에 20% 비용 절감을 주문하며 무제한적 인프라 확장기에서 고강도 비용 통제 및 단위당 수익성 검증 국면으로 전환하고 있습니다. 차세대 AI 클러스터의 물리 계층 혁신(액체냉각 &amp; 102.4 Tbp</description>
-    </item>
-    <item>
-      <title>[테크 딥다이브] 랙당 100kW 시대의 열역학적 임계점과 직접 액체냉각(DLC) 아키텍처: AI 데이터센터 TCO 재편의 조건</title>
-      <link>https://ywmoon.github.io/article/2026-10-16-august-megafarm-deepdive/</link>
-      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-10-16-august-megafarm-deepdive/</guid>
-      <pubDate>Fri, 16 Oct 2026 06:18:00 +0900</pubDate>
-      <category>Tech Deep Dive</category>
-      <description>생성형 AI 모델의 연산 복잡도가 폭발적으로 증가함에 따라 고밀도 가속기 클러스터의 발열 제어가 글로벌 클라우드 및 데이터센터 인프라의 최대 병목이자 핵심 기술 쟁점으로 부상했습니다. 본 칼럼에서는 전통적 공랭 방식의 공학적 한계, 직접 칩 액체냉각(Direct-to-Chip, DLC)의 유체역학적 아키텍처 메커니즘, 빅테크의 전력 및 자본 지출(CapEx</description>
-    </item>
-    <item>
-      <title>[2026.10.16] [10-Min English Podcast] Navigating Gigawatt On-Site Power, Transmission Grid Saturation, Neo-Cloud Asset Impairments, and 100Tbps Switching Fabrics</title>
-      <link>https://ywmoon.github.io/article/2026-10-16-10min-tech-podcast/</link>
-      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-10-16-10min-tech-podcast/</guid>
-      <pubDate>Fri, 16 Oct 2026 06:17:00 +0900</pubDate>
-      <category>Podcast</category>
-      <description>🎧 10-MIN TECH ENGLISH PODCAST [2026.10.16] [10-Min English Podcast] Navigating Gigawatt On-Site Power, Transmission Grid Saturation, Neo-Cloud Asset Impairments, and 100Tbps Switching Fabrics 2026년 10</description>
-    </item>
-    <item>
-      <title>[인프라 용어사전] 화이트박스 스위치 (White-Box Switch) - 상용 실리콘과 개방형 NOS로 벤더 종속성을 탈피한 하이퍼스케일 네트워크 분리 아키텍처</title>
-      <link>https://ywmoon.github.io/article/2026-10-16-infra-glossary/</link>
-      <guid isPermaLink="true">https://ywmoon.github.io/article/2026-10-16-infra-glossary/</guid>
-      <pubDate>Fri, 16 Oct 2026 06:16:00 +0900</pubDate>
-      <category>Terminology</category>
-      <description>핵심 비유: 완제품 제조사의 전용 부품과 독점 OS로 봉인된 브랜드 PC 대신, 표준 규격의 고성능 메인보드와 CPU를 선택한 뒤 원하는 리눅스 OS와 제어 소프트웨어를 직접 설치해 운영하는 '조립형 고성능 서버'와 같습니다.공식 정의: 화이트박스 스위치(White-Box Switch)는 하드웨어(섀시, 전원공급장치,</description>
     </item>
   </channel>
 </rss>
